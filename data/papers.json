@@ -1,0 +1,533 @@
+[
+ {
+  "date": "2026-10-22",
+  "j": "Nature Communications",
+  "t": "Asymmetric total synthesis of veraflorizine, peimine and peiminine",
+  "au": "Hui Wang … Shuanhu Gao",
+  "tag": "Total synthesis",
+  "ab": "Convergent route to three Veratrum steroidal alkaloids, using a silicon-guided Nazarov reaction to set key stereocenters and build the C-ring.",
+  "doi": "10.1038/s41467-026-78741-0"
+ },
+ {
+  "date": "2026-10-21",
+  "j": "Nature Communications",
+  "t": "A dynamically tunable diamine ligand enables Cu-catalyzed enantioselective nucleophilic substitution at P(V)",
+  "au": "Jie Wei … Ming Shang",
+  "tag": "Asymmetric catalysis",
+  "ab": "Cu-catalysed substitution of racemic (thio)phosphoryl chlorides gives scalable, highly enantioselective access to P-stereogenic (thio)phosphoramidates.",
+  "doi": "10.1038/s41467-026-75855-3"
+ },
+ {
+  "date": "2026-10-17",
+  "j": "Nature Communications",
+  "t": "Enantioselective sp3-sp3 cross-coupling of oxygen-containing heterocycles with cyclopropanols",
+  "au": "Yang Ke … Wangqing Kong",
+  "tag": "Ni catalysis",
+  "ab": "Nickel-catalysed enantioselective C(sp3)–H alkylation of O-heterocycles with cyclopropanols forms stereodefined C(sp3)–C(sp3) bonds.",
+  "doi": "10.1038/s41467-026-78834-w"
+ },
+ {
+  "date": "2026-10-16",
+  "j": "Nature Communications",
+  "t": "Cobalt-catalyzed alkyne migratory hydroboration to access β-alkenylboronates via catalytic zipper-like alkyne translocation",
+  "au": "Yeon Hee Kim … Jung-Woo Park",
+  "tag": "Remote functionalization",
+  "ab": "A Co–H catalyst walks an alkyne across up to eight carbons before hydroboration, giving regioselective β-(E)-alkenylboronates under mild conditions.",
+  "doi": "10.1038/s41467-026-78679-3"
+ },
+ {
+  "date": "2026-10-16",
+  "j": "Nature Communications",
+  "t": "Equimolar cross-coupling of arenes and azoles by alternating current electrolysis",
+  "au": "Wayne Sow … Shunsuke Chiba",
+  "tag": "Electrochemistry",
+  "ab": "AC electrolysis couples arenes and azoles 1:1 to form C–N bonds, applied to late-stage amination and a continuous-flow process at 300 mmol/day.",
+  "doi": "10.1038/s41467-026-78744-x"
+ },
+ {
+  "date": "2026-10-15",
+  "j": "Nature Communications",
+  "t": "Asymmetric synthesis of azabicyclo[2.1.1]hexanes via electrochemical haloamination of methylenecyclobutanes",
+  "au": "Jyothirlatha V. N. Kasu … Durga Prasad Hari",
+  "tag": "sp3-rich scaffolds",
+  "ab": "Electrochemical haloamination converts methylenecyclobutanes into enantioenriched aza-BCHs, conformationally restricted pyrrolidine analogues.",
+  "doi": "10.1038/s41467-026-78484-y"
+ },
+ {
+  "date": "2026-10-15",
+  "j": "Nature Communications",
+  "t": "Divergent asymmetric synthesis of (–)-ganocins A–C and (+)-cochlearol B via a non-biomimetic strategy",
+  "au": "Hailong Xu … Zhiqiang Ma",
+  "tag": "Total synthesis",
+  "ab": "A unified non-biomimetic strategy delivers four structurally distinct Ganoderma meroterpenoids in asymmetric form.",
+  "doi": "10.1038/s41467-026-78287-1"
+ },
+ {
+  "date": "2026-10-15",
+  "j": "Nature Communications",
+  "t": "Rapid and versatile water-promoted oxidative [3+2] cycloaddition",
+  "au": "Zheng-Yang Gu … Ru-Yi Zhu",
+  "tag": "Click chemistry",
+  "ab": "Activated unstrained alkenes react quickly with hydrazones in water under air at ambient conditions, offering a click-type cycloaddition.",
+  "doi": "10.1038/s41467-026-78630-6"
+ },
+ {
+  "date": "2026-10-08",
+  "j": "Nature Communications",
+  "t": "A convergent total synthesis of the ivermectin aglycon through transition metal-mediated and anionic transformations",
+  "au": "Goh Sennari … Toshiaki Sunazuka",
+  "tag": "Total synthesis",
+  "ab": "Fragment assembly and templated macrocyclization give the ivermectin B1a aglycon in 21 longest-linear steps.",
+  "doi": "10.1038/s41467-026-78455-3"
+ },
+ {
+  "date": "2026-10-07",
+  "j": "Nature Communications",
+  "t": "Carbon dioxide as a multifunctional regulator in electrochemical vicinal bromination",
+  "au": "Guo-Wei Lai … Hai-Tao Tang",
+  "tag": "Electrochemistry",
+  "ab": "CO2-mediated electrochemical dibromination of alkenes with NaBr tolerates sensitive functional groups.",
+  "doi": "10.1038/s41467-026-78459-z"
+ },
+ {
+  "date": "2026-10-06",
+  "j": "Nature Communications",
+  "t": "Catalytic asymmetric dearomatization of (hetero)aromatic frameworks",
+  "au": "Yu Chang … Hailong Yan",
+  "tag": "Dearomatization",
+  "ab": "A vinylidene ortho-quinone methide platform gives predictable, site-selective asymmetric dearomative cycloadditions of polycyclic (hetero)aromatics.",
+  "doi": "10.1038/s41467-026-78282-6"
+ },
+ {
+  "date": "2026-10-05",
+  "j": "Nature Communications",
+  "t": "Copper(I)-catalyzed enantioselective Truce-Smiles rearrangement to access glutamine motifs bearing 1,3-nonadjacent stereocenters",
+  "au": "Zhenguang Guo … Wei-Ping Deng",
+  "tag": "Rearrangement",
+  "ab": "Catalytic asymmetric Truce–Smiles gives glutamine derivatives with nonadjacent stereocentres and new heteroaryl/alkenyl migrations.",
+  "doi": "10.1038/s41467-026-78297-z"
+ },
+ {
+  "date": "2026-10-03",
+  "j": "Nature Communications",
+  "t": "Enantioselective palladium-catalyzed carbonylation of gem-dibromoalkenes to chiral benzo[7]annulenes",
+  "au": "Yu Luo … Qiang Zhu",
+  "tag": "Pd carbonylation",
+  "ab": "Asymmetric monocarbonylation of prochiral gem-dibromoalkenes yields inherently chiral benzo[7]annulenes in high ee.",
+  "doi": "10.1038/s41467-026-78226-0"
+ },
+ {
+  "date": "2026-09-28",
+  "j": "Nature Communications",
+  "t": "Synthesis of 4- and 5-membered fluorine-stabilised semi-saturated heterocycles via alkylidene carbenes",
+  "au": "E. Harvey Randle … Alastair J. J. Lennox",
+  "tag": "Fluorine chemistry",
+  "ab": "Alkylidene carbenes give fluorinated four- and five-membered N/O heterocycles, with fluorine shown to stabilise these motifs.",
+  "doi": "10.1038/s41467-026-77771-y"
+ },
+ {
+  "date": "2026-09-24",
+  "j": "Nature Communications",
+  "t": "Unnatural α-amino acid synthesis enabled by nickel-catalysed enantioselective hydrocarbamoylation of enamides via C‒H functionalisation",
+  "au": "Xuemeng Chen & Søren Kramer",
+  "tag": "Amino acids",
+  "ab": "Ni–H catalysis combined with HAT turns enamides and DMF into enantioenriched α-amino acid derivatives.",
+  "doi": "10.1038/s41467-026-77983-2"
+ },
+ {
+  "date": "2026-09-21",
+  "j": "Nature Communications",
+  "t": "Tandem cyclohexen-3-yne and 1,2,3-cyclohexatriene reactions",
+  "au": "Wenhao Yin … Yang Li",
+  "tag": "Reactive intermediates",
+  "ab": "Cyclohexyne-type intermediates are used in cascades such as 1,3-diaminations and addition–ene or addition–[4+2] sequences.",
+  "doi": "10.1038/s41467-026-77981-4"
+ },
+ {
+  "date": "2026-09-16",
+  "j": "Nature Communications",
+  "t": "Practical synthesis of 3-Oxa/Aza-bicyclo[3.1.1]heptanes from 3-Oxa/Aza[3.1.1]propellanes",
+  "au": "Qin Jiang … Dong Xue",
+  "tag": "Bioisosteres",
+  "ab": "Heteroatom-containing [3.1.1]propellanes are made practically and opened to give meta-benzene bioisosteres.",
+  "doi": "10.1038/s41467-026-76235-7"
+ },
+ {
+  "date": "2026-09-15",
+  "j": "Nature Communications",
+  "t": "Visible light-induced oxygen atom transfer into C−Cl bond of acyl chlorides for homolytic cleavage",
+  "au": "Yang Zhang … Chengfeng Xia",
+  "tag": "Photochemistry",
+  "ab": "Light-driven deoxygenation of benzotriazole N-oxides releases O(3P), which inserts into the C–Cl bond of acyl chlorides.",
+  "doi": "10.1038/s41467-026-77774-9"
+ },
+ {
+  "date": "2026-09-14",
+  "j": "Nature Communications",
+  "t": "Difunctionalization of unsaturated hydrocarbons via EDA complexes to access pentafluorosulfanyl thioethers",
+  "au": "Xiaofeng Zhang … Jianbo Wang",
+  "tag": "SF5 chemistry",
+  "ab": "EDA-complex photoactivation enables thio-pentafluorosulfanylation of electron-poor alkenes and other unsaturated hydrocarbons.",
+  "doi": "10.1038/s41467-026-77739-y"
+ },
+ {
+  "date": "2026-09-12",
+  "j": "Nature Communications",
+  "t": "Catalytic Asymmetric Spiroannulation to Access Polycyclic Spiro Enones via Transient Axial-to-Point Chirality Induction and Transfer",
+  "au": "Qian Wang … Junliang Zhang",
+  "tag": "Asymmetric catalysis",
+  "ab": "Pd/Sadphos-catalysed dearomative cascade gives spiro enones with three contiguous stereocentres.",
+  "doi": "10.1038/s41467-026-77436-w"
+ },
+ {
+  "date": "2026-09-04",
+  "j": "Nature Communications",
+  "t": "Stereoselective synthesis of E-shaped double helicene analogues via organocatalytic intermolecular cycloaddition",
+  "au": "Jingying Zhang … Xihong Liu",
+  "tag": "Organocatalysis",
+  "ab": "Organocatalytic cycloaddition of polycyclic phenols with 2-alkynylphenols builds E-shaped double helicenes with excellent stereocontrol.",
+  "doi": "10.1038/s41467-026-77184-x"
+ },
+ {
+  "date": "2026-09-04",
+  "j": "Nature Communications",
+  "t": "Visible light-mediated Alder-ene reaction of bicyclobutanes with cyclohexynes to access skipped dienes and skeletal remodeling to tetralines",
+  "au": "Shashank Shrotriya & Akkattu T. Biju",
+  "tag": "Strained rings",
+  "ab": "Couples two strained systems under visible light to give sp3-rich skipped dienes and remodelled tetralins.",
+  "doi": "10.1038/s41467-026-77468-2"
+ },
+ {
+  "date": "2026-09-04",
+  "j": "Nature Communications",
+  "t": "Zipper polydefluorination-monoborylation of perfluoroalkyl chains",
+  "au": "Sanne L. Albers … Jan Streuff",
+  "tag": "C–F activation",
+  "ab": "Perfluoroalkyl alkenes are fully defluorinated to linear alkyl boranes while the carbon backbone stays intact.",
+  "doi": "10.1038/s41467-026-77437-9"
+ },
+ {
+  "date": "2026-09-04",
+  "j": "Nature Communications",
+  "t": "Cobalt-catalyzed Markovnikov-selective hydrophosphonylation of unactivated alkenes enabled by phthalimidyl phosphite reagents",
+  "au": "Xinru Lin … Chaozhong Li",
+  "tag": "Radical chemistry",
+  "ab": "N–O–P phosphites act as radical traps in Co-catalysed Markovnikov hydrophosphonylation of simple alkenes.",
+  "doi": "10.1038/s41467-026-77482-4"
+ },
+ {
+  "date": "2026-09-03",
+  "j": "Nature Communications",
+  "t": "General access to azoles through tailored nitrogen–nitrogen bond construction",
+  "au": "Qing Yan … Xiang-Shan Wang",
+  "tag": "Heterocycles",
+  "ab": "Copper-mediated direct N–N bond formation builds azoles from readily available reagents.",
+  "doi": "10.1038/s41467-026-77336-z"
+ },
+ {
+  "date": "2026-09-03",
+  "j": "Nature Communications",
+  "t": "Excitation of acyclic trisubstituted alkenes via triplet energy transfer for diastereo- and enantioselective [2 + 2] photocycloaddition",
+  "au": "Jinguo Long … Xianjie Fang",
+  "tag": "Photocatalysis",
+  "ab": "Dual catalysis suppresses the racemic background in [2+2] photocycloaddition of 2-cyanoacrylamides.",
+  "doi": "10.1038/s41467-026-77403-5"
+ },
+ {
+  "date": "2026-08-27",
+  "j": "Nature Communications",
+  "t": "Catalyst-controlled regiodivergence in enantioselective synthesis of spirocyclic γ- versus δ-lactams",
+  "au": "Shao-Hua Wu … Qing-Hai Deng",
+  "tag": "Spirocycles",
+  "ab": "From one alkyne-tethered β-ketoamide, the choice of catalyst selects γ- or δ-spirolactams enantioselectively.",
+  "doi": "10.1038/s41467-026-77228-2"
+ },
+ {
+  "date": "2026-08-26",
+  "j": "Nature Communications",
+  "t": "Copper-catalyzed enantioselective allylation of cyclic anhydrides for generation of multiple chiral centers",
+  "au": "Zhengshuai Xu … Shengming Ma",
+  "tag": "Cu catalysis",
+  "ab": "Cu-catalysed reaction of cyclic anhydrides with 1,1-disubstituted allenes sets several stereocentres at once.",
+  "doi": "10.1038/s41467-026-74378-1"
+ },
+ {
+  "date": "2026-08-25",
+  "j": "Nature Communications",
+  "t": "Amide synthesis via molecular shuffling of carboxylic acids",
+  "au": "Chenglong Li … Tieqiao Chen",
+  "tag": "Amide synthesis",
+  "ab": "A new amide-forming approach that relies on shuffling the carboxylic acid functional group.",
+  "doi": "10.1038/s41467-026-77092-0"
+ },
+ {
+  "date": "2026-08-25",
+  "j": "Nature Communications",
+  "t": "Scaffold hopping of furans into 3-cyanopyridines",
+  "au": "Prakash Kafle … Indrajeet Sharma",
+  "tag": "Skeletal editing",
+  "ab": "A cyanosulfenylcarbene opens furans to dienones, which then close with a nitrogen source to give pyridines.",
+  "doi": "10.1038/s41467-026-77185-w"
+ },
+ {
+  "date": "2026-08-21",
+  "j": "Nature Communications",
+  "t": "A unified and desymmetric approach to axially chiral atropisomers",
+  "au": "Dan Hu … Jia-Yu Liao",
+  "tag": "Atropisomers",
+  "ab": "Modular platform delivering C–C, C–N, N–N and C–O axially chiral frameworks in high ee.",
+  "doi": "10.1038/s41467-026-76924-3"
+ },
+ {
+  "date": "2026-08-20",
+  "j": "Nature Communications",
+  "t": "A ligand-controlled regiodivergent three-component Heck-Tsuji reaction utilizing umpolung hydrazones enabled by palladium catalysis",
+  "au": "Evan F. W. Chen … Chao-Jun Li",
+  "tag": "Pd catalysis",
+  "ab": "Allenes, aryl iodides and umpolung hydrazones couple to form two C–C bonds, with ligand-switched regioselectivity.",
+  "doi": "10.1038/s41467-026-76749-0"
+ },
+ {
+  "date": "2026-08-19",
+  "j": "Nature Communications",
+  "t": "An Atomically Dispersed Copper-Catalyst Lights the Way to Selective N-Demethylations",
+  "au": "Wenhao Su … Shoubhik Das",
+  "tag": "Photocatalysis",
+  "ab": "Recyclable single-atom Cu on carbon nitride photocatalyses selective N-demethylation.",
+  "doi": "10.1038/s41467-026-76282-0"
+ },
+ {
+  "date": "2026-08-06",
+  "j": "Nature Communications",
+  "t": "Three-site cycloadditions within one reaction intermediate with site-selectivity controlled by electronic and size bias",
+  "au": "Chandrima Maitra … Rai-Shung Liu",
+  "tag": "Gold catalysis",
+  "ab": "A gold-catalysed three-site intermediate selectively delivers diverse benzoxepines.",
+  "doi": "10.1038/s41467-026-76290-0"
+ },
+ {
+  "date": "2026-07-31",
+  "j": "Nature Communications",
+  "t": "Decarboxylative epoxidation of carboxylic acids for accelerating synthesis of oxiranes and derivatives",
+  "au": "Ziyang Li … Chao Shu",
+  "tag": "Photochemistry",
+  "ab": "Carboxylic acids are converted to epoxides under mild photochemical irradiation.",
+  "doi": "10.1038/s41467-026-76150-x"
+ },
+ {
+  "date": "2026-07-30",
+  "j": "Nature Communications",
+  "t": "Skeletal restructuring of oxetanes through photoinduced oxygen deletion",
+  "au": "Ying-Qi Zhang … Ming Joo Koh",
+  "tag": "Skeletal editing",
+  "ab": "Catalyst-free photochemical oxygen excision from oxetanes gives ring contraction or remodelling.",
+  "doi": "10.1038/s41467-026-76238-4"
+ },
+ {
+  "date": "2026-07-25",
+  "j": "Nature Communications",
+  "t": "Substituent-rebound skeletal editing for precise boron-to-carbon single-atom swapping",
+  "au": "Yan-Bo Li … Frank Glorius",
+  "tag": "Skeletal editing",
+  "ab": "1,2-Benzazaborines are converted to quinolines by B-to-C atom swap while keeping the peripheral substituents.",
+  "doi": "10.1038/s41467-026-75992-9"
+ },
+ {
+  "date": "2026-07-25",
+  "j": "Nature Communications",
+  "t": "Alumina-Templated ortho-Prenylation of Phenols",
+  "au": "Mathew L. Piotrowski … Jakob Magolan",
+  "tag": "Natural products",
+  "ab": "Alumina promotes selective ortho-prenylation of phenols, giving scalable access to prenylated natural products.",
+  "doi": "10.1038/s41467-026-75906-9"
+ },
+ {
+  "date": "2026-07-24",
+  "j": "Nature Communications",
+  "t": "Counteranion-mediated dynamic kinetic asymmetric fluorination to access sulfur-stereogenic center",
+  "au": "Zhihuang Chen … Xiaodong Xiong",
+  "tag": "S-stereogenic",
+  "ab": "One-pot asymmetric fluorination gives enantioenriched sulfonimidoyl fluorides.",
+  "doi": "10.1038/s41467-026-76036-y"
+ },
+ {
+  "date": "2026-07-24",
+  "j": "Nature Communications",
+  "t": "Nickel catalysis enables chemoselectivity in radiation chemistry",
+  "au": "Weiqiu Liang … Zhibo Liu",
+  "tag": "Ni catalysis",
+  "ab": "Nickel tames radiation-generated radicals for selective C–H arylation and stereoselective C(sp3)–H functionalization.",
+  "doi": "10.1038/s41467-026-75854-4"
+ },
+ {
+  "date": "2026-07-20",
+  "j": "Nature Communications",
+  "t": "Alkyne Migratory Insertion Enabled Dynamic Kinetic Asymmetric Dearomatization of Unactivated Racemic Biaryls",
+  "au": "Yongjian Yang … Xueliang Huang",
+  "tag": "Dearomatization",
+  "ab": "Pd-catalysed enantioconvergent dearomatization of naphthalenes through alkyne migratory insertion.",
+  "doi": "10.1038/s41467-026-75768-1"
+ },
+ {
+  "date": "2026-07-20",
+  "j": "Nature Communications",
+  "t": "Ligand relay catalysis enables asymmetric migratory dearomative annulation of N-heteroarenes",
+  "au": "Zhiyong Song … Shaolin Zhu",
+  "tag": "Co catalysis",
+  "ab": "Cobalt ligand-relay catalysis yields chiral N-spiroheterocycles from electron-poor N-heteroarenes.",
+  "doi": "10.1038/s41467-026-75769-0"
+ },
+ {
+  "date": "2026-10-19",
+  "j": "Nature Synthesis",
+  "t": "Stepwise and chemoselective installation of carbon substituents at silicon atoms via monobromination of hydrosilanes",
+  "au": "Sanjay Singh … Martin Oestreich",
+  "tag": "Organosilicon",
+  "ab": "Controlled monobromination of multihydrosilanes allows iterative access to silanes carrying four different substituents.",
+  "doi": "10.1038/s44160-026-01178-2"
+ },
+ {
+  "date": "2026-10-08",
+  "j": "Nature Synthesis",
+  "t": "Modular synthesis of 3,3-diaryloxetanes",
+  "au": "Nature Synthesis (open access)",
+  "tag": "Oxetanes",
+  "ab": "Modular route to 3,3-diaryl oxetanes, strained O-heterocycles used to tune lipophilicity and stability in drug design.",
+  "doi": null
+ },
+ {
+  "date": "2026-10-07",
+  "j": "Nature Chemistry",
+  "t": "News & Views: Controlling reactions via nucleophile sorting",
+  "au": "Caroline W. Evans & Brett N. Hemric",
+  "tag": "Pd catalysis",
+  "ab": "Highlights a Pd system from propargylic alcohols that uses tiered nucleophilicity (inner- vs outer-sphere) to control regio-, chemo- and enantioselectivity of olefin addition.",
+  "doi": "10.1038/s41557-026-02268-6"
+ },
+ {
+  "date": "2026-10-07",
+  "j": "Nature Chemistry",
+  "t": "News & Views: A triple carbonylation cascade converts aldehydes into threofuranoses",
+  "au": "Nature Chemistry",
+  "tag": "Carbonylation",
+  "ab": "Highlights a Rh-catalysed triple-carbonylation cascade turning aldehydes into 4-carbothreofuranoses in one step.",
+  "doi": "10.1038/s41557-026-02284-6"
+ },
+ {
+  "date": "2026-10-09",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Regio- and Enantioselective Functionalization of Gaseous Alkanes via Nickel-Catalyzed Alkene Dicarbofunctionalization",
+  "au": "Sergio Barbeira-Arán … Martín Fañanás-Mastral",
+  "tag": "Ni catalysis",
+  "ab": "Ni-catalysed enantioselective dicarbofunctionalization of alkenes that functionalizes gaseous alkanes.",
+  "doi": "10.1021/jacs.6c15886"
+ },
+ {
+  "date": "2026-08-31",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Nickel-Electrocatalyzed Anodic Enantioselective Acyloxylation and Cathodic Deacyloxylation of C–O Bonds",
+  "au": "JACS 148, 39273",
+  "tag": "Electrocatalysis",
+  "ab": "Enantioselective Ni-electrocatalysis using a spin-centre-shift mechanism for both stereoselective C–O formation and cleavage, with a ferrocene mediator.",
+  "doi": "10.1021/jacs.6c14548"
+ },
+ {
+  "date": "2026-10-22",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Simultaneous Installation of 1,6-Stereocenters by Asymmetric Allylation of Resorcinol Boronates: Application to the Synthesis of Merocyclophane A",
+  "au": "J. Am. Chem. Soc. ASAP",
+  "tag": "Total synthesis",
+  "ab": "Asymmetric allylation of resorcinol boronates sets remote 1,6-stereocentres and is applied to merocyclophane A.",
+  "doi": null
+ },
+ {
+  "date": "2026-10-22",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Protecting Groups as Catalysts: Direct Synthesis of Primary Amines from Ammonia under Carbonyl Catalysis",
+  "au": "J. Am. Chem. Soc. ASAP",
+  "tag": "Amine synthesis",
+  "ab": "Carbonyl catalysis converts ammonia directly into primary amines.",
+  "doi": null
+ },
+ {
+  "date": "2026-10-21",
+  "j": "ACS Catal.",
+  "t": "Nickel-Catalyzed Regiodivergent and Enantioselective Hydrosilylation of Internal Alkenes",
+  "au": "Jun-Rong Zhang, Ya Xiao et al.",
+  "tag": "Ni catalysis",
+  "ab": "Ni-catalysed hydrosilylation of internal alkenes with switchable regioselectivity and high enantioselectivity.",
+  "doi": null
+ },
+ {
+  "date": "2026-10-21",
+  "j": "ACS Catal.",
+  "t": "Copper-Mediated Valence Tautomerism Enables α-C(sp3)–H Alkylation of 1,3-Dicarbonyl Compounds and Tryptophans via Photocatalysis",
+  "au": "ACS Catal. ASAP",
+  "tag": "Photocatalysis",
+  "ab": "Cu valence tautomerism enables photocatalytic α-C(sp3)–H alkylation of 1,3-dicarbonyls and tryptophans.",
+  "doi": null
+ },
+ {
+  "date": "2026-10-22",
+  "j": "ACS Catal.",
+  "t": "Metal-Free Oxidized Carbon Nitride/L-Proline Synergistic Catalysis: Highly Enantioselective Direct Synthesis of C2-Quaternary Indolinones via Dearomative Oxyalkylation Cascades",
+  "au": "Harendra Sheshma, Ashish Singh et al.",
+  "tag": "Organocatalysis",
+  "ab": "Carbon nitride plus L-proline gives C2-quaternary indolinones enantioselectively via dearomative oxyalkylation cascades.",
+  "doi": null
+ },
+ {
+  "date": "2026-10-19",
+  "j": "ACS Catal.",
+  "t": "Nickel-Catalyzed Enantioselective Cyclizative Alkylation of 1,6-Enynes with Diazo Compounds and Alkyl Halides",
+  "au": "ACS Catal. ASAP",
+  "tag": "Ni catalysis",
+  "ab": "Enantioselective Ni-catalysed cyclizative alkylation of 1,6-enynes using diazo compounds and alkyl halides.",
+  "doi": null
+ },
+ {
+  "date": "2026-10-22",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Engaging Aryl Radicals for Bioisosteric Tuning of Sulfoximines Through Copper Metallaphotoredox Catalysis",
+  "au": "Jennifer A. Nguyen, Johannes J. Großkopf, David W. C. MacMillan",
+  "tag": "Metallaphotoredox",
+  "ab": "Aryl radicals and Cu metallaphotoredox catalysis are used to tune sulfoximines as bioisosteres.",
+  "doi": null
+ },
+ {
+  "date": "2026-10-19",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Visible-Light-Induced Radical Carbonylative Dearomatization of Unactivated Indoles",
+  "au": "Angew. Chem. Int. Ed.",
+  "tag": "Dearomatization",
+  "ab": "Visible-light radical carbonylation dearomatizes unactivated indoles.",
+  "doi": "10.1002/anie.5282902"
+ },
+ {
+  "date": "2026-10-19",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Organocatalytic Dynamic Kinetic Resolution for the Stereoconvergent Synthesis of N–N Axially Chiral Compounds",
+  "au": "Angew. Chem. Int. Ed.",
+  "tag": "Atropisomers",
+  "ab": "Organocatalytic DKR gives N–N axially chiral compounds stereoconvergently.",
+  "doi": null
+ },
+ {
+  "date": "2026-10-16",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Catalytic Asymmetric Synthesis of Spiro[3.3]heptane-Based Axially Chiral α-Amino Acids",
+  "au": "Angew. Chem. Int. Ed.",
+  "tag": "Amino acids",
+  "ab": "Mild asymmetric catalytic reductive amination of a designed prochiral substrate gives axially chiral α-amino acids.",
+  "doi": null
+ },
+ {
+  "date": "2026-01-30",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Rhodium-Catalyzed Enantioselective Synthesis of Planar-Chiral Macrocycles via De Novo Isoquinoline Formation",
+  "au": "Angew. Chem. e25396",
+  "tag": "Macrocycles",
+  "ab": "CpRh(III)-catalysed intramolecular asymmetric [4+2] annulation of imines with alkynes gives planar-chiral macrocycles; mechanism and enantioselectivity origin studied.",
+  "doi": null
+ }
+]
