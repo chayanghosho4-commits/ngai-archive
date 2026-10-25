@@ -9,7 +9,7 @@ Run every 2 days (see .github/workflows/update.yml).
   python collector.py                      # last 10 days
   python collector.py --since 2026-01-01   # backfill the year
 
-Version 7 (25 Oct 2026):
+Version 8 (25 Oct 2026):
 - Much stricter topic filter. A paper is kept only if its TITLE names a synthetic reaction,
   method or strategy (see SIGNALS), and nothing in it points to materials, energy,
   biology, spectroscopy, reviews, etc. (see EXCLUDE_ANY / EXCLUDE_TITLE).
@@ -28,6 +28,7 @@ Version 7 (25 Oct 2026):
   data/need_toc.json lists the papers still waiting for a picture.
 - Image search (Brave Search API, BRAVE_API_KEY secret): papers that still have no picture are searched by
   title; a result is used only if its page carries the paper's DOI or title. Up to IMAGE_SEARCH_LIMIT (60) per run; misses retried after 30 days, 3 tries.
+  If the original picture's site refuses servers, Brave's own 500-px thumbnail of it is shown (link only).
 - SAVE_TOC=1 (workflow setting) keeps a copy of each TOC graphic in data/toc/ so it displays
   even if the publisher blocks its images on other websites.
 - Angew. Chem. images/abstracts come from the Wiley RSS feed; reviews, covers and other
@@ -484,9 +485,14 @@ HELPER_PREFIXES = ("10.1021/", "10.1002/", "10.1126/")  # ACS, Wiley, Science: p
 # Image search (Brave Search API, the official alternative to Google image search): finds the TOC graphic by
 # the paper title for papers that still have no picture. Needs the BRAVE_API_KEY secret; skipped without it.
 BRAVE_KEY = (os.environ.get("BRAVE_API_KEY") or "").strip()
-IMAGE_SEARCH_LIMIT = int(os.environ.get("IMAGE_SEARCH_LIMIT") or 60)      # per run; 15 runs/month ≈ 900, inside the free credit
+try:                                                                     # per run; 15 runs/month ≈ 900, inside the free credit
+    IMAGE_SEARCH_LIMIT = max(0, min(2000, int(os.environ.get("IMAGE_SEARCH_LIMIT") or 60)))
+except ValueError:
+    IMAGE_SEARCH_LIMIT = 60
 IMAGE_SEARCH_RETRY_DAYS = 30                                             # papers with no good result are retried later
 IMAGE_SEARCH_MAX_TRIES = 3                                               # ... at most this many times in total
+SEARCH_VERSION = 2                                                       # papers missed by an older version are retried
+BRAVE_THUMB = "imgs.search.brave.com"                                    # Brave's image server (search-result thumbnails)
 BAD_SEARCH_IMG = ("logo", "cover", "avatar", "profile", "portrait", "headshot", "icon", "banner", "favicon",
                   "author", "people", "staff", "team", "badge", "sprite", "placeholder")
 ACS_PAGE_LIMIT = 150                                  # ACS article-page lookups per run (older papers)
@@ -648,7 +654,7 @@ IMAGE_MAGIC = (b"GIF87a", b"GIF89a", b"\x89PNG", b"\xff\xd8\xff")
 def save_copy(p):
     """SAVE_TOC=1: keep a copy of the image in data/toc/ and point the entry at it."""
     url = p.get("img") or ""
-    if not url.startswith("http") or "springernature.com" in url or "els-cdn.com" in url:   # shown as links
+    if not url.startswith("http") or "springernature.com" in url or "els-cdn.com" in url or BRAVE_THUMB in url:   # links
         return False
     host = url.split("/")[2]
     if _refused.get("save:" + host, 0) >= 3 or out_of_time():
@@ -1032,9 +1038,16 @@ def image_search(p):
         sim = difflib.SequenceMatcher(None, title[:len(want) + 40], want).ratio() if title else 0
         if not (doi_hit or sim >= 0.72 or (len(want) > 30 and want[:70] in title)):
             continue
-        score = (3 if doi_hit else 0) + sim + (1 if re.search(r"toc|abstract|gra-\d|_00\d\d|fx1|graphic", img, re.I) else 0)
-        cands.append((score, img, page))
-    for _, img, page in sorted(cands, key=lambda c: -c[0])[:4]:
+        score = (3 if doi_hit else 0) + sim
+        if re.search(r"toc|abstract|-gra-\d|fx1|graphic|[-_]fa\.", img, re.I):
+            score += 1.5                                # named as a TOC / graphical abstract
+        m = re.search(r"/asset/images/.*_(\d{4})\.(gif|jpe?g|png)$", img, re.I)
+        if m and "pubs.acs.org" in img:
+            score += 1 + int(m.group(1)) / 100          # ACS numbers the TOC graphic last: prefer the highest number
+        thumb = ((r.get("thumbnail") or {}).get("src") or "").strip()
+        cands.append((score, img, page, thumb))
+    cands.sort(key=lambda c: -c[0])
+    for _, img, page, _thumb in cands[:4]:
         data, code = _get(img, tries=1, headers={"User-Agent": BROWSER_UA, "Accept": "image/avif,image/webp,image/*"},
                           limit=8_000_000, quiet=(401, 403, 404, 429))
         if data and len(data) > 3000 and (data.startswith(IMAGE_MAGIC) or data[8:12] == b"WEBP"):
@@ -1044,6 +1057,10 @@ def image_search(p):
                       ".webp" if data[8:12] == b"WEBP" else ".jpg"
             return data, ext, page
         time.sleep(0.3)
+    # The original sits on a site that refuses servers (ACS, Wiley...): show Brave's own thumbnail of it instead.
+    for _, img, page, thumb in cands:
+        if thumb.startswith("https://") and BRAVE_THUMB in thumb:
+            return None, thumb, page
     return None
 
 
@@ -1055,15 +1072,18 @@ def fill_from_image_search(papers):
     todo = []
     for p in sorted(papers, key=lambda p: p["date"], reverse=True):     # newest papers first
         img = p.get("img") or ""
-        if not p.get("doi") or img.startswith("data/toc/") or "springernature.com" in img:
+        if not p.get("doi") or img.startswith("data/toc/") or "springernature.com" in img or BRAVE_THUMB in img:
             continue
         if img and not p["doi"].lower().startswith(HELPER_PREFIXES) and not is_acs_guess(img):
             continue                                   # e.g. Chem: its graphical abstract link is already set
-        tried = p.get("search_tried")
-        if tried and (today - date.fromisoformat(tried)).days < IMAGE_SEARCH_RETRY_DAYS:
-            continue
-        if p.get("search_n", 0) >= IMAGE_SEARCH_MAX_TRIES:
-            continue
+        if p.get("search_v") == SEARCH_VERSION:
+            tried = p.get("search_tried")
+            if tried and (today - date.fromisoformat(tried)).days < IMAGE_SEARCH_RETRY_DAYS:
+                continue
+            if p.get("search_n", 0) >= IMAGE_SEARCH_MAX_TRIES:
+                continue
+        else:
+            p["search_n"] = 0                          # missed by an older search version: try again now
         todo.append(p)
     found = tried_n = 0
     for p in todo[:IMAGE_SEARCH_LIMIT]:
@@ -1072,18 +1092,24 @@ def fill_from_image_search(papers):
         tried_n += 1
         p["search_tried"] = today.isoformat()
         p["search_n"] = p.get("search_n", 0) + 1
+        p["search_v"] = SEARCH_VERSION
         hit = image_search(p)
-        if hit:
+        if hit and hit[0] is None:                     # Brave's thumbnail, shown as a link (no copy kept)
+            p["img"], p["img_src"] = hit[1], hit[2] or "image search"
+            for k in ("search_tried", "search_n", "search_v"):
+                p.pop(k, None)
+            found += 1
+        elif hit:
             data, ext, page = hit
             os.makedirs(TOC_DIR, exist_ok=True)
             name = re.sub(r"[^a-z0-9._-]+", "_", p["doi"].lower())[:140] + "__search" + ext
             with open(os.path.join(TOC_DIR, name), "wb") as f:
                 f.write(data)
             p["img"], p["img_src"] = "data/toc/" + name, page or "image search"
-            p.pop("search_tried", None)
-            p.pop("search_n", None)
+            for k in ("search_tried", "search_n", "search_v"):
+                p.pop(k, None)
             found += 1
-        time.sleep(1.1)                                # stay within the API's rate limit
+        time.sleep(0.4)
     left = max(0, len(todo) - tried_n)
     print(f"Image search: {found} TOC pictures found in {tried_n} searches" + (f"; {left} papers wait for the next runs" if left else ""))
     return found
@@ -1116,7 +1142,7 @@ def write(by_key):
     return out
 
 
-VERSION = "Ngai Group Archive collector, version 7 (25 Oct 2026)"
+VERSION = "Ngai Group Archive collector, version 8 (25 Oct 2026)"
 
 
 def main():
