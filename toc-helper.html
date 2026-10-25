@@ -40,7 +40,7 @@ ol{padding-left:20px;margin:6px 0}
 <h2><span class="n">1</span>Add the bookmark (once)</h2>
 <p>Drag this button onto your browser's bookmarks bar. If you can't see the bar, press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> (Mac: <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>).</p>
 <p><a class="bm" id="bm" href="#" title="Drag me to your bookmarks bar">📥 Get TOC pictures</a></p>
-<p class="card" style="font-size:15px"><b>New version (v4, 25 Oct 2026), for ACS's new website.</b> ACS moved to a new platform (Silverchair) on 24 July 2026, which broke the old bookmark. If you added the bookmark before, delete the old one (right-click it → Delete) and drag this button again. The panel's title shows <b>v4</b> when the new one runs. It starts fresh, so papers the old versions could not find are tried again.</p>
+<p class="card" style="font-size:15px"><b>New version (v5, 25 Oct 2026), for ACS's new website and for Science.</b> ACS moved to a new platform (Silverchair) on 24 July 2026, which broke the old bookmark. If you added the bookmark before, delete the old one (right-click it → Delete) and drag this button again. The panel's title shows <b>v5</b> when the new one runs. It starts fresh, so papers the old versions could not find are tried again.</p>
 <p class="mut" style="font-size:14px">Dragging doesn't work? <button class="btn" id="copybm">Copy the bookmark code</button> then add a new bookmark by hand, name it <i>Get TOC pictures</i>, and paste the code as its address (URL).</p>
 
 <h2><span class="n">2</span>Open a publisher site and click the bookmark</h2>
@@ -65,7 +65,7 @@ ol{padding-left:20px;margin:6px 0}
 
 <script type="text/plain" id="bm-src">
 (async () => {
-  const LIST = "__LIST__", VER = "v4", BATCH = 100, MAXW = 1100, PAUSE = 600, KEY = "ngai-toc-done-v4", MKEY = "ngai-toc-miss-v4", FKEY = "ngai-toc-found-v4";
+  const LIST = "__LIST__", VER = "v5", BATCH = 100, MAXW = 1100, PAUSE = 600, KEY = "ngai-toc-done-v4", MKEY = "ngai-toc-miss-v4", FKEY = "ngai-toc-found-v4";
   const SITES = {"pubs.acs.org": "10.1021/", "onlinelibrary.wiley.com": "10.1002/", "www.science.org": "10.1126/", "science.org": "10.1126/"};
   const ACS = {"jacs": "ja", "acscatal": "cs", "acs.orglett": "ol", "acs.joc": "jo", "acscentsci": "oc", "acs.jmedchem": "jm", "acs.chemrev": "cr", "acs.accounts": "ar", "acs.inorgchem": "ic", "acs.organomet": "om"};
   const LISTS = {"jacs": ["jacsat", "JACS"], "acscatal": ["accacs", "ACS Catal."]};
@@ -98,7 +98,7 @@ ol{padding-left:20px;margin:6px 0}
   const load = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) || d; } catch (e) { return d; } };
   const keep = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
   const done = load(KEY, []), miss = load(MKEY, {}), today = new Date().toISOString().slice(0, 10);
-  const tries = d => (miss[d] || {}).n || 0, triedToday = d => (miss[d] || {}).day === today;
+  const tries = d => (miss[d] || {}).n || 0, triedToday = d => (miss[d] || {}).day === today && (miss[d] || {}).v === VER;
   const mine = need.filter(p => p && p.doi && low(p.doi).startsWith(prefix) && !done.includes(low(p.doi)));
   const todo = mine.filter(p => tries(low(p.doi)) < 3 && !triedToday(low(p.doi))).sort((a, b) => tries(low(a.doi)) - tries(low(b.doi)));
   const gave = mine.filter(p => tries(low(p.doi)) >= 3).length, later = mine.length - todo.length - gave;
@@ -128,7 +128,7 @@ ol{padding-left:20px;margin:6px 0}
     let l = low(src); try { l = low(decodeURIComponent(src)); } catch (e) {}
     return {el: i, src: src, l: l, label: label(i)};
   }).filter(c => c.src && !/^(data|blob):/i.test(c.src) && !bad(c.src) && !(+c.el.getAttribute("width") > 0 && +c.el.getAttribute("width") < 60));
-  const score = (c, toks) => (toks && toks.some(t => c.l.includes(t)) ? 4 : 0) + (/abstract|\btoc\b|graphical|visual/i.test(c.label) ? 4 : 0) + (/-gra-\d|-toc-\d|[-_]fa\.|graphical|abstract|[-_]toc[-_.]/i.test(c.src.split("?")[0]) ? 3 : 0) + (contentish(c.src) ? 1 : 0);
+  const score = (c, toks) => (toks && toks.some(t => c.l.includes(t)) ? 4 : 0) + (/abstract|\btoc\b|graphical|visual/i.test(c.label) ? 4 : 0) + (/-gra-\d|-toc-\d|[-_]fa\.|graphical|abstract|[-_]toc[-_.]/i.test(c.src.split("?")[0]) ? 3 : 0) + (/-f1\.(jpe?g|gif|png)$/i.test(c.src.split("?")[0]) ? 1 : 0) + (contentish(c.src) ? 1 : 0);
   const pick = (doc, base, doi) => {
     const toks = tokens(doi);
     let best = null;
@@ -321,18 +321,34 @@ ol{padding-left:20px;margin:6px 0}
     await record(d, found[d], from[d]);
   }
   const rest = todo.filter(p => !found[low(p.doi)]).slice(0, Math.max(0, BATCH - copied));
+  let sciOk = 0, sciMiss = 0;
+  const sciFiles = async doi => {
+    const s = low(doi).split("/")[1];
+    if (!/^(science|sciadv|scirobotics|sciimmunol|scisignal|scitranslmed)\.[a-z]{3}\d{4}$/.test(s)) return null;
+    const base = "/cms/" + low(doi) + "/asset/images/";
+    for (const f of ["large/" + s + "-fa.jpg", "large/" + s + "-f1.jpg", "medium/" + s + "-fa.gif", "medium/" + s + "-f1.gif"]) {
+      if (await loadImg(abs(base + f), 12000)) { sciOk++; return abs(base + f); }
+      if (!sciOk && sciMiss >= 6 && f.startsWith("large/" + s + "-f1")) break;
+    }
+    sciMiss++;
+    return null;
+  };
   for (let i = 0; i < rest.length && !stop; i++) {
     const p = rest[i], d = low(p.doi);
-    say("Paper " + (i + 1) + " of " + rest.length + " not on the list pages · <span style=\"color:#0e7c66\">✓ " + (copied + Object.keys(urls).length) + "</span>" + (missed.length ? ' · <span style="color:#b33">✗ ' + missed.length + "</span>" : "") + '<br><small id="ngai-t"></small>');
+    say("Paper " + (i + 1) + " of " + rest.length + (prefix === "10.1021/" ? " not on the list pages" : "") + " · <span style=\"color:#0e7c66\">✓ " + (copied + Object.keys(urls).length) + "</span>" + (missed.length ? ' · <span style="color:#b33">✗ ' + missed.length + "</span>" : "") + '<br><small id="ngai-t"></small>');
     msg.querySelector("#ngai-t").textContent = p.t || p.doi;
     let got = null;
+    if (prefix === "10.1126/") {
+      const f = await sciFiles(p.doi);
+      if (f) { await record(d, f, "picture files (summary figure or Figure 1)"); await wait(PAUSE); continue; }
+    }
     try { got = await getDoc("/doi/" + p.doi, (doc, base) => pick(doc, base, p.doi), x => !!x, "paper"); } catch (e) { got = {why: "error: " + (e && e.message ? e.message : e)}; }
     if (got && got.r) await record(d, got.r, "article pages");
     else { const k = (got && got.why) || "unknown"; missed.push({d: d, real: /nothing found on it|not found \(HTTP 404\)/.test(k) && !/refused|security|did not load/.test(k)}); why[k] = (why[k] || 0) + 1; }
     await wait(PAUSE);
   }
-  handled.forEach(d => { miss[d] = {n: (miss[d] || {}).n || 0, day: today}; });
-  missed.forEach(x => { if (copied || Object.keys(urls).length || x.real) { const o = miss[x.d] || {n: 0}; if (o.day !== today) miss[x.d] = {n: o.n + 1, day: today}; } });
+  handled.forEach(d => { miss[d] = {n: (miss[d] || {}).n || 0, day: today, v: VER}; });
+  missed.forEach(x => { if (copied || Object.keys(urls).length || x.real) { const o = miss[x.d] || {n: 0}; if (o.day !== today) miss[x.d] = {n: o.n + 1, day: today, v: VER}; } });
   keep(MKEY, miss);
   const n = copied, nl = Object.keys(urls).length, site = {"10.1021/": "acs", "10.1002/": "wiley", "10.1126/": "science"}[prefix] || "site";
   let link = "";
