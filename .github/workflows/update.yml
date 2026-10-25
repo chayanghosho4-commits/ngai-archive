@@ -30,9 +30,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install picture tool
+        run: pip install --quiet pillow
       - name: Collect papers and images
         env:
           CROSSREF_EMAIL: ${{ secrets.CROSSREF_EMAIL }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}   # image search by title (optional; add it under Settings > Secrets)
           SINCE: ${{ github.event.inputs.since }}
           EVENT: ${{ github.event_name }}
           SAVE_TOC: "1"          # keep a copy of each TOC graphic in data/toc (set to "0" to only link to it)
