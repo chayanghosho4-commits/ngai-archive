@@ -10,7 +10,7 @@ on:
         required: false
         default: ""
       searches:
-        description: "TOC picture searches this run (leave at 60: stays inside the free Brave allowance)"
+        description: "TOC picture searches this run (60 normally)"
         required: false
         default: "60"
   push:                        # uploading a TOC-helper file starts a quick picture-only run
@@ -40,7 +40,7 @@ jobs:
         env:
           CROSSREF_EMAIL: ${{ secrets.CROSSREF_EMAIL }}
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}   # image search by title (optional; add it under Settings > Secrets)
-          IMAGE_SEARCH_LIMIT: ${{ github.event.inputs.searches || '60' }}
+          IMAGE_SEARCH_LIMIT: ${{ github.event.inputs.searches || '60' }}   # automatic runs: 60 searches each
           SINCE: ${{ github.event.inputs.since }}
           EVENT: ${{ github.event_name }}
           SAVE_TOC: "1"          # keep a copy of each TOC graphic in data/toc (set to "0" to only link to it)
