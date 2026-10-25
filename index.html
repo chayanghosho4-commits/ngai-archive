@@ -11,7 +11,7 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Georgia,"Times New Roman",serif}
 a{color:inherit}
-.w{max-width:1280px;margin:0 auto;padding:0 20px}
+.w{max-width:1500px;margin:0 auto;padding:0 20px}
 header{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:5;padding-top:env(safe-area-inset-top,0px)}
 header .w{display:flex;align-items:center;justify-content:space-between;height:56px;gap:12px}
 .logo{font-weight:700;font-size:20px;letter-spacing:-.3px}.logo span{color:var(--acc)}
@@ -42,14 +42,14 @@ nav a{text-decoration:none}nav a:hover{color:var(--acc)}
 h2.grp{font-size:21px;margin:22px 0 2px;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px}
 h2.grp:first-child{margin-top:4px}
 h2.grp small{font:13px system-ui,sans-serif;color:var(--mut);font-weight:400}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px;margin-top:10px;align-items:start}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:10px;align-items:start}
 .paper{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;min-width:0}
-.paper h3{font-size:16px;line-height:1.32;margin:0 0 6px}
+.paper h3{font-size:17px;line-height:1.32;margin:0 0 6px}
 .paper h3 a{text-decoration:none}.paper h3 a:hover{color:var(--acc)}
 .meta{font:12px system-ui,sans-serif;color:var(--mut);display:flex;gap:4px 8px;flex-wrap:wrap;align-items:center}
 .j{background:var(--acc);color:#fff;padding:1px 7px;border-radius:5px;font-weight:600}
 .meta a.doi{color:var(--acc);text-decoration:none;overflow-wrap:anywhere}.meta a.doi:hover{text-decoration:underline}
-.toc{margin-top:10px;height:200px;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid var(--line);border-radius:9px;padding:6px;cursor:zoom-in;overflow:hidden}
+.toc{margin-top:10px;height:330px;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid var(--line);border-radius:9px;padding:6px;cursor:zoom-in;overflow:hidden}
 .toc img{max-width:100%;max-height:100%;width:auto;height:auto;display:block}
 .toc.none{text-align:center;padding:14px;font:13px/1.4 system-ui,sans-serif;color:var(--mut);background:var(--bg);border-style:dashed;cursor:pointer;text-decoration:none}
 .toc.none:hover{color:var(--acc);border-color:var(--acc)}
@@ -58,7 +58,7 @@ h2.grp small{font:13px system-ui,sans-serif;color:var(--mut);font-weight:400}
 .rotw .lbl{font:600 12px system-ui,sans-serif;color:var(--acc);text-transform:uppercase;letter-spacing:.08em;margin:8px 0 4px}
 .rotw .paper{border:0;background:transparent;padding:4px 0}
 .rotw .paper h3{font-size:19px}
-.rotw .toc{height:300px}
+.rotw .toc{height:400px}
 .empty{color:var(--mut);padding:30px 0;text-align:center;font-family:system-ui,sans-serif}
 .pager{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px;margin:22px 0 4px;font-family:system-ui,sans-serif}
 .pg{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;min-width:38px;padding:7px 11px;font-size:14px;cursor:pointer}
@@ -94,7 +94,7 @@ footer{border-top:1px solid var(--line);margin-top:34px;padding:22px 0 calc(22px
   .mlist{grid-template-columns:repeat(4,1fr)}
   .mlist .opt{justify-content:center;flex-direction:column;gap:0;padding:5px 2px}
 }
-@media(max-width:640px){nav a.hide-s{display:none}.grid{grid-template-columns:1fr}.toc{height:180px}.rotw .toc{height:220px}}
+@media(max-width:700px){nav a.hide-s{display:none}.grid{grid-template-columns:1fr}.toc{height:240px}.rotw .toc{height:260px}}
 </style>
 </head>
 <body>
@@ -119,6 +119,7 @@ footer{border-top:1px solid var(--line);margin-top:34px;padding:22px 0 calc(22px
 <div class="sbox"><h4>View</h4><div class="vlist" id="vlist"></div></div>
 <div class="sbox"><h4>Month</h4><div class="mlist" id="mlist"></div></div>
 <div class="sbox"><h4>Journal</h4><div class="jlist" id="jlist"></div></div>
+<div class="sbox"><h4>Papers per page</h4><div class="vlist" id="plist"></div></div>
 </div></details>
 </aside>
 </div>
@@ -134,7 +135,7 @@ footer{border-top:1px solid var(--line);margin-top:34px;padding:22px 0 calc(22px
 </ol>
 </section>
 </main>
-<footer>© 2026 Ngai Group Archive · page v7 · Entries gathered from journal listings · TOC graphics © their publishers; full text at the publisher · <a href="toc-helper.html">TOC picture helper</a></footer>
+<footer>© 2026 Ngai Group Archive · page v8 · Entries gathered from journal listings · TOC graphics © their publishers; full text at the publisher · <a href="toc-helper.html">TOC picture helper</a></footer>
 
 <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Enlarged TOC graphic"><figure><button class="x" id="lbx" aria-label="Close">×</button><img id="lbimg" alt=""><figcaption id="lbcap"></figcaption></figure></div>
 
@@ -146,8 +147,10 @@ const DAY=864e5, TODAY=new Date(); TODAY.setHours(0,0,0,0);
 const YEAR=TODAY.getFullYear();
 let PAPERS=[], view="week", sel=null, jsel="", page=0;
 // Papers per page: 2 rows of the card grid (3 per row on a wide screen = 6), at least 4 on a phone.
-const ROWS=2, CARD_MIN=290, GAP=16;
-const perPage=()=>{const w=$("#feed").clientWidth||900;return Math.max(4,ROWS*Math.max(1,Math.floor((w+GAP)/(CARD_MIN+GAP))))};
+// Papers per page: 2 rows of 2 papers side by side = 4 (8 or 12 can be chosen in the panel).
+const PER_OPTIONS=[4,8,12];
+let per=4;
+const perPage=()=>per;
 
 const $=s=>document.querySelector(s);
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -194,6 +197,7 @@ function saveUrl(){
   const u=new URLSearchParams();
   if(sel)u.set("month",`${sel.y}-${String(sel.m+1).padStart(2,"0")}`);else if(view!=="week")u.set("view",view);
   if(jsel)u.set("journal",jsel);
+  if(per!==4)u.set("per",per);
   if(page>0)u.set("page",page+1);
   const s=u.toString();
   try{history.replaceState(null,"",s?"?"+s:location.pathname)}catch(e){}
@@ -203,6 +207,7 @@ let shown=[];
 function render(){
   const q=$("#q").value.trim().toLowerCase();
   // side panel: view, month, journal (counts follow the other choices)
+  $("#plist").innerHTML=PER_OPTIONS.map(n=>`<button class="opt ${per===n?"on":""}" data-n="${n}">${n} <span class="n">(${n/2} row${n>2?"s":""})</span></button>`).join("");
   $("#vlist").innerHTML=VIEWS.map(([v,l])=>`<button class="opt ${!sel&&view===v?"on":""}" data-v="${v}">${l}</button>`).join("");
   $("#mlist").innerHTML=MN.map((m,i)=>{const n=PAPERS.filter(p=>p.date.getMonth()===i&&(!jsel||p.j===jsel)&&matches(p,q)).length;
     return `<button class="opt ${sel&&sel.m===i?"on":""}" data-m="${i}" ${n?"":"disabled"}>${m}<span class="n">${n||""}</span></button>`}).join("");
@@ -259,6 +264,7 @@ const fold=()=>{if(small())$("#filters").removeAttribute("open")};
 $("#vlist").onclick=e=>{const b=e.target.closest(".opt");if(!b)return;view=b.dataset.v;sel=null;page=0;render();fold();$("#feed").scrollIntoView({behavior:"smooth"})};
 $("#mlist").onclick=e=>{const b=e.target.closest(".opt");if(!b||b.disabled)return;const m=+b.dataset.m;sel=(sel&&sel.m===m)?null:{y:YEAR,m};page=0;render();fold();$("#feed").scrollIntoView({behavior:"smooth"})};
 $("#jlist").onclick=e=>{const b=e.target.closest(".opt");if(!b||b.disabled)return;const j=b.dataset.j;jsel=(j===jsel)?"":j;page=0;render();fold()};
+$("#plist").onclick=e=>{const b=e.target.closest(".opt");if(!b)return;const first=page*per;per=+b.dataset.n;page=Math.floor(first/per);render();fold()};
 $("#q").oninput=()=>{page=0;render()};
 // Keep the same papers in view when the window width changes the number of cards per row.
 let rz;window.addEventListener("resize",()=>{clearTimeout(rz);rz=setTimeout(()=>{if(!lastSize||perPage()===lastSize)return;page=Math.floor(page*lastSize/perPage());render()},200)});
@@ -282,6 +288,7 @@ document.addEventListener("keydown",e=>{if(e.key==="Escape"&&lb.classList.contai
   const m=(u.get("month")||"").match(/^(\d{4})-(\d{2})$/);if(m)sel={y:+m[1],m:+m[2]-1};
   const v=u.get("view");if(VIEWS.some(x=>x[0]===v))view=v;
   const j=u.get("journal");if(j&&JOURNALS.includes(j))jsel=j;
+  const pn=parseInt(u.get("per")||"4",10);if(PER_OPTIONS.includes(pn))per=pn;
   const pg=parseInt(u.get("page")||"1",10);if(pg>1)page=pg-1})();
 
 fetch("data/papers.json",{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject(r.status)).then(j=>{
