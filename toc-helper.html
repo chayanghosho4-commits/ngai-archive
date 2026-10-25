@@ -40,13 +40,13 @@ ol{padding-left:20px;margin:6px 0}
 <h2><span class="n">1</span>Add the bookmark (once)</h2>
 <p>Drag this button onto your browser's bookmarks bar. If you can't see the bar, press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> (Mac: <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>).</p>
 <p><a class="bm" id="bm" href="#" title="Drag me to your bookmarks bar">📥 Get TOC pictures</a></p>
-<p class="card" style="font-size:15px"><b>New version (v3, 25 Oct 2026), rebuilt for ACS.</b> If you added the bookmark before, delete the old one (right-click it → Delete) and drag this button again. The panel's title shows <b>v3</b> when the new one runs. It starts fresh, so papers the old version could not find are tried again.</p>
+<p class="card" style="font-size:15px"><b>New version (v4, 25 Oct 2026), for ACS's new website.</b> ACS moved to a new platform (Silverchair) on 24 July 2026, which broke the old bookmark. If you added the bookmark before, delete the old one (right-click it → Delete) and drag this button again. The panel's title shows <b>v4</b> when the new one runs. It starts fresh, so papers the old versions could not find are tried again.</p>
 <p class="mut" style="font-size:14px">Dragging doesn't work? <button class="btn" id="copybm">Copy the bookmark code</button> then add a new bookmark by hand, name it <i>Get TOC pictures</i>, and paste the code as its address (URL).</p>
 
 <h2><span class="n">2</span>Open a publisher site and click the bookmark</h2>
 <p>Open one of these in this browser, wait until the page has loaded, then click <b>📥 Get TOC pictures</b> on your bookmarks bar:</p>
-<p><a class="btn" href="https://pubs.acs.org/toc/jacsat/0/0" target="_blank" rel="noopener">pubs.acs.org (JACS, ACS Catal.)</a><a class="btn" href="https://onlinelibrary.wiley.com/toc/15213773/0/0" target="_blank" rel="noopener">onlinelibrary.wiley.com (Angewandte)</a><a class="btn" href="https://www.science.org/journal/science" target="_blank" rel="noopener">science.org (Science)</a></p>
-<p>A small panel appears at the top right and shows the pictures as it finds them, about 2–5 seconds per paper and up to 100 papers per click. On ACS, if the site refuses to let the bookmark read a page, it takes the picture straight from the paper's picture files instead (the TOC graphic is always the last-numbered one), and if needed opens the page invisibly. Papers that are only “Just Accepted” have no pictures yet; they are retried on later days. When it finishes, a file named like <b>toc-acs-2026-10-25-….json</b> is saved to your Downloads. If more papers are waiting, click the bookmark again for the next 100.</p>
+<p><a class="btn" href="https://pubs.acs.org/jacsat/latest-articles" target="_blank" rel="noopener">pubs.acs.org: JACS ASAP</a><a class="btn" href="https://pubs.acs.org/accacs/latest-articles" target="_blank" rel="noopener">pubs.acs.org: ACS Catal. ASAP</a><a class="btn" href="https://onlinelibrary.wiley.com/toc/15213773/0/0" target="_blank" rel="noopener">onlinelibrary.wiley.com (Angewandte)</a><a class="btn" href="https://www.science.org/journal/science" target="_blank" rel="noopener">science.org (Science)</a></p>
+<p>A small panel appears at the top right and shows the pictures as it finds them, about 2–5 seconds per paper and up to 100 papers per click. <b>On ACS</b> the bookmark first takes the graphical abstracts shown on the page you are on, then reads the ASAP list and every 2026 issue of JACS and ACS Catal. (these list pages show the graphical abstracts), and only visits single papers for what is still missing. ACS keeps its pictures on a separate image server that a bookmark is usually not allowed to copy from; in that case it saves the picture <i>links</i>, and the archive downloads the pictures itself right after you upload the file. Papers that are only “Just Accepted” have no pictures yet; they are retried on later days. When it finishes, a file named like <b>toc-acs-2026-10-25-….json</b> is saved to your Downloads. If more papers are waiting, click the bookmark again for the next 100.</p>
 
 <h2><span class="n">3</span>Upload the file</h2>
 <p><a class="btn" id="upl" href="#" target="_blank" rel="noopener">Open the upload page (data/inbox) ↗</a></p>
@@ -65,22 +65,25 @@ ol{padding-left:20px;margin:6px 0}
 
 <script type="text/plain" id="bm-src">
 (async () => {
-  const LIST = "__LIST__", VER = "v3", BATCH = 100, MAXW = 1100, PAUSE = 800, KEY = "ngai-toc-done-v3", MKEY = "ngai-toc-miss-v3";
+  const LIST = "__LIST__", VER = "v4", BATCH = 100, MAXW = 1100, PAUSE = 600, KEY = "ngai-toc-done-v4", MKEY = "ngai-toc-miss-v4", FKEY = "ngai-toc-found-v4";
   const SITES = {"pubs.acs.org": "10.1021/", "onlinelibrary.wiley.com": "10.1002/", "www.science.org": "10.1126/", "science.org": "10.1126/"};
   const ACS = {"jacs": "ja", "acscatal": "cs", "acs.orglett": "ol", "acs.joc": "jo", "acscentsci": "oc", "acs.jmedchem": "jm", "acs.chemrev": "cr", "acs.accounts": "ar", "acs.inorgchem": "ic", "acs.organomet": "om"};
+  const LISTS = {"jacs": ["jacsat", "JACS"], "acscatal": ["accacs", "ACS Catal."]};
+  const DOIRE = {"10.1021/": "10\\.1021/[a-z]+(?:\\.[a-z]+)?\\.\\d[a-z]\\d{5}", "10.1002/": "10\\.1002/[a-z]+\\.\\d{9}", "10.1126/": "10\\.1126/[a-z]+\\.[a-z]{3}\\d{4}"};
   const prefix = window.NGAI_TOC_PREFIX || SITES[location.hostname];
   const old = document.getElementById("ngai-toc"); if (old) old.remove();
   const box = document.createElement("div");
   box.id = "ngai-toc";
-  box.style.cssText = "position:fixed;top:12px;right:12px;z-index:2147483647;width:360px;max-height:85vh;overflow:auto;background:#fff;color:#1d2a2a;border:2px solid #0e7c66;border-radius:12px;padding:12px 14px;font:14px/1.45 system-ui,sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.25);text-align:left";
-  box.innerHTML = '<b style="color:#0e7c66">Ngai Archive · TOC pictures</b> <small style="color:#888">' + VER + '</small><button id="ngai-x" title="Stop (keeps what was found)" style="float:right;border:0;background:none;font-size:20px;line-height:1;cursor:pointer;color:#555">×</button><div id="ngai-m" style="margin:8px 0"></div><div id="ngai-g" style="display:grid;grid-template-columns:repeat(4,1fr);gap:4px"></div>';
+  box.style.cssText = "position:fixed;top:12px;right:12px;z-index:2147483647;width:370px;max-height:85vh;overflow:auto;background:#fff;color:#1d2a2a;border:2px solid #0e7c66;border-radius:12px;padding:12px 14px;font:14px/1.45 system-ui,sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.25);text-align:left";
+  box.innerHTML = '<b style="color:#0e7c66">Ngai Archive · TOC pictures</b> <small style="color:#888">' + VER + '</small><button id="ngai-x" title="Stop (keeps what was found)" style="float:right;border:0;background:none;font-size:20px;line-height:1;cursor:pointer;color:#555">×</button><div id="ngai-m" style="margin:8px 0"></div><div id="ngai-g" style="display:grid;grid-template-columns:repeat(5,1fr);gap:4px"></div>';
   document.body.appendChild(box);
   let stop = false;
   box.querySelector("#ngai-x").onclick = () => { if (stop) box.remove(); stop = true; };
-  const msg = box.querySelector("#ngai-m");
+  const msg = box.querySelector("#ngai-m"), grid = box.querySelector("#ngai-g");
   const say = h => { msg.innerHTML = h; };
   const low = s => String(s || "").toLowerCase();
   const wait = ms => new Promise(r => setTimeout(r, ms));
+  const t0 = Date.now(), mins = () => (Date.now() - t0) / 60000;
   let F = window.fetch.bind(window);
   try { const fr = document.createElement("iframe"); fr.style.display = "none"; box.appendChild(fr); if (fr.contentWindow && fr.contentWindow.fetch) F = fr.contentWindow.fetch.bind(fr.contentWindow); } catch (e) {}
   const abs = (u, base) => new URL(u, base || location.href).href;
@@ -92,22 +95,26 @@ ol{padding-left:20px;margin:6px 0}
     say('This site blocked reading the list. On the TOC helper page click <b>Copy the list</b>, paste it here and press Start.<textarea id="ngai-p" style="width:100%;height:70px;margin-top:6px"></textarea><button id="ngai-go" style="margin-top:4px">Start</button>');
     need = await new Promise(res => { box.querySelector("#ngai-go").onclick = () => { try { res(JSON.parse(box.querySelector("#ngai-p").value)); } catch (e) { res([]); } }; });
   }
-  let done = [], miss = {};
-  try { done = JSON.parse(localStorage.getItem(KEY) || "[]"); } catch (e) { done = []; }
-  try { miss = JSON.parse(localStorage.getItem(MKEY) || "{}"); } catch (e) { miss = {}; }
-  const today = new Date().toISOString().slice(0, 10);
-  const tries = p => (miss[low(p.doi)] || {}).n || 0, triedToday = p => (miss[low(p.doi)] || {}).day === today;
+  const load = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) || d; } catch (e) { return d; } };
+  const keep = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
+  const done = load(KEY, []), miss = load(MKEY, {}), today = new Date().toISOString().slice(0, 10);
+  const tries = d => (miss[d] || {}).n || 0, triedToday = d => (miss[d] || {}).day === today;
   const mine = need.filter(p => p && p.doi && low(p.doi).startsWith(prefix) && !done.includes(low(p.doi)));
-  const todo = mine.filter(p => tries(p) < 3 && !triedToday(p)).sort((a, b) => tries(a) - tries(b));
-  const gave = mine.filter(p => tries(p) >= 3).length, later = mine.length - todo.length - gave;
+  const todo = mine.filter(p => tries(low(p.doi)) < 3 && !triedToday(low(p.doi))).sort((a, b) => tries(low(a.doi)) - tries(low(b.doi)));
+  const gave = mine.filter(p => tries(low(p.doi)) >= 3).length, later = mine.length - todo.length - gave;
   if (!todo.length) {
-    say((later ? later + (later === 1 ? " paper" : " papers") + " had no picture today and will be tried again tomorrow. " : "") + (gave ? gave + (gave === 1 ? " paper was" : " papers were") + " tried on 3 different days without a picture. " : "") + (mine.length ? "" : "Nothing left to fetch on this site. ") + '<a href="#" id="ngai-r">Try all papers again now</a>');
-    box.querySelector("#ngai-r").onclick = e => { e.preventDefault(); try { localStorage.removeItem(KEY); localStorage.removeItem(MKEY); } catch (x) {} say("Done. Click the bookmark again."); };
+    say((later ? later + (later === 1 ? " paper was" : " papers were") + " already handled today (sent as picture links, or no picture yet); they are tried again tomorrow if still missing. " : "") + (gave ? gave + (gave === 1 ? " paper was" : " papers were") + " tried on 3 different days without a picture. " : "") + (mine.length ? "" : "Nothing left to fetch on this site. ") + '<a href="#" id="ngai-r">Try all papers again now</a>');
+    box.querySelector("#ngai-r").onclick = e => { e.preventDefault(); try { localStorage.removeItem(KEY); localStorage.removeItem(MKEY); localStorage.removeItem(FKEY); } catch (x) {} say("Done. Click the bookmark again."); };
     return;
   }
-  const batch = todo.slice(0, BATCH), out = {}, missed = [], how = {}, why = {};
-  const bad = s => !s || /logo|cover|icon|banner|sprite|placeholder|spinner|loading|badge|\.svg(\?|$)/i.test(s);
-  const asset = s => /\/(cms|asset|assets)\//i.test(s);
+  const bad = s => !s || /logo|cover|icon|banner|sprite|placeholder|spinner|loading|badge|avatar|\.svg$/i.test(s.split("?")[0]);
+  const contentish = s => /content_public|silverchair|\/cms\/|\/assets?\/|\/images?\/|\.(gif|jpe?g|png|webp)$/i.test(s.split("?")[0]);
+  const tokens = doi => {
+    const s = low(doi).split("/").slice(1).join("/"), parts = s.split("."), t = [s, s.replace(/\./g, "")];
+    const code = ACS[parts.slice(0, -1).join(".")];
+    if (code) t.push(code + parts[parts.length - 1]);
+    return t.filter(x => x.length >= 7);
+  };
   const label = i => {
     const a = [i.alt, i.title, i.className];
     let e = i.parentElement;
@@ -116,20 +123,102 @@ ol{padding-left:20px;margin:6px 0}
     if (h) a.push(h.textContent);
     return a.join(" ");
   };
-  const pick = (doc, base) => {
-    const imgs = [...doc.querySelectorAll("img")].map(i => ({src: i.getAttribute("data-lg-src") || i.getAttribute("data-src") || i.getAttribute("data-original") || i.getAttribute("src") || "", label: label(i)})).filter(i => !bad(i.src) && !/^data:/i.test(i.src));
-    let c = imgs.find(i => asset(i.src) && /abstract|\btoc\b|graphical|visual/i.test(i.label));
-    if (!c) c = imgs.find(i => /-gra-\d|-toc-\d|[-_]fa\.|graphical|abstract/i.test(i.src));
-    if (c) return abs(c.src, base);
+  const cands = doc => [...doc.querySelectorAll("img")].map(i => {
+    const src = i.getAttribute("data-lg-src") || i.getAttribute("data-src") || i.getAttribute("data-original") || i.getAttribute("src") || "";
+    let l = low(src); try { l = low(decodeURIComponent(src)); } catch (e) {}
+    return {el: i, src: src, l: l, label: label(i)};
+  }).filter(c => c.src && !/^(data|blob):/i.test(c.src) && !bad(c.src) && !(+c.el.getAttribute("width") > 0 && +c.el.getAttribute("width") < 60));
+  const score = (c, toks) => (toks && toks.some(t => c.l.includes(t)) ? 4 : 0) + (/abstract|\btoc\b|graphical|visual/i.test(c.label) ? 4 : 0) + (/-gra-\d|-toc-\d|[-_]fa\.|graphical|abstract|[-_]toc[-_.]/i.test(c.src.split("?")[0]) ? 3 : 0) + (contentish(c.src) ? 1 : 0);
+  const pick = (doc, base, doi) => {
+    const toks = tokens(doi);
+    let best = null;
+    for (const c of cands(doc)) { const s = score(c, toks); if (s >= 4 && (!best || s > best.s)) best = {src: c.src, s: s}; }
+    if (best) return abs(best.src, base);
     for (const n of ["og:image", "twitter:image"]) {
       const m = doc.querySelector('meta[property="' + n + '"],meta[name="' + n + '"]');
-      if (m && !bad(m.content) && asset(m.content)) return abs(m.content, base);
+      if (m && m.content && !bad(m.content) && (contentish(m.content) || toks.some(t => low(m.content).includes(t)))) return abs(m.content, base);
     }
-    c = imgs.find(i => asset(i.src) && /images|graphic|figure/i.test(i.src));
-    return c ? abs(c.src, base) : null;
+    return null;
   };
-  const loadImg = (u, ms) => new Promise(res => {
+  const doiAll = new RegExp(DOIRE[prefix] || "$^", "gi");
+  const cleanDoi = s => low(s).replace(/[.)\];]+$/, "");
+  const doisIn = e => {
+    const s = new Set();
+    for (const a of e.querySelectorAll("a[href]")) { let h = a.getAttribute("href"); try { h = decodeURIComponent(h); } catch (x) {} (h.match(doiAll) || []).forEach(d => s.add(cleanDoi(d))); }
+    (e.textContent.match(doiAll) || []).forEach(d => s.add(cleanDoi(d)));
+    return s;
+  };
+  const harvest = (doc, base, want) => {
+    const cs = cands(doc), found = {};
+    for (const [d, toks] of want) {
+      let best = null;
+      for (const c of cs) if (toks.some(t => c.l.includes(t))) { const s = score(c, toks); if (!best || s > best.s) best = {src: c.src, s: s}; }
+      if (best) found[d] = abs(best.src, base);
+    }
+    for (const c of cs) {
+      if (!contentish(c.src)) continue;
+      let e = c.el.parentElement;
+      for (let k = 0; e && k < 10; k++, e = e.parentElement) {
+        const ds = doisIn(e);
+        if (ds.size === 1) { const d = [...ds][0]; if (want.has(d) && !found[d]) found[d] = abs(c.src, base); break; }
+        if (ds.size > 1) break;
+      }
+    }
+    const all = new Set(((doc.body && doc.body.innerHTML) || "").match(doiAll) || []);
+    return {found: found, total: all.size};
+  };
+  const walled = t => /just a moment|attention required|access denied|captcha|verify you are|are you a robot|security check/i.test(t || "");
+  let pageBlocked = 0, pageOk = 0, frameBlocked = 0, frameOk = 0;
+  const extra = {list: {t: 0, w: 0}, paper: {t: 0, w: 0}};
+  const canFetch = () => pageOk || pageBlocked < 3, canFrame = () => frameOk || frameBlocked < 3;
+  const viaFrame = (url, use, good) => new Promise(res => {
+    const f = document.createElement("iframe");
+    f.setAttribute("sandbox", "allow-same-origin allow-scripts allow-forms");
+    f.style.cssText = "position:fixed;left:-5000px;top:0;width:1280px;height:1000px;border:0;opacity:0;pointer-events:none";
+    let n = 0, loaded = false, end = false, iv = null, last = null;
+    const fin = r => { if (end) return; end = true; clearInterval(iv); f.remove(); if (r.blocked) frameBlocked++; else frameOk++; res(r); };
+    f.onload = () => { loaded = true; };
+    iv = setInterval(() => {
+      n++;
+      let d = null;
+      try { d = f.contentDocument; } catch (e) { return fin({why: "hidden page: not readable", blocked: true}); }
+      if (loaded && !d) return fin({why: "hidden page: refused to open", blocked: true});
+      const ready = d && d.body && d.URL !== "about:blank" && d.readyState !== "loading";
+      if (ready && !walled(d.title)) { try { last = use(d, d.URL); } catch (e) { last = null; } if (good(last)) return fin({r: last}); }
+      if (ready && walled(d.title) && n >= 15) return fin({why: "hidden page: security check", blocked: true});
+      if (ready && d.readyState === "complete" && n >= 8 && !walled(d.title)) return fin({r: last, why: "hidden page: nothing found on it"});
+      if (n >= 25) fin(ready ? {r: last, why: "hidden page: nothing found on it"} : {why: "hidden page: did not load", blocked: true});
+    }, 1000);
+    f.src = abs(url);
+    document.body.appendChild(f);
+  });
+  const getDoc = async (url, use, good, kind) => {
+    let why = "";
+    if (canFetch()) {
+      let r = null;
+      try { r = await F(abs(url), {credentials: "include"}); } catch (e) { r = null; }
+      if (!r) { pageBlocked++; why = "page: no answer"; }
+      else {
+        const doc = new DOMParser().parseFromString(await r.text().catch(() => ""), "text/html");
+        if (r.ok && !walled(doc.title)) {
+          pageOk++;
+          const x = use(doc, r.url || abs(url));
+          if (good(x)) return {r: x, why: ""};
+          if (!kind || (extra[kind].t >= 2 && !extra[kind].w)) return {r: x, why: "page: nothing found on it"};
+          extra[kind].t++;
+          why = "page: nothing found on it";
+        } else if (r.status === 404) return {why: "page: not found (HTTP 404)"};
+        else { pageBlocked++; why = "page refused (HTTP " + r.status + (walled(doc.title) ? ", security check" : "") + ")"; }
+      }
+    } else why = "page: skipped (site refused it 3×)";
+    if (!canFrame()) return {why: why + " → hidden page: skipped"};
+    const fr = await viaFrame(url, use, good);
+    if (fr.r && good(fr.r)) { if (kind) extra[kind].w++; return {r: fr.r, why: ""}; }
+    return {r: fr.r, why: why + " → " + (fr.why || "hidden page: nothing found on it")};
+  };
+  const loadImg = (u, ms, cors) => new Promise(res => {
     const im = new Image();
+    if (cors) im.crossOrigin = "anonymous";
     const t = setTimeout(() => { im.onload = im.onerror = null; res(null); }, ms || 12000);
     im.onload = () => { clearTimeout(t); res(im.naturalWidth > 20 ? im : null); };
     im.onerror = () => { clearTimeout(t); res(null); };
@@ -142,131 +231,130 @@ ol{padding-left:20px;margin:6px 0}
     g.drawImage(src, 0, 0, cv.width, cv.height);
     return cv.toDataURL("image/jpeg", 0.86);
   };
-  const variants = src => {
-    const u = new URL(src, location.href), v = [];
+  const fromBlob = async b => { const bm = await createImageBitmap(b); return toJpeg(bm, bm.width, bm.height); };
+  let corsOk = null, corsFail = 0, copied = 0;
+  const copyPic = async src => {
+    const u = new URL(src, location.href), tries = [];
     const m = u.pathname.match(/^(.*\/asset\/images\/)medium\/(.+)\.gif$/);
-    if (m) v.push(abs(m[1] + "large/" + m[2] + ".jpg", u.href));
-    v.push(u.href);
-    return v;
-  };
-  const getPicture = async src => {
-    for (const t of variants(src)) {
-      try { const r = await F(t, {credentials: "include"}); if (r.ok) { const b = await r.blob(); if (b.type.startsWith("image/")) { const bm = await createImageBitmap(b); return toJpeg(bm, bm.width, bm.height); } } } catch (e) {}
-      const im = await loadImg(t);
-      if (im) { try { return toJpeg(im, im.naturalWidth, im.naturalHeight); } catch (e) {} }
-    }
-    return null;
-  };
-  const walled = t => /just a moment|attention required|access denied|captcha|verify you are|are you a robot|security check/i.test(t || "");
-  const viaPage = async doi => {
-    let r;
-    try { r = await F(abs("/doi/" + doi), {credentials: "include"}); } catch (e) { return {why: "page: no answer", blocked: true}; }
-    const html = await r.text().catch(() => "");
-    const doc = new DOMParser().parseFromString(html, "text/html");
-    if (!r.ok) return {why: "page refused (HTTP " + r.status + (walled(doc.title) ? ", security check" : "") + ")", blocked: true};
-    if (walled(doc.title)) return {why: "page: security check", blocked: true};
-    const s = pick(doc, r.url || location.href);
-    return s ? {src: s} : {why: "page: no picture on it"};
-  };
-  const viaFiles = async doi => {
-    const m = low(doi).match(/^10\.1021\/([a-z.]+)\.(\d[a-z]\d{4,7})$/);
-    if (!m || !ACS[m[1]]) return {why: "picture files: unknown journal"};
-    const base = abs("/cms/" + low(doi) + "/asset/images/medium/" + ACS[m[1]] + m[2] + "_");
-    const name = n => base + String(n).padStart(4, "0") + ".gif", seen = {};
-    const ok = async n => (n in seen) ? seen[n] : (seen[n] = !!(await loadImg(name(n), 10000)));
-    if (!(await ok(1))) return {why: "picture files: none (or blocked)"};
-    let lo = 1, hi = 2;
-    while (hi <= 64 && await ok(hi)) { lo = hi; hi *= 2; }
-    while (hi - lo > 1) { const mid = (lo + hi) >> 1; if (await ok(mid)) lo = mid; else hi = mid; }
-    return {src: name(lo)};
-  };
-  const viaFrame = doi => new Promise(res => {
-    const f = document.createElement("iframe");
-    f.setAttribute("sandbox", "allow-same-origin allow-scripts allow-forms");
-    f.style.cssText = "position:fixed;left:-5000px;top:0;width:1280px;height:1000px;border:0;opacity:0;pointer-events:none";
-    let n = 0, loaded = false, end = false, iv = null;
-    const fin = r => { if (end) return; end = true; clearInterval(iv); f.remove(); res(r); };
-    f.onload = () => { loaded = true; };
-    iv = setInterval(() => {
-      n++;
-      let d = null;
-      try { d = f.contentDocument; } catch (e) { return fin({why: "hidden page: not readable", blocked: true}); }
-      if (loaded && !d) return fin({why: "hidden page: refused to open", blocked: true});
-      const ready = d && d.body && d.URL !== "about:blank" && d.readyState !== "loading";
-      const s = ready && !walled(d.title) && pick(d, d.URL);
-      if (s) return fin({src: s});
-      if (ready && walled(d.title) && n >= 15) return fin({why: "hidden page: security check", blocked: true});
-      if (ready && d.readyState === "complete" && n >= 8 && !walled(d.title)) return fin({why: "hidden page: no picture on it"});
-      if (n >= 25) fin(!ready ? {why: "hidden page: did not load", blocked: true} : walled(d.title) ? {why: "hidden page: security check", blocked: true} : {why: "hidden page: no picture on it"});
-    }, 1000);
-    f.src = abs("/doi/" + doi);
-    document.body.appendChild(f);
-  });
-  let pageBlocked = 0, pageOk = 0, frameBlocked = 0, frameOk = 0;
-  const isACS = prefix === "10.1021/";
-  for (let i = 0; i < batch.length && !stop; i++) {
-    const p = batch[i], d = low(p.doi), notes = [];
-    const n0 = Object.keys(out).length;
-    say("Paper " + (i + 1) + " of " + batch.length + (todo.length > batch.length ? " (" + (todo.length - batch.length) + " more after this batch)" : "") + ' · <span style="color:#0e7c66">✓ ' + n0 + "</span>" + (missed.length ? ' · <span style="color:#b33">✗ ' + missed.length + "</span>" : "") + '<br><small id="ngai-t"></small><br><small id="ngai-s" style="color:#888"></small>');
-    msg.querySelector("#ngai-t").textContent = p.t || p.doi;
-    const step = t => { const e = msg.querySelector("#ngai-s"); if (e) e.textContent = t; };
-    let data = null, way = "", pageRead = false;
-    const use = async (r, w) => {
-      if (!r.src) { notes.push(r.why); return; }
-      step("copying the picture…");
-      data = await getPicture(r.src);
-      if (data) way = w; else notes.push(w + ": picture would not load");
-    };
-    try {
-      if (pageOk || pageBlocked < 3) {
-        step("reading the page…");
-        const r = await viaPage(p.doi);
-        if (r.blocked) pageBlocked++; else { pageOk++; pageRead = true; }
-        await use(r, "page");
-      } else notes.push("page: skipped (site refused it 3×)");
-      if (!data && isACS && !stop) { step("looking for the picture files…"); await use(await viaFiles(p.doi), "picture files"); }
-      if (!data && !pageRead && !stop && (frameOk || frameBlocked < 4)) {
-        step("opening the page invisibly (up to 25 s)…");
-        const r = await viaFrame(p.doi);
-        if (r.blocked) frameBlocked++; else frameOk++;
-        await use(r, "hidden page");
+    if (m) tries.push(abs(m[1] + "large/" + m[2] + ".jpg", u.href));
+    tries.push(u.href);
+    for (const t of tries) {
+      if (new URL(t).origin === location.origin) {
+        try { const r = await F(t, {credentials: "include"}); if (r.ok && new URL(r.url || t).origin === location.origin) { const b = await r.blob(); if (b.type.startsWith("image/")) return {data: await fromBlob(b)}; } } catch (e) {}
+        const im = await loadImg(t);
+        if (im) { try { return {data: toJpeg(im, im.naturalWidth, im.naturalHeight)}; } catch (e) {} }
+      } else if (corsOk !== false) {
+        const im = await loadImg(t, 15000, true);
+        if (im) { try { const d = toJpeg(im, im.naturalWidth, im.naturalHeight); corsOk = true; return {data: d}; } catch (e) {} }
+        try { const r = await F(t, {mode: "cors", credentials: "omit"}); if (r.ok) { const b = await r.blob(); if (b.type.startsWith("image/")) { corsOk = true; return {data: await fromBlob(b)}; } } } catch (e) {}
+        if (corsOk === null && ++corsFail >= 3) corsOk = false;
       }
-    } catch (e) { notes.push("error: " + (e && e.message ? e.message : e)); }
-    if (data) {
-      out[p.doi] = data; how[way] = (how[way] || 0) + 1;
-      done.push(d);
-      try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (e) {}
-      const im = new Image(); im.src = data; im.title = p.t || p.doi;
-      im.style.cssText = "width:100%;height:56px;object-fit:contain;border:1px solid #ddd;background:#fff";
-      box.querySelector("#ngai-g").appendChild(im);
-    } else {
-      const k = notes.join(" → ") || "unknown", real = /no picture on it|unknown journal/.test(k);
-      missed.push({d: d, real: real});
-      why[k] = (why[k] || 0) + 1;
     }
+    return {url: u.href};
+  };
+  const want = new Map(todo.map(p => [low(p.doi), tokens(p.doi)]));
+  const byDoi = new Map(todo.map(p => [low(p.doi), p]));
+  const fcache = load(FKEY, {});
+  const found = {}, from = {}, notes = {}, listInfo = [];
+  const note = (d, w) => { if (w) notes[d] = (notes[d] ? notes[d] + " → " : "") + w; };
+  const take = (map, where) => { let k = 0; for (const d in map) if (want.has(d)) { found[d] = map[d]; from[d] = where; want.delete(d); k++; } return k; };
+  if (fcache.day === today && fcache.map) take(fcache.map, "list pages (earlier today)");
+  const here = take(harvest(document, location.href, want).found, "this page");
+  if (here) listInfo.push(here + " on this page");
+  const tally = () => Object.keys(found).length + " of " + todo.length + " found";
+  const jset = [...new Set([...want.keys()].map(d => d.split("/")[1].split(".").slice(0, -1).join(".")).filter(j => LISTS[j]))];
+  if (prefix === "10.1021/" && want.size >= 5 && jset.length && !(fcache.day === today && fcache.complete)) {
+    const good = x => x && x.total > 0;
+    const nextOf = doc => { const a = [...doc.querySelectorAll("a[href]")].find(a => /latest-articles|[?&]page=/i.test(a.getAttribute("href")) && (a.getAttribute("rel") === "next" || /(^|\W)next(\W|$)|›|»/i.test((a.getAttribute("aria-label") || "") + " " + a.className + " " + a.textContent.trim().slice(0, 12)))); return a ? a.getAttribute("href") : null; };
+    for (const j of jset) {
+      if (stop || !want.size || mins() > 8) break;
+      const [code, name] = LISTS[j];
+      const readList = async (url, what) => {
+        say("Reading ACS list pages: <b>" + name + " " + what + "</b><br><small>" + tally() + " · " + listInfo.length + " list pages read</small>");
+        const got = await getDoc(url, (doc, base) => { const h = harvest(doc, base, want); h.next = nextOf(doc); h.base = base; h.text = (doc.title || "") + " " + ((doc.body && doc.body.textContent) || "").slice(0, 20000); h.links = [...doc.querySelectorAll("a[href]")].map(a => abs(a.getAttribute("href"), base)); return h; }, good, "list");
+        if (got.r) take(got.r.found, "list pages");
+        listInfo.push(name + " " + what + ": " + (got.r && got.r.total ? got.r.total + (got.r.total === 1 ? " paper" : " papers") + " listed" : got.why || "nothing"));
+        await wait(PAUSE);
+        return got.r && got.r.total ? got.r : null;
+      };
+      const seen = new Set();
+      let url = "/" + code + "/latest-articles";
+      for (let k = 1; k <= 30 && url && !stop && want.size; k++) {
+        const u = abs(url); if (seen.has(u)) break; seen.add(u);
+        const r = await readList(u, "ASAP" + (k > 1 ? " page " + k : ""));
+        url = r && r.next && !/^javascript:|^#/i.test(r.next) ? abs(r.next, r.base) : null;
+      }
+      const wantJ = () => [...want.keys()].some(d => d.includes("/" + j + "."));
+      if (stop || !want.size) break;
+      if (!wantJ()) continue;
+      const cur = await readList("/toc/" + code + "/current", "current issue");
+      const vi = cur && cur.text.match(/Volume\s+(\d+)[^\d]{1,15}Issue\s+(\d+)/i);
+      if (!vi) continue;
+      const vol = +vi[1], iss = +vi[2];
+      let tmpl = "/toc/" + code + "/" + vol + "/{n}";
+      const prev = cur.links.find(h => /\/toc\/|issue/i.test(h) && new RegExp("/" + vol + "/" + (iss - 1) + "([/?#]|$)").test(h));
+      if (prev) tmpl = prev.replace(new RegExp("/" + vol + "/" + (iss - 1) + "(?=[/?#]|$)"), "/" + vol + "/{n}");
+      let empty = 0;
+      for (let n = iss - 1; n >= 1 && !stop && wantJ() && empty < 2 && mins() < 8; n--) {
+        const r = await readList(tmpl.replace("{n}", n), "issue " + vol + "/" + n);
+        empty = r ? 0 : empty + 1;
+      }
+    }
+    const keepMap = {}; for (const d in found) keepMap[d] = found[d];
+    keep(FKEY, {day: today, map: keepMap, complete: !stop && mins() <= 8});
+  }
+  const out = {}, urls = {}, how = {}, why = {}, missed = [], handled = [];
+  const show = (d, data, title) => { const im = new Image(); im.src = data; im.title = title || d; im.style.cssText = "width:100%;height:46px;object-fit:contain;border:1px solid #ddd;background:#fff"; grid.appendChild(im); };
+  const record = async (d, src, where) => {
+    const p = byDoi.get(d), u = abs(src), cross = new URL(u).origin !== location.origin;
+    if (copied < BATCH && !(cross && corsOk === false)) {
+      const x = await copyPic(u);
+      if (x.data) { out[p.doi] = x.data; copied++; how[where] = (how[where] || 0) + 1; done.push(d); keep(KEY, done); show(d, x.data, p.t); return; }
+    }
+    urls[d] = u; how[where] = (how[where] || 0) + 1;
+    if (copied < BATCH) handled.push(d);
+  };
+  const list = todo.map(p => low(p.doi)).filter(d => found[d]);
+  for (let i = 0; i < list.length && !stop; i++) {
+    const d = list[i];
+    if (copied < BATCH) say("Copying pictures: " + (i + 1) + " of " + list.length + '<br><small>' + listInfo.length + " list pages read · " + copied + " copied" + (Object.keys(urls).length ? " · " + Object.keys(urls).length + " as links" : "") + "</small>");
+    await record(d, found[d], from[d]);
+  }
+  const rest = todo.filter(p => !found[low(p.doi)]).slice(0, Math.max(0, BATCH - copied));
+  for (let i = 0; i < rest.length && !stop; i++) {
+    const p = rest[i], d = low(p.doi);
+    say("Paper " + (i + 1) + " of " + rest.length + " not on the list pages · <span style=\"color:#0e7c66\">✓ " + (copied + Object.keys(urls).length) + "</span>" + (missed.length ? ' · <span style="color:#b33">✗ ' + missed.length + "</span>" : "") + '<br><small id="ngai-t"></small>');
+    msg.querySelector("#ngai-t").textContent = p.t || p.doi;
+    let got = null;
+    try { got = await getDoc("/doi/" + p.doi, (doc, base) => pick(doc, base, p.doi), x => !!x, "paper"); } catch (e) { got = {why: "error: " + (e && e.message ? e.message : e)}; }
+    if (got && got.r) await record(d, got.r, "article pages");
+    else { const k = (got && got.why) || "unknown"; missed.push({d: d, real: /nothing found on it|not found \(HTTP 404\)/.test(k) && !/refused|security|did not load/.test(k)}); why[k] = (why[k] || 0) + 1; }
     await wait(PAUSE);
   }
-  const n = Object.keys(out).length, site = {"10.1021/": "acs", "10.1002/": "wiley", "10.1126/": "science"}[prefix] || "site";
-  missed.forEach(x => { if (n || x.real) { const o = miss[x.d] || {n: 0}; if (o.day !== today) miss[x.d] = {n: o.n + 1, day: today}; } });
-  try { localStorage.setItem(MKEY, JSON.stringify(miss)); } catch (e) {}
+  handled.forEach(d => { miss[d] = {n: (miss[d] || {}).n || 0, day: today}; });
+  missed.forEach(x => { if (copied || Object.keys(urls).length || x.real) { const o = miss[x.d] || {n: 0}; if (o.day !== today) miss[x.d] = {n: o.n + 1, day: today}; } });
+  keep(MKEY, miss);
+  const n = copied, nl = Object.keys(urls).length, site = {"10.1021/": "acs", "10.1002/": "wiley", "10.1126/": "science"}[prefix] || "site";
   let link = "";
-  if (n) {
+  if (n || nl) {
     const name = "toc-" + site + "-" + new Date().toISOString().slice(0, 10) + "-" + (Date.now() % 100000) + ".json";
-    const url = URL.createObjectURL(new Blob([JSON.stringify({version: 1, site: location.hostname, made: new Date().toISOString(), images: out})], {type: "application/json"}));
+    const url = URL.createObjectURL(new Blob([JSON.stringify({version: 2, site: location.hostname, made: new Date().toISOString(), images: out, urls: urls})], {type: "application/json"}));
     const a = document.createElement("a"); a.href = url; a.download = name;
     document.body.appendChild(a); a.click(); a.remove();
     link = '<br><a href="' + url + '" download="' + name + '" style="color:#0e7c66">Not in Downloads? Click here to save it.</a>';
   }
   if (!document.getElementById("ngai-toc")) document.body.appendChild(box);
-  const left = todo.length - batch.length + (stop ? batch.length - n - missed.length : 0);
-  const ways = Object.entries(how).map(([w, k]) => k + " from the " + w).join(", ");
+  const leftover = todo.length - n - nl - missed.length;
+  const ways = Object.entries(how).map(([w, k]) => k + " from " + w).join(", ");
   const whys = Object.entries(why).sort((a, b) => b[1] - a[1]).slice(0, 4).map(([w, k]) => "<li>" + k + "× " + w.replace(/</g, "&lt;") + "</li>").join("");
-  const refused = !n && missed.length && missed.every(x => !x.real);
-  say("<b>" + (stop ? "Stopped" : "Finished") + ":</b> " + n + " picture" + (n === 1 ? "" : "s") + (n ? " saved to your Downloads" : "") + (missed.length ? ", " + missed.length + " not found" : "") + "." +
-      (n ? "<br><small>Found: " + ways + ".</small>" + link + "<br>Upload the <b>toc-…json</b> file on the helper page (step 3)." : "") +
-      (missed.length ? '<br><br><small><b>Why not found</b> (please send a screenshot of this if it looks wrong):</small><ul style="margin:4px 0 0 18px;padding:0;font-size:12px">' + whys + "</ul>" : "") +
+  const lists = listInfo.slice(0, 3).concat(listInfo.length > 6 ? ["…"] : [], listInfo.slice(Math.max(3, listInfo.length - 3))).map(x => "<li>" + x.replace(/</g, "&lt;") + "</li>").join("");
+  const refused = !n && !nl && missed.length && missed.every(x => !x.real);
+  say("<b>" + (stop ? "Stopped" : "Finished") + ":</b> " + n + " picture" + (n === 1 ? "" : "s") + " copied" + (nl ? " + " + nl + " picture link" + (nl === 1 ? "" : "s") + " (the archive downloads these itself)" : "") + (missed.length ? ", " + missed.length + " not found" : "") + "." +
+      (n || nl ? "<br><small>Found: " + ways + (nl && n ? "; " + nl + " of them sent as links" : "") + ".</small>" + link + "<br>Upload the <b>toc-…json</b> file on the helper page (step 3)." : "") +
+      (listInfo.length ? '<br><br><small><b>List pages</b> (' + listInfo.length + '):</small><ul style="margin:4px 0 0 18px;padding:0;font-size:12px">' + lists + "</ul>" : "") +
+      (missed.length ? '<br><small><b>Why not found</b> (send a screenshot of this if it looks wrong):</small><ul style="margin:4px 0 0 18px;padding:0;font-size:12px">' + whys + "</ul>" : "") +
       (refused ? '<br><b>The site is refusing the bookmark.</b> Open any one article on this site in this tab, wait until it has fully loaded (tick an "I am human" box if one appears), then click the bookmark again from that article page.' : "") +
-      (left > 0 ? "<br><br>" + left + " more papers are waiting on this site: click the bookmark again." : ""));
+      (leftover > 0 ? "<br><br>" + leftover + " more papers are waiting on this site: click the bookmark again." : ""));
 })();
 </script>
 

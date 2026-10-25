@@ -932,22 +932,37 @@ def ensure_inbox():
                     "The next run unpacks the pictures into data/toc and removes the file.\n")
 
 
+LINK_SCHEMES = ("https://",)                           # picture links from the TOC helper must be https
+
+
+def _toc_name(doi, ext):
+    return re.sub(r"[^a-z0-9._-]+", "_", doi.lower())[:140] + "__toc" + ext
+
+
+def _is_image(raw):
+    return bool(raw) and (raw.startswith(IMAGE_MAGIC) or raw[8:12] == b"WEBP")
+
+
 def apply_inbox(by_key):
-    """Unpack pictures made by the TOC helper bookmark (data/inbox/*.json, or toc-*.json uploaded to the top folder)."""
+    """Unpack pictures made by the TOC helper bookmark (data/inbox/*.json, or toc-*.json uploaded to the top folder).
+    "images": {doi: data URI} are pictures the bookmark copied itself.
+    "urls":   {doi: picture link} are pictures it found but could not copy (ACS's image server since its
+              July 2026 move to Silverchair); they are downloaded here, straight away, before the links expire."""
     import base64, glob
     files = sorted(glob.glob(os.path.join(INBOX, "*.json")) + glob.glob(os.path.join(HERE, "toc-*.json")))
     if not files:
         return 0
     by_doi = {(p.get("doi") or "").lower(): p for p in by_key.values() if p.get("doi")}
-    added = skipped = 0
+    added = skipped = linked = link_fail = 0
+    fail_codes = {}
     for fn in files:
         try:
             with open(fn, encoding="utf-8") as f:
-                images = (json.load(f) or {}).get("images") or {}
+                pack = json.load(f) or {}
         except (OSError, ValueError) as e:
             print(f"  could not read {os.path.basename(fn)}: {e}", file=sys.stderr)
             continue
-        for doi, data in images.items():
+        for doi, data in (pack.get("images") or {}).items():
             p = by_doi.get(doi.lower())
             m = re.match(r"data:image/(jpeg|jpg|png|gif|webp);base64,(.+)$", data or "", re.S)
             if not p or not m:
@@ -958,20 +973,46 @@ def apply_inbox(by_key):
             except ValueError:
                 skipped += 1
                 continue
-            if not (raw.startswith(IMAGE_MAGIC) or raw[8:12] == b"WEBP"):
+            if not _is_image(raw):
                 skipped += 1
                 continue
             ext = {"jpeg": ".jpg", "jpg": ".jpg"}.get(m.group(1), "." + m.group(1))
-            name = re.sub(r"[^a-z0-9._-]+", "_", doi.lower())[:140] + "__toc" + ext
             os.makedirs(TOC_DIR, exist_ok=True)
-            with open(os.path.join(TOC_DIR, name), "wb") as f:
+            with open(os.path.join(TOC_DIR, _toc_name(doi, ext)), "wb") as f:
                 f.write(raw)
-            p["img"], p["img_src"] = "data/toc/" + name, "TOC helper"
+            p["img"], p["img_src"] = "data/toc/" + _toc_name(doi, ext), "TOC helper"
             added += 1
+        site = "https://" + (pack.get("site") or "pubs.acs.org").strip("/") + "/"
+        for doi, url in (pack.get("urls") or {}).items():
+            p = by_doi.get(doi.lower())
+            if not p or not needs_picture(p) or not str(url).startswith(LINK_SCHEMES):
+                skipped += 1
+                continue
+            if link_fail >= 10 and not linked:                # the image server refuses us: stop trying
+                link_fail += 1
+                continue
+            raw, code = _get(url, tries=2, limit=8_000_000, quiet=(401, 403, 404, 410),
+                             headers={"User-Agent": BROWSER_UA, "Referer": site,
+                                      "Accept": "image/avif,image/webp,image/*,*/*;q=0.8"})
+            if not _is_image(raw):
+                link_fail += 1
+                fail_codes[code] = fail_codes.get(code, 0) + 1
+                continue
+            raw, ext = shrink_image(raw)
+            if not ext:
+                ext = ".png" if raw.startswith(b"\x89PNG") else ".gif" if raw.startswith(b"GIF") else \
+                      ".webp" if raw[8:12] == b"WEBP" else ".jpg"
+            os.makedirs(TOC_DIR, exist_ok=True)
+            with open(os.path.join(TOC_DIR, _toc_name(doi, ext)), "wb") as f:
+                f.write(raw)
+            p["img"], p["img_src"] = "data/toc/" + _toc_name(doi, ext), "TOC helper (link)"
+            linked += 1
         os.remove(fn)                                  # processed: the workflow commits the removal
     print(f"TOC helper: {added} pictures added from {len(files)} file(s)"
-          + (f"; {skipped} skipped (paper no longer in the archive, or not a picture)" if skipped else ""))
-    return added
+          + (f", {linked} downloaded from picture links" if linked or link_fail else "")
+          + (f" ({link_fail} links failed: " + ", ".join(f"HTTP {k}: {v}" for k, v in fail_codes.items()) + ")" if link_fail else "")
+          + (f"; {skipped} skipped (paper no longer in the archive, already has a picture, or not a picture)" if skipped else ""))
+    return added + linked
 
 
 def cleanup_toc(by_key):
@@ -1205,7 +1246,7 @@ def write(by_key):
     return out
 
 
-VERSION = "Ngai Group Archive collector, version 9 (25 Oct 2026)"
+VERSION = "Ngai Group Archive collector, version 10 (25 Oct 2026)"
 
 
 def main():
