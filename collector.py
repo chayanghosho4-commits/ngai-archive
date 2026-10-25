@@ -1016,8 +1016,9 @@ def image_search(p):
               file=sys.stderr)
         BRAVE_KEY = ""
         return None
-    if code == 429:
-        print("Image search: monthly allowance used up; the rest waits for the next run.", file=sys.stderr)
+    if code in (402, 429):
+        print("Image search: the free allowance (or your usage limit) is used up; the rest waits for the next run.",
+              file=sys.stderr)
         BRAVE_KEY = ""
         return None
     results = (_json(raw) or {}).get("results") or []
@@ -1109,7 +1110,7 @@ def fill_from_image_search(papers):
             for k in ("search_tried", "search_n", "search_v"):
                 p.pop(k, None)
             found += 1
-        time.sleep(0.4)
+        time.sleep(1.1)                                # at most 1 search per second (free keys allow 1/second)
     left = max(0, len(todo) - tried_n)
     print(f"Image search: {found} TOC pictures found in {tried_n} searches" + (f"; {left} papers wait for the next runs" if left else ""))
     return found
