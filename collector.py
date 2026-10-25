@@ -9,7 +9,7 @@ Run every 2 days (see .github/workflows/update.yml).
   python collector.py                      # last 10 days
   python collector.py --since 2026-01-01   # backfill the year
 
-Version 3 (Oct 2026):
+Version 4 (25 Oct 2026):
 - Much stricter topic filter. A paper is kept only if its TITLE names a synthetic reaction,
   method or strategy (see SIGNALS), and nothing in it points to materials, energy,
   biology, spectroscopy, reviews, etc. (see EXCLUDE_ANY / EXCLUDE_TITLE).
@@ -18,6 +18,12 @@ Version 3 (Oct 2026):
   data/blocked.txt (one per line) to remove a paper for good.
 - Nature-family images are built from the DOI (Figure 1 on media.springernature.com),
   so no request to nature.com is needed.
+- JACS / ACS Catal.: the real TOC graphic is read from the ACS RSS feeds (ASAP + current issue),
+  or from the article page for older papers (max ACS_PAGE_LIMIT per run). Figure 1 is only a last resort.
+- Only the best PER_MONTH (default 100) papers of each month are kept, ranked by how clearly they
+  are synthesis papers (plus journal weight); one topic may fill at most 40% of a month.
+- SAVE_TOC=1 (workflow setting) keeps a copy of each TOC graphic in data/toc/ so it displays
+  even if the publisher blocks its images on other websites.
 - Angew. Chem. images/abstracts come from the Wiley RSS feed; reviews, covers and other
   non-research items in that feed are skipped.
 - Only temporary errors are retried; failures name their URL; a publisher that refuses
@@ -56,6 +62,16 @@ JOURNALS = [
     ("Chem",                   ["2451-9294", "2451-9308"], 3),
 ]
 MIN_SCORE = {name: mn for name, _, mn in JOURNALS}
+
+# The site keeps the best PER_MONTH papers of each month. Change the number here,
+# or set PER_MONTH in the workflow.
+PER_MONTH = int(os.environ.get("PER_MONTH") or 100)
+TOPIC_SHARE = 0.4               # one topic (e.g. asymmetric catalysis) may fill at most 40% of a month
+# Extra ranking weight by journal (how prominent a paper is, besides how clearly it is synthesis).
+JOURNAL_WEIGHT = {"Nature": 5, "Science": 5, "Nature Chemistry": 4, "Nature Synthesis": 4, "Nature Catalysis": 2,
+                  "J. Am. Chem. Soc.": 1.5, "Angew. Chem. Int. Ed.": 1, "Chem": 1, "ACS Catal.": 0.5,
+                  "Nature Communications": 0.5}
+SKIP_DOI = ("10.1002/ange.", "10.26434/")   # German edition of Angewandte (duplicate), ChemRxiv preprints
 
 # ---------------------------------------------------------------- topic filter (edit freely)
 # Text is lower-cased and all dashes become "-" before matching (C–H -> c-h).
@@ -203,6 +219,9 @@ EXCLUDE_TITLE = [
     r"deep learning", r"neural", r"foundation model", r"artificial intelligence", r"language model", r"self-driving",
     r"autonomous lab", r"high-throughput experimentation", r"dataset", r"database", r"atmospheric", r"aerosol",
     r"combustion", r"prebiotic", r"interstellar", r"asteroid", r"stardust",
+    r"\b(ms-)?caspt2\b", r"\bdft (calculations?|study|studies|investigation)", r"\bab initio\b",
+    r"insights? from .*(calculations|computations|simulations)", r"\bcomputational (study|studies|investigation|insights?|analysis)",
+    r"\btheoretical (study|studies|investigation|insights?)",
     # supramolecular, molecular machines
     r"crystal engineering", r"self-assembl", r"host-guest", r"molecular (machine|motor|switch)", r"photoswitch",
     r"rotaxane", r"foldamer", r"tweezer",
@@ -282,6 +301,19 @@ def judge(title, ab="", journal=""):
     if score < need:
         return False, f"weak evidence ({score} < {need})"
     return True, f"score {score}"
+
+
+def rank(p):
+    """How strongly a paper is an organic-synthesis highlight (used to pick the best PER_MONTH of each month)."""
+    t = norm(p.get("t", ""))
+    ab = p.get("ab", "")
+    if ab.startswith("Abstract available at the publisher"):
+        ab = ""
+    a = norm(ab)
+    off_topic_words = len(hits(_EX_SOFT, a)) + len(hits(_EX_TITLE, a))   # materials/biology words in the abstract
+    return (2 * min(len(hits(_SIG, t)), 4) + min(len(hits(_MOTIF, t)), 2) + 0.6 * min(len(hits(_SIG, a)), 8)
+            - 1.5 * off_topic_words + JOURNAL_WEIGHT.get(p.get("j", ""), 0)
+            + (2 if "total synthes" in t else 0) - (3 if not ab else 0))
 
 
 def relevant(title, ab="", journal=""):
@@ -427,21 +459,69 @@ def wiley(doi):
 
 
 # ---------------------------------------------------------------- TOC / graphical-abstract images
-# We store only the image URL (hot-linked, shown with a credit and a link to the paper), never a copy.
+# By default only the image URL is stored (hot-linked, shown with a credit and a link to the paper).
+# With SAVE_TOC=1 (set in the workflow) a copy is also kept in data/toc/ and served from your own site,
+# which keeps working when a publisher does not let other websites display its images.
 BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 ACS_PREFIX = {"jacs": "ja", "acscatal": "cs"}
 BAD_IMG = ("logo", "default", "placeholder", "favicon", "sprite", "cover", "social", "banner")
 REFUSED = (401, 403, 429)
-_refused = {}                                         # DOI prefix -> refusals in a row (this run)
+_refused = {}                                         # DOI prefix / host -> refusals in a row (this run)
+SAVE_TOC = os.environ.get("SAVE_TOC", "").strip().lower() in ("1", "true", "yes")
+TOC_DIR = os.path.join(HERE, "data", "toc")
+ACS_PAGE_LIMIT = 150                                  # ACS article-page lookups per run (older papers)
+_acs_pages = 0
+
+# ACS journal RSS feeds (ASAP + current issue): every item carries its TOC graphic.
+ACS_FEEDS = [
+    "https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=jacsat",   # JACS, ASAP
+    "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jacsat",     # JACS, current issue
+    "https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=accacs",   # ACS Catal., ASAP
+    "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=accacs",     # ACS Catal., current issue
+]
+ACS_DOI = re.compile(r"10\.1021/[a-z0-9.\-]*[a-z0-9]", re.I)
+_acs = None
 
 
-def acs_image(doi):
-    """ACS figure at a predictable CDN path (loaded by the visitor's browser,
-    which tries .gif/.jpeg/.jpg/.png in turn, so no server request to ACS is needed)."""
+def acs_feed():
+    """{doi: TOC graphic URL} from the ACS feeds (fetched once per run)."""
+    global _acs
+    if _acs is None:
+        _acs = {}
+        for url in ACS_FEEDS:
+            raw, code = _get(url, headers={"Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8"})
+            if not raw:
+                print(f"  ACS feed unavailable (HTTP {code}): {url}", file=sys.stderr)
+                continue
+            try:
+                root = ET.fromstring(raw)
+            except ET.ParseError as e:
+                print("  ACS feed unreadable:", e, file=sys.stderr)
+                continue
+            for item in (el for el in root.iter() if el.tag.rsplit("}", 1)[-1] == "item"):
+                link = next((ch.text or "" for ch in item if ch.tag.rsplit("}", 1)[-1] == "link"), "")
+                text = " ".join(t for t in item.itertext())
+                m = ACS_DOI.search(link) or ACS_DOI.search(text)
+                img = next((html.unescape(u) for u in IMG_SRC.findall(text) if "/asset/images/" in u), None)
+                if m and img:
+                    _acs[m.group(0).lower()] = ("https://pubs.acs.org" + img) if img.startswith("/") else img
+        print(f"  ACS feeds: TOC graphics for {len(_acs)} recent papers", flush=True)
+    return _acs
+
+
+def acs_guess(doi):
+    """Last resort for ACS: Figure/Scheme 1 at its predictable path (the TOC graphic's number varies)."""
     m = re.match(r"10\.1021/(jacs|acscatal)\.([0-9a-z]+)$", doi.lower())
     if not m:
         return None
     return f"https://pubs.acs.org/cms/10.1021/{doi.split('/', 1)[1]}/asset/images/medium/{ACS_PREFIX[m[1]]}{m[2]}_0001.gif"
+
+
+acs_image = acs_guess                                 # old name, kept for compatibility
+
+
+def is_acs_guess(url):
+    return bool(url) and "pubs.acs.org/cms/" in url and url.endswith("_0001.gif")
 
 
 def nature_image(doi):
@@ -455,8 +535,9 @@ def nature_image(doi):
             f"/MediaObjects/{journal}_{2000 + int(yr)}_{int(num)}_Fig1_HTML.png")
 
 
-def page_image(url):
-    """Read the og:image / twitter:image of an article page. Returns (image url or None, HTTP status)."""
+def page_image(url, must=None):
+    """Read the og:image / twitter:image of an article page. Returns (image url or None, HTTP status).
+    `must`: a substring the image URL has to contain (e.g. "/asset/images/" for the ACS TOC graphic)."""
     raw, code = _get(url, tries=1, headers={"User-Agent": BROWSER_UA, "Accept": "text/html"}, limit=400000)
     if raw is None:
         return None, code
@@ -467,55 +548,124 @@ def page_image(url):
         m = re.search(pat, page, re.I)
         if m:
             u = html.unescape(m.group(1))
-            if u.startswith("http") and not any(b in u.lower() for b in BAD_IMG):
+            if u.startswith("/"):
+                u = "https://" + url.split("/")[2] + u
+            if u.startswith("http") and not any(b in u.lower() for b in BAD_IMG) and (not must or must in u):
                 return u, code
     return None, code
+
+
+def _note_refusal(key, code, what):
+    if code in REFUSED:
+        _refused[key] = _refused.get(key, 0) + 1
+        if _refused[key] == 3:
+            print(f"  {what}: refused 3 times in a row; skipped for the rest of this run", file=sys.stderr)
+    elif code == 200:
+        _refused[key] = 0
 
 
 def free_image(doi):
     """Image URL that needs no request to the publisher's article page (or None)."""
     d = (doi or "").lower()
-    return acs_image(d) or nature_image(d) or (wiley(d).get("img") if d.startswith("10.1002/") else None)
+    if d.startswith("10.1038/"):
+        return nature_image(d)
+    if d.startswith("10.1002/"):
+        return wiley(d).get("img")
+    if d.startswith("10.1021/"):
+        return acs_feed().get(d)
+    return None
+
+
+def acs_page_toc(doi):
+    """TOC graphic from the ACS article page (og:image), within the per-run limit."""
+    global _acs_pages
+    if _refused.get("10.1021", 0) >= 3 or _acs_pages >= ACS_PAGE_LIMIT or out_of_time():
+        return None
+    _acs_pages += 1
+    img, code = page_image("https://pubs.acs.org/doi/" + doi, must="/asset/images/")
+    _note_refusal("10.1021", code, "ACS article pages")
+    time.sleep(1.0)
+    return img
 
 
 def find_image(doi):
     d = doi.lower()
     img = free_image(d)
-    if img or d.startswith(("10.1021/", "10.1038/", "10.1002/")):
+    if img:
         return img
+    if d.startswith("10.1021/"):                      # ACS: article page, else Figure 1 as a last resort
+        return acs_page_toc(doi) or acs_guess(doi)
+    if d.startswith(("10.1038/", "10.1002/")):
+        return None
     prefix = d.split("/", 1)[0]                        # Science (10.1126), Cell Press (10.1016)
     if _refused.get(prefix, 0) >= 3:                   # publisher keeps refusing: stop asking this run
         return None
     img, code = page_image("https://doi.org/" + doi)
-    if code in REFUSED:
-        _refused[prefix] = _refused.get(prefix, 0) + 1
-        if _refused[prefix] == 3:
-            print(f"  {prefix}: image pages refused 3 times in a row; skipped for the rest of this run",
-                  file=sys.stderr)
-    else:
-        _refused[prefix] = 0
+    _note_refusal(prefix, code, f"{prefix} image pages")
     return img
 
 
+IMAGE_MAGIC = (b"GIF87a", b"GIF89a", b"\x89PNG", b"\xff\xd8\xff")
+
+
+def save_copy(p):
+    """SAVE_TOC=1: keep a copy of the image in data/toc/ and point the entry at it."""
+    url = p.get("img") or ""
+    if not url.startswith("http") or "springernature.com" in url:   # Nature images display fine as links
+        return False
+    host = url.split("/")[2]
+    if _refused.get("save:" + host, 0) >= 3 or out_of_time():
+        return False
+    base = os.path.basename(url.split("?")[0]) or "image"
+    name = re.sub(r"[^a-z0-9._-]+", "_", p["doi"].lower() + "__" + base.lower())[:150]
+    dest = os.path.join(TOC_DIR, name)
+    if not os.path.exists(dest):
+        raw, code = _get(url, tries=2, headers={"User-Agent": BROWSER_UA, "Accept": "image/avif,image/webp,image/*,*/*;q=0.8"},
+                         limit=5_000_000, quiet=(404,))
+        if not raw or not (raw.startswith(IMAGE_MAGIC) or raw[8:12] == b"WEBP"):
+            _note_refusal("save:" + host, code if raw is None else 403, f"image downloads from {host}")
+            return False
+        _note_refusal("save:" + host, 200, "")
+        os.makedirs(TOC_DIR, exist_ok=True)
+        with open(dest, "wb") as f:
+            f.write(raw)
+        time.sleep(0.5)
+    p["img_src"], p["img"] = url, "data/toc/" + name
+    return True
+
+
 def fill_images(papers, retry=False):
+    """Fill missing images, replace ACS Figure-1 guesses by the real TOC graphic, and (SAVE_TOC=1) keep copies."""
     n = 0
     for p in papers:
         doi = p.get("doi")
-        if not doi or p.get("img"):
+        if not doi:
             continue                                  # entries without a DOI: set "img" by hand
-        img = free_image(doi)                         # ACS / Nature / Wiley feed: no page request
+        d = doi.lower()
+        current = p.get("img_src") or p.get("img")
+        if current and not is_acs_guess(current):
+            if SAVE_TOC:
+                save_copy(p)
+            continue
+        img = free_image(d)                           # Nature / Wiley feed / ACS feed: no page request
+        if not img and d.startswith("10.1021/"):
+            img = acs_page_toc(doi)
+        elif not img and not d.startswith(("10.1038/", "10.1002/")) and ("img" not in p or retry) and not out_of_time():
+            img = find_image(doi)
+            time.sleep(0.6)
         if img:
+            if (p.get("img") or "").startswith("data/toc/"):          # replace an old saved Figure-1 copy
+                try:
+                    os.remove(os.path.join(HERE, p["img"]))
+                except OSError:
+                    pass
+            p.pop("img_src", None)
             p["img"] = img
             n += 1
-            continue
-        if doi.lower().startswith(("10.1021/", "10.1038/", "10.1002/")) or ("img" in p and not retry):
-            p.setdefault("img", None)
-            continue
-        if out_of_time():
-            break
-        p["img"] = find_image(doi)
-        n += bool(p["img"])                           # count only images actually found
-        time.sleep(0.6)
+        elif not current:
+            p["img"] = acs_guess(doi) if d.startswith("10.1021/") else None
+        if SAVE_TOC and p.get("img"):
+            save_copy(p)
     return n
 
 
@@ -529,11 +679,21 @@ def crossref_abstract(doi):
     return clean_abstract(((_json(raw) or {}).get("message") or {}).get("abstract"))
 
 
+def starts_mid_sentence(ab):
+    return bool(ab) and (ab[0].islower() or ab[0] in "-\u2010\u2013,;:).]")
+
+
 def fill_abstracts(papers, retry=False):
-    """Replace short summaries with the publisher's abstract (Wiley feed, then Crossref, then OpenAlex)."""
+    """Replace short summaries with the publisher's abstract (Wiley feed, then Crossref, then OpenAlex).
+    An abstract that arrived without its first words is re-fetched once from Crossref, else marked with "…"."""
     n = 0
     for p in papers:
         doi = p.get("doi")
+        if doi and p.get("ab_full") and starts_mid_sentence(p.get("ab", "")) and not out_of_time():
+            better = crossref_abstract(doi)
+            time.sleep(0.3)
+            p["ab"] = better if len(better) > 80 and not starts_mid_sentence(better) else "… " + p["ab"]
+            continue
         if not doi or p.get("ab_full"):
             continue
         ab = wiley(doi).get("ab", "")
@@ -545,7 +705,7 @@ def fill_abstracts(papers, retry=False):
             ab = crossref_abstract(doi) or openalex_abstract(doi)
             time.sleep(0.3)
         if len(ab) > 80:
-            p["ab"], p["ab_full"] = ab, True
+            p["ab"], p["ab_full"] = ("… " + ab if starts_mid_sentence(ab) else ab), True
             n += 1                                    # count only abstracts actually found
         else:
             p["ab_full"] = False
@@ -597,7 +757,7 @@ def fetch_journal(name, issns, since, known=frozenset(), blocked=frozenset()):
             for it in items:
                 doi = it.get("DOI", "").lower()
                 title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", (it.get("title") or [""])[0])).strip()
-                if not doi or doi in seen or doi in known or doi in blocked or not title:
+                if not doi or doi in seen or doi in known or doi in blocked or not title or doi.startswith(SKIP_DOI):
                     continue
                 seen.add(doi)
                 w = wiley(doi)
@@ -619,7 +779,7 @@ def fetch_journal(name, issns, since, known=frozenset(), blocked=frozenset()):
                 tag = next((lab for k, lab in TAGS if k in low), "Synthetic methodology")
                 found.append({"date": d.isoformat(), "j": name, "t": title, "au": authors(it),
                               "tag": tag, "ab": ab or "Abstract available at the publisher (DOI link).",
-                              "doi": it["DOI"], "ab_full": bool(ab), "img": find_image(it["DOI"])})
+                              "doi": it["DOI"], "ab_full": bool(ab)})   # image: looked up after selection
             cursor = msg.get("next-cursor")
             if not cursor:
                 break
@@ -648,6 +808,8 @@ def prune(by_key, blocked):
         doi = (p.get("doi") or "").lower()
         if doi and doi in blocked:
             removed.append((p, "blocked.txt"))
+        elif doi.startswith(SKIP_DOI):
+            removed.append((p, "duplicate edition or preprint"))
         else:
             ab = p.get("ab", "")
             if ab.startswith("Abstract available at the publisher"):
@@ -665,6 +827,48 @@ def prune(by_key, blocked):
     return len(removed)
 
 
+def select(by_key):
+    """Keep the best PER_MONTH papers of each month (ranked by rank()).
+    Entries with "keep": true always stay (and count toward their month)."""
+    year = str(date.today().year)
+    ranked = sorted((p for p in by_key.values() if p["date"].startswith(year)), key=lambda p: (-rank(p), p["date"]))
+    unique, seen_titles = [], set()
+    for p in ranked:                                   # the same paper under two DOIs: keep the better one
+        t = norm(p.get("t", ""))
+        if t not in seen_titles:
+            seen_titles.add(t)
+            unique.append(p)
+    months = sorted({p["date"][:7] for p in unique})
+    max_topic = max(1, int(PER_MONTH * TOPIC_SHARE))
+    chosen, per_month = set(), {}
+    for m in months:
+        pool = [p for p in unique if p["date"][:7] == m]
+        picked = [p for p in pool if p.get("keep")]
+        topics = {}
+        for p in picked:
+            topics[p.get("tag")] = topics.get(p.get("tag"), 0) + 1
+        for strict in (True, False):                   # 2nd pass fills up if the topic limit left gaps
+            for p in pool:
+                if len(picked) >= PER_MONTH:
+                    break
+                if p in picked or (strict and topics.get(p.get("tag"), 0) >= max_topic):
+                    continue
+                picked.append(p)
+                topics[p.get("tag")] = topics.get(p.get("tag"), 0) + 1
+        chosen.update(id(p) for p in picked)
+        per_month[m] = len(picked)
+    removed = 0
+    for k, p in list(by_key.items()):
+        if id(p) in chosen:
+            p["score"] = round(rank(p), 1)
+        elif p["date"].startswith(year) or not p.get("keep"):
+            del by_key[k]
+            removed += 1
+    print(f"Kept the best {PER_MONTH} papers per month ({sum(per_month.values())} in total; "
+          + ", ".join(f"{m[5:]}: {n}" for m, n in per_month.items()) + f"); {removed} lower-ranked papers left out.")
+    return removed
+
+
 def write(by_key):
     year = date.today().year                                         # current year only
     out = sorted((p for p in by_key.values() if p["date"].startswith(str(year))), key=lambda p: p["date"], reverse=True)
@@ -674,7 +878,11 @@ def write(by_key):
     return out
 
 
+VERSION = "Ngai Group Archive collector, version 4 (25 Oct 2026)"
+
+
 def main():
+    print(VERSION, flush=True)
     ap = argparse.ArgumentParser()
     ap.add_argument("--since", help="YYYY-MM-DD (default: 10 days ago)")
     ap.add_argument("--images-only", action="store_true", help="skip paper search, only fill missing DOIs, abstracts, images")
@@ -706,10 +914,13 @@ def main():
     out = write(by_key)
     nd = fill_doi(out)
     na = fill_abstracts(out, retry=a.retry_abstracts)
-    ni = fill_images(out, retry=a.retry_images)
+    left_out = select(by_key)                                        # best PER_MONTH papers of each month
+    out = write(by_key)
+    ni = fill_images(out, retry=a.retry_images)                      # images only for the selected papers
     write(by_key)
     with_img = sum(1 for p in out if p.get("img"))
-    print(f"added {added}, removed {pruned}, DOIs found {nd}, abstracts filled {na}, images filled {ni}; "
+    print(f"added {added}, removed {pruned} off-topic + {left_out} below the monthly top {PER_MONTH}, DOIs found {nd}, "
+          f"abstracts filled {na}, images filled {ni}; "
           f"total {len(out)} papers, {with_img} with an image → {OUT}")
     if out_of_time():
         print(f"Time budget reached before the end. Run the workflow again with the same start date ({since}) "

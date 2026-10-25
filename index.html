@@ -31,8 +31,15 @@ h2.grp{font-size:22px;margin:30px 0 4px;display:flex;justify-content:space-betwe
 h2.grp small{font:13px system-ui,sans-serif;color:var(--mut);font-weight:400}
 .rotw{border:2px solid var(--acc);border-radius:14px;padding:4px 18px 8px;margin:14px 0 22px;background:var(--acc2)}
 .rotw .lbl{font:600 12px system-ui,sans-serif;color:var(--acc);text-transform:uppercase;letter-spacing:.08em;margin-top:12px}
-.paper{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:12px 0;display:grid;grid-template-columns:240px 1fr;gap:18px}
+.paper{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:16px 0}
 .rotw .paper{border:0;background:transparent;padding:10px 0}
+.toc{display:block;background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px;text-align:center;line-height:0}
+.toc img{display:block;margin:0 auto;width:auto;max-width:100%;min-width:min(100%,640px);height:auto;max-height:700px;object-fit:contain}
+.toc.none{line-height:1.4;padding:14px;font:13px system-ui,sans-serif;color:var(--mut);background:var(--bg);border-style:dashed;text-decoration:none}
+.toc.none:hover{color:var(--acc);border-color:var(--acc)}
+.paper .cap{text-align:right;padding:4px 2px 0}
+.paper .meta{margin-top:12px}
+.paper h3 a{text-decoration:none}.paper h3 a:hover{color:var(--acc)}
 .scheme{border:1px dashed var(--line);border-radius:8px;display:flex;align-items:center;justify-content:center;min-height:120px;background:var(--bg)}
 .scheme svg{width:100%;height:auto;max-width:190px;color:var(--mut)}
 .scheme.has{flex-direction:column;align-items:stretch;justify-content:flex-start;padding:4px;background:#fff}
@@ -68,7 +75,19 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:26px 0;color:var
 .ab p{font-size:14.5px;color:var(--ink)}
 #selbar{font-family:system-ui,sans-serif;margin:8px 0}
 #selbar button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:6px 12px;cursor:pointer;margin-left:8px}
-@media(max-width:640px){.paper{grid-template-columns:1fr}nav{display:none}}
+button.pill{border:0;cursor:pointer;font-size:13px;padding:5px 12px}
+button.pill:hover{outline:1px solid var(--acc)}
+button.pill.on{background:var(--acc);color:#fff}
+.jchips{display:flex;flex-wrap:wrap;gap:6px;margin:2px 0 8px;font-family:system-ui,sans-serif}
+.jc{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:6px 12px;font-size:13px;cursor:pointer;line-height:1.2}
+.jc:hover:not(:disabled){border-color:var(--acc)}
+.jc .n{color:var(--mut);margin-left:5px;font-variant-numeric:tabular-nums}
+.jc.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.jc.on .n{color:#fff}
+.jc:disabled{opacity:.4;cursor:default}
+#feed{scroll-margin-top:70px}
+.empty button{margin-top:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:6px 12px;cursor:pointer}
+@media(max-width:640px){nav{display:none}.paper{padding:12px}.toc{padding:6px}}
 </style>
 </head>
 <body>
@@ -80,7 +99,7 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:26px 0;color:var
 <main class="w">
 <section class="hero">
 <h1>Reaction of the Week</h1>
-<p>Short, structured summaries of the latest synthetic organic chemistry papers, collected automatically every two days.</p>
+<p>TOC graphics and links for the latest synthetic organic chemistry papers, collected automatically every two days.</p>
 <div id="jp"></div>
 </section>
 
@@ -90,8 +109,9 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:26px 0;color:var
 <button class="tab" data-v="weeks">Weekly archive</button>
 <button class="tab" data-v="months">Monthly archive</button>
 </div>
-<div class="bar"><input id="q" placeholder="Search title, authors, keywords…"><select id="jf"><option value="">All journals</option></select></div>
+<div class="bar"><input id="q" placeholder="Search title, authors, keywords…" aria-label="Search papers"></div>
 <div id="selbar"></div>
+<div class="jchips" id="jchips" role="group" aria-label="Filter by journal"></div>
 <div id="out"></div>
 </div>
 
@@ -99,13 +119,14 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:26px 0;color:var
 <h3>How the archive is organised</h3>
 <ol>
 <li>Scope: we keep new reactions, catalytic methods and total synthesis from JACS, Angew, ACS Catal., Nature Synthesis, Nature Chemistry, Nature Communications (organic chemistry), Nature, Science and Chem. Inorganic, materials, polymer and biochemistry papers are left out.</li>
-<li>A collector runs every 2 days and adds new synthetic organic papers from the tracked journals.</li>
+<li>A collector runs every 2 days and adds new synthetic organic papers from the tracked journals, keeping the 100 most clearly synthetic papers of each month.</li>
+<li>Click a journal name to see only that journal's papers, within the month or tab you are viewing. The page address then links straight to that view, so you can share it.</li>
 <li>Papers from the current week appear under <b>This week</b> as the weekly reaction roundup.</li>
 <li>Once a week is older than 4 weeks, it is folded into the <b>Monthly archive</b>.</li>
 </ol>
 </section>
 </main>
-<footer>© 2026 Ngai Group Archive · Entries gathered from journal listings; abstracts condensed, full text at publisher</footer>
+<footer>© 2026 Ngai Group Archive · page v4 · Entries gathered from journal listings · TOC graphics © their publishers; full text at the publisher</footer>
 
 <script>
 const JOURNALS=["Nature","Science","Nature Chemistry","Nature Synthesis","Nature Catalysis","Nature Communications","Angew. Chem. Int. Ed.","J. Am. Chem. Soc.","ACS Catal.","Chem"];
@@ -187,23 +208,65 @@ const THIS=monday(TODAY);
 const weeksAgo=d=>Math.round((THIS-monday(d))/(7*DAY));
 const scheme='<svg viewBox="0 0 190 80" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 20l12-7 12 7v14l-12 7-12-7z"/><path d="M62 40h50m-8-6l8 6-8 6"/><path d="M130 20l12-7 12 7v14l-12 7-12-7z"/><path d="M154 27h14" /><text x="48" y="70" font-size="10" fill="currentColor" stroke="none" font-family="system-ui">reaction scheme</text></svg>';
 
-function card(p){return `<article class="paper"><div class="scheme${p.img?" has":""}">${p.img?`<img src="${p.img}" alt="Graphical abstract" loading="lazy" referrerpolicy="no-referrer" onerror="imgFail(this)"><span class="cap">TOC graphic © publisher</span>`:scheme}</div><div>
+// Card: large TOC graphic, then journal + date, the paper title and its DOI link (no abstract).
+const NOTOC="TOC graphic not available · open the paper →";
+// Nature-family figures: ask Springer's server for the larger 1200-px version.
+const bigImg=u=>u.includes("media.springernature.com/lw685/")?u.replace("/lw685/","/lw1200/"):u;
+function card(p){
+  const link=p.doi?"https://doi.org/"+p.doi:"https://search.crossref.org/search/works?from_ui=yes&q="+encodeURIComponent(p.t);
+  const toc=p.img
+    ?`<a class="toc" href="${link}" target="_blank" rel="noopener"><img src="${esc(bigImg(p.img))}" alt="TOC graphic" loading="lazy" referrerpolicy="no-referrer" onerror="imgFail(this)"></a><div class="cap">TOC graphic © ${esc(p.j)}</div>`
+    :`<a class="toc none" href="${link}" target="_blank" rel="noopener">${NOTOC}</a>`;
+  return `<article class="paper">${toc}
 <div class="meta"><span class="j">${p.j}</span><span>${fmt(p.date)}</span></div>
-<h3>${p.t}</h3><div class="au">${p.au}</div><p><b>${p.s}</b></p><details class="ab" open><summary>Abstract</summary><p>${p.ab}</p></details>
-<a class="doi" href="${p.doi?"https://doi.org/"+p.doi:"https://search.crossref.org/search/works?from_ui=yes&q="+encodeURIComponent(p.t)}" target="_blank" rel="noopener">${p.doi?"DOI: "+p.doi:"Find paper"} →</a></div></article>`}
+<h3><a href="${link}" target="_blank" rel="noopener">${p.t}</a></h3>
+<a class="doi" href="${link}" target="_blank" rel="noopener">${p.doi?"https://doi.org/"+p.doi:"Find paper"} →</a></article>`}
 
 const EXT=["gif","jpeg","jpg","png"];
-// If a TOC image fails: ACS images are retried with other file extensions, then the placeholder is shown.
-function imgFail(el){const m=el.src.match(/^(.*_0001)\.(gif|jpeg|jpg|png)(\?.*)?$/);
+// If a TOC image fails: Nature falls back to the 685-px size, ACS Figure-1 links try other file
+// types, and otherwise a small "not available" box replaces the picture.
+function imgFail(el){
+  if(el.src.includes("/lw1200/")){el.src=el.src.replace("/lw1200/","/lw685/");return}
+  const m=el.src.match(/^(.*_0001)\.(gif|jpeg|jpg|png)(\?.*)?$/);
   if(m&&el.src.includes("pubs.acs.org")){const i=EXT.indexOf(m[2])+1;if(i<EXT.length){el.src=m[1]+"."+EXT[i];return}}
-  const box=el.parentNode;box.classList.remove("has");box.innerHTML=scheme}
+  const a=el.closest(".toc");if(!a)return;
+  const cap=a.nextElementSibling;if(cap&&cap.classList.contains("cap"))cap.remove();
+  a.classList.add("none");a.textContent=NOTOC}
 let view="week";
+let jsel="";                                   // selected journal ("" = all journals)
+const monthName=s=>new Date(s.y,s.m).toLocaleDateString("en-GB",{month:"long",year:"numeric"});
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+// Is a paper inside what is on screen now (selected month, or the current tab)?
+function inScope(p){
+  if(sel)return p.date.getFullYear()===sel.y&&p.date.getMonth()===sel.m;
+  const w=weeksAgo(p.date);
+  return view==="week"?w===0:view==="weeks"?(w>0&&w<=4):w>4;
+}
+function setJournal(j,scroll){
+  jsel=(j===jsel)?"":j;                        // clicking the active journal again shows all journals
+  buildMenu();render();
+  if(scroll)$("#feed").scrollIntoView({behavior:"smooth"});
+}
+// Keep the current view in the address bar, so a link opens the same month and journal.
+function saveUrl(){
+  const u=new URLSearchParams();
+  if(sel)u.set("month",`${sel.y}-${String(sel.m+1).padStart(2,"0")}`);else if(view!=="week")u.set("view",view);
+  if(jsel)u.set("journal",jsel);
+  const s=u.toString();
+  try{history.replaceState(null,"",s?"?"+s:location.pathname)}catch(e){}
+}
 function render(){
-  const q=$("#q").value.toLowerCase(), jf=$("#jf").value;
-  $("#selbar").innerHTML=sel?`Showing <b>${new Date(sel.y,sel.m).toLocaleDateString("en-GB",{month:"long",year:"numeric"})}</b><button id="clr">✕ Back to latest</button>`:"";
+  const q=$("#q").value.toLowerCase();
+  $("#selbar").innerHTML=sel?`Showing <b>${monthName(sel)}</b>${jsel?` · <b>${esc(jsel)}</b>`:""}<button id="clr">✕ Back to latest</button>`:"";
   const c=$("#clr");if(c)c.onclick=()=>{sel=null;render();buildMenu()};
   document.querySelector("#tabs").style.display=sel?"none":"flex";
-  const list=PAPERS.filter(p=>(!jf||p.j===jf)&&(!q||(p.t+p.au+p.s).toLowerCase().includes(q))).sort((a,b)=>b.date-a.date);
+  const scope=PAPERS.filter(p=>inScope(p)&&(!q||(p.t+p.au+p.s).toLowerCase().includes(q)));
+  const cnt={};scope.forEach(p=>cnt[p.j]=(cnt[p.j]||0)+1);
+  $("#jchips").innerHTML=`<button class="jc ${jsel?"":"on"}" data-j="">All journals<span class="n">${scope.length}</span></button>`+
+    JOURNALS.map(j=>`<button class="jc ${jsel===j?"on":""}" data-j="${esc(j)}" ${cnt[j]||jsel===j?"":"disabled"} aria-pressed="${jsel===j}">${esc(j)}<span class="n">${cnt[j]||0}</span></button>`).join("");
+  document.querySelectorAll("#jp .pill").forEach(b=>{const on=b.dataset.j===jsel;b.classList.toggle("on",on);b.setAttribute("aria-pressed",on)});
+  saveUrl();
+  const list=scope.filter(p=>!jsel||p.j===jsel).sort((a,b)=>b.date-a.date);
   const groups=new Map();
   const add=(k,sub,p)=>{if(!groups.has(k))groups.set(k,{sub,items:[]});groups.get(k).items.push(p)};
   list.forEach(p=>{
@@ -213,22 +276,35 @@ function render(){
     else if(view==="weeks"&&w>0&&w<=4){const m=monday(p.date);add("Week of "+fmt(m),"Weekly roundup",p)}
     else if(view==="months"&&w>4)add(p.date.toLocaleDateString("en-GB",{month:"long",year:"numeric"}),"Monthly roundup",p);
   });
-  if(!groups.size){$("#out").innerHTML='<div class="empty">No papers match yet.</div>';return}
+  if(!groups.size){
+    const where=sel?" in "+monthName(sel):view==="week"?" this week":"";
+    $("#out").innerHTML=jsel?`<div class="empty">No ${esc(jsel)} papers${where}.<br><button id="alljs">Show all journals</button></div>`:'<div class="empty">No papers match yet.</div>';
+    const b=$("#alljs");if(b)b.onclick=()=>setJournal("",false);
+    return}
   $("#out").innerHTML=[...groups].map(([k,g],i)=>{
     const top=g.items[0];
     const feat=view==="week"&&!sel?`<div class="rotw"><div class="lbl">★ Reaction of the week</div>${card(top)}</div>`:"";
     const rest=view==="week"&&!sel?g.items.slice(1):g.items;
     return `<h2 class="grp">${k}<small>${g.sub} · ${g.items.length} paper${g.items.length>1?"s":""}</small></h2>${feat}${rest.map(card).join("")}`}).join("");
 }
-JOURNALS.forEach(j=>{$("#jf").insertAdjacentHTML("beforeend",`<option>${j}</option>`);$("#jp").insertAdjacentHTML("beforeend",`<span class="pill">${j}</span>`)});
-$("#tabs").onclick=e=>{const b=e.target.closest(".tab");if(!b)return;document.querySelectorAll(".tab").forEach(t=>t.classList.remove("on"));b.classList.add("on");view=b.dataset.v;render()};
-$("#q").oninput=render;$("#jf").onchange=render;
+JOURNALS.forEach(j=>$("#jp").insertAdjacentHTML("beforeend",`<button class="pill" data-j="${esc(j)}" aria-pressed="false" title="Show only ${esc(j)} papers">${esc(j)}</button>`));
+$("#jp").onclick=e=>{const b=e.target.closest(".pill");if(b)setJournal(b.dataset.j,true)};
+$("#jchips").onclick=e=>{const b=e.target.closest(".jc");if(b&&!b.disabled)setJournal(b.dataset.j===jsel?"":b.dataset.j,false)};
+const setTab=v=>{view=v;document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("on",t.dataset.v===v))};
+$("#tabs").onclick=e=>{const b=e.target.closest(".tab");if(!b)return;setTab(b.dataset.v);render()};
+$("#q").oninput=render;
+// Open the view given in the address (e.g. ?month=2026-04&journal=Nature), so links can be shared.
+(()=>{const u=new URLSearchParams(location.search);
+  const m=(u.get("month")||"").match(/^(\d{4})-(\d{2})$/);if(m)sel={y:+m[1],m:+m[2]-1};
+  const v=u.get("view");if(["week","weeks","months"].includes(v))setTab(v);
+  const j=u.get("journal");if(j&&JOURNALS.includes(j))jsel=j})();
 $("#theme").onclick=e=>{e.preventDefault();const r=document.documentElement,d=getComputedStyle(r).colorScheme.includes("dark")||r.dataset.theme==="dark";r.dataset.theme=d?"light":"dark"};
 const MN=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const toggle=o=>{$("#dr").classList.toggle("open",o);$("#sc").classList.toggle("open",o)};
 function buildMenu(){
   const years=[...new Set([YEAR,...PAPERS.map(p=>p.date.getFullYear())])].sort((a,b)=>b-a);
-  $("#yrs").innerHTML=years.map(y=>`<button class="it yr" data-y="${y}">${y}<span>▾</span></button><div class="ms ${sel&&sel.y===y||y===YEAR?"open":""}" id="ms${y}">${MN.map((m,i)=>{const n=PAPERS.filter(p=>p.date.getFullYear()===y&&p.date.getMonth()===i).length;return `<button class="it ${sel&&sel.y===y&&sel.m===i?"on":""}" data-y="${y}" data-m="${i}" ${n?"":"disabled"}>${m}${n?" ("+n+")":""}</button>`}).join("")}</div>`).join("");
+  // Month counts follow the journal filter, so with "Nature" selected you see which months have Nature papers.
+  $("#yrs").innerHTML=(jsel?`<div style="font-size:13px;color:var(--mut);margin:0 0 6px 10px">Counting ${esc(jsel)} only</div>`:"")+years.map(y=>`<button class="it yr" data-y="${y}">${y}<span>▾</span></button><div class="ms ${sel&&sel.y===y||y===YEAR?"open":""}" id="ms${y}">${MN.map((m,i)=>{const n=PAPERS.filter(p=>p.date.getFullYear()===y&&p.date.getMonth()===i&&(!jsel||p.j===jsel)).length;return `<button class="it ${sel&&sel.y===y&&sel.m===i?"on":""}" data-y="${y}" data-m="${i}" ${n?"":"disabled"}>${m}${n?" ("+n+")":""}</button>`}).join("")}</div>`).join("");
 }
 $("#yrs").onclick=e=>{const b=e.target.closest("button");if(!b)return;
   if(b.dataset.m!==undefined){sel={y:+b.dataset.y,m:+b.dataset.m};buildMenu();render();toggle(false);$("#feed").scrollIntoView()}
@@ -239,7 +315,9 @@ buildMenu();render();
 // When hosted next to data/papers.json (written by collector.py), use that file instead of the built-in entries.
 fetch("data/papers.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
   if(!Array.isArray(j)||!j.length)return;
-  PAPERS=j.map(a=>({date:new Date(a.date+"T00:00:00"),j:a.j,t:a.t,au:a.au,s:a.tag,ab:a.ab,doi:a.doi||null,img:a.img||null})).filter(p=>p.date.getFullYear()===YEAR);
+  // An abstract that arrived without its first words starts mid-sentence: mark it with "…".
+  const fixAb=s=>s&&/^[a-z\-–,;:).\]]/.test(s)?"… "+s:s;
+  PAPERS=j.map(a=>({date:new Date(a.date+"T00:00:00"),j:a.j,t:a.t,au:a.au,s:a.tag,ab:fixAb(a.ab),doi:a.doi||null,img:a.img||null})).filter(p=>p.date.getFullYear()===YEAR);
   buildMenu();render();
 }).catch(()=>{});
 </script>
