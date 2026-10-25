@@ -9,7 +9,7 @@ Run every 2 days (see .github/workflows/update.yml).
   python collector.py                      # last 10 days
   python collector.py --since 2026-01-01   # backfill the year
 
-Version 8 (25 Oct 2026):
+Version 9 (25 Oct 2026):
 - Much stricter topic filter. A paper is kept only if its TITLE names a synthetic reaction,
   method or strategy (see SIGNALS), and nothing in it points to materials, energy,
   biology, spectroscopy, reviews, etc. (see EXCLUDE_ANY / EXCLUDE_TITLE).
@@ -27,7 +27,8 @@ Version 8 (25 Oct 2026):
   own browser; upload its toc-....json file to data/inbox and the next run unpacks it into data/toc.
   data/need_toc.json lists the papers still waiting for a picture.
 - Image search (Brave Search API, BRAVE_API_KEY secret): papers that still have no picture are searched by
-  title; a result is used only if its page carries the paper's DOI or title. Up to IMAGE_SEARCH_LIMIT (60) per run; misses retried after 30 days, 3 tries.
+  title; a result is used only if its page carries the paper's DOI or title. Up to IMAGE_SEARCH_LIMIT (60) per run; papers under 30 days old are retried every run (up to 10 times),
+  older misses after 30 days (3 tries); a shorter second query (first words + journal) is tried when the full title finds nothing.
   If the original picture's site refuses servers, Brave's own 500-px thumbnail of it is shown (link only).
 - SAVE_TOC=1 (workflow setting) keeps a copy of each TOC graphic in data/toc/ so it displays
   even if the publisher blocks its images on other websites.
@@ -486,12 +487,20 @@ HELPER_PREFIXES = ("10.1021/", "10.1002/", "10.1126/")  # ACS, Wiley, Science: p
 # the paper title for papers that still have no picture. Needs the BRAVE_API_KEY secret; skipped without it.
 BRAVE_KEY = (os.environ.get("BRAVE_API_KEY") or "").strip()
 try:                                                                     # per run; 15 runs/month ≈ 900, inside the free credit
-    IMAGE_SEARCH_LIMIT = max(0, min(2000, int(os.environ.get("IMAGE_SEARCH_LIMIT") or 60)))
+    IMAGE_SEARCH_LIMIT = max(0, min(2000, int(os.environ.get("IMAGE_SEARCH_LIMIT") or 60)))   # searches (API calls) per run
 except ValueError:
     IMAGE_SEARCH_LIMIT = 60
-IMAGE_SEARCH_RETRY_DAYS = 30                                             # papers with no good result are retried later
-IMAGE_SEARCH_MAX_TRIES = 3                                               # ... at most this many times in total
-SEARCH_VERSION = 2                                                       # papers missed by an older version are retried
+IMAGE_SEARCH_RETRY_DAYS = 30                                             # older papers with no good result: retried after 30 days
+IMAGE_SEARCH_MAX_TRIES = 3                                               # ... at most 3 times in total
+RECENT_DAYS = 30                                                         # papers newer than this (not yet indexed everywhere):
+RECENT_RETRY_DAYS = 2                                                    # ... retried every run (2 days)
+RECENT_MAX_TRIES = 10                                                    # ... up to 10 times
+SEARCH_VERSION = 3                                                       # papers missed by an older version are retried
+SEARCH_LOG = os.path.join(HERE, "data", "search_log.json")              # what the search returned for misses (for tuning)
+JOURNAL_SHORT = {"J. Am. Chem. Soc.": "JACS", "ACS Catal.": "ACS Catalysis", "Angew. Chem. Int. Ed.": "Angewandte Chemie",
+                 "Science": "Science", "Chem": "Chem"}
+_search_calls = 0
+_search_misses = []
 BRAVE_THUMB = "imgs.search.brave.com"                                    # Brave's image server (search-result thumbnails)
 BAD_SEARCH_IMG = ("logo", "cover", "avatar", "profile", "portrait", "headshot", "icon", "banner", "favicon",
                   "author", "people", "staff", "team", "badge", "sprite", "placeholder")
@@ -1002,12 +1011,10 @@ def shrink_image(raw):
         return raw, None
 
 
-def image_search(p):
-    """Search the paper title in Brave image search; return (image bytes, ext, source page) or None.
-    A result is accepted only if its page carries the paper's DOI or the same title; logos, covers,
-    portraits and tiny images are rejected. The original image is downloaded from its own site."""
-    global BRAVE_KEY
-    q = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", p.get("t", ""))).strip()[:350]
+def _brave(q):
+    """One Brave image-search call. Returns the result list, or None if the key/allowance stops further searches."""
+    global BRAVE_KEY, _search_calls
+    _search_calls += 1
     url = "https://api.search.brave.com/res/v1/images/search?" + urlencode(
         {"q": q, "count": 20, "safesearch": "strict", "spellcheck": "false"})
     raw, code = _get(url, tries=2, headers={"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY})
@@ -1021,7 +1028,10 @@ def image_search(p):
               file=sys.stderr)
         BRAVE_KEY = ""
         return None
-    results = (_json(raw) or {}).get("results") or []
+    return (_json(raw) or {}).get("results") or []
+
+
+def _candidates(p, results):
     doi = (p.get("doi") or "").lower()
     tail = doi.split("/", 1)[-1]
     want = norm(p.get("t", ""))
@@ -1048,6 +1058,32 @@ def image_search(p):
         thumb = ((r.get("thumbnail") or {}).get("src") or "").strip()
         cands.append((score, img, page, thumb))
     cands.sort(key=lambda c: -c[0])
+    return cands
+
+
+def _host(u):
+    return (u or "").split("/")[2] if (u or "").count("/") >= 2 else ""
+
+
+def image_search(p):
+    """Search the paper title in Brave image search; return (image bytes, ext, source page), (None, thumbnail
+    link, source page) or None. Tries the full title, then (if nothing usable) the first words + the journal.
+    A result is accepted only if its page carries the paper's DOI or the same title; logos, covers,
+    portraits and tiny images are rejected."""
+    title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", p.get("t", ""))).strip()
+    words = title.split()
+    queries = [title[:350]]
+    if len(words) > 9:
+        queries.append(" ".join(words[:9]) + " " + JOURNAL_SHORT.get(p.get("j", ""), ""))
+    cands, seen = [], []
+    for q in queries:
+        results = _brave(q.strip())
+        if results is None:                            # key refused / allowance used up
+            return None
+        seen += results[:6]
+        cands = _candidates(p, results)
+        if cands:
+            break
     for _, img, page, _thumb in cands[:4]:
         data, code = _get(img, tries=1, headers={"User-Agent": BROWSER_UA, "Accept": "image/avif,image/webp,image/*"},
                           limit=8_000_000, quiet=(401, 403, 404, 429))
@@ -1062,7 +1098,25 @@ def image_search(p):
     for _, img, page, thumb in cands:
         if thumb.startswith("https://") and BRAVE_THUMB in thumb:
             return None, thumb, page
+    _search_misses.append({"doi": p.get("doi"), "date": p.get("date"), "t": title[:160],
+                           "top": [{"title": (r.get("title") or "")[:120], "page": _host(r.get("url")),
+                                    "img": _host((r.get("properties") or {}).get("url"))} for r in seen[:6]]})
     return None
+
+
+def write_search_log():
+    """Keep the latest misses (what the search returned) in data/search_log.json, so the matching can be tuned."""
+    if not _search_misses:
+        return
+    try:
+        with open(SEARCH_LOG, encoding="utf-8") as f:
+            old = json.load(f)
+    except (OSError, ValueError):
+        old = []
+    keep = {m["doi"]: m for m in old + _search_misses}            # newest entry per paper wins
+    os.makedirs(os.path.dirname(SEARCH_LOG), exist_ok=True)
+    with open(SEARCH_LOG, "w", encoding="utf-8") as f:
+        json.dump(list(keep.values())[-400:], f, ensure_ascii=False, indent=0)
 
 
 def fill_from_image_search(papers):
@@ -1078,17 +1132,23 @@ def fill_from_image_search(papers):
         if img and not p["doi"].lower().startswith(HELPER_PREFIXES) and not is_acs_guess(img):
             continue                                   # e.g. Chem: its graphical abstract link is already set
         if p.get("search_v") == SEARCH_VERSION:
+            try:
+                age = (today - date.fromisoformat(p["date"])).days
+            except ValueError:
+                age = 999
+            wait, tries = (RECENT_RETRY_DAYS, RECENT_MAX_TRIES) if age <= RECENT_DAYS else (IMAGE_SEARCH_RETRY_DAYS, IMAGE_SEARCH_MAX_TRIES)
             tried = p.get("search_tried")
-            if tried and (today - date.fromisoformat(tried)).days < IMAGE_SEARCH_RETRY_DAYS:
+            if tried and (today - date.fromisoformat(tried)).days < wait:
                 continue
-            if p.get("search_n", 0) >= IMAGE_SEARCH_MAX_TRIES:
+            if p.get("search_n", 0) >= tries:
                 continue
         else:
             p["search_n"] = 0                          # missed by an older search version: try again now
         todo.append(p)
     found = tried_n = 0
-    for p in todo[:IMAGE_SEARCH_LIMIT]:
-        if not BRAVE_KEY or out_of_time():
+    start_calls = _search_calls
+    for p in todo:
+        if not BRAVE_KEY or out_of_time() or _search_calls - start_calls >= IMAGE_SEARCH_LIMIT:
             break
         tried_n += 1
         p["search_tried"] = today.isoformat()
@@ -1112,7 +1172,9 @@ def fill_from_image_search(papers):
             found += 1
         time.sleep(1.1)                                # at most 1 search per second (free keys allow 1/second)
     left = max(0, len(todo) - tried_n)
-    print(f"Image search: {found} TOC pictures found in {tried_n} searches" + (f"; {left} papers wait for the next runs" if left else ""))
+    print(f"Image search: {found} TOC pictures found for {tried_n} papers ({_search_calls - start_calls} searches)"
+          + (f"; {left} papers wait for the next runs" if left else ""))
+    write_search_log()
     return found
 
 
@@ -1143,7 +1205,7 @@ def write(by_key):
     return out
 
 
-VERSION = "Ngai Group Archive collector, version 8 (25 Oct 2026)"
+VERSION = "Ngai Group Archive collector, version 9 (25 Oct 2026)"
 
 
 def main():
