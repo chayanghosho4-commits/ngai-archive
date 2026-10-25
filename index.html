@@ -5,249 +5,181 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Ngai Group Archive</title>
 <style>
-:root{--bg:#fffefa;--card:#fff;--ink:#1d2a2a;--mut:#667271;--line:#e5e3da;--acc:#0e7c66;--acc2:#e8f4f0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{--bg:#fffefa;--card:#fff;--ink:#1d2a2a;--mut:#667271;--line:#e5e3da;--acc:#0e7c66;--acc2:#e8f4f0}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#141a19;--card:#1b2423;--ink:#e8efee;--mut:#98a7a5;--line:#2c3836;--acc:#4fd1b5;--acc2:#1f2f2c}}
 :root[data-theme="dark"]{color-scheme:dark;--bg:#141a19;--card:#1b2423;--ink:#e8efee;--mut:#98a7a5;--line:#2c3836;--acc:#4fd1b5;--acc2:#1f2f2c}
-*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman",serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Georgia,"Times New Roman",serif}
 a{color:inherit}
-.w{max-width:1000px;margin:0 auto;padding:0 20px}
-header{border-bottom:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5}
-header .w{display:flex;align-items:center;justify-content:space-between;height:58px;gap:12px}
+.w{max-width:1280px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:5;padding-top:env(safe-area-inset-top,0px)}
+header .w{display:flex;align-items:center;justify-content:space-between;height:56px;gap:12px}
 .logo{font-weight:700;font-size:20px;letter-spacing:-.3px}.logo span{color:var(--acc)}
 nav{font:14px system-ui,sans-serif;display:flex;gap:18px;color:var(--mut)}
 nav a{text-decoration:none}nav a:hover{color:var(--acc)}
-.hero{text-align:center;padding:56px 0 34px}
-.hero h1{font-size:clamp(34px,6vw,54px);margin:0 0 10px;letter-spacing:-1px}
-.hero p{max-width:620px;margin:0 auto 20px;color:var(--mut);font-size:18px}
-.pill{display:inline-block;font:12px system-ui,sans-serif;background:var(--acc2);color:var(--acc);padding:4px 10px;border-radius:99px;margin:3px}
-.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:26px 0 14px;font-family:system-ui,sans-serif}
-.tab{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 16px;border-radius:99px;cursor:pointer;font-size:14px}
-.tab.on{background:var(--acc);color:#fff;border-color:var(--acc)}
-.bar{display:flex;gap:10px;flex-wrap:wrap;font-family:system-ui,sans-serif;margin-bottom:10px}
-.bar input,.bar select{padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:14px}
-.bar input{flex:1;min-width:180px}
-h2.grp{font-size:22px;margin:30px 0 4px;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px}
+.hero{padding:30px 0 18px}
+.hero h1{font-size:clamp(28px,4.5vw,42px);margin:0 0 4px;letter-spacing:-.6px}
+.hero p{margin:0;color:var(--mut);font-size:17px}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:28px;align-items:start}
+#feed{min-width:0;scroll-margin-top:70px}
+/* right-hand selection panel */
+.side{position:sticky;top:70px;max-height:calc(100vh - 84px);overflow:auto;display:flex;flex-direction:column;gap:12px;padding-bottom:8px;font-family:system-ui,sans-serif}
+#filters>summary{display:none}
+#filters .boxes{display:flex;flex-direction:column;gap:12px}
+.sbox{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px}
+.sbox h4{margin:0 0 8px;font:600 11.5px system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:var(--mut)}
+.sbox input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font-size:14px}
+.opt{display:flex;justify-content:space-between;align-items:center;gap:8px;width:100%;border:0;background:none;color:var(--ink);text-align:left;padding:6px 8px;border-radius:7px;font:14px system-ui,sans-serif;cursor:pointer}
+.opt:hover:not(:disabled){background:var(--acc2)}
+.opt.on{background:var(--acc);color:#fff}
+.opt .n{color:var(--mut);font-variant-numeric:tabular-nums;font-size:13px}.opt.on .n{color:#fff}
+.opt:disabled{opacity:.38;cursor:default}
+.mlist{display:grid;grid-template-columns:1fr 1fr;gap:2px}
+.mlist .opt{justify-content:space-between}
+/* feed */
+#selbar{font:15px system-ui,sans-serif;margin:0 0 6px;display:flex;flex-wrap:wrap;align-items:center;gap:8px;min-height:34px}
+#selbar button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:5px 12px;cursor:pointer;font-size:13px}
+h2.grp{font-size:21px;margin:22px 0 2px;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px}
+h2.grp:first-child{margin-top:4px}
 h2.grp small{font:13px system-ui,sans-serif;color:var(--mut);font-weight:400}
-.rotw{border:2px solid var(--acc);border-radius:14px;padding:4px 18px 8px;margin:14px 0 22px;background:var(--acc2)}
-.rotw .lbl{font:600 12px system-ui,sans-serif;color:var(--acc);text-transform:uppercase;letter-spacing:.08em;margin-top:12px}
-.paper{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:16px 0}
-.rotw .paper{border:0;background:transparent;padding:10px 0}
-.toc{display:block;background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px;text-align:center;line-height:0}
-.toc img{display:block;margin:0 auto;width:auto;max-width:100%;min-width:min(100%,640px);height:auto;max-height:700px;object-fit:contain}
-.toc.none{line-height:1.4;padding:14px;font:13px system-ui,sans-serif;color:var(--mut);background:var(--bg);border-style:dashed;text-decoration:none}
-.toc.none:hover{color:var(--acc);border-color:var(--acc)}
-.paper .cap{text-align:right;padding:4px 2px 0}
-.paper .meta{margin-top:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px;margin-top:10px;align-items:start}
+.paper{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;min-width:0}
+.paper h3{font-size:16px;line-height:1.32;margin:0 0 6px}
 .paper h3 a{text-decoration:none}.paper h3 a:hover{color:var(--acc)}
-.scheme{border:1px dashed var(--line);border-radius:8px;display:flex;align-items:center;justify-content:center;min-height:120px;background:var(--bg)}
-.scheme svg{width:100%;height:auto;max-width:190px;color:var(--mut)}
-.scheme.has{flex-direction:column;align-items:stretch;justify-content:flex-start;padding:4px;background:#fff}
-.scheme img{width:100%;height:auto;display:block;border-radius:6px}
-.cap{font:10px system-ui,sans-serif;color:#667271;padding:3px 2px 0}
-.meta{font:12px system-ui,sans-serif;color:var(--mut);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.j{background:var(--acc);color:#fff;padding:2px 8px;border-radius:5px;font-weight:600}
-.paper h3{font-size:18px;margin:6px 0 4px;line-height:1.3}
-.paper p{margin:4px 0;font-size:15px}
-.paper .au{font:13px system-ui,sans-serif;color:var(--mut)}
-.paper a.doi{font:13px system-ui,sans-serif;color:var(--acc);text-decoration:none}
+.meta{font:12px system-ui,sans-serif;color:var(--mut);display:flex;gap:4px 8px;flex-wrap:wrap;align-items:center}
+.j{background:var(--acc);color:#fff;padding:1px 7px;border-radius:5px;font-weight:600}
+.meta a.doi{color:var(--acc);text-decoration:none;overflow-wrap:anywhere}.meta a.doi:hover{text-decoration:underline}
+.toc{margin-top:10px;height:200px;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid var(--line);border-radius:9px;padding:6px;cursor:zoom-in;overflow:hidden}
+.toc img{max-width:100%;max-height:100%;width:auto;height:auto;display:block}
+.toc.none{height:auto;padding:9px;font:12.5px system-ui,sans-serif;color:var(--mut);background:var(--bg);border-style:dashed;cursor:pointer;text-decoration:none}
+.toc.none:hover{color:var(--acc);border-color:var(--acc)}
+.cap{font:10px system-ui,sans-serif;color:var(--mut);text-align:right;margin-top:3px}
+.rotw{border:2px solid var(--acc);border-radius:14px;padding:6px 16px 12px;margin:12px 0 6px;background:var(--acc2)}
+.rotw .lbl{font:600 12px system-ui,sans-serif;color:var(--acc);text-transform:uppercase;letter-spacing:.08em;margin:8px 0 4px}
+.rotw .paper{border:0;background:transparent;padding:4px 0}
+.rotw .paper h3{font-size:19px}
+.rotw .toc{height:300px}
 .empty{color:var(--mut);padding:30px 0;text-align:center;font-family:system-ui,sans-serif}
-.how{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:46px 0 10px;font-family:system-ui,sans-serif;font-size:14px}
-.how h3{margin:0 0 8px;font-family:Georgia,serif;font-size:20px}
-.how ol{margin:0;padding-left:20px;color:var(--mut)}
-footer{border-top:1px solid var(--line);margin-top:40px;padding:26px 0;color:var(--mut);font:13px system-ui,sans-serif;text-align:center}
-.burger{border:1px solid var(--line);background:var(--card);color:var(--ink);width:40px;height:40px;border-radius:10px;font-size:20px;cursor:pointer;line-height:1}
-.scrim{position:fixed;inset:0;background:rgba(0,0,0,.4);opacity:0;pointer-events:none;transition:.2s;z-index:20}
-.scrim.open{opacity:1;pointer-events:auto}
-.drawer{position:fixed;top:0;left:0;bottom:0;width:290px;max-width:85vw;background:var(--card);border-right:1px solid var(--line);transform:translateX(-100%);transition:.25s;z-index:21;padding:calc(env(safe-area-inset-top,0px) + 18px) 18px 18px;overflow-y:auto;font-family:system-ui,sans-serif}
-.drawer.open{transform:none}
-.drawer h4{margin:0 0 12px;font:700 18px Georgia,serif}
-.drawer .it{display:block;width:100%;text-align:left;border:0;background:none;color:var(--ink);padding:9px 10px;border-radius:8px;font-size:15px;cursor:pointer}
-.drawer .it:hover{background:var(--acc2)}
-.drawer .yr{font-weight:700;display:flex;justify-content:space-between}
-.drawer .ms{display:none;grid-template-columns:1fr 1fr;gap:6px;padding:4px 6px 10px}
-.drawer .ms.open{display:grid}
-.drawer .ms .it{border:1px solid var(--line);text-align:center;padding:8px 4px;font-size:14px}
-.drawer .ms .it:disabled{opacity:.35;cursor:default}
-.drawer .ms .it.on{background:var(--acc);color:#fff;border-color:var(--acc)}
-.ab{margin-top:8px;border-top:1px solid var(--line);padding-top:6px}
-.ab summary{font:600 12px system-ui,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--acc);cursor:pointer}
-.ab p{font-size:14.5px;color:var(--ink)}
-#selbar{font-family:system-ui,sans-serif;margin:8px 0}
-#selbar button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:6px 12px;cursor:pointer;margin-left:8px}
-button.pill{border:0;cursor:pointer;font-size:13px;padding:5px 12px}
-button.pill:hover{outline:1px solid var(--acc)}
-button.pill.on{background:var(--acc);color:#fff}
-.jchips{display:flex;flex-wrap:wrap;gap:6px;margin:2px 0 8px;font-family:system-ui,sans-serif}
-.jc{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:6px 12px;font-size:13px;cursor:pointer;line-height:1.2}
-.jc:hover:not(:disabled){border-color:var(--acc)}
-.jc .n{color:var(--mut);margin-left:5px;font-variant-numeric:tabular-nums}
-.jc.on{background:var(--acc);color:#fff;border-color:var(--acc)}
-.jc.on .n{color:#fff}
-.jc:disabled{opacity:.4;cursor:default}
-#feed{scroll-margin-top:70px}
 .empty button{margin-top:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:6px 12px;cursor:pointer}
-@media(max-width:640px){nav{display:none}.paper{padding:12px}.toc{padding:6px}}
+.how{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 22px;margin:40px 0 10px;font-family:system-ui,sans-serif;font-size:14px}
+.how h3{margin:0 0 8px;font-family:Georgia,serif;font-size:19px}
+.how ol{margin:0;padding-left:20px;color:var(--mut)}
+footer{border-top:1px solid var(--line);margin-top:34px;padding:22px 0 calc(22px + env(safe-area-inset-bottom,0px));color:var(--mut);font:13px system-ui,sans-serif;text-align:center}
+/* enlarged TOC */
+.lb{position:fixed;inset:0;background:rgba(0,0,0,.72);display:none;align-items:center;justify-content:center;z-index:30;padding:16px}
+.lb.open{display:flex}
+.lb figure{position:relative;margin:0;max-width:min(1100px,96vw);max-height:94vh;overflow:auto;background:#fff;color:#1d2a2a;border-radius:12px;padding:16px}
+.lb img{max-width:100%;max-height:74vh;display:block;margin:0 auto}
+.lb figcaption{font:15px/1.4 Georgia,serif;margin-top:10px}
+.lb figcaption a{font:13px system-ui,sans-serif;color:#0e7c66;text-decoration:none}
+.lb .x{position:absolute;top:6px;right:8px;border:0;background:none;font-size:24px;line-height:1;cursor:pointer;color:#555}
+@media(max-width:900px){
+  .cols{grid-template-columns:1fr}
+  .side{position:static;max-height:none;order:-1;overflow:visible}
+  #filters>summary{display:flex;justify-content:space-between;align-items:center;gap:8px;list-style:none;cursor:pointer;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 14px;font:600 14px system-ui,sans-serif}
+  #filters>summary::-webkit-details-marker{display:none}
+  #filters>summary::after{content:"▾";color:var(--mut)}
+  #filters[open]>summary::after{content:"▴"}
+  #filters[open]>summary{margin-bottom:10px}
+  #filters>summary span{font-weight:400;color:var(--mut);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .vlist,.jlist{display:flex;flex-wrap:wrap;gap:4px}
+  .vlist .opt,.jlist .opt{width:auto;border:1px solid var(--line);border-radius:99px;padding:5px 11px}
+  .mlist{grid-template-columns:repeat(4,1fr)}
+  .mlist .opt{justify-content:center;flex-direction:column;gap:0;padding:5px 2px}
+}
+@media(max-width:640px){nav a.hide-s{display:none}.grid{grid-template-columns:1fr}.toc{height:180px}.rotw .toc{height:220px}}
 </style>
 </head>
 <body>
-<header><div class="w"><div style="display:flex;align-items:center;gap:12px"><button class="burger" id="bg" aria-label="Open archive menu">☰</button><div class="logo">Ngai Group <span>Archive</span></div></div>
-<nav><a href="#feed">Reactions</a><a href="#how">How it works</a><a href="#" id="theme">Theme</a></nav></div></header>
-<div class="scrim" id="sc"></div>
-<aside class="drawer" id="dr"><h4>Browse archive</h4><button class="it" id="home">⌂ Latest</button><div id="yrs"></div></aside>
+<header><div class="w"><div class="logo">Ngai Group <span>Archive</span></div>
+<nav><a href="#feed" class="hide-s">Papers</a><a href="#how" class="hide-s">How it works</a><a href="toc-helper.html">TOC helper</a><a href="#" id="theme">Theme</a></nav></div></header>
 
 <main class="w">
 <section class="hero">
 <h1>Reaction of the Week</h1>
 <p>TOC graphics and links for the latest synthetic organic chemistry papers, collected automatically every two days.</p>
-<div id="jp"></div>
 </section>
 
+<div class="cols">
 <div id="feed">
-<div class="tabs" id="tabs">
-<button class="tab on" data-v="week">This week</button>
-<button class="tab" data-v="weeks">Weekly archive</button>
-<button class="tab" data-v="months">Monthly archive</button>
-</div>
-<div class="bar"><input id="q" placeholder="Search title, authors, keywords…" aria-label="Search papers"></div>
 <div id="selbar"></div>
-<div class="jchips" id="jchips" role="group" aria-label="Filter by journal"></div>
-<div id="out"></div>
+<div id="out"><div class="empty">Loading papers…</div></div>
+</div>
+
+<aside class="side" aria-label="Choose papers">
+<details id="filters" open><summary>☰ Choose papers <span id="fsum"></span></summary><div class="boxes">
+<div class="sbox"><h4>Search</h4><input id="q" type="search" placeholder="Title, author, keyword…" aria-label="Search papers"></div>
+<div class="sbox"><h4>View</h4><div class="vlist" id="vlist"></div></div>
+<div class="sbox"><h4>Month</h4><div class="mlist" id="mlist"></div></div>
+<div class="sbox"><h4>Journal</h4><div class="jlist" id="jlist"></div></div>
+</div></details>
+</aside>
 </div>
 
 <section class="how" id="how">
 <h3>How the archive is organised</h3>
 <ol>
-<li>Scope: we keep new reactions, catalytic methods and total synthesis from JACS, Angew, ACS Catal., Nature Synthesis, Nature Chemistry, Nature Communications (organic chemistry), Nature, Science and Chem. Inorganic, materials, polymer and biochemistry papers are left out.</li>
-<li>A collector runs every 2 days and adds new synthetic organic papers from the tracked journals, keeping the 100 most clearly synthetic papers of each month.</li>
-<li>Click a journal name to see only that journal's papers, within the month or tab you are viewing. The page address then links straight to that view, so you can share it.</li>
-<li>Papers from the current week appear under <b>This week</b> as the weekly reaction roundup.</li>
-<li>Once a week is older than 4 weeks, it is folded into the <b>Monthly archive</b>.</li>
+<li>Scope: new reactions, catalytic methods and total synthesis from JACS, Angew. Chem., ACS Catal., Nature Synthesis, Nature Chemistry, Nature Communications, Nature, Science and Chem. Inorganic, materials, polymer, energy and biochemistry papers are left out.</li>
+<li>A collector runs every 2 days and keeps the 120 most clearly synthetic papers of each month.</li>
+<li>Use the panel on the right to pick a view, a month and a journal. The page address then links straight to that selection, so you can share it.</li>
+<li>Click a TOC graphic to see it enlarged; click the title or DOI to open the paper.</li>
+<li>TOC graphics: Nature journals and Chem appear automatically. ACS (JACS, ACS Catal.), Wiley (Angewandte) and Science block automated servers, so their pictures are added with the <a href="toc-helper.html">TOC picture helper</a>.</li>
 </ol>
 </section>
 </main>
-<footer>© 2026 Ngai Group Archive · page v4 · Entries gathered from journal listings · TOC graphics © their publishers; full text at the publisher</footer>
+<footer>© 2026 Ngai Group Archive · page v6 · Entries gathered from journal listings · TOC graphics © their publishers; full text at the publisher · <a href="toc-helper.html">TOC picture helper</a></footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Enlarged TOC graphic"><figure><button class="x" id="lbx" aria-label="Close">×</button><img id="lbimg" alt=""><figcaption id="lbcap"></figcaption></figure></div>
 
 <script>
 const JOURNALS=["Nature","Science","Nature Chemistry","Nature Synthesis","Nature Catalysis","Nature Communications","Angew. Chem. Int. Ed.","J. Am. Chem. Soc.","ACS Catal.","Chem"];
+const VIEWS=[["week","This week"],["weeks","Last 4 weeks"],["months","Monthly archive"]];
+const MN=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const DAY=864e5, TODAY=new Date(); TODAY.setHours(0,0,0,0);
-const NC="Nature Communications",NS="Nature Synthesis",NCH="Nature Chemistry",JA="J. Am. Chem. Soc.",AC="ACS Catal.",AN="Angew. Chem. Int. Ed.";
-const N=(d,id,t,au,tag,ab)=>[d,NC,t,au,tag,ab,"10.1038/s41467-026-"+id];
-// Real entries, collected from journal listings (Oct 2026 snapshot). Abstracts are condensed paraphrases; full text via DOI link.
-const RAW=[
-N("2026-10-22","78741-0","Asymmetric total synthesis of veraflorizine, peimine and peiminine","Hui Wang … Shuanhu Gao","Total synthesis","Convergent route to three Veratrum steroidal alkaloids, using a silicon-guided Nazarov reaction to set key stereocenters and build the C-ring."),
-N("2026-10-21","75855-3","A dynamically tunable diamine ligand enables Cu-catalyzed enantioselective nucleophilic substitution at P(V)","Jie Wei … Ming Shang","Asymmetric catalysis","Cu-catalysed substitution of racemic (thio)phosphoryl chlorides gives scalable, highly enantioselective access to P-stereogenic (thio)phosphoramidates."),
-N("2026-10-17","78834-w","Enantioselective sp3-sp3 cross-coupling of oxygen-containing heterocycles with cyclopropanols","Yang Ke … Wangqing Kong","Ni catalysis","Nickel-catalysed enantioselective C(sp3)–H alkylation of O-heterocycles with cyclopropanols forms stereodefined C(sp3)–C(sp3) bonds."),
-N("2026-10-16","78679-3","Cobalt-catalyzed alkyne migratory hydroboration to access β-alkenylboronates via catalytic zipper-like alkyne translocation","Yeon Hee Kim … Jung-Woo Park","Remote functionalization","A Co–H catalyst walks an alkyne across up to eight carbons before hydroboration, giving regioselective β-(E)-alkenylboronates under mild conditions."),
-N("2026-10-16","78744-x","Equimolar cross-coupling of arenes and azoles by alternating current electrolysis","Wayne Sow … Shunsuke Chiba","Electrochemistry","AC electrolysis couples arenes and azoles 1:1 to form C–N bonds, applied to late-stage amination and a continuous-flow process at 300 mmol/day."),
-N("2026-10-15","78484-y","Asymmetric synthesis of azabicyclo[2.1.1]hexanes via electrochemical haloamination of methylenecyclobutanes","Jyothirlatha V. N. Kasu … Durga Prasad Hari","sp3-rich scaffolds","Electrochemical haloamination converts methylenecyclobutanes into enantioenriched aza-BCHs, conformationally restricted pyrrolidine analogues."),
-N("2026-10-15","78287-1","Divergent asymmetric synthesis of (–)-ganocins A–C and (+)-cochlearol B via a non-biomimetic strategy","Hailong Xu … Zhiqiang Ma","Total synthesis","A unified non-biomimetic strategy delivers four structurally distinct Ganoderma meroterpenoids in asymmetric form."),
-N("2026-10-15","78630-6","Rapid and versatile water-promoted oxidative [3+2] cycloaddition","Zheng-Yang Gu … Ru-Yi Zhu","Click chemistry","Activated unstrained alkenes react quickly with hydrazones in water under air at ambient conditions, offering a click-type cycloaddition."),
-N("2026-10-08","78455-3","A convergent total synthesis of the ivermectin aglycon through transition metal-mediated and anionic transformations","Goh Sennari … Toshiaki Sunazuka","Total synthesis","Fragment assembly and templated macrocyclization give the ivermectin B1a aglycon in 21 longest-linear steps."),
-N("2026-10-07","78459-z","Carbon dioxide as a multifunctional regulator in electrochemical vicinal bromination","Guo-Wei Lai … Hai-Tao Tang","Electrochemistry","CO2-mediated electrochemical dibromination of alkenes with NaBr tolerates sensitive functional groups."),
-N("2026-10-06","78282-6","Catalytic asymmetric dearomatization of (hetero)aromatic frameworks","Yu Chang … Hailong Yan","Dearomatization","A vinylidene ortho-quinone methide platform gives predictable, site-selective asymmetric dearomative cycloadditions of polycyclic (hetero)aromatics."),
-N("2026-10-05","78297-z","Copper(I)-catalyzed enantioselective Truce-Smiles rearrangement to access glutamine motifs bearing 1,3-nonadjacent stereocenters","Zhenguang Guo … Wei-Ping Deng","Rearrangement","Catalytic asymmetric Truce–Smiles gives glutamine derivatives with nonadjacent stereocentres and new heteroaryl/alkenyl migrations."),
-N("2026-10-03","78226-0","Enantioselective palladium-catalyzed carbonylation of gem-dibromoalkenes to chiral benzo[7]annulenes","Yu Luo … Qiang Zhu","Pd carbonylation","Asymmetric monocarbonylation of prochiral gem-dibromoalkenes yields inherently chiral benzo[7]annulenes in high ee."),
-N("2026-09-28","77771-y","Synthesis of 4- and 5-membered fluorine-stabilised semi-saturated heterocycles via alkylidene carbenes","E. Harvey Randle … Alastair J. J. Lennox","Fluorine chemistry","Alkylidene carbenes give fluorinated four- and five-membered N/O heterocycles, with fluorine shown to stabilise these motifs."),
-N("2026-09-24","77983-2","Unnatural α-amino acid synthesis enabled by nickel-catalysed enantioselective hydrocarbamoylation of enamides via C‒H functionalisation","Xuemeng Chen & Søren Kramer","Amino acids","Ni–H catalysis combined with HAT turns enamides and DMF into enantioenriched α-amino acid derivatives."),
-N("2026-09-21","77981-4","Tandem cyclohexen-3-yne and 1,2,3-cyclohexatriene reactions","Wenhao Yin … Yang Li","Reactive intermediates","Cyclohexyne-type intermediates are used in cascades such as 1,3-diaminations and addition–ene or addition–[4+2] sequences."),
-N("2026-09-16","76235-7","Practical synthesis of 3-Oxa/Aza-bicyclo[3.1.1]heptanes from 3-Oxa/Aza[3.1.1]propellanes","Qin Jiang … Dong Xue","Bioisosteres","Heteroatom-containing [3.1.1]propellanes are made practically and opened to give meta-benzene bioisosteres."),
-N("2026-09-15","77774-9","Visible light-induced oxygen atom transfer into C−Cl bond of acyl chlorides for homolytic cleavage","Yang Zhang … Chengfeng Xia","Photochemistry","Light-driven deoxygenation of benzotriazole N-oxides releases O(3P), which inserts into the C–Cl bond of acyl chlorides."),
-N("2026-09-14","77739-y","Difunctionalization of unsaturated hydrocarbons via EDA complexes to access pentafluorosulfanyl thioethers","Xiaofeng Zhang … Jianbo Wang","SF5 chemistry","EDA-complex photoactivation enables thio-pentafluorosulfanylation of electron-poor alkenes and other unsaturated hydrocarbons."),
-N("2026-09-12","77436-w","Catalytic Asymmetric Spiroannulation to Access Polycyclic Spiro Enones via Transient Axial-to-Point Chirality Induction and Transfer","Qian Wang … Junliang Zhang","Asymmetric catalysis","Pd/Sadphos-catalysed dearomative cascade gives spiro enones with three contiguous stereocentres."),
-N("2026-09-04","77184-x","Stereoselective synthesis of E-shaped double helicene analogues via organocatalytic intermolecular cycloaddition","Jingying Zhang … Xihong Liu","Organocatalysis","Organocatalytic cycloaddition of polycyclic phenols with 2-alkynylphenols builds E-shaped double helicenes with excellent stereocontrol."),
-N("2026-09-04","77468-2","Visible light-mediated Alder-ene reaction of bicyclobutanes with cyclohexynes to access skipped dienes and skeletal remodeling to tetralines","Shashank Shrotriya & Akkattu T. Biju","Strained rings","Couples two strained systems under visible light to give sp3-rich skipped dienes and remodelled tetralins."),
-N("2026-09-04","77437-9","Zipper polydefluorination-monoborylation of perfluoroalkyl chains","Sanne L. Albers … Jan Streuff","C–F activation","Perfluoroalkyl alkenes are fully defluorinated to linear alkyl boranes while the carbon backbone stays intact."),
-N("2026-09-04","77482-4","Cobalt-catalyzed Markovnikov-selective hydrophosphonylation of unactivated alkenes enabled by phthalimidyl phosphite reagents","Xinru Lin … Chaozhong Li","Radical chemistry","N–O–P phosphites act as radical traps in Co-catalysed Markovnikov hydrophosphonylation of simple alkenes."),
-N("2026-09-03","77336-z","General access to azoles through tailored nitrogen–nitrogen bond construction","Qing Yan … Xiang-Shan Wang","Heterocycles","Copper-mediated direct N–N bond formation builds azoles from readily available reagents."),
-N("2026-09-03","77403-5","Excitation of acyclic trisubstituted alkenes via triplet energy transfer for diastereo- and enantioselective [2 + 2] photocycloaddition","Jinguo Long … Xianjie Fang","Photocatalysis","Dual catalysis suppresses the racemic background in [2+2] photocycloaddition of 2-cyanoacrylamides."),
-N("2026-08-27","77228-2","Catalyst-controlled regiodivergence in enantioselective synthesis of spirocyclic γ- versus δ-lactams","Shao-Hua Wu … Qing-Hai Deng","Spirocycles","From one alkyne-tethered β-ketoamide, the choice of catalyst selects γ- or δ-spirolactams enantioselectively."),
-N("2026-08-26","74378-1","Copper-catalyzed enantioselective allylation of cyclic anhydrides for generation of multiple chiral centers","Zhengshuai Xu … Shengming Ma","Cu catalysis","Cu-catalysed reaction of cyclic anhydrides with 1,1-disubstituted allenes sets several stereocentres at once."),
-N("2026-08-25","77092-0","Amide synthesis via molecular shuffling of carboxylic acids","Chenglong Li … Tieqiao Chen","Amide synthesis","A new amide-forming approach that relies on shuffling the carboxylic acid functional group."),
-N("2026-08-25","77185-w","Scaffold hopping of furans into 3-cyanopyridines","Prakash Kafle … Indrajeet Sharma","Skeletal editing","A cyanosulfenylcarbene opens furans to dienones, which then close with a nitrogen source to give pyridines."),
-N("2026-08-21","76924-3","A unified and desymmetric approach to axially chiral atropisomers","Dan Hu … Jia-Yu Liao","Atropisomers","Modular platform delivering C–C, C–N, N–N and C–O axially chiral frameworks in high ee."),
-N("2026-08-20","76749-0","A ligand-controlled regiodivergent three-component Heck-Tsuji reaction utilizing umpolung hydrazones enabled by palladium catalysis","Evan F. W. Chen … Chao-Jun Li","Pd catalysis","Allenes, aryl iodides and umpolung hydrazones couple to form two C–C bonds, with ligand-switched regioselectivity."),
-N("2026-08-19","76282-0","An Atomically Dispersed Copper-Catalyst Lights the Way to Selective N-Demethylations","Wenhao Su … Shoubhik Das","Photocatalysis","Recyclable single-atom Cu on carbon nitride photocatalyses selective N-demethylation."),
-N("2026-08-06","76290-0","Three-site cycloadditions within one reaction intermediate with site-selectivity controlled by electronic and size bias","Chandrima Maitra … Rai-Shung Liu","Gold catalysis","A gold-catalysed three-site intermediate selectively delivers diverse benzoxepines."),
-N("2026-07-31","76150-x","Decarboxylative epoxidation of carboxylic acids for accelerating synthesis of oxiranes and derivatives","Ziyang Li … Chao Shu","Photochemistry","Carboxylic acids are converted to epoxides under mild photochemical irradiation."),
-N("2026-07-30","76238-4","Skeletal restructuring of oxetanes through photoinduced oxygen deletion","Ying-Qi Zhang … Ming Joo Koh","Skeletal editing","Catalyst-free photochemical oxygen excision from oxetanes gives ring contraction or remodelling."),
-N("2026-07-25","75992-9","Substituent-rebound skeletal editing for precise boron-to-carbon single-atom swapping","Yan-Bo Li … Frank Glorius","Skeletal editing","1,2-Benzazaborines are converted to quinolines by B-to-C atom swap while keeping the peripheral substituents."),
-N("2026-07-25","75906-9","Alumina-Templated ortho-Prenylation of Phenols","Mathew L. Piotrowski … Jakob Magolan","Natural products","Alumina promotes selective ortho-prenylation of phenols, giving scalable access to prenylated natural products."),
-N("2026-07-24","76036-y","Counteranion-mediated dynamic kinetic asymmetric fluorination to access sulfur-stereogenic center","Zhihuang Chen … Xiaodong Xiong","S-stereogenic","One-pot asymmetric fluorination gives enantioenriched sulfonimidoyl fluorides."),
-N("2026-07-24","75854-4","Nickel catalysis enables chemoselectivity in radiation chemistry","Weiqiu Liang … Zhibo Liu","Ni catalysis","Nickel tames radiation-generated radicals for selective C–H arylation and stereoselective C(sp3)–H functionalization."),
-N("2026-07-20","75768-1","Alkyne Migratory Insertion Enabled Dynamic Kinetic Asymmetric Dearomatization of Unactivated Racemic Biaryls","Yongjian Yang … Xueliang Huang","Dearomatization","Pd-catalysed enantioconvergent dearomatization of naphthalenes through alkyne migratory insertion."),
-N("2026-07-20","75769-0","Ligand relay catalysis enables asymmetric migratory dearomative annulation of N-heteroarenes","Zhiyong Song … Shaolin Zhu","Co catalysis","Cobalt ligand-relay catalysis yields chiral N-spiroheterocycles from electron-poor N-heteroarenes."),
-["2026-10-19",NS,"Stepwise and chemoselective installation of carbon substituents at silicon atoms via monobromination of hydrosilanes","Sanjay Singh … Martin Oestreich","Organosilicon","Controlled monobromination of multihydrosilanes allows iterative access to silanes carrying four different substituents.","10.1038/s44160-026-01178-2"],
-["2026-10-08",NS,"Modular synthesis of 3,3-diaryloxetanes","Nature Synthesis (open access)","Oxetanes","Modular route to 3,3-diaryl oxetanes, strained O-heterocycles used to tune lipophilicity and stability in drug design.",null],
-["2026-10-07",NCH,"News & Views: Controlling reactions via nucleophile sorting","Caroline W. Evans & Brett N. Hemric","Pd catalysis","Highlights a Pd system from propargylic alcohols that uses tiered nucleophilicity (inner- vs outer-sphere) to control regio-, chemo- and enantioselectivity of olefin addition.","10.1038/s41557-026-02268-6"],
-["2026-10-07",NCH,"News & Views: A triple carbonylation cascade converts aldehydes into threofuranoses","Nature Chemistry","Carbonylation","Highlights a Rh-catalysed triple-carbonylation cascade turning aldehydes into 4-carbothreofuranoses in one step.","10.1038/s41557-026-02284-6"],
-["2026-10-09",JA,"Regio- and Enantioselective Functionalization of Gaseous Alkanes via Nickel-Catalyzed Alkene Dicarbofunctionalization","Sergio Barbeira-Arán … Martín Fañanás-Mastral","Ni catalysis","Ni-catalysed enantioselective dicarbofunctionalization of alkenes that functionalizes gaseous alkanes.","10.1021/jacs.6c15886"],
-["2026-08-31",JA,"Nickel-Electrocatalyzed Anodic Enantioselective Acyloxylation and Cathodic Deacyloxylation of C–O Bonds","JACS 148, 39273","Electrocatalysis","Enantioselective Ni-electrocatalysis using a spin-centre-shift mechanism for both stereoselective C–O formation and cleavage, with a ferrocene mediator.","10.1021/jacs.6c14548"],
-["2026-10-22",JA,"Simultaneous Installation of 1,6-Stereocenters by Asymmetric Allylation of Resorcinol Boronates: Application to the Synthesis of Merocyclophane A","J. Am. Chem. Soc. ASAP","Total synthesis","Asymmetric allylation of resorcinol boronates sets remote 1,6-stereocentres and is applied to merocyclophane A.",null],
-["2026-10-22",JA,"Protecting Groups as Catalysts: Direct Synthesis of Primary Amines from Ammonia under Carbonyl Catalysis","J. Am. Chem. Soc. ASAP","Amine synthesis","Carbonyl catalysis converts ammonia directly into primary amines.",null],
-["2026-10-21",AC,"Nickel-Catalyzed Regiodivergent and Enantioselective Hydrosilylation of Internal Alkenes","Jun-Rong Zhang, Ya Xiao et al.","Ni catalysis","Ni-catalysed hydrosilylation of internal alkenes with switchable regioselectivity and high enantioselectivity.",null],
-["2026-10-21",AC,"Copper-Mediated Valence Tautomerism Enables α-C(sp3)–H Alkylation of 1,3-Dicarbonyl Compounds and Tryptophans via Photocatalysis","ACS Catal. ASAP","Photocatalysis","Cu valence tautomerism enables photocatalytic α-C(sp3)–H alkylation of 1,3-dicarbonyls and tryptophans.",null],
-["2026-10-22",AC,"Metal-Free Oxidized Carbon Nitride/L-Proline Synergistic Catalysis: Highly Enantioselective Direct Synthesis of C2-Quaternary Indolinones via Dearomative Oxyalkylation Cascades","Harendra Sheshma, Ashish Singh et al.","Organocatalysis","Carbon nitride plus L-proline gives C2-quaternary indolinones enantioselectively via dearomative oxyalkylation cascades.",null],
-["2026-10-19",AC,"Nickel-Catalyzed Enantioselective Cyclizative Alkylation of 1,6-Enynes with Diazo Compounds and Alkyl Halides","ACS Catal. ASAP","Ni catalysis","Enantioselective Ni-catalysed cyclizative alkylation of 1,6-enynes using diazo compounds and alkyl halides.",null],
-["2026-10-22",AN,"Engaging Aryl Radicals for Bioisosteric Tuning of Sulfoximines Through Copper Metallaphotoredox Catalysis","Jennifer A. Nguyen, Johannes J. Großkopf, David W. C. MacMillan","Metallaphotoredox","Aryl radicals and Cu metallaphotoredox catalysis are used to tune sulfoximines as bioisosteres.",null],
-["2026-10-19",AN,"Visible-Light-Induced Radical Carbonylative Dearomatization of Unactivated Indoles","Angew. Chem. Int. Ed.","Dearomatization","Visible-light radical carbonylation dearomatizes unactivated indoles.","10.1002/anie.5282902"],
-["2026-10-19",AN,"Organocatalytic Dynamic Kinetic Resolution for the Stereoconvergent Synthesis of N–N Axially Chiral Compounds","Angew. Chem. Int. Ed.","Atropisomers","Organocatalytic DKR gives N–N axially chiral compounds stereoconvergently.",null],
-["2026-10-16",AN,"Catalytic Asymmetric Synthesis of Spiro[3.3]heptane-Based Axially Chiral α-Amino Acids","Angew. Chem. Int. Ed.","Amino acids","Mild asymmetric catalytic reductive amination of a designed prochiral substrate gives axially chiral α-amino acids.",null],
-["2026-01-30",AN,"Rhodium-Catalyzed Enantioselective Synthesis of Planar-Chiral Macrocycles via De Novo Isoquinoline Formation","Angew. Chem. e25396","Macrocycles","CpRh(III)-catalysed intramolecular asymmetric [4+2] annulation of imines with alkynes gives planar-chiral macrocycles; mechanism and enantioselectivity origin studied.",null]
-];
-const SAMPLE=RAW.map(a=>({date:new Date(a[0]+"T00:00:00"),j:a[1],t:a[2],au:a[3],s:a[4],ab:a[5],doi:a[6],img:null}));
-// Archive covers the current year only (new years appear automatically).
 const YEAR=TODAY.getFullYear();
-let PAPERS=SAMPLE.filter(p=>p.date.getFullYear()===YEAR);
-let sel=null;
+let PAPERS=[], view="week", sel=null, jsel="";
 
 const $=s=>document.querySelector(s);
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt=d=>d.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
 const monday=d=>{const x=new Date(d);x.setDate(x.getDate()-((x.getDay()+6)%7));return x};
 const THIS=monday(TODAY);
 const weeksAgo=d=>Math.round((THIS-monday(d))/(7*DAY));
-const scheme='<svg viewBox="0 0 190 80" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 20l12-7 12 7v14l-12 7-12-7z"/><path d="M62 40h50m-8-6l8 6-8 6"/><path d="M130 20l12-7 12 7v14l-12 7-12-7z"/><path d="M154 27h14" /><text x="48" y="70" font-size="10" fill="currentColor" stroke="none" font-family="system-ui">reaction scheme</text></svg>';
-
-// Card: large TOC graphic, then journal + date, the paper title and its DOI link (no abstract).
-const NOTOC="TOC graphic not available · open the paper →";
+const monthName=s=>new Date(s.y,s.m).toLocaleDateString("en-GB",{month:"long",year:"numeric"});
+const link=p=>p.doi?"https://doi.org/"+p.doi:"https://search.crossref.org/search/works?from_ui=yes&q="+encodeURIComponent(p.t);
 // Nature-family figures: ask Springer's server for the larger 1200-px version.
 const bigImg=u=>u.includes("media.springernature.com/lw685/")?u.replace("/lw685/","/lw1200/"):u;
-function card(p){
-  const link=p.doi?"https://doi.org/"+p.doi:"https://search.crossref.org/search/works?from_ui=yes&q="+encodeURIComponent(p.t);
+const NOTOC="TOC graphic not available · open the paper →";
+
+// Card: title, then journal · date · DOI link, then the TOC graphic.
+function card(p,i){
   const toc=p.img
-    ?`<a class="toc" href="${link}" target="_blank" rel="noopener"><img src="${esc(bigImg(p.img))}" alt="TOC graphic" loading="lazy" referrerpolicy="no-referrer" onerror="imgFail(this)"></a><div class="cap">TOC graphic © ${esc(p.j)}</div>`
-    :`<a class="toc none" href="${link}" target="_blank" rel="noopener">${NOTOC}</a>`;
-  return `<article class="paper">${toc}
-<div class="meta"><span class="j">${p.j}</span><span>${fmt(p.date)}</span></div>
-<h3><a href="${link}" target="_blank" rel="noopener">${p.t}</a></h3>
-<a class="doi" href="${link}" target="_blank" rel="noopener">${p.doi?"https://doi.org/"+p.doi:"Find paper"} →</a></article>`}
+    ?`<div class="toc" data-i="${i}" role="button" tabindex="0" aria-label="Enlarge TOC graphic"><img src="${esc(bigImg(p.img))}" alt="TOC graphic" loading="lazy" referrerpolicy="no-referrer" onerror="imgFail(this)"></div><div class="cap">TOC graphic © ${esc(p.j)}</div>`
+    :`<a class="toc none" href="${link(p)}" target="_blank" rel="noopener">${NOTOC}</a>`;
+  return `<article class="paper"><h3><a href="${link(p)}" target="_blank" rel="noopener">${esc(p.t)}</a></h3>
+<div class="meta"><span class="j">${esc(p.j)}</span><span>${fmt(p.date)}</span><a class="doi" href="${link(p)}" target="_blank" rel="noopener">${p.doi?"https://doi.org/"+esc(p.doi):"Find paper"} →</a></div>${toc}</article>`}
 
 const EXT=["gif","jpeg","jpg","png"];
 // If a TOC image fails: Nature falls back to the 685-px size, ACS Figure-1 links try other file
-// types, and otherwise a small "not available" box replaces the picture.
+// types, and otherwise a small "not available" line replaces the picture.
 function imgFail(el){
   if(el.src.includes("/lw1200/")){el.src=el.src.replace("/lw1200/","/lw685/");return}
   const m=el.src.match(/^(.*_0001)\.(gif|jpeg|jpg|png)(\?.*)?$/);
   if(m&&el.src.includes("pubs.acs.org")){const i=EXT.indexOf(m[2])+1;if(i<EXT.length){el.src=m[1]+"."+EXT[i];return}}
-  const a=el.closest(".toc");if(!a)return;
-  const cap=a.nextElementSibling;if(cap&&cap.classList.contains("cap"))cap.remove();
-  a.classList.add("none");a.textContent=NOTOC}
-let view="week";
-let jsel="";                                   // selected journal ("" = all journals)
-const monthName=s=>new Date(s.y,s.m).toLocaleDateString("en-GB",{month:"long",year:"numeric"});
-const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-// Is a paper inside what is on screen now (selected month, or the current tab)?
+  const box=el.closest(".toc");if(!box)return;
+  const p=shown[+box.dataset.i];
+  const cap=box.nextElementSibling;if(cap&&cap.classList.contains("cap"))cap.remove();
+  const a=document.createElement("a");a.className="toc none";a.target="_blank";a.rel="noopener";a.href=p?link(p):"#";a.textContent=NOTOC;
+  box.replaceWith(a)}
+
+// Is a paper inside the current selection (chosen month, or the chosen view)?
 function inScope(p){
   if(sel)return p.date.getFullYear()===sel.y&&p.date.getMonth()===sel.m;
   const w=weeksAgo(p.date);
   return view==="week"?w===0:view==="weeks"?(w>0&&w<=4):w>4;
 }
-function setJournal(j,scroll){
-  jsel=(j===jsel)?"":j;                        // clicking the active journal again shows all journals
-  buildMenu();render();
-  if(scroll)$("#feed").scrollIntoView({behavior:"smooth"});
-}
-// Keep the current view in the address bar, so a link opens the same month and journal.
+const matches=(p,q)=>!q||(p.t+" "+p.au+" "+p.s+" "+p.ab).toLowerCase().includes(q);
+
 function saveUrl(){
   const u=new URLSearchParams();
   if(sel)u.set("month",`${sel.y}-${String(sel.m+1).padStart(2,"0")}`);else if(view!=="week")u.set("view",view);
@@ -255,71 +187,79 @@ function saveUrl(){
   const s=u.toString();
   try{history.replaceState(null,"",s?"?"+s:location.pathname)}catch(e){}
 }
+
+let shown=[];
 function render(){
-  const q=$("#q").value.toLowerCase();
-  $("#selbar").innerHTML=sel?`Showing <b>${monthName(sel)}</b>${jsel?` · <b>${esc(jsel)}</b>`:""}<button id="clr">✕ Back to latest</button>`:"";
-  const c=$("#clr");if(c)c.onclick=()=>{sel=null;render();buildMenu()};
-  document.querySelector("#tabs").style.display=sel?"none":"flex";
-  const scope=PAPERS.filter(p=>inScope(p)&&(!q||(p.t+p.au+p.s).toLowerCase().includes(q)));
+  const q=$("#q").value.trim().toLowerCase();
+  // side panel: view, month, journal (counts follow the other choices)
+  $("#vlist").innerHTML=VIEWS.map(([v,l])=>`<button class="opt ${!sel&&view===v?"on":""}" data-v="${v}">${l}</button>`).join("");
+  $("#mlist").innerHTML=MN.map((m,i)=>{const n=PAPERS.filter(p=>p.date.getMonth()===i&&(!jsel||p.j===jsel)&&matches(p,q)).length;
+    return `<button class="opt ${sel&&sel.m===i?"on":""}" data-m="${i}" ${n?"":"disabled"}>${m}<span class="n">${n||""}</span></button>`}).join("");
+  const scope=PAPERS.filter(p=>inScope(p)&&matches(p,q));
   const cnt={};scope.forEach(p=>cnt[p.j]=(cnt[p.j]||0)+1);
-  $("#jchips").innerHTML=`<button class="jc ${jsel?"":"on"}" data-j="">All journals<span class="n">${scope.length}</span></button>`+
-    JOURNALS.map(j=>`<button class="jc ${jsel===j?"on":""}" data-j="${esc(j)}" ${cnt[j]||jsel===j?"":"disabled"} aria-pressed="${jsel===j}">${esc(j)}<span class="n">${cnt[j]||0}</span></button>`).join("");
-  document.querySelectorAll("#jp .pill").forEach(b=>{const on=b.dataset.j===jsel;b.classList.toggle("on",on);b.setAttribute("aria-pressed",on)});
+  $("#jlist").innerHTML=`<button class="opt ${jsel?"":"on"}" data-j="">All journals<span class="n">${scope.length}</span></button>`+
+    JOURNALS.map(j=>`<button class="opt ${jsel===j?"on":""}" data-j="${esc(j)}" ${cnt[j]||jsel===j?"":"disabled"}>${esc(j)}<span class="n">${cnt[j]||0}</span></button>`).join("");
+  // what is being shown
+  const what=sel?monthName(sel):VIEWS.find(v=>v[0]===view)[1];
+  $("#selbar").innerHTML=`<span>Showing <b>${what}</b>${jsel?` · <b>${esc(jsel)}</b>`:""}${q?` · “${esc(q)}”`:""}</span>`+(sel||jsel||q?`<button id="clr">✕ Clear</button>`:"");
+  const c=$("#clr");if(c)c.onclick=()=>{sel=null;jsel="";$("#q").value="";render()};
+  $("#fsum").textContent=what+(jsel?" · "+jsel:"");
   saveUrl();
   const list=scope.filter(p=>!jsel||p.j===jsel).sort((a,b)=>b.date-a.date);
+  shown=list;
+  if(!list.length){
+    const where=sel?" in "+monthName(sel):view==="week"?" this week":"";
+    $("#out").innerHTML=`<div class="empty">No ${jsel?esc(jsel)+" ":""}papers${where}${q?" matching “"+esc(q)+"”":""}.`+
+      (view==="week"&&!sel&&!jsel&&!q?`<br><button id="alt">Show the last 4 weeks</button>`:jsel||q?`<br><button id="alt">Show all journals</button>`:"")+`</div>`;
+    const b=$("#alt");if(b)b.onclick=()=>{if(jsel||q){jsel="";$("#q").value=""}else view="weeks";render()};
+    return}
   const groups=new Map();
   const add=(k,sub,p)=>{if(!groups.has(k))groups.set(k,{sub,items:[]});groups.get(k).items.push(p)};
   list.forEach(p=>{
-    const w=weeksAgo(p.date);
-    if(sel){if(p.date.getFullYear()===sel.y&&p.date.getMonth()===sel.m)add("Week of "+fmt(monday(p.date)),"Archive",p);return}
-    if(view==="week"&&w===0)add("Week of "+fmt(THIS),"Reaction roundup",p);
-    else if(view==="weeks"&&w>0&&w<=4){const m=monday(p.date);add("Week of "+fmt(m),"Weekly roundup",p)}
-    else if(view==="months"&&w>4)add(p.date.toLocaleDateString("en-GB",{month:"long",year:"numeric"}),"Monthly roundup",p);
+    if(!sel&&view==="months")add(p.date.toLocaleDateString("en-GB",{month:"long",year:"numeric"}),"Monthly roundup",p);
+    else add("Week of "+fmt(monday(p.date)),sel?"Archive":view==="week"?"Reaction roundup":"Weekly roundup",p);
   });
-  if(!groups.size){
-    const where=sel?" in "+monthName(sel):view==="week"?" this week":"";
-    $("#out").innerHTML=jsel?`<div class="empty">No ${esc(jsel)} papers${where}.<br><button id="alljs">Show all journals</button></div>`:'<div class="empty">No papers match yet.</div>';
-    const b=$("#alljs");if(b)b.onclick=()=>setJournal("",false);
-    return}
-  $("#out").innerHTML=[...groups].map(([k,g],i)=>{
-    const top=g.items[0];
-    const feat=view==="week"&&!sel?`<div class="rotw"><div class="lbl">★ Reaction of the week</div>${card(top)}</div>`:"";
-    const rest=view==="week"&&!sel?g.items.slice(1):g.items;
-    return `<h2 class="grp">${k}<small>${g.sub} · ${g.items.length} paper${g.items.length>1?"s":""}</small></h2>${feat}${rest.map(card).join("")}`}).join("");
+  $("#out").innerHTML=[...groups].map(([k,g])=>{
+    let items=g.items,feat="";
+    if(view==="week"&&!sel){                       // feature the week's top-ranked paper
+      const top=items.reduce((a,b)=>(b.score||0)>(a.score||0)?b:a,items[0]);
+      feat=`<div class="rotw"><div class="lbl">★ Reaction of the week</div>${card(top,list.indexOf(top))}</div>`;
+      items=items.filter(p=>p!==top);
+    }
+    return `<h2 class="grp">${k}<small>${g.sub} · ${g.items.length} paper${g.items.length>1?"s":""}</small></h2>${feat}<div class="grid">${items.map(p=>card(p,list.indexOf(p))).join("")}</div>`}).join("");
 }
-JOURNALS.forEach(j=>$("#jp").insertAdjacentHTML("beforeend",`<button class="pill" data-j="${esc(j)}" aria-pressed="false" title="Show only ${esc(j)} papers">${esc(j)}</button>`));
-$("#jp").onclick=e=>{const b=e.target.closest(".pill");if(b)setJournal(b.dataset.j,true)};
-$("#jchips").onclick=e=>{const b=e.target.closest(".jc");if(b&&!b.disabled)setJournal(b.dataset.j===jsel?"":b.dataset.j,false)};
-const setTab=v=>{view=v;document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("on",t.dataset.v===v))};
-$("#tabs").onclick=e=>{const b=e.target.closest(".tab");if(!b)return;setTab(b.dataset.v);render()};
+
+// side panel clicks (on phones the panel starts folded, and folds again after a choice)
+const small=()=>window.matchMedia("(max-width:900px)").matches;
+if(small())$("#filters").removeAttribute("open");
+const fold=()=>{if(small())$("#filters").removeAttribute("open")};
+$("#vlist").onclick=e=>{const b=e.target.closest(".opt");if(!b)return;view=b.dataset.v;sel=null;render();fold();$("#feed").scrollIntoView({behavior:"smooth"})};
+$("#mlist").onclick=e=>{const b=e.target.closest(".opt");if(!b||b.disabled)return;const m=+b.dataset.m;sel=(sel&&sel.m===m)?null:{y:YEAR,m};render();fold();$("#feed").scrollIntoView({behavior:"smooth"})};
+$("#jlist").onclick=e=>{const b=e.target.closest(".opt");if(!b||b.disabled)return;const j=b.dataset.j;jsel=(j===jsel)?"":j;render();fold()};
 $("#q").oninput=render;
-// Open the view given in the address (e.g. ?month=2026-04&journal=Nature), so links can be shared.
+$("#theme").onclick=e=>{e.preventDefault();const r=document.documentElement,d=getComputedStyle(r).colorScheme.includes("dark")||r.dataset.theme==="dark";r.dataset.theme=d?"light":"dark"};
+
+// enlarged TOC
+const lb=$("#lb");
+function openLb(i){const p=shown[i];if(!p)return;const im=document.querySelector(`.toc[data-i="${i}"] img`);
+  $("#lbimg").src=im?im.src:bigImg(p.img);$("#lbcap").innerHTML=`${esc(p.t)}<br><a href="${link(p)}" target="_blank" rel="noopener">Open the paper (${esc(p.j)}) →</a>`;lb.classList.add("open");$("#lbx").focus()}
+const closeLb=()=>{lb.classList.remove("open");$("#lbimg").removeAttribute("src")};
+$("#out").onclick=e=>{const t=e.target.closest(".toc[data-i]");if(t)openLb(+t.dataset.i)};
+$("#out").onkeydown=e=>{const t=e.target.closest(".toc[data-i]");if(t&&(e.key==="Enter"||e.key===" ")){e.preventDefault();openLb(+t.dataset.i)}};
+$("#lbx").onclick=closeLb;lb.onclick=e=>{if(e.target===lb)closeLb()};
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&lb.classList.contains("open"))closeLb()});
+
+// Open the selection given in the address (e.g. ?month=2026-04&journal=Nature), so links can be shared.
 (()=>{const u=new URLSearchParams(location.search);
   const m=(u.get("month")||"").match(/^(\d{4})-(\d{2})$/);if(m)sel={y:+m[1],m:+m[2]-1};
-  const v=u.get("view");if(["week","weeks","months"].includes(v))setTab(v);
+  const v=u.get("view");if(VIEWS.some(x=>x[0]===v))view=v;
   const j=u.get("journal");if(j&&JOURNALS.includes(j))jsel=j})();
-$("#theme").onclick=e=>{e.preventDefault();const r=document.documentElement,d=getComputedStyle(r).colorScheme.includes("dark")||r.dataset.theme==="dark";r.dataset.theme=d?"light":"dark"};
-const MN=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-const toggle=o=>{$("#dr").classList.toggle("open",o);$("#sc").classList.toggle("open",o)};
-function buildMenu(){
-  const years=[...new Set([YEAR,...PAPERS.map(p=>p.date.getFullYear())])].sort((a,b)=>b-a);
-  // Month counts follow the journal filter, so with "Nature" selected you see which months have Nature papers.
-  $("#yrs").innerHTML=(jsel?`<div style="font-size:13px;color:var(--mut);margin:0 0 6px 10px">Counting ${esc(jsel)} only</div>`:"")+years.map(y=>`<button class="it yr" data-y="${y}">${y}<span>▾</span></button><div class="ms ${sel&&sel.y===y||y===YEAR?"open":""}" id="ms${y}">${MN.map((m,i)=>{const n=PAPERS.filter(p=>p.date.getFullYear()===y&&p.date.getMonth()===i&&(!jsel||p.j===jsel)).length;return `<button class="it ${sel&&sel.y===y&&sel.m===i?"on":""}" data-y="${y}" data-m="${i}" ${n?"":"disabled"}>${m}${n?" ("+n+")":""}</button>`}).join("")}</div>`).join("");
-}
-$("#yrs").onclick=e=>{const b=e.target.closest("button");if(!b)return;
-  if(b.dataset.m!==undefined){sel={y:+b.dataset.y,m:+b.dataset.m};buildMenu();render();toggle(false);$("#feed").scrollIntoView()}
-  else $("#ms"+b.dataset.y).classList.toggle("open")};
-$("#home").onclick=()=>{sel=null;buildMenu();render();toggle(false)};
-$("#bg").onclick=()=>toggle(true);$("#sc").onclick=()=>toggle(false);
-buildMenu();render();
-// When hosted next to data/papers.json (written by collector.py), use that file instead of the built-in entries.
-fetch("data/papers.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
-  if(!Array.isArray(j)||!j.length)return;
-  // An abstract that arrived without its first words starts mid-sentence: mark it with "…".
-  const fixAb=s=>s&&/^[a-z\-–,;:).\]]/.test(s)?"… "+s:s;
-  PAPERS=j.map(a=>({date:new Date(a.date+"T00:00:00"),j:a.j,t:a.t,au:a.au,s:a.tag,ab:fixAb(a.ab),doi:a.doi||null,img:a.img||null})).filter(p=>p.date.getFullYear()===YEAR);
-  buildMenu();render();
-}).catch(()=>{});
+
+fetch("data/papers.json",{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject(r.status)).then(j=>{
+  PAPERS=(Array.isArray(j)?j:[]).map(a=>({date:new Date(a.date+"T00:00:00"),j:a.j,t:a.t,au:a.au||"",s:a.tag||"",ab:a.ab||"",doi:a.doi||null,img:a.img||null,score:a.score||0}))
+    .filter(p=>p.date.getFullYear()===YEAR);
+  render();
+}).catch(()=>{$("#out").innerHTML='<div class="empty">The paper list could not be loaded. Please refresh the page.</div>'});
 </script>
 </body>
 </html>

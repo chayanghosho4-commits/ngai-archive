@@ -9,7 +9,7 @@ Run every 2 days (see .github/workflows/update.yml).
   python collector.py                      # last 10 days
   python collector.py --since 2026-01-01   # backfill the year
 
-Version 4 (25 Oct 2026):
+Version 6 (25 Oct 2026):
 - Much stricter topic filter. A paper is kept only if its TITLE names a synthetic reaction,
   method or strategy (see SIGNALS), and nothing in it points to materials, energy,
   biology, spectroscopy, reviews, etc. (see EXCLUDE_ANY / EXCLUDE_TITLE).
@@ -20,8 +20,12 @@ Version 4 (25 Oct 2026):
   so no request to nature.com is needed.
 - JACS / ACS Catal.: the real TOC graphic is read from the ACS RSS feeds (ASAP + current issue),
   or from the article page for older papers (max ACS_PAGE_LIMIT per run). Figure 1 is only a last resort.
-- Only the best PER_MONTH (default 100) papers of each month are kept, ranked by how clearly they
+- Only the best PER_MONTH (default 120) papers of each month are kept, ranked by how clearly they
   are synthesis papers (plus journal weight); one topic may fill at most 40% of a month.
+- Chem (Cell Press): graphical abstract linked from Elsevier's image server, built from the PII.
+- TOC picture helper (toc-helper.html): a bookmark that collects ACS / Wiley / Science TOC graphics in your
+  own browser; upload its toc-....json file to data/inbox and the next run unpacks it into data/toc.
+  data/need_toc.json lists the papers still waiting for a picture.
 - SAVE_TOC=1 (workflow setting) keeps a copy of each TOC graphic in data/toc/ so it displays
   even if the publisher blocks its images on other websites.
 - Angew. Chem. images/abstracts come from the Wiley RSS feed; reviews, covers and other
@@ -65,7 +69,7 @@ MIN_SCORE = {name: mn for name, _, mn in JOURNALS}
 
 # The site keeps the best PER_MONTH papers of each month. Change the number here,
 # or set PER_MONTH in the workflow.
-PER_MONTH = int(os.environ.get("PER_MONTH") or 100)
+PER_MONTH = int(os.environ.get("PER_MONTH") or 120)
 TOPIC_SHARE = 0.4               # one topic (e.g. asymmetric catalysis) may fill at most 40% of a month
 # Extra ranking weight by journal (how prominent a paper is, besides how clearly it is synthesis).
 JOURNAL_WEIGHT = {"Nature": 5, "Science": 5, "Nature Chemistry": 4, "Nature Synthesis": 4, "Nature Catalysis": 2,
@@ -219,7 +223,8 @@ EXCLUDE_TITLE = [
     r"deep learning", r"neural", r"foundation model", r"artificial intelligence", r"language model", r"self-driving",
     r"autonomous lab", r"high-throughput experimentation", r"dataset", r"database", r"atmospheric", r"aerosol",
     r"combustion", r"prebiotic", r"interstellar", r"asteroid", r"stardust",
-    r"\b(ms-)?caspt2\b", r"\bdft (calculations?|study|studies|investigation)", r"\bab initio\b",
+    r"\bnano(?!graphene|belt|hoop|ring|tube)[a-z]+", r"surfactant", r"isobutane", r"interfacial engineering",
+    r"\bgrowth\b", r"soot", r"\b(ms-)?caspt2\b", r"\bdft (calculations?|study|studies|investigation)", r"\bab initio\b",
     r"insights? from .*(calculations|computations|simulations)", r"\bcomputational (study|studies|investigation|insights?|analysis)",
     r"\btheoretical (study|studies|investigation|insights?)",
     # supramolecular, molecular machines
@@ -245,6 +250,8 @@ NOT_RESEARCH = [
     r"expression of concern|addendum)\b", r"(front|back|inside|outside) cover", r"^(cover|masthead|table of contents|"
     r"news|research highlight|behind the science|introducing|meet the|author profile|obituary|in memoriam|"
     r"correspondence|reply|response to|comment on|frontispiece)\b",
+    r"^(addition|additions and corrections|correction|retraction|erratum) to\b", r"\brecent applications\b",
+    r":.*\b(outlook|perspectives?|overview|a review)\b\.?$",
 ]
 WILEY_RESEARCH = {"COMMUNICATION", "RESEARCH ARTICLE"}            # other feed categories are skipped
 
@@ -469,6 +476,9 @@ REFUSED = (401, 403, 429)
 _refused = {}                                         # DOI prefix / host -> refusals in a row (this run)
 SAVE_TOC = os.environ.get("SAVE_TOC", "").strip().lower() in ("1", "true", "yes")
 TOC_DIR = os.path.join(HERE, "data", "toc")
+INBOX = os.path.join(HERE, "data", "inbox")           # files made by the TOC helper bookmark go here
+NEED = os.path.join(HERE, "data", "need_toc.json")    # list the TOC helper reads: papers still without a picture
+HELPER_PREFIXES = ("10.1021/", "10.1002/", "10.1126/")  # ACS, Wiley, Science: pictures only via your browser
 ACS_PAGE_LIMIT = 150                                  # ACS article-page lookups per run (older papers)
 _acs_pages = 0
 
@@ -564,6 +574,23 @@ def _note_refusal(key, code, what):
         _refused[key] = 0
 
 
+def elsevier_image(p):
+    """Cell Press / Elsevier graphical abstract, built from the article's PII (Crossref "alternative-id").
+    Only the link is stored; the visitor's browser loads it (Elsevier asks robots not to download)."""
+    doi = (p.get("doi") or "").lower()
+    if not doi.startswith("10.1016/"):
+        return None
+    pii = p.get("pii") or ""
+    if not pii and not out_of_time():
+        j = get_json(f"https://api.crossref.org/works/{quote(doi)}?mailto={MAILTO}")
+        alt = ((j or {}).get("message") or {}).get("alternative-id") or []
+        pii = next((a for a in alt if re.match(r"^S\d{4}", a)), "")
+        p["pii"] = pii
+        time.sleep(0.3)
+    pii = re.sub(r"[^A-Za-z0-9]", "", pii)
+    return f"https://ars.els-cdn.com/content/image/1-s2.0-{pii}-fx1.jpg" if pii else None
+
+
 def free_image(doi):
     """Image URL that needs no request to the publisher's article page (or None)."""
     d = (doi or "").lower()
@@ -611,7 +638,7 @@ IMAGE_MAGIC = (b"GIF87a", b"GIF89a", b"\x89PNG", b"\xff\xd8\xff")
 def save_copy(p):
     """SAVE_TOC=1: keep a copy of the image in data/toc/ and point the entry at it."""
     url = p.get("img") or ""
-    if not url.startswith("http") or "springernature.com" in url:   # Nature images display fine as links
+    if not url.startswith("http") or "springernature.com" in url or "els-cdn.com" in url:   # shown as links
         return False
     host = url.split("/")[2]
     if _refused.get("save:" + host, 0) >= 3 or out_of_time():
@@ -647,10 +674,10 @@ def fill_images(papers, retry=False):
             if SAVE_TOC:
                 save_copy(p)
             continue
-        img = free_image(d)                           # Nature / Wiley feed / ACS feed: no page request
+        img = free_image(d) or elsevier_image(p)      # Nature / Wiley feed / ACS feed / Elsevier: no page request
         if not img and d.startswith("10.1021/"):
             img = acs_page_toc(doi)
-        elif not img and not d.startswith(("10.1038/", "10.1002/")) and ("img" not in p or retry) and not out_of_time():
+        elif not img and not d.startswith(("10.1038/", "10.1002/", "10.1016/")) and ("img" not in p or retry) and not out_of_time():
             img = find_image(doi)
             time.sleep(0.6)
         if img:
@@ -747,7 +774,7 @@ def fetch_journal(name, issns, since, known=frozenset(), blocked=frozenset()):
                 print(f"  {name}: time budget reached, stopping here", file=sys.stderr)
                 break
             q = urlencode({"filter": f"issn:{issn},type:journal-article,from-created-date:{since}",
-                           "select": "DOI,title,author,abstract,published-online,published-print,issued",
+                           "select": "DOI,title,author,abstract,published-online,published-print,issued,alternative-id",
                            "rows": 100, "cursor": cursor, "mailto": MAILTO})
             j = get_json("https://api.crossref.org/works?" + q)
             msg = (j or {}).get("message", {})
@@ -780,6 +807,8 @@ def fetch_journal(name, issns, since, known=frozenset(), blocked=frozenset()):
                 found.append({"date": d.isoformat(), "j": name, "t": title, "au": authors(it),
                               "tag": tag, "ab": ab or "Abstract available at the publisher (DOI link).",
                               "doi": it["DOI"], "ab_full": bool(ab)})   # image: looked up after selection
+                if doi.startswith("10.1016/"):
+                    found[-1]["pii"] = next((x for x in it.get("alternative-id") or [] if re.match(r"^S\d{4}", x)), "")
             cursor = msg.get("next-cursor")
             if not cursor:
                 break
@@ -869,6 +898,88 @@ def select(by_key):
     return removed
 
 
+def ensure_inbox():
+    os.makedirs(INBOX, exist_ok=True)
+    readme = os.path.join(INBOX, "README.txt")
+    if not os.path.exists(readme):
+        with open(readme, "w", encoding="utf-8") as f:
+            f.write("Upload the toc-....json files made by the 'Get TOC pictures' bookmark here.\n"
+                    "The next run unpacks the pictures into data/toc and removes the file.\n")
+
+
+def apply_inbox(by_key):
+    """Unpack pictures made by the TOC helper bookmark (data/inbox/*.json, or toc-*.json uploaded to the top folder)."""
+    import base64, glob
+    files = sorted(glob.glob(os.path.join(INBOX, "*.json")) + glob.glob(os.path.join(HERE, "toc-*.json")))
+    if not files:
+        return 0
+    by_doi = {(p.get("doi") or "").lower(): p for p in by_key.values() if p.get("doi")}
+    added = skipped = 0
+    for fn in files:
+        try:
+            with open(fn, encoding="utf-8") as f:
+                images = (json.load(f) or {}).get("images") or {}
+        except (OSError, ValueError) as e:
+            print(f"  could not read {os.path.basename(fn)}: {e}", file=sys.stderr)
+            continue
+        for doi, data in images.items():
+            p = by_doi.get(doi.lower())
+            m = re.match(r"data:image/(jpeg|jpg|png|gif|webp);base64,(.+)$", data or "", re.S)
+            if not p or not m:
+                skipped += 1
+                continue
+            try:
+                raw = base64.b64decode(m.group(2), validate=False)
+            except ValueError:
+                skipped += 1
+                continue
+            if not (raw.startswith(IMAGE_MAGIC) or raw[8:12] == b"WEBP"):
+                skipped += 1
+                continue
+            ext = {"jpeg": ".jpg", "jpg": ".jpg"}.get(m.group(1), "." + m.group(1))
+            name = re.sub(r"[^a-z0-9._-]+", "_", doi.lower())[:140] + "__toc" + ext
+            os.makedirs(TOC_DIR, exist_ok=True)
+            with open(os.path.join(TOC_DIR, name), "wb") as f:
+                f.write(raw)
+            p["img"], p["img_src"] = "data/toc/" + name, "TOC helper"
+            added += 1
+        os.remove(fn)                                  # processed: the workflow commits the removal
+    print(f"TOC helper: {added} pictures added from {len(files)} file(s)"
+          + (f"; {skipped} skipped (paper no longer in the archive, or not a picture)" if skipped else ""))
+    return added
+
+
+def cleanup_toc(by_key):
+    """Delete saved pictures that no paper uses any more (e.g. papers that left the monthly top 100)."""
+    if not os.path.isdir(TOC_DIR):
+        return 0
+    used = {os.path.basename(p["img"]) for p in by_key.values() if (p.get("img") or "").startswith("data/toc/")}
+    n = 0
+    for f in os.listdir(TOC_DIR):
+        if f not in used:
+            os.remove(os.path.join(TOC_DIR, f))
+            n += 1
+    return n
+
+
+def needs_picture(p):
+    img = p.get("img") or ""
+    return (p.get("doi") or "").lower().startswith(HELPER_PREFIXES) and not img.startswith("data/toc/")
+
+
+def write_need(out):
+    """List for the TOC helper: ACS / Wiley / Science papers that still have no saved picture."""
+    need = [{"doi": p["doi"], "j": p["j"], "t": p["t"][:160], "m": p["date"][:7]} for p in out if needs_picture(p)]
+    with open(NEED, "w", encoding="utf-8") as f:
+        json.dump(need, f, ensure_ascii=False, indent=0)
+    by_j = {}
+    for x in need:
+        by_j[x["j"]] = by_j.get(x["j"], 0) + 1
+    print(f"Still without a TOC picture (for the TOC helper): {len(need)}"
+          + (" — " + ", ".join(f"{j} {n}" for j, n in sorted(by_j.items(), key=lambda x: -x[1])) if need else ""))
+    return len(need)
+
+
 def write(by_key):
     year = date.today().year                                         # current year only
     out = sorted((p for p in by_key.values() if p["date"].startswith(str(year))), key=lambda p: p["date"], reverse=True)
@@ -878,7 +989,7 @@ def write(by_key):
     return out
 
 
-VERSION = "Ngai Group Archive collector, version 4 (25 Oct 2026)"
+VERSION = "Ngai Group Archive collector, version 6 (25 Oct 2026)"
 
 
 def main():
@@ -915,8 +1026,12 @@ def main():
     nd = fill_doi(out)
     na = fill_abstracts(out, retry=a.retry_abstracts)
     left_out = select(by_key)                                        # best PER_MONTH papers of each month
+    ensure_inbox()
+    apply_inbox(by_key)                                              # pictures uploaded from the TOC helper
     out = write(by_key)
     ni = fill_images(out, retry=a.retry_images)                      # images only for the selected papers
+    cleanup_toc(by_key)
+    write_need(out)
     write(by_key)
     with_img = sum(1 for p in out if p.get("img"))
     print(f"added {added}, removed {pruned} off-topic + {left_out} below the monthly top {PER_MONTH}, DOIs found {nd}, "
