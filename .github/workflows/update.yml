@@ -9,9 +9,17 @@ on:
         description: "Backfill from this date (YYYY-MM-DD). Leave empty for the last 10 days."
         required: false
         default: ""
+  push:                        # uploading a TOC-helper file starts a quick picture-only run
+    paths:
+      - "data/inbox/*.json"
+      - "toc-*.json"
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-archive        # never two runs at the same time
+  cancel-in-progress: false
 
 jobs:
   collect:
@@ -26,12 +34,15 @@ jobs:
         env:
           CROSSREF_EMAIL: ${{ secrets.CROSSREF_EMAIL }}
           SINCE: ${{ github.event.inputs.since }}
+          EVENT: ${{ github.event_name }}
           SAVE_TOC: "1"          # keep a copy of each TOC graphic in data/toc (set to "0" to only link to it)
         run: |
-          if [ -n "$SINCE" ]; then python collector.py --since "$SINCE"; else python collector.py; fi
+          if [ "$EVENT" = "push" ]; then python collector.py --images-only
+          elif [ -n "$SINCE" ]; then python collector.py --since "$SINCE"
+          else python collector.py; fi
       - name: Save results
         run: |
           git config user.name "archive-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data
-          git diff --cached --quiet || (git commit -m "Update papers" && git push)
+          git add -A
+          git diff --cached --quiet || (git commit -m "Update papers" && git pull --rebase -q && git push)
