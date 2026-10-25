@@ -1,164 +1,8 @@
 [
 {
-"doi": "10.1021/acscatal.6c06901",
-"j": "ACS Catal.",
-"t": "Photoredox-Mediated Three-Component Carboamination of Reverse Exo -Glycals: Modular Access to C 4-Quaternary Furanosides and Spironucleosides",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c06766",
-"j": "ACS Catal.",
-"t": "Data-Driven Investigation of Asymmetric Photo-Organocatalyzed Alkylation of Indoles",
-"m": "2026-10"
-},
-{
 "doi": "10.1002/anie.5284798",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Photocatalytic Ring Expansion of Indoles to Benzazepinones through Cyclobutane Fragmentation",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c19815",
-"j": "J. Am. Chem. Soc.",
-"t": "Photoinduced Ge(II)-Catalyzed Divergent Functionalization of Pyridyl Halides via Electron Donor–Acceptor Complexes",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c14045",
-"j": "J. Am. Chem. Soc.",
-"t": "Simultaneous Installation of 1,6-Stereocenters by Asymmetric Allylation of Resorcinol Boronates: Application to the Synthesis of Merocyclophane A",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c18514",
-"j": "J. Am. Chem. Soc.",
-"t": "Carbon Insertion into Electron-Deficient (Aza)indoles via a Radical-Polar Crossover Strategy",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c18373",
-"j": "J. Am. Chem. Soc.",
-"t": "Protecting Groups as Catalysts: Direct Synthesis of Primary Amines from Ammonia under Carbonyl Catalysis",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c05400",
-"j": "ACS Catal.",
-"t": "Gold-Catalyzed Chemoselective Dearomative Ring-Opening Modes of Indoles",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c05924",
-"j": "ACS Catal.",
-"t": "Nickel-Catalyzed Regiodivergent and Enantioselective Hydrosilylation of Internal Alkenes",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c06806",
-"j": "ACS Catal.",
-"t": "Copper-Mediated Valence Tautomerism Enables α -C(sp3)–H Alkylation of 1,3-Dicarbonyl Compounds and Tryptophans via Photocatalysis",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c06220",
-"j": "ACS Catal.",
-"t": "Gold(I)-Catalyzed Asymmetric Transformations of 1-(1-Alkynyl)cyclobutyl Ketones: Access to Enantioenriched Cyclopenta[ b ]furans Bearing Vicinal Bridged Quatern",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c15371",
-"j": "J. Am. Chem. Soc.",
-"t": "Regiocontrolled One-Step Indole Synthesis from Carbonyl Compounds via Organobismuth Chemistry",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c05711",
-"j": "ACS Catal.",
-"t": "Nickel-Catalyzed Enantioselective Cyclizative Alkylation of 1,6-Enynes with Diazo Compounds and Alkyl Halides",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c17539",
-"j": "J. Am. Chem. Soc.",
-"t": "Asymmetric Copper-Catalyzed Conjugate Addition with Trimethylboroxine Enables Direct Synthesis of Frespaciguat",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c14482",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantioselective Total Synthesis of Sestermobaraene F",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c14945",
-"j": "J. Am. Chem. Soc.",
-"t": "Chiral Lithium Phosphate-Catalyzed Photoredox-Neutral [2σ + 2σ] Cycloaddition of Cyclopropylamines with Bicyclo[1.1.0]butanes",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c11562",
-"j": "J. Am. Chem. Soc.",
-"t": "Skeletal Remodeling of a Clovane-Type Skeleton Enables Enantiocontrolled Unified Total Syntheses of Angular Triquinane Terpenoids",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c16551",
-"j": "J. Am. Chem. Soc.",
-"t": "1,3- cis -Disubstituted Cycloalkanes by Iridium-Catalyzed Enantio-convergent Migratory Hydroheteroarylation",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c06650",
-"j": "ACS Catal.",
-"t": "Direct Amidination of Alkenes Via C–H Activation of Pyridinyl Formimidamide Synthon",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c16752",
-"j": "J. Am. Chem. Soc.",
-"t": "Accessing Diverse C(sp3)-Rich Cyclophane Linkers in Macrocyclic Peptides via Nickel-Mediated Deaminative Macrocyclic Arylation",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c14581",
-"j": "J. Am. Chem. Soc.",
-"t": "Aliphatic Diazonium Chemistry through Hydroquinone-Based Nitrate Reduction for Deaminative Halogenation and Nitrate Ester Formation",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c17862",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantioselective Coupling of Unactivated Alkenes with α-Imino Esters via Alkylzirconium Radical Intermediates",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c07098",
-"j": "ACS Catal.",
-"t": "Catalytic Asymmetric Allylic Substitution with Alkynylogous Silyl Enol Ethers En Route to Chiral Allenes",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c17168",
-"j": "J. Am. Chem. Soc.",
-"t": "Construction of Divergent Enantioenriched 3D-Fluoro Scaffolds via Ni(0) π-Lewis Base-Mediated Umpolung of Fluorodienes",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c17366",
-"j": "J. Am. Chem. Soc.",
-"t": "Regioselective and Stereodivergent C–H Functionalization of Internal Alkenes",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c18131",
-"j": "J. Am. Chem. Soc.",
-"t": "Iron Intermediates in Aminoquinoline-Directed C(sp2)–H Activation/C–C Coupling",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c07270",
-"j": "ACS Catal.",
-"t": "Chiral Phosphoric Acid-Catalyzed Asymmetric Allylic Dearomatization of Tryptamines with Alkoxyallenes",
 "m": "2026-10"
 },
 {
@@ -168,105 +12,9 @@
 "m": "2026-10"
 },
 {
-"doi": "10.1021/jacs.6c16678",
-"j": "J. Am. Chem. Soc.",
-"t": "A Standalone Flavoprotein Monooxygenase Directs Divergent Tropolone Skeletal Editing through Baeyer–Villiger-Triggered Rearrangement",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c17373",
-"j": "J. Am. Chem. Soc.",
-"t": "Photocatalytic Three-Component Radical Addition of Aromatic Compounds",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c08713",
-"j": "J. Am. Chem. Soc.",
-"t": "Catalytic Asymmetric 1,6-Diene Cyclization via Designed Carbocationic 5- and 6- exo Pathways",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c06668",
-"j": "ACS Catal.",
-"t": "Titanium-Catalyzed Divergent Deoxycyclization for Synthesizing Semisaturated Nitrogen Heterocycles",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c06300",
-"j": "ACS Catal.",
-"t": "Insertion of Alkenes into Aryl Nitrile C–C Bonds Enabled by Thiophenolate Photocatalysis",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c06572",
-"j": "ACS Catal.",
-"t": "Photoenzymatic Enantioselective [2+2] Cycloaddition of Alkynes Enabled by Whole-Cell Directed Evolution",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c06960",
-"j": "ACS Catal.",
-"t": "Lewis Acid-Catalyzed Vinyl Transfer Using Vinylene Carbonate for Direct Synthesis of C2,C3-Unsubstituted Indoles",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c17662",
-"j": "J. Am. Chem. Soc.",
-"t": "Migratory Hydroamination of Alkenes via Iron-Hydride Catalysis",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c15392",
-"j": "J. Am. Chem. Soc.",
-"t": "Divergent Synthesis of Chiral-at-Sulfur Sulfoximines via Photoredox/Rhodium-Catalyzed Enantioselective C–H Activation",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c05786",
-"j": "ACS Catal.",
-"t": "Enantioselective Alcohol Oxidation Reactions Catalyzed by Unspecific Peroxygenases",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c05123",
-"j": "ACS Catal.",
-"t": "Deconstructive Oxygenation of Cyclic Amines by Copper-Catalyzed C(sp3)–C(sp3) Bond Cleavage",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c15886",
-"j": "J. Am. Chem. Soc.",
-"t": "Regio- and Enantioselective Functionalization of Gaseous Alkanes via Nickel-Catalyzed Alkene Dicarbofunctionalization",
-"m": "2026-10"
-},
-{
 "doi": "10.1021/jacs.6c14452",
 "j": "J. Am. Chem. Soc.",
 "t": "Copper-Catalyzed Chemo- and Enantioselective Radical 1,2-Carbosulfenylation of Diverse Alkenes with Broad Radical and Sulfur Compatibility",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c14950",
-"j": "J. Am. Chem. Soc.",
-"t": "General Asymmetric Synthesis of Noncanonical Amino Acids",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c07172",
-"j": "ACS Catal.",
-"t": "Synthesis of Chiral α-Aminophosphonate Derivatives through Copper(I)-Catalyzed Enantioselective Alkylation",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c13660",
-"j": "J. Am. Chem. Soc.",
-"t": "Stereodivergent Synthesis of C -Glycosides from Glycals by Ni-Catalyzed Cross-Hydrocarbonylation of Alkenes",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c05806",
-"j": "ACS Catal.",
-"t": "Blocking, Widening, Regulating, and Tailoring-Based Engineering of an Imine Reductase for Asymmetric Reductive Amination of Sterically Demanding Ketones with Am",
 "m": "2026-10"
 },
 {
@@ -288,18 +36,6 @@
 "m": "2026-10"
 },
 {
-"doi": "10.1021/acscatal.6c06183",
-"j": "ACS Catal.",
-"t": "Copper-Catalyzed Ring-Opening Hydroboration and Enantioselective Cascade Hydroboration/Protoboration of Arylidenecyclobutanes",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c14748",
-"j": "J. Am. Chem. Soc.",
-"t": "Stereoselective 1,2-Metalate Rearrangement of α-Chloroalkylboronic Esters with gem -Diborylalkanes",
-"m": "2026-10"
-},
-{
 "doi": "10.1021/acscatal.6c06481",
 "j": "ACS Catal.",
 "t": "Tunable Noncovalent Interactions for Stereodivergent Organo/Metal Dual Catalysis: Asymmetric Allenylation of Both 3-Alkyl and 3-Aryl Oxindoles",
@@ -312,63 +48,9 @@
 "m": "2026-10"
 },
 {
-"doi": "10.1021/acscatal.6c05776",
-"j": "ACS Catal.",
-"t": "Selective Cleavage of Carbon–Carbon Bonds of Aryl Ketones by Photocatalysis",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c04942",
-"j": "ACS Catal.",
-"t": "Photoredox/Copper-Catalyzed C(sp3)–H Bond Functionalization for Radical Cross-Coupling to Construct C(sp3)–C(sp3) Bonds",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c14241",
-"j": "J. Am. Chem. Soc.",
-"t": "Catalytic Redox-Neutral Decarboxylative Aromatization via Transfer Dehydrogenation",
-"m": "2026-10"
-},
-{
 "doi": "10.1021/acscatal.6c06318",
 "j": "ACS Catal.",
 "t": "Chiral 3,4-H2-Dihydro-Monothiobinaphthol-Derived Bifunctional Catalysts: Design, Synthesis, and Application to Enantioselective Disulfuration of Aza[5]Helicenes",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c06050",
-"j": "ACS Catal.",
-"t": "Hydrogen Isotope Exchange Catalyzed by Pyridine Dicarbene Cobalt Complexes Using Deuterium Gas",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c16251",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantio-, Regio-, and E -Selective Hydroboration of 1,3-Dienylsilanes to Construct Bifunctional Allylation Reagents",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c14811",
-"j": "J. Am. Chem. Soc.",
-"t": "Complex Fragment Coupling via O -Mesyl Hydroxylamines: Direct Conversion of Primary Amines to Electrophilic Aminating Agents",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c16285",
-"j": "J. Am. Chem. Soc.",
-"t": "Selective B(4)–H Alkoxylation of o -Carboranes with Alcohols via Heteroleptic Cu(I)-Photocatalyzed 1,5-HAT-Enabled Boron Radical-Polar Crossover",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c05151",
-"j": "ACS Catal.",
-"t": "Copper-Catalyzed Linear Remote Double Functionalization of Enynes",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c17350",
-"j": "J. Am. Chem. Soc.",
-"t": "Stereoselective Glycosylation of Amides with Glycal Catalyzed by a Solid–Liquid Phase-Transfer and Proton-Transfer Dual-Functional Pyridinium Catalyst",
 "m": "2026-10"
 },
 {
@@ -376,18 +58,6 @@
 "j": "J. Am. Chem. Soc.",
 "t": "Enantioconvergent Deoxygenative Amination via Xanthate Esters by a Decarboxylative Relay",
 "m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c06078",
-"j": "ACS Catal.",
-"t": "Nickel-Catalyzed C(sp3)–H Arylation for the trans -Selective Synthesis of Sterically Congested Cyclopropanes and Other Cycloalkanes",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/acscatal.6c06753",
-"j": "ACS Catal.",
-"t": "Synthesis of α-Chlorocarbonyls through Kharasch-Type Addition and Cotelomerization Driven by Photoredox/Cobalt Dual Catalysis",
-"m": "2026-09"
 },
 {
 "doi": "10.1021/jacs.6c17816",
@@ -408,57 +78,9 @@
 "m": "2026-09"
 },
 {
-"doi": "10.1021/acscatal.6c05353",
-"j": "ACS Catal.",
-"t": "From α,β-Unsaturated Amide to Enamide: Intramolecular Alkene Translocation via Iridium-Catalyzed Transfer Hydrogenation",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c16630",
-"j": "J. Am. Chem. Soc.",
-"t": "Reimagining the Wolff-Kishner Reduction: Light-Driven Carbonyl Deoxygenation without Strong Base",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c10893",
-"j": "J. Am. Chem. Soc.",
-"t": "Resolving Structural Ambiguity through Total Synthesis: Evolution of a Synthetic Strategy for Secalosides A and B",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c15284",
-"j": "J. Am. Chem. Soc.",
-"t": "Iron-Electrocatalytic MHAT Enables C–F Bond Activation of CF3 Alkenes: Access to Stable Keto and Enol Isosteres",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c11735",
-"j": "J. Am. Chem. Soc.",
-"t": "Concise Total Syntheses of (−)-Ohioensin A, Putative (+)-Ohioensin C, (+)-Myristinins A and B/C, and (+)-Caesalpinflavan A",
-"m": "2026-09"
-},
-{
 "doi": "10.1021/jacs.6c11517",
 "j": "J. Am. Chem. Soc.",
 "t": "( N -Hydroxy)amide-Mediated Rapid Head-to-Tail Cyclization of Unprotected Peptides in Water",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c15890",
-"j": "J. Am. Chem. Soc.",
-"t": "Multiplicative Stereocontrol in the Light-Driven Deracemization of Benzylic Nitriles",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c16323",
-"j": "J. Am. Chem. Soc.",
-"t": "Radical Disconnection Logic Enables Direct Conversion of α-Amino Acids into Differentiated Vicinal Diamines",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c14601",
-"j": "J. Am. Chem. Soc.",
-"t": "Unlocking Sulfurdiimide Reagents as Radical Traps in the Decarboxylative Synthesis of Sulfinamidines",
 "m": "2026-09"
 },
 {
@@ -486,12 +108,6 @@
 "m": "2026-09"
 },
 {
-"doi": "10.1021/jacs.6c16346",
-"j": "J. Am. Chem. Soc.",
-"t": "Biocatalytic Redox Cascade Enabled Site-Selective Direct β-Alkylation of Cyclopentanones",
-"m": "2026-09"
-},
-{
 "doi": "10.1021/jacs.6c16766",
 "j": "J. Am. Chem. Soc.",
 "t": "Tyrosinase-Catalyzed Tyr–Aniline Coupling Enables Peptide Editing, Macrocyclization, and Phage-Display-Based Selection",
@@ -507,18 +123,6 @@
 "doi": "10.1021/jacs.6c16812",
 "j": "J. Am. Chem. Soc.",
 "t": "Bidirectional Alkene-Nucleophile Coupling at a Single Carbon Center Enabled by a Methylene-Bridged Thianthrenium Dication",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c16907",
-"j": "J. Am. Chem. Soc.",
-"t": "Selective C18-Methyl Oxidation of Sclareol via an Engineered P450 Enables the Synthesis of Spiromyrrhene B",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c07021",
-"j": "J. Am. Chem. Soc.",
-"t": "Chiral Counteranion-Directed Asymmetric Intramolecular Rhodium-Catalyzed [(3+2+2)] Carbocyclization Reactions with Alkylidenecyclopropanes",
 "m": "2026-09"
 },
 {
@@ -540,12 +144,6 @@
 "m": "2026-09"
 },
 {
-"doi": "10.1021/acscatal.6c03855",
-"j": "ACS Catal.",
-"t": "Emerging N-Heterocyclic Carbene–Nickel Catalysis: Bond Activations, Cross-Coupling Reactions, and Beyond",
-"m": "2026-09"
-},
-{
 "doi": "10.1021/jacs.6c15694",
 "j": "J. Am. Chem. Soc.",
 "t": "Enantioselective Cross-Coupling of an Unbiased Carbon Radical Enabled by Perfluoroaryl Semicorrin Ligands",
@@ -558,18 +156,6 @@
 "m": "2026-09"
 },
 {
-"doi": "10.1021/jacs.6c10408",
-"j": "J. Am. Chem. Soc.",
-"t": "Overriding Nitrogen-Centered Reactivity of Sulfinamidyl Radicals Enables Sulfoximine Synthesis",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c13515",
-"j": "J. Am. Chem. Soc.",
-"t": "Access to Chiral (Semi)Saturated Silacycles via Rh-Catalyzed Asymmetric Sila-(3+2) Annulation",
-"m": "2026-09"
-},
-{
 "doi": "10.1021/acscatal.6c04996",
 "j": "ACS Catal.",
 "t": "Enantioconvergent Assembly of Chiral Difluoromethyl Stereocenters by Nickel-Catalyzed Reductive Cross-Coupling",
@@ -579,12 +165,6 @@
 "doi": "10.1021/jacs.6c12740",
 "j": "J. Am. Chem. Soc.",
 "t": "Copper-Catalyzed Late-Stage C(sp3)–H Amination of N-Terminal Glycine Peptides with Secondary Alkylamines",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c12383",
-"j": "J. Am. Chem. Soc.",
-"t": "Thiophenol-Based Designer Enzymes for Asymmetric Hydrogen/Deuterium Atom Transfer",
 "m": "2026-09"
 },
 {
@@ -606,24 +186,6 @@
 "m": "2026-09"
 },
 {
-"doi": "10.1021/jacs.6c15105",
-"j": "J. Am. Chem. Soc.",
-"t": "Fulvalene- and [3]Cumulene-Bridged Conjugated Organoboranes: Pentagon Annulation and Olefination Enabled by One-Step Alkyne Cyclization",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/acscatal.6c05426",
-"j": "ACS Catal.",
-"t": "Catalytic Enantioselective De Novo Synthesis of C 1-Symmetric Inherently Chiral Cages",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c09936",
-"j": "J. Am. Chem. Soc.",
-"t": "“Store-and-Release” Strategy Enables Nickel-Catalyzed Deaminative Migratory Arylation of Aliphatic Amines",
-"m": "2026-09"
-},
-{
 "doi": "10.1021/jacs.6c11534",
 "j": "J. Am. Chem. Soc.",
 "t": "Stereoselective C2′-Alkylation of Nucleosides Enabled by Electrochemical Ni-Catalyzed C(sp3)–C(sp3) Cross-Coupling",
@@ -642,39 +204,9 @@
 "m": "2026-09"
 },
 {
-"doi": "10.1021/jacs.6c14447",
-"j": "J. Am. Chem. Soc.",
-"t": "Rewiring the Target Landscape of Bioactive Natural Products by Photocatalytic Single-Atom Editing",
-"m": "2026-09"
-},
-{
 "doi": "10.1021/acscatal.6c05682",
 "j": "ACS Catal.",
 "t": "Intermolecular Formal [2 + 1] Cycloaddition with Sulfoxonium Ylides via Energy Transfer Photocatalysis",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/acscatal.6c04640",
-"j": "ACS Catal.",
-"t": "Suzuki–Miyaura Cross-Coupling Using Ketones for the Synthesis of Multisubstituted Alkenes",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c07079",
-"j": "J. Am. Chem. Soc.",
-"t": "Denitrative Cyanation of Nitroalkanes by Nucleophilic Substitution through Anion–Radical Coupling",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c11390",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantioselective and Divergent Synthesis of Propargylamides and Allenamides from Alkynyl Diazoketones and Anilines via Organocatalytic Wolff Rearrangements",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c13556",
-"j": "J. Am. Chem. Soc.",
-"t": "Cobalt-Catalyzed, Aminoquinoline-Directed Functionalization of Nonactivated C(sp3)-H Bonds under Mild Conditions",
 "m": "2026-09"
 },
 {
@@ -702,33 +234,9 @@
 "m": "2026-08"
 },
 {
-"doi": "10.1021/jacs.6c14965",
-"j": "J. Am. Chem. Soc.",
-"t": "Potassium Amide-Promoted Direct Synthesis of α-Aryl Nitriles from α-Aryl Alkenes",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/jacs.6c14548",
-"j": "J. Am. Chem. Soc.",
-"t": "Nickel-Electrocatalyzed Anodic Enantioselective Acyloxylation and Cathodic Deacyloxylation of C–O Bonds",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/jacs.6c05261",
-"j": "J. Am. Chem. Soc.",
-"t": "Nickel-Catalyzed Regio-Controllable α- or β-Hydroalkylation of α,β-Unsaturated Amides",
-"m": "2026-08"
-},
-{
 "doi": "10.1021/jacs.6c12391",
 "j": "J. Am. Chem. Soc.",
 "t": "Enantioselective Decarboxylative Synthesis of Chiral α-Silylamines and α-Germylamines",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/jacs.6c09975",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantioselective Organocatalytic Construction of N -Bridged Tricyclic Normorphan Skeleton: Application to the Total Synthesis of (+)-Peduncularine",
 "m": "2026-08"
 },
 {
@@ -744,12 +252,6 @@
 "m": "2026-08"
 },
 {
-"doi": "10.1021/jacs.6c11012",
-"j": "J. Am. Chem. Soc.",
-"t": "Synthesis of Carborane-Modified Sugars and Nucleosides via Pd(II)-Catalyzed B–H Bond Activation",
-"m": "2026-08"
-},
-{
 "doi": "10.1126/science.aej0194",
 "j": "Science",
 "t": "Iron-catalyzed [1+1+1] cyclopropanation by sequential coupling of an ester to two carbenes",
@@ -762,45 +264,9 @@
 "m": "2026-08"
 },
 {
-"doi": "10.1021/acscatal.6c05275",
-"j": "ACS Catal.",
-"t": "Highly Efficient Iron-Catalyzed Asymmetric Hydrosilylation: Photo-acceleration and Positive Non-linear Effect",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/jacs.6c12746",
-"j": "J. Am. Chem. Soc.",
-"t": "Cu/TEMPO Alcohol Oxidation Follows an Open-Shell HAT Mechanism",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/jacs.6c12130",
-"j": "J. Am. Chem. Soc.",
-"t": "Synthesis of Mucononitriles by a pH-Dependent Periodate Oxidative Cleavage and Their Unconventional Cyclization to Pyridines",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/jacs.6c11662",
-"j": "J. Am. Chem. Soc.",
-"t": "Aromatization-Driven Borylene Generation from Borepin Precursors Enables Fused Borirane Synthesis and Selective Alkene Functionalization",
-"m": "2026-08"
-},
-{
 "doi": "10.1021/acscatal.6c05584",
 "j": "ACS Catal.",
 "t": "Aerobic Oxidative Cascade Reaction of ortho -Alkenylphenols for Asymmetric Synthesis of Benzoxanthenones",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/acscatal.6c03866",
-"j": "ACS Catal.",
-"t": "Indole Diketopiperazine Dimerization Catalyzed by Dye-Decolorizing Peroxidases via Hydroxyl-to-Carbon Radical Relay",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/jacs.6c14314",
-"j": "J. Am. Chem. Soc.",
-"t": "Diazines-to-Diazoles Skeletal Remodeling",
 "m": "2026-08"
 },
 {
@@ -840,12 +306,6 @@
 "m": "2026-08"
 },
 {
-"doi": "10.1021/jacs.6c11233",
-"j": "J. Am. Chem. Soc.",
-"t": "Origin of Scission Selectivity for Phosphoranyl Radicals in Photoredox Catalysis",
-"m": "2026-08"
-},
-{
 "doi": "10.1021/jacs.6c13616",
 "j": "J. Am. Chem. Soc.",
 "t": "Divergent Syntheses of Euphorbia Diterpenoids: A Relay Rearrangement Strategy Triggered by Pyridinium Ring Contraction",
@@ -864,12 +324,6 @@
 "m": "2026-08"
 },
 {
-"doi": "10.1021/acscatal.6c04768",
-"j": "ACS Catal.",
-"t": "Iridium-Catalyzed ortho -Directed C–H Borylation of Nitroarenes",
-"m": "2026-08"
-},
-{
 "doi": "10.1021/jacs.6c10875",
 "j": "J. Am. Chem. Soc.",
 "t": "Catalytic Enantioselective Aziridination of Z -Disubstituted Alkenes with Aspartyl β-Turn-Based Dirhodium(II) Metallopeptides and Assessment of Catalyst Scaffol",
@@ -879,12 +333,6 @@
 "doi": "10.1021/acscatal.6c04677",
 "j": "ACS Catal.",
 "t": "Harnessing Noncovalent Interactions in Transition-Metal Catalysis: An Asymmetric Allylation/Lactonization Cascade to Chiral γ-Butyrolactones",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/jacs.6c12162",
-"j": "J. Am. Chem. Soc.",
-"t": "Expanding the Hydrocarbon Landscape: Stereoselective Synthesis of Functionalized ttt -[13]Graphanes",
 "m": "2026-08"
 },
 {
@@ -906,39 +354,9 @@
 "m": "2026-08"
 },
 {
-"doi": "10.1021/jacs.6c07657",
-"j": "J. Am. Chem. Soc.",
-"t": "B/Pd-Catalyzed Asymmetric Propargylic Substitution for Vicinal Quaternary/Tertiary Stereocenters",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/acscatal.6c04180",
-"j": "ACS Catal.",
-"t": "Atroposelective Ion-Pair Catalysis: Accessing C−C and C−N Axially Chiral Amino Acid Derivatives from Prochiral Electrophiles",
-"m": "2026-08"
-},
-{
 "doi": "10.1021/jacs.6c12914",
 "j": "J. Am. Chem. Soc.",
 "t": "The Catalytic Asymmetric Alkylation of Olefins with Alcohol Derivatives",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/jacs.6c13866",
-"j": "J. Am. Chem. Soc.",
-"t": "General C(sp3)–C(sp3) Cross-Coupling of Primary Amines via in Situ Diazene Formation",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/jacs.6c05166",
-"j": "J. Am. Chem. Soc.",
-"t": "Radical Mechanism and Stereochemical Control in Consecutive C–C Bond Formation by the Nonheme Iron Enzyme Hvm1",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/acscatal.6c03249",
-"j": "ACS Catal.",
-"t": "Overriding the Expected Reactivity in C–H Bond Functionalization: Chemoselective C(sp2)–H Arylation of Enolizable Aryl Alkyl Ketones and Mechanistic Insight",
 "m": "2026-08"
 },
 {
@@ -978,45 +396,15 @@
 "m": "2026-08"
 },
 {
-"doi": "10.1021/jacs.6c07119",
-"j": "J. Am. Chem. Soc.",
-"t": "Conformationally Dictated Divergent Triplet Reactivity of Conjugated Dienes: Visible-Light-Induced Electrocyclization, 1,5-HAT, and Cycloaddition",
-"m": "2026-08"
-},
-{
 "doi": "10.1021/jacs.6c10280",
 "j": "J. Am. Chem. Soc.",
 "t": "Cross-Metathesis of an Iron Carbene with Diazenes",
 "m": "2026-08"
 },
 {
-"doi": "10.1021/jacs.6c12217",
-"j": "J. Am. Chem. Soc.",
-"t": "SuFEx-Enabled Acyl Fluoride Chemistry for High-Concentration Minimal-Oligomerization Peptide Macrocyclization",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/jacs.6c08696",
-"j": "J. Am. Chem. Soc.",
-"t": "Electrochemical Cross-Coupling of Electron-Deficient Olefins",
-"m": "2026-08"
-},
-{
 "doi": "10.1021/jacs.6c11164",
 "j": "J. Am. Chem. Soc.",
 "t": "Photocatalytic Aminocarboxylation of Unactivated Alkenes and Heteroarenes with CO2 toward β-Amino Acid Derivatives",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/jacs.6c13607",
-"j": "J. Am. Chem. Soc.",
-"t": "Selenoxanthylium Salts─Organic Photocatalysts for Low-Energy Photoredox Catalysis",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/jacs.6c10775",
-"j": "J. Am. Chem. Soc.",
-"t": "Total Synthesis of (+)-CC-1065",
 "m": "2026-08"
 },
 {
@@ -1029,12 +417,6 @@
 "doi": "10.1021/acscatal.6c05589",
 "j": "ACS Catal.",
 "t": "Access to Atropisomeric Biaryls by Harnessing C−H Activation and Ring Opening of Cyclic Diaryliodonium Salts",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/jacs.6c14390",
-"j": "J. Am. Chem. Soc.",
-"t": "Copper-Catalyzed Enantioselective Vinylogous Hydroxylation with Nitrosobenzene",
 "m": "2026-08"
 },
 {
@@ -1104,12 +486,6 @@
 "m": "2026-08"
 },
 {
-"doi": "10.1021/jacs.6c09015",
-"j": "J. Am. Chem. Soc.",
-"t": "Cyclopropenimine-Enabled Redox Control in Copper-Catalyzed Radical Cyclization to 3,3-Disubstituted Oxindoles",
-"m": "2026-08"
-},
-{
 "doi": "10.1021/jacs.6c12029",
 "j": "J. Am. Chem. Soc.",
 "t": "Atropisomeric Aryl–Hydrazone Frameworks: Discovery and Organocatalytic Enantioselective Construction",
@@ -1131,18 +507,6 @@
 "doi": "10.1021/acscatal.6c03508",
 "j": "ACS Catal.",
 "t": "Ru-Catalyzed Deoxygenative Aromatization of Succinimides and Oxindoles to Pyrroles and Indoles",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/jacs.6c09683",
-"j": "J. Am. Chem. Soc.",
-"t": "Asymmetric Radical Sulfinylation via Stereoablative Sulfinyl Radical Generation",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/jacs.6c02262",
-"j": "J. Am. Chem. Soc.",
-"t": "Catalytic Stereochemical Relay for the Enantioselective Synthesis of Acyclic Quaternary Stereocenters",
 "m": "2026-07"
 },
 {
@@ -1170,12 +534,6 @@
 "m": "2026-07"
 },
 {
-"doi": "10.1021/acscatal.6c04659",
-"j": "ACS Catal.",
-"t": "Biocatalytic Dynamic Kinetic Resolutions Enable Enantiodivergent Access to Axially Chiral Biaryl Dimethanols via Transient Seven-Membered Lactols",
-"m": "2026-07"
-},
-{
 "doi": "10.1021/acscatal.6c02282",
 "j": "ACS Catal.",
 "t": "Skeletal Ring Expansion of Indoles to Quinolin-2-ones by Copper-Catalyzed Oxygenative Single-Carbon Migratory Insertion Reaction",
@@ -1191,12 +549,6 @@
 "doi": "10.1021/jacs.6c05233",
 "j": "J. Am. Chem. Soc.",
 "t": "Regiodivergent Rhodium Catalysis: Enantioselective Hydroacylation of 2-Azetines",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/jacs.6c10406",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantioselective Deaminative Cross-Coupling of Amino Acid Derivatives with Alkylzirconocenes",
 "m": "2026-07"
 },
 {
@@ -1218,21 +570,9 @@
 "m": "2026-07"
 },
 {
-"doi": "10.1021/jacs.6c04114",
-"j": "J. Am. Chem. Soc.",
-"t": "A Rhodium-Catalyzed Cyclization of Sulfonimidamides and Sulfondiimidamides: Synthesis and Exploration of Chiral Aromatic Heterocycles",
-"m": "2026-07"
-},
-{
 "doi": "10.1002/anie.7785903",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Cobalt‐Catalyzed Reductive Asymmetric Dimerization of 1,3‐Enynes: Rapid Synthesis of Enantioenriched Skipped 1,3,6‐Trienes",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/acscatal.6c02698",
-"j": "ACS Catal.",
-"t": "A Highly Enantioselective Oxa−Michael Addition Reaction Catalyzed by Chiral Bifunctional N-Heterocyclic Carbenes",
 "m": "2026-07"
 },
 {
@@ -1248,12 +588,6 @@
 "m": "2026-07"
 },
 {
-"doi": "10.1021/jacs.6c05240",
-"j": "J. Am. Chem. Soc.",
-"t": "Catalytic Asymmetric Metallocyclopropanation Reactions Using Chloroform as a Carbyne Equivalent",
-"m": "2026-07"
-},
-{
 "doi": "10.1021/jacs.6c10864",
 "j": "J. Am. Chem. Soc.",
 "t": "Divergent Pyridine-to-Pyrazole Conversion via Carbon-Retentive Skeletal Editing",
@@ -1263,12 +597,6 @@
 "doi": "10.1002/anie.7669030",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Photochemical Ring Opening of Cyclopropyl Silyl Ethers Enables β–β Coupling, Radical‐Polar Crossover and Annulation",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/acscatal.6c03737",
-"j": "ACS Catal.",
-"t": "Enantioselective Construction of 6–10-Membered Cyclic Allylic Alcohols Containing Exocyclic Alkenes by Synergistic Photoredox/Cobalt-Catalyzed Intramolecular Al",
 "m": "2026-07"
 },
 {
@@ -1293,18 +621,6 @@
 "doi": "10.1021/jacs.6c10014",
 "j": "J. Am. Chem. Soc.",
 "t": "Chemical Synthesis of Asymmetric Nucleosomes Reveals Intramolecular Activation of UHRF1 E3 Ligase by H3K9me3",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/jacs.6c07828",
-"j": "J. Am. Chem. Soc.",
-"t": "Light-Driven Deaminative Formal Nucleophilic Substitution Via C(sp3)–N Bond Cleavage: Nucleophilic Transamination of Alkyl Amines",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/jacs.6c09674",
-"j": "J. Am. Chem. Soc.",
-"t": "Base-Promoted Benzylic C–H Amination Reactions Across a Wide p K a Spectrum Enabled by 2-Halobenzofuran and -Indole Oxidants",
 "m": "2026-07"
 },
 {
@@ -1356,18 +672,6 @@
 "m": "2026-07"
 },
 {
-"doi": "10.1021/jacs.6c11571",
-"j": "J. Am. Chem. Soc.",
-"t": "Controlled Precursor Differentiation Enables Palladium-Catalyzed Divergent Carbonylation of Cyclobutenols",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/jacs.6c10830",
-"j": "J. Am. Chem. Soc.",
-"t": "Pd/Mo-Catalyzed ortho -Dihydroxylation of Aromatic Rings: Dual-Metal-Mediated C(sp2)–H Functionalization",
-"m": "2026-07"
-},
-{
 "doi": "10.1021/jacs.6c05580",
 "j": "J. Am. Chem. Soc.",
 "t": "Total Synthesis of Benthol A: Evidence for a Structure Revision",
@@ -1377,18 +681,6 @@
 "doi": "10.1021/jacs.6c05583",
 "j": "J. Am. Chem. Soc.",
 "t": "Total Synthesis of Benthol A: The Nominal and the Actual Natural Product",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/jacs.6c06459",
-"j": "J. Am. Chem. Soc.",
-"t": "Photocatalytic Denitrative Homo- and Cross-Coupling of Nitroalkanes toward the Synthesis of Alkenes",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/acscatal.6c03374",
-"j": "ACS Catal.",
-"t": "Diastereo- and Enantioselective Rh-Catalyzed Si−H Insertion of N -Triftosylhydrazones: From Carbon to Silicon-Stereogenic Centers",
 "m": "2026-07"
 },
 {
@@ -1482,12 +774,6 @@
 "m": "2026-07"
 },
 {
-"doi": "10.1021/jacs.6c04756",
-"j": "J. Am. Chem. Soc.",
-"t": "A Photoredox C–H Arene Functionalization toward Substituted Methyls",
-"m": "2026-07"
-},
-{
 "doi": "10.1021/jacs.6c10641",
 "j": "J. Am. Chem. Soc.",
 "t": "Dynamic Kinetic Resolution-Based Asymmetric Hydrogenation of Pyridines",
@@ -1503,12 +789,6 @@
 "doi": "10.1021/jacs.6c07989",
 "j": "J. Am. Chem. Soc.",
 "t": "Divergent Assembly of Polycyclic Structures via Cascade Asymmetric Dearomatization of Indoles/Aza-Prins Cyclization/Selective Transformations of Phenonium-like ",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/jacs.6c06473",
-"j": "J. Am. Chem. Soc.",
-"t": "The Role of Ligand Dearomatization for Metal–Ligand Cooperation in Mn(I)-Catalyzed Hydrophosphination",
 "m": "2026-07"
 },
 {
@@ -1536,12 +816,6 @@
 "m": "2026-07"
 },
 {
-"doi": "10.1021/acscatal.6c03656",
-"j": "ACS Catal.",
-"t": "Asymmetric Synthesis of Heterohelicenes via Cobalt-Catalyzed Enantioselective C–H Activation",
-"m": "2026-07"
-},
-{
 "doi": "10.1021/jacs.6c05405",
 "j": "J. Am. Chem. Soc.",
 "t": "Cobalt-Catalyzed Cyclohydrocarbonylations: Syntheses of Saturated Heterocycles Promoted by Light",
@@ -1551,12 +825,6 @@
 "doi": "10.1021/jacs.6c09478",
 "j": "J. Am. Chem. Soc.",
 "t": "Divergent Asymmetric Synthesis of Glutinosasins A–E",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/jacs.6c06565",
-"j": "J. Am. Chem. Soc.",
-"t": "Carbonylative Aminative Suzuki–Miyaura Coupling: Pd-Catalyzed Synthesis of Amides from Vinyl/Aryl Halides and Boronic Acids",
 "m": "2026-07"
 },
 {
@@ -1602,33 +870,15 @@
 "m": "2026-07"
 },
 {
-"doi": "10.1021/acscatal.6c04310",
-"j": "ACS Catal.",
-"t": "Photoredox/Copper-Catalyzed Enantioselective S-Alkylation of Sulfenamides with Hydrocarbons Enabled by Commercial BOX Ligands",
-"m": "2026-07"
-},
-{
 "doi": "10.1021/acscatal.6c03050",
 "j": "ACS Catal.",
 "t": "Functionality-Directed Alkenyl C−H Functionalization by Exo -Metallocycles",
 "m": "2026-07"
 },
 {
-"doi": "10.1021/jacs.6c09099",
-"j": "J. Am. Chem. Soc.",
-"t": "Alternating Current-Driven Hydrogen Isotope Labeling of Aliphatic Amines Using 1,3-Propanedithiol as an Efficient Hydrogen Atom Transfer Reagent",
-"m": "2026-07"
-},
-{
 "doi": "10.1021/acscatal.6c03533",
 "j": "ACS Catal.",
 "t": "Skeleton-Divergent Access to Chiral Bridged/Fused Azaheterocycle-Tetrahydrofurans via Bimetallic Catalysis and Cascade Annulation",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/jacs.6c03240",
-"j": "J. Am. Chem. Soc.",
-"t": "Copper-Catalyzed trans -Selective Aryl-Allylation of Ynamide: An Unconventional Route to Skipped Dienes",
 "m": "2026-07"
 },
 {
@@ -1641,12 +891,6 @@
 "doi": "10.1021/jacs.6c10600",
 "j": "J. Am. Chem. Soc.",
 "t": "Late-Stage Carbonyl Removal via Sequential Double Carbon–Carbon Bond Cleavage",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/jacs.6c07500",
-"j": "J. Am. Chem. Soc.",
-"t": "Modular Dearomative 1,4-Addition to Simple Arenes with Dual Nucleophiles: Overriding the Inherent 1,2-Selectivity via η 6 -Coordination",
 "m": "2026-07"
 },
 {
@@ -1665,18 +909,6 @@
 "doi": "10.1021/jacs.6c10750",
 "j": "J. Am. Chem. Soc.",
 "t": "Iridium-Catalyzed Enantioselective C4-Alkylation of Indoles with α-Olefins and Styrenes",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/acscatal.6c03020",
-"j": "ACS Catal.",
-"t": "α-C−H Alkylation of α-Silyl Alcohols: Hydrogen Atom Transfer Catalysis Preserving Labile C−Si Bonds",
-"m": "2026-07"
-},
-{
-"doi": "10.1021/acscatal.6c02761",
-"j": "ACS Catal.",
-"t": "Iron(III) Photoredox-Catalyzed Regiodivergent Nitrone-Styrene [3 + 2] Cycloaddition via Selective Styrene Oxidation",
 "m": "2026-07"
 },
 {
@@ -1716,18 +948,6 @@
 "m": "2026-06"
 },
 {
-"doi": "10.1021/acscatal.6c03096",
-"j": "ACS Catal.",
-"t": "Bioinspired Concise Synthesis of Caged 1,6-Epoxyfuro[3,4- c ]pyrans via a Brønsted Acid-Catalyzed Cascade Reaction",
-"m": "2026-06"
-},
-{
-"doi": "10.1021/acscatal.6c02785",
-"j": "ACS Catal.",
-"t": "Scaffold Hopping of Isoxazole Enabled by an Oxidative Rh-Catalyzed Single-Carbon Insertion",
-"m": "2026-06"
-},
-{
 "doi": "10.1021/acscatal.6c02416",
 "j": "ACS Catal.",
 "t": "Palladium-Catalyzed Asymmetric Carbonylative Sonogashira Reaction of Cyclopropenes: Simultaneous Construction of Ynone Skeleton and Central Chirality",
@@ -1737,12 +957,6 @@
 "doi": "10.1002/anie.3547092",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Photogenerated Oxetanes as a Gateway to Uphill Cyclopropanation",
-"m": "2026-06"
-},
-{
-"doi": "10.1021/acscatal.6c03779",
-"j": "ACS Catal.",
-"t": "Palladium-Catalyzed Diastereo- and Enantioselective Allenylation of Imines with Propargyl Nitriles via Cyano-Directed Activation Assisted by Machine-Learning-Gu",
 "m": "2026-06"
 },
 {
@@ -1782,12 +996,6 @@
 "m": "2026-06"
 },
 {
-"doi": "10.1021/jacs.6c02967",
-"j": "J. Am. Chem. Soc.",
-"t": "Photoredox-Catalyzed Lysine C(sp 3 )–H Functionalization for Peptide Editing",
-"m": "2026-06"
-},
-{
 "doi": "10.1021/jacs.6c09865",
 "j": "J. Am. Chem. Soc.",
 "t": "Quaternary N -Heterobenzylic Carbon Centers via Allene-Mediated C–H Functionalization of Azines/Azoles: Ruthenium-Catalyzed Dearomative Addition-Hydrogen Auto-T",
@@ -1821,12 +1029,6 @@
 "doi": "10.1021/jacs.6c03854",
 "j": "J. Am. Chem. Soc.",
 "t": "Enantiospecific Homo-Boron-Wittig Reaction: Direct Conversion of Chiral Epoxides to Cyclopropanes",
-"m": "2026-06"
-},
-{
-"doi": "10.1021/jacs.6c06203",
-"j": "J. Am. Chem. Soc.",
-"t": "Atroposelective Bromination for the Synthesis of Chiral Biaryl Phosphines via Cross-Assembled Catalysis with Chiral Phosphoric Acid and Achiral Phenol",
 "m": "2026-06"
 },
 {
@@ -1884,12 +1086,6 @@
 "m": "2026-06"
 },
 {
-"doi": "10.1021/jacs.6c06320",
-"j": "J. Am. Chem. Soc.",
-"t": "Chemoenzymatic Synthesis of Asymmetric N -Glycans in Aqueous Solution via Sulfate and Phosphate Orthogonal Protection",
-"m": "2026-06"
-},
-{
 "doi": "10.1002/anie.1625296",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Iron‐Catalyzed Asymmetric NH 2 ‐Amination of Sulfenamides",
@@ -1899,12 +1095,6 @@
 "doi": "10.1002/anie.1226201",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Regio‐, Stereo‐, and Enantioselective C(sp 3 )─H Monofluoroalkenylation via Photo‐HAT/Nickel Dual Catalysis",
-"m": "2026-06"
-},
-{
-"doi": "10.1021/jacs.6c07489",
-"j": "J. Am. Chem. Soc.",
-"t": "N -Aryl-BIP Ligand-Enabled Iron-Catalyzed Asymmetric Synthesis of β-Amino Free Alcohols from Alkenes",
 "m": "2026-06"
 },
 {
@@ -1956,27 +1146,9 @@
 "m": "2026-06"
 },
 {
-"doi": "10.1021/jacs.6c04688",
-"j": "J. Am. Chem. Soc.",
-"t": "Unified N -Sulfonylated Urea Catalyzed Enantioselective Dimerization, Arylation, and Amination of Tryptamines: Total Synthesis of Five Pyrroloindoline Alkaloids",
-"m": "2026-06"
-},
-{
 "doi": "10.1021/acscatal.6c02704",
 "j": "ACS Catal.",
 "t": "Cobalt-Catalyzed Chemo- and Enantioselective [4+1] Annulation toward the Synthesis of Chiral Isoindolinones: Vinyl Silanes as One-Carbon Synthons",
-"m": "2026-06"
-},
-{
-"doi": "10.1021/jacs.6c08216",
-"j": "J. Am. Chem. Soc.",
-"t": "A Dinucleating Modular Phosphine–Pyridine–Oxazoline Ligand for Cu-Catalyzed Asymmetric Dearomative Propargylic Substitutions",
-"m": "2026-06"
-},
-{
-"doi": "10.1021/acscatal.6c02017",
-"j": "ACS Catal.",
-"t": "Electronickel-Catalyzed 1,5-Hydroarylation of Alkynyl Epoxides",
 "m": "2026-06"
 },
 {
@@ -1989,12 +1161,6 @@
 "doi": "10.1021/jacs.6c00671",
 "j": "J. Am. Chem. Soc.",
 "t": "Accessing Medium-Sized Bridged Heterocycles via EnT-Catalyzed Intermolecular Dearomative (5 + 4) Cycloaddition of Furans and Oxazoles",
-"m": "2026-06"
-},
-{
-"doi": "10.1021/jacs.6c05222",
-"j": "J. Am. Chem. Soc.",
-"t": "N -Sulfinyl Phthalimides as Modular Sulfinyl Radical Precursors: PRE-Guided Chemoselective Alkene Difunctionalization and Radical Cross-Coupling",
 "m": "2026-06"
 },
 {
@@ -2046,27 +1212,9 @@
 "m": "2026-06"
 },
 {
-"doi": "10.1021/jacs.6c06409",
-"j": "J. Am. Chem. Soc.",
-"t": "Water Microdroplets Induce Heterocyclic Transmutation: Skeletal Editing of Aniline into Pyridine at the Air–Water Interface",
-"m": "2026-06"
-},
-{
 "doi": "10.1002/anie.3566616",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Iron‐Catalyzed Cyclopropanation of Allenes Using Unactivated Alkyl Sulfonium Salts",
-"m": "2026-06"
-},
-{
-"doi": "10.1021/jacs.6c06155",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantioselective Total Syntheses of (+)-Aconicarmichinium C and (+)-Pendulumine I: Strategic Use of a Bridgehead Enone via a Kinetic-Resolution-Enabled Intermol",
-"m": "2026-06"
-},
-{
-"doi": "10.1021/jacs.6c08113",
-"j": "J. Am. Chem. Soc.",
-"t": "Synthesis of Macrocyclic Peptides via Photochemical Radical Thiol–yne Reaction",
 "m": "2026-06"
 },
 {
@@ -2088,12 +1236,6 @@
 "m": "2026-06"
 },
 {
-"doi": "10.1021/jacs.6c02960",
-"j": "J. Am. Chem. Soc.",
-"t": "Enzyme-Catalyzed Stereoselective C(sp3)–S Bond Formation via a Dichotomic Carbene Transfer Mechanism",
-"m": "2026-06"
-},
-{
 "doi": "10.1021/jacs.6c09135",
 "j": "J. Am. Chem. Soc.",
 "t": "Piecewise Stereoselective Assembly of Multisubstituted Alkenes",
@@ -2112,21 +1254,9 @@
 "m": "2026-06"
 },
 {
-"doi": "10.1021/jacs.6c03814",
-"j": "J. Am. Chem. Soc.",
-"t": "Oxyalkylation of Alkenes via Triple Radical Sorting",
-"m": "2026-06"
-},
-{
 "doi": "10.1021/jacs.6c04790",
 "j": "J. Am. Chem. Soc.",
 "t": "Late-Stage Aryl NCF3 and SCF3 Installation Enabled by Coupling Flow-Generated Anions with Aryl Thianthrenium Salts",
-"m": "2026-06"
-},
-{
-"doi": "10.1021/acscatal.6c02110",
-"j": "ACS Catal.",
-"t": "Asymmetric Synthesis of Noncanonical Prolines via a TrpB-IRED Enzymatic Cascade",
 "m": "2026-06"
 },
 {
@@ -2157,12 +1287,6 @@
 "doi": "10.1126/science.aef6981",
 "j": "Science",
 "t": "Stereoretentive radical-based alkyl-alkyl cross-coupling",
-"m": "2026-06"
-},
-{
-"doi": "10.1021/jacs.6c05586",
-"j": "J. Am. Chem. Soc.",
-"t": "Regiodivergent Asymmetric Hydroboration of Dimethylenecyclobutanes Enabled General Access to Chiral Cyclobutanes",
 "m": "2026-06"
 },
 {
@@ -2214,33 +1338,9 @@
 "m": "2026-06"
 },
 {
-"doi": "10.1021/acscatal.6c01439",
-"j": "ACS Catal.",
-"t": "Engineering Styrene Monooxygenases for Stereo-Complementary Synthesis of Furoindolines and Pyranoindolines via Asymmetric Oxidative Dearomatization of Indol-3-y",
-"m": "2026-06"
-},
-{
-"doi": "10.1021/jacs.6c01998",
-"j": "J. Am. Chem. Soc.",
-"t": "Biocatalytic Metal Hydrogen Atom Transfer for Asymmetric Olefin–Olefin Coupling",
-"m": "2026-06"
-},
-{
 "doi": "10.1002/anie.4927761",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Hydrogen Radical‐Mediated Nitric Oxide Reduction to Ammonia Over Synergistic Pd 0 /Pd 2+ Dual Sites",
-"m": "2026-06"
-},
-{
-"doi": "10.1021/jacs.6c05047",
-"j": "J. Am. Chem. Soc.",
-"t": "Biocatalytic Oxidative [3 + 2] Cycloaddition Enables Divergent Synthesis of (−)-α-Cyclopiazonic Acid and Derived Alkaloids",
-"m": "2026-06"
-},
-{
-"doi": "10.1021/jacs.6c06853",
-"j": "J. Am. Chem. Soc.",
-"t": "Unified Organocatalytic Enantioselective Approach to Axially Chiral Spiranes and Alkylidenecycloalkanes",
 "m": "2026-06"
 },
 {
@@ -2304,12 +1404,6 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1021/jacs.6c04370",
-"j": "J. Am. Chem. Soc.",
-"t": "Deprotonative Single-Electron Oxidation as a General and Controllably Selective Platform for Benzylic C–H Functionalization",
-"m": "2026-05"
-},
-{
 "doi": "10.1021/jacs.6c04560",
 "j": "J. Am. Chem. Soc.",
 "t": "A Bifunctional Aminoxyl–Bipyridine Peptide Catalyst for the Atroposelective Copper-Catalyzed Aerobic Oxidation of Biaryl Diols",
@@ -2331,12 +1425,6 @@
 "doi": "10.1021/acscatal.6c01837",
 "j": "ACS Catal.",
 "t": "Asymmetric Iron-Catalyzed Multicomponent Radical Dicarbofunctionalization of Vinyl Organoboron Compounds",
-"m": "2026-05"
-},
-{
-"doi": "10.1021/acscatal.6c01813",
-"j": "ACS Catal.",
-"t": "Parallel Kinetic Resolution of Racemic Compounds Using a Single Chiral Catalyst",
 "m": "2026-05"
 },
 {
@@ -2370,12 +1458,6 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1021/jacs.6c06697",
-"j": "J. Am. Chem. Soc.",
-"t": "O -Vinylhydroxylamines for De Novo Pyrrole Synthesis",
-"m": "2026-05"
-},
-{
 "doi": "10.1021/jacs.6c00988",
 "j": "J. Am. Chem. Soc.",
 "t": "Ligand-Controlled Pd(II)-Catalyzed α,β-Unsaturation and β-Arylation of Long-Chain Acids",
@@ -2391,18 +1473,6 @@
 "doi": "10.1021/acscatal.6c02259",
 "j": "ACS Catal.",
 "t": "Photocatalyzed Decarboxylative Dual Functional Group Transposition Using Bifunctional Radical Precursors",
-"m": "2026-05"
-},
-{
-"doi": "10.1021/acscatal.6c02231",
-"j": "ACS Catal.",
-"t": "Discovering Enantioselective Protodeauration in Gold Catalysis: Asymmetric Synthesis of Cyclobutenes",
-"m": "2026-05"
-},
-{
-"doi": "10.1021/jacs.6c04423",
-"j": "J. Am. Chem. Soc.",
-"t": "Strategic Applications of Single-Atom Skeletal Editing in Natural Product Synthesis",
 "m": "2026-05"
 },
 {
@@ -2460,12 +1530,6 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1021/jacs.6c03691",
-"j": "J. Am. Chem. Soc.",
-"t": "Diastereoselective and Chemically Reversible C–C Bond Formation Mediated by an (N-heterocyclic)boryloxy Aluminyl Compound",
-"m": "2026-05"
-},
-{
 "doi": "10.1002/anie.5228347",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Beyond para ‐ and meta ‐Substitution: Synthesis and Biological Validation of Chalcogen‐Rich Thiabicyclo[3.1.1]heptanes as Bioisosteres of Aryl Thioether Derivat",
@@ -2484,12 +1548,6 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1021/acscatal.6c02296",
-"j": "ACS Catal.",
-"t": "Stereoinvertive Cross-Coupling for Trisubstituted Alkenes Enabled by the Sulfoximine Leaving Group",
-"m": "2026-05"
-},
-{
 "doi": "10.1002/anie.8821005",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Palladium‐Catalyzed Three‐Component Coupling Through Carbene Migratory Insertion: Access to Allenes and 1,5‐Enynes",
@@ -2502,12 +1560,6 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1021/jacs.6c01402",
-"j": "J. Am. Chem. Soc.",
-"t": "Uranyl Tris(benzoate) Photocatalysts for Site-Selective Hydrocarbon Functionalization",
-"m": "2026-05"
-},
-{
 "doi": "10.1002/anie.9633331",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Synthesis of Chonemorphol A, Chonemorphol C, and Ecdysantheroside A Aglycone From Simple Steroids",
@@ -2517,12 +1569,6 @@
 "doi": "10.1002/anie.2074669",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Catalytic Enantioselective Multicomponent Reactions of Sulfoxonium Ylides Enabled by a Formal Rearrangement—A Versatile Entry to Enantioenriched α‐Sulfanyl Carb",
-"m": "2026-05"
-},
-{
-"doi": "10.1021/jacs.6c05917",
-"j": "J. Am. Chem. Soc.",
-"t": "Asymmetric Dearomative [4 + 2] Photocycloadditions of Quinolines with Alkenes Enabled by Organocatalytic Activation",
 "m": "2026-05"
 },
 {
@@ -2556,12 +1602,6 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1021/jacs.6c02555",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantioconvergent Chan–Evans–Lam C(sp 3 )–O Coupling: Cu-Catalyzed Asymmetric Benzyl- and Allylborane Oxidation",
-"m": "2026-05"
-},
-{
 "doi": "10.1021/jacs.6c05870",
 "j": "J. Am. Chem. Soc.",
 "t": "Cobalt-Catalyzed Asymmetric Cyclopropanation of Heteroaryl Alkenes with Homogeneous Zinc Carbenoids",
@@ -2592,12 +1632,6 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1021/acscatal.6c01919",
-"j": "ACS Catal.",
-"t": "Unusual Stereoselectivity in Copper-Catalyzed Allylic Fluoroalkylation of Alkenes: A Direct Route to Fluoroalkylated Z -Enamides",
-"m": "2026-05"
-},
-{
 "doi": "10.1126/science.aed6880",
 "j": "Science",
 "t": "A unified platform for nucleoside analog synthesis",
@@ -2613,12 +1647,6 @@
 "doi": "10.1002/anie.5183787",
 "j": "Angew. Chem. Int. Ed.",
 "t": "BIBOP‐Catalyzed Asymmetric Staudinger/aza‐Wittig Reaction: Unified Syntheses of (–)‐Minfiensine and (+)‐Aspidophylline A",
-"m": "2026-05"
-},
-{
-"doi": "10.1021/jacs.6c06343",
-"j": "J. Am. Chem. Soc.",
-"t": "Ligand-Modulated Cobalt-Catalyzed Alkene Carbocarbonylation Unlocks Aliphatic Ketone Synthesis",
 "m": "2026-05"
 },
 {
@@ -2640,12 +1668,6 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1021/jacs.6c06123",
-"j": "J. Am. Chem. Soc.",
-"t": "Installing Axial Chirality by Atroposelective C(sp 3 )–H Bond Oxidation",
-"m": "2026-05"
-},
-{
 "doi": "10.1002/anie.8964304",
 "j": "Angew. Chem. Int. Ed.",
 "t": "A Unified Radical C–SuFEx Platform via Catalytic EDA Complex‐Mediated S(VI)─F Bond Activation",
@@ -2655,12 +1677,6 @@
 "doi": "10.1002/anie.7920745",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Alkane as Hydrogen Source: Pd/Photoredox Dual‐Catalysis Enables Mild Olefin Hydrogenation",
-"m": "2026-05"
-},
-{
-"doi": "10.1021/acscatal.6c01419",
-"j": "ACS Catal.",
-"t": "Decarboxylative C(sp 2 )−C(sp 3 ) Cross-Coupling of Bicyclo[1.1.1]pentane and Cubane Carboxylic Acids Using a Nickel(II) Aryl Precatalyst",
 "m": "2026-05"
 },
 {
@@ -2697,12 +1713,6 @@
 "doi": "10.1002/anie.9774889",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Aziridination of a Single Carbon Atom in Alkenes via Energy Transfer Catalysis",
-"m": "2026-05"
-},
-{
-"doi": "10.1021/acscatal.6c02037",
-"j": "ACS Catal.",
-"t": "A Comparative Study of HAT-Based Reactivity Promoted by PINO and Cumyloxyl Radicals and by Photoexcited Decatungstate: Reactivity Scales for C–H Bond Functional",
 "m": "2026-05"
 },
 {
@@ -2748,33 +1758,15 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1021/acscatal.6c01870",
-"j": "ACS Catal.",
-"t": "Radical Carbonylation of Aryl Bromides Enabled by Decoupling Nickel–CO Binding",
-"m": "2026-05"
-},
-{
 "doi": "10.1021/jacs.6c03052",
 "j": "J. Am. Chem. Soc.",
 "t": "Divergent Skeletal Editing of Pyridinium Salts to Azepinones and Pyrrolidinones via Formal Carbonyl Insertion",
 "m": "2026-05"
 },
 {
-"doi": "10.1021/jacs.6c05174",
-"j": "J. Am. Chem. Soc.",
-"t": "In Crystallo Synthesis of a Triplet Silver Nitrene",
-"m": "2026-05"
-},
-{
 "doi": "10.1002/anie.2642371",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Diazaphosphinyl‐Radical‐Catalyzed Halogen Atom Transfer: Inverting Reactivity Trends for Chloride Activation",
-"m": "2026-05"
-},
-{
-"doi": "10.1021/acscatal.6c01896",
-"j": "ACS Catal.",
-"t": "Stereodivergent and Enantioselective Access to Axial Chirality via Sequential Allylation/Peterson Elimination",
 "m": "2026-05"
 },
 {
@@ -2796,12 +1788,6 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1021/jacs.6c01983",
-"j": "J. Am. Chem. Soc.",
-"t": "Ligand Control Overrides Intrinsic Site Selectivity in C–H Borylation of Phenol and Aniline Derivatives",
-"m": "2026-05"
-},
-{
 "doi": "10.1002/anie.7019464",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Catalytic Asymmetric Construction of Si‐Chiral Silabicyclo[3.3.1]Nonanes Using Functionalized Prochiral Silacyclohexanones",
@@ -2817,18 +1803,6 @@
 "doi": "10.1002/anie.6162809",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Geminal Difunctionalization of Ketones via C─S Bond Insertion of Photogenerated Donor–Donor Diazo Compounds",
-"m": "2026-05"
-},
-{
-"doi": "10.1021/jacs.5c23403",
-"j": "J. Am. Chem. Soc.",
-"t": "Scope and Mechanism of Nickel-Isocyanide-Catalyzed Imine Hydrosilylation for ALD-Relevant Aminosilanes",
-"m": "2026-05"
-},
-{
-"doi": "10.1021/jacs.6c04825",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantioselective Contrathermodynamic Olefin Isomerization",
 "m": "2026-05"
 },
 {
@@ -2868,24 +1842,6 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1021/jacs.6c05761",
-"j": "J. Am. Chem. Soc.",
-"t": "Divergent Asymmetric Total Synthesis of the cis -Clerodane Diterpenoids",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/acscatal.6c02065",
-"j": "ACS Catal.",
-"t": "Photoexcited Copper-Catalyzed Three-Component 1,4-Arylamination of 1,3-Dienes Using Aryl Thianthrenium Salts",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/acscatal.6c02465",
-"j": "ACS Catal.",
-"t": "Engineering P450 Peroxygenase Overoxidation Promiscuity Enables Concise and High-Yielding Biocatalytic Synthesis of d -Amino Acids from Fatty Acids",
-"m": "2026-04"
-},
-{
 "doi": "10.1126/science.aec3587",
 "j": "Science",
 "t": "Precision indole skeletal editing for single-carbon replacement",
@@ -2910,12 +1866,6 @@
 "m": "2026-04"
 },
 {
-"doi": "10.1021/jacs.6c06067",
-"j": "J. Am. Chem. Soc.",
-"t": "Chemoenzymatic Synthesis with Plant Oxidases and Metabolic Engineering Enable Rapid Access to Rare Gibberellins",
-"m": "2026-04"
-},
-{
 "doi": "10.1002/anie.9100826",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Enantioselective C–H Functionalization Reactions Enabled by Cobalt(III)‐Centered Chiral Pockets",
@@ -2925,18 +1875,6 @@
 "doi": "10.1021/acscatal.6c00762",
 "j": "ACS Catal.",
 "t": "Enantioselective Pd-Catalyzed Alkene Carbothiolation via C−S Bond Activation to Form Indole Derivatives with Quaternary Stereocenters",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/jacs.6c00508",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantioselective Pyrazole Alkylation via Iridium and Squaramide Catalyzed N–H Insertion",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/jacs.5c21614",
-"j": "J. Am. Chem. Soc.",
-"t": "Direct Access to Iron Carbenes from Aldehyde, Ketone, and Formamide Feedstocks",
 "m": "2026-04"
 },
 {
@@ -2964,27 +1902,9 @@
 "m": "2026-04"
 },
 {
-"doi": "10.1021/jacs.6c02244",
-"j": "J. Am. Chem. Soc.",
-"t": "One-Shot Carbon Insertion Unlocks Polycyclic Frameworks and Near-Infrared Photocatalysts",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/jacs.6c00498",
-"j": "J. Am. Chem. Soc.",
-"t": "Unexpected Chemoselectivity in Radical Aryl Translocation via Photosensitization",
-"m": "2026-04"
-},
-{
 "doi": "10.1021/jacs.6c02161",
 "j": "J. Am. Chem. Soc.",
 "t": "Visible-Light-Promoted Continuous-Flow Iodination of Primary C(sp 3 )–H Bonds: An Undirected and Regioselective Approach",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/jacs.6c03062",
-"j": "J. Am. Chem. Soc.",
-"t": "Asymmetric Synthesis of S -Trifluoromethyl Sulfoxide and Sulfoximine Pharmacophores",
 "m": "2026-04"
 },
 {
@@ -3000,27 +1920,9 @@
 "m": "2026-04"
 },
 {
-"doi": "10.1021/jacs.6c02912",
-"j": "J. Am. Chem. Soc.",
-"t": "Alkyl Radical Coupling with Phenoxy(imine)–Nickel(II)–Aryl Complexes: Evidence for a Multistep Process in C–C Bond Formation",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/acscatal.5c08859",
-"j": "ACS Catal.",
-"t": "Copper(I)-Catalyzed Enantioselective Cross-Aldol Reactions of α-Ketoamides: Synthetic Applications and Mechanistic Insights",
-"m": "2026-04"
-},
-{
 "doi": "10.1002/anie.6712761",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Enantioselective Synthesis of Inherently Chiral Tetraphenylene Analogues Enabled by NHC‐Catalyzed Benzoin Condensation",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/acscatal.6c01712",
-"j": "ACS Catal.",
-"t": "Copper-Catalyzed Enantioselective Conjugate Borylation of Silacyclohexadienones to Construct Highly Congested Stereocenters Adjacent to C−Si Bonds",
 "m": "2026-04"
 },
 {
@@ -3033,18 +1935,6 @@
 "doi": "10.1002/anie.202526152",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Stereoselective Biotransformation: Transfer of Learning to Advance Drug Metabolism and Biocatalysis",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/jacs.6c05777",
-"j": "J. Am. Chem. Soc.",
-"t": "Overcoming the Barrier to Intermolecular Alkoxy Radical Reactivity: Proton-Coupled Electron Transfer-Mediated Alkene Hydroetherification",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/acscatal.5c09143",
-"j": "ACS Catal.",
-"t": "Mechanistic Studies of an Iron-Catalyzed Intermolecular C–H Amination Reaction under Catalytic Conditions and Having a Large KIE",
 "m": "2026-04"
 },
 {
@@ -3081,12 +1971,6 @@
 "doi": "10.1021/acscatal.6c00501",
 "j": "ACS Catal.",
 "t": "Phosphonate NOPP-Enabled Enantioselective Radical Cyanophosphonation of Alkenes",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/jacs.6c02970",
-"j": "J. Am. Chem. Soc.",
-"t": "Fluoro-Wacker Gem -Difluorination of Alkene via Fluoropalladation and Dyotropic Rearrangement",
 "m": "2026-04"
 },
 {
@@ -3132,12 +2016,6 @@
 "m": "2026-04"
 },
 {
-"doi": "10.1021/jacs.6c03836",
-"j": "J. Am. Chem. Soc.",
-"t": "Sunlight-Driven Olefin Epoxidation via a Bromide Radical-Mediated Process",
-"m": "2026-04"
-},
-{
 "doi": "10.1021/jacs.6c00567",
 "j": "J. Am. Chem. Soc.",
 "t": "Enabling Fluoroalkyl-Sulfonylalkylation and Fluoroalkyl-Halogenation of Alkenes and Alkynes via Photoredox Catalysis",
@@ -3180,12 +2058,6 @@
 "m": "2026-04"
 },
 {
-"doi": "10.1021/acscatal.6c00211",
-"j": "ACS Catal.",
-"t": "Switchable Divergent Synthesis of Inherently Chiral Calixarenes via Palladium-Catalyzed Asymmetric Hydroarylation of Alkynes",
-"m": "2026-04"
-},
-{
 "doi": "10.1021/acscatal.6c01072",
 "j": "ACS Catal.",
 "t": "Stereocontrolled Access to N-Glycosides via Nickel-Catalyzed Reductive C(sp 3 )−N(sp 3 ) Cross-Coupling",
@@ -3204,27 +2076,9 @@
 "m": "2026-04"
 },
 {
-"doi": "10.1021/acscatal.5c09105",
-"j": "ACS Catal.",
-"t": "How the Diiron Cofactor in HDO Enzymes Collaboratively Promotes the Complex Oxidative Rearrangement via Multistep H/H+ Transfer: The Mechanism of AetD-Catalyzed",
-"m": "2026-04"
-},
-{
 "doi": "10.1021/acscatal.6c00557",
 "j": "ACS Catal.",
 "t": "A General Carbonylation Strategy of [1.1.1]Propellane toward BCP-Containing Esters and Amides",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/jacs.6c01895",
-"j": "J. Am. Chem. Soc.",
-"t": "Visible-Light-Induced C–S Bond Cleavage Enables Alkyl Radical Generation from Redox-Inert Substrates",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/jacs.6c02334",
-"j": "J. Am. Chem. Soc.",
-"t": "Seven-Step Total Synthesis of Conidiogenone B Enabled by Radical Cyclizations",
 "m": "2026-04"
 },
 {
@@ -3252,21 +2106,9 @@
 "m": "2026-04"
 },
 {
-"doi": "10.1021/acscatal.6c00259",
-"j": "ACS Catal.",
-"t": "Dual Diselenide/Guanidine-Catalyzed Asymmetric Synthesis of Axially Chiral Styrenes via Dehydrogenative Coupling",
-"m": "2026-04"
-},
-{
 "doi": "10.1021/acscatal.5c08823",
 "j": "ACS Catal.",
 "t": "Enantioselective Synthesis of Chiral 1-Amino-3-silatetralins via Palladium-Catalyzed [4 + 2] Annulation of Benzosilacyclobutenes with N -Allenamides",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/jacs.6c04665",
-"j": "J. Am. Chem. Soc.",
-"t": "Fast and Selective Labeling of Serine and Threonine in HFIP for Facile Editing of Peptide Alcohol Side Chains",
 "m": "2026-04"
 },
 {
@@ -3285,12 +2127,6 @@
 "doi": "10.1002/anie.6606811",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Photocatalytic Radical‐Polar Crossover Enables Modular Access to Bicyclo[2.m.n]Alkane Alcohol Bioisosteres",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/acscatal.6c00064",
-"j": "ACS Catal.",
-"t": "Enantioselective Catalytic Hydrofunctionalization: Chalcogen Additions to Alkenes",
 "m": "2026-04"
 },
 {
@@ -3315,12 +2151,6 @@
 "doi": "10.1002/anie.5979629",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Formal Allylic C(sp 3 )−H Carboxylation With CO 2 via Copper Metallaphotoredox Catalysis",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/jacs.6c02927",
-"j": "J. Am. Chem. Soc.",
-"t": "Facile Synthesis of Gem-Difluoroalkene-Based Bis (silanes) via Copper-Catalyzed Disilylative Defluorination of 1-Chloro-1-trifluoromethylalkenes",
 "m": "2026-04"
 },
 {
@@ -3372,12 +2202,6 @@
 "m": "2026-04"
 },
 {
-"doi": "10.1021/jacs.6c01294",
-"j": "J. Am. Chem. Soc.",
-"t": "Radical Sampling Enabled Saturated N-Heterocycle Cyclization",
-"m": "2026-04"
-},
-{
 "doi": "10.1021/jacs.5c22411",
 "j": "J. Am. Chem. Soc.",
 "t": "Enantioselective Iridium-Catalyzed C–H Bond Alkylation for the Synthesis of N–N Atropisomeric Phosphines",
@@ -3402,12 +2226,6 @@
 "m": "2026-04"
 },
 {
-"doi": "10.1021/acscatal.6c01333",
-"j": "ACS Catal.",
-"t": "Establishing the Fatty Acid Photodecarboxylase Cv FAP as a Platform for Photobiocatalytic Radical Transformations",
-"m": "2026-04"
-},
-{
 "doi": "10.1021/acscatal.6c01346",
 "j": "ACS Catal.",
 "t": "Redox-Neutral Radical−Polar Crossover [3+2] Annulation of Cyclopropanols and Alkenes",
@@ -3420,27 +2238,9 @@
 "m": "2026-04"
 },
 {
-"doi": "10.1021/jacs.6c01241",
-"j": "J. Am. Chem. Soc.",
-"t": "Which Radical Abstracts Hydrogen Atom? Alkylperoxy versus Alkoxy in Cu-Catalyzed Benzylic C–H Oxidation",
-"m": "2026-04"
-},
-{
 "doi": "10.1021/jacs.6c03803",
 "j": "J. Am. Chem. Soc.",
 "t": "Palladium-Catalyzed Markovnikov Hydroformylation of Olefins",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/jacs.5c21546",
-"j": "J. Am. Chem. Soc.",
-"t": "Decoupling Cyanide Activation from C–C Bond Formation in Ni-Catalyzed Cyanation of Strained Ketones Using Benzonitriles",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/jacs.6c01185",
-"j": "J. Am. Chem. Soc.",
-"t": "Asymmetric Total Synthesis and Structure Revision of (+)-Mangicol D",
 "m": "2026-04"
 },
 {
@@ -3459,12 +2259,6 @@
 "doi": "10.1021/jacs.6c03204",
 "j": "J. Am. Chem. Soc.",
 "t": "Photo-Induced Aliphatic C–H Amination Mediated by Hydrogen Atom Transfer of an Alkoxycarbonyloxyl Radical and Its Utilization for Diastereoselective Modificatio",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/jacs.6c01395",
-"j": "J. Am. Chem. Soc.",
-"t": "Cobalt-Catalyzed Syntheses of Acrylamides and Succindiamides from Alkynes and Amines Promoted by Light",
 "m": "2026-04"
 },
 {
@@ -3510,12 +2304,6 @@
 "m": "2026-03"
 },
 {
-"doi": "10.1021/jacs.6c03178",
-"j": "J. Am. Chem. Soc.",
-"t": "Copper-Catalyzed Enantioconvergent Nucleophilic Fluorination of Alkyl Electrophiles to Generate α-Fluoroamides",
-"m": "2026-03"
-},
-{
 "doi": "10.1021/acscatal.5c08986",
 "j": "ACS Catal.",
 "t": "Enantioselective Synthesis of γ,γ-Diaryl Ketones Enabled by Pd-Catalyzed Multicomponent Reaction of N -Sulfonylhydrazones",
@@ -3558,18 +2346,6 @@
 "m": "2026-03"
 },
 {
-"doi": "10.1021/jacs.5c20918",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantioselective [2π+2σ] Cycloaddition to Bicyclo[2.1.1]hexanes Enabled by an Artificial Photoenzyme",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/jacs.6c01890",
-"j": "J. Am. Chem. Soc.",
-"t": "Chiral Isourea-Catalyzed Enantioselective Carbene Insertion into an N–H Bond through a Double Proton-Transfer Process",
-"m": "2026-03"
-},
-{
 "doi": "10.1021/jacs.6c01539",
 "j": "J. Am. Chem. Soc.",
 "t": "Stereodivergent Inverse Electron-Demand Diels–Alder Reactions Enabled by Modification of Prolinol-Derived Catalysts",
@@ -3579,18 +2355,6 @@
 "doi": "10.1021/jacs.6c02820",
 "j": "J. Am. Chem. Soc.",
 "t": "Programmed Oxidation-Guided Divergent Total Syntheses of (±)-Anisatin, (±)-Neoanisatin, (±)-Majusanols A and B",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/jacs.5c22292",
-"j": "J. Am. Chem. Soc.",
-"t": "Navigating the Landscape of Cycloartanyl Cations: Synthesis of Fortunefuroic Acid I, Parkeol, 25,26,27-Trinor-3α-hydroxy-17,13-friedolanosta-8,12-dien-23-one, a",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/acscatal.6c00243",
-"j": "ACS Catal.",
-"t": "Enantio- and Diastereoselective Diverse Alkylation of Homoenolates via Bifunctional N ‑Heterocyclic Carbenes",
 "m": "2026-03"
 },
 {
@@ -3612,12 +2376,6 @@
 "m": "2026-03"
 },
 {
-"doi": "10.1021/jacs.5c21425",
-"j": "J. Am. Chem. Soc.",
-"t": "One-Step-Three-Ring Propellanation Reaction of Yne-Vinylcyclobutanones Catalyzed by Nickel: Reaction Development, Mechanism, and Formal Synthesis of Modhephene",
-"m": "2026-03"
-},
-{
 "doi": "10.1002/anie.9028210",
 "j": "Angew. Chem. Int. Ed.",
 "t": "One‐Pot Amidation/C─H Halogenation by an Efficient Electrochemical Cascade",
@@ -3627,12 +2385,6 @@
 "doi": "10.1021/jacs.6c01182",
 "j": "J. Am. Chem. Soc.",
 "t": "Cobalt-Catalyzed Highly Enantioselective Hydrogenation of Quinolines under Mild Conditions",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/jacs.5c20798",
-"j": "J. Am. Chem. Soc.",
-"t": "Nickel-Catalyzed Cross-Dehydrogenative Allylation of Aldehydes",
 "m": "2026-03"
 },
 {
@@ -3648,45 +2400,15 @@
 "m": "2026-03"
 },
 {
-"doi": "10.1021/jacs.6c03218",
-"j": "J. Am. Chem. Soc.",
-"t": "Methylene Cycloalkene as a Reactive 1,3-Diene for Enantioselective Hydroamination",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/jacs.5c22785",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantio- and Site-Selective Synthesis of α-Substituted Hydrazines, Pyrazolidines, and Tertiary Alcohols by Copper-Catalyzed Allylic C–N and C–O Bond Formation",
-"m": "2026-03"
-},
-{
 "doi": "10.1002/anie.4116549",
 "j": "Angew. Chem. Int. Ed.",
 "t": "cis‐Aziridines From Terminal Alkenes via Diastereoselective Intramolecular Electrocatalytic Hydroamination",
 "m": "2026-03"
 },
 {
-"doi": "10.1021/acscatal.5c07786",
-"j": "ACS Catal.",
-"t": "Flow-Enabled Deuteration of Saturated Fatty Acids over Platinum Group Metals: Mechanistic and Process Insights",
-"m": "2026-03"
-},
-{
 "doi": "10.1021/jacs.6c01821",
 "j": "J. Am. Chem. Soc.",
 "t": "3,5-Dimethylorsellinic Acid (DMOA)-Derived Meroterpenoid Ortholactones (−)-Novofumigatonin, (−)-Asnovolin F, and (−)-Asnovolin G: Total Syntheses and Related St",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/jacs.6c01829",
-"j": "J. Am. Chem. Soc.",
-"t": "Synthesis and Isolation of α-Diazophosphonium Ylides",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/jacs.5c19848",
-"j": "J. Am. Chem. Soc.",
-"t": "Repurposing “Ene”-Reductase to Isomerase for Enantiodivergent Synthesis of Allenoates",
 "m": "2026-03"
 },
 {
@@ -3714,12 +2436,6 @@
 "m": "2026-03"
 },
 {
-"doi": "10.1021/jacs.6c00848",
-"j": "J. Am. Chem. Soc.",
-"t": "Single-Electron Reactivity of Thianthrene S -Oxide and Its Synthetic Application in Late-Stage Thiocyanation and Selenocyanation",
-"m": "2026-03"
-},
-{
 "doi": "10.1002/anie.202522342",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Electronickel‐Catalyzed Stereoselective Synthesis of Butafulvenes",
@@ -3738,27 +2454,9 @@
 "m": "2026-03"
 },
 {
-"doi": "10.1021/jacs.5c21938",
-"j": "J. Am. Chem. Soc.",
-"t": "The RAvIN Platform: A Noncarbohydrate Platform for Oligonucleotide Synthesis",
-"m": "2026-03"
-},
-{
 "doi": "10.1021/jacs.6c02447",
 "j": "J. Am. Chem. Soc.",
 "t": "Chiral Binaphthyldimethyl η 6 -Benzene Ligands: Design, Synthesis, and Application in Ruthenium-Catalyzed Asymmetric C–H Activation",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/jacs.6c02374",
-"j": "J. Am. Chem. Soc.",
-"t": "Stereocontrolled Synthesis of Polysubstituted Housanes via gem -Bismetalated Cyclopropanes",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/jacs.6c00368",
-"j": "J. Am. Chem. Soc.",
-"t": "Total Synthesis of the SJG-2 Glycan: General Strategies for Constructing Sterically Congested Sialylated Glycans",
 "m": "2026-03"
 },
 {
@@ -3786,12 +2484,6 @@
 "m": "2026-03"
 },
 {
-"doi": "10.1021/acscatal.5c08186",
-"j": "ACS Catal.",
-"t": "Biocatalytic Construction of Two or More Stereocenters in the Synthesis of High-Value-Added Chemicals",
-"m": "2026-03"
-},
-{
 "doi": "10.1021/jacs.5c21454",
 "j": "J. Am. Chem. Soc.",
 "t": "Electroreductive Cleavage of C(sp 3 )–N Bonds in Saturated N -Carbonyl Heterocycles",
@@ -3816,33 +2508,15 @@
 "m": "2026-03"
 },
 {
-"doi": "10.1021/acscatal.6c00910",
-"j": "ACS Catal.",
-"t": "Relay Oxidation with Engineered P450 BM3 and Aldo-Keto Reductase: Chemoenzymatic Synthesis of Erythrina Alkaloids",
-"m": "2026-03"
-},
-{
 "doi": "10.1021/jacs.6c01091",
 "j": "J. Am. Chem. Soc.",
 "t": "Boron-Mediated Hydroalkylation of Unactivated Olefins: An Anti -Markovnikov Approach to Congested Carbon Centers",
 "m": "2026-03"
 },
 {
-"doi": "10.1021/jacs.6c00348",
-"j": "J. Am. Chem. Soc.",
-"t": "Catalytic Asymmetric Total Synthesis of Grisemycin, a Thioangucycline Polyketide",
-"m": "2026-03"
-},
-{
 "doi": "10.1002/anie.202525709",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Aryl and Alkyl Radiotrifluoromethylation via Metallaphotoredox‐Mediated Radical Cross‐Coupling",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/acscatal.6c01330",
-"j": "ACS Catal.",
-"t": "Enantioselective Radical–Radical Cross-Dehydrogenative Coupling of α-Amino C(sp 3 )–H Bonds and Aldehydes Enabled by Photoredox and Nickel Catalysis",
 "m": "2026-03"
 },
 {
@@ -3855,18 +2529,6 @@
 "doi": "10.1021/acscatal.6c00868",
 "j": "ACS Catal.",
 "t": "Enantioselective Carbonyl Crotylation of Alcohol Proelectrophiles via Ruthenium-Catalyzed Hydrogen Autotransfer: Innovation Inspired by Polyketide Total Synthes",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/jacs.6c00526",
-"j": "J. Am. Chem. Soc.",
-"t": "Aminyl Radical-Enabled Photoredox/Nickel-Catalyzed C(sp 3 )–C(sp 3 ) Suzuki–Miyaura Cross-Coupling via Halogen-Atom Transfer Strategy",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/jacs.6c00742",
-"j": "J. Am. Chem. Soc.",
-"t": "Ortho – Meta and Para – Meta Isomerization of Phenols",
 "m": "2026-03"
 },
 {
@@ -3900,27 +2562,9 @@
 "m": "2026-03"
 },
 {
-"doi": "10.1021/jacs.5c21466",
-"j": "J. Am. Chem. Soc.",
-"t": "Li + Promoted the Cyanation of Unactivated C–H Bonds Catalyzed by the Manganese Porphyrin Complex through Biomimetic Oxidation",
-"m": "2026-03"
-},
-{
 "doi": "10.1002/anie.5526474",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Asymmetric Total Synthesis of (–)‐Verrucarol",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/jacs.6c00782",
-"j": "J. Am. Chem. Soc.",
-"t": "Lewis Base-Electrocatalyzed Enantioselective Radical Cross-Coupling of Esters",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/jacs.5c20561",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantioselective Copper-Catalyzed Synthesis of Hydroxylamines via Hydrofunctionalization of Alkenes using Nitroalkanes",
 "m": "2026-03"
 },
 {
@@ -3966,39 +2610,15 @@
 "m": "2026-03"
 },
 {
-"doi": "10.1021/jacs.5c20824",
-"j": "J. Am. Chem. Soc.",
-"t": "Merger of Heterogeneous and Homogeneous Photocatalysis for Arene C–H Amination",
-"m": "2026-03"
-},
-{
 "doi": "10.1002/anie.7690506",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Skeleton Editing of Indenes With Metal Carbenes to Access 1,2‐Dihydronaphthalenes",
 "m": "2026-03"
 },
 {
-"doi": "10.1021/jacs.5c22181",
-"j": "J. Am. Chem. Soc.",
-"t": "An Automation Platform for the Chemoenzymatic Synthesis of Complex Sulfated and Branched Glycans",
-"m": "2026-03"
-},
-{
 "doi": "10.1021/jacs.6c01780",
 "j": "J. Am. Chem. Soc.",
 "t": "Merging Photoredox and Palladium Photochemistry: Evidence for a Dual-Photon Approach to Aldehyde Synthesis",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/acscatal.5c09276",
-"j": "ACS Catal.",
-"t": "Designing an Enzyme Cascade System for N-Heterocycle Synthesis",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/acscatal.5c08677",
-"j": "ACS Catal.",
-"t": "Structural Engineering of S -Adenosyl- l -methionine for Biocatalytic Fluoromethylation via Nucleophilic and Radical Pathways",
 "m": "2026-03"
 },
 {
@@ -4026,21 +2646,9 @@
 "m": "2026-03"
 },
 {
-"doi": "10.1021/jacs.5c20884",
-"j": "J. Am. Chem. Soc.",
-"t": "Photodriven Sm-Catalyzed Asymmetric Ketyl-Olefin Coupling",
-"m": "2026-03"
-},
-{
 "doi": "10.1002/anie.202520548",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Catalytic &amp; Enantioselective Ring Opening of Azabicyclo[1.1.0]Butyl Carbinols via N ‐Allylation of Strained Tertiary Amines",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/acscatal.5c09091",
-"j": "ACS Catal.",
-"t": "Photoexcited Phosphine–Acyl Iodide Complexes for the Generation of Acyl Radicals",
 "m": "2026-03"
 },
 {
@@ -4053,12 +2661,6 @@
 "doi": "10.1021/acscatal.6c00536",
 "j": "ACS Catal.",
 "t": "Enantioselective C(sp 3 )–C(sp 3 ) Cross-Coupling between Oxacycles and Alkylsilyl Peroxides via a Dual Photoredox/Nickel Catalytic System",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/acscatal.6c00560",
-"j": "ACS Catal.",
-"t": "Enantioselective Synthesis of Axially Chiral Spiro[3.3]heptanes by Site-Selective C–H Functionalization",
 "m": "2026-03"
 },
 {
@@ -4077,12 +2679,6 @@
 "doi": "10.1021/jacs.5c22914",
 "j": "J. Am. Chem. Soc.",
 "t": "Switchable and Selective Synthesis of Unsymmetrical N -Aryl Pyrazoles from 1,2,3-Thiadiazine S -Oxides",
-"m": "2026-03"
-},
-{
-"doi": "10.1021/jacs.5c20979",
-"j": "J. Am. Chem. Soc.",
-"t": "Pyridoxal 5′-Phosphate-Dependent Enzymatic Decarboxylative Annulation",
 "m": "2026-03"
 },
 {
@@ -4110,45 +2706,15 @@
 "m": "2026-02"
 },
 {
-"doi": "10.1021/jacs.6c00213",
-"j": "J. Am. Chem. Soc.",
-"t": "Divergent Asymmetric Synthesis of Four Pentacyclic Homoproaporphine Alkaloids via C–H Elaboration",
-"m": "2026-02"
-},
-{
-"doi": "10.1021/jacs.6c00331",
-"j": "J. Am. Chem. Soc.",
-"t": "Total Synthesis of the Glycoside Antibiotic Paulomycin A",
-"m": "2026-02"
-},
-{
 "doi": "10.1002/anie.5110668",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Kinetically Stereocontrolled Gem ‐Fluoro(chloro)‐Olefination of Carbonyls by an Unprecedented Sulfoximine: Programmable Construction of Challenging Persubstitut",
 "m": "2026-02"
 },
 {
-"doi": "10.1021/acscatal.5c08132",
-"j": "ACS Catal.",
-"t": "Chemoenzymatic Synthesis of Norisoprenoid Aroma Compounds via C–H Activation by Engineered P450 BM3",
-"m": "2026-02"
-},
-{
-"doi": "10.1021/acscatal.6c00215",
-"j": "ACS Catal.",
-"t": "Carbonylative Synthesis of 1,4-Diketones",
-"m": "2026-02"
-},
-{
 "doi": "10.1021/jacs.5c22210",
 "j": "J. Am. Chem. Soc.",
 "t": "Copper-Catalyzed Asymmetric Vinylation of α-Cyano Substituted Carbonyl Compounds",
-"m": "2026-02"
-},
-{
-"doi": "10.1021/jacs.6c01169",
-"j": "J. Am. Chem. Soc.",
-"t": "Versatile 2-Oxoglutarate-Dependent Dioxygenases Catalyze Radical-Mediated Multifunctional Skeleton Reconstructions and Oxidation Modifications of Taxoids",
 "m": "2026-02"
 },
 {
@@ -4200,33 +2766,15 @@
 "m": "2026-02"
 },
 {
-"doi": "10.1021/acscatal.5c08528",
-"j": "ACS Catal.",
-"t": "Rebound-S N 2 versus S H 2 Mechanism in Cu-Catalyzed Radical Alkylation of Nucleophiles",
-"m": "2026-02"
-},
-{
 "doi": "10.1021/acscatal.5c08809",
 "j": "ACS Catal.",
 "t": "gem -DifluoroVinylcyclopropane (DF-VCP) Rearrangement to Cyclopentenones Catalyzed by Rh: Reaction Development, Mechanism, and Application to the Total Synthesi",
 "m": "2026-02"
 },
 {
-"doi": "10.1021/acscatal.5c09101",
-"j": "ACS Catal.",
-"t": "Cinchoninium Boronate Ion Pair-Catalyzed Enantioselective Desymmetrization of 1,3-Diols",
-"m": "2026-02"
-},
-{
 "doi": "10.1002/anie.7836129",
 "j": "Angew. Chem. Int. Ed.",
 "t": "A Chalcogen Bonding Catalysis Platform for Isoprenoid Cyclization: Broad Scope and Diverse Product Frameworks",
-"m": "2026-02"
-},
-{
-"doi": "10.1021/acscatal.5c08928",
-"j": "ACS Catal.",
-"t": "Strain-Release-Driven [4 + 1] Annulation: Leveraging Bicyclo[1.1.0]butanes as C1 Synthons via Rh(III) Carbenoid",
 "m": "2026-02"
 },
 {
@@ -4248,21 +2796,9 @@
 "m": "2026-02"
 },
 {
-"doi": "10.1021/jacs.5c21475",
-"j": "J. Am. Chem. Soc.",
-"t": "Stereocontrolled Access to Carbocyclic Nucleosides Bearing Multiple Stereocenters via Desymmetrizing Hydroformylation",
-"m": "2026-02"
-},
-{
 "doi": "10.1021/acscatal.6c00042",
 "j": "ACS Catal.",
 "t": "Photoinduced Zirconium-Catalyzed Cyclopropanation through Activation of gem -Dichloroalkanes",
-"m": "2026-02"
-},
-{
-"doi": "10.1021/jacs.5c21886",
-"j": "J. Am. Chem. Soc.",
-"t": "Mechanistically Guided Functionalization of α,α-Disubstituted Alkenyl Amides Enabled by a Conformationally Flexible Directing Auxiliary",
 "m": "2026-02"
 },
 {
@@ -4278,18 +2814,6 @@
 "m": "2026-02"
 },
 {
-"doi": "10.1021/jacs.5c18641",
-"j": "J. Am. Chem. Soc.",
-"t": "NiH-Catalyzed Regio- and Enantioselective Hydrosulfinamidation of Aryl Alkenes",
-"m": "2026-02"
-},
-{
-"doi": "10.1021/acscatal.5c08762",
-"j": "ACS Catal.",
-"t": "NHC-Catalyzed Single-Electron Oxidation and Alkylation of Imines: Alkene Difunctionalization and Dehydrogenative Coupling",
-"m": "2026-02"
-},
-{
 "doi": "10.1021/acscatal.5c08757",
 "j": "ACS Catal.",
 "t": "Enantioselective Three-Component Radical Alkene Diazomethyl-Cyanation Enabled by Copper/Photoredox Dual Catalysis",
@@ -4299,12 +2823,6 @@
 "doi": "10.1021/jacs.5c22624",
 "j": "J. Am. Chem. Soc.",
 "t": "Chemoenzymatic Synthesis of Arisugacins and Terreulactones via Directed Evolution of a Privileged Sclareolide Dioxygenase",
-"m": "2026-02"
-},
-{
-"doi": "10.1021/jacs.5c23037",
-"j": "J. Am. Chem. Soc.",
-"t": "Nickel-Catalyzed Asymmetric Carboacylation of Alkenes via CO Transfer",
 "m": "2026-02"
 },
 {
@@ -4362,12 +2880,6 @@
 "m": "2026-02"
 },
 {
-"doi": "10.1021/jacs.5c22244",
-"j": "J. Am. Chem. Soc.",
-"t": "Triplet Energy Transfer as a Handle to Tune 1,2-Dialkyldiazene Fragmentation in Radical C(sp 3 )–C(sp 2 ) Cross-Coupling",
-"m": "2026-02"
-},
-{
 "doi": "10.1002/anie.8039232",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Modular Access to Nitriles From Carbonyls via Deoxygenative Transformation With Polarity Inversion",
@@ -4392,18 +2904,6 @@
 "m": "2026-02"
 },
 {
-"doi": "10.1021/jacs.5c19147",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantioselective C–H Arylation for Axially Chiral Tetra- ortho -Substituted Heterobiaryl N -Oxides",
-"m": "2026-02"
-},
-{
-"doi": "10.1021/jacs.6c01021",
-"j": "J. Am. Chem. Soc.",
-"t": "Synthesis of Spiro Carbocycles via Methyl β-C(sp 3 )–H Functionalization of Cyclic Aliphatic Acids",
-"m": "2026-02"
-},
-{
 "doi": "10.1021/jacs.5c22699",
 "j": "J. Am. Chem. Soc.",
 "t": "Enantioselective Total Synthesis of Two Aromatized Halicyclamines",
@@ -4422,18 +2922,6 @@
 "m": "2026-02"
 },
 {
-"doi": "10.1021/jacs.5c18382",
-"j": "J. Am. Chem. Soc.",
-"t": "Direct and Enantioselective Acylation of Diverse C(sp 3 )–H Bonds with Aldehydes",
-"m": "2026-02"
-},
-{
-"doi": "10.1021/jacs.5c22538",
-"j": "J. Am. Chem. Soc.",
-"t": "Harnessing Cooperative Hydrogen-Atom Transfer and Nitrene-Primed Radical–Polar Crossover for Asymmetric C–H Amidation of α-Amino Carbonyls",
-"m": "2026-02"
-},
-{
 "doi": "10.1002/anie.202525850",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Semi‐Reduction of Allenes to Access Deuterated Allylic Isotopomers, Isotopologs and Enantioisotopomers",
@@ -4449,18 +2937,6 @@
 "doi": "10.1021/jacs.6c00141",
 "j": "J. Am. Chem. Soc.",
 "t": "Overriding Stereochemical Outcomes in Cyclase Phase Total Synthesis: Enantioselective Synthesis of Habiterpenol and Dasyscyphin A",
-"m": "2026-02"
-},
-{
-"doi": "10.1021/acscatal.5c07877",
-"j": "ACS Catal.",
-"t": "A Convergent, One-Step Biocatalytic Cascade for the Synthesis of Structurally Diverse Noncanonical Amino Acids",
-"m": "2026-02"
-},
-{
-"doi": "10.1021/jacs.5c20694",
-"j": "J. Am. Chem. Soc.",
-"t": "Expanding Ullmann Homocoupling to Cross-Coupling: Electrochemical Copper-Catalyzed Cross-Electrophile Coupling of Alkyl and Aryl Halides",
 "m": "2026-02"
 },
 {
@@ -4491,12 +2967,6 @@
 "doi": "10.1002/anie.202522498",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Electrooxidative C‐C Fragmentation of Aromatic Radical Cations for Cascade Benzylic Multifunctionalization",
-"m": "2026-02"
-},
-{
-"doi": "10.1021/jacs.5c18403",
-"j": "J. Am. Chem. Soc.",
-"t": "Organocatalytic Deoxygenative Reduction of α,β-Unsaturated Ketones",
 "m": "2026-02"
 },
 {
@@ -4554,12 +3024,6 @@
 "m": "2026-02"
 },
 {
-"doi": "10.1021/acscatal.5c07788",
-"j": "ACS Catal.",
-"t": "Photoenzymatic Cascade Catalysis with an Artificial CDCase for Stereoselective Cross-Dehydrogenative Coupling",
-"m": "2026-02"
-},
-{
 "doi": "10.1021/jacs.5c22646",
 "j": "J. Am. Chem. Soc.",
 "t": "Copper(I)- N -Heterocyclic Carbene-Catalyzed Enantioselective Conjugate Allylation of α,β-Unsaturated Esters",
@@ -4614,12 +3078,6 @@
 "m": "2026-02"
 },
 {
-"doi": "10.1021/acscatal.5c08221",
-"j": "ACS Catal.",
-"t": "Heterobenzyl Chlorides as Linchpins for C–H Arylation via Sequential C–H Chlorination/Cross-Electrophile Coupling",
-"m": "2026-02"
-},
-{
 "doi": "10.1021/acscatal.5c08795",
 "j": "ACS Catal.",
 "t": "Regio- and Enantioselective Rhodium-Catalyzed Sulfonylation of gem -Difluorinated Cyclopropanes",
@@ -4644,12 +3102,6 @@
 "m": "2026-02"
 },
 {
-"doi": "10.1021/jacs.5c14361",
-"j": "J. Am. Chem. Soc.",
-"t": "Seven-Membered Azacyclic Allenes: Synthesis, Trapping, and Stereochemical Transfer Studies",
-"m": "2026-02"
-},
-{
 "doi": "10.1002/anie.202525970",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Total Synthesis of Limonoids Enabled by Sterically Assisted Boron Chain‐Walking",
@@ -4660,18 +3112,6 @@
 "j": "Angew. Chem. Int. Ed.",
 "t": "Selective Carbocation Functionalization by Catalytic Transchalcogenation Reactions",
 "m": "2026-02"
-},
-{
-"doi": "10.1021/acscatal.5c08237",
-"j": "ACS Catal.",
-"t": "Regioselective Cross-Electrophile Propargyl–Silyl Coupling with Hydrochlorosilanes by Chromium Catalysis",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/jacs.5c19316",
-"j": "J. Am. Chem. Soc.",
-"t": "Diazulenopentalene: Facile Synthesis of Linear Non-Alternant Molecular Carbons through Pt-Mediated Rearrangement",
-"m": "2026-01"
 },
 {
 "doi": "10.1021/jacs.5c16304",
@@ -4698,12 +3138,6 @@
 "m": "2026-01"
 },
 {
-"doi": "10.1021/jacs.5c20374",
-"j": "J. Am. Chem. Soc.",
-"t": "Expedient Synthesis of N -Protected/ C -Activated Unnatural Amino Acids for Direct Peptide Synthesis",
-"m": "2026-01"
-},
-{
 "doi": "10.1021/jacs.5c19864",
 "j": "J. Am. Chem. Soc.",
 "t": "Enantioselective Functionalization of Light Alkanes and C(sp 3 )–H Bonds via Photoinduced Palladium Catalysis",
@@ -4713,24 +3147,6 @@
 "doi": "10.1021/acscatal.5c08641",
 "j": "ACS Catal.",
 "t": "Merging HAT with Propadiene Telomerization: A Palladium Metallaphotoredox Dual Catalyzed Approach for the Radical Allylation and Dienylation of Styrenes",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/jacs.5c17932",
-"j": "J. Am. Chem. Soc.",
-"t": "Thiol-Free Sulfenylation Redefined: A Single-Atom Transfer Pathway to Symmetrical Di(hetero)arylthioethers via B(C 6 F 5 ) 3 Catalysis",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/jacs.5c20365",
-"j": "J. Am. Chem. Soc.",
-"t": "Remote Double C(sp 3 )–H Bond Asymmetric Aminoboration of Unactivated Alkenes via Bimetallic Orthogonal Relay Catalysis",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/jacs.5c23103",
-"j": "J. Am. Chem. Soc.",
-"t": "Copper-Catalyzed Asymmetric Amino Lactonization of Alkenes: Direct Access to Enantioenriched 1,2-Alkylamino Alcohol Derivatives",
 "m": "2026-01"
 },
 {
@@ -4776,12 +3192,6 @@
 "m": "2026-01"
 },
 {
-"doi": "10.1021/jacs.5c21055",
-"j": "J. Am. Chem. Soc.",
-"t": "Development of Multiple Local Computational Models in Retrosynthetic Analysis: Total Synthesis of (−)-Deoxylimonin",
-"m": "2026-01"
-},
-{
 "doi": "10.1021/jacs.5c21054",
 "j": "J. Am. Chem. Soc.",
 "t": "Concise Synthesis of Deoxylimonin",
@@ -4791,12 +3201,6 @@
 "doi": "10.1021/jacs.5c18705",
 "j": "J. Am. Chem. Soc.",
 "t": "Confined Chiral Pd(II) Catalyst-Enabled Enantioselective Intramolecular Aminoalkylation of Alkenes: One-Step Construction of Chiral N -Fused Bicyclic Skeletons",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/acscatal.5c08083",
-"j": "ACS Catal.",
-"t": "Titanocene-Catalyzed Hydrosilylation of Oxetanes─are Oxetanes the Better Epoxides?",
 "m": "2026-01"
 },
 {
@@ -4815,24 +3219,6 @@
 "doi": "10.1021/jacs.5c21144",
 "j": "J. Am. Chem. Soc.",
 "t": "Catalytic Stereospecific Construction of Aminocyclopropanes from β-Boryl Amides",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/jacs.5c20945",
-"j": "J. Am. Chem. Soc.",
-"t": "Direct B–H Activation of Carborane Clusters via Synergistic LMCT and HAT Photocatalysis",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/jacs.5c20700",
-"j": "J. Am. Chem. Soc.",
-"t": "16-Step Scalable Chemoenzymatic Synthesis of Tetrodotoxin",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/jacs.5c20265",
-"j": "J. Am. Chem. Soc.",
-"t": "Pd(II)-Catalyzed Asymmetric [4 + 1] Annulation via Ligand Relay-Enabled Carbenylative Insertion/E1cB-Type Heck Cascade",
 "m": "2026-01"
 },
 {
@@ -4857,18 +3243,6 @@
 "doi": "10.1021/jacs.5c19724",
 "j": "J. Am. Chem. Soc.",
 "t": "Iridium-Catalyzed Stereoselective α-Alkylation of α-Hydroxy Ketones with Minimally Polarized Alkenes",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/jacs.5c21901",
-"j": "J. Am. Chem. Soc.",
-"t": "A Diazo-free Equivalent of the Unsubstituted Carbyne Cation: Straightforward Synthesis of Naphthalenes and Pyridines via [ 12/13 CH] + Insertion",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/acscatal.5c07931",
-"j": "ACS Catal.",
-"t": "Utilizing 1,4-Dihydropyridines for C–N Bond Activation: A Photoredox-Catalyzed Deaminative Approach toward Benzylic Quaternary Carbon Centers",
 "m": "2026-01"
 },
 {
@@ -4920,21 +3294,9 @@
 "m": "2026-01"
 },
 {
-"doi": "10.1021/acscatal.5c07422",
-"j": "ACS Catal.",
-"t": "Dehydroxylative Noncanonical C–C Bond Arylation of Cyclopropanols: The Origin of Distal Selectivity via Remote Steric Effects",
-"m": "2026-01"
-},
-{
 "doi": "10.1021/jacs.5c20380",
 "j": "J. Am. Chem. Soc.",
 "t": "Gold-Catalyzed Synthesis of sp 3 -Rich Nortricyclanes from Norbornenes",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/jacs.5c20091",
-"j": "J. Am. Chem. Soc.",
-"t": "Engineered Flavin-Dependent Halogenases Catalyze C–C Bond Formation via Enantioselective Semipinacol Rearrangement",
 "m": "2026-01"
 },
 {
@@ -4974,12 +3336,6 @@
 "m": "2026-01"
 },
 {
-"doi": "10.1021/acscatal.5c07839",
-"j": "ACS Catal.",
-"t": "Oxidative Rearrangement of Indoles Enabled by Promiscuous Cryptic Halogenation with Vanadium-Dependent Haloperoxidases",
-"m": "2026-01"
-},
-{
 "doi": "10.1021/jacs.5c15035",
 "j": "J. Am. Chem. Soc.",
 "t": "Iridium-Catalyzed B–H/C–H Dehydrogenative Coupling to Enable Boron–Nitrogen-Embedded Polycyclic Aromatic Hydrocarbons",
@@ -4989,18 +3345,6 @@
 "doi": "10.1021/jacs.5c22180",
 "j": "J. Am. Chem. Soc.",
 "t": "Enantioselective Radical Addition of Carboxylic Acids to Imines through Cooperative Copper/Acridine Catalysis",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/jacs.5c19022",
-"j": "J. Am. Chem. Soc.",
-"t": "Additive-Controlled Regioswitching in Ni-Catalyzed Enantioselective Hydrophosphination of Unactivated Alkenes",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/jacs.5c17010",
-"j": "J. Am. Chem. Soc.",
-"t": "Palladium-Catalyzed Asymmetric Oxidative Amination of Internal α,β-Unsaturated Esters with Lewis Basic Amines",
 "m": "2026-01"
 },
 {
@@ -5070,12 +3414,6 @@
 "m": "2026-01"
 },
 {
-"doi": "10.1021/jacs.5c18451",
-"j": "J. Am. Chem. Soc.",
-"t": "Cross-Electrophile Coupling of N -Hydroxyphthalimide Esters with Aryl Bromides Using an Inner-Sphere Homogeneous Reductant",
-"m": "2026-01"
-},
-{
 "doi": "10.1021/jacs.5c19331",
 "j": "J. Am. Chem. Soc.",
 "t": "Catalytic Enantioselective Synthesis of 1,1-Disubstituted Isochromans",
@@ -5091,12 +3429,6 @@
 "doi": "10.1021/jacs.5c18484",
 "j": "J. Am. Chem. Soc.",
 "t": "Iron-Catalyzed Synthesis of Unsymmetrical Disilanes",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/acscatal.5c07217",
-"j": "ACS Catal.",
-"t": "Enzymatic Mannich Reaction for the Synthesis of γ-Chiral Amino-Substituted α-Amino Acids",
 "m": "2026-01"
 },
 {
@@ -5142,21 +3474,9 @@
 "m": "2026-01"
 },
 {
-"doi": "10.1021/jacs.5c20876",
-"j": "J. Am. Chem. Soc.",
-"t": "Asymmetric Carbonium Ion Catalysis: The Intramolecular Hydroalkoxylation of Cyclopropanes",
-"m": "2026-01"
-},
-{
 "doi": "10.1002/anie.202524475",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Energy‐Transfer‐Enabled Copper‐Catalyzed Direct Site‐Selective Cycloaddition of Unprotected Oximes with Alkenes",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/acscatal.5c07465",
-"j": "ACS Catal.",
-"t": "Engineered Artificial Carboligase-Catalyzed Stereoselective Michael Addition of Nitroalkane to Cyclohexadienone",
 "m": "2026-01"
 },
 {
@@ -5199,12 +3519,6 @@
 "doi": "10.1021/acscatal.5c08127",
 "j": "ACS Catal.",
 "t": "Diastereoselective Synthesis of cis -α,α′-Disubstituted Cyclic Ethers via Borane-Catalyzed Reductive Cyclization of Diketones",
-"m": "2026-01"
-},
-{
-"doi": "10.1021/acscatal.5c07532",
-"j": "ACS Catal.",
-"t": "Styrene-Based Axial Chiral Catalyst-Catalyzed Asymmetric Synthesis of Spirobarbiturates through Chiral Proton Shuttle",
 "m": "2026-01"
 },
 {
