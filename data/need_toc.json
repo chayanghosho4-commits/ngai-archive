@@ -6,21 +6,9 @@
 "m": "2026-10"
 },
 {
-"doi": "10.1126/science.aeh6251",
-"j": "Science",
-"t": "Stereoselective polysubstituted bicyclo[1.1.0]butane synthesis by rhodium-catalyzed kinetic resolution",
-"m": "2026-10"
-},
-{
 "doi": "10.1021/jacs.6c14452",
 "j": "J. Am. Chem. Soc.",
 "t": "Copper-Catalyzed Chemo- and Enantioselective Radical 1,2-Carbosulfenylation of Diverse Alkenes with Broad Radical and Sulfur Compatibility",
-"m": "2026-10"
-},
-{
-"doi": "10.1126/science.aef3001",
-"j": "Science",
-"t": "Asymmetric enzymatic hydrophosphorylation through O 2 activation",
 "m": "2026-10"
 },
 {
@@ -252,12 +240,6 @@
 "m": "2026-08"
 },
 {
-"doi": "10.1126/science.aej0194",
-"j": "Science",
-"t": "Iron-catalyzed [1+1+1] cyclopropanation by sequential coupling of an ester to two carbenes",
-"m": "2026-08"
-},
-{
 "doi": "10.1021/acscatal.6c05002",
 "j": "ACS Catal.",
 "t": "Photoinduced Iron-Catalyzed Intermolecular Dearomative Hydroalkylation of Unactivated Indoles with Alkanes",
@@ -435,12 +417,6 @@
 "doi": "10.1021/acscatal.6c04564",
 "j": "ACS Catal.",
 "t": "An Exogenous Base-Free Cu-Catalyzed Multicomponent Synthesis of 1,1-Aminoboranes from Alkylamines and Aldehydes",
-"m": "2026-08"
-},
-{
-"doi": "10.1126/science.aef0766",
-"j": "Science",
-"t": "Vicinal disubstitution of alkyl C–X synthons via alkene radical cation generation",
 "m": "2026-08"
 },
 {
@@ -1272,18 +1248,6 @@
 "m": "2026-06"
 },
 {
-"doi": "10.1126/science.aed6068",
-"j": "Science",
-"t": "Photocatalyzed oxidative cleavage of alkenes using CO 2 as an oxygen donor",
-"m": "2026-06"
-},
-{
-"doi": "10.1126/science.aef6981",
-"j": "Science",
-"t": "Stereoretentive radical-based alkyl-alkyl cross-coupling",
-"m": "2026-06"
-},
-{
 "doi": "10.1002/anie.7450561",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Enantioselective Vinyl Radical Addition to Aldehydes via Dual Chromium Catalysis",
@@ -1500,18 +1464,6 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1126/science.aee3540",
-"j": "Science",
-"t": "Divergent and programmable skeletal remodeling of complex macrocycles with a small method set",
-"m": "2026-05"
-},
-{
-"doi": "10.1126/science.aeb8506",
-"j": "Science",
-"t": "A relay energy transfer paradigm for asymmetric photocatalyzed [4+2] cycloadditions",
-"m": "2026-05"
-},
-{
 "doi": "10.1021/jacs.6c06502",
 "j": "J. Am. Chem. Soc.",
 "t": "Low-valent Iridium Enables “Outer-Sphere” Radical–Radical Coupling in Photoinduced Asymmetric Allylic Alkylation",
@@ -1626,12 +1578,6 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1126/science.aed6880",
-"j": "Science",
-"t": "A unified platform for nucleoside analog synthesis",
-"m": "2026-05"
-},
-{
 "doi": "10.1021/jacs.6c04832",
 "j": "J. Am. Chem. Soc.",
 "t": "Synthesis of Distal 1,4-Diaxial Atropisomers: CPA-Catalyzed Atroposelective (3 + 3)-Annulation via a Desymmetrization Strategy",
@@ -1713,12 +1659,6 @@
 "doi": "10.1021/acscatal.6c00581",
 "j": "ACS Catal.",
 "t": "Fe(III)/Pyridine N -oxide LMCT Photocatalysis for Unactivated C(sp 3 )−H Functionalizations",
-"m": "2026-05"
-},
-{
-"doi": "10.1126/science.aed8713",
-"j": "Science",
-"t": "Biocatalytic cascades enable manufacture of the macrocyclic peptide enlicitide",
 "m": "2026-05"
 },
 {
@@ -1836,30 +1776,6 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1126/science.aec3587",
-"j": "Science",
-"t": "Precision indole skeletal editing for single-carbon replacement",
-"m": "2026-04"
-},
-{
-"doi": "10.1126/science.aee5416",
-"j": "Science",
-"t": "Divergent and consecutive skeletal editing of saturated primary amines",
-"m": "2026-04"
-},
-{
-"doi": "10.1126/science.aef0610",
-"j": "Science",
-"t": "Scanning nitrogen in sp 3 -rich scaffolds enabled by carbonyl-to-nitrogen atom swap",
-"m": "2026-04"
-},
-{
-"doi": "10.1126/science.aeh2468",
-"j": "Science",
-"t": "From alchemy to precision skeletal editing",
-"m": "2026-04"
-},
-{
 "doi": "10.1002/anie.9100826",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Enantioselective C–H Functionalization Reactions Enabled by Cobalt(III)‐Centered Chiral Pockets",
@@ -1929,12 +1845,6 @@
 "doi": "10.1002/anie.202526152",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Stereoselective Biotransformation: Transfer of Learning to Advance Drug Metabolism and Biocatalysis",
-"m": "2026-04"
-},
-{
-"doi": "10.1126/science.aee3321",
-"j": "Science",
-"t": "Chiral S(VI) platform unifies selective C–H amination of complex molecules and alkane feedstocks",
 "m": "2026-04"
 },
 {
@@ -2190,12 +2100,6 @@
 "m": "2026-04"
 },
 {
-"doi": "10.1126/science.aeb5832",
-"j": "Science",
-"t": "Modular enantioselective photocatalysts from privileged pybox scaffolds",
-"m": "2026-04"
-},
-{
 "doi": "10.1021/jacs.5c22411",
 "j": "J. Am. Chem. Soc.",
 "t": "Enantioselective Iridium-Catalyzed C–H Bond Alkylation for the Synthesis of N–N Atropisomeric Phosphines",
@@ -2403,12 +2307,6 @@
 "doi": "10.1021/jacs.6c01821",
 "j": "J. Am. Chem. Soc.",
 "t": "3,5-Dimethylorsellinic Acid (DMOA)-Derived Meroterpenoid Ortholactones (−)-Novofumigatonin, (−)-Asnovolin F, and (−)-Asnovolin G: Total Syntheses and Related St",
-"m": "2026-03"
-},
-{
-"doi": "10.1126/science.aeb2389",
-"j": "Science",
-"t": "Cross- and branched-selective hydroalkenylation by metal hydride selection",
 "m": "2026-03"
 },
 {
@@ -2715,12 +2613,6 @@
 "doi": "10.1021/jacs.5c20639",
 "j": "J. Am. Chem. Soc.",
 "t": "Desymmetrization of meso -Pyrrolidines via Oxoammonium-Catalyzed Enantioselective Hydride Transfer",
-"m": "2026-02"
-},
-{
-"doi": "10.1126/science.aec8992",
-"j": "Science",
-"t": "Organocatalyst-controlled stereoselective head-to-tail macrocyclizations",
 "m": "2026-02"
 },
 {
@@ -3396,18 +3288,6 @@
 "m": "2026-01"
 },
 {
-"doi": "10.1126/science.adw3340",
-"j": "Science",
-"t": "Leveraging triatropic rearrangements for stereoselective skeletal reshuffling",
-"m": "2026-01"
-},
-{
-"doi": "10.1126/science.aec3158",
-"j": "Science",
-"t": "Access to four-membered cyclic sulfinamides by energy transfer catalysis",
-"m": "2026-01"
-},
-{
 "doi": "10.1021/jacs.5c19331",
 "j": "J. Am. Chem. Soc.",
 "t": "Catalytic Enantioselective Synthesis of 1,1-Disubstituted Isochromans",
@@ -3513,12 +3393,6 @@
 "doi": "10.1021/acscatal.5c08127",
 "j": "ACS Catal.",
 "t": "Diastereoselective Synthesis of cis -α,α′-Disubstituted Cyclic Ethers via Borane-Catalyzed Reductive Cyclization of Diketones",
-"m": "2026-01"
-},
-{
-"doi": "10.1126/science.aeb1702",
-"j": "Science",
-"t": "Ferrioxalate photocatalysis: A multitasking platform for reductive iron catalysis",
 "m": "2026-01"
 }
 ]
