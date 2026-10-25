@@ -1,5 +1,16 @@
 [
  {
+  "date": "2026-10-25",
+  "j": "Nature Communications",
+  "t": "A multi-functionally integrated modular catalyst for efficient chemoselective hydrogenation",
+  "au": "Yu Pan … Xingang Li",
+  "tag": "Synthetic methodology",
+  "ab": "Abstract available at the publisher (DOI link).",
+  "doi": "10.1038/s41467-026-79017-3",
+  "ab_full": false,
+  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79017-3/MediaObjects/41467_2026_79017_Fig1_HTML.png"
+ },
+ {
   "date": "2026-10-24",
   "j": "J. Am. Chem. Soc.",
   "t": "Highly Enantioselective Synthesis of 1,2,3-Trisubstituted Cyclopropanes through DNA-Catalyzed Johnson–Corey–Chaykovsky Cyclopropanation",
@@ -124,12 +135,12 @@
   "date": "2026-10-22",
   "j": "J. Am. Chem. Soc.",
   "t": "Simultaneous Installation of 1,6-Stereocenters by Asymmetric Allylation of Resorcinol Boronates: Application to the Synthesis of Merocyclophane A",
-  "au": "J. Am. Chem. Soc. ASAP",
+  "au": "Ze-Shu Wang … Varinder K. Aggarwal",
   "tag": "Total synthesis",
   "ab": "Installing multiple noncontiguous stereocenters in a single catalytic event offers a powerful platform for constructing complex three-dimensional molecular architectures, yet asymmetric methodologies capable of selectively forging remote 1,n-stereochemical relationships remain limited. Here we disclose a strategy for the simultaneous installation of 1,6-stereocenters via para-selective activation of chiral resorcinol boronates with π-allyl iridium complexes. Upon oxidation-induced rearomatization, the resulting dearomatized intermediates furnish the allylated products in an overall transformation that exhibits excellent regio- and stereoselectivity. Crucially, independent variation of the ligand and boronic ester configuration provides predictable access to all four stereoisomers with no observable match–mismatch effects. The synthetic potential of the methodology is exemplified by a concise total synthesis of the cyanobacteria-derived [7.7]paracyclophane merocyclophane A, in which all stereocenters are installed simultaneously on the resorcinol core in a single step.",
   "doi": "10.1021/jacs.6c14045",
-  "ab_full": true,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14045/asset/images/medium/ja6c14045_0001.gif"
+  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14045/asset/images/medium/ja6c14045_0001.gif",
+  "ab_full": true
  },
  {
   "date": "2026-10-22",
@@ -145,13 +156,13 @@
  {
   "date": "2026-10-22",
   "j": "ACS Catal.",
-  "t": "Metal-Free Oxidized Carbon Nitride/L-Proline Synergistic Catalysis: Highly Enantioselective Direct Synthesis of C2-Quaternary Indolinones via Dearomative Oxyalkylation Cascades",
-  "au": "Harendra Sheshma, Ashish Singh et al.",
-  "tag": "Organocatalysis",
+  "t": "Metal-Free Oxidized Carbon Nitride/ l -Proline Synergistic Catalysis: Highly Enantioselective Direct Synthesis of C2-Quaternary Indolinones via Dearomative Oxyalkylation Cascades",
+  "au": "Harendra Sheshma … Ankita Rai",
+  "tag": "Asymmetric catalysis",
   "ab": "Herein, we report a metal-free, cooperative oxidized graphitic carbon nitride/l-proline catalysis for enantioselective dearomative oxyalkylation of 2-arylindoles. The developed method leverages the band structure of g-C3N4 to efficiently generate singlet oxygen (1O2) under visible light and aerobic conditions, driving an oxidative dearomatization cascade. The resulting intermediates are intercepted via an l-proline-mediated Mannich addition, providing direct access to C2-quaternary indolin-3-ones in high yields (up to 88%) and with enantioselectivities (up to 99% ee). By integrating heterogeneous carbon nitride photocatalysis with asymmetric organocatalysis, this protocol offers a robust, recyclable alternative to traditional noble-metal catalysis for enantioselective synthesis of C2-quaternary indolin-3-ones.",
   "doi": "10.1021/acscatal.6c04337",
-  "ab_full": true,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04337/asset/images/medium/cs6c04337_0001.gif"
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04337/asset/images/medium/cs6c04337_0001.gif",
+  "ab_full": true
  },
  {
   "date": "2026-10-22",
@@ -199,17 +210,6 @@
  },
  {
   "date": "2026-10-22",
-  "j": "J. Am. Chem. Soc.",
-  "t": "Simultaneous Installation of 1,6-Stereocenters by Asymmetric Allylation of Resorcinol Boronates: Application to the Synthesis of Merocyclophane A",
-  "au": "Ze-Shu Wang … Varinder K. Aggarwal",
-  "tag": "Total synthesis",
-  "ab": "Installing multiple noncontiguous stereocenters in a single catalytic event offers a powerful platform for constructing complex three-dimensional molecular architectures, yet asymmetric methodologies capable of selectively forging remote 1,n-stereochemical relationships remain limited. Here we disclose a strategy for the simultaneous installation of 1,6-stereocenters via para-selective activation of chiral resorcinol boronates with π-allyl iridium complexes. Upon oxidation-induced rearomatization, the resulting dearomatized intermediates furnish the allylated products in an overall transformation that exhibits excellent regio- and stereoselectivity. Crucially, independent variation of the ligand and boronic ester configuration provides predictable access to all four stereoisomers with no observable match–mismatch effects. The synthetic potential of the methodology is exemplified by a concise total synthesis of the cyanobacteria-derived [7.7]paracyclophane merocyclophane A, in which all stereocenters are installed simultaneously on the resorcinol core in a single step.",
-  "doi": "10.1021/jacs.6c14045",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14045/asset/images/medium/ja6c14045_0001.gif",
-  "ab_full": true
- },
- {
-  "date": "2026-10-22",
   "j": "Angew. Chem. Int. Ed.",
   "t": "Palladium‐Catalyzed Ring Contraction of Cyclobutenes via Migratory Wacker Oxidation",
   "au": "Alexander W. Walz … Johannes M. Wahl",
@@ -228,17 +228,6 @@
   "ab": "Photoredox catalysis driven by iron has attracted substantial attention due to environmental and economic benefits. Current research predominantly focuses separately on the photoinduced ferric-catalyzed ligand-to-metal charge transfer (LMCT) and photoinduced ferrous-catalyzed electron transfer (ET) pathways, both of which require exogenous oxidants or reductants. Herein, we report a redox-neutral consecutive photoinduced ferric-catalyzed LMCT and ferrous-catalyzed ET for 1,2-dialkylation of alkenes. We find that the ferrous and ferric catalytic species are interconvertible within the reaction system to separately mediate decarboxylation and dehalogenation via the LMCT and ET pathways. The photoinduced iron-catalyzed consecutive LMCT and ET pathways simultaneously generate one alkyl radical and one benzyl radical, enabling regioselective dialkylation of alkenes via radical carbometallation and outer-sphere cross-coupling.",
   "doi": "10.1002/anie.7397933",
   "img": "https://onlinelibrary.wiley.com/cms/asset/46acb281-2bdc-4180-94d0-86c338a69c24/anie75411-gra-0001-m.png",
-  "ab_full": true
- },
- {
-  "date": "2026-10-22",
-  "j": "ACS Catal.",
-  "t": "Metal-Free Oxidized Carbon Nitride/ l -Proline Synergistic Catalysis: Highly Enantioselective Direct Synthesis of C2-Quaternary Indolinones via Dearomative Oxyalkylation Cascades",
-  "au": "Harendra Sheshma … Ankita Rai",
-  "tag": "Asymmetric catalysis",
-  "ab": "Herein, we report a metal-free, cooperative oxidized graphitic carbon nitride/l-proline catalysis for enantioselective dearomative oxyalkylation of 2-arylindoles. The developed method leverages the band structure of g-C3N4 to efficiently generate singlet oxygen (1O2) under visible light and aerobic conditions, driving an oxidative dearomatization cascade. The resulting intermediates are intercepted via an l-proline-mediated Mannich addition, providing direct access to C2-quaternary indolin-3-ones in high yields (up to 88%) and with enantioselectivities (up to 99% ee). By integrating heterogeneous carbon nitride photocatalysis with asymmetric organocatalysis, this protocol offers a robust, recyclable alternative to traditional noble-metal catalysis for enantioselective synthesis of C2-quaternary indolin-3-ones.",
-  "doi": "10.1021/acscatal.6c04337",
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04337/asset/images/medium/cs6c04337_0001.gif",
   "ab_full": true
  },
  {
@@ -311,23 +300,23 @@
   "date": "2026-10-21",
   "j": "ACS Catal.",
   "t": "Nickel-Catalyzed Regiodivergent and Enantioselective Hydrosilylation of Internal Alkenes",
-  "au": "Jun-Rong Zhang, Ya Xiao et al.",
-  "tag": "Ni catalysis",
+  "au": "Hao Wu … Dachang Bai",
+  "tag": "Asymmetric catalysis",
   "ab": "Enantioselective hydrosilylation of alkenes represents a direct and economical route to chiral organosilanes. However, achieving good regio- and enantioselectivity from the same alkene for the divergent synthesis of chiral silanes remains a formidable challenge, particularly for internal alkenes. In this work, we present a ligand-controlled nickel-catalyzed regiodivergent and enantioselective hydrosilylation of 1,2-disubstituted alkenes. This approach provides a direct access to both α- and β-trifluoromethylsilanes with high regio- and enantioselectivity. The resulting enantioenriched silane products are amenable to various stereospecific transformations. Moreover, density functional theory (DFT) calculations elucidate the origin of the observed regio- and enantioselectivity.",
   "doi": "10.1021/acscatal.6c05924",
-  "ab_full": true,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05924/asset/images/medium/cs6c05924_0001.gif"
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05924/asset/images/medium/cs6c05924_0001.gif",
+  "ab_full": true
  },
  {
   "date": "2026-10-21",
   "j": "ACS Catal.",
-  "t": "Copper-Mediated Valence Tautomerism Enables α-C(sp3)–H Alkylation of 1,3-Dicarbonyl Compounds and Tryptophans via Photocatalysis",
-  "au": "ACS Catal. ASAP",
-  "tag": "Photocatalysis",
+  "t": "Copper-Mediated Valence Tautomerism Enables α -C(sp3)–H Alkylation of 1,3-Dicarbonyl Compounds and Tryptophans via Photocatalysis",
+  "au": "Jun-Rong Zhang … Song Yang",
+  "tag": "Photoredox",
   "ab": "Carbonyl α-C(sp3)–H functionalization is a key approach to access functionalized pharmaceuticals, agrochemicals, and bioactive peptides. Conventional two-electron enol tautomerization strategies for this transformation often suffer from harsh reaction conditions and limited substrate tolerance. While valence tautomerism (VT) enables radical-type C–H activation, such reactivity has been exclusively realized with nickel catalysis, and copper-mediated VT remains unexplored for α-C(sp3)–H activation of carbonyls. Here, we present a dual photoredox/copper catalytic strategy that exploits copper-mediated VT to generate α-carbonyl alkyl radicals. These radicals undergo radical–radical cross-coupling with nucleophilic radicals generated by photocatalytic decarboxylation, delivering α-carbonyl alkylation products. The protocol features mild conditions and broad functional group tolerance, supporting peptide late-stage modification and gram-scale synthesis. Mechanistic studies and density functional theory (DFT) calculations validate a Cu(III)-mediated VT pathway for radical generation. This work establishes copper as a viable VT catalytic platform, expands the scope of dual photoredox/metal catalysis, and offers a versatile tool for biomolecular derivatization.",
   "doi": "10.1021/acscatal.6c06806",
-  "ab_full": true,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06806/asset/images/medium/cs6c06806_0001.gif"
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06806/asset/images/medium/cs6c06806_0001.gif",
+  "ab_full": true
  },
  {
   "date": "2026-10-21",
@@ -382,28 +371,6 @@
   "ab": "Catalytic enantioselective alkylation is a fundamental strategy for constructing molecular frameworks bearing chiral carbon centers. Herein, we report a photoinduced highly enantioselective catalytic α-alkylation of active methine compounds with nonactivated alkenes to construct chiral quaternary stereocenters. Cooperative catalysis using an organophotocatalyst and a chiral ytterbium Lewis acid bearing an Indapybox ligand efficiently promotes the alkylation of open-chain 2-substituted β-ketoesters, affording the desired products in high yields with high enantioselectivities (up to 96% yield and 96% ee). The reaction exhibits a broad substrate scope with respect to both the alkene and β-ketoesters components. Furthermore, the resulting products can be readily transformed into optically active 5-pyrazolone and 5-isoxazolone derivatives while maintaining high optical purity.",
   "doi": "10.1021/acscatal.6c06196",
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06196/asset/images/medium/cs6c06196_0001.gif",
-  "ab_full": true
- },
- {
-  "date": "2026-10-21",
-  "j": "ACS Catal.",
-  "t": "Nickel-Catalyzed Regiodivergent and Enantioselective Hydrosilylation of Internal Alkenes",
-  "au": "Hao Wu … Dachang Bai",
-  "tag": "Asymmetric catalysis",
-  "ab": "Enantioselective hydrosilylation of alkenes represents a direct and economical route to chiral organosilanes. However, achieving good regio- and enantioselectivity from the same alkene for the divergent synthesis of chiral silanes remains a formidable challenge, particularly for internal alkenes. In this work, we present a ligand-controlled nickel-catalyzed regiodivergent and enantioselective hydrosilylation of 1,2-disubstituted alkenes. This approach provides a direct access to both α- and β-trifluoromethylsilanes with high regio- and enantioselectivity. The resulting enantioenriched silane products are amenable to various stereospecific transformations. Moreover, density functional theory (DFT) calculations elucidate the origin of the observed regio- and enantioselectivity.",
-  "doi": "10.1021/acscatal.6c05924",
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05924/asset/images/medium/cs6c05924_0001.gif",
-  "ab_full": true
- },
- {
-  "date": "2026-10-21",
-  "j": "ACS Catal.",
-  "t": "Copper-Mediated Valence Tautomerism Enables α -C(sp3)–H Alkylation of 1,3-Dicarbonyl Compounds and Tryptophans via Photocatalysis",
-  "au": "Jun-Rong Zhang … Song Yang",
-  "tag": "Photoredox",
-  "ab": "Carbonyl α-C(sp3)–H functionalization is a key approach to access functionalized pharmaceuticals, agrochemicals, and bioactive peptides. Conventional two-electron enol tautomerization strategies for this transformation often suffer from harsh reaction conditions and limited substrate tolerance. While valence tautomerism (VT) enables radical-type C–H activation, such reactivity has been exclusively realized with nickel catalysis, and copper-mediated VT remains unexplored for α-C(sp3)–H activation of carbonyls. Here, we present a dual photoredox/copper catalytic strategy that exploits copper-mediated VT to generate α-carbonyl alkyl radicals. These radicals undergo radical–radical cross-coupling with nucleophilic radicals generated by photocatalytic decarboxylation, delivering α-carbonyl alkylation products. The protocol features mild conditions and broad functional group tolerance, supporting peptide late-stage modification and gram-scale synthesis. Mechanistic studies and density functional theory (DFT) calculations validate a Cu(III)-mediated VT pathway for radical generation. This work establishes copper as a viable VT catalytic platform, expands the scope of dual photoredox/metal catalysis, and offers a versatile tool for biomolecular derivatization.",
-  "doi": "10.1021/acscatal.6c06806",
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06806/asset/images/medium/cs6c06806_0001.gif",
   "ab_full": true
  },
  {
@@ -509,12 +476,12 @@
   "date": "2026-10-19",
   "j": "ACS Catal.",
   "t": "Nickel-Catalyzed Enantioselective Cyclizative Alkylation of 1,6-Enynes with Diazo Compounds and Alkyl Halides",
-  "au": "ACS Catal. ASAP",
-  "tag": "Ni catalysis",
+  "au": "Yongli Liu … Yuanyuan Ping",
+  "tag": "Asymmetric catalysis",
   "ab": "Transition-metal-catalyzed cyclization of 1,n-enynes represents a versatile platform for the construction of structurally diverse chiral heterocycles. Despite substantial advances in this field, the enantioselective cyclizative alkylation of 1,n-enynes remains a formidable synthetic challenge, primarily due to the inherent difficulty in simultaneous control of regio-, chemo-, and stereoselectivity. Herein, we disclose a highly enantioselective cyclizative alkylation of 1,6-enynes employing two complementary alkylating reagents: diazo compounds and readily available alkyl iodides. This protocol proceeds under mild conditions and features broad substrate scope, delivering enantioenriched γ-lactams and pyrrolidine derivatives bearing quaternary stereogenic centers in good yields (up to 81%) and enantioselectivities (53 examples, up to 98% ee). Mechanistic studies corroborate that these two types of alkylating reagents follow entirely distinct catalytic pathways.",
   "doi": "10.1021/acscatal.6c05711",
-  "ab_full": true,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05711/asset/images/medium/cs6c05711_0001.gif"
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05711/asset/images/medium/cs6c05711_0001.gif",
+  "ab_full": true
  },
  {
   "date": "2026-10-19",
@@ -591,17 +558,6 @@
   "ab": "The asymmetric construction of nonadjacent stereocenters in a single catalytic system remains a significant challenge due to the difficulty in controlling stereochemical relay between sequential transformations. Herein, we report a dual-enzyme relay catalytic system that integrates an artificial streptavidin-based copper metalloenzyme (Sav-Cu) with an engineered ketoreductase (KRED) for the one-pot synthesis of polycyclic alcohols bearing 1,3-non-adjacent stereocenters. In this relay process, the engineered SavDMase variant (S112A/K121D) catalyzes a non-natural decarboxylative Mannich reaction to establish the R-configured stereocenter in the enantioenriched ketone intermediate, which is then recognized by the engineered KREDAV mutant (S96A/Y190V) and reduced with high diastereo- and enantioselectivity to install the S-configured alcohol stereocenter, thereby furnishing the (R,S)-configured product as the dominant stereoisomer. The optimized system furnishes the products in up to 83% yield, 99% ee, and 96% de across a broad substrate scope, and is readily applicable to 2 mmol-scale synthesis. Structural analysis, docking, and molecular dynamics simulations support complementary roles of the two catalytic modules: SavDMase promotes productive organization of the Mannich step, while KREDAV stabilizes the reactive binding pose and constrains the hydride-transfer trajectory to enforce stereoselective reduction. This work demonstrates how artificial and natural enzymes can be integrated in relay catalysis to solve challenging stereochemical relay problems beyond the reach of individual biocatalysts.",
   "doi": "10.1021/acscatal.6c05074",
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05074/asset/images/medium/cs6c05074_0001.gif",
-  "ab_full": true
- },
- {
-  "date": "2026-10-19",
-  "j": "ACS Catal.",
-  "t": "Nickel-Catalyzed Enantioselective Cyclizative Alkylation of 1,6-Enynes with Diazo Compounds and Alkyl Halides",
-  "au": "Yongli Liu … Yuanyuan Ping",
-  "tag": "Asymmetric catalysis",
-  "ab": "Transition-metal-catalyzed cyclization of 1,n-enynes represents a versatile platform for the construction of structurally diverse chiral heterocycles. Despite substantial advances in this field, the enantioselective cyclizative alkylation of 1,n-enynes remains a formidable synthetic challenge, primarily due to the inherent difficulty in simultaneous control of regio-, chemo-, and stereoselectivity. Herein, we disclose a highly enantioselective cyclizative alkylation of 1,6-enynes employing two complementary alkylating reagents: diazo compounds and readily available alkyl iodides. This protocol proceeds under mild conditions and features broad substrate scope, delivering enantioenriched γ-lactams and pyrrolidine derivatives bearing quaternary stereogenic centers in good yields (up to 81%) and enantioselectivities (53 examples, up to 98% ee). Mechanistic studies corroborate that these two types of alkylating reagents follow entirely distinct catalytic pathways.",
-  "doi": "10.1021/acscatal.6c05711",
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05711/asset/images/medium/cs6c05711_0001.gif",
   "ab_full": true
  },
  {
@@ -1609,12 +1565,12 @@
   "date": "2026-10-08",
   "j": "Nature Synthesis",
   "t": "Modular synthesis of 3,3-diaryloxetanes",
-  "au": "Nature Synthesis (open access)",
-  "tag": "Oxetanes",
+  "au": "Qikai Sun … Tobias Ritter",
+  "tag": "Cross-coupling",
   "ab": "Oxetanes are strained four-membered oxygen heterocycles that are valuable motifs for modulating lipophilicity, metabolic stability and three-dimensional structure of pharmaceuticals. Diaryloxetanes with 3,3-substitution are recognized as bioisosteres of diaryl ketones that preserve key electronic features while exhibiting distinct reactivity. However, synthesis of this motif largely relies on Lewis acid-promoted Friedel–Crafts reactions, which are restricted to electron-rich arenes and often suffer from low functional-group tolerance and competing side reactions. Here we report a method for the synthesis of 3,3-substituted diaryloxetanes from readily available 3-oxetanone through a cross-coupling reaction with tetrafluoropyridone as leaving group. The difunctionalization through subsequent addition of two aryl groups, one from an aryl halide, the other from an arylboronic ester, provides access to a variety of benzophenone bioisosteres. The nickel-catalysed cross-coupling at a fully substituted carbon centre is enabled through oxetanyl C–O bond oxidative addition and establishes programmable entry to 3,3-diaryloxetane bioisosteres that are synthetically challenging to access via traditional polar bond disconnection strategies. Mechanistic studies support a Ni(0)-mediated oxidative addition of the oxetanyl tetrafluoropyridine ester.",
   "doi": "10.1038/s44160-026-01183-5",
-  "ab_full": true,
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44160-026-01183-5/MediaObjects/44160_2026_1183_Fig1_HTML.png"
+  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44160-026-01183-5/MediaObjects/44160_2026_1183_Fig1_HTML.png",
+  "ab_full": true
  },
  {
   "date": "2026-10-08",
@@ -1647,17 +1603,6 @@
   "ab": "Chiral amines are essential building blocks for the synthesis of pharmaceuticals. Although imine reductases (IREDs) have emerged as powerful biocatalysts for chiral amine synthesis, their application in reductive amination using ammonia as an amino donor remains limited, especially for sterically demanding ketone substrates. Herein, we developed a BWRT (Blocking, Widening, Regulating, and Tailoring) strategy for engineering the active-site pocket of an IRED from Saccharopolyspora erythraea (SeIRED). The engineered variant, SeIRED-M4, containing 17 amino acid mutations, exhibited a 23,300-fold increase in specific activity along with a 19 °C increase in melting temperature (Tm) relative to the wild-type enzyme. SeIRED-M4 efficiently catalyzed the asymmetric reductive amination of a broad range of ketones with ammonia, affording the corresponding chiral amines with up to 98% conversion and &gt;99% ee. The synthetic applicability of SeIRED-M4 was further demonstrated through the gram-scale synthesis of sitagliptin ((R)-1b), achieving 93% conversion and &gt;99% ee at a substrate loading of up to 40 g/L. Collectively, this study demonstrates an active-site engineering strategy that improves catalytic performance by regulating substrate accessibility and productive binding orientation, highlighting the importance of controlling substrate-binding conformations in biocatalyst development for pharmaceutical applications.",
   "doi": "10.1021/acscatal.6c05806",
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05806/asset/images/medium/cs6c05806_0001.gif",
-  "ab_full": true
- },
- {
-  "date": "2026-10-08",
-  "j": "Nature Synthesis",
-  "t": "Modular synthesis of 3,3-diaryloxetanes",
-  "au": "Qikai Sun … Tobias Ritter",
-  "tag": "Cross-coupling",
-  "ab": "Oxetanes are strained four-membered oxygen heterocycles that are valuable motifs for modulating lipophilicity, metabolic stability and three-dimensional structure of pharmaceuticals. Diaryloxetanes with 3,3-substitution are recognized as bioisosteres of diaryl ketones that preserve key electronic features while exhibiting distinct reactivity. However, synthesis of this motif largely relies on Lewis acid-promoted Friedel–Crafts reactions, which are restricted to electron-rich arenes and often suffer from low functional-group tolerance and competing side reactions. Here we report a method for the synthesis of 3,3-substituted diaryloxetanes from readily available 3-oxetanone through a cross-coupling reaction with tetrafluoropyridone as leaving group. The difunctionalization through subsequent addition of two aryl groups, one from an aryl halide, the other from an arylboronic ester, provides access to a variety of benzophenone bioisosteres. The nickel-catalysed cross-coupling at a fully substituted carbon centre is enabled through oxetanyl C–O bond oxidative addition and establishes programmable entry to 3,3-diaryloxetane bioisosteres that are synthetically challenging to access via traditional polar bond disconnection strategies. Mechanistic studies support a Ni(0)-mediated oxidative addition of the oxetanyl tetrafluoropyridine ester.",
-  "doi": "10.1038/s44160-026-01183-5",
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44160-026-01183-5/MediaObjects/44160_2026_1183_Fig1_HTML.png",
   "ab_full": true
  },
  {
