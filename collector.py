@@ -9,7 +9,7 @@ Run every 2 days (see .github/workflows/update.yml).
   python collector.py                      # last 10 days
   python collector.py --since 2026-01-01   # backfill the year
 
-Version 6 (25 Oct 2026):
+Version 7 (25 Oct 2026):
 - Much stricter topic filter. A paper is kept only if its TITLE names a synthetic reaction,
   method or strategy (see SIGNALS), and nothing in it points to materials, energy,
   biology, spectroscopy, reviews, etc. (see EXCLUDE_ANY / EXCLUDE_TITLE).
@@ -26,6 +26,8 @@ Version 6 (25 Oct 2026):
 - TOC picture helper (toc-helper.html): a bookmark that collects ACS / Wiley / Science TOC graphics in your
   own browser; upload its toc-....json file to data/inbox and the next run unpacks it into data/toc.
   data/need_toc.json lists the papers still waiting for a picture.
+- Image search (Brave Search API, BRAVE_API_KEY secret): papers that still have no picture are searched by
+  title; a result is used only if its page carries the paper's DOI or title. Up to IMAGE_SEARCH_LIMIT (60) per run; misses retried after 30 days, 3 tries.
 - SAVE_TOC=1 (workflow setting) keeps a copy of each TOC graphic in data/toc/ so it displays
   even if the publisher blocks its images on other websites.
 - Angew. Chem. images/abstracts come from the Wiley RSS feed; reviews, covers and other
@@ -478,7 +480,15 @@ SAVE_TOC = os.environ.get("SAVE_TOC", "").strip().lower() in ("1", "true", "yes"
 TOC_DIR = os.path.join(HERE, "data", "toc")
 INBOX = os.path.join(HERE, "data", "inbox")           # files made by the TOC helper bookmark go here
 NEED = os.path.join(HERE, "data", "need_toc.json")    # list the TOC helper reads: papers still without a picture
-HELPER_PREFIXES = ("10.1021/", "10.1002/", "10.1126/")  # ACS, Wiley, Science: pictures only via your browser
+HELPER_PREFIXES = ("10.1021/", "10.1002/", "10.1126/")  # ACS, Wiley, Science: publishers that block servers
+# Image search (Brave Search API, the official alternative to Google image search): finds the TOC graphic by
+# the paper title for papers that still have no picture. Needs the BRAVE_API_KEY secret; skipped without it.
+BRAVE_KEY = (os.environ.get("BRAVE_API_KEY") or "").strip()
+IMAGE_SEARCH_LIMIT = int(os.environ.get("IMAGE_SEARCH_LIMIT") or 60)      # per run; 15 runs/month ≈ 900, inside the free credit
+IMAGE_SEARCH_RETRY_DAYS = 30                                             # papers with no good result are retried later
+IMAGE_SEARCH_MAX_TRIES = 3                                               # ... at most this many times in total
+BAD_SEARCH_IMG = ("logo", "cover", "avatar", "profile", "portrait", "headshot", "icon", "banner", "favicon",
+                  "author", "people", "staff", "team", "badge", "sprite", "placeholder")
 ACS_PAGE_LIMIT = 150                                  # ACS article-page lookups per run (older papers)
 _acs_pages = 0
 
@@ -962,6 +972,123 @@ def cleanup_toc(by_key):
     return n
 
 
+def shrink_image(raw):
+    """Re-save large pictures as JPEG, at most 1100 px wide (keeps the site small). Needs Pillow; else unchanged."""
+    try:
+        from PIL import Image
+        import io as _io
+        im = Image.open(_io.BytesIO(raw))
+        im.load()
+        if im.width <= 1100 and len(raw) <= 400_000:
+            return raw, None
+        if im.mode in ("RGBA", "LA", "P"):
+            bg = Image.new("RGB", im.size, "white")
+            bg.paste(im.convert("RGBA"), mask=im.convert("RGBA").split()[-1])
+            im = bg
+        else:
+            im = im.convert("RGB")
+        if im.width > 1100:
+            im = im.resize((1100, round(im.height * 1100 / im.width)))
+        out = _io.BytesIO()
+        im.save(out, "JPEG", quality=86)
+        return out.getvalue(), ".jpg"
+    except Exception:
+        return raw, None
+
+
+def image_search(p):
+    """Search the paper title in Brave image search; return (image bytes, ext, source page) or None.
+    A result is accepted only if its page carries the paper's DOI or the same title; logos, covers,
+    portraits and tiny images are rejected. The original image is downloaded from its own site."""
+    global BRAVE_KEY
+    q = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", p.get("t", ""))).strip()[:350]
+    url = "https://api.search.brave.com/res/v1/images/search?" + urlencode(
+        {"q": q, "count": 20, "safesearch": "strict", "spellcheck": "false"})
+    raw, code = _get(url, tries=2, headers={"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY})
+    if code in (401, 403, 422):
+        print(f"Image search: the BRAVE_API_KEY was refused (HTTP {code}); image search switched off for this run.",
+              file=sys.stderr)
+        BRAVE_KEY = ""
+        return None
+    if code == 429:
+        print("Image search: monthly allowance used up; the rest waits for the next run.", file=sys.stderr)
+        BRAVE_KEY = ""
+        return None
+    results = (_json(raw) or {}).get("results") or []
+    doi = (p.get("doi") or "").lower()
+    tail = doi.split("/", 1)[-1]
+    want = norm(p.get("t", ""))
+    cands = []
+    for r in results:
+        img = ((r.get("properties") or {}).get("url") or "").strip()
+        page = (r.get("url") or "").strip()
+        title = norm(r.get("title") or "")
+        if not img.startswith("http") or any(b in img.lower() for b in BAD_SEARCH_IMG):
+            continue
+        w = (r.get("properties") or {}).get("width") or (r.get("thumbnail") or {}).get("width") or 0
+        if w and w < 250:
+            continue
+        doi_hit = bool(tail) and (tail in page.lower() or tail in img.lower() or tail.replace(".", "") in img.lower())
+        sim = difflib.SequenceMatcher(None, title[:len(want) + 40], want).ratio() if title else 0
+        if not (doi_hit or sim >= 0.72 or (len(want) > 30 and want[:70] in title)):
+            continue
+        score = (3 if doi_hit else 0) + sim + (1 if re.search(r"toc|abstract|gra-\d|_00\d\d|fx1|graphic", img, re.I) else 0)
+        cands.append((score, img, page))
+    for _, img, page in sorted(cands, key=lambda c: -c[0])[:4]:
+        data, code = _get(img, tries=1, headers={"User-Agent": BROWSER_UA, "Accept": "image/avif,image/webp,image/*"},
+                          limit=8_000_000, quiet=(401, 403, 404, 429))
+        if data and len(data) > 3000 and (data.startswith(IMAGE_MAGIC) or data[8:12] == b"WEBP"):
+            data, ext = shrink_image(data)
+            if not ext:
+                ext = ".png" if data.startswith(b"\x89PNG") else ".gif" if data.startswith(b"GIF") else \
+                      ".webp" if data[8:12] == b"WEBP" else ".jpg"
+            return data, ext, page
+        time.sleep(0.3)
+    return None
+
+
+def fill_from_image_search(papers):
+    """Pictures for papers that still have none, found by title in image search (BRAVE_API_KEY)."""
+    if not BRAVE_KEY:
+        return 0
+    today = date.today()
+    todo = []
+    for p in sorted(papers, key=lambda p: p["date"], reverse=True):     # newest papers first
+        img = p.get("img") or ""
+        if not p.get("doi") or img.startswith("data/toc/") or "springernature.com" in img:
+            continue
+        if img and not p["doi"].lower().startswith(HELPER_PREFIXES) and not is_acs_guess(img):
+            continue                                   # e.g. Chem: its graphical abstract link is already set
+        tried = p.get("search_tried")
+        if tried and (today - date.fromisoformat(tried)).days < IMAGE_SEARCH_RETRY_DAYS:
+            continue
+        if p.get("search_n", 0) >= IMAGE_SEARCH_MAX_TRIES:
+            continue
+        todo.append(p)
+    found = tried_n = 0
+    for p in todo[:IMAGE_SEARCH_LIMIT]:
+        if not BRAVE_KEY or out_of_time():
+            break
+        tried_n += 1
+        p["search_tried"] = today.isoformat()
+        p["search_n"] = p.get("search_n", 0) + 1
+        hit = image_search(p)
+        if hit:
+            data, ext, page = hit
+            os.makedirs(TOC_DIR, exist_ok=True)
+            name = re.sub(r"[^a-z0-9._-]+", "_", p["doi"].lower())[:140] + "__search" + ext
+            with open(os.path.join(TOC_DIR, name), "wb") as f:
+                f.write(data)
+            p["img"], p["img_src"] = "data/toc/" + name, page or "image search"
+            p.pop("search_tried", None)
+            p.pop("search_n", None)
+            found += 1
+        time.sleep(1.1)                                # stay within the API's rate limit
+    left = max(0, len(todo) - tried_n)
+    print(f"Image search: {found} TOC pictures found in {tried_n} searches" + (f"; {left} papers wait for the next runs" if left else ""))
+    return found
+
+
 def needs_picture(p):
     img = p.get("img") or ""
     return (p.get("doi") or "").lower().startswith(HELPER_PREFIXES) and not img.startswith("data/toc/")
@@ -989,7 +1116,7 @@ def write(by_key):
     return out
 
 
-VERSION = "Ngai Group Archive collector, version 6 (25 Oct 2026)"
+VERSION = "Ngai Group Archive collector, version 7 (25 Oct 2026)"
 
 
 def main():
@@ -1030,6 +1157,7 @@ def main():
     apply_inbox(by_key)                                              # pictures uploaded from the TOC helper
     out = write(by_key)
     ni = fill_images(out, retry=a.retry_images)                      # images only for the selected papers
+    fill_from_image_search(out)                                      # title search for papers still without a picture
     cleanup_toc(by_key)
     write_need(out)
     write(by_key)
