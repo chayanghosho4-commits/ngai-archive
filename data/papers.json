@@ -3750,9 +3750,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08821/asset/images/medium/ja6c08821_0001.gif",
   "ab_full": true,
   "score": 12.3,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-27",
@@ -3809,9 +3809,9 @@
   "img": null,
   "ab_full": true,
   "score": 17.8,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-26",
@@ -3862,9 +3862,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05002/asset/images/medium/cs6c05002_0001.gif",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-26",
@@ -3954,9 +3954,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05584/asset/images/medium/cs6c05584_0001.gif",
   "ab_full": true,
   "score": 11.8,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-25",
@@ -4023,12 +4023,10 @@
   "tag": "Total synthesis",
   "ab": "A 13-step asymmetric total synthesis of (−)-cribrostatin 4 is disclosed. The synthetic route begins with the development of an asymmetric double hydrogenation of 2,5-diketopiperazine-derived enamides enabled by a novel spiropyrrolidine-derived diphosphine (SPDP) ligand. Employment of mono- and oxidative Pictet–Spengler cyclizations allows for expedient construction of the tetrahydroisoquinoline and benzo[3.3.1]-bridged rings along with an enamide alkene. At a late stage, an unprecedented stereochemical editing approach for direct β-epimerization of a primary alcohol was developed by virtue of borrowing hydrogen catalysis. Collectively, these methodological advances contribute to a concise synthesis of this structurally unique bis-tetrahydroisoquinoline (bis-THIQ) alkaloid.",
   "doi": "10.1021/jacs.6c12963",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c12963/asset/images/medium/ja6c12963_0001.gif",
+  "img": "https://imgs.search.brave.com/qa1gFuP76jaQs5a_diECJzmy2v3t7v9oYVQNhCXQrPo/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvcGFwLzEw/LjEwMjFfamFjcy42/YzEyOTYzLzEvbV9q/YTZjMTI5NjNfMDAx/MC5zdmc_RXhwaXJl/cz0xNzkwNjIzNzAz/JlNpZ25hdHVyZT1s/ejE2QlRaZ09lSC1R/YndMWXE1em1lakx5/UC1Qfmx-dkpmWm9Y/N1A5WnVGWXRhc1dB/Z0M4Z3RUen5vZ2xr/amd1fjFXOGJpb1FC/dWJEMkRlbjRvfnZm/SU83SHR0bDlxTmFu/c3Z5YzMxaXVZfkZo/R3VYOXNiSVpEaEFK/MGpHaHBqUEpGS2xY/V2lZZFprVWtraGhk/eGZtbXN1WDBucnp3/UGVscFpWYzg4ZThj/NkswY1BKTTN6OVVm/aWh2cUl0TTBPdjZO/UlFHQmFURUVMUU80/V1dsOFY1TnR6WU1k/V2xRd0ZzR3FlQ095/Wjd6Vm00OEtJdDR3/R01SNmlncVZSSEY1/TmlMRTNWS1pMZlh3/MW9zZ2tqREl3dkVR/VWJvMVdxZmhpOEtR/S1ZKTEVlaDRmVWlo/Y29-SkI0QWhhd0RW/Ui12eGpvNXZ0ZDhm/YmEzLWRvZkNna1E1/fk5meUFfXyZLZXkt/UGFpci1JZD1BUEtB/SUU1RzVDUkRLNlJE/M1BHQQ",
   "ab_full": true,
   "score": 16.7,
-  "search_n": 0,
-  "search_tried": "2026-10-25",
-  "search_v": 2
+  "img_src": "https://pubs.acs.org/jacsat/article-abstract/doi/10.1021/jacs.6c12963/5326960/Concise-Asymmetric-Total-Synthesis-of-Cribrostatin?redirectedFrom=fulltext"
  },
  {
   "date": "2026-08-24",
@@ -4041,9 +4039,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04804/asset/images/medium/cs6c04804_0001.gif",
   "ab_full": true,
   "score": 15.3,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-24",
@@ -4056,9 +4054,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04222/asset/images/medium/cs6c04222_0001.gif",
   "ab_full": true,
   "score": 10.1,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-24",
@@ -4071,9 +4069,9 @@
   "ab_full": true,
   "score": 8.5,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c13223/asset/images/medium/ja6c13223_0001.gif",
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-22",
@@ -4131,9 +4129,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05099/asset/images/medium/cs6c05099_0001.gif",
   "ab_full": true,
   "score": 9.8,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-22",
@@ -4146,9 +4144,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04930/asset/images/medium/cs6c04930_0001.gif",
   "ab_full": true,
   "score": 11.3,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-22",
@@ -4201,9 +4199,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c13616/asset/images/medium/ja6c13616_0001.gif",
   "ab_full": true,
   "score": 15.3,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-21",
@@ -4216,9 +4214,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c12595/asset/images/medium/ja6c12595_0001.gif",
   "ab_full": true,
   "score": 10.8,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-20",
@@ -4259,9 +4257,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05226/asset/images/medium/cs6c05226_0001.gif",
   "ab_full": true,
   "score": 9.8,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-20",
@@ -4302,9 +4300,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10875/asset/images/medium/ja6c10875_0001.gif",
   "ab_full": true,
   "score": 9.9,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-19",
@@ -4317,9 +4315,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04677/asset/images/medium/cs6c04677_0001.gif",
   "ab_full": true,
   "score": 10.8,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-19",
@@ -4388,9 +4386,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c11216/asset/images/medium/ja6c11216_0001.gif",
   "ab_full": true,
   "score": 13.8,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-18",
@@ -4403,9 +4401,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05194/asset/images/medium/cs6c05194_0001.gif",
   "ab_full": true,
   "score": 10.3,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-18",
@@ -4418,9 +4416,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03761/asset/images/medium/cs6c03761_0001.gif",
   "ab_full": true,
   "score": 11.2,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-18",
@@ -4520,10 +4518,8 @@
   "doi": "10.1021/jacs.6c12914",
   "ab_full": true,
   "score": 8.3,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c12914/asset/images/medium/ja6c12914_0001.gif",
-  "search_n": 0,
-  "search_tried": "2026-10-25",
-  "search_v": 2
+  "img": "data/toc/10.1021_jacs.6c12914__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/article/148/33/35270/5263785/The-Catalytic-Asymmetric-Alkylation-of-Olefins"
  },
  {
   "date": "2026-08-17",
@@ -4610,9 +4606,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03407/asset/images/medium/cs6c03407_0001.gif",
   "ab_full": true,
   "score": 10.3,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-13",
@@ -4625,9 +4621,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05701/asset/images/medium/cs6c05701_0001.gif",
   "ab_full": true,
   "score": 10.1,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-13",
@@ -4640,9 +4636,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03107/asset/images/medium/cs6c03107_0001.gif",
   "ab_full": true,
   "score": 11.8,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-13",
@@ -4655,9 +4651,9 @@
   "ab_full": true,
   "score": 9.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05940/asset/images/medium/ja6c05940_0001.gif",
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-13",
@@ -4686,9 +4682,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08998/asset/images/medium/ja6c08998_0001.gif",
   "ab_full": true,
   "score": 11.4,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-12",
@@ -4773,9 +4769,9 @@
   "ab_full": true,
   "score": 8.5,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10280/asset/images/medium/ja6c10280_0001.gif",
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-10",
@@ -4820,9 +4816,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c11164/asset/images/medium/ja6c11164_0001.gif",
   "ab_full": true,
   "score": 11.3,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-10",
@@ -4880,9 +4876,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09101/asset/images/medium/ja6c09101_0001.gif",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-08",
@@ -4972,9 +4968,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05589/asset/images/medium/cs6c05589_0001.gif",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-06",
@@ -5013,12 +5009,10 @@
   "tag": "Total synthesis",
   "ab": "The first and asymmetric total synthesis of venezuelaene A, a rare [5–5–6–7] tetracyclic diterpenoid featuring a highly strained trans-fused [5–5] bicyclic motif alongside a densely functionalized cyclopentane ring and six contiguous stereogenic centers, is reported. Our approach highlights (1) a TEMPO+BF4–-mediated oxidative Nazarov cyclization that rapidly assembles the hydrindane core bearing the key C15-quaternary center; (2) a Stoltz decarboxylative allylic alkylation to highly diastereoselectively install the adjacent C3-quaternary center; (3) a strategic intramolecular carbon atom transfer that overcomes formidable challenges of both homologation and stereochemical control encountered with conventional approaches; and (4) an ene-yne-ene cascade metathesis that efficiently forges the [5–7] bicyclic system and ultimately the entire tetracyclic skeleton, representing the first example of constructing a highly strained trans-fused [5–5] bicyclic ring system via a metathesis reaction.",
   "doi": "10.1021/jacs.6c09948",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09948/asset/images/medium/ja6c09948_0001.gif",
+  "img": "https://imgs.search.brave.com/wa9UTr7imOefePLJO6I-6yJ9tWw772QfTDELSyPPIxs/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzMy/LzEwLjEwMjFfamFj/cy42YzA5OTQ4LzEv/bV9qYTZjMDk5NDhf/MDAwNS5zdmc_RXhw/aXJlcz0xNzkzMTA1/ODcwJlNpZ25hdHVy/ZT1zc0Z1N3llTlJl/T05kfnRrTkhVak5K/WE16Q3pOSHVmT3Vj/Ri1BMHVob2M0UmFC/b1pNSVB3dTdYaWRU/ZndhZlAtQ3ZlNk1a/VHNSSXZma2JRQTd5/cFBNRDB6ZVAxQ0J6/TXpvRE5RZnZ-clFB/ZnNQYVhidG16aUFR/YU5GU1prc2FOTFQ3/TFNBT1oyZng4MnNs/Wk9NVk40cHJIQU10/dC01R2RBWEdwUDhE/dkhuU2kzYlAtaDJm/SnFHYjBjM35TZTRZ/ZngxTmtiR2Z-bS1q/SndiMFp4dmduRH43/cmJnYkwxbn5NNE9k/UGFlTTVFbTNydXB-/UTVWN3ZEOXVtRDFC/NEdOeEtVVEZnb1k5/VFl0WFNFTXktU342/ckU3SmdWU1g4NHlX/VWthZEZMUkhKSH53/VVZ2N09qYWtNN2tE/MXF3ZGQ5NERPc1ZQ/d281cDlubTZyWjNR/dWVYZGdDeUFfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 16.3,
-  "search_n": 0,
-  "search_tried": "2026-10-25",
-  "search_v": 2
+  "img_src": "https://pubs.acs.org/jacsat/article-abstract/148/32/34696/5249793/Asymmetric-Total-Synthesis-of-Venezuelaene-A-via?redirectedFrom=fulltext"
  },
  {
   "date": "2026-08-06",
@@ -5044,9 +5038,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04564/asset/images/medium/cs6c04564_0001.gif",
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-06",
@@ -5059,9 +5053,9 @@
   "img": null,
   "ab_full": true,
   "score": 11.0,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-06",
@@ -5074,9 +5068,9 @@
   "ab_full": true,
   "score": 8.8,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10375/asset/images/medium/ja6c10375_0001.gif",
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-05",
@@ -5089,9 +5083,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10840/asset/images/medium/ja6c10840_0001.gif",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-05",
@@ -5104,9 +5098,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09592/asset/images/medium/ja6c09592_0001.gif",
   "ab_full": true,
   "score": 14.1,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-05",
@@ -5238,9 +5232,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c11377/asset/images/medium/ja6c11377_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0,
+  "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 2
+  "search_v": 3
  },
  {
   "date": "2026-08-04",
