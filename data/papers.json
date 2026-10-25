@@ -4387,7 +4387,9 @@
   "ab_full": true,
   "score": 9.5,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c13866/asset/images/medium/ja6c13866_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-14",
@@ -4400,7 +4402,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05166/asset/images/medium/ja6c05166_0001.gif",
   "ab_full": true,
   "score": 10.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-14",
@@ -4410,10 +4414,10 @@
   "tag": "C–H functionalization",
   "ab": "The functionalization of aryl alkyl ketones in the alkyl group via enolate chemistry is well-known. Pd-catalyzed cross-coupling reactions of these substrates usually lead to C(sp3)–C bonds via coupling of an enolate and an organic halide (α-arylation). In contrast to this expected reactivity, we report here the selective Pd-catalyzed direct arylation of aryl alkyl ketones on the aromatic ring via C(sp2)–H activation. A variety of acetophenones and alkyl aryl ketones can be functionalized in this way, leaving the methyl(alkyl) group untouched. The key to this selectivity is the use of a cooperating bipyridone ligand that lowers the barrier for C–H activation and the use of a set of reaction conditions that keeps a low concentration of the ionic enolate species in the catalytic cycle. This is supported by a combination of experimental and computational studies, including microkinetic simulations, and analysis of primary and equilibrium kinetic isotope effects (KIEs).",
   "doi": "10.1021/acscatal.6c03249",
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03249/asset/images/medium/cs6c03249_0001.gif",
+  "img": "https://imgs.search.brave.com/m3aw_A3rU_i0JO_TsbI8XUEyMkIMTn5XgOOf4DjJCoI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvMTYvMTcv/MTAuMTAyMV9hY3Nj/YXRhbC42YzAzMjQ5/LzEvbV9jcy0yMDI2/LTAzMjQ5bl8wMDEy/LnN2Zz9FeHBpcmVz/PTE3OTUwMzg3NDkm/U2lnbmF0dXJlPTJP/MlJ4Rk03VGlQQThj/aTk1cEFJZGlkTkVB/d0E3bmJBS1VxSzd0/cnFndlNnUTd1UlVZ/by16Yn5PVDllaEx4/eU5Rb01hSlNKaHVn/d0xlTUpLVGc4SFhS/RlpQbVRVU2dtc3h4/RUhTZWk1VFlIWVQx/VnZXWFlWLUswMmxI/UmNnflhCRzNrdk9B/VTJaWkk5MjhxME9i/RGF0MXh6eGNabmpM/c2I2aWFvR01EUTBJ/c09TRDdyVVBERWxQ/TmlSa3BpZG91MXp-/RzNyYWZFMGdmV2NG/MU9sV1hmT05lcjFO/MkxvfmJzM2EtYUJ2/NkNtaEJ0ZXB6dXZ4/MVZ6TGViS0VhLXhV/RGZ5TW1DcVhONzdr/ZFN4MmNTZE85LWw2/Q2lhbFlJS1h0NDhJ/VlRTcTc4azNXSjl0/Zi0yTUVJZnpXR1ZW/bW90Vnk4bHo5NmJ5/TTR0a3NsMWs3dFR1/VGNEUV9fJktleS1Q/YWlyLUlkPUFQS0FJ/RTVHNUNSREs2UkQz/UEdB",
   "ab_full": true,
   "score": 12.6,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/accacs/article/16/17/16809/5255137/Overriding-the-Expected-Reactivity-in-C-H-Bond"
  },
  {
   "date": "2026-08-14",
@@ -4423,10 +4427,10 @@
   "tag": "Photoredox",
   "ab": "Olefins are important linchpins in organic synthesis, and the hydrogenation and isomerization of C═C double bonds represent two canonical transformations. We have developed a cobalt metallaphotoredox-catalyzed platform that enables the divergent hydrogenation and monoisomerization of olefins. Employing the same (salen)cobalt catalyst and nongaseous hydrogen source, both reaction pathways proceed via a common alkyl/Co(II) geminate radical pair generated through metal-catalyzed hydrogen atom transfer (MHAT) to the olefin. Selectivity between hydrogenation and monoisomerization is governed primarily by the effective hydrogen-source loading and moderately adjusted by light power, demonstrating the singular efficacy of this unified catalytic system.",
   "doi": "10.1021/acscatal.6c04974",
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04974/asset/images/medium/cs6c04974_0001.gif",
+  "img": "https://imgs.search.brave.com/8BotZ_lA8dgBu-uZ3d7BK07xgJxfkpFp9KtdkAIIy98/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvMTYvMTgv/MTAuMTAyMV9hY3Nj/YXRhbC42YzA0OTc0/LzIvbV9jcy0yMDI2/LTA0OTc0YV8wMDA2/LnN2Zz9FeHBpcmVz/PTE3OTQ5NDU1MjQm/U2lnbmF0dXJlPTMz/T0hrVVdzd0NiTDNK/SUkzTTk4ZGVpOUd5/RVJDYm5LQXExa2M2/aU5idlF6Q0xBUGI5/dmtIU3liY25Cb0JF/VUpNV3V-RTNMT2RF/V0d5Q0t1eGpVdE9o/aWFOeDFNVDNLSDF5/VnZ5cnkta3hqT2Iy/ZGl5Z2dDZEc5R1hW/UE54OUZsZ2syUWs5/cVRuR3pNeUdtNjhB/TXc0Z05SYm4tbzl3/Z3FGVHg1c2VOZWdv/Zn5US1FOR2MtM0U5/c2hDdjI3NHFra3hV/QnkwWGVLQzdzdFJS/VmtRWThTflBEV2hN/cU1JVWtuZFJFWFBw/ajJ0NVpEVUgzVE50/aUgzZlZzM2Zta3Q3/a3dPMmpEflZ5cGZH/cDhrRHl0MmJWSDQw/Sm84UlJ0THhJaXo4/V3hzNU9FaWIwSjRK/Sn5zVUtRZE0zMEk2/YlppSS1iQlBDZGJw/NEtvODZRVVJOTTdM/cVRIUV9fJktleS1Q/YWlyLUlkPUFQS0FJ/RTVHNUNSREs2UkQz/UEdB",
   "ab_full": true,
   "score": 10.3,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/accacs/article-abstract/16/18/18363/5255219/Photochemical-Cobalt-Catalyzed-Selective-Olefin?redirectedFrom=fulltext"
  },
  {
   "date": "2026-08-13",
@@ -4439,7 +4443,9 @@
   "img": null,
   "ab_full": true,
   "score": 11.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-13",
@@ -4452,7 +4458,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03407/asset/images/medium/cs6c03407_0001.gif",
   "ab_full": true,
   "score": 10.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-13",
@@ -4465,7 +4473,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05701/asset/images/medium/cs6c05701_0001.gif",
   "ab_full": true,
   "score": 10.1,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-13",
@@ -4478,7 +4488,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03107/asset/images/medium/cs6c03107_0001.gif",
   "ab_full": true,
   "score": 11.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-13",
@@ -4491,7 +4503,9 @@
   "ab_full": true,
   "score": 9.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05940/asset/images/medium/ja6c05940_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-13",
@@ -4504,7 +4518,9 @@
   "ab_full": true,
   "score": 9.3,
   "img": null,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-12",
@@ -4517,7 +4533,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08998/asset/images/medium/ja6c08998_0001.gif",
   "ab_full": true,
   "score": 11.4,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-12",
@@ -4530,7 +4548,9 @@
   "img": null,
   "ab_full": true,
   "score": 10.0,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-12",
@@ -4555,7 +4575,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c07119/asset/images/medium/ja6c07119_0001.gif",
   "ab_full": true,
   "score": 15.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-11",
@@ -4568,7 +4590,9 @@
   "img": null,
   "ab_full": true,
   "score": 15.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-11",
@@ -4593,7 +4617,9 @@
   "ab_full": true,
   "score": 8.5,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10280/asset/images/medium/ja6c10280_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-10",
@@ -4606,7 +4632,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c12217/asset/images/medium/ja6c12217_0001.gif",
   "ab_full": true,
   "score": 10.0,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-10",
@@ -4619,7 +4647,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08696/asset/images/medium/ja6c08696_0001.gif",
   "ab_full": true,
   "score": 10.7,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-10",
@@ -4632,7 +4662,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c11164/asset/images/medium/ja6c11164_0001.gif",
   "ab_full": true,
   "score": 11.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-10",
@@ -4645,7 +4677,9 @@
   "ab_full": true,
   "score": 9.7,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c13607/asset/images/medium/ja6c13607_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-10",
@@ -4657,8 +4691,8 @@
   "doi": "10.1021/jacs.6c09867",
   "ab_full": true,
   "score": 8.9,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09867/asset/images/medium/ja6c09867_0001.gif",
-  "search_n": 0
+  "img": "data/toc/10.1021_jacs.6c09867__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/issue/128"
  },
  {
   "date": "2026-08-08",
@@ -4671,7 +4705,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10775/asset/images/medium/ja6c10775_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-08",
@@ -4684,7 +4720,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09101/asset/images/medium/ja6c09101_0001.gif",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-08",
@@ -4697,7 +4735,9 @@
   "img": null,
   "ab_full": true,
   "score": 13.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-08",
@@ -4709,8 +4749,8 @@
   "doi": "10.1002/anie.3568920",
   "ab_full": true,
   "score": 9.2,
-  "img": null,
-  "search_n": 0
+  "img": "https://imgs.search.brave.com/YG9m26fFcye8kcg2Hb33UmvaCEq9LTSVBw90Kd-eBE0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNThhZjEw/ZDUtOTA3MS00NmZh/LThjZjgtNWZhM2Ri/ODkxMmQzL2FuaWU3/NDExNS1ncmEtMDAw/MS1tLnBuZw",
+  "img_src": "https://www.lifescience.net/entries/909266/asymmetric-telluriumbonding-catalysis-for-mannich-/"
  },
  {
   "date": "2026-08-07",
@@ -4723,7 +4763,9 @@
   "img": null,
   "ab_full": true,
   "score": 10.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-07",
@@ -4736,7 +4778,9 @@
   "img": null,
   "ab_full": true,
   "score": 14.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-07",
@@ -4749,7 +4793,9 @@
   "img": null,
   "ab_full": true,
   "score": 14.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-07",
@@ -4762,7 +4808,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05589/asset/images/medium/cs6c05589_0001.gif",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-06",
@@ -4775,7 +4823,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14390/asset/images/medium/ja6c14390_0001.gif",
   "ab_full": true,
   "score": 10.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-06",
@@ -4785,10 +4835,10 @@
   "tag": "Total synthesis",
   "ab": "The first asymmetric total synthesis of curcusone I, an unusual Euphorbiaceae diterpenoid, has been accomplished, unambiguously confirming its true structure, as previously revised by computational studies. The common [5–7–6] tricyclic core, which is found in rhamnofolane-type curcusones as well as in daphnane and tigliane diterpenes, was efficiently and diastereoselectively assembled via a Rh-catalyzed selenium-involved [2,3]-sigmatropic rearrangement cascade and an additive-controlled SmI2-mediated cyclization. The oxabicyclo[3.2.1]octane framework of curcusone I was successfully constructed by a unique transannular 5-endo-trig oxa-Michael addition. All eight desired stereocenters were installed diastereoselectively.",
   "doi": "10.1021/jacs.6c13015",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c13015/asset/images/medium/ja6c13015_0001.gif",
+  "img": "https://imgs.search.brave.com/A-LyCTs9SnT1e6OTnOcrV8PEVaT2hBtOr33FCDss-RY/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzMy/LzEwLjEwMjFfamFj/cy42YzEzMDE1LzEv/bV9qYTZjMTMwMTVf/MDAwNi5zdmc_RXhw/aXJlcz0xNzkwNjMw/MzkwJlNpZ25hdHVy/ZT1UMHFoRWU0ZXpy/ZVlSUEJtUXhLUXkz/N1praHR0dU9vd1p1/bjJXTE1hYn5nMEdJ/Mmp5Yy1KV2VtbHlN/NE5PaXZnVzF6eVJz/cTl4Y3BxQmhQWDA0/bC1VWHBGcjlNZmFz/NjBlWEp-dGM3eFpY/eGxScHM1SktRU0NK/V1k2cmtON2t1RE9i/SUo5NDk4TnN1eGd6/SlVyblVPV2lHdFlF/cVhUSjhrMHNXNXFS/Yk9DSnpZZ35rQmgt/cTVPUFBFZmt5Y0J3/MX5lNE1lbUhUVlVw/dlFLZGlJVkF3d0ll/V3Z2SlUwMTZTWUha/SWRrY3lHdDNFUWU2/TnFMM0dLcm05ekoz/WTdmeURubloxRUU3/aUZRdzlifmthTm9L/U1FDc0wtc21QU2Z4/NGUzQUVybjgwZEhR/U1AyV1pHZjFFS3I5/dlRoSnpXcGNHdzJl/RzJrRDAtVmN4ZmJa/ZktwNzZUUEFfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 10.8,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/issue/128"
  },
  {
   "date": "2026-08-06",
@@ -4801,7 +4851,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09948/asset/images/medium/ja6c09948_0001.gif",
   "ab_full": true,
   "score": 16.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-06",
@@ -4811,10 +4863,10 @@
   "tag": "C–H functionalization",
   "ab": "Quaternary ammonium salts (QAS), despite their prevalence in pharmaceuticals and materials, remain underexplored in directed C−H functionalization due to the absence of lone-pair coordination sites and electronic deactivation of proximal C−H bonds. We report a traceless strategy for remote γ-C−H functionalization of quaternary ammonium salts enabled by in situ generation of highly reactive α-ammonioalkyl radicals. These electron-deficient radicals drive efficient, regioselective intramolecular hydrogen atom abstraction (HAA) from unactivated γ-positions. The protocol exhibits broad substrate scope and regioselectivity. Traceless N-demethylation completes formal remote functionalization of tertiary amines. This work establishes a powerful radical platform for remote C−H diversification of ammonium salts and amines, with potential for late-stage modification of nitrogen-rich pharmacophores.",
   "doi": "10.1021/acscatal.6c02949",
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02949/asset/images/medium/cs6c02949_0001.gif",
+  "img": "https://imgs.search.brave.com/0Kg1EKYVGCUILlhu5P6DKvGH-0LhiV6NV7V5AMDSuAI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvMTYvMTYv/MTAuMTAyMV9hY3Nj/YXRhbC42YzAyOTQ5/LzEvbV9jcy0yMDI2/LTAyOTQ5c18wMDA3/LnN2Zz9FeHBpcmVz/PTE3OTAyMjk2OTgm/U2lnbmF0dXJlPWZJ/QmRNeEluZkw4SjRy/ZmJMTUJ-VnNIMGEw/Q3VKMmFHcFFFfjdv/flB2TlpNV1RXdXJX/T1ZtWGxicm9wb0dl/eUd3UUVlc2d4aUd4/MmlObWtyUTZ3bkFx/Ty1PaEdmUURuakly/dGpoYTNLQk94U1Bz/d0FlOVZFdFVLa0xX/WFRubUozNGo3S0Vy/M25wUDhlWWVIblNV/SFlsbFo0VWhUTjhH/fkN6WlNvSnB-MWN3/M2JuSW9mRE9IdFM3/SG5ibTdCazVmT3di/Rm5rN1FMaUdWT2tU/RHE5MlA5Q05zR2JE/anEyUi1oUDExa3BV/eXc4bFRROE44ZVZm/cEVsV35sdDVrbS1j/czNnWThqN0hnZzJ4/eUdud0phZWxwUFhR/OU9GTkNwZEp-fkNO/ODVERlJZQ1ZjQXJl/QVZmbFJqSFdMaWRj/Zlh2eHhkQ0dIdXpQ/Mmx4bGd2TlpjdDd-/SVZXQV9fJktleS1Q/YWlyLUlkPUFQS0FJ/RTVHNUNSREs2UkQz/UEdB",
   "ab_full": true,
   "score": 11.2,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/accacs/article-abstract/doi/10.1021/acscatal.6c02949/5249625/Radical-Mediated-C-sp3-H-Functionalization-of"
  },
  {
   "date": "2026-08-06",
@@ -4827,7 +4879,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04564/asset/images/medium/cs6c04564_0001.gif",
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-06",
@@ -4840,7 +4894,9 @@
   "img": null,
   "ab_full": true,
   "score": 11.0,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-06",
@@ -4853,7 +4909,9 @@
   "ab_full": true,
   "score": 8.8,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10375/asset/images/medium/ja6c10375_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-05",
@@ -4866,7 +4924,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10840/asset/images/medium/ja6c10840_0001.gif",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-05",
@@ -4879,7 +4939,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09592/asset/images/medium/ja6c09592_0001.gif",
   "ab_full": true,
   "score": 14.1,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-05",
@@ -4892,7 +4954,9 @@
   "img": null,
   "ab_full": true,
   "score": 10.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-05",
@@ -4905,7 +4969,9 @@
   "img": null,
   "ab_full": true,
   "score": 10.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-05",
@@ -4918,7 +4984,9 @@
   "img": null,
   "ab_full": true,
   "score": 14.2,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-05",
@@ -4928,10 +4996,10 @@
   "tag": "Radical chemistry",
   "ab": "A CuCl‐catalyzed strategy enables practical, selective, and efficient δ desaturation of unprotected amines. These bifunctional molecules allow rapid conversion of simple amines to privileged heterocycles in medicine. The key radical relay mechanism is an interrupted Hofmann–Löffler–Freytag (HLF) reaction, which may now be carried out without protecting groups. Based on ‘radical polarity matching’ analysis, we show here that N‐radical cations are ideal intermediates for facilitating efficient and selective 1,5‐H‐atom transfer (HAT) of unprotected amines. Mechanistic probes illustrate the scope, rate, selectivity, and utility of these distal amino alkenes. Computational studies compare the importance of kinetic (radical polarity) over thermodynamic (bond strength) factors in predicting HAT reactivity. Extension to an intermolecular variant allows the direct, desaturative C─H amination of alkanes in a net triple C─H functionalization.",
   "doi": "10.1002/anie.4933839",
-  "img": null,
+  "img": "https://imgs.search.brave.com/KTHssET2OQEtnchutXWJDBFoXjVJZODdmC7MP8wHFuo/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvODNkMWVi/OGEtMmY4ZS00ZGMx/LWE2NzYtYzRlMWJm/ZTgwODg4L2FuaWU3/Mzk0NC1ncmEtMDAw/MS1tLmpwZw",
   "ab_full": true,
   "score": 9.8,
-  "search_n": 0
+  "img_src": "https://onlinelibrary.wiley.com/journal/15213773"
  },
  {
   "date": "2026-08-05",
@@ -4944,7 +5012,9 @@
   "img": null,
   "ab_full": true,
   "score": 14.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-05",
@@ -4957,7 +5027,9 @@
   "ab_full": true,
   "score": 8.5,
   "img": null,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-04",
@@ -4967,10 +5039,10 @@
   "tag": "Natural products",
   "ab": "Resveratrol-derived natural products feature a diverse group of stilbenoids, characterized by extensive structural variation and pharmacological potential. Herein, we document our innovation in the synthesis of laetevirenol A, a biologically captivating resveratrol dimer, and isoampelopsin D enabled by operating an aryne-based synthetic program. The synthetic strategy involves the incorporation of aryne building blocks into methylene indane/indene nuclei by harnessing their innate reactivity. A dehydro Diels–Alder cycloaddition and an aryne-ene reaction were developed to construct the carbon framework of laetevirenol A and isoampelopsin D. Attempts were made to rationalize the unexpected regioselectivity behavior of crucial benzyne reactions from both empirical and computational perspectives. Ultimately, laetevirenol A and its analogs were also biologically investigated to uncover their potential antioxidant activities. This work offers valuable insights into the regioselectivity of intermolecular pericyclic aryne reactions and serves as an example of controlling aryne regioselectivities in the synthesis of molecular targets.",
   "doi": "10.1021/jacs.6c07493",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c07493/asset/images/medium/ja6c07493_0001.gif",
+  "img": "https://imgs.search.brave.com/t8elZMxvlahrmdYYE4MyqjmHDylhXBo1rj-K1o69jXU/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzQw/LzEwLjEwMjFfamFj/cy42YzA3NDkzLzIv/bV9qYTZjMDc0OTNf/MDAwOC5zdmc_RXhw/aXJlcz0xNzk1NDI2/MTY0JlNpZ25hdHVy/ZT1vNDI3UGxtOFI0/WVpLRDBiWENPWERv/eGdmRUloeG1rMDNw/SzZlYnFZflk3cHlZ/V3BERWlKTnc1Qlhk/Z1VELTZlbzNxSjRU/d2Riem9CdHdHdnlL/V1B-LWl3aEczT1NW/WGVjTjAwckFwWlEz/Si1pVnl4LU1zM1da/V1pQR1c2enkyYjVy/a0RZflJ4cGhkRUJ2/d000ZVJFc3JrVGpw/VXZjZEtDan5uUGVS/T1RMdnh3aTUwbzUt/UmVLdldIRFZqeDNN/dnFXMXRUVmEtNWpk/RlNGdWYzUUt1NmZO/alRYYkpxT0VHUzVX/ZzFic2xFcH5QUHJw/YTVWNm5DY01uekph/a2Y4ZFdjZUFkT3Zo/SDVxYVM2Q2VkZ0pQ/SnFNa2JXRlFIVEdI/VkFoem5qUm41NTdK/V1ZYSmdSSU8yWjdC/bmJQMHFOV3ZUN0tm/VEZ1SWhPekUyOXNY/SmhmNGVkSmdfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 13.7,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/issue/148/40"
  },
  {
   "date": "2026-08-04",
@@ -4980,10 +5052,10 @@
   "tag": "Photocatalysis",
   "ab": "Fluoroform is an ideal trifluoromethyl source in synthetic chemistry due to its low cost, low toxicity, and high potential for greenhouse-gas valorization. However, the use of fluoroform has been largely limited to the generation of trifluoromethyl anions or metal-bound species; direct access to the trifluoromethyl radical remains elusive, despite the broad applicability of radical trifluoromethylation for preparing medicinally important compounds. Here, we report a method for radical trifluoromethylation using fluoroform by leveraging the reactivity of ketones in combination with a Brønsted base under photoirradiation. The ketone-mediated photochemical activation provides access to the trifluoromethyl radical from fluoroform via a photoexcited alkoxide intermediate without exogenous redox reagents, enabling radical trifluoromethylation of alkenes and arenes under mild conditions. The developed system is amenable to a photocatalytic protocol, late-stage trifluoromethylation of complex molecules, and upgrading bulk chemicals into high-value trifluoromethylated compounds.",
   "doi": "10.1021/jacs.6c10939",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10939/asset/images/medium/ja6c10939_0001.gif",
+  "img": "data/toc/10.1021_jacs.6c10939__search.png",
   "ab_full": true,
   "score": 13.7,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/article/148/32/34907/5243706/Photocatalytic-Activation-of-Fluoroform-for"
  },
  {
   "date": "2026-08-04",
@@ -4996,7 +5068,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c11377/asset/images/medium/ja6c11377_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-04",
@@ -5008,8 +5082,8 @@
   "doi": "10.1021/acscatal.6c02004",
   "ab_full": true,
   "score": 9.7,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02004/asset/images/medium/cs6c02004_0001.gif",
-  "search_n": 0
+  "img": "https://imgs.search.brave.com/P_kutPE-ehSjx26Y1sho_ms25cj_HT8jRA5U2DNEkUY/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvMTYvMTkv/MTAuMTAyMV9hY3Nj/YXRhbC42YzAyMDA0/LzEvbV9jcy0yMDI2/LTAyMDA0Yl8wMDA5/LnN2Zz9FeHBpcmVz/PTE3OTQ5MjczNDMm/U2lnbmF0dXJlPTBY/TnBvZVM1VDA5ZUgx/MGJkallaUmg1S1BN/OWgwTFZ0R0YyUFoy/bFZRMVRSQ0Y2b1NL/YmZtN20tSzhTWE5J/bXdqLUQxb2xraUkx/eHplTHQ5enNDZjZr/WEVpUUZsT1FsNUlS/ajl-UnE1LTVLTnB-/SHZ1WnFpRFN5bkF5/R28ydX4xSlJBSUU2/cDdOanNqT0pRaXhU/SEZLQ0JnODNMbGkz/a0tUYmVrczAwMnRK/dVBPaTBQUTloSFM3/Q202aEJYTDVUT21S/bnJZMEppZHhZcnRQ/Q0ZNcnRHUTRHWmY3/WXlHaVJsaFhDRX5u/aFRZQTRSQjcwUVNJ/NzlMeUx5NW1GSHZC/cnFWSUsxOX5KdnFL/bjFvMzBPVXU0THFx/OVd1WnY0T2FnWXdM/UmtnUlVjcDd1NTlL/S05Na0sySk5GRy15/eVhLak1vandMaFFs/NXpGNjNqN2hBWW0x/dExoUV9fJktleS1Q/YWlyLUlkPUFQS0FJ/RTVHNUNSREs2UkQz/UEdB",
+  "img_src": "https://pubs.acs.org/accacs/article/16/19/18892/5242293/Two-Reactivities-for-the-Price-of-One-Cycle"
  },
  {
   "date": "2026-08-03",
@@ -5022,7 +5096,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09015/asset/images/medium/ja6c09015_0001.gif",
   "ab_full": true,
   "score": 13.2,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-08-03",
@@ -5032,10 +5108,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "The expanding utility of axial chirality across the chemical sciences has intensified the search for structurally novel atropisomeric skeletons. Drawing inspiration from the electronic properties of aryl–amides, we have developed a new class of atropisomeric aryl–hydrazone architectures. Their atroposelective construction was accomplished via stereospecific addition of hydrazines to axially chiral vinyl quinone methides, generated in situ from aryl–alkynes under chiral Brønsted acid catalysis. This transformation exhibits remarkable Z/E- and enantioselectivity, along with broad functional group compatibility. The key to overcoming this synthetic challenge lies in the precise enantiocontrol of the transient aryl–enamine species, which subsequently undergoes stereospecific enamine-to-imine tautomerization to afford the Z-configured atropisomers. Furthermore, the chiral Brønsted acid acts as a sophisticated proton shuttle, enabling a privileged pathway for the seamless transfer of stereochemical information while enhancing selectivity through precise spatial discrimination of the enamine conformers. This work not only expands the repertoire of atropisomeric frameworks but also delivers atropisomers with excellent structural and axial stability, positioning them as promising candidates for asymmetric catalysis and materials science.",
   "doi": "10.1021/jacs.6c12029",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c12029/asset/images/medium/ja6c12029_0001.gif",
+  "img": "https://imgs.search.brave.com/iBCISDzYcEiyOsT0uS1vToWjgQACW3dDKKI3AG9J7eQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzMx/LzEwLjEwMjFfamFj/cy42YzEyMDI5LzEv/bV9qYTZjMTIwMjlf/MDAwNy5zdmc_RXhw/aXJlcz0xNzkxMjkz/MDUyJlNpZ25hdHVy/ZT1EMTRxZFhTYWtn/QWk2M3U4Q3BHNHc4/M2FJZ2lTdlhwMFdN/a1ZkSEZOLTlDZ0ZG/ZFRMeFFzZndOdzY1/cEZLYnFJdUVuV3Mz/Z3lSelFXejRFWDlv/b3dydTBlb2xURXEt/dXpRTnYxRWd5YmFK/bkM3YXVLaUNwWk9J/TGJLM2pETjg1djYy/RS1MUXBaRUl2bExo/Mmhra0tweEhKTVc5/TzVyRGhnTXFNU2hF/UE0zdFN1MWpqTDEw/Y080eHF2R0xJUnZU/c3JuTjEzSnR1MlRS/a01XN2lja0t2SXA4/NXhDcHFWdmxCR3lQ/QWpjN2xxQ3c0Tmt5/dWVXTm9OcmxqeldG/TDFIRDZLdnpxMzVV/UWtvVnRrRkRVUU11/bkV0WHU1N1F2ejhC/WlZtS1B6cFIyZEQ4/YUEyelBwbWd1c1I4/bVF6cjZlcEx6eXBp/VWExLVhkai03dDZk/a1FZaklKRGdfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 11.2,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/article-abstract/148/31/33959/5238429/Atropisomeric-Aryl-Hydrazone-Frameworks-Discovery?redirectedFrom=fulltext"
  },
  {
   "date": "2026-08-03",
@@ -5048,7 +5124,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04411/asset/images/medium/cs6c04411_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-31",
@@ -5073,7 +5151,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08244/asset/images/medium/ja6c08244_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-31",
@@ -5083,10 +5163,10 @@
   "tag": "Synthetic methodology",
   "ab": "Deoxygenative aromatization of cyclic amides offers a distinct retrosynthetic strategy for accessing nitrogen-containing heteroarenes, yet the practical and efficient conversion of abundant amides remains a significant challenge. Herein, we report a ruthenium-catalyzed deoxygenative aromatization protocol for the streamlined transformation of succinimides and oxindoles into pyrroles and indoles. Employing Ru3(CO)12 (0.05‒0.1 mol%) and 1,1,3,3-tetramethyldisiloxane (TMDSO), this protocol enables direct access to the corresponding heteroarenes in good to high yields under mild reaction conditions. The method exhibits broad functional group tolerance and is applicable to late-stage modification of biologically relevant molecules. A gram-scale synthesis (10 g, TON up to 1900) and integration with Diels–Alder chemistry demonstrate the practicality of the method and its utility for constructing fused polycyclic pyrrole architectures.",
   "doi": "10.1021/acscatal.6c03508",
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03508/asset/images/medium/cs6c03508_0001.gif",
+  "img": "https://imgs.search.brave.com/wA_-w9PwbZ5BL5lR8swDvzPhZt_uBkPuPbQ-TyZf9_E/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvMTYvMTYv/MTAuMTAyMV9hY3Nj/YXRhbC42YzAzNTA4/LzIvbV9jcy0yMDI2/LTAzNTA4aF8wMDEx/LnN2Zz9FeHBpcmVz/PTE3OTQ5Mjc3MzAm/U2lnbmF0dXJlPUpB/UzFMWk11UXlDLUlU/WjVrYTF1V21kYzd5/SXltSHdzeVlldFlu/MTB3dGNJeVJ4SHR0/emhQbFdNVGhZZWRz/UnZKU3RaSEM1eXJV/NGhNMHJVZW5LRVp5/TGktVzBmdGNYVnFE/SUJIT3VrZnM0TFps/Nk9BTTk1emNweUV4/UlFtbVE0NVI5MTRC/bkM3c3k4SUZLZ2o2/dmJ0TC00dTEwU1Zx/cXlvMUlGcDJhbE1F/M29RVEk1TnB-Rm1p/MVBTTkNvei0teDFC/NFFhbVBCUGdmNFhK/eUlaVVVLY3A3aGg4/eGJ0N0Y4b3V5cG4t/SjY2VFhOSlctTHlY/Y0poUk1DdGFoSHFw/MTIxbk5sU2FRd1Nx/Q0hKSGN1UXo5blhk/bHgwcGVVbUdsbGZE/RjJXMURRZWhQT2dy/Smk5VW9CUEk3cVBh/Y0FYbjA4em84RlMw/OHZVVmJtWnNmUThL/cFhiQV9fJktleS1Q/YWlyLUlkPUFQS0FJ/RTVHNUNSREs2UkQz/UEdB",
   "ab_full": true,
   "score": 10.7,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/accacs/article-abstract/16/16/15943/5237820/Ru-Catalyzed-Deoxygenative-Aromatization-of?redirectedFrom=fulltext"
  },
  {
   "date": "2026-07-31",
@@ -5099,7 +5179,9 @@
   "ab_full": true,
   "score": 10.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09683/asset/images/medium/ja6c09683_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-30",
@@ -5112,7 +5194,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c02262/asset/images/medium/ja6c02262_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-30",
@@ -5122,10 +5206,10 @@
   "tag": "Photocatalysis",
   "ab": "Friedel–Crafts alkylation is a cornerstone transformation for arene functionalization; however, strongly electron-deficient nitroarenes fail to undergo alkylation under conventional conditions. This long-standing limitation is notable given the prevalence of nitroarenes in pharmaceuticals and agrochemicals and their central role as synthetic building blocks. Here we report a photocatalytic strategy that overcomes this challenge, enabling direct C–H alkylation of nitroarenes using readily available carboxylic acids as alkyl radical precursors. Under mild conditions, alkyl radicals generated through a decarboxylative process add preferentially to the aromatic π-system while preserving the nitro functionality, suppressing competing oxygen-atom transfer and reduction pathways. This transformation is compatible with a wide range of nitroarenes and carboxylic acids and tolerates diverse functional groups. Mechanistic studies support a pathway involving decarboxylative radical addition, followed by oxidation and rearomatization mediated by an organophotocatalyst. The photocatalytic strategy is also applicable to alkyltrifluoroborates as alternative alkyl radical precursors. This method enables late-stage functionalization of complex nitroarenes and bioactive molecules, providing a modular platform for sequential C–H diversification and expanding the synthetic utility of nitroarenes.",
   "doi": "10.1021/jacs.6c10599",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10599/asset/images/medium/ja6c10599_0001.gif",
+  "img": "https://imgs.search.brave.com/FmkOUTavJkI4xvxKlGoq0Nkp4GtuM_7uQ3oPbRKBKiI/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzMx/LzEwLjEwMjFfamFj/cy42YzEwNTk5LzEv/bV9qYTZjMTA1OTlf/MDAwOS5zdmc_RXhw/aXJlcz0xNzk0OTI3/NDY2JlNpZ25hdHVy/ZT1yVmRLRGR4dlJD/c3VzWG5Qak82dDN1/eS1MMVNoc2V3SFg5/cFZHUnJUU2JuT0kz/ZG9kTXNIZ280a3hm/NHZnbWx2S0E2MG1a/TFJkZ1RjZlJqa3pU/MUItZnJEN2UzSkx3/eEdNUU8yZW9-RmxI/Vzg3UElHc3NEQnll/M1RSRkJ-TUY0dWNm/bDBpdFhjaHloMXdj/WlEtVHRSRGpla1h4/MzB0NWQ2T0pNaEN5/Z2R4aGtzWTVGWFV0/TTVodUNKTVVUQWVZ/OEZwRjdGb0RsM2dV/dDdCUDRSaWxkZXFK/ZEEyTXk3U24xN29i/MjNOfkUyVGlQcmNB/VHJIR2lOd1VmRW40/V1o0dHZYN3pXSW1r/alhZT1ZuaXB4UXVW/MEpNSUdPMkJEeWpI/cHpjY2ZocEY0WlAz/RE5SNFE1RjNFdkR6/fnlNRFMzeWZ-aGw4/LXl2WnIxRXZLRjlv/alZLUWM4ZlFfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/article/148/31/33683/5237543/Reactivity-of-Nitroarenes-toward-Alkyl-Radicals"
  },
  {
   "date": "2026-07-30",
@@ -5138,7 +5222,9 @@
   "img": null,
   "ab_full": true,
   "score": 12.6,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-30",
@@ -5148,10 +5234,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "Appel halogenation reactions are widely used to convert alcohols to alkyl halides but are not suitable to prepare alkyl fluorides because fluoride is sequestered as a difluorophosphorane. In this work, we introduce bench-stable neopentoxyphosphonium salts to solve this enduring challenge. With these reagents, various alcohols undergo fluorination with potassium fluoride under hydrogen bonding phase-transfer catalysis, a manifold offering a pathway to enantioselective fluorination of alcohols. Mechanistically, a neopentoxyfluorophosphorane is formed, which undergoes reversible exchange with the alcohol substrate in preference to difluorophosphorane formation. The catalyst assists with potassium fluoride solubilization and with phosphorus–fluorine bond dissociation, leading to the alkoxyphosphonium fluoride ion pair undergoing stereoinvertive fluorination. Turnover results from stronger binding of the catalyst to fluoride than phosphine oxide, the by-product of the reaction, which is recyclable as starting material for the synthesis of the phosphonium reagents.",
   "doi": "10.1126/science.aec6298",
-  "img": null,
+  "img": "data/toc/10.1126_science.aec6298__search.jpg",
   "ab_full": true,
   "score": 14.2,
-  "search_n": 0
+  "img_src": "https://eurekalert.org/news-releases/1137658"
  },
  {
   "date": "2026-07-30",
@@ -5185,10 +5271,10 @@
   "tag": "Photocatalysis",
   "ab": "N-Heterocyclic carbene (NHC) catalysis has emerged as a versatile organocatalytic platform for radical-mediated acyl transfer into readily available molecular frameworks. However, its engagement with N-centered radicals remains underexplored. Herein, we report a diastereoselective (up to &gt;19:1 dr) access to 5- and 6-membered keto-lactams via NHC-mediated amidoacylation of olefin-tethered dioxazolones with aldehydes under transition metal-free and photocatalyst-free conditions. It is proposed that proton-coupled electron transfer (PCET) from NHC-derived Breslow intermediate to dioxazolones may furnish amidyl radicals to undergo 5-exo- or 6-endo-trig cyclization, followed by radical–radical coupling with an in-situ-generated persistent ketyl radical.",
   "doi": "10.1021/jacs.6c10645",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10645/asset/images/medium/ja6c10645_0001.gif",
+  "img": "https://imgs.search.brave.com/ukAqZDd8GGr1MhVYGvUjLNEv_v31mJxeT5cu5rfB3iE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzMx/LzEwLjEwMjFfamFj/cy42YzEwNjQ1LzEv/bV9qYTZjMTA2NDVf/MDAwNi5zdmc_RXhw/aXJlcz0xNzkwMDEx/Njg0JlNpZ25hdHVy/ZT13bnRQcmFQQktI/Si00OC05V2NSYVlU/a3JLMEc1TUlUYnZj/dDMxVVlxa3prLUFy/VWMwQjJjRElzN2NB/dUc2fjEtNmZBY0kw/Y3NpfmY2N0t1MC1i/N2FGSER3RGVRa3Z4/QnpEeXQyZFVFNHQ2/c0YyNXREdWdxeThj/MTAzMXQ2c2Mzc2x4/MklXSFJaZmEwNVBz/VklsU3dOZnBzdVpD/RX4zZjQ2ZzNnR29a/YVlwaUNWeDdDMVlv/VXRLeEo2ekRFRmNa/R3BsQkQ5YX41MTA5/aXJhYXZ4MkVROUZV/MFpjWFh5YmFNSFRY/ejI3a2Z1b1lxMTZH/QVRJZHVyeXZ4cHVi/ZXpYYnE1MGV2c3Fa/TDg2NXBiNWhERlAz/LTRlU0FteWI2Tmsx/TVZpcmoyaENuLTB-/ZGlJV09uYmRoMWEx/ZHFrQWdUVlVyUVAw/NngtMTZHS29CTnF2/ZFl-MXR-flFfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 16.3,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/issue/148/31"
  },
  {
   "date": "2026-07-29",
@@ -5201,7 +5287,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c11788/asset/images/medium/ja6c11788_0001.gif",
   "ab_full": true,
   "score": 10.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-29",
@@ -5214,7 +5302,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04659/asset/images/medium/cs6c04659_0001.gif",
   "ab_full": true,
   "score": 11.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-29",
@@ -5227,7 +5317,9 @@
   "ab_full": true,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02282/asset/images/medium/cs6c02282_0001.gif",
   "score": 13.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-29",
@@ -5239,8 +5331,8 @@
   "doi": "10.1002/anie.6908076",
   "ab_full": true,
   "score": 10.3,
-  "img": null,
-  "search_n": 0
+  "img": "https://imgs.search.brave.com/WepjDuBIz8L-mj9smGI1VN37M6OrmWrpZcohSDpjiHk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNmQ5MmU5/MmEtNTRmNi00MWUy/LWFjZTQtMzVkOWQ4/OGE1N2I0L2FuaWU3/MzgzOC1ncmEtMDAw/MS1tLmpwZw",
+  "img_src": "https://onlinelibrary.wiley.com/toc/15213773/0/0?cookieSet=1"
  },
  {
   "date": "2026-07-29",
@@ -5277,7 +5369,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05233/asset/images/medium/ja6c05233_0001.gif",
   "ab_full": true,
   "score": 12.5,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-28",
@@ -5290,7 +5384,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10406/asset/images/medium/ja6c10406_0001.gif",
   "ab_full": true,
   "score": 13.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-28",
@@ -5303,7 +5399,9 @@
   "img": null,
   "ab_full": true,
   "score": 11.6,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-28",
@@ -5316,7 +5414,9 @@
   "ab_full": true,
   "score": 10.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05542/asset/images/medium/ja6c05542_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-27",
@@ -5329,7 +5429,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c11054/asset/images/medium/ja6c11054_0001.gif",
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-27",
@@ -5342,7 +5444,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c04114/asset/images/medium/ja6c04114_0001.gif",
   "ab_full": true,
   "score": 15.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-27",
@@ -5355,7 +5459,9 @@
   "img": null,
   "ab_full": true,
   "score": 13.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-27",
@@ -5368,7 +5474,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02698/asset/images/medium/cs6c02698_0001.gif",
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-27",
@@ -5405,7 +5513,9 @@
   "ab_full": true,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08775/asset/images/medium/ja6c08775_0001.gif",
   "score": 13.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-25",
@@ -5427,10 +5537,10 @@
   "tag": "Skeletal editing",
   "ab": "C-to-N atom transmutation reactions present the opportunity to conduct nitrogen scans in a direct fashion, but adoption of these methods has been hindered by the requirement for azide precursors, which impose hazards related to toxicity and energetic properties. Herein, we report sulfilimines as alternative, photoactivatable nitrene precursors, which serve as drop-in replacements across three mechanistically distinct, recently reported C-to-N transmutation reactions. Compared to azide-based protocols, sulfilimine-mediated reactions proceed with comparable or superior efficiency, with reduced reaction times and improved scalability. The requisite precursors can be prepared from a variety of functional handles, including those accessible through C–H functionalization, enabling C-to-N replacement on complex scaffolds. These results establish sulfilimines as a practical, azide-free platform for C-to-N skeletal editing and should facilitate the broader implementation of atom transmutation methods in practice.",
   "doi": "10.1021/jacs.6c10015",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10015/asset/images/medium/ja6c10015_0001.gif",
+  "img": "https://imgs.search.brave.com/uNy7anIcOogaLqagjRBGSh_MPSz2_YoTrYasR-7gZKA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzMw/LzEwLjEwMjFfamFj/cy42YzEwMDE1LzEv/bV9qYTZjMTAwMTVf/MDAwNS5zdmc_RXhw/aXJlcz0xNzkzMDU0/Mzk5JlNpZ25hdHVy/ZT1hYnZVMk5FRzdk/SU5FRmpRcGRIc3VX/cTRtUnJpTWxtNzJq/ckZvd01vbzZ2aW9t/NX5xdmpXQ1hLU2Vh/QXZ-dXJ1Y3Zha0cz/dHQ1eTRYbzZSNGIw/bGMtOVpKMkpTbzlj/SURyR0xpTUhWbVJz/MzdzR1A1MGRvZi1h/aGxSU24yVE5CMVZr/YlM1d09Bai1EZi1D/bVh6ZmI3T3hMdm9L/aVZCZjBKSmtGNVVz/RHk5VWhXWUxQY3Nx/eGkwZTg4OS1XMTBi/eGZQQ2thc3MwNTdC/R1k3bHhWY0dqVFFj/WkRZd0NGMmExaUNJ/UGhuWDgxdTlMWWp6/QjBvWjZZV3h2bWRP/T0MtUTJ5U3hpcGhs/UXBJS2trMzQtTXZj/d2tRTzJNUjBUdFpJ/R2kyaUp-RVpuSHR3/QTVsOXd4R2ZTMGRH/REVxUTV2cEFDeXR1/TWoxNXhMdDJXY0JG/RWlsNGdwc0FfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 11.3,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/issue/148/30"
  },
  {
   "date": "2026-07-25",
@@ -5440,10 +5550,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "A general and practical enantioselective C–H activation/hydroarylation enabled by chiral transient directing groups (cTDGs) and ruthenium η-arene catalysts is reported, providing efficient access to benzo-fused six-membered heterocycles, including chiral chromanes, xanthenes, and related frameworks. It represents a rare and stereochemically distinct application of cTDG-enabled asymmetric C–H activation in d-metal catalysis, which operates a sequential hydroarylation, in contrast to the well-established Pd(II)-based cTDG systems that primarily mediate other classes of C–H functionalization pathways. Notably, this method enables streamlined access to bioactive xanthene scaffolds, including dendrafaconrol-type frameworks, while being equally applicable to chromane derivatives. The catalytic system employs readily available and structurally tunable Ru(II) arene complexes in combination with simple α-branched chiral amines for cooperative enantiomeric control. Arising from the interplay between the cTDG and the η-arene ligand, modular combinations of chiral amines and Ru–arene catalysts enabled efficient optimization of both reactivity and enantioselectivity across diverse substrates. Mechanistic studies, including H/D scrambling, kinetic isotope effect experiments, and density functional theory (DFT) computations, reveal a dynamic catalytic landscape in which the turnover-determining transition state (TDTS) is condition-dependent, and the two enantiomeric pathways proceed through distinct rate-determining steps, providing insight into asymmetric induction in conformationally flexible d-metal systems. The retained aldehyde functionality enables diverse downstream transformations, affording rapid access to biorelevant polycyclic scaffolds and previously unreported architectures. Collectively, this work establishes a modular and tunable platform for asymmetric C–H hydroarylation and expands the synthetic utility of cTDG-enabled catalysis.",
   "doi": "10.1021/jacs.6c10980",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10980/asset/images/medium/ja6c10980_0001.gif",
+  "img": "data/toc/10.1021_jacs.6c10980__search.png",
   "ab_full": true,
   "score": 11.2,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/article-abstract/148/30/32743/5232286/Enantioselective-Hydroarylation-via-Chiral?redirectedFrom=fulltext"
  },
  {
   "date": "2026-07-25",
@@ -5456,7 +5566,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05240/asset/images/medium/ja6c05240_0001.gif",
   "ab_full": true,
   "score": 10.7,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-24",
@@ -5481,7 +5593,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10864/asset/images/medium/ja6c10864_0001.gif",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-23",
@@ -5491,10 +5605,10 @@
   "tag": "Total synthesis",
   "ab": "A photochemical radical ring opening strategy is reported in which cyclopropyl silyl ethers undergo single‐electron oxidation and fragmentation under visible‐light photoredox conditions to furnish β‐carbonyl radicals. These intermediates engage electron‐deficient alkenes in a controlled intermolecular addition process that combines radical ring opening with C–C bond formation. The reaction delivers β–β coupling products across a broad substrate scope, including simple and complex alkenes and substrates that undergo regioselective 1,6‐addition. The resulting adducts can be further advanced through downstream annulation chemistry, whereas under modified conditions, the same intermediates can undergo radical–polar crossover and subsequent aldol cyclization, enabling access to three separate product classes from a common cyclopropyl precursor. The synthetic utility of the method is demonstrated through divergent entry into the carbocyclic frameworks of the kaurene and phyllocladane natural product families and the first total synthesis of (−)‐ ent ‐melicodenone C.",
   "doi": "10.1002/anie.7669030",
-  "img": null,
+  "img": "https://imgs.search.brave.com/BRpa-CiM1yWANTgvMdpBXsoGso0cyiHXCn6YtoktipY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNGU3OWFm/OTctYmVkZC00Nzlj/LWExMGMtYmJmODY1/YjVjYzVmL2FuaWU3/Mzc2Ni1ncmEtMDAw/MS1tLnBuZw",
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.7669030?af=R"
  },
  {
   "date": "2026-07-23",
@@ -5507,7 +5621,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03737/asset/images/medium/cs6c03737_0001.gif",
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-23",
@@ -5519,8 +5635,8 @@
   "doi": "10.1021/jacs.6c08262",
   "ab_full": true,
   "score": 9.3,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08262/asset/images/medium/ja6c08262_0001.gif",
-  "search_n": 0
+  "img": "data/toc/10.1021_jacs.6c08262__search.png",
+  "img_src": "https://doi.org/10.1021/jacs.6c08262"
  },
  {
   "date": "2026-07-22",
@@ -5533,7 +5649,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09322/asset/images/medium/ja6c09322_0001.gif",
   "ab_full": true,
   "score": 16.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-22",
@@ -5546,7 +5664,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04193/asset/images/medium/cs6c04193_0001.gif",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-22",
@@ -5559,7 +5679,9 @@
   "ab_full": true,
   "score": 9.8,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c11244/asset/images/medium/ja6c11244_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-22",
@@ -5572,7 +5694,9 @@
   "ab_full": true,
   "score": 9.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10014/asset/images/medium/ja6c10014_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-22",
@@ -5585,7 +5709,9 @@
   "ab_full": true,
   "score": 9.8,
   "img": null,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-21",
@@ -5598,7 +5724,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c07828/asset/images/medium/ja6c07828_0001.gif",
   "ab_full": true,
   "score": 14.1,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-21",
@@ -5611,7 +5739,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09674/asset/images/medium/ja6c09674_0001.gif",
   "ab_full": true,
   "score": 11.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-21",
@@ -5621,10 +5751,10 @@
   "tag": "Synthetic methodology",
   "ab": "Selective deuteration of (hetero)aryl rings is of great significance and interest, yet it has remained a challenge, especially when employing D 2 O as deuterium source. Herein, the selective desulfurative deuteration of widely available (hetero)aryl sulfides with D 2 O (mostly 1.5 or 3.0 equiv.) has been established by nickel catalysis. This strategy affords an efficient and robust route for the synthesis of a wide range of deuterated (hetero)arenes (87 examples, > 10 different heterocycles) in generally good yields and high deuterium incorporation with good functional group compatibility. The catalytic reaction could be applied to scaled‐up synthesis (e.g., 6.4 g for product 2 , 0.1 mol% Ni catalyst, 590 TON) and late‐stage deuteration of various drugs and bioactive molecules.",
   "doi": "10.1002/anie.7248763",
-  "img": null,
+  "img": "https://imgs.search.brave.com/TMGNawsX_ndLS_iUn6jpvC6JWMfifDcSqGBc8mqchIQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvYWQwM2Y0/MjItNzU2YS00ZmI0/LTk3NTctMmIyOWFi/NGY0YmJlL2FuaWU3/MzcxMS1ncmEtMDAw/MS1tLnBuZw",
   "ab_full": true,
   "score": 13.2,
-  "search_n": 0
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.7248763"
  },
  {
   "date": "2026-07-21",
@@ -5637,7 +5767,9 @@
   "img": null,
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-21",
@@ -5647,10 +5779,10 @@
   "tag": "Total synthesis",
   "ab": "Carbocations have long been important reactive intermediates in organic synthesis. Nevertheless, their inherent instability and high reactivity present formidable challenges to achieving precise stereocontrol. Previous strategies require the chiral catalyst to establish an optimal chiral environment around the carbocations, thus, high enantioselectivity can be obtained in these S N 1 reactions. Herein, we report a chiral phosphoric acid (CPA)‐catalyzed S N 1 reaction of primary allylic alcohol, in which the leaving group can modulate the reactivity and control enantioselectivity by forming a complex with the chiral catalyst. The key to the success of this reaction is the development of an alcohol activation reagent (biaryl oxazepine), which can chemoselectively activate allylic alcohol to form an intermediate with good leaving ability. A series of allylic 5,6‐dihydrophenanthridine and 6 H ‐benzo[ c ]chromene products could be obtained in high yields with excellent enantioselectivities. Further transformations and applications of the resulting 5,6‐dihydrophenanthridine derivatives and the asymmetric formal total synthesis of several natural products demonstrated the utilities of this reaction. Mechanistic studies support that the reaction proceeds via an S N 1 pathway, in which the enantio‐control of allyl carbocations was achieved by in situ formed complex from chiral catalysts and leaving groups.",
   "doi": "10.1002/anie.5149199",
-  "img": null,
+  "img": "https://imgs.search.brave.com/rt3DATvAOXes5Uio-_FPugPREgB2kfIVRb_jstEPuJ0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvZjQwOWNh/YmMtOGQ3Ny00MWRk/LThhN2MtNzU0MTdh/MzQ0MzczL2FuaWU3/MzY5My1ncmEtMDAw/MS1tLnBuZw",
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "img_src": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.5149199"
  },
  {
   "date": "2026-07-21",
@@ -5663,7 +5795,9 @@
   "img": null,
   "ab_full": true,
   "score": 12.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-21",
@@ -5676,7 +5810,9 @@
   "img": null,
   "ab_full": true,
   "score": 14.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-21",
@@ -5689,7 +5825,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03556/asset/images/medium/cs6c03556_0001.gif",
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-21",
@@ -5702,7 +5840,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03124/asset/images/medium/cs6c03124_0001.gif",
   "ab_full": true,
   "score": 12.1,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-20",
@@ -5712,10 +5852,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "The enantioselective cyclopropanation of unactivated alkenes remains a fundamental challenge in synthetic organic chemistry. Herein, we report a palladium-catalyzed, highly enantioselective cyclopropanation of unactivated terminal alkenes with bench-stable sulfoxonium ylides, enabled by a rationally designed chiral monodentate oxazoline (MOX) ligand. This transformation exhibits broad substrate scope and furnishes chiral cis-cyclopropanes in high yields and enantioselectivities (up to 99% yield and 97:3 er). Mechanistic studies reveal that the MOX ligand plays a dual role: it promotes dissociation of the trimeric Pd3(OAc)6 precatalyst into catalytically active monomeric species, thereby facilitating olefin coordination and insertion, and subsequently acts as a transient chiral ligand to control alkene facial selectivity prior to its programmed dissociation. This transient asymmetric induction model provides a unified rationale for the high reactivity and stereocontrol observed.",
   "doi": "10.1021/acscatal.6c04393",
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04393/asset/images/medium/cs6c04393_0001.gif",
+  "img": "data/toc/10.1021_acscatal.6c04393__search.png",
   "ab_full": true,
   "score": 14.7,
-  "search_n": 0
+  "img_src": "https://doi.org/10.1021/acscatal.6c04393"
  },
  {
   "date": "2026-07-20",
@@ -5727,8 +5867,8 @@
   "doi": "10.1021/jacs.6c08353",
   "ab_full": true,
   "score": 9.7,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08353/asset/images/medium/ja6c08353_0001.gif",
-  "search_n": 0
+  "img": "https://imgs.search.brave.com/Bm-a7pRUJHpGLZCc0z-a4By7Xfnu5eHF7hfBcqnrmpQ/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzMw/LzEwLjEwMjFfamFj/cy42YzA4MzUzLzEv/bV9qYTZjMDgzNTNf/MDAwNi5zdmc_RXhw/aXJlcz0xNzkzMDU0/Mzk5JlNpZ25hdHVy/ZT14TVJQa0Z0cWtq/NlQwQVd4LWxRcndK/eHd3U3VKdmJhclhy/ODdTNTBmSllkaVJW/fm81MFBzYWFZbW5q/M2d1ZnpoRnMxVWJx/bDREdk1IU25rcXcy/bmxydktaVG8xdURu/MXllRkRpOGFxUm5x/amdWZXBuY3c2Q2xK/WWljQ2dLbHJuUXVj/LVdjdHlYejN3TWFr/aWdOdVJxdWtJUGJx/Z0NkTjQ3b0I0QUNr/LUJVMTdSRWNhZ2FB/Nm9-V2l-Sk9QOHF4/WXVWTDlYamJja3VX/bTg5bHFEQ3pRSmtV/clNsa0tzd29VSHRW/NVJFUUdkVnJjME5C/QzdYaXZTM2Fva1hJ/QjJKODNGa0tNTElN/bGZLN2NRNmMtd2ZY/YzNiR3BaRzhmMTZ0/SHBWYzcxelUzR1F5/dnBkcnZWNXZPb29k/Vm1LcXFsbC1RYzFs/fkZxWTZ4emlRMkhT/UVV4UnhJeEFfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
+  "img_src": "https://pubs.acs.org/jacsat/issue/148/30"
  },
  {
   "date": "2026-07-20",
@@ -5753,7 +5893,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c11571/asset/images/medium/ja6c11571_0001.gif",
   "ab_full": true,
   "score": 10.7,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-17",
@@ -5778,7 +5920,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10830/asset/images/medium/ja6c10830_0001.gif",
   "ab_full": true,
   "score": 13.7,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-16",
@@ -5791,7 +5935,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05580/asset/images/medium/ja6c05580_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-16",
@@ -5804,7 +5950,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05583/asset/images/medium/ja6c05583_0001.gif",
   "ab_full": true,
   "score": 14.5,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-16",
@@ -5817,7 +5965,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c06459/asset/images/medium/ja6c06459_0001.gif",
   "ab_full": true,
   "score": 14.1,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-16",
@@ -5830,7 +5980,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03374/asset/images/medium/cs6c03374_0001.gif",
   "ab_full": true,
   "score": 11.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-16",
@@ -5843,7 +5995,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03214/asset/images/medium/cs6c03214_0001.gif",
   "ab_full": true,
   "score": 12.2,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-16",
@@ -5856,7 +6010,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03499/asset/images/medium/cs6c03499_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-16",
@@ -5881,7 +6037,9 @@
   "img": null,
   "ab_full": true,
   "score": 11.6,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-15",
@@ -5894,7 +6052,9 @@
   "img": null,
   "ab_full": true,
   "score": 11.0,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-15",
@@ -5907,7 +6067,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03795/asset/images/medium/cs6c03795_0001.gif",
   "ab_full": true,
   "score": 11.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-14",
@@ -5932,7 +6094,9 @@
   "ab_full": true,
   "score": 9.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c06337/asset/images/medium/ja6c06337_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-13",
@@ -5945,7 +6109,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c11300/asset/images/medium/ja6c11300_0001.gif",
   "ab_full": true,
   "score": 14.7,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-13",
@@ -5958,7 +6124,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10799/asset/images/medium/ja6c10799_0001.gif",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-13",
@@ -5971,7 +6139,9 @@
   "img": null,
   "ab_full": true,
   "score": 12.6,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-13",
@@ -5984,7 +6154,9 @@
   "img": null,
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-13",
@@ -6009,7 +6181,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c04253/asset/images/medium/ja6c04253_0001.gif",
   "ab_full": true,
   "score": 12.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-11",
@@ -6019,10 +6193,10 @@
   "tag": "Cross-coupling",
   "ab": "Unprotected C ‐aryl glycosides are ubiquitous in biologically active compounds and are widely used in chemical biology. The stereochemistry at the anomeric carbon of a C ‐glycoside often dictates its function. Despite past advances in C ‐glycosylation, methods that provide selective access to both α and β anomers are scarce due to the challenge of controlling stereoselectivity. Herein, we demonstrate that native sugars, when transformed into glycosyl sulfonyl hydrazide precursors, undergo efficient radical cross‐coupling with (hetero)aryl halides under redox‐neutral nickel catalysis. The method has broad scope and excellent functional group tolerance, enabling the stereodivergent synthesis of diverse C ‐(hetero)aryl glycosides in either α or β anomeric forms through ligand control.",
   "doi": "10.1002/anie.9453527",
-  "img": null,
+  "img": "https://imgs.search.brave.com/tIYFQ9fdTywZTTEi50HpPjGWiMzwJDxl1Oe3R-E6dsM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNjkxYTlk/MmItY2FiYi00NTE0/LTg4NGMtMmMyZmJi/YjQ5ODM4L2FuaWU3/MzM1Ni1maWctMDAw/My1tLnBuZw",
   "ab_full": true,
   "score": 13.8,
-  "search_n": 0
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.9453527"
  },
  {
   "date": "2026-07-11",
@@ -6035,7 +6209,9 @@
   "img": null,
   "ab_full": true,
   "score": 10.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-11",
@@ -6048,7 +6224,9 @@
   "img": null,
   "ab_full": true,
   "score": 14.7,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-11",
@@ -6058,10 +6236,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "The selective and consecutive cleavage of C(sp 3 )─C(sp 3 ) bonds while simultaneously governing chemo‐, regio‐, and stereoselectivity constitutes a long‐standing unresolved challenge in synthetic chemistry. Here, we present a visible light‐driven copper catalysis platform that surmounts this obstacle. A chiral bisoxazoline copper complex acts as a multifunctional catalyst, and a tailored sodium sulfoxylate additive modulates the metal coordination sphere, altogether eliminating the requirement for an external photosensitizer. This streamlined system promotes twofold C(sp 3 )─C(sp 3 ) fragmentation of cyclobutanols and subsequent coupling with imines to construct quaternary carbon stereocenters, releasing ethylene as the sole byproduct. Integrated experimental and computational investigations delineate an unprecedented cascade mechanism: photoinduced ligand‐to‐metal charge transfer (LMCT) initiates strain‐release ring opening, a copper‐mediated β ‐cleavage executes the second fragmentation, and a highly enantioselective radical addition to the imine completes the stereodefined assembly. The sodium sulfoxylate additive proves indispensable for rerouting the pathway toward the second cleavage over premature radical trapping and elevating enantioselectivity to as high as 99% ee. By demonstrating rigorous kinetic command over multiple C(sp 3 )─C(sp 3 ) cleavages within a single cascade, this work establishes a new paradigm for photochemical asymmetric synthesis.",
   "doi": "10.1002/anie.2800092",
-  "img": null,
+  "img": "https://imgs.search.brave.com/XHWCJaH-S-AdkEJ3TBwrW8LGE5Qs8Cx3ZW4XnH0BApU/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNDkwODU3/N2MtZDRhNS00YmE0/LThlN2MtMTYyMjM3/MTEzNGJlL2FuaWU3/MzU5Ny1ncmEtMDAw/MS1tLnBuZw",
   "ab_full": true,
   "score": 12.3,
-  "search_n": 0
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.2800092"
  },
  {
   "date": "2026-07-10",
@@ -6074,7 +6252,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c04756/asset/images/medium/ja6c04756_0001.gif",
   "ab_full": true,
   "score": 10.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-10",
@@ -6087,7 +6267,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10641/asset/images/medium/ja6c10641_0001.gif",
   "ab_full": true,
   "score": 12.7,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-10",
@@ -6100,7 +6282,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10795/asset/images/medium/ja6c10795_0001.gif",
   "ab_full": true,
   "score": 15.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-10",
@@ -6113,7 +6297,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c07989/asset/images/medium/ja6c07989_0001.gif",
   "ab_full": true,
   "score": 13.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-10",
@@ -6126,7 +6312,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c06473/asset/images/medium/ja6c06473_0001.gif",
   "ab_full": true,
   "score": 10.5,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-10",
@@ -6139,7 +6327,9 @@
   "img": null,
   "ab_full": true,
   "score": 11.6,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-10",
@@ -6152,7 +6342,9 @@
   "img": null,
   "ab_full": true,
   "score": 13.6,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-10",
@@ -6189,7 +6381,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03640/asset/images/medium/cs6c03640_0001.gif",
   "ab_full": true,
   "score": 10.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-09",
@@ -6214,7 +6408,9 @@
   "ab_full": true,
   "score": 9.8,
   "img": null,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-09",
@@ -6227,7 +6423,9 @@
   "ab_full": true,
   "score": 9.7,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03656/asset/images/medium/cs6c03656_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-08",
@@ -6240,7 +6438,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05405/asset/images/medium/ja6c05405_0001.gif",
   "ab_full": true,
   "score": 13.2,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-08",
@@ -6253,7 +6453,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09478/asset/images/medium/ja6c09478_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-08",
@@ -6266,7 +6468,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c06565/asset/images/medium/ja6c06565_0001.gif",
   "ab_full": true,
   "score": 12.0,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-08",
@@ -6279,7 +6483,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08818/asset/images/medium/ja6c08818_0001.gif",
   "ab_full": true,
   "score": 10.6,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-08",
@@ -6292,7 +6498,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08426/asset/images/medium/ja6c08426_0001.gif",
   "ab_full": true,
   "score": 12.1,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-08",
@@ -6305,7 +6513,9 @@
   "img": null,
   "ab_full": true,
   "score": 10.4,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-07",
@@ -6318,7 +6528,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c07942/asset/images/medium/ja6c07942_0001.gif",
   "ab_full": true,
   "score": 15.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-07",
@@ -6331,7 +6543,9 @@
   "img": null,
   "ab_full": true,
   "score": 10.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-07",
@@ -6344,7 +6558,9 @@
   "img": null,
   "ab_full": true,
   "score": 11.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-07",
@@ -6357,7 +6573,9 @@
   "img": null,
   "ab_full": true,
   "score": 11.2,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-07",
@@ -6370,7 +6588,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04310/asset/images/medium/cs6c04310_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-07",
@@ -6383,7 +6603,9 @@
   "ab_full": true,
   "score": 9.3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03050/asset/images/medium/cs6c03050_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-06",
@@ -6396,7 +6618,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09099/asset/images/medium/ja6c09099_0001.gif",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-06",
@@ -6409,7 +6633,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03533/asset/images/medium/cs6c03533_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-06",
@@ -6422,7 +6648,9 @@
   "ab_full": true,
   "score": 9.6,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c03240/asset/images/medium/ja6c03240_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-06",
@@ -6435,7 +6663,9 @@
   "ab_full": true,
   "score": 9.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05412/asset/images/medium/ja6c05412_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-04",
@@ -6448,7 +6678,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10600/asset/images/medium/ja6c10600_0001.gif",
   "ab_full": true,
   "score": 11.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-03",
@@ -6458,10 +6690,10 @@
   "tag": "Cross-coupling",
   "ab": "High Resolution Image Download MS PowerPoint Slide Herein, we report a Ni-mediated 18 F,D 2 -monofluoromethylation of (hetero)arenes from (pseudo)halide coupling partners. This new approach offers key advantages compared to traditional radiochemistry based on S N 2-type reactivity with [ 18 F]fluoride. These include increased precursor stability and availability, obviating bespoke precursor syntheses, broad functional group tolerance, and the late-stage introduction of deuterium and fluorine-18 in a single step, all features facilitating early access to PET ligands for discovery campaigns. This novel protocol is applied to over 30 diverse substrates, including complex bioactive molecules, and is amenable to scale-up via a semiautomated protocol on a commercial platform, illustrated by isolation of a 18 F,D 2 -labeled PARP radiotracer.",
   "doi": "10.1021/jacs.6c09649",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09649/asset/images/medium/ja6c09649_0001.gif",
+  "img": "data/toc/10.1021_jacs.6c09649__search.png",
   "ab_full": true,
   "score": 14.7,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/issue/148/27"
  },
  {
   "date": "2026-07-03",
@@ -6474,7 +6706,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c07500/asset/images/medium/ja6c07500_0001.gif",
   "ab_full": true,
   "score": 11.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-03",
@@ -6487,7 +6721,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10100/asset/images/medium/ja6c10100_0001.gif",
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-03",
@@ -6500,7 +6736,9 @@
   "img": null,
   "ab_full": true,
   "score": 14.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-02",
@@ -6513,7 +6751,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10750/asset/images/medium/ja6c10750_0001.gif",
   "ab_full": true,
   "score": 13.7,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-02",
@@ -6526,7 +6766,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03020/asset/images/medium/cs6c03020_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-02",
@@ -6539,7 +6781,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02761/asset/images/medium/cs6c02761_0001.gif",
   "ab_full": true,
   "score": 11.0,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-01",
@@ -6552,7 +6796,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c07102/asset/images/medium/ja6c07102_0001.gif",
   "ab_full": true,
   "score": 13.1,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-01",
@@ -6565,7 +6811,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c10123/asset/images/medium/ja6c10123_0001.gif",
   "ab_full": true,
   "score": 16.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-07-01",
@@ -6591,7 +6839,9 @@
   "ab_full": true,
   "score": 9.8,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03487/asset/images/medium/cs6c03487_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-30",
@@ -6601,10 +6851,10 @@
   "tag": "Photoredox",
   "ab": "We developed a photoredox strategy for the highly regioselective oxygenation of tertiary allylic and propargylic C-H bonds with alcohols or water nucleophiles. The reaction proceeds via a redox-gated radical-polar-crossover pathway, in which intermolecular hydrogen atom transfer generates allylic radicals that are selectively oxidized to carbocations only at tertiary sites, enabling a subsequent C-O bond formation by trapping with oxygen nucleophiles. This approach overrides the inherent preference for less hindered positions in classical metal-catalyzed π-allyl chemistry. The method accommodates internal alkenes, alkynes, and diverse alcohol nucleophiles, including complex bioactive substrates, and enables both intermolecular and intramolecular modes of oxygenation.",
   "doi": "10.1021/jacs.6c01586",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c01586/asset/images/medium/ja6c01586_0001.gif",
+  "img": "https://imgs.search.brave.com/XHxP31VdAa3jcY-yOLr1g1FBY24PlIsHytxuRHwpGl8/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzI3/LzEwLjEwMjFfamFj/cy42YzAxNTg2LzEv/bV9qYTZjMDE1ODZf/MDAwNy5zdmc_RXhw/aXJlcz0xNzk0NTIw/ODcwJlNpZ25hdHVy/ZT1zZ2MwTzN-cExT/elQ5YjNSUUxZQlBj/ZVlRSDlpeldnOHgt/czA1cFNlNFdWNjJN/NlI2T29ZOUtiUGlT/QndjWG9tblkzR1ph/ZXhGRDhONEpyWlR5/SX5VVjd2TUhoaGpn/ODRiUS1xc082RlNs/aGRMcVlDeFVISWJJ/ZXIxfklWTkpXdGtx/MlNuaFVUUHdqSGt0/WG1PWnZ4U1h5eG96/MTByRHJBcUFiM1hP/UU9JT35lbHJJMzVG/S0ZhdTNwRGUySU5Y/amY3ZVk4eXNFZUhD/LUhsaVJ-UXd6YXYw/UDZSWW5SYWJPak1a/MlFDTFdJMzF6S1Nz/TWZ2dnpDNTJ3QnpX/VU1ORFVRWmFNZ1l4/T0NYZmx5T2RaZmNi/bDlqLU1zdjZEeUtP/bEdpQzFxZUhYbjR0/elB0bU9YZHRaVnJG/Ry1xeWcybHV3MXJv/QS13NnlyYXg4SXUt/WS1wM3RXOFFfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/issue/148/27"
  },
  {
   "date": "2026-06-30",
@@ -6617,7 +6867,9 @@
   "img": null,
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-30",
@@ -6666,7 +6918,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02845/asset/images/medium/cs6c02845_0001.gif",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-29",
@@ -6679,7 +6933,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03096/asset/images/medium/cs6c03096_0001.gif",
   "ab_full": true,
   "score": 11.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-29",
@@ -6692,7 +6948,9 @@
   "ab_full": true,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02785/asset/images/medium/cs6c02785_0001.gif",
   "score": 11.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-29",
@@ -6717,7 +6975,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02416/asset/images/medium/cs6c02416_0001.gif",
   "ab_full": true,
   "score": 11.1,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-26",
@@ -6730,7 +6990,9 @@
   "ab_full": true,
   "score": 9.2,
   "img": null,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-26",
@@ -6743,7 +7005,9 @@
   "ab_full": true,
   "score": 10.3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03779/asset/images/medium/cs6c03779_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-26",
@@ -6765,10 +7029,10 @@
   "tag": "Total synthesis",
   "ab": "Scholarisine A ( 1 ) represents a structurally distinct and synthetically intriguing subfamily of the echitamine/akuammiline-type alkaloids. Inspired by its postulated biogenetic logic, we developed a radical cyclization strategy that retains the key bond-forming site while replacing the aldol reaction. This reaction-altering biomimetic strategy, combined with expeditious preparation of a tetracyclic precursor, enabled a 13-step, scalable synthesis of 1 . Moreover, facile access to its congeners, scholarisines I, T, and W ( 2 – 4 ), was achieved. Compound 2 impairs lysosomal degradative capacity and thus inhibits late-stage autophagy in cancer cells.",
   "doi": "10.1021/jacs.6c02105",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c02105/asset/images/medium/ja6c02105_0001.gif",
+  "img": "https://imgs.search.brave.com/xaFo1GrB73uPIJI5RSYXCvvyROe9NKPDKUoVyoGq3-o/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzI2/LzEwLjEwMjFfamFj/cy42YzAyMTA1LzEv/bV9qYTZjMDIxMDVf/MDAwNi5zdmc_RXhw/aXJlcz0xNzkwMTIy/NDc2JlNpZ25hdHVy/ZT1QSkQ1WG00TUZZ/QVl4ZlhDbkY0Ykhl/WUVXdnpabklHUGg4/QlM5UXQwbHk5Qkpq/WkQyNUxNVXJlSWJE/d2w0LWRMQW5-a2ZI/S0Z6Z1hKd3ZLSk9i/VjZDVX5DZnJFeHB5/TjdhdWUyVmc1NDZ5/YjRFaXZHLWF0SWg4/OGliU3RxUmsyRzBu/RExZazhDU0FldFoz/MWMxbmJ-c2FTMmVn/LUQ0MmVXUlo4Vnll/SHlwVy1xTWl3cjAy/ZmJmd21-fk5pMTZR/ZzZBcWhEZ2MtNDNT/R1pHeTNGZ0pmek55/TU4xUGQ2ZVREfmpU/Q0FDN0hORC1IQXpZ/SnhyNDRjVERiTHBm/akJqVDRTLWJoOWFN/bjJZZmpxVGhzZlNp/RkJRRUFPMXRRZW5w/VlpNYWJSTFRTNkpM/MTdDRWlVVWRtaWJo/eER5V0thdVpnR2dR/SjZ3VzJHejNLWVRZ/aUI0MExQSlFfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/issue/148/26"
  },
  {
   "date": "2026-06-25",
@@ -6781,7 +7045,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c06698/asset/images/medium/ja6c06698_0001.gif",
   "ab_full": true,
   "score": 15.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-25",
@@ -6791,10 +7057,10 @@
   "tag": "Total synthesis",
   "ab": "Niduenes A and B, two tetraquinane sesterterpenoids, possess a complex and intriguing 5/5/5/5/6 pentacyclic skeleton with eight contiguous stereocenters. We have achieved the first total synthesis of niduenes A and B in 16 and 14 steps, respectively. The synthesis features a Pauson-Khand reaction to generate the 5/5 bicycle, a Pd-catalyzed oxidative cyclization to construct the congested triquinane framework, and a radical cyclization to assemble the tetraquinane skeleton.",
   "doi": "10.1021/jacs.6c08709",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08709/asset/images/medium/ja6c08709_0001.gif",
+  "img": "https://imgs.search.brave.com/KUsOA0jn_0yc6Ay3hngXJK4o4mTbmTwjy3wBl1HSUwE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzI2/LzEwLjEwMjFfamFj/cy42YzA4NzA5LzEv/bV9qYTZjMDg3MDlf/MDAwNS5zdmc_RXhw/aXJlcz0xNzkwMTIy/NDc2JlNpZ25hdHVy/ZT15dkR0bG5GQlQ1/LTRrREdvU3dqVzZy/ZTQxUlZ3NGVBUHVM/bGEwdzhYaERGM3E4/aGlwdUlhd3Y4Y2Z2/V2N6aTZ6NUFxM1NB/ZDl6TlA1cm1ES1BJ/RVR3Mks4ZlVKZFRs/UWRMSExGQW1sM3Q1/SEJYbEZibU51Q2tK/am8wM1lIZkUwUkdo/Z1pGbEJ1YVl-dmND/VkhBWmtZeFhDWFZF/czFaS3JyVmFLRkVQ/NklRWnY1RXZ1Q0hB/bk1MSjZXY1c0OWRD/TnBkamQwfjA1WTdl/YX5JMnNlbjEtZjRI/NXJ1c35zRWJvMlZ6/RGVkTWI2SVU1N2pL/MDlHS2UtODhxcEg4/c0tEWTFrd0lNflEt/aWMxMS1QVkc0UWRh/TkZ1akg1flJKeDcz/TXN3cnU1dG5CWFo0/TVllVFN1YVc0NFdF/aElHY1lQaWY4elRp/NUZUS0IxQmxScll0/cWNWLUw5Q2dfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/issue/148/26"
  },
  {
   "date": "2026-06-25",
@@ -6807,7 +7073,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02584/asset/images/medium/cs6c02584_0001.gif",
   "ab_full": true,
   "score": 10.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-25",
@@ -6817,10 +7085,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "The sulfonamide motif is a privileged pharmacophore found in numerous therapeutics, and seven-membered cyclic sulfonamides in particular are valued for their structural and biological properties. However, study on the synthesis of chiral sulfonamides via enzymatic catalysis remains rare. Herein, we report the directed evolution and mechanistic characterization of an artificial Mannichase that promotes an asymmetric biocatalytic Mannich reaction between cyclic ketones and cyclic sulfonyl-imines through an enamine activation pathway. Iterative rounds of engineering delivered variants that furnish seven-membered cyclic sulfonamide products with high stereoselectivity (up to 95.5:4.5 e.r., &gt;20:1 d.r.) and reactivity (up to &gt;99% yield). Complementary molecular dynamics and QM/MM calculations reveal key active-site interactions and transition-state features that underlie the observed stereoselectivity. This work expands the toolkit of biocatalytic Mannichases, establishes a practical route to enantioenriched cyclic sulfonamides, and highlights the power of combining the covalent anchoring strategy with directed evolution to access new-to-nature asymmetric transformations with potential applications in medicinal chemistry.",
   "doi": "10.1021/acscatal.6c03969",
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03969/asset/images/medium/cs6c03969_0001.gif",
+  "img": "data/toc/10.1021_acscatal.6c03969__search.png",
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/accacs/article-abstract/16/14/13846/5168627/Enantioselective-Biocatalytic-Mannich-Reaction-for?redirectedFrom=fulltext"
  },
  {
   "date": "2026-06-25",
@@ -6842,10 +7110,10 @@
   "tag": "Synthetic methodology",
   "ab": "A short and diastereoselective synthesis of stephadiamine is presented. The carbocyclic framework of the alkaloid was built in the opening step through a homoconjugate addition–Wittig olefination cascade with a modified Schweizer–Fuchs cyclopropyl phosphonium salt. The challenging aza[4.3.3]propellane was subsequently installed through a vinylogous substitution of an allylic hydroxyl group with a primary amine that was developed for the purposes of the synthesis. After a series of oxidations, a second α-tertiary amine was introduced through a diastereoselective Strecker reaction, thus establishing the syn-diamine motif. Finally, an undesired retro-Strecker pathway was circumvented by using an azide functionality to mask the primary amine during a late-stage lactonization, thus enabling the completion of the synthesis in twelve steps.",
   "doi": "10.1021/jacs.6c06878",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c06878/asset/images/medium/ja6c06878_0001.gif",
+  "img": "https://imgs.search.brave.com/fFWtTVrYINpPVr_00ECQm0WEIL7GyyuzjpKXDSTyD1Y/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzI2/LzEwLjEwMjFfamFj/cy42YzA2ODc4LzEv/bV9qYTZjMDY4Nzhf/MDAwNS5zdmc_RXhw/aXJlcz0xNzkwMTIy/NDc2JlNpZ25hdHVy/ZT0wa0VOWHpRY0RJ/Yi12RjBtRTVtdXky/NjhnVEUyemNDd1pp/c0lKelZTRmk2Ylh3/Q3prOE0yb0Z5WGhT/bjdIOWljdmtMRnpM/VlpmdmpZRk9uQm5I/VmVHYnRFQ2tFSkZx/LWZJUVR1OUNhMjNv/OVZhTjVPNG1CRzdw/MGp0TVE3d3BSR3BP/UFJ2YS16QjlISzJS/bEFld35rNEZyc0NL/OUQxdjBoan5LN0ho/RlNhMWlHeXV-MWZ0/WXNKaUNVMmhKMmp2/VHlBelB1ZVNSUUNt/enl5YUg2V0lhb1cx/WmppNDJ4bTZ2VnM3/YnRRVlV6T2RTZ1VV/TUJTVlhNdTNoU28w/MjhPMkszMmhqOGdR/d25mZDUyTHJtRXNW/RHNSOXRBMHJya0NZ/dWFKRjJhUlliWjRL/clpiNkNYQkhnb1E0/MlhTa0pWNk9RVWQ2/b2E2b0JuQnljRUlr/bG9LOHNoUkFfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/issue/148/26"
  },
  {
   "date": "2026-06-24",
@@ -6858,7 +7126,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c07824/asset/images/medium/ja6c07824_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-24",
@@ -6871,7 +7141,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c02967/asset/images/medium/ja6c02967_0001.gif",
   "ab_full": true,
   "score": 15.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-24",
@@ -6884,7 +7156,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09865/asset/images/medium/ja6c09865_0001.gif",
   "ab_full": true,
   "score": 11.1,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-24",
@@ -6897,7 +7171,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09846/asset/images/medium/ja6c09846_0001.gif",
   "ab_full": true,
   "score": 11.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-24",
@@ -6910,7 +7186,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02684/asset/images/medium/cs6c02684_0001.gif",
   "ab_full": true,
   "score": 12.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-24",
@@ -6923,7 +7201,9 @@
   "ab_full": true,
   "score": 9.8,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02636/asset/images/medium/cs6c02636_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-23",
@@ -6936,7 +7216,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c03412/asset/images/medium/ja6c03412_0001.gif",
   "ab_full": true,
   "score": 12.7,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-23",
@@ -6949,7 +7231,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c03854/asset/images/medium/ja6c03854_0001.gif",
   "ab_full": true,
   "score": 14.2,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-23",
@@ -6959,10 +7243,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "High Resolution Image Download MS PowerPoint Slide Enantioselective electrophilic halogenation using organocatalysts has emerged as a powerful tool in asymmetric synthesis, yet its application has been largely concentrated on substrates bearing hydrogen bond donors. This prerequisite aligns with the design of conventional bifunctional catalysts, which operate through complementary hydrogen bond interactions with both the substrate and N -haloamide reagents. Chiral Buchwald-type ligands are useful monophosphine ligands, but their preparation mainly relies on kinetic resolution. Catalytic atroposelective halogenation of achiral Buchwald-type ligands would be an efficient strategy to prepare valuable C 1 -symmetric axially chiral biaryl monophosphine ligands. However, Buchwald-type ligands lack hydrogen bond donors, making them incompatible with typical asymmetric halogenation systems. We hypothesized that an achiral halophenol additive could cross-assemble with a chiral phosphoric acid catalyst in situ, reconfiguring the active site from a electron donor/acceptor to an acceptor/acceptor bifunctional system. This strategy bridges the functional group mismatch between the catalyst and substrate. Herein, we report a catalytic desymmetrization of achiral Buchwald-type ligand derivatives via this cross-assembled catalysis. The resulting axially chiral halogenated ligands are amenable to late-stage diversification, providing facile access to a diverse array of chiral monodentate phosphine ligands for asymmetric catalysis.",
   "doi": "10.1021/jacs.6c06203",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c06203/asset/images/medium/ja6c06203_0001.gif",
+  "img": "https://imgs.search.brave.com/oDgtoZFYYMkJpQHPxzvxJn7z15AoPm5rUEB-9-yu7mo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzI2/LzEwLjEwMjFfamFj/cy42YzA2MjAzLzEv/bV9qYTZjMDYyMDNf/MDAwNi5zdmc_RXhw/aXJlcz0xNzk0OTIz/ODMxJlNpZ25hdHVy/ZT1QZmRrekN1Z200/OUNTS0Q2WnljdlFP/fmd6YWlhUlYzaHJr/MU81c0szR3duS1dx/WGdDV2IxZmJwVEV5/NWd4WVZIVnBmVkNM/UkVkRFJTT2FHZkJi/NkNiUlVIcjBEeTlk/T3lhYzhQN1Mycnlo/Qng5TkRQRjhaTTFJ/MFhIa2hIZWdkMFUx/cGhSMUZRMTZOMlVF/flF3SmxqRn5HSThO/OHJpZHBlVHJObzJu/YWMxUG82WEtZSlRE/OUhGenc2MlpXbXUw/a1NsS1BaZzVOYm4y/YXRqcVdZaWluQmxS/WVdNRXV-OXQ1S1RE/U25uell2d2RuQ2NR/Snd0YnBlfmx-NjVB/N0RXV0JPZzNPcjdX/SnRRdWFEflU2MDZ3/UElLUkVYci1JVnIw/bVpyRXRlRUp5Z3Jo/em94amRTQnZvdDQt/WWNxb1I4LWJycFNN/elBJd0VLcHZVYTdF/RWdOeUlkSUFfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 13.8,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/article/148/26/27550/5167574/Atroposelective-Bromination-for-the-Synthesis-of"
  },
  {
   "date": "2026-06-23",
@@ -6975,7 +7259,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c06114/asset/images/medium/ja6c06114_0001.gif",
   "ab_full": true,
   "score": 13.7,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-23",
@@ -6988,7 +7274,9 @@
   "img": null,
   "ab_full": true,
   "score": 10.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-23",
@@ -7001,7 +7289,9 @@
   "img": null,
   "ab_full": true,
   "score": 11.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-23",
@@ -7026,7 +7316,9 @@
   "ab_full": true,
   "score": 10.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09148/asset/images/medium/ja6c09148_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-22",
@@ -7039,7 +7331,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08509/asset/images/medium/ja6c08509_0001.gif",
   "ab_full": true,
   "score": 10.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-22",
@@ -7052,7 +7346,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08589/asset/images/medium/ja6c08589_0001.gif",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-22",
@@ -7065,7 +7361,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c07104/asset/images/medium/ja6c07104_0001.gif",
   "ab_full": true,
   "score": 14.7,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-22",
@@ -7078,7 +7376,9 @@
   "img": null,
   "ab_full": true,
   "score": 10.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-22",
@@ -7103,7 +7403,9 @@
   "ab_full": true,
   "score": 10.5,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08724/asset/images/medium/ja6c08724_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-22",
@@ -7116,7 +7418,9 @@
   "ab_full": true,
   "score": 9.8,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c06320/asset/images/medium/ja6c06320_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-21",
@@ -7129,7 +7433,9 @@
   "img": null,
   "ab_full": true,
   "score": 12.2,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-20",
@@ -7142,7 +7448,9 @@
   "img": null,
   "ab_full": true,
   "score": 11.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-20",
@@ -7152,10 +7460,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "High Resolution Image Download MS PowerPoint Slide Bicyclo[2.1.1]hexanes are highly sought-after as rigid sp 3 -rich building blocks for medicinal chemistry with their twelve substituent positions providing exciting opportunities for molecular design. However, most current synthetic methods to these structures offer no control over substituent stereochemistry and critically, allow for the substitution of only one of the three carbon bridges. We report a diastereoselective photochemical crossed [2 + 2] cycloaddition that enables the stereocontrolled synthesis of polysubstituted bicyclo[2.1.1]hexanes with substituents on all three of the carbon bridges. Both steric and orbital influences could be used to control stereoselectivity. Derivatives with twelve different substitution patterns and up to six substituted positions could be prepared in up to >19:1 dr and importantly, enantioenriched highly substituted bicyclo[2.1.1]hexanes could also be accessed. A comprehensive mechanistic and stereochemical analysis explains all obtained stereoselectivities and will help guide future applications of the reaction.",
   "doi": "10.1021/acscatal.6c02364",
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02364/asset/images/medium/cs6c02364_0001.gif",
+  "img": "data/toc/10.1021_acscatal.6c02364__search.png",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "img_src": "https://dx.doi.org/10.1021/acscatal.6c02364"
  },
  {
   "date": "2026-06-20",
@@ -7180,7 +7488,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c07489/asset/images/medium/ja6c07489_0001.gif",
   "ab_full": true,
   "score": 13.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-18",
@@ -7193,7 +7503,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05648/asset/images/medium/ja6c05648_0001.gif",
   "ab_full": true,
   "score": 13.1,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-18",
@@ -7206,7 +7518,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c07988/asset/images/medium/ja6c07988_0001.gif",
   "ab_full": true,
   "score": 13.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-18",
@@ -7219,7 +7533,9 @@
   "img": null,
   "ab_full": true,
   "score": 13.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-18",
@@ -7232,7 +7548,9 @@
   "img": null,
   "ab_full": true,
   "score": 14.2,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-18",
@@ -7242,10 +7560,10 @@
   "tag": "Cycloaddition",
   "ab": "Allenes, as versatile intermediates with unique cumulative double bond systems, have been widely used in cycloaddition reactions for constructing various cyclic skeletons, yet the selective synthesis of cyclobutenes via double allenes [2 + 2] annulation still remains a long‐standing challenge. Herein, we report a phosphine‐catalyzed unsymmetric [2 + 2] annulation of allenyl phosphonates for the efficient construction of highly substituted cyclobutenes. The reaction exhibits broad substrate scope, delivering the target cyclobutenes in moderate to good yields with exceptional Z / E selectivities and diastereoselectivities. Mechanistic studies reveal that the reaction proceeds via phosphine‐induced zwitterion formation and deprotonation of allene. The Lewis acid enables precise control of diastereoselectivity, while silane effectively suppresses allene isomerization to conjugated dienes and prevents catalyst deactivation, thus ensuring reaction efficiency. Furthermore, the synthesized cyclobutene derivatives demonstrate good structural modifiability through diverse transformations. This work enriches the field of phosphine‐catalyzed allene chemistry, fills a gap in allene‐based [2 + 2] cyclization modes, expands the methodological toolbox for cyclobutene synthesis, and provides a versatile platform for accessing complex cyclobutene‐containing molecules.",
   "doi": "10.1002/anie.7982002",
-  "img": null,
+  "img": "https://imgs.search.brave.com/0YsW_IErVo0KaStyulKpLBKwqROKeBwqPfS2o-SjngI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMjBiNmM0/ZjctZmQwZC00OWU0/LWIxNTEtZmFjNmJl/YzA3ZDdjL2FuaWU3/MzIzNC1ncmEtMDAw/MS1tLnBuZw",
   "ab_full": true,
   "score": 10.8,
-  "search_n": 0
+  "img_src": "https://www.lifescience.net/entries/893019/phosphinecatalyzed-unsymmetric-2-2-annulation-of-a/"
  },
  {
   "date": "2026-06-18",
@@ -7258,7 +7576,9 @@
   "img": null,
   "ab_full": true,
   "score": 12.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-18",
@@ -7271,7 +7591,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c01703/asset/images/medium/cs6c01703_0001.gif",
   "ab_full": true,
   "score": 12.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-18",
@@ -7284,7 +7606,9 @@
   "ab_full": true,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c03690/asset/images/medium/ja6c03690_0001.gif",
   "score": 12.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-18",
@@ -7321,7 +7645,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c04688/asset/images/medium/ja6c04688_0001.gif",
   "ab_full": true,
   "score": 16.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-17",
@@ -7334,7 +7660,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02704/asset/images/medium/cs6c02704_0001.gif",
   "ab_full": true,
   "score": 15.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-17",
@@ -7347,7 +7675,9 @@
   "ab_full": true,
   "score": 10.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08216/asset/images/medium/ja6c08216_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-17",
@@ -7360,7 +7690,9 @@
   "ab_full": true,
   "score": 9.1,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02017/asset/images/medium/cs6c02017_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-16",
@@ -7373,7 +7705,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c03890/asset/images/medium/ja6c03890_0001.gif",
   "ab_full": true,
   "score": 12.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-16",
@@ -7386,7 +7720,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c00671/asset/images/medium/ja6c00671_0001.gif",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-15",
@@ -7399,7 +7735,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05222/asset/images/medium/ja6c05222_0001.gif",
   "ab_full": true,
   "score": 15.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-15",
@@ -7436,7 +7774,9 @@
   "ab_full": true,
   "score": 10.0,
   "img": null,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-14",
@@ -7449,7 +7789,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09073/asset/images/medium/ja6c09073_0001.gif",
   "ab_full": true,
   "score": 13.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-13",
@@ -7462,7 +7804,9 @@
   "img": null,
   "ab_full": true,
   "score": 15.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-13",
@@ -7475,7 +7819,9 @@
   "img": null,
   "ab_full": true,
   "score": 11.1,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-13",
@@ -7497,10 +7843,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "… heterocycles, but these reactions have proved challenging to render stereoselective. Here, we report an engineered flavin enzyme that catalyzes the formation of chiral pyrrolidines with high yield and enantioselectivity. Development of this transformation addresses a long-standing limitation in flavin photobiocatalysis: the short lifetime of the photoexcited flavin quinone has previously made it challenging to leverage this species as a photooxidant. We report that the photophysical properties of a flavin enzyme can be tuned via rational mutagenesis to obtain a variant with a long-lived excited state, and that this enzyme can be further engineered to create an efficient catalyst for asymmetric radical hydroaminations. Moreover, this work introduces two mechanistic discoveries that can be applied broadly in photobiocatalysis: (1) an exogeneous cophotocatalyst can serve as a photoprotectant for the enzymatic cofactor and (2) enantiospecific termination of chiral radical intermediates provides a mechanism to achieve stereocontrol over previously challenging classes of transformations.",
   "doi": "10.1021/jacs.6c04368",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c04368/asset/images/medium/ja6c04368_0001.gif",
+  "img": "data/toc/10.1021_jacs.6c04368__search.png",
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/article/148/25/25945/5171553/Asymmetric-Hydroamination-Using-Oxidative-Radical"
  },
  {
   "date": "2026-06-12",
@@ -7513,7 +7859,9 @@
   "img": null,
   "ab_full": true,
   "score": 11.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-12",
@@ -7526,7 +7874,9 @@
   "img": null,
   "ab_full": true,
   "score": 14.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-12",
@@ -7575,7 +7925,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c01289/asset/images/medium/cs6c01289_0001.gif",
   "ab_full": true,
   "score": 12.1,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-11",
@@ -7588,7 +7940,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02389/asset/images/medium/cs6c02389_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-11",
@@ -7601,7 +7955,9 @@
   "ab_full": true,
   "score": 9.8,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c06409/asset/images/medium/ja6c06409_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-11",
@@ -7613,8 +7969,8 @@
   "doi": "10.1002/anie.3566616",
   "ab_full": true,
   "score": 9.1,
-  "img": null,
-  "search_n": 0
+  "img": "https://imgs.search.brave.com/xTwnDrCfqJSJbpax5Na61grVkLorIpM_DUV71hJ0Utc/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvYWYxODE5/ZjgtMGQ0NC00YjEy/LWJiMjMtNjc1MDg1/Y2MxNjdjL2FuaWU3/MzEzOS1ncmEtMDAw/MS1tLnBuZw",
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3566616"
  },
  {
   "date": "2026-06-10",
@@ -7627,7 +7983,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c06155/asset/images/medium/ja6c06155_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-10",
@@ -7640,7 +7998,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08113/asset/images/medium/ja6c08113_0001.gif",
   "ab_full": true,
   "score": 12.2,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-10",
@@ -7653,7 +8013,9 @@
   "img": null,
   "ab_full": true,
   "score": 13.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-10",
@@ -7690,7 +8052,9 @@
   "img": null,
   "ab_full": true,
   "score": 12.6,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-09",
@@ -7727,7 +8091,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c03087/asset/images/medium/cs6c03087_0001.gif",
   "ab_full": true,
   "score": 14.1,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-08",
@@ -7740,7 +8106,9 @@
   "ab_full": true,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c02960/asset/images/medium/ja6c02960_0001.gif",
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-08",
@@ -7753,7 +8121,9 @@
   "ab_full": true,
   "score": 9.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c09135/asset/images/medium/ja6c09135_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-07",
@@ -7766,7 +8136,9 @@
   "img": null,
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-07",
@@ -7779,7 +8151,9 @@
   "img": null,
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-06",
@@ -7792,7 +8166,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c03814/asset/images/medium/ja6c03814_0001.gif",
   "ab_full": true,
   "score": 11.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-05",
@@ -7802,10 +8178,10 @@
   "tag": "Photocatalysis",
   "ab": "The incorporation of heteroatom-linked trifluoromethyl groups, such as N-trifluoromethyl (NCF3) and trifluoromethylthio (SCF3) motifs, remains challenging, particularly in the context of late-stage aryl functionalization. Herein, we report a flow-enabled platform that allows for the late-stage installation of NCF3 and SCF3 groups onto aryl frameworks through the coupling of flow-generated nucleophilic heteroatom–CF3 anions with aryl thianthrenium salts. In this strategy, readily available organic precursors are converted on demand into NCF3 and SCF3 anions using a CsF-packed bed reactor, allowing safe handling of highly reactive fluorinated intermediates while minimizing fluorinated waste. The resulting anions are subsequently engaged in a copper-mediated, photocatalytic cross-coupling, enabling efficient formation of aryl–NCF3 and aryl–SCF3 bonds under mild conditions. The method exhibits broad substrate scope and functional group tolerance, and is applicable to the late-stage diversification of medicinally and agrochemically relevant molecules. Overall, this work expands the scope of nucleophilic CF3X anions as viable partners in late-stage aryl functionalization and provides a modular platform for the discovery-oriented synthesis of fluorinated molecules.",
   "doi": "10.1021/jacs.6c04790",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c04790/asset/images/medium/ja6c04790_0001.gif",
+  "img": "https://imgs.search.brave.com/GBNg-7TrmA9Es6we5_0v5ww3buZ15JJy0OvNOuQMu8A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzIz/LzEwLjEwMjFfamFj/cy42YzA0NzkwLzEv/bV9qYTZjMDQ3OTBf/MDAwNS5zdmc_RXhw/aXJlcz0xNzkzMTA3/OTc4JlNpZ25hdHVy/ZT1rQ1F0NjdMV2kz/VG5mV3hZcDNNdEdo/cUVtbHhaSWFVQlZW/fjdNcVpJeThCWHlC/fnJ3QkFiUVJIcFo2/Vmk1TkxKfnJ1ZVZy/U0FNLTVMWGVSWkh2/Mkd3QkFjUWo0a0d4/Q1VBbjNzSVlpakZt/NDFCMFVjMEZPSEs5/cXJ3U1VYSG0yRDVB/RU44VGVMSGg0cXVM/QW1WfmRxSFZrZjhh/QW5PcW5qZlBXNTZq/SUdPaU41b2h-YzVU/YVcta1plaXhmZVdX/bXEwbnBJY3QwbTdK/a1JaZzVjVGRUcFBt/aWwtZGZKajZwR0hs/RHBUTW9ySk01REE0/c2VDQURsQmFsWHAy/MERXRTlmZUFjfn5B/Vkw4WXFYUld0bG5C/cEhUM0c5RTJLYW5L/bEFLaUhhbkJ-b29h/c2ZMY2N5RTB-Z1gz/UmJKSWpXZDhZak10/eWRBN3RpRjlVOU9z/U3pVcnR4Y1FfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 10.3,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/issue/148/23"
  },
  {
   "date": "2026-06-05",
@@ -7818,7 +8194,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02110/asset/images/medium/cs6c02110_0001.gif",
   "ab_full": true,
   "score": 10.6,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-04",
@@ -7831,7 +8209,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.5c21411/asset/images/medium/ja5c21411_0001.gif",
   "ab_full": true,
   "score": 10.2,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-04",
@@ -7841,10 +8221,10 @@
   "tag": "Dearomatization",
   "ab": "Achieving regioselective meta ‐C–H alkylation of pyridines remains a long‐standing challenge due to their intrinsic electronic bias and the lack of general strategies compatible with simple alkyl electrophiles. In contrast to Minisci‐type alkylations, which preferentially functionalize electron‐deficient positions, meta ‐alkylation of unbiased pyridines using alkyl bromides has remained elusive. Herein, we report a photoinduced palladium‐catalyzed strategy that enables regioselective meta ‐alkylation of pyridines with commercially available alkyl bromides via a redox‐neutral dearomatization pathway. Visible‐light excitation of palladium generates a hybrid alkyl–Pd(I) radical species that undergoes regioselective addition to oxazino‐pyridine intermediates despite inherent polarity mismatch, forming a stabilized π ‐allyl Pd(I) radical prior to rearomatization. The method exhibits a broad substrate scope encompassing diverse pyridines, quinolines, and alkyl bromides, and enables one‐pot and sequential meta ‐functionalization strategies. DFT calculations support an outer‐sphere radical addition mechanism and rationalize the observed regioselectivity. This work establishes a new paradigm for Pd‐catalyzed meta ‐C–H alkylation of azines, a complementary conceptual approach to conventional and important Minisci chemistry.",
   "doi": "10.1002/anie.5426146",
-  "img": null,
+  "img": "https://imgs.search.brave.com/uS71PVXIeV0JH9XVTYHwqiFYfOKnWEhbGxdOY6S5nFQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kb2Nz/NC5kZWVwZHl2ZS5j/b20vZG9jX3JlcG9f/c2VydmVyL2dldC1p/bWFnZS8wYWg5MUlW/clA5LzEvMT90PTE3/ODE4Njk1MDQmcD0x/JmE9cHJldmlldyZr/ZXk9YU4tQmlSYW1Y/QkdsanhiWkNZWEhO/ZUZXcld3LiZ1PTIw/ODI0OTcmdHA9MTAm/cHI9MA",
   "ab_full": true,
   "score": 11.3,
-  "search_n": 0
+  "img_src": "https://www.deepdyve.com/lp/wiley/photoinduced-palladium-catalyzed-site-selective-meta-alkylation-of-0ah91IVrP9"
  },
  {
   "date": "2026-06-04",
@@ -7857,7 +8237,9 @@
   "img": null,
   "ab_full": true,
   "score": 11.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-04",
@@ -7870,7 +8252,9 @@
   "img": null,
   "ab_full": true,
   "score": 10.6,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-04",
@@ -7883,7 +8267,9 @@
   "img": null,
   "ab_full": true,
   "score": 15.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-03",
@@ -7896,7 +8282,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05586/asset/images/medium/ja6c05586_0001.gif",
   "ab_full": true,
   "score": 13.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-03",
@@ -7909,7 +8297,9 @@
   "img": null,
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-03",
@@ -7922,7 +8312,9 @@
   "img": null,
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-03",
@@ -7932,10 +8324,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "Atropisomers bearing C─N or N─N axes are an important class of chiral molecules, yet stereoconvergent strategies for accessing these compounds using organocatalytic techniques remain limited. Herein, we report the N‐heterocyclic carbene (NHC)‐catalyzed dynamic kinetic resolution (DKR) of rotationally restricted cyclic imides via (3 + 3) annulation with enals under oxidative conditions for the synthesis of C─N or N─N axially chiral pyridinones. Mechanistic experiments shed light on keto‐enol tautomerism in cyclic imides, which serves as the operative mode of enantiomer interconversion. This transformation furnishes C─N/N─N axially chiral frameworks bearing a remote stereogenic center in high yields with excellent enantioselectivity (up to 99:1 er) and good diastereocontrol. Rotation barrier studies confirm the high configurational stability of the products. Reactions conducted using pre‐formed carbenes provide information on DKR operating in the present case over the competing desymmetrization pathway.",
   "doi": "10.1002/anie.3289722",
-  "img": null,
+  "img": "https://imgs.search.brave.com/hbuMx9V_JDUQWCAdyvZ0s6nZ9M3T01Cej1sfp4uskYc/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvN2NiZjBi/ODYtZDRiMi00ZjEy/LWE2OWQtMGRmZTk0/MDgzMzU3L2FuaWU3/Mjk3My1ncmEtMDAw/MS1tLnBuZw",
   "ab_full": true,
   "score": 14.8,
-  "search_n": 0
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3289722"
  },
  {
   "date": "2026-06-03",
@@ -7948,7 +8340,9 @@
   "img": null,
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-03",
@@ -7961,7 +8355,9 @@
   "img": null,
   "ab_full": true,
   "score": 14.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-03",
@@ -7974,7 +8370,9 @@
   "img": null,
   "ab_full": true,
   "score": 10.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-03",
@@ -7984,10 +8382,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "Axially chiral diaryl ethers are important structural motifs in biologically active molecules, functional materials, and chiral catalysts. However, their enantioselective synthesis remains challenging because rotation around the Ar–O bond often occurs with relatively low rotational barriers, and most existing methods rely on desymmetrization strategies that inherently limit the accessible substitution patterns. Here we report a rhodium‐catalyzed enantioselective [2 + 2 + 2] cycloaddition of triynes bearing alkynyl ether units that provides axially chiral diaryl ethers with high enantioselectivity. In this transformation, benzannulation simultaneously constructs the aromatic ring and restricts rotation about the Ar–O bond while introducing diverse substituents, thereby enabling efficient atroposelective synthesis. The reaction exhibits a broad substrate scope and affords the desired products in good yields and enantioselectivities. In suitably designed substrates, the benzannulation process generates multiple atropisomeric axes in a single step, providing complex stereochemical architectures with up to four stereogenic axes. DFT calculations indicate that steric and dispersion interactions during oxidative cyclization govern the stereochemical outcome, and a stepwise alkyne insertion, featuring shortened Rh–C bonds in the transition state, likely enables efficient stereoinduction within the chiral environment, accounting for the observed high enantioselectivity.",
   "doi": "10.1002/anie.3486845",
-  "img": null,
+  "img": "https://imgs.search.brave.com/MwX1G8WABKtwmGrVATo6rLSOEgDE3fLzgve0-7xoaiA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNzQ5N2Q1/ZDgtZmVmNy00MmNh/LTk5ZmUtZDE2ZThk/NzQ0MWU4L2FuaWU3/Mjk1Ni1maWctMDAw/NS1tLnBuZw",
   "ab_full": true,
   "score": 11.8,
-  "search_n": 0
+  "img_src": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.3486845"
  },
  {
   "date": "2026-06-03",
@@ -8000,7 +8398,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02986/asset/images/medium/cs6c02986_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-03",
@@ -8013,7 +8413,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c01439/asset/images/medium/cs6c01439_0001.gif",
   "ab_full": true,
   "score": 15.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-03",
@@ -8026,7 +8428,9 @@
   "ab_full": true,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c01998/asset/images/medium/ja6c01998_0001.gif",
   "score": 10.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-03",
@@ -8039,7 +8443,9 @@
   "ab_full": true,
   "score": 9.1,
   "img": null,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-02",
@@ -8052,7 +8458,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05047/asset/images/medium/ja6c05047_0001.gif",
   "ab_full": true,
   "score": 12.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-02",
@@ -8065,7 +8473,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c06853/asset/images/medium/ja6c06853_0001.gif",
   "ab_full": true,
   "score": 10.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-02",
@@ -8090,7 +8500,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c01728/asset/images/medium/cs6c01728_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-01",
@@ -8103,7 +8515,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c02833/asset/images/medium/cs6c02833_0001.gif",
   "ab_full": true,
   "score": 12.7,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-25",
+  "search_v": 2
  },
  {
   "date": "2026-06-01",
@@ -8138,9 +8552,9 @@
   "ab": "Cyclopentenones feature prominently in synthetic and medicinal chemistry because of their ability to act as covalent warheads and their versatility as synthetic intermediates. Yet, skeletal editing methods to access cyclopentenones are not well developed, making scaffold hopping at late stage unworkable. Here, we present a versatile approach to 2-cyclopentenones via the p - and o -carbon deletion of phenols. Deletion is achieved through a combination of oxidative dearomatization, photorearrangement, and tandem decarboxylation/alkene positional isomerization. Through a slight adaptation, this platform also allowed the ring contraction of guaiacols to access 2-(methoxycarbonyl)-2-cyclopentenones. We applied this methodology to the skeletal editing of a range of phenols, including natural products, and conducted a detailed mechanistic study. Cyclopentenones accessed by this method were tested for cytotoxicity against a panel of cancer cell lines, leading to the identification of a novel anticancer hit compound with a probable covalent mechanism of action.",
   "doi": "10.1021/jacs.6c05798",
   "ab_full": true,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05798/asset/images/medium/ja6c05798_0001.gif",
+  "img": "https://imgs.search.brave.com/ksTvWtJGiadBWtR1Pv2wc8kQ2UM3epXRskHbHR24WIQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzIy/LzEwLjEwMjFfamFj/cy42YzA1Nzk4LzEv/bV9qYTZjMDU3OThf/MDAxMS5zdmc_RXhw/aXJlcz0xNzk0OTI5/NzUyJlNpZ25hdHVy/ZT1zTUFOMWh5OG1j/RHd6QnRITGRraUhy/QVhLWllKTThqZWtv/T3JtUUFVQ35FQmdq/N1Zsd3dBN09DbmIz/cEtwWGZHc3daZjFK/bnE1OE16Rm9ZV2Q3/MTZpRmlkS1ZDN1Zm/ekpnNEtiQ1ptOTM0/dXhzaXBxVDJKZEdp/d0hIWkJYazVLNDhX/VmwtZW1FdUJpSHlq/V3REUlhReHUwdDBp/ZmlzfjM1NzZ2QlpY/M0N6T282aEZqRVVw/R0Mtbmtmd0M3alBP/QWV1T0FBeGp-U1Bt/ckVTOEJNdlB1Y0VV/SldEZUl1dVNOYzRZ/VjE5UW1pcFVJVjRv/MTZkd3FqODgwcmFM/T0tva0N3R3V2UENP/VE1tNzExN3M0VGZS/WUtZc0h4S0VZVlR-/LW1zZXpER25YTmRD/S3J6dHRPN0hLb1Rj/TTVuSTR4V212dVNi/akhQaHBrcjdPVXdn/M1U0WUg5ZlFfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "score": 13.8,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/article-abstract/148/22/23175/5199818/Versatile-Synthesis-of-Cyclopentenones-via?redirectedFrom=fulltext"
  },
  {
   "date": "2026-05-30",
@@ -8152,8 +8566,8 @@
   "doi": "10.1002/anie.8722626",
   "ab_full": true,
   "score": 8.8,
-  "img": null,
-  "search_n": 0
+  "img": "data/toc/10.1002_anie.8722626__search.jpg",
+  "img_src": "https://www.oaepublish.com/articles/cs.2024.89"
  },
  {
   "date": "2026-05-29",
