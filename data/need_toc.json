@@ -438,12 +438,6 @@
 "m": "2026-10"
 },
 {
-"doi": "10.1021/jacs.6c16103",
-"j": "J. Am. Chem. Soc.",
-"t": "Chiral Ti(BOX)–LMCT Catalysis Integrating Alcohol C–C Bond Cleavage with Enantioselective Radical Conjugate Addition",
-"m": "2026-10"
-},
-{
 "doi": "10.1021/jacs.6c14241",
 "j": "J. Am. Chem. Soc.",
 "t": "Catalytic Redox-Neutral Decarboxylative Aromatization via Transfer Dehydrogenation",
@@ -522,21 +516,9 @@
 "m": "2026-10"
 },
 {
-"doi": "10.1021/acscatal.6c04883",
-"j": "ACS Catal.",
-"t": "Light-Accelerated Iridium-Catalyzed C–H Borylation",
-"m": "2026-10"
-},
-{
 "doi": "10.1021/jacs.6c15980",
 "j": "J. Am. Chem. Soc.",
 "t": "Enantioconvergent Deoxygenative Amination via Xanthate Esters by a Decarboxylative Relay",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c13713",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantio- and Regioselective Ni-Catalyzed Hydroarylation of Alkenes and Alkynes to Form C–N Axially Chiral Heterobiaryls",
 "m": "2026-10"
 },
 {
@@ -579,12 +561,6 @@
 "doi": "10.1021/acscatal.6c06753",
 "j": "ACS Catal.",
 "t": "Synthesis of α-Chlorocarbonyls through Kharasch-Type Addition and Cotelomerization Driven by Photoredox/Cobalt Dual Catalysis",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c14230",
-"j": "J. Am. Chem. Soc.",
-"t": "Total Synthesis of Complex Nucleoside Antibiotics Ezomycin A1 and A2",
 "m": "2026-09"
 },
 {
@@ -648,12 +624,6 @@
 "m": "2026-09"
 },
 {
-"doi": "10.1021/jacs.6c15246",
-"j": "J. Am. Chem. Soc.",
-"t": "Convergent Total Synthesis of (−)-Methyl Gummiferolate Enabled by Pattern Recognition and Radical Cyclization",
-"m": "2026-09"
-},
-{
 "doi": "10.1002/anie.7845758",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Photocatalytic Transannular Migration to Stereodefined Cyclobutanes and Bicyclo[2.1.1]hexanes as Benzenoid Bioisosteres",
@@ -693,12 +663,6 @@
 "doi": "10.1021/jacs.6c15284",
 "j": "J. Am. Chem. Soc.",
 "t": "Iron-Electrocatalytic MHAT Enables C–F Bond Activation of CF3 Alkenes: Access to Stable Keto and Enol Isosteres",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/acscatal.6c06344",
-"j": "ACS Catal.",
-"t": "Nickel-Catalyzed β-Methyl Vinylation Using Allylamine as a Masked Alkenyl Electrophile",
 "m": "2026-09"
 },
 {
@@ -1098,12 +1062,6 @@
 "m": "2026-09"
 },
 {
-"doi": "10.1021/jacs.6c11666",
-"j": "J. Am. Chem. Soc.",
-"t": "Core-Regenerating Atom-Pair Exchange Enables Skeletal Carbon Isotope Incorporation into Pyridines",
-"m": "2026-09"
-},
-{
 "doi": "10.1002/anie.4023427",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Ligand‐Controlled Chemodivergent Telomerization and Hydrofunctionalization of Isoprene With Hydrazones Under Ni Catalysis",
@@ -1113,12 +1071,6 @@
 "doi": "10.1002/anie.6219487",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Intramolecular Nickel‐Catalyzed Reductive Coupling: Enantioselective Synthesis of Tetrahydroisoquinolines and Related Heterocycles",
-"m": "2026-09"
-},
-{
-"doi": "10.1002/anie.1324586",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Electrochemical Cobalt/Vanadium Relay Catalysis: Enantioselective Markovnikov Hydrooxygenation of Alkenes",
 "m": "2026-09"
 },
 {
@@ -1155,12 +1107,6 @@
 "doi": "10.1021/acscatal.6c05366",
 "j": "ACS Catal.",
 "t": "Merging Katritzky Salt Photoactivation with Nickel Catalysis: A Mild and Versatile Approach to Deaminative Carbonylations",
-"m": "2026-09"
-},
-{
-"doi": "10.1021/jacs.6c08434",
-"j": "J. Am. Chem. Soc.",
-"t": "AbSynth: A Century of Total Syntheses as a Machine-Readable Resource for Analyzing Strategic Logic in Organic Chemistry",
 "m": "2026-09"
 },
 {
@@ -1308,12 +1254,6 @@
 "m": "2026-08"
 },
 {
-"doi": "10.1021/jacs.6c12593",
-"j": "J. Am. Chem. Soc.",
-"t": "Total Synthesis of (±)-Stemocurtisine via Catalytic Carbonylation",
-"m": "2026-08"
-},
-{
 "doi": "10.1021/acscatal.6c05584",
 "j": "ACS Catal.",
 "t": "Aerobic Oxidative Cascade Reaction of ortho -Alkenylphenols for Asymmetric Synthesis of Benzoxanthenones",
@@ -1323,12 +1263,6 @@
 "doi": "10.1021/acscatal.6c03866",
 "j": "ACS Catal.",
 "t": "Indole Diketopiperazine Dimerization Catalyzed by Dye-Decolorizing Peroxidases via Hydroxyl-to-Carbon Radical Relay",
-"m": "2026-08"
-},
-{
-"doi": "10.1021/acscatal.6c05596",
-"j": "ACS Catal.",
-"t": "Regiodivergent Olefin Transfer Hydrothiocarbonylation via Cl-Assisted Pd Catalysis",
 "m": "2026-08"
 },
 {
