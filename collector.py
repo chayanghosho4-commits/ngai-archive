@@ -983,10 +983,17 @@ def apply_inbox(by_key):
             p["img"], p["img_src"] = "data/toc/" + _toc_name(doi, ext), "TOC helper"
             added += 1
         site = "https://" + (pack.get("site") or "pubs.acs.org").strip("/") + "/"
-        for doi, url in (pack.get("urls") or {}).items():
+        links = pack.get("urls") or {}
+        uses = {}
+        for url in links.values():
+            uses[url] = uses.get(url, 0) + 1
+        for doi, url in links.items():
             p = by_doi.get(doi.lower())
             if not p or not needs_picture(p) or not str(url).startswith(LINK_SCHEMES):
                 skipped += 1
+                continue
+            if uses[url] > 1 or re.search(r"SiteBuilderAssets|/UI/app/|_large-?\d+\.(jpe?g|png)$", url.split("?")[0], re.I):
+                skipped += 1                               # journal cover or site picture, not this paper's graphic
                 continue
             if link_fail >= 10 and not linked:                # the image server refuses us: stop trying
                 link_fail += 1
@@ -1013,6 +1020,33 @@ def apply_inbox(by_key):
           + (f" ({link_fail} links failed: " + ", ".join(f"HTTP {k}: {v}" for k, v in fail_codes.items()) + ")" if link_fail else "")
           + (f"; {skipped} skipped (paper no longer in the archive, already has a picture, or not a picture)" if skipped else ""))
     return added + linked
+
+
+def drop_shared_pictures(by_key, min_papers=3):
+    """Remove saved pictures that several papers share (a journal cover or logo picked up by mistake).
+    A real TOC graphic belongs to one paper only; those papers go back on the TOC helper's list."""
+    import hashlib
+    groups = {}
+    for p in by_key.values():
+        img = p.get("img") or ""
+        if not img.startswith("data/toc/"):
+            continue
+        try:
+            with open(os.path.join(HERE, img), "rb") as f:
+                h = hashlib.sha1(f.read()).hexdigest()
+        except OSError:
+            continue
+        groups.setdefault(h, []).append(p)
+    n = 0
+    for ps in groups.values():
+        if len(ps) >= min_papers:
+            for p in ps:
+                p.pop("img", None)
+                p.pop("img_src", None)
+                n += 1
+    if n:
+        print(f"Removed {n} pictures that were not the paper's own (one picture shared by several papers, e.g. a journal cover)")
+    return n
 
 
 def cleanup_toc(by_key):
@@ -1246,7 +1280,7 @@ def write(by_key):
     return out
 
 
-VERSION = "Ngai Group Archive collector, version 10 (25 Oct 2026)"
+VERSION = "Ngai Group Archive collector, version 11 (25 Oct 2026)"
 
 
 def main():
@@ -1285,6 +1319,7 @@ def main():
     left_out = select(by_key)                                        # best PER_MONTH papers of each month
     ensure_inbox()
     apply_inbox(by_key)                                              # pictures uploaded from the TOC helper
+    drop_shared_pictures(by_key)                                     # e.g. a journal cover saved for many papers
     out = write(by_key)
     ni = fill_images(out, retry=a.retry_images)                      # images only for the selected papers
     fill_from_image_search(out)                                      # title search for papers still without a picture
