@@ -9,10 +9,11 @@
   "doi": "10.1021/jacs.6c16928",
   "ab_full": true,
   "score": 12.8,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c16928/asset/images/medium/ja6c16928_0001.gif",
+  "img": "data/toc/10.1021_jacs.6c16928__toc.png",
   "search_n": 1,
   "search_tried": "2026-10-26",
-  "search_v": 3
+  "search_v": 3,
+  "img_src": "TOC helper (link)"
  },
  {
   "date": "2026-10-25",
@@ -5367,10 +5368,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "A formal [3+2] cycloaddition via cyclization/1,2‐hydride shift initiated by nucleophilic attack of allylsilanes has been developed for the enantioselective synthesis of cis ‐2,5‐disubstituted tetrahydrofuran‐3‐ones. In the presence of chiral oxazaborolidinium ion (COBI) catalyst, the reaction proceeded in high yields (up to 88%) with excellent stereoselectivity (up to 99% ee, > 20:1 dr). Key advantages of this approach are its unprecedented ability to forge THF scaffolds asymmetrically without inherent chirality, its high stereoselectivity including cis ‐selectivity, and its capability to control four stereocenters in a single transformation.",
   "doi": "10.1002/anie.202524631",
-  "img": "https://imgs.search.brave.com/2gVMHLNTrOhSVRcqeu2fP6wkyy6hepzEDTxYLhdawek/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvZmFmODU1/ZTEtNjkyZC00NTEz/LWI5OTgtZjY5YmIx/YjczM2I3L2FuaWU3/MzkyMS1ncmEtMDAw/MS1tLnBuZw",
+  "img": "data/toc/10.1002_anie.202524631__toc.jpg",
   "ab_full": true,
   "score": 12.6,
-  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202524631"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-30",
@@ -5478,8 +5479,8 @@
   "doi": "10.1002/anie.6908076",
   "ab_full": true,
   "score": 10.3,
-  "img": "https://imgs.search.brave.com/WepjDuBIz8L-mj9smGI1VN37M6OrmWrpZcohSDpjiHk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNmQ5MmU5/MmEtNTRmNi00MWUy/LWFjZTQtMzVkOWQ4/OGE1N2I0L2FuaWU3/MzgzOC1ncmEtMDAw/MS1tLmpwZw",
-  "img_src": "https://onlinelibrary.wiley.com/toc/15213773/0/0?cookieSet=1"
+  "img": "data/toc/10.1002_anie.6908076__toc.jpg",
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-29",
@@ -5544,12 +5545,13 @@
   "tag": "Asymmetric catalysis",
   "ab": "Asymmetric (transfer) hydrogenation of olefins is an important route to chiral molecules used in pharmaceuticals, agrochemicals, and fine chemicals. Although this transformation is well established with ruthenium‐, rhodium‐, and iridium‐based catalysts, analogous reactions catalyzed by earth‐abundant metals remain limited, particularly for acyclic olefins. Here we report a manganese catalytic system that enables highly enantioselective reduction of both cyclic and acyclic olefins, delivering diverse chiral products in up to 99% yield and >99% ee . Density functional theory (DFT) studies indicate that the reaction proceeds predominantly through a concerted hydrogen‐transfer pathway involving a six‐membered transition state. These results expand the scope of manganese‐catalyzed asymmetric olefin transfer hydrogenation and provide mechanistic insight into hydrogen transfer by base‐metal catalysts.",
   "doi": "10.1002/anie.3186961",
-  "img": null,
+  "img": "data/toc/10.1002_anie.3186961__toc.jpg",
   "ab_full": true,
   "score": 11.6,
   "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 3
+  "search_v": 3,
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-28",
@@ -5605,10 +5607,10 @@
   "tag": "Natural products",
   "ab": "Enantioenriched skipped polyenes represent an important building block in natural products and bioactive molecules. Thus, it is of great importance for developing efficient methods for the synthesis of enantioenriched skipped polyenes yet challenging. To date, no example for direct access to skipped polyenes with controlled stereochemistry from simple and readily available starting materials has been developed. Herein, a cobalt‐catalyzed reductive asymmetric cross‐dimerization of 1,3‐enynes has been developed, affording the first rapid access to enantioenriched skipped 1,3,6‐trienes from readily available simple starting materials. Moreover, this protocol is amenable to enantioenriched skipped dienes by asymmetric reductive cross‐hydrodimerization of 1,3‐enynes with alkynes. Mechanistic investigations revealed a domino process by a chemoselective and non‐regioselective semi‐reduction of 1,3‐enynes to 1,3‐dienes followed by a chemo‐, regio‐, and enantioselective cross‐hydrodimerization of 1,3‐dienes with 1,3‐enynes. Notably, asymmetric reductive hydrodimerization of enynes represents the first example of synthesizing enantioenriched 1,3,6‐trienes, 1,3,5,8,10‐pentaenes, 1,4‐dienes from achiral starting materials.",
   "doi": "10.1002/anie.7785903",
-  "img": "https://imgs.search.brave.com/Tv35upaB6lRCxsCP4jLrxuV6KKpnNCO_oIWKOh207L0/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvZGRhYWYz/ZmItNzM3MS00ZmIx/LTkxNGQtZDAzMGQ2/NmM5MTAzL2FuaWU3/Mzc0MS1ncmEtMDAw/MS1tLnBuZw",
+  "img": "data/toc/10.1002_anie.7785903__toc.jpg",
   "ab_full": true,
   "score": 13.8,
-  "img_src": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.7785903"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-27",
@@ -5754,10 +5756,10 @@
   "tag": "Total synthesis",
   "ab": "A photochemical radical ring opening strategy is reported in which cyclopropyl silyl ethers undergo single‐electron oxidation and fragmentation under visible‐light photoredox conditions to furnish β‐carbonyl radicals. These intermediates engage electron‐deficient alkenes in a controlled intermolecular addition process that combines radical ring opening with C–C bond formation. The reaction delivers β–β coupling products across a broad substrate scope, including simple and complex alkenes and substrates that undergo regioselective 1,6‐addition. The resulting adducts can be further advanced through downstream annulation chemistry, whereas under modified conditions, the same intermediates can undergo radical–polar crossover and subsequent aldol cyclization, enabling access to three separate product classes from a common cyclopropyl precursor. The synthetic utility of the method is demonstrated through divergent entry into the carbocyclic frameworks of the kaurene and phyllocladane natural product families and the first total synthesis of (−)‐ ent ‐melicodenone C.",
   "doi": "10.1002/anie.7669030",
-  "img": "https://imgs.search.brave.com/BRpa-CiM1yWANTgvMdpBXsoGso0cyiHXCn6YtoktipY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNGU3OWFm/OTctYmVkZC00Nzlj/LWExMGMtYmJmODY1/YjVjYzVmL2FuaWU3/Mzc2Ni1ncmEtMDAw/MS1tLnBuZw",
+  "img": "data/toc/10.1002_anie.7669030__toc.jpg",
   "ab_full": true,
   "score": 12.8,
-  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.7669030?af=R"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-23",
@@ -5903,10 +5905,10 @@
   "tag": "Synthetic methodology",
   "ab": "Selective deuteration of (hetero)aryl rings is of great significance and interest, yet it has remained a challenge, especially when employing D 2 O as deuterium source. Herein, the selective desulfurative deuteration of widely available (hetero)aryl sulfides with D 2 O (mostly 1.5 or 3.0 equiv.) has been established by nickel catalysis. This strategy affords an efficient and robust route for the synthesis of a wide range of deuterated (hetero)arenes (87 examples, > 10 different heterocycles) in generally good yields and high deuterium incorporation with good functional group compatibility. The catalytic reaction could be applied to scaled‐up synthesis (e.g., 6.4 g for product 2 , 0.1 mol% Ni catalyst, 590 TON) and late‐stage deuteration of various drugs and bioactive molecules.",
   "doi": "10.1002/anie.7248763",
-  "img": "https://imgs.search.brave.com/TMGNawsX_ndLS_iUn6jpvC6JWMfifDcSqGBc8mqchIQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvYWQwM2Y0/MjItNzU2YS00ZmI0/LTk3NTctMmIyOWFi/NGY0YmJlL2FuaWU3/MzcxMS1ncmEtMDAw/MS1tLnBuZw",
+  "img": "data/toc/10.1002_anie.7248763__toc.jpg",
   "ab_full": true,
   "score": 13.2,
-  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.7248763"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-21",
@@ -5916,12 +5918,13 @@
   "tag": "Asymmetric catalysis",
   "ab": "P ‐stereogenic phosphinamidates are highly pivotal structural motifs in drug discovery and the design of chiral ligands. Despite their utility, catalytic enantioselective access to these compounds remains a formidable challenge. Herein, we report the first nickel‐catalyzed asymmetric hydrophosphinamidation of alkynes. This protocol enables the highly efficient and enantioselective synthesis of structurally diverse alkenyl phosphinamidates, accommodating a wide array of both N, N ‐dialkyl and N ‐alkyl substituted H ‐phosphinamides. Notably, the resulting products exhibit orthogonal reactivities at four distinct sites, serving as a powerful and universal platform for the divergent synthesis of complex P ‐stereogenic architectures.",
   "doi": "10.1002/anie.4145640",
-  "img": null,
+  "img": "data/toc/10.1002_anie.4145640__toc.jpg",
   "ab_full": true,
   "score": 12.8,
   "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 3
+  "search_v": 3,
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-21",
@@ -5931,10 +5934,10 @@
   "tag": "Total synthesis",
   "ab": "Carbocations have long been important reactive intermediates in organic synthesis. Nevertheless, their inherent instability and high reactivity present formidable challenges to achieving precise stereocontrol. Previous strategies require the chiral catalyst to establish an optimal chiral environment around the carbocations, thus, high enantioselectivity can be obtained in these S N 1 reactions. Herein, we report a chiral phosphoric acid (CPA)‐catalyzed S N 1 reaction of primary allylic alcohol, in which the leaving group can modulate the reactivity and control enantioselectivity by forming a complex with the chiral catalyst. The key to the success of this reaction is the development of an alcohol activation reagent (biaryl oxazepine), which can chemoselectively activate allylic alcohol to form an intermediate with good leaving ability. A series of allylic 5,6‐dihydrophenanthridine and 6 H ‐benzo[ c ]chromene products could be obtained in high yields with excellent enantioselectivities. Further transformations and applications of the resulting 5,6‐dihydrophenanthridine derivatives and the asymmetric formal total synthesis of several natural products demonstrated the utilities of this reaction. Mechanistic studies support that the reaction proceeds via an S N 1 pathway, in which the enantio‐control of allyl carbocations was achieved by in situ formed complex from chiral catalysts and leaving groups.",
   "doi": "10.1002/anie.5149199",
-  "img": "https://imgs.search.brave.com/rt3DATvAOXes5Uio-_FPugPREgB2kfIVRb_jstEPuJ0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvZjQwOWNh/YmMtOGQ3Ny00MWRk/LThhN2MtNzU0MTdh/MzQ0MzczL2FuaWU3/MzY5My1ncmEtMDAw/MS1tLnBuZw",
+  "img": "data/toc/10.1002_anie.5149199__toc.jpg",
   "ab_full": true,
   "score": 12.8,
-  "img_src": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.5149199"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-21",
@@ -5944,10 +5947,10 @@
   "tag": "Total synthesis",
   "ab": "Herein, we report the first asymmetric synthesis of the dimeric sesquiterpenoid myltayloriones A and B. The synthesis features a stereodivergent Echavarren Au‐catalyzed reaction that enables the synthesis of two subunits from a common dienyne precursor, followed by an endo ‐Diels–Alder heterodimerization. Additional key transformations include a ligand‐controlled Pd‐catalyzed reductive hydrogenolysis for C1 isomerization, and a metal‐catalyzed hydrogen atom transfer (MHAT)‐initiated Baran–Giese cyclization to forge a highly congested penta‐substituted cyclopropane. The selectivity of Pd‐catalyzed hydrogenolysis originates from two different oxidative addition pathways, as further elucidated by density functional theory (DFT) calculations. This synthetic work has enabled further investigation of the potent growth differentiation factor 15 (GDF15) inhibitory and insect antifeedant activity exhibited by myltaylorione A. Furthermore, the developed strategy enabled the concise synthesis of mylnudones A–D and revised the structures of mylnudones A and B.",
   "doi": "10.1002/anie.5419423",
-  "img": "https://imgs.search.brave.com/_MoAySYiwVxHoiN225J9d8vPmnkBv-LhRFLtldzRXbU/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMTYwMmI3/OTUtZmI2OC00OTA3/LWJhYzEtYTg3MTJl/MjIyN2JjL2FuaWU3/MzQyOS1ncmEtMDAw/MS1tLnBuZw",
+  "img": "data/toc/10.1002_anie.5419423__toc.jpg",
   "ab_full": true,
   "score": 12.3,
-  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.5419423"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-21",
@@ -5957,12 +5960,13 @@
   "tag": "Asymmetric catalysis",
   "ab": "Enantioselective hydrosilylation of allenes remains a significant challenge with a limited scope due to the difficulties in controlling both regioselectivities and enantioselectivities, despite it representing one of the most efficient manners for the preparation of optically pure allylsilanes. Here, we report a general platform for the efficient and modular preparation of diverse allylsilanes via nickel‐catalyzed hydrosilylation of various allene derivatives, including mono‐substituted allenes and 1,3‐disubstituted allenes. Enabled by a newly developed SPSiOL‐derived diphosphinite ligand (SPSiOP), hydrosilylation of mono‐substituted allenes has been realized with excellent regioselectivity and enantioselectivity. Moreover, the first kinetic resolution of racemic 1,3‐disubstituted allenes has been disclosed using a commercially available chiral QuinoxP* ligand, affording a series of secondary allylsilanes with high stereo induction ( S factor up to 133). The resulting enantioenriched allylsilanes are highly synthetically useful, which has been demonstrated by a variety of transformations of the silyl and alkene functional groups, culminating in efficient synthesis of silacycles and formal synthesis of several bioactive molecules.",
   "doi": "10.1002/anie.4069826",
-  "img": null,
+  "img": "data/toc/10.1002_anie.4069826__toc.jpg",
   "ab_full": true,
   "score": 14.8,
   "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 3
+  "search_v": 3,
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-21",
@@ -6184,12 +6188,13 @@
   "tag": "Asymmetric catalysis",
   "ab": "Sulfonimidamides are highly appealing owing to their capacity for extensive structural diversification and their broad‐spectrum, versatile bioactivities. In the present work, functionalized chiral sulfonimidamides bearing both 1,3‐ S (VI)‐ and C ‐stereocenters were successfully synthesized via the desymmetrization of sulfonimidamides, which was realized by the highly diastereo‐ and enantioselective conjugate addition of 3‐bromo‐3‐substituted oxindoles to sulfonimidamides, with a chiral N,N ′‐dioxide/Ni(II) complex serving as the Lewis acid catalyst. This transformation features mild reaction conditions, excellent functional group tolerance, and a broad substrate scope.",
   "doi": "10.1002/anie.8164022",
-  "img": null,
+  "img": "data/toc/10.1002_anie.8164022__toc.jpg",
   "ab_full": true,
   "score": 11.6,
   "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 3
+  "search_v": 3,
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-15",
@@ -6199,10 +6204,10 @@
   "tag": "Synthetic methodology",
   "ab": "Tertiary amines are privileged motifs in bioactive molecules. However, their chemical synthesis lacks sustainability, and biocatalytic alternatives remain underdeveloped. Therefore, there is an urgent need to develop innovative catalytic strategies. We herein disclose the engineering of a wild‐type imine reductase into a tandem aminase for consecutive intermolecular reductive aminations, designated AHTanAm . The tandem aminase and its variants exhibit dual catalytic advantages, enabling one‐pot synthesis of hundreds of tertiary amines from broadly available primary amine precursors, and exerting precise stereochemical control over multiple stereocenters. Mechanistic dissection via x‐ray crystallography and mutagenesis revealed that enzyme‐pocket alterations amplify the second‐step amination's activity, which serves as the driving force for successful tandem catalysis. In summary, this study bridges the critical synthetic challenge in accessing tertiary amines by creating the first tandem aminase, to the best of our knowledge, via imine‐reductase redesign.",
   "doi": "10.1002/anie.3307774",
-  "img": "https://imgs.search.brave.com/P6Zviwuehkt2QMeJFnGcRHcBtsUyz2FtJxghxnTkJsA/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMTg1NGIz/OWYtOTYwMS00MWVi/LThmMmEtYjljYjli/YTQwZTZiL2FuaWU3/MzY0OC1ncmEtMDAw/MS1tLnBuZw",
+  "img": "data/toc/10.1002_anie.3307774__toc.jpg",
   "ab_full": true,
   "score": 11.0,
-  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3307774"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-15",
@@ -6282,10 +6287,10 @@
   "tag": "Synthetic methodology",
   "ab": "A covalent catch‐and‐release approach is described for the chemoenzymatic synthesis of HS oligosaccharides. It exploits that a glycan modified by a hydrazide tag can under mild acidic conditions efficiently be reacted with an aldehyde‐containing resin to give an immobilized hydrazone product. The hydrazone is stable under neutral conditions, allowing stringent washing conditions to remove all other components. The product can be released by transiminolysis using aqueous hydroxylamine, which, after evaporation, yields a compound that can be immediately employed in the next cycle of modification. As many as 11 consecutive transformations could be performed to give a homogenous octasaccharide having a complex pattern of sulfation and epimerization. The methodology provides opportunities to prepare convenient collections of biologically important HS oligosaccharides for structure‐function studies.",
   "doi": "10.1002/anie.2903805",
-  "img": "https://imgs.search.brave.com/3wHz6_V2HAVGUE1675AsccJk2S3A0FIqKq5WKp7CSok/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNmMyYjdh/NzAtYzhmNi00MTYz/LWIzNzgtYzgzZWNj/NTI4MDJlL2FuaWU3/MzUzNC1ncmEtMDAw/MS1tLnBuZw",
+  "img": "data/toc/10.1002_anie.2903805__toc.jpg",
   "ab_full": true,
   "score": 12.6,
-  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.2903805"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-13",
@@ -6295,12 +6300,13 @@
   "tag": "Total synthesis",
   "ab": "Polycyclic cembrane diterpenoids and norditerpenoids have garnered sustained interest from the synthetic community due to their unique polycyclic frameworks and promising biological activities. Herein, we report a 13‐step total synthesis of (+)‐ineleganolide, a highly oxidized cembrane norditerpenoid possessing a synthetically challenging [6,7,5,5,5] cage‐type pentacyclic scaffold. This synthesis is highlighted by a novel strategy relying on an intramolecular Diels–Alder reaction that stereoselectively constructs the pivotal [6,6,5,5,5] pentacyclic framework as a single diastereoisomer, addressing stereochemical control challenges. In the late‐stage elaboration, a tandem epoxidation/Meinwald rearrangement efficiently forges the sterically congested central seven‐membered ring. This synthetic strategy provides a new blueprint for accessing other members of the cembrane norditerpenoid family.",
   "doi": "10.1002/anie.2110292",
-  "img": null,
+  "img": "data/toc/10.1002_anie.2110292__toc.jpg",
   "ab_full": true,
   "score": 14.3,
   "search_n": 1,
   "search_tried": "2026-10-25",
-  "search_v": 3
+  "search_v": 3,
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-13",
@@ -6337,10 +6343,10 @@
   "tag": "Cross-coupling",
   "ab": "Unprotected C ‐aryl glycosides are ubiquitous in biologically active compounds and are widely used in chemical biology. The stereochemistry at the anomeric carbon of a C ‐glycoside often dictates its function. Despite past advances in C ‐glycosylation, methods that provide selective access to both α and β anomers are scarce due to the challenge of controlling stereoselectivity. Herein, we demonstrate that native sugars, when transformed into glycosyl sulfonyl hydrazide precursors, undergo efficient radical cross‐coupling with (hetero)aryl halides under redox‐neutral nickel catalysis. The method has broad scope and excellent functional group tolerance, enabling the stereodivergent synthesis of diverse C ‐(hetero)aryl glycosides in either α or β anomeric forms through ligand control.",
   "doi": "10.1002/anie.9453527",
-  "img": "https://imgs.search.brave.com/tIYFQ9fdTywZTTEi50HpPjGWiMzwJDxl1Oe3R-E6dsM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNjkxYTlk/MmItY2FiYi00NTE0/LTg4NGMtMmMyZmJi/YjQ5ODM4L2FuaWU3/MzM1Ni1maWctMDAw/My1tLnBuZw",
+  "img": "data/toc/10.1002_anie.9453527__toc.jpg",
   "ab_full": true,
   "score": 13.8,
-  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.9453527"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-11",
@@ -6350,10 +6356,10 @@
   "tag": "Natural products",
   "ab": "Achieving selective oxygenation chemistry offers a powerful strategy for streamlining routes to complex target molecules, yet the development of site‐selective C–H functionalization reactions is challenging. Several enzyme families are capable of catalyzing C–H hydroxylation reactions and, in principle, provide an attractive solution for achieving selective oxidative transformations. In practice, however, the difficulty of identifying a biocatalyst suited to a specific synthetic target often renders chemoenzymatic strategies impractical. For example, biosynthetic enzymes such as CitB and ClaD can mediate site‐selective benzylic hydroxylation, enabling access to select natural products that share structural features with their native substrates. Nonetheless, such approaches typically lack generality and do not readily extend to broader collections of natural products. Here, we explore the previously unstudied natural sequence space surrounding biosynthetic hydroxylases CitB and ClaD to generate a bespoke panel of uncharacterized enzymes that collectively expand the substrate scope of biocatalytic benzylic hydroxylation reactions. Development of this curated biocatalyst panel enabled the hydroxylation of a set of orcinaldehyde‐like substrates, which were further elaborated to six natural products.",
   "doi": "10.1002/anie.4567477",
-  "img": "https://imgs.search.brave.com/6QUO1R9cpBnabiCm1clTdbszbrLuo38cLsVZvb4HeFg/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMjI3OWQz/YzYtYzNmNi00ZWE4/LThhZGItNDRjNjNl/NWNkODczL2FuaWU3/MzU1NC1ncmEtMDAw/MS1tLnBuZw",
+  "img": "data/toc/10.1002_anie.4567477__toc.jpg",
   "ab_full": true,
   "score": 10.3,
-  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.4567477"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-11",
@@ -6363,10 +6369,10 @@
   "tag": "Total synthesis",
   "ab": "Cyclic imines are common intermediates in the biosynthesis of alkaloids, but their use in enantioselective organic synthesis is limited by their high reactivity and tendency to trimerize. Here, we present a mild organocatalytic method for the stereoselective addition of malonates to cyclic imines. Under carefully optimized conditions that suppress background reactivity, cinchona alkaloid‐derived catalysts enabled access to α‐functionalized pyrrolidines and 5‐6‐5 and 6‐6‐5 tricycles in high yields and stereoselectivity. Mechanistic studies revealed that the catalyst controls the stereochemistry of the initial addition, while subsequent reactions are governed by the substrate. The total synthesis of the alkaloid Tetraponerine T‐1, the shortest route reported to date, highlights the synthetic utility of the methodology.",
   "doi": "10.1002/anie.8336123",
-  "img": "https://imgs.search.brave.com/-Ucg7YKclW4GSGIzIVYm6uUI2cML-e1StR579b-G_t8/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNWQ5Yzgy/MmQtYWE0NS00ZGM5/LWFhMzItY2Y4Yjdk/Njg5MGE5L2FuaWU3/MzM0MC1ncmEtMDAw/MS1tLnBuZw",
+  "img": "data/toc/10.1002_anie.8336123__toc.jpg",
   "ab_full": true,
   "score": 14.7,
-  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.8336123"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-11",
@@ -6376,10 +6382,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "The selective and consecutive cleavage of C(sp 3 )─C(sp 3 ) bonds while simultaneously governing chemo‐, regio‐, and stereoselectivity constitutes a long‐standing unresolved challenge in synthetic chemistry. Here, we present a visible light‐driven copper catalysis platform that surmounts this obstacle. A chiral bisoxazoline copper complex acts as a multifunctional catalyst, and a tailored sodium sulfoxylate additive modulates the metal coordination sphere, altogether eliminating the requirement for an external photosensitizer. This streamlined system promotes twofold C(sp 3 )─C(sp 3 ) fragmentation of cyclobutanols and subsequent coupling with imines to construct quaternary carbon stereocenters, releasing ethylene as the sole byproduct. Integrated experimental and computational investigations delineate an unprecedented cascade mechanism: photoinduced ligand‐to‐metal charge transfer (LMCT) initiates strain‐release ring opening, a copper‐mediated β ‐cleavage executes the second fragmentation, and a highly enantioselective radical addition to the imine completes the stereodefined assembly. The sodium sulfoxylate additive proves indispensable for rerouting the pathway toward the second cleavage over premature radical trapping and elevating enantioselectivity to as high as 99% ee. By demonstrating rigorous kinetic command over multiple C(sp 3 )─C(sp 3 ) cleavages within a single cascade, this work establishes a new paradigm for photochemical asymmetric synthesis.",
   "doi": "10.1002/anie.2800092",
-  "img": "https://imgs.search.brave.com/XHWCJaH-S-AdkEJ3TBwrW8LGE5Qs8Cx3ZW4XnH0BApU/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNDkwODU3/N2MtZDRhNS00YmE0/LThlN2MtMTYyMjM3/MTEzNGJlL2FuaWU3/MzU5Ny1ncmEtMDAw/MS1tLnBuZw",
+  "img": "data/toc/10.1002_anie.2800092__toc.jpg",
   "ab_full": true,
   "score": 12.3,
-  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.2800092"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-10",
@@ -6466,10 +6472,10 @@
   "tag": "Carbene chemistry",
   "ab": "The deliberate integration of reactive intermediates into programmed bond‐forming sequences represents a powerful approach for advancing organic synthesis and enabling novel transformations. Among these intermediates, transient nitrene species are particularly attractive due to their capacity to generate two new X─N covalent bonds. However, the development of nitrene‐mediated reactions has been hindered by difficulties in controlling their high reactivity and the limited availability of efficient precursors. We hypothesized that a catalytic strategy enabling the sequential generation of carbene and nitrene intermediates could facilitate the cascade activation of common nitriles, thereby unveiling their latent potential as nitrene sources. In this work, we report a methodology for the catalytic generation of a sulfoxonium (S VI )‐substituted metal‐carbenoid, which undergoes reaction with nitriles to afford S VI ‐azirine species. Under photochemical and metal‐mediated activation conditions, these three‐membered strained rings rearrange to form vinyl metal‐nitrenoid intermediates. Subsequent B‐H insertion of the nitrenoid with boranes delivers tetra‐ substituted enamine products. The described approach proceeds with high efficiency and selectivity, traverses two highly reactive intermediates, and establishes an unprecedented activation mechanism for conventional nitrile substrates.",
   "doi": "10.1002/anie.9090329",
-  "img": "https://imgs.search.brave.com/Uh6Ar7rYNfT0KIjNvNy57Op-WSG05AgbPTTGJc3JVYI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMWUzZmQ2/YzEtNGM4Yy00M2Nl/LTkzMzItZGY0NjZh/MDZkZDViL2FuaWU3/MzU5Mi1ncmEtMDAw/MS1tLnBuZw",
+  "img": "data/toc/10.1002_anie.9090329__toc.jpg",
   "ab_full": true,
   "score": 11.6,
-  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.9090329"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-10",
@@ -6479,12 +6485,13 @@
   "tag": "Synthetic methodology",
   "ab": "We report a unified method for the synthesis of α‐polyhalomethyl amines from alkenes and alkynes, enabled by readily available hemiaminal reagents. This operationally simple transformation allows for the introduction of not only well‐established CF 3 and CF 2 H groups, but also the synthetically (and medicinally) underexplored CF 2 Cl and CFClH motifs—thereby broadening access to previously inaccessible chemical space of halogenated amine scaffolds. The method displays broad substrate scope and functional‐group tolerance while operating under mild conditions. Late‐stage functionalization of drug‐like derivatives of Oxaprozin, Erlotinib, and Ibuprofen (among others) is reported.",
   "doi": "10.1002/anie.1233707",
-  "img": null,
+  "img": "data/toc/10.1002_anie.1233707__toc.jpg",
   "ab_full": true,
   "score": 13.6,
   "search_n": 1,
   "search_tried": "2026-10-26",
-  "search_v": 3
+  "search_v": 3,
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-10",
@@ -6547,10 +6554,11 @@
   "doi": "10.1002/anie.7194437",
   "ab_full": true,
   "score": 9.8,
-  "img": null,
+  "img": "data/toc/10.1002_anie.7194437__toc.jpg",
   "search_n": 1,
   "search_tried": "2026-10-26",
-  "search_v": 3
+  "search_v": 3,
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-09",
@@ -6650,10 +6658,10 @@
   "tag": "C–H functionalization",
   "ab": "Divergent synthetic transformations that convert a single precursor into a range of structurally distinct products are powerful tools for rapidly exploring chemical space. Although numerous strategies exist for converting versatile functional handles such as halides and boronic acids into a multitude of reactive intermediates, there remains a pressing need for methodologies that exploit alternative linchpin fragments to open complementary avenues to molecular complexity. Herein, we report a divergent, anomeric amide‐enabled, aldehyde functionalization strategy, allowing access to unsymmetrical ureas, carbamates, thiocarbamates, thioesters, amines, or amides, all in a one‐pot procedure. Unique to this transformation is the formation of N ‐Boc‐hydroxamate intermediates, which serve as privileged platforms for orthogonal activation via Lossen‐type rearrangements, single‐electron transfer, or nucleophilic substitution, generating a diverse selection of reactive intermediates. Overall, this work establishes N ‐halo‐ O ‐activated hydroxycarbamate‐type anomeric amides as valuable reagents for aldehyde diversification, offering a complementary approach to molecular complexity generation from feedstock compounds.",
   "doi": "10.1002/anie.9599258",
-  "img": "https://imgs.search.brave.com/fOD3zLLYUrMuFOJQ_FUX1YhD41STpOVakPrEo_Ydcj8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNDEyNTEw/YzAtN2YyMS00NWYy/LTgwYWUtODIzMzhk/ZDI1YmQwL2FuaWU3/MzQwNC1ncmEtMDAw/MS1tLnBuZw",
+  "img": "data/toc/10.1002_anie.9599258__toc.jpg",
   "ab_full": true,
   "score": 10.4,
-  "img_src": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.9599258"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-07",
@@ -6678,12 +6686,13 @@
   "tag": "Synthetic methodology",
   "ab": "Sulfonimidamides are an emerging motif in medicinal chemistry; however, current synthetic routes often require multistep reaction sequences, deprotection steps, and lack the modularity needed for rapid and diverse library synthesis. Here, we describe the synthesis and application of previously unexplored N ‐alkoxysulfurdiimide reagents for the direct, one‐step preparation of primary NH 2 ‐sulfonimidamides. By modulating the choice of N ‐substituent, N ‐alkoxysulfurdiimide reagents can be designed to deliver different product distributions. This reactivity correlates with the electron density at sulfur, as inferred from 13 C NMR chemical shifts from the reagents. This tunability can be exploited to design reagents with improved compatibility across organometallic reagents, enabling the preparation of a diverse set of primary NH 2 ‐sulfonimidamides.",
   "doi": "10.1002/anie.7086997",
-  "img": null,
+  "img": "data/toc/10.1002_anie.7086997__toc.jpg",
   "ab_full": true,
   "score": 10.8,
   "search_n": 1,
   "search_tried": "2026-10-26",
-  "search_v": 3
+  "search_v": 3,
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-07",
@@ -6693,10 +6702,10 @@
   "tag": "C–H functionalization",
   "ab": "We report the divergent synthesis of a Möbius N‐heterocycloarene ( 1 ) and a Hückel N‐heterocycloarene ( 2 ) from a common macrocyclic precursor. The topology is governed by the annulation reaction: the Scholl reaction yields the Möbius topology, while InCl 3 ‐mediated alkyne annulation gives the Hückel topology. In acyclic models, both reactions favor C4/C5 over C2/C7 bond formation, but this regioselectivity reverses in the constrained macrocycle. The Scholl reaction forms three bonds at C2, one at C7, and two at C5—one inducing the 180° twist for the Möbius topology and the other accompanied by a skeletal rearrangement, whereas alkyne annulation exclusively forms C2/C7 bonds to afford the Hückel topology. Crystal structure analysis and computational studies show uneven contortion in 1 and localized aromatic ring currents in both 1 and 2 . Compound 2 adopts a saddle‐shaped geometry with high conformational flexibility and binds tetrafluoroborate via C–H···F hydrogen bonds in solution.",
   "doi": "10.1002/anie.2790811",
-  "img": "https://imgs.search.brave.com/WcjSvyG9NU4CaNZxJ-Od0-dx7hrbgA5pcNsZn8ZKH24/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvYWFhZDEz/MDEtZGY1ZS00MjE4/LTliZDEtMGY0OTNi/OGFhOTI1L2FuaWU3/MzQ5Ni1ncmEtMDAw/MS1tLnBuZw",
+  "img": "data/toc/10.1002_anie.2790811__toc.jpg",
   "ab_full": true,
   "score": 11.3,
-  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.2790811"
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-07",
@@ -6706,12 +6715,13 @@
   "tag": "Asymmetric catalysis",
   "ab": "Catalytic dearomative photocycloaddition stands as one of the most powerful strategies for constructing highly complex, three‐dimensional polycyclic scaffolds from readily accessible planar aromatic precursors. However, achieving asymmetric variants of these transformations with simple alkenes remains a formidable challenge, as it demands precise control over regio‐, diastereo‐, and enantioselectivity. Herein, we report asymmetric dearomatizing [2 + 2] and [4 + 2] photocycloadditions of 2‐naphthalene derivatives by chiral terbium(III)/ N,N' ‐dioxide complexes, wherein a pronounced ligand‐acceleration effect is operative. The selectivity between the two pathways is governed by reaction temperature, alkene stoichiometry, and reaction time, thereby enabling the divergent synthesis of chiral cyclobutane‐fused adducts (46 examples, up to 99% yield, > 19:1 dr, 99% ee) and bridged adducts (41 examples, up to 99% yield, up to 12:1 dr, 99% ee) with high efficiency. Notably, both cycloaddition manifolds accommodate terminal and internal olefins. Mechanistic investigations elucidate the origin of the ligand‐acceleration effect and establish a kinetic basis for ortho ‐selectivity in the [2 + 2] pathway and a thermodynamic basis for para ‐selectivity in the [4 + 2] pathway. Density functional theory calculations further rationalize the competitive interplay between [2 + 2] and [4 + 2] cycloadditions and provide insight into the stereochemical outcome.",
   "doi": "10.1002/anie.7800916",
-  "img": null,
+  "img": "data/toc/10.1002_anie.7800916__toc.jpg",
   "ab_full": true,
   "score": 11.2,
   "search_n": 1,
   "search_tried": "2026-10-26",
-  "search_v": 3
+  "search_v": 3,
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-07",
@@ -6871,12 +6881,13 @@
   "tag": "Asymmetric catalysis",
   "ab": "We report a synergistic photoredox/copper‐catalyzed radical cascade cyclization for the enantioselective synthesis of axially chiral medium‐sized lactones. Compared with conventional ionic pathways that require stringent polarity matching and substrate prefunctionalization, the present strategy employs alkyl halides as radical precursors, wherein photoredox mediated single electron transfer (SET) generates radicals that undergo radical addition to non‐polarized alkenes followed by C–O bond formation. High stereocontrol and efficiency are achieved through a carboxylate‐coordinated chiral copper complex (up to 83% yield, up to 96% e.e., >20:1 d.r.). The synthetic utility is demonstrated by the late‐stage diversification of bioactive molecules. Theoretical calculations reveal that the stereodetermining step occurs during C–O bond formation, and that thermodynamic stability facilitates a central‐to‐axial chirality relay, thereby governing axial stability in the flexible seven‐membered scaffolds.",
   "doi": "10.1002/anie.3596438",
-  "img": null,
+  "img": "data/toc/10.1002_anie.3596438__toc.jpg",
   "ab_full": true,
   "score": 14.8,
   "search_n": 1,
   "search_tried": "2026-10-26",
-  "search_v": 3
+  "search_v": 3,
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-07-02",
@@ -7002,12 +7013,13 @@
   "tag": "Natural products",
   "ab": "Alkyl‐substituted internal alkynes are useful motifs in organic synthesis and medicinal chemistry, but their preparation from common amine precursors remains challenging. Aliphatic primary amines are widespread functional groups, yet their direct use as alkylating reagents is limited by the strength of the C(sp 3 )─N bond. Herein, we describe a direct deaminative alkynylation of aliphatic primary amines using alkynyl bromides as coupling partners. The transformation proceeds under metal‐free conditions with an N ‐anomeric amide as a nitrogen‐deletion reagent, enabling formation of C(sp 3 )─C(sp) bonds without prior amine prefunctionalization. The reaction shows good functional‐group tolerance and accommodates a range of aliphatic amines, including substrates derived from pharmaceuticals and natural products. This study demonstrates the feasibility of converting aliphatic primary amines into internal alkynes and expands the scope of deaminative C─C bond‐forming reactions.",
   "doi": "10.1002/anie.1809869",
-  "img": null,
+  "img": "data/toc/10.1002_anie.1809869__toc.jpg",
   "ab_full": true,
   "score": 12.8,
   "search_n": 1,
   "search_tried": "2026-10-26",
-  "search_v": 3
+  "search_v": 3,
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-06-30",
@@ -7129,10 +7141,11 @@
   "doi": "10.1002/anie.3547092",
   "ab_full": true,
   "score": 9.2,
-  "img": null,
+  "img": "data/toc/10.1002_anie.3547092__toc.jpg",
   "search_n": 1,
   "search_tried": "2026-10-26",
-  "search_v": 3
+  "search_v": 3,
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-06-26",
@@ -7409,12 +7422,13 @@
   "tag": "Asymmetric catalysis",
   "ab": "The enantioselective construction of acyclic quaternary carbon stereocenters and vicinal quaternary/tertiary stereocenters represents two persistent challenges in organic synthesis. Herein, we report a unified transient boryl‐assisted, catalytic enantioselective strategy that enables the synthesis of both isolated quaternary carbon stereocenters and vicinal quaternary/tertiary stereocenters. Central to this strategy are the boryl‐organized stereodefined acyclic tetrasubstituted enolates and their subsequent stereoselective alkylation, achieved through highly enantioselective copper‐catalyzed conjugate borylation of α ‐substituted α,β ‐unsaturated esters. The resulting borylative alkylation products are obtained with high enantio‐ and diastereoselectivity (up to 98% ee and > 20:1 d.r.) and undergo diverse downstream transformations of the boryl unit, providing versatile access to acyclic quaternary/tertiary stereocenters. Following its stereodirecting role, the boron unit can be removed in a one‐pot protodeboronation to furnish esters bearing isolated α ‐quaternary stereocenters with high ee values (up to 94% ee). This catalytic strategy provides a general solution to the stereocontrolled alkylation of acyclic tetrasubstituted enolates and enables modular access to complex quaternary carbon architectures.",
   "doi": "10.1002/anie.2461107",
-  "img": null,
+  "img": "data/toc/10.1002_anie.2461107__toc.jpg",
   "ab_full": true,
   "score": 10.8,
   "search_n": 1,
   "search_tried": "2026-10-26",
-  "search_v": 3
+  "search_v": 3,
+  "img_src": "TOC helper"
  },
  {
   "date": "2026-06-23",
@@ -8875,7 +8889,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c01837/asset/images/medium/cs6c01837_0001.gif",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-10-26",
+  "search_v": 3
  },
  {
   "date": "2026-05-26",
