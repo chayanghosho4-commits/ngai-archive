@@ -40,7 +40,7 @@ ol{padding-left:20px;margin:6px 0}
 <h2><span class="n">1</span>Add the bookmark (once)</h2>
 <p>Drag this button onto your browser's bookmarks bar. If you can't see the bar, press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> (Mac: <kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>).</p>
 <p><a class="bm" id="bm" href="#" title="Drag me to your bookmarks bar">📥 Get TOC pictures</a></p>
-<p class="card" style="font-size:15px"><b>New version (v6, 25 Oct 2026), for ACS's new website and for Science.</b> ACS moved to a new platform (Silverchair) on 24 July 2026, which broke the old bookmark. If you added the bookmark before, delete the old one (right-click it → Delete) and drag this button again. The panel's title shows <b>v6</b> when the new one runs. It starts fresh, so papers the old versions could not find are tried again.</p>
+<p class="card" style="font-size:15px"><b>Version 7 (25 Oct 2026): ACS mode is now page-only.</b> On pubs.acs.org the bookmark only takes pictures already shown on the page you are on; it no longer visits other ACS pages, because ACS blocks automated access. ACS moved to a new platform (Silverchair) on 24 July 2026, which broke the old bookmark. If you added the bookmark before, delete the old one (right-click it → Delete) and drag this button again. The panel's title shows <b>v7</b> when the new one runs. It starts fresh, so papers the old versions could not find are tried again.</p>
 <p class="mut" style="font-size:14px">Dragging doesn't work? <button class="btn" id="copybm">Copy the bookmark code</button> then add a new bookmark by hand, name it <i>Get TOC pictures</i>, and paste the code as its address (URL).</p>
 
 <h2><span class="n">2</span>Open a publisher site and click the bookmark</h2>
@@ -65,7 +65,7 @@ ol{padding-left:20px;margin:6px 0}
 
 <script type="text/plain" id="bm-src">
 (async () => {
-  const LIST = "__LIST__", VER = "v6", BATCH = 100, MAXW = 1100, PAUSE = 600, KEY = "ngai-toc-done-v4", MKEY = "ngai-toc-miss-v4", FKEY = "ngai-toc-found-v6";
+  const LIST = "__LIST__", VER = "v7", BATCH = 100, MAXW = 1100, PAUSE = 600, KEY = "ngai-toc-done-v4", MKEY = "ngai-toc-miss-v4", FKEY = "ngai-toc-found-v6";
   const SITES = {"pubs.acs.org": "10.1021/", "onlinelibrary.wiley.com": "10.1002/", "www.science.org": "10.1126/", "science.org": "10.1126/"};
   const ACS = {"jacs": "ja", "acscatal": "cs", "acs.orglett": "ol", "acs.joc": "jo", "acscentsci": "oc", "acs.jmedchem": "jm", "acs.chemrev": "cr", "acs.accounts": "ar", "acs.inorgchem": "ic", "acs.organomet": "om"};
   const LISTS = {"jacs": ["jacsat", "JACS"], "acscatal": ["accacs", "ACS Catal."]};
@@ -287,7 +287,7 @@ ol{padding-left:20px;margin:6px 0}
   if (here) listInfo.push(here + " on this page");
   const tally = () => Object.keys(found).length + " of " + todo.length + " found";
   const jset = [...new Set([...want.keys()].map(d => d.split("/")[1].split(".").slice(0, -1).join(".")).filter(j => LISTS[j]))];
-  if (prefix === "10.1021/" && want.size >= 5 && jset.length && !(fcache.day === today && fcache.complete)) {
+  if (false && prefix === "10.1021/" && want.size >= 5 && jset.length && !(fcache.day === today && fcache.complete)) {
     const good = x => x && x.total > 0;
     const nextOf = doc => { const a = [...doc.querySelectorAll("a[href]")].find(a => /latest-articles|[?&]page=/i.test(a.getAttribute("href")) && (a.getAttribute("rel") === "next" || /(^|\W)next(\W|$)|›|»/i.test((a.getAttribute("aria-label") || "") + " " + a.className + " " + a.textContent.trim().slice(0, 12)))); return a ? a.getAttribute("href") : null; };
     for (const j of jset) {
@@ -354,7 +354,7 @@ ol{padding-left:20px;margin:6px 0}
     if (copied < BATCH) say("Copying pictures: " + (i + 1) + " of " + list.length + '<br><small>' + listInfo.length + " list pages read · " + copied + " copied" + (Object.keys(urls).length ? " · " + Object.keys(urls).length + " as links" : "") + "</small>");
     await record(d, found[d], from[d]);
   }
-  const rest = todo.filter(p => !found[low(p.doi)]).slice(0, Math.max(0, BATCH - copied));
+  const rest = prefix === "10.1021/" ? [] : todo.filter(p => !found[low(p.doi)]).slice(0, Math.min(30, Math.max(0, BATCH - copied)));
   let sciOk = 0, sciMiss = 0;
   const sciFiles = async doi => {
     const s = low(doi).split("/")[1];
@@ -388,7 +388,7 @@ ol{padding-left:20px;margin:6px 0}
     if (got && got.slow) break;
     if (got && got.r) await record(d, got.r, "article pages");
     else { const k = (got && got.why) || "unknown"; missed.push({d: d, real: /nothing found on it|not found \(HTTP 404\)/.test(k) && !/refused|security|did not load/.test(k)}); why[k] = (why[k] || 0) + 1; }
-    await wait(prefix === "10.1021/" ? 1500 : PAUSE);
+    await wait(4000);
   }
   handled.forEach(d => { miss[d] = {n: (miss[d] || {}).n || 0, day: today, v: VER}; });
   missed.forEach(x => { if (copied || Object.keys(urls).length || x.real) { const o = miss[x.d] || {n: 0}; if (o.day !== today) miss[x.d] = {n: o.n + 1, day: today, v: VER}; } });
