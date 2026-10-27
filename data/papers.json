@@ -16,6 +16,21 @@
   "img_src": "TOC helper (link)"
  },
  {
+  "date": "2026-10-26",
+  "j": "ACS Catal.",
+  "t": "Nickel-Catalyzed Electroreductive Cross-Electrophile Coupling of Aryl/Alkenyl Triflates with Alkyl Bromides Assisted by an Organo-Mediator",
+  "au": "Yikun Ji … Yubing Huang",
+  "tag": "Synthetic methodology",
+  "ab": "Given the thermodynamic stability of the C(sp2)–O bond, the development of simple and efficient strategies for its functionalization holds significant practical value. In this study, we report an electroreductive, one-pot nickel-catalyzed cross-electrophile coupling (XEC) of aryl/alkenyl triflates with diverse (1°, 2°, and 3°) alkyl bromides. Rapid in situ generation of Ni0 species enables efficient activation of the C(sp2)–O bond, yielding a broad range of C(sp2)–C(sp3) coupling products. Notably, the ligand functions as an organo-mediator to assist alkyl halide activation and prevent the over-reduction of substrates. This protocol is distinguished by its broad substrate scope, scalability, and mild reaction conditions.",
+  "doi": "10.1021/acscatal.6c06705",
+  "ab_full": true,
+  "score": 12.1,
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06705/asset/images/medium/cs6c06705_0001.gif",
+  "search_n": 1,
+  "search_tried": "2026-10-27",
+  "search_v": 3
+ },
+ {
   "date": "2026-10-25",
   "j": "ACS Catal.",
   "t": "Photoredox-Mediated Three-Component Carboamination of Reverse Exo -Glycals: Modular Access to C 4-Quaternary Furanosides and Spironucleosides",
@@ -1523,22 +1538,6 @@
   "search_tried": "2026-10-25",
   "search_v": 2,
   "img_src": "TOC helper (link)"
- },
- {
-  "date": "2026-10-05",
-  "j": "Angew. Chem. Int. Ed.",
-  "t": "To Greater Twist: A Kinetically Biased π‐Radical Cascade",
-  "au": "Yong Yang … Michal Juríček",
-  "tag": "Radical chemistry",
-  "ab": "… π‐Radical cascades of open‐shell graphene fragments—exemplified by phenalenyl and related systems—are emerging as a versatile synthetic tool for constructing complex polycyclic aromatic frameworks. While previous investigations showed that the reaction outcome can be reduced to a single possibility in both intra‐ and intermolecular settings, the findings of this study uncover a broader dimension of control. In a scenario with several competing pathways involving di‐ and trisubstituted phenalenyl derivatives, the cascade is kinetically steered toward a single, more distorted peropyrene product, a counterintuitive outcome enabled by an intrinsic mechanistic bias.",
-  "doi": "10.1002/anie.5803864",
-  "ab_full": true,
-  "score": 7.3,
-  "img": "data/toc/10.1002_anie.5803864__toc.jpg",
-  "search_n": 1,
-  "search_tried": "2026-10-25",
-  "search_v": 2,
-  "img_src": "TOC helper"
  },
  {
   "date": "2026-10-04",
