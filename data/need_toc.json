@@ -1,5 +1,23 @@
 [
 {
+"doi": "10.1021/jacs.6c14863",
+"j": "J. Am. Chem. Soc.",
+"t": "Catalytic Asymmetric Diels–Alder Reaction of β,β-Disubstituted Enals with Cyclopentadiene: Syntheses of (−)-Camphene, (−)-β-Santalene, and (−)-( Z )-β-Santalol",
+"m": "2026-10"
+},
+{
+"doi": "10.1002/anie.1620568",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Divergent (3+2) Cycloaddition of Vinyl Epoxides with Alkenes by Sequential Cleavage and Formation of C─O or C─C Bonds under Radical Covalent Catalysis of Thiazo",
+"m": "2026-10"
+},
+{
+"doi": "10.1021/acscatal.6c06982",
+"j": "ACS Catal.",
+"t": "Electronic Control of Mechanistic Divergence in Iron-Catalyzed Olefin Carboamidation to β- and γ-Lactams",
+"m": "2026-10"
+},
+{
 "doi": "10.1021/acscatal.6c06705",
 "j": "ACS Catal.",
 "t": "Nickel-Catalyzed Electroreductive Cross-Electrophile Coupling of Aryl/Alkenyl Triflates with Alkyl Bromides Assisted by an Organo-Mediator",
@@ -69,18 +87,6 @@
 "doi": "10.1021/jacs.6c16551",
 "j": "J. Am. Chem. Soc.",
 "t": "1,3- cis -Disubstituted Cycloalkanes by Iridium-Catalyzed Enantio-convergent Migratory Hydroheteroarylation",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c06650",
-"j": "ACS Catal.",
-"t": "Direct Amidination of Alkenes Via C–H Activation of Pyridinyl Formimidamide Synthon",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/acscatal.6c07098",
-"j": "ACS Catal.",
-"t": "Catalytic Asymmetric Allylic Substitution with Alkynylogous Silyl Enol Ethers En Route to Chiral Allenes",
 "m": "2026-10"
 },
 {

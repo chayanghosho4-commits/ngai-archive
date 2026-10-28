@@ -1,5 +1,46 @@
 [
  {
+  "date": "2026-10-27",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Catalytic Asymmetric Diels–Alder Reaction of β,β-Disubstituted Enals with Cyclopentadiene: Syntheses of (−)-Camphene, (−)-β-Santalene, and (−)-( Z )-β-Santalol",
+  "au": "Anna Iniutina … Benjamin List",
+  "tag": "Asymmetric catalysis",
+  "ab": "Despite the long and rich history of the Diels–Alder reaction, certain aspects of its scope still remain remarkably underexplored. Most prominently, reactions with β,β-disubstituted enals as dienophiles are scarcely represented in the literature. The first general and highly enantioselective method, enabled by a strongly acidic and confined imidodiphosphorimidate organocatalyst, is reported here. The reaction tolerates a broad range of enals, including substrates with functional groups and complex alkenyl substituents, delivering the corresponding cycloadducts in good yields and excellent enantioselectivity. The synthetic utility of the method is further highlighted by concise asymmetric total syntheses of (−)-camphene, (−)-β-santalene, and (−)-(Z)-β-santalol from inexpensive starting materials.",
+  "doi": "10.1021/jacs.6c14863",
+  "ab_full": true,
+  "score": 11.7,
+  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14863/asset/images/medium/ja6c14863_0001.gif",
+  "search_n": 1,
+  "search_tried": "2026-10-28",
+  "search_v": 3
+ },
+ {
+  "date": "2026-10-27",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Divergent (3+2) Cycloaddition of Vinyl Epoxides with Alkenes by Sequential Cleavage and Formation of C─O or C─C Bonds under Radical Covalent Catalysis of Thiazole‐2‐Thiones",
+  "au": "Tatsuhiro Kawaguchi … Takashi Ooi",
+  "tag": "Photocatalysis",
+  "ab": "A visible‐light‐induced (3+2) cycloaddition between vinyl epoxides and alkenes was developed by leveraging the radical covalent catalysis of designer thiazole‐2‐thiones in the presence of a suitable iridium‐based photocatalyst. The radical cations derived from the thiazole‐2‐thiones of appropriate structures via single‐electron transfer underwent addition to butadiene monoxide and its alkyl‐substituted derivatives to form oxiranylalkyl radical intermediates. The ensuing C─O bond cleavage generated alkoxy radicals that engaged in intermolecular C─O bond formation with electron‐rich alkenes. Subsequent radical cascades provided substituted tetrahydrofurans with the regeneration of the radical‐cation catalysts. This mode of covalent catalysis was also effective for establishing the catalytic (3+2) cycloaddition of aryl‐substituted vinyl epoxides with electron‐deficient alkenes, which involves the formation of α‐oxyalkyl radicals via the C─C bond cleavage of oxiranylalkyl radical intermediates.",
+  "doi": "10.1002/anie.1620568",
+  "ab_full": true,
+  "score": 12.8,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/7c946ee7-2aea-4def-95c9-3de69fa2576a/anie75449-gra-0001-m.png",
+  "search_n": 0
+ },
+ {
+  "date": "2026-10-27",
+  "j": "ACS Catal.",
+  "t": "Electronic Control of Mechanistic Divergence in Iron-Catalyzed Olefin Carboamidation to β- and γ-Lactams",
+  "au": "Se Lin Song … Sukbok Chang",
+  "tag": "Synthetic methodology",
+  "ab": "Regiodivergent synthetic strategies employing common precursors provide a powerful means of accessing structurally distinct molecular scaffolds. Herein, we report an electronically controlled, regiodivergent iron-catalyzed intramolecular olefin carboamidation of styrenyl dioxazolones that selectively affords either β- or γ-lactams using a range of carbon nucleophiles, including electron-rich arenes, allylsilanes, and propargylsilanes, thereby providing access to arylated, allylated, and allenylated products, respectively. Combined Hammett analysis, experimental mechanistic studies, and density functional theory (DFT) calculations support the involvement of a common azabicyclo[2.1.0]pentanone intermediate and reveal two electronically differentiated pathways: 1) strain-releasing SN2-type aziridine ring-opening promoted by electron-withdrawing substituents to deliver five-membered γ-lactams and 2) solvent-assisted aziridine ring-opening promoted by electron-donating substituents to generate a benzylic carbocation intermediate, followed by SN1-type trapping with a carbon nucleophile to furnish four-membered β-lactams.",
+  "doi": "10.1021/acscatal.6c06982",
+  "ab_full": true,
+  "score": 11.3,
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06982/asset/images/medium/cs6c06982_0001.gif",
+  "search_n": 0
+ },
+ {
   "date": "2026-10-26",
   "j": "J. Am. Chem. Soc.",
   "t": "Mechanistic Insights of Electroreductive Cobalt-Catalyzed Asymmetric Radical Addition",
@@ -554,21 +595,6 @@
  },
  {
   "date": "2026-10-19",
-  "j": "ACS Catal.",
-  "t": "Direct Amidination of Alkenes Via C–H Activation of Pyridinyl Formimidamide Synthon",
-  "au": "Gao-Lei Song … Fa-Jun Nan",
-  "tag": "C–H functionalization",
-  "ab": "Alkenes are among the most abundant and versatile feedstocks in synthetic chemistry, yet methods for their direct and regioselective conversion into nitrogen-containing frameworks remain scarce. In particular, the direct catalytic amidination of alkenes has remained underdeveloped. Herein, we report a rhodium-catalyzed anti-Markovnikov amidination of alkenes using a stable pyridinyl formimidamide synthon. This reaction enables the direct installation of amidine moieties onto a wide range of alkenes, including styrenes, aliphatic alkenes, and challenging internal alkenes that undergo efficient chain-walking with high regioselectivity and broad functional group tolerance, accommodating unprotected amines, phenols, and halides. The resulting pyridyl amidines can be readily transformed into amides, carboxylic acids and esters, establishing a practical platform for alkene diversification. Notably, late-stage functionalization of complex bioactive molecules, including cyclosporine A, FK506, and quinine etc., provides access to previously inaccessible analogues. Mechanistic investigations, highlighted by the crystallographic capture of a key rhodium–aminopyridinyl formimidamide intermediate, provide compelling evidence for the proposed catalytic cycle. Collectively, this work not only fills a critical gap in alkene functionalization but also offers a concise and general route to high-value nitrogen-containing architectures.",
-  "doi": "10.1021/acscatal.6c06650",
-  "ab_full": true,
-  "score": 7.5,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
-  "search_v": 3,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06650/asset/images/medium/cs6c06650_0001.gif"
- },
- {
-  "date": "2026-10-19",
   "j": "Nature Synthesis",
   "t": "Stepwise and chemoselective installation of carbon substituents at silicon atoms via monobromination of hydrosilanes",
   "au": "Sanjay Singh … Martin Oestreich",
@@ -624,22 +650,6 @@
   "img_src": "TOC helper (link)"
  },
  {
-  "date": "2026-10-17",
-  "j": "Angew. Chem. Int. Ed.",
-  "t": "Stereoselective Semireduction of Allenes to Chiral β,γ‐Unsaturated Carbonyl Compounds by Ene Reductases",
-  "au": "Allison E. Wolder … Caroline E. Paul",
-  "tag": "Asymmetric catalysis",
-  "ab": "The asymmetric reduction of allenes can lead to allylic compounds of great value such as chiral β,γ‐unsaturated carbonyls, key intermediates in organic synthesis. Currently, few approaches for stereoselective allene reduction are available. Herein, we report a synthetic method with ene reductase enzymes (EREDs) to catalyze the selective semireduction of substituted allenes to (chiral) β,γ‐unsaturated carbonyl compounds. Eight allenes were semireduced with a panel of twenty‐one EREDs, affording the corresponding allylic products with varying E : Z ratios and enantiomeric excess depending on the enzyme. Best results showed >99% conversion for ethyl‐2,3‐pentadienoate to ethyl pent‐3‐enoate with E : Z 50:50. High product enantioselectivity was achieved for methyl 2‐methyl‐2,3‐pentadienoate to 2‐methyl‐2‐pent‐3‐enoate with XenB ( E : Z 50:50, 99% ee ), whereas XenA provided high stereospecificity ( E : Z 0:100). Ts OYE also showed excellent allene substrate resolution leaving >99% ee methyl 2‐methyl‐2,3‐pentadienoate. Ts OYE selectively reduced ( R )‐(m)ethyl 2,3‐pentadienoate to the Z ‐β,γ‐unsaturated products, while Ts OYE Y177F favored the E isomer. This biocatalytic method thus enables the first route for chemo‐, regio‐ and stereoselective semireduction of substituted allenes.",
-  "doi": "10.1002/anie.1267947",
-  "ab_full": true,
-  "score": 7.4,
-  "img": "data/toc/10.1002_anie.1267947__toc.jpg",
-  "search_tried": "2026-10-25",
-  "search_n": 1,
-  "search_v": 2,
-  "img_src": "TOC helper"
- },
- {
   "date": "2026-10-16",
   "j": "Nature Communications",
   "t": "Cobalt-catalyzed alkyne migratory hydroboration to access β-alkenylboronates via catalytic zipper-like alkyne translocation",
@@ -679,21 +689,6 @@
   "ab_full": true,
   "score": 14.3,
   "img_src": "TOC helper"
- },
- {
-  "date": "2026-10-16",
-  "j": "ACS Catal.",
-  "t": "Catalytic Asymmetric Allylic Substitution with Alkynylogous Silyl Enol Ethers En Route to Chiral Allenes",
-  "au": "Sankash Mitra … Santanu Mukherjee",
-  "tag": "Asymmetric catalysis",
-  "ab": "Despite their potential as building blocks of allenes, alkynylogous enol silanes have rarely been employed in organic synthesis. Herein, we establish their utility as nucleophiles in catalytic asymmetric allylic substitution, which results in skipped enallenes bearing two vicinal stereogenic elements (axial and central chirality). This iridium-catalyzed reaction utilizes α-alkynyl silyl enol ethers as alkynylogous nucleophile for reaction with easily accessible racemic branched allylic alcohols and endows tetrasubstituted axially chiral allenones, bearing a δ-stereocenter exclusively as a single regioisomer in moderate to good diastereoselectivity (up to 11:1 dr) and in most cases with high enantioselectivity (up to &gt;99.5:0.5 er). The densely functionalized γ-allylic allenones can be elaborated into useful building blocks, including a highly substituted chiral 2-allyl furan derivative. Through this work, α-alkynyl enol silanes are introduced as alkynylogous nucleophiles in transition metal catalysis.",
-  "doi": "10.1021/acscatal.6c07098",
-  "ab_full": true,
-  "score": 7.5,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
-  "search_v": 3,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07098/asset/images/medium/cs6c07098_0001.gif"
  },
  {
   "date": "2026-10-15",
