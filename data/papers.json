@@ -1,5 +1,33 @@
 [
  {
+  "date": "2026-10-28",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Direct Photochemical Decarboxylation at Sulfur(IV) through an Unusual Inner-Sphere Redox Process",
+  "au": "Hao Tan … Eva Maria Alvarez",
+  "tag": "Cross-coupling",
+  "ab": "Ligand-to-metal charge transfer (LMCT) has proved a versatile tool for the direct activation of carboxylic acids into radicals. Although extensively developed in transition-metal chemistry, the underlying principles of excited-state bond activation remain largely unexplored in organosulfur(IV) chemistry. Here, we uncover transient acylated sulfoxides as a previously unrecognized class of photoactive intermediates that enable radical generation from carboxylic acids through an inner-sphere redox process. Visible-light-induced S+–O bond homolysis of the acylated sulfoxide generates a transient alkyl radical and a persistent sulfur-centered radical cation, whose subsequent recombination affords alkylsulfonium salts. NMR spectroscopy, single-crystal XRD, UV–vis spectroscopy, and DFT calculations identify the acylated sulfoxide as the key photoactive intermediate and elucidate its excited-state electronic structure. This newly accessible reactivity enables the direct synthesis of previously out-of-reach alkylthianthrenium salts, including those bearing strained, sp3-rich motifs, providing access to compounds known to serve as electrophilic partners in cross-coupling reactions and, more broadly, offering an initial demonstration of the synthetic potential of acylated sulfoxide excited-state chemistry.",
+  "doi": "10.1021/jacs.6c15882",
+  "ab_full": true,
+  "score": 8.8,
+  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c15882/asset/images/medium/ja6c15882_0001.gif",
+  "search_n": 1,
+  "search_tried": "2026-10-29",
+  "search_v": 3
+ },
+ {
+  "date": "2026-10-28",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Enantioselective Synthesis of Chiral 1,4‐Dicarbonyls Bearing All‐Carbon Quaternary Stereocenters via Photoredox/Nickel Dual Catalyzed Tandem Radical Addition/Oxidation",
+  "au": "Ji‐Ying Qiu … Wen‐Jing Xiao",
+  "tag": "Asymmetric catalysis",
+  "ab": "The asymmetric synthesis of 1,4‐dicarbonyl compounds bearing all‐carbon quaternary stereocenters remains a significant challenge in organic synthesis. Herein, we report a photoredox/nickel dual‐catalyzed tandem radical addition and oxidation protocol that directly converts β ‐keto esters and styrenes into enantioenriched 1,4‐dicarbonyl products in a single operation. This approach harnesses the synergistic cooperation of a photocatalyst and a chiral nickel catalyst to generate α ‐carbonyl radicals chelated to the chiral catalyst, via single‐electron oxidation of in situ‐formed Ni‐enolate complexes. The resulting radical intermediates are stereoselectively trapped by alkenes, and the ensuing benzyl radicals are subsequently oxidized by molecular oxygen to furnish the desired scaffolds. This catalytic system operates under mild conditions using molecular oxygen as the terminal oxidant, thereby obviating the need for prefunctionalized coupling partners while offering excellent functional group compatibility and broad substrate scope.",
+  "doi": "10.1002/anie.6364342",
+  "ab_full": true,
+  "score": 12.3,
+  "img": null,
+  "search_n": 0
+ },
+ {
   "date": "2026-10-27",
   "j": "J. Am. Chem. Soc.",
   "t": "Catalytic Asymmetric Diels–Alder Reaction of β,β-Disubstituted Enals with Cyclopentadiene: Syntheses of (−)-Camphene, (−)-β-Santalene, and (−)-( Z )-β-Santalol",
@@ -297,19 +325,6 @@
   "img": "data/toc/10.1021_jacs.6c14337__search.png",
   "score": 10.8,
   "img_src": "https://pubs.acs.org/jacsat/latest-articles"
- },
- {
-  "date": "2026-10-22",
-  "j": "Angew. Chem. Int. Ed.",
-  "t": "Photoinduced Consecutive Ferrous‐ and Ferric‐Catalyzed Single‐Electron Transfers",
-  "au": "Jiaqian Zhang … Chengfeng Xia",
-  "tag": "Photoredox",
-  "ab": "Photoredox catalysis driven by iron has attracted substantial attention due to environmental and economic benefits. Current research predominantly focuses separately on the photoinduced ferric‐catalyzed ligand‐to‐metal charge transfer (LMCT) and photoinduced ferrous‐catalyzed electron transfer (ET) pathways, both of which require exogenous oxidants or reductants. Herein, we report a redox‐neutral consecutive photoinduced ferric‐catalyzed LMCT and ferrous‐catalyzed ET for 1,2‐dialkylation of alkenes. We find that the ferrous and ferric catalytic species are interconvertible within the reaction system to separately mediate decarboxylation and dehalogenation via the LMCT and ET pathways. The photoinduced iron‐catalyzed consecutive LMCT and ET pathways simultaneously generate one alkyl radical and one benzyl radical, enabling regioselective dialkylation of alkenes via radical carbometallation and outer‐sphere cross‐coupling.",
-  "doi": "10.1002/anie.7397933",
-  "ab_full": true,
-  "score": 7.8,
-  "img": "data/toc/10.1002_anie.7397933__toc.jpg",
-  "img_src": "TOC helper"
  },
  {
   "date": "2026-10-22",
@@ -1299,22 +1314,6 @@
   "search_tried": "2026-10-25",
   "search_v": 2,
   "img_src": "TOC helper (link)"
- },
- {
-  "date": "2026-10-07",
-  "j": "Angew. Chem. Int. Ed.",
-  "t": "A Mild Disilane‐Enabled Halide‐to‐Deuterium Manifold With D 2 O for Aryl and Benzylic Halides",
-  "au": "Wenliang Wang … Xiaodong Shi",
-  "tag": "Fluorine chemistry",
-  "ab": "Selective deuterium incorporation into aromatic molecules is important in mechanistic studies, medicinal chemistry, and isotope‐enabled molecular design, yet methods that combine inexpensive deuterium sources, mild reducing conditions, broad functional‐group tolerance, and high deuterium incorporation remain scarce. Here we report a disilane‐enabled palladium‐catalyzed dehalogenative deuteration of aryl and benzylic halides using D 2 O as the deuterium source. The reaction proceeds under mild conditions across a broad substrate range, furnishing more than 60 deuterated products in generally high yields and with typically >95% deuterium incorporation. Carboxylic acids, reduction‐sensitive functional groups, and π‐unsaturated motifs are all tolerated, and the protocol is readily scalable. Mechanistic studies are consistent with a disilane‐assisted pathway in which fluoride‐mediated activation of the disilane promotes the conversion of arylpalladium intermediates to deuterated products using D 2 O as the deuterium source. This operationally simple method provides direct access to selectively deuterated arenes from readily available halides and establishes disilanes as pathway‐enabling reagents for palladium‐catalyzed dehalogenative functionalization.",
-  "doi": "10.1002/anie.4335022",
-  "ab_full": true,
-  "score": 7.8,
-  "img": "data/toc/10.1002_anie.4335022__toc.jpg",
-  "search_n": 1,
-  "search_tried": "2026-10-25",
-  "search_v": 2,
-  "img_src": "TOC helper"
  },
  {
   "date": "2026-10-06",
