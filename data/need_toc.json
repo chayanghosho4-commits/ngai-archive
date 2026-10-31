@@ -1,5 +1,59 @@
 [
 {
+"doi": "10.1021/jacs.6c07816",
+"j": "J. Am. Chem. Soc.",
+"t": "Arene-Perfluoroarene-Enabled Electrostatic Modulation in Organic Porous Photocatalysts for Ni/Photoredox C–N Coupling",
+"m": "2026-10"
+},
+{
+"doi": "10.1021/jacs.6c18163",
+"j": "J. Am. Chem. Soc.",
+"t": "Synthesis of Medium-Sized Cyclic Ethers via Endo -Selective Pd(0)/B(C6F5)3-Catalyzed Hydroalkoxylation of Enynols and Enynediols",
+"m": "2026-10"
+},
+{
+"doi": "10.1021/jacs.6c15915",
+"j": "J. Am. Chem. Soc.",
+"t": "Asymmetric Total Synthesis of Neostenine, Neotuberostemonine, and the Putative Structure of Tuberostemonine L",
+"m": "2026-10"
+},
+{
+"doi": "10.1021/jacs.6c17218",
+"j": "J. Am. Chem. Soc.",
+"t": "Total Synthesis of Damasterpenes II, IV, V, and VII",
+"m": "2026-10"
+},
+{
+"doi": "10.1021/jacs.6c17061",
+"j": "J. Am. Chem. Soc.",
+"t": "Copper-Catalyzed Diastereoselective and Enantioselective α-C–H Allenylation of Alkylamines",
+"m": "2026-10"
+},
+{
+"doi": "10.1021/acscatal.6c07488",
+"j": "ACS Catal.",
+"t": "Pd-Catalyzed Enantioselective C(sp3)–H Arylation for Synergized Construction of C(sp2)–C(sp3) Axial and Central Chirality",
+"m": "2026-10"
+},
+{
+"doi": "10.1002/anie.1059611",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Meta ‐Selective C─H Monofluoroalkylation of Pyridines With Difluoroalkyl Radicals",
+"m": "2026-10"
+},
+{
+"doi": "10.1021/acscatal.6c07222",
+"j": "ACS Catal.",
+"t": "Ring-Expansion/Cross-Coupling Cascade of Ketones via Radical Sorting",
+"m": "2026-10"
+},
+{
+"doi": "10.1021/acscatal.6c04416",
+"j": "ACS Catal.",
+"t": "Visible-Light-Driven Dehydrogenative Ketone Synthesis from Unprotected Primary Alcohols and Aryl Bromides",
+"m": "2026-10"
+},
+{
 "doi": "10.1021/jacs.6c15882",
 "j": "J. Am. Chem. Soc.",
 "t": "Direct Photochemical Decarboxylation at Sulfur(IV) through an Unusual Inner-Sphere Redox Process",
@@ -93,12 +147,6 @@
 "doi": "10.1021/jacs.6c17539",
 "j": "J. Am. Chem. Soc.",
 "t": "Asymmetric Copper-Catalyzed Conjugate Addition with Trimethylboroxine Enables Direct Synthesis of Frespaciguat",
-"m": "2026-10"
-},
-{
-"doi": "10.1021/jacs.6c16551",
-"j": "J. Am. Chem. Soc.",
-"t": "1,3- cis -Disubstituted Cycloalkanes by Iridium-Catalyzed Enantio-convergent Migratory Hydroheteroarylation",
 "m": "2026-10"
 },
 {
