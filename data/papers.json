@@ -25,7 +25,22 @@
   "ab_full": true,
   "score": 10.9,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c18163/asset/images/medium/ja6c18163_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_v": 3
+ },
+ {
+  "date": "2026-10-31",
+  "j": "ACS Catal.",
+  "t": "Copper Catalyzed Highly Enantioselective B–H Insertion of α-Alkynyl-α-silyl Carbenes for the Synthesis of Chiral Propargylic gem -Silylboranes",
+  "au": "Hui-Na Zou … Shou-Fei Zhu",
+  "tag": "Asymmetric catalysis",
+  "ab": "Chiral gem-silylboronates represent a class of pivotal gem-dimetallic reagents in organic chemistry. Despite various synthetic methods emerged recently, the structural diversity of gem-silylboronates remains largely confined to alkyl-, (hetero)aryl-, and alkenyl-substituted variants; notably, alkynyl-substituted counterparts have remained largely underexplored. Herein, we report a Cu(I)/chiral bisoxazoline-catalyzed asymmetric insertion of α-alkynyl silyl carbenes into B–H bonds, affording a series of propargyl chiral gem-silylboronates and thus expanding the repertoire of organo-gem-dimetallics. This protocol features mild reaction conditions, broad functional group tolerance, and diverse downstream transformations, demonstrating significant synthetic utility. Furthermore, mechanistic experiments and theoretical calculations elucidate that the reaction proceeds via a concerted carbene insertion into the B–H bond, which likely serves as the rate-determining step. The enantioselectivity arises mainly from the shielding of the carbene Re face by the aryl groups on the oxazoline indenyl moiety, directing borane attack to the Si face, with additional enhancement from π–π interactions between the pyridine and indene rings. This work provides an efficient approach to chiral propargyl gem-silylboronates, further enriching the structural diversity and synthetic potential of chiral organosilicon–boron chemistry.",
+  "doi": "10.1021/acscatal.6c05480",
+  "ab_full": true,
+  "score": 10.3,
+  "img": "data/toc/10.1021_acscatal.6c05480__search.png",
+  "img_src": "https://pubs.acs.org/accacs/latest-articles"
  },
  {
   "date": "2026-10-30",
@@ -37,8 +52,8 @@
   "doi": "10.1021/jacs.6c15915",
   "ab_full": true,
   "score": 14.8,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c15915/asset/images/medium/ja6c15915_0001.gif",
-  "search_n": 0
+  "img": "data/toc/10.1021_jacs.6c15915__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-10-30",
@@ -50,8 +65,8 @@
   "doi": "10.1021/jacs.6c17218",
   "ab_full": true,
   "score": 12.8,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17218/asset/images/medium/ja6c17218_0001.gif",
-  "search_n": 0
+  "img": "data/toc/10.1021_jacs.6c17218__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-10-30",
@@ -63,8 +78,8 @@
   "doi": "10.1021/jacs.6c17061",
   "ab_full": true,
   "score": 14.3,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17061/asset/images/medium/ja6c17061_0001.gif",
-  "search_n": 0
+  "img": "https://imgs.search.brave.com/1IsStSDyUONX3nL9OFK2m_DWm7BTk6KC8hdIfWpu-zc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvcGFwLzEw/LjEwMjFfamFjcy42/YzE3MDYxLzEvbV9q/YTZjMTcwNjFfMDAw/Ny5zdmc_RXhwaXJl/cz0xNzk2NDUwMDg3/JlNpZ25hdHVyZT1V/LWZlWUZlNUZQMGE0/dDdJY05LTy1rUzJC/ZmEzNUNZcGl2Nnlt/VjlGZ3ZGMVZXR1RS/YWtmZFRHUjM0R2Jm/LUpOYW5SYWtTT2pU/cXAtY0l-fk1GR3Ry/MlVxVEZHLUdsVXhv/YVMybjF6SkQ0cH5r/YlBJVms3cU1-OG8z/b3prM1BWZ1RzU1ZE/R3J6ZjNKSVE4UmZr/aGVXY21QQnlRRmpv/R3lYT0xJVmNkWFNZ/c2dFeTJ0WmZrTFZt/bU13SnhpbWdMQVl2/cVVNTnUyeXlMM2tT/MWtwM0VvU2ItQUR3/VTZuNVRneX5MV0Jy/UGpqVzRUb3lmNVZS/SWd3U1BrY1UzS2pr/Vi1rV0lZdjRIV3kt/YlJIeXctSDZSdi1N/aFJhZDlSa3JUeVNH/bW9NcHVlVGFnT3J2/SEREU3FxVm5nRDR3/a1NucWRzaXJJNm1I/ajIzTkxvUVV2Smh-/UVNpQVFfXyZLZXkt/UGFpci1JZD1BUEtB/SUU1RzVDUkRLNlJE/M1BHQQ",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-10-30",
@@ -76,8 +91,8 @@
   "doi": "10.1021/acscatal.6c07488",
   "ab_full": true,
   "score": 13.3,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07488/asset/images/medium/cs6c07488_0001.gif",
-  "search_n": 0
+  "img": "https://imgs.search.brave.com/VP56EknL8F1C0tMYpLfG0G-HBp2BxhIkbQGlNAvinR4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvcGFwLzEw/LjEwMjFfYWNzY2F0/YWwuNmMwNzQ4OC8x/L21fY3MtMjAyNi0w/NzQ4ODJfMDAwNy5z/dmc_RXhwaXJlcz0x/Nzk2NTMxMjk1JlNp/Z25hdHVyZT1mVmp0/ZllsblpZUWQwa3VX/MVdBMXV2a0RkVU9M/UEVMWVpuZnNQNTJV/bC1ZczB-VFJPaUc5/UktHb3NrYWdIUm81/eGR1VnlHQWlEfnc4/SjVsbHJoVVktLXRk/eWE0Y0xsV09WZXJG/bnJ1RVVBZVdMNjlY/cE1IOUdRLUFvfnFS/RWt6ZlotZlpJbW51/OG9oWnhPRVJNWngt/LW9nck1LalRESWNy/OWg1VzVTMEtyRWxL/OXhZQnhGSU1KbnpM/c0xodU1mNDJOd3J3/N0Q3U05mbXl4MEg3/elpYNHlxQy1NVU5K/anVla2JaeW0tR1F4/dlJsNGs3QThIWmlT/SW1kMkdVb1hCUWdM/ZDVFSmZ6cFg5Ri1-/NzNnQmxQMXB5VUZJ/OEMyfjZlU1gyNUNX/UX5-NjJWdlpkZjU1/U0JIdWZ4bXdFWWUt/VnN0eDJ3RzNCNHdR/U0NYTkpSN09tWXZn/V2dfXyZLZXktUGFp/ci1JZD1BUEtBSUU1/RzVDUkRLNlJEM1BH/QQ",
+  "img_src": "https://pubs.acs.org/accacs/latest-articles"
  },
  {
   "date": "2026-10-29",
@@ -90,7 +105,9 @@
   "ab_full": true,
   "score": 12.8,
   "img": "https://onlinelibrary.wiley.com/cms/asset/361dd23a-8403-4e60-a7ec-4edc7c9776d8/anie75493-gra-0001-m.png",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_v": 3
  },
  {
   "date": "2026-10-29",
@@ -102,8 +119,8 @@
   "doi": "10.1021/acscatal.6c07222",
   "ab_full": true,
   "score": 12.8,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07222/asset/images/medium/cs6c07222_0001.gif",
-  "search_n": 0
+  "img": "data/toc/10.1021_acscatal.6c07222__search.png",
+  "img_src": "https://pubs.acs.org/accacs/latest-articles"
  },
  {
   "date": "2026-10-29",
@@ -116,7 +133,9 @@
   "ab_full": true,
   "score": 12.3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04416/asset/images/medium/cs6c04416_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_v": 3
  },
  {
   "date": "2026-10-28",
@@ -128,10 +147,8 @@
   "doi": "10.1021/jacs.6c15882",
   "ab_full": true,
   "score": 8.8,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c15882/asset/images/medium/ja6c15882_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-10-29",
-  "search_v": 3
+  "img": "data/toc/10.1021_jacs.6c15882__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-10-28",
@@ -144,7 +161,9 @@
   "ab_full": true,
   "score": 12.3,
   "img": "https://onlinelibrary.wiley.com/cms/asset/b6ea0985-fd17-4f17-9870-85a760f73cba/anie75487-gra-0001-m.png",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_v": 3
  },
  {
   "date": "2026-10-27",
@@ -157,8 +176,8 @@
   "ab_full": true,
   "score": 11.7,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14863/asset/images/medium/ja6c14863_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-10-28",
+  "search_n": 2,
+  "search_tried": "2026-11-01",
   "search_v": 3
  },
  {
@@ -172,7 +191,9 @@
   "ab_full": true,
   "score": 12.8,
   "img": "https://onlinelibrary.wiley.com/cms/asset/7c946ee7-2aea-4def-95c9-3de69fa2576a/anie75449-gra-0001-m.png",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_v": 3
  },
  {
   "date": "2026-10-27",
@@ -185,7 +206,9 @@
   "ab_full": true,
   "score": 11.3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06982/asset/images/medium/cs6c06982_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_v": 3
  },
  {
   "date": "2026-10-27",
@@ -226,8 +249,8 @@
   "ab_full": true,
   "score": 12.1,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06705/asset/images/medium/cs6c06705_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-10-27",
+  "search_n": 2,
+  "search_tried": "2026-11-01",
   "search_v": 3
  },
  {
@@ -256,10 +279,8 @@
   "doi": "10.1021/acscatal.6c06766",
   "ab_full": true,
   "score": 11.1,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
-  "search_v": 3,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06766/asset/images/medium/cs6c06766_0001.gif"
+  "img": "https://imgs.search.brave.com/fqWDPzVDOatwU7PzX2vNepTZfvpeGpDYCF8vCFY3wq8/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvcGFwLzEw/LjEwMjFfYWNzY2F0/YWwuNmMwNjc2Ni8x/L21fY3MtMjAyNi0w/Njc2Nm1fMDAxMC5z/dmc_RXhwaXJlcz0x/Nzk2NTMxMjk1JlNp/Z25hdHVyZT1XMH5a/SEtscVFSbEZ-Q3hx/OEI1bml3enE2Ri1o/VHNSRWhVbThmNFRM/ZXBjYU01a0NSUnhQ/Z0xkUVYtRko0U3JV/RW1McUVPdDZYLU1N/cnIzdjMwVkIzLVdK/YlVnQjFkYy1CRFZW/NlZvd3M3RjdsaWdP/OFp4SkpVcDRWfnhI/bVR5dGtIRkdLflVv/ZjBvM29KMnQ5aHBh/M3RZMTJsWk9KTWR-/a3FkUGFVREdsN0JK/d0JjLVBITm1Na2sz/N2NmQUlXelhGTG50/VThyRVZEUHVyZjlJ/OEd-V055ZlhMWVha/d3dVLWR6S3Ewa25L/Rk91VmdjMDJHfnRU/TDNyaHNSNVhrMWNQ/dU9IV2o5ZkQ2LUps/VGJuNE9HSG5kenV0/dGdCeVltSkYwTHFC/VXlzVVNwR3F4NGdp/MUZxaHZIQ0RubXh6/T28ya3d2WlZhR0lW/d1dnWH5TNldvcTBj/TEFfXyZLZXktUGFp/ci1JZD1BUEtBSUU1/RzVDUkRLNlJEM1BH/QQ",
+  "img_src": "https://pubs.acs.org/accacs/latest-articles"
  },
  {
   "date": "2026-10-24",
@@ -301,8 +322,8 @@
   "ab_full": true,
   "img": null,
   "score": 11.8,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_n": 2,
   "search_v": 3
  },
  {
@@ -426,8 +447,8 @@
   "doi": "10.1021/acscatal.6c05400",
   "ab_full": true,
   "score": 9.9,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_n": 2,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05400/asset/images/medium/cs6c05400_0001.gif"
  },
@@ -466,8 +487,8 @@
   "doi": "10.1021/acscatal.6c05924",
   "ab_full": true,
   "score": 14.3,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_n": 2,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05924/asset/images/medium/cs6c05924_0001.gif"
  },
@@ -575,8 +596,8 @@
   "doi": "10.1021/acscatal.6c05711",
   "ab_full": true,
   "score": 13.7,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_n": 2,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05711/asset/images/medium/cs6c05711_0001.gif"
  },
@@ -603,10 +624,8 @@
   "doi": "10.1021/jacs.6c17539",
   "ab_full": true,
   "score": 14.3,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
-  "search_v": 3,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17539/asset/images/medium/ja6c17539_0001.gif"
+  "img": "data/toc/10.1021_jacs.6c17539__search.jpg",
+  "img_src": "https://linkedin.com/in/lisa-nogle-16620a8"
  },
  {
   "date": "2026-10-19",
@@ -788,8 +807,8 @@
   "doi": "10.1021/jacs.6c17168",
   "ab_full": true,
   "score": 14.3,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_n": 2,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17168/asset/images/medium/ja6c17168_0001.gif"
  },
@@ -880,8 +899,8 @@
   "doi": "10.1021/acscatal.6c07270",
   "ab_full": true,
   "score": 13.3,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_n": 2,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07270/asset/images/medium/cs6c07270_0001.gif"
  },
@@ -927,8 +946,8 @@
   "doi": "10.1021/jacs.6c08713",
   "ab_full": true,
   "score": 13.3,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_n": 2,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08713/asset/images/medium/ja6c08713_0001.gif"
  },
@@ -958,8 +977,8 @@
   "doi": "10.1021/acscatal.6c06668",
   "ab_full": true,
   "score": 12.3,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_n": 2,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06668/asset/images/medium/cs6c06668_0001.gif"
  },
@@ -973,8 +992,8 @@
   "doi": "10.1021/acscatal.6c06300",
   "ab_full": true,
   "score": 9.7,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_n": 2,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06300/asset/images/medium/cs6c06300_0001.gif"
  },
@@ -1004,8 +1023,8 @@
   "doi": "10.1021/acscatal.6c06960",
   "ab_full": true,
   "score": 12.3,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_n": 2,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06960/asset/images/medium/cs6c06960_0001.gif"
  },
@@ -1031,8 +1050,8 @@
   "doi": "10.1021/jacs.6c17662",
   "ab_full": true,
   "score": 11.3,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_n": 2,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17662/asset/images/medium/ja6c17662_0001.gif"
  },
@@ -1046,8 +1065,8 @@
   "doi": "10.1021/jacs.6c15392",
   "ab_full": true,
   "score": 14.3,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_n": 2,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c15392/asset/images/medium/ja6c15392_0001.gif"
  },
@@ -1061,8 +1080,8 @@
   "doi": "10.1021/acscatal.6c05786",
   "ab_full": true,
   "score": 10.3,
-  "search_tried": "2026-10-25",
-  "search_n": 1,
+  "search_tried": "2026-11-01",
+  "search_n": 2,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05786/asset/images/medium/cs6c05786_0001.gif"
  },
@@ -1088,8 +1107,8 @@
   "doi": "10.1021/acscatal.6c05123",
   "ab_full": true,
   "score": 10.3,
-  "search_n": 1,
-  "search_tried": "2026-10-25",
+  "search_n": 2,
+  "search_tried": "2026-11-01",
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05123/asset/images/medium/cs6c05123_0001.gif"
  },
@@ -1104,18 +1123,6 @@
   "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44160-026-01173-7/MediaObjects/44160_2026_1173_Fig1_HTML.png",
   "ab_full": true,
   "score": 14.6
- },
- {
-  "date": "2026-10-12",
-  "j": "Nature Synthesis",
-  "t": "Scrambling-free synthesis of heteroleptic silylium ions by halide abstraction from halosilanes",
-  "au": "Tobias Randt … Martin Oestreich",
-  "tag": "Synthetic methodology",
-  "ab": "Heteroleptic silylium ions with different substituents at the silicon atom are generally not accessible using established tools for producing such reactive intermediates because substituent exchange reactions occur in acidic media, leading to homoleptic silylium ions with three identical alkyl and aryl substituents, respectively. Here we report a broadly applicable route to heteroleptic silylium ions using halosilanes as silylium ion precursors, which are less prone to that scrambling process. While this deceptively simple method has failed so far owing to the lack of a suitable halide-abstracting agent, superhalophilic halogen-substituted silylium ions enable smooth halide abstraction from a diverse set of halosilanes at ambient temperature without substituent redistribution. Accordingly, this approach provides access to essentially any heteroleptic acyclic as well as cyclic silylium-ion motif from common halosilanes, including trialkyl-, dialkyl(aryl)-, alkyldiaryl- and triaryl-substituted congeners. Computational calculations reveal the mechanism of heteroleptic silylium-ion formation and the origin of the suppressed substituent-scrambling process.",
-  "doi": "10.1038/s44160-026-01176-4",
-  "ab_full": true,
-  "score": 8.6,
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44160-026-01176-4/MediaObjects/44160_2026_1176_Fig1_HTML.png"
  },
  {
   "date": "2026-10-10",
@@ -1160,8 +1167,8 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14452/asset/images/medium/ja6c14452_0001.gif",
   "ab_full": true,
   "score": 12.7,
-  "search_n": 1,
-  "search_tried": "2026-10-25",
+  "search_n": 2,
+  "search_tried": "2026-11-01",
   "search_v": 3
  },
  {
@@ -1219,8 +1226,8 @@
   "doi": "10.1021/acscatal.6c07172",
   "ab_full": true,
   "score": 12.7,
-  "search_n": 1,
-  "search_tried": "2026-10-26",
+  "search_n": 2,
+  "search_tried": "2026-11-01",
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07172/asset/images/medium/cs6c07172_0001.gif"
  },
@@ -1329,12 +1336,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "Enantioselective C−H addition of aromatic amines to alkenes represents a highly efficient and direct approach for the synthesis of chiral alkylanilines. Herein, we report an enantioselective benzylic C(sp3)−H addition of tertiary anilines to alkenes, enabled by a bulky anilido-oxazoline ligand-supported scandium catalyst. This protocol delivers a broad range of chiral alkylated anilines in high yields (up to 96%) and enantioselectivities (up to 98:2 e.r.). Furthermore, the obtained tertiary anilines are able to undergo facile C−N bond cleavage to afford enantioenriched aryl boronic esters and aryl silanes, serving as versatile intermediates for the synthesis of further functionalized, high-value molecules. The origins of chemo- and enantioselectivity in this transformation have been investigated through density functional theory calculations.",
   "doi": "10.1021/acscatal.6c05658",
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05658/asset/images/medium/cs6c05658_0001.gif",
+  "img": "https://imgs.search.brave.com/7FaT-tp6deqHCYDi3K2MW7bkcy4KYUtdC5RRLdiwN7I/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9v/cmxlZjcvMjQvMjIv/MTAuMTAyMV9hY3Mu/b3JnbGV0dC4yYzAx/MzI5LzMvbV9vbDJj/MDEzMjlfMDAwOS5z/dmc_RXhwaXJlcz0x/Nzk1NDE1NTExJlNp/Z25hdHVyZT1xMXJN/RWlvaThndmhlRUk0/VzNRd1lRWHJyb34x/UlhRLTRBVjBXRGt3/OTFIYjFxWGNKTHlE/Z3ozTjI1VW1NNWxn/TldxMWFEc1h0YkJB/eTlLaS1iUGJyNU1W/dVRQZW5DekY2Ti1Q/Z3hHSEhoN3Y3Ujdy/cUNGUGt3ckU4YTU4/bThnRXUwLVB3T2pp/RVFxem5adVd2SmZF/Y3k3TlZ0fmxnNjEz/TUFkc3k5ejg4d1d-/OUtEZ0N5RUs3QkQ0/dkVOZDVVTVY4WUh4/VnBacURzOE9HaVBK/bTh-eGVuQ3JmQTd-/cjd2NEZ1c2EwNHND/UkE0SGN4WTFpYTNu/WjlaT3BiZUhvbWtY/ekxQY3d4LTI2QX5r/dVBmc05mMk42M3hn/a042Vks4UTN2S1Jx/ZDQ4NnNqUGlZQWh0/OUMzNlJqY1BJdWdN/cktCUDJWZm1Kbllu/MTZseUEwQ0xaaEZq/LVFfXyZLZXktUGFp/ci1JZD1BUEtBSUU1/RzVDUkRLNlJEM1BH/QQ",
   "ab_full": true,
   "score": 12.3,
-  "search_n": 1,
-  "search_tried": "2026-10-25",
-  "search_v": 3
+  "img_src": "https://pubs.acs.org/orlef7/issue/24/22"
  },
  {
   "date": "2026-10-07",
@@ -1379,8 +1384,8 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06481/asset/images/medium/cs6c06481_0001.gif",
   "ab_full": true,
   "score": 8.8,
-  "search_n": 1,
-  "search_tried": "2026-10-25",
+  "search_n": 2,
+  "search_tried": "2026-11-01",
   "search_v": 3
  },
  {
@@ -1394,8 +1399,8 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06764/asset/images/medium/cs6c06764_0001.gif",
   "ab_full": true,
   "score": 13.1,
-  "search_n": 1,
-  "search_tried": "2026-10-25",
+  "search_n": 2,
+  "search_tried": "2026-11-01",
   "search_v": 3
  },
  {
@@ -1424,8 +1429,8 @@
   "doi": "10.1021/acscatal.6c04942",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 1,
-  "search_tried": "2026-10-26",
+  "search_n": 2,
+  "search_tried": "2026-11-01",
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04942/asset/images/medium/cs6c04942_0001.gif"
  },
@@ -1522,8 +1527,8 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06318/asset/images/medium/cs6c06318_0001.gif",
   "ab_full": true,
   "score": 9.3,
-  "search_n": 1,
-  "search_tried": "2026-10-25",
+  "search_n": 2,
+  "search_tried": "2026-11-01",
   "search_v": 3
  },
  {
