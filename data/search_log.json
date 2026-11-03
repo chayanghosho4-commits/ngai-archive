@@ -79,9 +79,14 @@
 "t": "Photocatalytic Ring Expansion of Indoles to Benzazepinones through Cyclobutane Fragmentation",
 "top": [
 {
-"title": "4",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
+"title": "ACS Catalysis Cover Image for Volume 12, Issue 10",
+"page": "pubs.acs.org",
+"img": "acs.silverchair-cdn.com"
+},
+{
+"title": "Graphic. Refer to the image caption for details.",
+"page": "pubs.acs.org",
+"img": "acs.silverchair-cdn.com"
 },
 {
 "title": "4",
@@ -89,22 +94,17 @@
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "Details are in the caption following the image",
-"page": "onlinelibrary.wiley.com",
-"img": "onlinelibrary.wiley.com"
-},
-{
-"title": "",
-"page": "science.org",
-"img": "www.science.org"
-},
-{
-"title": "Scheme 8.",
+"title": "graphic file with name ol5c01778_0008.jpg",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "Scheme 2",
+"title": "3",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "graphic file with name ol5c02977_0006.jpg",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 }
@@ -190,17 +190,7 @@
 "t": "Gold-Catalyzed Chemoselective Dearomative Ring-Opening Modes of Indoles",
 "top": [
 {
-"title": "Gold(i) species catalyze the ring opening reactions of aziridines with indoles as nucleophiles for the synthesis of tryp",
-"page": "pubs.rsc.org",
-"img": "rscj.silverchair-cdn.com"
-},
-{
-"title": "Scheme 61",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
-},
-{
-"title": "Fig. 2: \n\t\t\t\t\tElectrophilic activation modes of allenamides. Regioselectivity: a major challenge in the dearomatization ",
+"title": "Scheme 1: \n\t\t\t\t\tEffect of the counterion on the gold catalyzed C(3)-allylic dearomatization of indoles. nr, no reaction.",
 "page": "degruyter.com",
 "img": "www.degruyter.com"
 },
@@ -210,12 +200,22 @@
 "img": "www.organic-chemistry.org"
 },
 {
-"title": "Scheme 21",
-"page": "chinesechemsoc.org",
-"img": "www.chinesechemsoc.org"
+"title": "Fig. 2: \n\t\t\t\t\tElectrophilic activation modes of allenamides. Regioselectivity: a major challenge in the dearomatization ",
+"page": "degruyter.com",
+"img": "www.degruyter.com"
 },
 {
 "title": "Scheme 68",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "Catalysts 13 00921 sch053",
+"page": "www.mdpi.com",
+"img": "mdpi-res.com"
+},
+{
+"title": "Scheme 3",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 }
@@ -316,9 +316,9 @@
 "img": "image.oaes.cc"
 },
 {
-"title": "Graphical abstract: Dinickel-catalyzed regio- and enantioselective α-alkylation of cyclic ketones with unactivated alkyl",
-"page": "pubs.rsc.org",
-"img": "pubs.rsc.org"
+"title": "Mechanisms of nickel-catalyzed reductive cross-coupling reactions",
+"page": "www.oaepublish.com",
+"img": "image.oaes.cc"
 },
 {
 "title": "Mechanisms of nickel-catalyzed reductive cross-coupling reactions",
@@ -824,14 +824,9 @@
 "img": "pubs.rsc.org"
 },
 {
-"title": "[1860-5397-21-145-i15]",
-"page": "beilstein-journals.org",
-"img": "www.beilstein-journals.org"
-},
-{
 "title": "",
-"page": "chinesechemsoc.org",
-"img": "www.chinesechemsoc.org"
+"page": "sioc-journal.cn",
+"img": "sioc-journal.cn"
 },
 {
 "title": "[1860-5397-21-145-i13]",
@@ -839,12 +834,17 @@
 "img": "www.beilstein-journals.org"
 },
 {
-"title": "if3.eps",
-"page": "chinesechemsoc.org",
-"img": "www.chinesechemsoc.org"
+"title": "",
+"page": "sioc-journal.cn",
+"img": "sioc-journal.cn"
 },
 {
-"title": "share graphic",
+"title": "",
+"page": "sioc-journal.cn",
+"img": "sioc-journal.cn"
+},
+{
+"title": "[1860-5397-21-145-i15]",
 "page": "beilstein-journals.org",
 "img": "www.beilstein-journals.org"
 }
@@ -987,14 +987,14 @@
 "img": "ars.els-cdn.com"
 },
 {
+"title": "Scheme 2. Selected Examples of Cycloisomerization of 1,6-Dienes Catalyzed by Late Transition Metals",
+"page": "academia.edu",
+"img": "figures.academia-assets.com"
+},
+{
 "title": "Figure5. Fe-catalyzed 1,2-dicarbofunctionalization of unactivated alkenes via radical…",
 "page": "www.sciencedirect.com",
 "img": "ars.els-cdn.com"
-},
-{
-"title": "Table 2. Ru-Catalyzed Cycloisomerization of 1,6-Heptadienes 1b—i, m—o*  “ All reactions were carried out using [Ru(cod)C",
-"page": "academia.edu",
-"img": "figures.academia-assets.com"
 }
 ]
 },
@@ -1014,6 +1014,16 @@
 "img": "pubs.rsc.org"
 },
 {
+"title": "Molecules 25 03147 sch037",
+"page": "www.mdpi.com",
+"img": "mdpi-res.com"
+},
+{
+"title": "image file: d5ra00962f-s113.tif",
+"page": "pubs.rsc.org",
+"img": "pubs.rsc.org"
+},
+{
 "title": "Iron-catalyzed cycloaddition reaction for the synthesis of tetrahydropyrrolizines.",
 "page": "arabjchem.org",
 "img": "arabjchem.org"
@@ -1022,16 +1032,6 @@
 "title": "Scheme 10",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
-},
-{
-"title": "Scheme 18",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
-},
-{
-"title": "image file: d5ra00962f-s148.tif",
-"page": "pubs.rsc.org",
-"img": "pubs.rsc.org"
 }
 ]
 },
@@ -1125,14 +1125,14 @@
 "img": "thumb.wikimedia.org"
 },
 {
-"title": "Graphical abstract: Lewis acid catalyzed C-3 alkylidenecyclopentenylation of indoles: an easy access to functionalized i",
-"page": "pubs.rsc.org",
-"img": "pubs.rsc.org"
-},
-{
 "title": "Lewis acid catalyzed carbonyl addition in natural product synthesis",
 "page": "en.wikipedia.org",
 "img": "thumb.wikimedia.org"
+},
+{
+"title": "Bioinspired acid-catalyzed C2 prenylation of indole derivatives",
+"page": "phys.org",
+"img": "scx1.b-cdn.net"
 },
 {
 "title": "",
@@ -1140,9 +1140,9 @@
 "img": "www.organic-chemistry.org"
 },
 {
-"title": "",
-"page": "sioc-journal.cn",
-"img": "sioc-journal.cn"
+"title": "Catalysts 11 01018 sch027",
+"page": "mdpi.com",
+"img": "mdpi-res.com"
 }
 ]
 },
@@ -1152,32 +1152,32 @@
 "t": "Migratory Hydroamination of Alkenes via Iron-Hydride Catalysis",
 "top": [
 {
-"title": "Scheme 14",
+"title": "Table of contents image",
+"page": "hartwig.cchem.berkeley.edu",
+"img": "hartwig.cchem.berkeley.edu"
+},
+{
+"title": "Fig. 3",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "graphic file with name nihms-2036830-f0001.jpg",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
+"title": "Catalysts 11 00674 g029",
+"page": "mdpi.com",
+"img": "mdpi-res.com"
 },
 {
-"title": "Figure 31",
+"title": "Table of contents image",
+"page": "hartwig.cchem.berkeley.edu",
+"img": "hartwig.cchem.berkeley.edu"
+},
+{
+"title": "Figure 13",
 "page": "www.chinesechemsoc.org",
 "img": "www.chinesechemsoc.org"
 },
 {
 "title": "Figure 13",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
-},
-{
-"title": "Catalysts 11 00674 g008",
-"page": "mdpi.com",
-"img": "mdpi-res.com"
-},
-{
-"title": "Scheme 38",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 }
@@ -1189,34 +1189,34 @@
 "t": "Divergent Synthesis of Chiral-at-Sulfur Sulfoximines via Photoredox/Rhodium-Catalyzed Enantioselective C–H Activation",
 "top": [
 {
-"title": "Scheme 1. Transition-metal-catalyzed enantioselective C–H activation.",
-"page": "sciencedirect.com",
-"img": "ars.els-cdn.com"
-},
-{
-"title": "Scheme 120.",
+"title": "Scheme 34.",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "Scheme 25",
-"page": "www.chinesechemsoc.org",
-"img": "www.chinesechemsoc.org"
+"title": "Scheme 104.",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "",
-"page": "nature.com",
-"img": "media.springernature.com"
+"title": "Scheme 56",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "",
-"page": "nature.com",
-"img": "media.springernature.com"
+"title": "Molecules 28 01367 sch017",
+"page": "mdpi.com",
+"img": "mdpi-res.com"
 },
 {
-"title": "Scheme 4",
-"page": "www.chinesechemsoc.org",
-"img": "www.chinesechemsoc.org"
+"title": "Scheme 68.",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "Graphic. Refer to the image caption for details.",
+"page": "pubs.acs.org",
+"img": "acs.silverchair-cdn.com"
 }
 ]
 },
@@ -1305,17 +1305,12 @@
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "",
-"page": "www.chinesechemsoc.org",
-"img": "www.chinesechemsoc.org"
-},
-{
-"title": "if1.eps",
-"page": "www.chinesechemsoc.org",
-"img": "www.chinesechemsoc.org"
-},
-{
 "title": "Graphic. Refer to the image caption for details.",
+"page": "pubs.acs.org",
+"img": "acs.silverchair-cdn.com"
+},
+{
+"title": "Scheme 1. Refer to the image caption for details.",
 "page": "pubs.acs.org",
 "img": "acs.silverchair-cdn.com"
 },
@@ -1325,7 +1320,12 @@
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "Scheme 111",
+"title": "Scheme 81",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "Scheme 6",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 }
@@ -1416,9 +1416,9 @@
 "img": "image.oaes.cc"
 },
 {
-"title": "Figure 75",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
+"title": "Scheme 7",
+"page": "chinesechemsoc.org",
+"img": "www.chinesechemsoc.org"
 },
 {
 "title": "",
@@ -1431,9 +1431,9 @@
 "img": "image.oaes.cc"
 },
 {
-"title": "Figure 54",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
+"title": "Scheme 24",
+"page": "chinesechemsoc.org",
+"img": "www.chinesechemsoc.org"
 },
 {
 "title": "Recent advances in organocatalytic cascade reactions for enantioselective synthesis of chiral spirolactone skeletons",
@@ -1490,12 +1490,17 @@
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "Scheme 26",
-"page": "www.chinesechemsoc.org",
-"img": "www.chinesechemsoc.org"
+"title": "Details are in the caption following the image",
+"page": "aces.onlinelibrary.wiley.com",
+"img": "aces.onlinelibrary.wiley.com"
 },
 {
-"title": "Scheme 52",
+"title": "Scheme 51",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "Scheme 26",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
@@ -1505,12 +1510,7 @@
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "Scheme 48",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
-},
-{
-"title": "Scheme 28",
+"title": "Scheme 14",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 }
@@ -4751,22 +4751,22 @@
 "img": "mdpi-res.com"
 },
 {
-"title": "Scheme 31.",
+"title": "Scheme 61.",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "Scheme 51",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
-},
-{
-"title": "Scheme 80",
+"title": "Scheme 79",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
 "title": "graphic file with name d1sc04210f-u1.jpg",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "Scheme 80",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 }
@@ -4783,29 +4783,29 @@
 "img": "rscj.silverchair-cdn.com"
 },
 {
-"title": "Scheme 121.",
+"title": "",
+"page": "sioc-journal.cn",
+"img": "sioc-journal.cn"
+},
+{
+"title": "",
+"page": "www.chinesechemsoc.org",
+"img": "www.chinesechemsoc.org"
+},
+{
+"title": "Scheme 122.",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "Scheme 44: Visible-light-mediated copper-photoredox catalyzed aerobic oxidative C(sp)–S coupling reaction.",
-"page": "www.jscimedcentral.com",
-"img": "www.jscimedcentral.com"
-},
-{
-"title": "Scheme 69.",
+"title": "Figure 1",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "Scheme 46: Visible-light-mediated copper-photoredox catalyzed chlorosulfonylation reaction.",
-"page": "www.jscimedcentral.com",
-"img": "www.jscimedcentral.com"
-},
-{
-"title": "Scheme 114.",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
+"title": "",
+"page": "sioc-journal.cn",
+"img": "sioc-journal.cn"
 }
 ]
 },
@@ -7590,6 +7590,11 @@
 "t": "Synthesis of Medium-Sized Cyclic Ethers via Endo -Selective Pd(0)/B(C6F5)3-Catalyzed Hydroalkoxylation of Enynols and Enynediols",
 "top": [
 {
+"title": "Cover Image - Chem Catalysis, Volume 2, Issue 11",
+"page": "www.cell.com",
+"img": "www.cell.com"
+},
+{
 "title": "Figure 1",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
@@ -7600,24 +7605,19 @@
 "img": "www.organic-chemistry.org"
 },
 {
-"title": "Cover Image - Chem Catalysis, Volume 2, Issue 11",
-"page": "www.cell.com",
-"img": "www.cell.com"
-},
-{
 "title": "Scheme 45",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
 "title": "",
-"page": "www.organic-chemistry.org",
+"page": "organic-chemistry.org",
 "img": "www.organic-chemistry.org"
 },
 {
-"title": "",
-"page": "organic-chemistry.org",
-"img": "www.organic-chemistry.org"
+"title": "Molecules 25 03147 sch006",
+"page": "www.mdpi.com",
+"img": "mdpi-res.com"
 }
 ]
 },
@@ -7637,6 +7637,11 @@
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
+"title": "Scheme 3. Proposed 4-cyanopyridine-boryl radicals-mediated alkene difunctionalization",
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
+},
+{
 "title": "Details are in the caption following the image",
 "page": "onlinelibrary.wiley.com",
 "img": "onlinelibrary.wiley.com"
@@ -7647,14 +7652,9 @@
 "img": "www.chinesechemsoc.org"
 },
 {
-"title": "Details are in the caption following the image",
-"page": "onlinelibrary.wiley.com",
-"img": "onlinelibrary.wiley.com"
-},
-{
-"title": "Figure 6",
-"page": "chinesechemsoc.org",
-"img": "www.chinesechemsoc.org"
+"title": "graphic file with name au4c01242_0008.jpg",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
 }
 ]
 },
@@ -7680,17 +7680,17 @@
 },
 {
 "title": "",
-"page": "organic-chemistry.org",
-"img": "www.organic-chemistry.org"
+"page": "www.jstage.jst.go.jp",
+"img": "www.jstage.jst.go.jp"
+},
+{
+"title": "",
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
 },
 {
 "title": "",
 "page": "organic-chemistry.org",
-"img": "www.organic-chemistry.org"
-},
-{
-"title": "",
-"page": "www.organic-chemistry.org",
 "img": "www.organic-chemistry.org"
 }
 ]
@@ -7706,29 +7706,29 @@
 "img": "figures.academia-assets.com"
 },
 {
-"title": "",
-"page": "organic-chemistry.org",
-"img": "www.organic-chemistry.org"
+"title": "Scheme 2. Chiral organo-photocatalysis for enantioselective (a) & (b) intramolecular cycloadditions; (c) intramolecular ",
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
 },
 {
-"title": "",
-"page": "organic-chemistry.org",
-"img": "www.organic-chemistry.org"
-},
-{
-"title": "",
-"page": "organic-chemistry.org",
-"img": "www.organic-chemistry.org"
-},
-{
-"title": "Scheme 15",
+"title": "Scheme 4",
 "page": "www.chinesechemsoc.org",
 "img": "www.chinesechemsoc.org"
+},
+{
+"title": "Recent advances in organocatalytic cascade reactions for enantioselective synthesis of chiral spirolactone skeletons",
+"page": "www.oaepublish.com",
+"img": "image.oaes.cc"
 },
 {
 "title": "",
 "page": "cell.com",
 "img": "www.cell.com"
+},
+{
+"title": "Scheme 11",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
 }
 ]
 },
@@ -7738,34 +7738,34 @@
 "t": "Catalytic Asymmetric Diels–Alder Reaction of β,β-Disubstituted Enals with Cyclopentadiene: Syntheses of (−)-Camphene, (−)-β-Santalene, and (−)-( Z )-β-Santalol",
 "top": [
 {
-"title": "",
-"page": "sites.google.com",
-"img": "sites.google.com"
+"title": "Catalysts 16 00131 g039",
+"page": "mdpi.com",
+"img": "mdpi-res.com"
 },
 {
-"title": "",
-"page": "sites.google.com",
-"img": "sites.google.com"
+"title": "MacMillan and co-workers also applied their LUMO- lowering organocatalytic strategy to develop the first or- ganocatalyt",
+"page": "www.academia.edu",
+"img": "figures.academia-assets.com"
 },
 {
-"title": "",
-"page": "sites.google.com",
-"img": "sites.google.com"
+"title": "Catalysts 16 00131 i070",
+"page": "mdpi.com",
+"img": "mdpi-res.com"
 },
 {
-"title": "",
-"page": "sites.google.com",
-"img": "sites.google.com"
+"title": "Scheme 21 Reagents and conditions: (a) PCC, 40 °C, 6 h; (b) Et,SiH, BF;-OEt,, -78 °C, 4 h; (c) Et,SiH, BF,-OEt,, r.t., 1",
+"page": "www.academia.edu",
+"img": "figures.academia-assets.com"
 },
 {
-"title": "",
-"page": "sites.google.com",
-"img": "sites.google.com"
+"title": "Catalysts 16 00131 i086",
+"page": "mdpi.com",
+"img": "mdpi-res.com"
 },
 {
-"title": "",
-"page": "sites.google.com",
-"img": "sites.google.com"
+"title": "The methodology was extended” to a-halo aldehydes 135 acting as 1-oxodienes'™ in order to prepare cycloadducts 137 throu",
+"page": "www.academia.edu",
+"img": "figures.academia-assets.com"
 }
 ]
 },
@@ -7864,12 +7864,12 @@
 "img": "image.oaes.cc"
 },
 {
-"title": "Proposed mechanism of electrochemical-driven decarboxylative arylation by nickel-catalyzed.",
+"title": "Arylation of acrolein diethyl acetal using nickel catalyzed.",
 "page": "arabjchem.org",
 "img": "arabjchem.org"
 },
 {
-"title": "Arylation of acrolein diethyl acetal using nickel catalyzed.",
+"title": "Proposed mechanism of electrochemical-driven decarboxylative arylation by nickel-catalyzed.",
 "page": "arabjchem.org",
 "img": "arabjchem.org"
 },
@@ -7877,6 +7877,191 @@
 "title": "Mechanisms of nickel-catalyzed reductive cross-coupling reactions",
 "page": "www.oaepublish.com",
 "img": "image.oaes.cc"
+}
+]
+},
+{
+"doi": "10.1002/anie.7491177",
+"date": "2026-11-02",
+"t": "Phenonium‐Ion‐Mediated Skeletal Editing of Paracyclophanes",
+"top": [
+{
+"title": "Scheme 4. The RORC strategy for skeletal editing of the pyridine ring achieving the…",
+"page": "www.sciencedirect.com",
+"img": "ars.els-cdn.com"
+},
+{
+"title": "Reprogramming Stereocontrol Through Progressive Substrate Reorganization in Artificial Triplet Photoenzymes",
+"page": "onlinelibrary.wiley.com",
+"img": "onlinelibrary.wiley.com"
+},
+{
+"title": "Figure 1. Refer to the image caption for details.",
+"page": "pubs.acs.org",
+"img": "acs.silverchair-cdn.com"
+},
+{
+"title": "",
+"page": "chinesechemsoc.org",
+"img": "www.chinesechemsoc.org"
+},
+{
+"title": "Details are in the caption following the image",
+"page": "onlinelibrary.wiley.com",
+"img": "onlinelibrary.wiley.com"
+},
+{
+"title": "Figure 3.",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+}
+]
+},
+{
+"doi": "10.1002/anie.7610637",
+"date": "2026-11-02",
+"t": "Organocatalytic Enantiodifferentiation of Two Aryl Groups with Similar Steric Hindrances: Construction of gem ‐Diaryl Acyclic Quaternary Stereocenters",
+"top": [
+{
+"title": "Organocatalytic Nazarov-type cyclization of 3-alkynyl-2-indolylmethanols: construction of axially chiral cyclopenta[ b ]",
+"page": "www.oaepublish.com",
+"img": "image.oaes.cc"
+},
+{
+"title": "Organocatalytic Nazarov-type cyclization of 3-alkynyl-2-indolylmethanols: construction of axially chiral cyclopenta[ b ]",
+"page": "www.oaepublish.com",
+"img": "image.oaes.cc"
+},
+{
+"title": "Scheme 16",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "Scheme 72",
+"page": "www.sciencedirect.com",
+"img": "ars.els-cdn.com"
+},
+{
+"title": "Scheme 24",
+"page": "chinesechemsoc.org",
+"img": "www.chinesechemsoc.org"
+},
+{
+"title": "Fig. 2 |",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+}
+]
+},
+{
+"doi": "10.1021/acscatal.6c06008",
+"date": "2026-11-02",
+"t": "Divergent Reactivity toward Decarboxylative Protonation or Oxidation via Single-Component Organocatalysis",
+"top": [
+{
+"title": "Decarboxylative cross-coupling general reaction scheme",
+"page": "en.wikipedia.org",
+"img": "thumb.wikimedia.org"
+},
+{
+"title": "Catalyst-free decarboxylative alkylation: access to quaternary center",
+"page": "www.oaepublish.com",
+"img": "image.oaes.cc"
+},
+{
+"title": "Catalyst-free decarboxylative alkylation: access to quaternary center",
+"page": "www.oaepublish.com",
+"img": "image.oaes.cc"
+},
+{
+"title": "Catalyst-free decarboxylative alkylation: access to quaternary center",
+"page": "www.oaepublish.com",
+"img": "image.oaes.cc"
+},
+{
+"title": "Catalyst-free decarboxylative alkylation: access to quaternary center",
+"page": "www.oaepublish.com",
+"img": "image.oaes.cc"
+},
+{
+"title": "Catalyst-free decarboxylative alkylation: access to quaternary center",
+"page": "www.oaepublish.com",
+"img": "image.oaes.cc"
+}
+]
+},
+{
+"doi": "10.1021/acscatal.6c06444",
+"date": "2026-11-02",
+"t": "Mechanistic Insights into Cobalt-Catalyzed Kumada C(sp2)–C(sp2) Cross-Coupling Enabled by High-Denticity Cobalt(I) Intermediates",
+"top": [
+{
+"title": "Cobalt-Catalyzed C(sp2)–C(sp3) Suzuki-Miyaura Cross-Coupling Enabled by Well-Defined Precatalysts with L,X-Type Ligands",
+"page": "chirik.princeton.edu",
+"img": "chirik.princeton.edu"
+},
+{
+"title": "Cobalt-Catalyzed C(sp2)-H Borylation: Mechanistic Insights Inspire Catalyst Design",
+"page": "chirik.princeton.edu",
+"img": "chirik.princeton.edu"
+},
+{
+"title": "Graphic. Refer to the image caption for details.",
+"page": "pubs.acs.org",
+"img": "acs.silverchair-cdn.com"
+},
+{
+"title": "",
+"page": "www.mdpi.com",
+"img": "pub.mdpi-res.com"
+},
+{
+"title": "Mechanistic Investigations of Phenoxyimine–Cobalt(II)-Catalyzed C(sp2)–C(sp3) Suzuki–Miyaura Cross-Coupling",
+"page": "chirik.princeton.edu",
+"img": "chirik.princeton.edu"
+},
+{
+"title": "Scheme 19.",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+}
+]
+},
+{
+"doi": "10.1021/jacs.6c05918",
+"date": "2026-05-25",
+"t": "Dynamic Kinetic Asymmetric Allylation of Ketones: Stereodivergent Synthesis of E - or Z -Substituted α,β-Stereogenic Tertiary Alcohols",
+"top": [
+{
+"title": "",
+"page": "www.organic-chemistry.org",
+"img": "www.organic-chemistry.org"
+},
+{
+"title": "if1.eps",
+"page": "chinesechemsoc.org",
+"img": "www.chinesechemsoc.org"
+},
+{
+"title": "",
+"page": "pnas.org",
+"img": "www.pnas.org"
+},
+{
+"title": "",
+"page": "organic-chemistry.org",
+"img": "www.organic-chemistry.org"
+},
+{
+"title": "Scheme 6.",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "Details are in the caption following the image",
+"page": "onlinelibrary.wiley.com",
+"img": "onlinelibrary.wiley.com"
 }
 ]
 }

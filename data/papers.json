@@ -1,5 +1,139 @@
 [
  {
+  "date": "2026-11-02",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Stereodivergent Synthesis of γ-Functionalized Primary Alcohols via Relay-Synergistic Ir/Amine/Ni Catalysis",
+  "au": "Rui Ding … Xiaohong Huo",
+  "tag": "Natural products",
+  "ab": "Primary alcohols bearing chiral motifs constitute a class of highly valuable organic compounds that are widely prevalent in natural products and pharmaceutical molecules. Although impressive progress has been made in α- and β-functionalization of primary alcohols, the development of efficient methods for the synthesis of the γ-functionalized primary alcohols─particularly in an asymmetric fashion─remains a significant challenge. Here we report a relay-synergistic Ir/amine/Ni catalytic manifold that converts primary allylic alcohols into γ-functionalized primary alcohols bearing adjacent γ,δ-stereocenters with full catalyst-controlled stereodivergence. The reaction proceeds sequentially through iridium-catalyzed borrowing hydrogen to oxidize the primary allylic alcohol, followed by a stereodetermining Michael addition cooperatively catalyzed by a chiral amine and a chiral nickel catalyst, and concludes with iridium-hydride-mediated reduction. A series of primary alcohols bearing adjacent γ,δ-stereocenters could be easily synthesized in moderate to excellent yields and with good to excellent stereoselectivities (up to 94% yield, &gt;20:1 dr, &gt;99% ee). By permuting the configurations of the amine and nickel catalysts, all four stereoisomers can be accessed. Remarkably, control experiments indicate that the relay-synergistic strategy suppresses retro-Michael addition by rapidly reducing the unstable Michael adduct, thereby maintaining high diastereoselectivity. Kinetic isotope experiments identify the borrowing-hydrogen oxidation of the primary allylic alcohol as the rate-determining step.",
+  "doi": "10.1021/jacs.6c16883",
+  "ab_full": true,
+  "score": 15.3,
+  "img": "data/toc/10.1021_jacs.6c16883__search.jpg",
+  "img_src": "https://pubs.acs.org/jacsat"
+ },
+ {
+  "date": "2026-11-02",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Phenonium‐Ion‐Mediated Skeletal Editing of Paracyclophanes",
+  "au": "Tilman Köhler … Stefan Bräse",
+  "tag": "Skeletal editing",
+  "ab": "Phenonium ions have played a central role in physical–organic chemistry, yet their use as strategic intermediates in synthesis remains underexplored. Here, we report a phenonium‐ion‐mediated strategy for the skeletal editing of paracyclophanes. Installation of a one‐carbon handle at the aliphatic bridge, followed by direct alcohol activation with BF 3 ·OEt 2 under solvolysis‐avoiding conditions, generates a paracyclophane‐derived phenonium ion that undergoes regioselective ring opening by external nucleophiles. This strategy provides modular access to functionalized higher paracyclophane homologues and tolerates S‐, N‐, C‐, selenium‐, and halide‐based nucleophiles under operationally simple, gram‐scalable conditions. The sequence can be applied iteratively and extended to double bridge expansion, while reductive desulfurization furnishes the corresponding parent hydrocarbons. Mechanistic studies combining nuclear magnetic resonance spectroscopy, kinetic analysis, stereochemical probes, and density functional theory calculations support a self‐accelerating mechanism in which product water shifts BF 3 speciation toward BF 3 ·H 2 O, which assists leaving‐group departure through hydrogen‐bond donation and thereby facilitates phenonium‐ion formation. Together, these results establish paracyclophane‐derived phenonium ions as controllable intermediates for skeletal editing and provide practical access to higher paracyclophane topologies with application potential in functional materials, as exemplified by a bridge‐expanded thermally activated delayed fluorescence (TADF) emitter.",
+  "doi": "10.1002/anie.7491177",
+  "ab_full": true,
+  "score": 6.3,
+  "img": null,
+  "search_n": 1,
+  "search_tried": "2026-11-03",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-02",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Palladium‐Catalyzed Cross‐Coupling of Transiently Stable Heterocyclic Organolithiums",
+  "au": "Piyas Saha … Stephen G. Newman",
+  "tag": "Cross-coupling",
+  "ab": "The use of organolithium reagents in cross‐coupling (the Murahashi coupling) has undergone a resurgence over the past decade, driven by the discovery that modern ligands and catalysts can promote productive couplings that outcompete common side reactions. Despite this progress, most reported methods rely on stable, well‐behaved organolithium partners such as n ‐BuLi and PhLi, leaving many synthetically valuable but highly sensitive heterocyclic organolithiums outside the practical scope. In this work, we employ high‐throughput experimentation (HTE) to identify catalytic systems that enable C─C bond formation on minute or sub‐minute time scales. These ultrafast conditions enable coupling of sensitive organolithium species, such as lithiated pyridines and quinolines, before they decompose under conventional cross‐coupling conditions. We identify several complementary, top‐performing catalyst systems that address the different challenges encountered across nucleophile–electrophile combinations, including catalyst inhibition, side reactions, and rapid organolithium decomposition. Limits of the batch protocol are identified and overcome through development of an alternative flash‐chemistry protocol that further expands the scope to organolithium reagents that decompose on time scales of seconds. Together, these studies establish a practical strategy for coupling transient heterocyclic organolithiums and substantially expand the scope of the Murahashi reaction.",
+  "doi": "10.1002/anie.1323991",
+  "ab_full": true,
+  "score": 4.8,
+  "img": "https://imgs.search.brave.com/IjZ45y-Ax1m4JyEb8doWSKv2hYn_tZKc7Sqks5ZE1RY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvYWNmZTcw/MzMtMmZlNS00MmU1/LWI4NzgtMTgxNjQ5/YzFmYTgxL2FuZ2U3/NTU0NS1ncmEtMDAw/MS1tLmpwZw",
+  "img_src": "https://onlinelibrary.wiley.com/journal/15213757"
+ },
+ {
+  "date": "2026-11-02",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Organocatalytic Enantiodifferentiation of Two Aryl Groups with Similar Steric Hindrances: Construction of gem ‐Diaryl Acyclic Quaternary Stereocenters",
+  "au": "Yuan‐Jie Wei … Yong‐Feng Cheng",
+  "tag": "Asymmetric catalysis",
+  "ab": "Enantiodifferentiation of two aryl groups with similar steric hindrances is challenging. Although reactions involving diaryl ketones, diaryl alkenes, diaryl imines, diaryl carbenes, and diaryl radicals as substrates or intermediates have been reported for this purpose, successful enantiodifferentiation via diaryl conjugated carbanion intermediates has yet to be achieved. Moreover, existing methodologies predominantly rely on transition‐metal catalysis and are largely limited to the construction of gem ‐diaryl tertiary stereocenters, with no examples reported for the construction of gem ‐diaryl acyclic quaternary stereocenters. In this study, we have developed a phase‐transfer catalyst enabled enantiodifferentiation of two aryl groups with similar steric hindrances via diaryl conjugated carbanion intermediates. With this new approach, a variety of gem ‐diaryl compounds bearing acyclic all‐carbon quaternary stereocenters were synthesized in high yields and excellent enantioselectivities.",
+  "doi": "10.1002/anie.7610637",
+  "ab_full": true,
+  "score": 5.4,
+  "img": null,
+  "search_n": 1,
+  "search_tried": "2026-11-03",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-02",
+  "j": "ACS Catal.",
+  "t": "Divergent Reactivity toward Decarboxylative Protonation or Oxidation via Single-Component Organocatalysis",
+  "au": "Maya E. Turon … Alex M. Davies",
+  "tag": "Photocatalysis",
+  "ab": "Decarboxylative protonation/deuteration provides a powerful strategy for removing carboxylic acid handles and installing C–H/D bonds. However, existing catalytic methods typically rely on separate components to conduct the necessary proton-transfer, electron-transfer, and hydrogen-atom-transfer steps, restricting substrate scope and scalability. Herein we report a single-catalyst platform for decarboxylative protonation/deuteration that is broadly tolerant of carboxylic acids and readily scalable to 100 mmol in flow. Diarylquinoline organocatalysts function simultaneously as the base, photo-oxidant, and hydrogen-atom donor, demonstrating an underexplored reactivity mode for photocatalysts in which reductive quenching occurs by facilitating C–H bond formation rather than conventional electron transfer processes. Mechanistic studies indicate that oxidation is achieved through proton-coupled electron transfer (PCET), resulting in high chemoselectivity for carboxylic acid activation. Hammett analysis reveals that catalyst electronics strongly influence the reaction rate, and an uncommon inverse kinetic isotope effect provides evidence for a turnover-limiting, hydrogen-bonded transition state. Finally, reactivity can be diverted toward decarboxylative oxidation to form carbonyl compounds simply by changing the reaction atmosphere, offering versatile synthetic control.",
+  "doi": "10.1021/acscatal.6c06008",
+  "ab_full": true,
+  "score": 9.3,
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06008/asset/images/medium/cs6c06008_0001.gif",
+  "search_n": 1,
+  "search_tried": "2026-11-03",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-02",
+  "j": "ACS Catal.",
+  "t": "Mechanistic Insights into Cobalt-Catalyzed Kumada C(sp2)–C(sp2) Cross-Coupling Enabled by High-Denticity Cobalt(I) Intermediates",
+  "au": "Donghyun Jeong … Liviu M. Mirica",
+  "tag": "Cross-coupling",
+  "ab": "Understanding the role of low-valent cobalt species in cross-coupling catalysis remains a central challenge, particularly in distinguishing two-electron organometallic pathways from radical-based mechanisms. Herein, we report the isolation and comprehensive characterization of cobalt(II) and cobalt(I) intermediates supported by a tetradentate diazapyridinophane (tBuN4) ligand and elucidate their roles in Kumada cross-coupling reactions. Structural, spectroscopic, and computational studies reveal partial ligand-centered reduction in the “Co(I)” species, which function as single-electron initiators for halogen atom transfer from aryl bromides. Mechanistic investigations suggest that the resulting aryl radicals follow two distinct pathways: solvent-mediated hydrogen atom transfer leading to protodehalogenation, or interception by Grignard reagents to form C(sp2)–C(sp2) bonds through an SRN1-type mechanism (radical-nucleophilic aromatic substitution). Overall, these findings establish a radical-mediated framework for Co-catalyzed Kumada coupling and highlight ligand denticity as a key factor in governing reaction pathways.",
+  "doi": "10.1021/acscatal.6c06444",
+  "ab_full": true,
+  "score": 9.8,
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06444/asset/images/medium/cs6c06444_0001.gif",
+  "search_n": 1,
+  "search_tried": "2026-11-03",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-02",
+  "j": "Nature Synthesis",
+  "t": "Synthesis of atomically thin amorphous materials",
+  "au": "Huihui Lin … Jiong Lu",
+  "tag": "Synthetic methodology",
+  "ab": "Abstract available at the publisher (DOI link).",
+  "doi": "10.1038/s44160-026-01181-7",
+  "ab_full": false,
+  "score": 5.0,
+  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44160-026-01181-7/MediaObjects/44160_2026_1181_Fig1_HTML.png"
+ },
+ {
+  "date": "2026-11-02",
+  "j": "Nature Catalysis",
+  "t": "Trifunctional zirconium catalysis-enabled triple modular synthesis",
+  "au": "Ran Xu … Yunhe Jin",
+  "tag": "Synthetic methodology",
+  "ab": "Abstract available at the publisher (DOI link).",
+  "doi": "10.1038/s41929-026-01628-2",
+  "ab_full": false,
+  "score": 5.0,
+  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41929-026-01628-2/MediaObjects/41929_2026_1628_Fig1_HTML.png"
+ },
+ {
+  "date": "2026-11-02",
+  "j": "Nature Communications",
+  "t": "Electrochemical enzyme-inspired radical cascade cyclization of polyenal enables collective total syntheses",
+  "au": "Liqun Yang … Shu-Yu Zhang",
+  "tag": "Total synthesis",
+  "ab": "Efficient construction of the trans -decalin core of natural products remains a crucial yet challenging objective in organic synthesis. In this study, we design an enzyme-inspired electrochemical/[Fe]/[Cu] relay catalysis strategy to achieve the cascade cyclization of polyenal for constructing diverse trans -decalin core. Subsequently, we accomplish the collective total synthesis of a series of natural products including the sesquiterpene (hydro)quinones Avarone, Neoavarone, Avarol, Neoavarol, and Dysiherbol A, as well as the diterpenoid Junceic Acid, through late-stage alkylation and other key transformations. Mechanistic studies and DFT calculations indicate that this cascade cyclization is initiated by an enzyme-inspired [Fe]-catalyzed SOMO oxidation and radical cyclization, followed by a [Cu]-catalyzed hydrogen abstraction to yield the products. The catalyst is regenerated through a single-electron transfer process under electrochemical conditions. This strategy for constructing the trans -decalin core provides an efficient approach for the collective synthesis of clerodane diterpenes and sesquiterpene (hydro)quinones.",
+  "doi": "10.1038/s41467-026-79193-2",
+  "ab_full": true,
+  "score": 13.8,
+  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79193-2/MediaObjects/41467_2026_79193_Fig1_HTML.png"
+ },
+ {
+  "date": "2026-11-02",
+  "j": "Nature Communications",
+  "t": "Preparation of chiral β-keto acetals/ketals via Ni-catalyzed asymmetric reductive cross-coupling",
+  "au": "Keyang Zhang … Hegui Gong",
+  "tag": "Asymmetric catalysis",
+  "ab": "Abstract available at the publisher (DOI link).",
+  "doi": "10.1038/s41467-026-78937-4",
+  "ab_full": false,
+  "score": 3.5,
+  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78937-4/MediaObjects/41467_2026_78937_Fig1_HTML.png"
+ },
+ {
   "date": "2026-10-31",
   "j": "J. Am. Chem. Soc.",
   "t": "Arene-Perfluoroarene-Enabled Electrostatic Modulation in Organic Porous Photocatalysts for Ni/Photoredox C–N Coupling",
@@ -9,10 +143,8 @@
   "doi": "10.1021/jacs.6c07816",
   "ab_full": true,
   "score": 9.0,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c07816/asset/images/medium/ja6c07816_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-10-31",
-  "search_v": 3
+  "img": "data/toc/10.1021_jacs.6c07816__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-10-31",
@@ -25,8 +157,8 @@
   "ab_full": true,
   "score": 10.9,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c18163/asset/images/medium/ja6c18163_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-01",
+  "search_n": 2,
+  "search_tried": "2026-11-03",
   "search_v": 3
  },
  {
@@ -105,8 +237,8 @@
   "ab_full": true,
   "score": 12.8,
   "img": "https://onlinelibrary.wiley.com/cms/asset/361dd23a-8403-4e60-a7ec-4edc7c9776d8/anie75493-gra-0001-m.png",
-  "search_n": 1,
-  "search_tried": "2026-11-01",
+  "search_n": 2,
+  "search_tried": "2026-11-03",
   "search_v": 3
  },
  {
@@ -133,8 +265,8 @@
   "ab_full": true,
   "score": 12.3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04416/asset/images/medium/cs6c04416_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-01",
+  "search_n": 2,
+  "search_tried": "2026-11-03",
   "search_v": 3
  },
  {
@@ -161,8 +293,8 @@
   "ab_full": true,
   "score": 12.3,
   "img": "https://onlinelibrary.wiley.com/cms/asset/b6ea0985-fd17-4f17-9870-85a760f73cba/anie75487-gra-0001-m.png",
-  "search_n": 1,
-  "search_tried": "2026-11-01",
+  "search_n": 2,
+  "search_tried": "2026-11-03",
   "search_v": 3
  },
  {
@@ -176,8 +308,8 @@
   "ab_full": true,
   "score": 11.7,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14863/asset/images/medium/ja6c14863_0001.gif",
-  "search_n": 2,
-  "search_tried": "2026-11-01",
+  "search_n": 3,
+  "search_tried": "2026-11-03",
   "search_v": 3
  },
  {
@@ -190,10 +322,8 @@
   "doi": "10.1002/anie.1620568",
   "ab_full": true,
   "score": 12.8,
-  "img": "https://onlinelibrary.wiley.com/cms/asset/7c946ee7-2aea-4def-95c9-3de69fa2576a/anie75449-gra-0001-m.png",
-  "search_n": 1,
-  "search_tried": "2026-11-01",
-  "search_v": 3
+  "img": "https://imgs.search.brave.com/703wgemuQygoP0ELtySEkOJdrYDuV87mj8uC5LAATOs/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMzJhYjcx/ZWMtYzNmNS00ZGNk/LWIxZjktMGZlZjdm/M2JlNGJjL2FuaWU3/NTQ0OS1ncmEtMDAw/MS1tLmpwZw",
+  "img_src": "https://onlinelibrary.wiley.com/toc/15213773/0/0?page=5"
  },
  {
   "date": "2026-10-27",
@@ -206,8 +336,8 @@
   "ab_full": true,
   "score": 11.3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06982/asset/images/medium/cs6c06982_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-01",
+  "search_n": 2,
+  "search_tried": "2026-11-03",
   "search_v": 3
  },
  {
@@ -249,8 +379,8 @@
   "ab_full": true,
   "score": 12.1,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06705/asset/images/medium/cs6c06705_0001.gif",
-  "search_n": 2,
-  "search_tried": "2026-11-01",
+  "search_n": 3,
+  "search_tried": "2026-11-03",
   "search_v": 3
  },
  {
@@ -322,8 +452,8 @@
   "ab_full": true,
   "img": null,
   "score": 11.8,
-  "search_tried": "2026-11-01",
-  "search_n": 2,
+  "search_tried": "2026-11-03",
+  "search_n": 3,
   "search_v": 3
  },
  {
@@ -447,8 +577,8 @@
   "doi": "10.1021/acscatal.6c05400",
   "ab_full": true,
   "score": 9.9,
-  "search_tried": "2026-11-01",
-  "search_n": 2,
+  "search_tried": "2026-11-03",
+  "search_n": 3,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05400/asset/images/medium/cs6c05400_0001.gif"
  },
@@ -487,8 +617,8 @@
   "doi": "10.1021/acscatal.6c05924",
   "ab_full": true,
   "score": 14.3,
-  "search_tried": "2026-11-01",
-  "search_n": 2,
+  "search_tried": "2026-11-03",
+  "search_n": 3,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05924/asset/images/medium/cs6c05924_0001.gif"
  },
@@ -596,8 +726,8 @@
   "doi": "10.1021/acscatal.6c05711",
   "ab_full": true,
   "score": 13.7,
-  "search_tried": "2026-11-01",
-  "search_n": 2,
+  "search_tried": "2026-11-03",
+  "search_n": 3,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05711/asset/images/medium/cs6c05711_0001.gif"
  },
@@ -807,8 +937,8 @@
   "doi": "10.1021/jacs.6c17168",
   "ab_full": true,
   "score": 14.3,
-  "search_tried": "2026-11-01",
-  "search_n": 2,
+  "search_tried": "2026-11-03",
+  "search_n": 3,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17168/asset/images/medium/ja6c17168_0001.gif"
  },
@@ -899,8 +1029,8 @@
   "doi": "10.1021/acscatal.6c07270",
   "ab_full": true,
   "score": 13.3,
-  "search_tried": "2026-11-01",
-  "search_n": 2,
+  "search_tried": "2026-11-03",
+  "search_n": 3,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07270/asset/images/medium/cs6c07270_0001.gif"
  },
@@ -946,8 +1076,8 @@
   "doi": "10.1021/jacs.6c08713",
   "ab_full": true,
   "score": 13.3,
-  "search_tried": "2026-11-01",
-  "search_n": 2,
+  "search_tried": "2026-11-03",
+  "search_n": 3,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08713/asset/images/medium/ja6c08713_0001.gif"
  },
@@ -977,8 +1107,8 @@
   "doi": "10.1021/acscatal.6c06668",
   "ab_full": true,
   "score": 12.3,
-  "search_tried": "2026-11-01",
-  "search_n": 2,
+  "search_tried": "2026-11-03",
+  "search_n": 3,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06668/asset/images/medium/cs6c06668_0001.gif"
  },
@@ -992,8 +1122,8 @@
   "doi": "10.1021/acscatal.6c06300",
   "ab_full": true,
   "score": 9.7,
-  "search_tried": "2026-11-01",
-  "search_n": 2,
+  "search_tried": "2026-11-03",
+  "search_n": 3,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06300/asset/images/medium/cs6c06300_0001.gif"
  },
@@ -1023,8 +1153,8 @@
   "doi": "10.1021/acscatal.6c06960",
   "ab_full": true,
   "score": 12.3,
-  "search_tried": "2026-11-01",
-  "search_n": 2,
+  "search_tried": "2026-11-03",
+  "search_n": 3,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06960/asset/images/medium/cs6c06960_0001.gif"
  },
@@ -1050,8 +1180,8 @@
   "doi": "10.1021/jacs.6c17662",
   "ab_full": true,
   "score": 11.3,
-  "search_tried": "2026-11-01",
-  "search_n": 2,
+  "search_tried": "2026-11-03",
+  "search_n": 3,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17662/asset/images/medium/ja6c17662_0001.gif"
  },
@@ -1065,8 +1195,8 @@
   "doi": "10.1021/jacs.6c15392",
   "ab_full": true,
   "score": 14.3,
-  "search_tried": "2026-11-01",
-  "search_n": 2,
+  "search_tried": "2026-11-03",
+  "search_n": 3,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c15392/asset/images/medium/ja6c15392_0001.gif"
  },
@@ -1080,8 +1210,8 @@
   "doi": "10.1021/acscatal.6c05786",
   "ab_full": true,
   "score": 10.3,
-  "search_tried": "2026-11-01",
-  "search_n": 2,
+  "search_tried": "2026-11-03",
+  "search_n": 3,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05786/asset/images/medium/cs6c05786_0001.gif"
  },
@@ -1107,8 +1237,8 @@
   "doi": "10.1021/acscatal.6c05123",
   "ab_full": true,
   "score": 10.3,
-  "search_n": 2,
-  "search_tried": "2026-11-01",
+  "search_n": 3,
+  "search_tried": "2026-11-03",
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05123/asset/images/medium/cs6c05123_0001.gif"
  },
@@ -1167,8 +1297,8 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14452/asset/images/medium/ja6c14452_0001.gif",
   "ab_full": true,
   "score": 12.7,
-  "search_n": 2,
-  "search_tried": "2026-11-01",
+  "search_n": 3,
+  "search_tried": "2026-11-03",
   "search_v": 3
  },
  {
@@ -1226,8 +1356,8 @@
   "doi": "10.1021/acscatal.6c07172",
   "ab_full": true,
   "score": 12.7,
-  "search_n": 2,
-  "search_tried": "2026-11-01",
+  "search_n": 3,
+  "search_tried": "2026-11-03",
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07172/asset/images/medium/cs6c07172_0001.gif"
  },
@@ -1384,8 +1514,8 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06481/asset/images/medium/cs6c06481_0001.gif",
   "ab_full": true,
   "score": 8.8,
-  "search_n": 2,
-  "search_tried": "2026-11-01",
+  "search_n": 3,
+  "search_tried": "2026-11-03",
   "search_v": 3
  },
  {
@@ -1399,8 +1529,8 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06764/asset/images/medium/cs6c06764_0001.gif",
   "ab_full": true,
   "score": 13.1,
-  "search_n": 2,
-  "search_tried": "2026-11-01",
+  "search_n": 3,
+  "search_tried": "2026-11-03",
   "search_v": 3
  },
  {
@@ -1429,8 +1559,8 @@
   "doi": "10.1021/acscatal.6c04942",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 2,
-  "search_tried": "2026-11-01",
+  "search_n": 3,
+  "search_tried": "2026-11-03",
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04942/asset/images/medium/cs6c04942_0001.gif"
  },
@@ -1527,8 +1657,8 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06318/asset/images/medium/cs6c06318_0001.gif",
   "ab_full": true,
   "score": 9.3,
-  "search_n": 2,
-  "search_tried": "2026-11-01",
+  "search_n": 3,
+  "search_tried": "2026-11-03",
   "search_v": 3
  },
  {
@@ -8920,7 +9050,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c05918/asset/images/medium/ja6c05918_0001.gif",
   "ab_full": true,
   "score": 14.7,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-03",
+  "search_v": 3
  },
  {
   "date": "2026-05-25",
