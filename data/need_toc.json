@@ -1,5 +1,71 @@
 [
 {
+"doi": "10.1021/jacs.6c16828",
+"j": "J. Am. Chem. Soc.",
+"t": "Concise Synthesis of 9-Azahomocubanes",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c16933",
+"j": "J. Am. Chem. Soc.",
+"t": "Modular Access to Lasso Molecules Elucidates the Requirements for Stabilization of the Threaded Structure",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c17545",
+"j": "J. Am. Chem. Soc.",
+"t": "Metal-Free Synthesis of Unsymmetrical B–B Bond via Pyridyl-Directed m -Carborane Borylation",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c18093",
+"j": "J. Am. Chem. Soc.",
+"t": "Anionic Phase-Transfer Catalysis for Constructing Chiral Sulfur Centers via Asymmetric Sulfinimidation",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c15991",
+"j": "J. Am. Chem. Soc.",
+"t": "Iron-Catalyzed Alkylation of Unactivated Secondary and Tertiary Alkyl Halides by Olefins to Form Tertiary and Quaternary Carbons",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c17806",
+"j": "J. Am. Chem. Soc.",
+"t": "Asymmetric Total Synthesis of 7-Isocyanoisocycloamphilect-14-ene and 7,15-Diisocyanoadociane",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.4076828",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Resurrecting Robust CYP152 Peroxygenases for Versatile Biocatalysis",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c18259",
+"j": "J. Am. Chem. Soc.",
+"t": "Single-Carbon Atom Insertion into Phenols with Nitroalkanes",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c17763",
+"j": "J. Am. Chem. Soc.",
+"t": "Modular Construction of Heterotetrahydroisoquinolines via Radical Cyclization",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c18095",
+"j": "J. Am. Chem. Soc.",
+"t": "Carbonyl–Olefin Coupling Enabled by Photocatalytic Phosphine-Mediated Water Activation",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c07775",
+"j": "ACS Catal.",
+"t": "Harnessing Entropy for Switchable Radical Cyclization Cascades",
+"m": "2026-11"
+},
+{
 "doi": "10.1002/anie.7491177",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Phenonium‐Ion‐Mediated Skeletal Editing of Paracyclophanes",
@@ -1668,12 +1734,6 @@
 "m": "2026-05"
 },
 {
-"doi": "10.1021/jacs.6c05640",
-"j": "J. Am. Chem. Soc.",
-"t": "Enantioselective Iridium-Catalyzed Intramolecular Hydroarylation of (Hetero)Arene-Tethered Prochiral Diketones",
-"m": "2026-05"
-},
-{
 "doi": "10.1021/jacs.6c04676",
 "j": "J. Am. Chem. Soc.",
 "t": "Deaminative C( sp 3)─C( sp 3) Cross-Coupling of Benzylamines with Alcohols and Carboxylic Acids via Radical Sorting",
@@ -1707,12 +1767,6 @@
 "doi": "10.1021/jacs.6c01678",
 "j": "J. Am. Chem. Soc.",
 "t": "Electrochemical Enantioselective Ruthenium(II)-Catalyzed C–H Activations to Atropostable Indoles and Chiral Spiropyrazolones",
-"m": "2026-05"
-},
-{
-"doi": "10.1021/acscatal.6c01036",
-"j": "ACS Catal.",
-"t": "Direct α-C−H Heteroarylation of Unprotected Primary Amines",
 "m": "2026-05"
 },
 {
@@ -1773,12 +1827,6 @@
 "doi": "10.1002/anie.6963888",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Alcohol‐Directed Carboamination of Conjugated Enynes",
-"m": "2026-05"
-},
-{
-"doi": "10.1002/anie.6162809",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Geminal Difunctionalization of Ketones via C─S Bond Insertion of Photogenerated Donor–Donor Diazo Compounds",
 "m": "2026-05"
 },
 {
@@ -1899,12 +1947,6 @@
 "doi": "10.1002/anie.202525790",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Radical Cascade Combining Cross‐Olefin Coupling with the Smiles‐Truce Rearrangement",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/acscatal.6c00602",
-"j": "ACS Catal.",
-"t": "Alkoxide−Bridged Dicobalt(II) Compounds as Precatalysts for C−H Borylation and Application to Late-Stage Functionalization",
 "m": "2026-04"
 },
 {
@@ -2073,12 +2115,6 @@
 "doi": "10.1002/anie.6606811",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Photocatalytic Radical‐Polar Crossover Enables Modular Access to Bicyclo[2.m.n]Alkane Alcohol Bioisosteres",
-"m": "2026-04"
-},
-{
-"doi": "10.1021/jacs.6c02838",
-"j": "J. Am. Chem. Soc.",
-"t": "Total Synthesis of Euphopia B and Discovery of a Selective Inhibitor of Potassium Efflux-Independent NLRP3 Inflammasome Activation",
 "m": "2026-04"
 },
 {
