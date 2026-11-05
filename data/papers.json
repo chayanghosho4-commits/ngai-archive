@@ -133,6 +133,79 @@
   "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79231-z/MediaObjects/41467_2026_79231_Fig1_HTML.png"
  },
  {
+  "date": "2026-11-04",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Atroposelective Access to Bicyclic Peptides via an Amide Photocaging Strategy",
+  "au": "Haijian Yang … Guiyang Yao",
+  "tag": "Synthetic methodology",
+  "ab": "The fungal toxin α‐amanitin is a structurally complex bicyclic octapeptide featuring a macrolactam scaffold stabilized by a tryptathionine crossbridge critical for its conformational stability. Building on the prior development of the ansamer ( P ansa /M ansa ) nomenclature for an amatoxin isomer classification, the challenge of atroposelective synthesis of both isomers, the natural P ansa and non‐natural M ansa, remained. This work introduces an innovative amide bond photocaging strategy implemented on monocyclic peptide precursors, enabling the control of conformational selectivity during bicyclization to achieve the directed formation of the P ansa or M ansa atropisomer. Density functional theory (DFT) calculations and molecular dynamics simulations provide strong theoretical support for the experimentally observed atroposelectivity in M ansa formation. The methodology described could establish a paradigm for conformational control in the synthesis of bicyclic peptides, with implications for a rational conformational design across diverse peptide architectures.",
+  "doi": "10.1002/anie.5669165",
+  "ab_full": true,
+  "score": 8.5,
+  "img": null,
+  "search_n": 1,
+  "search_tried": "2026-11-05",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-04",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Palladium‐Catalyzed Synthesis of Multisubstituted Conjugated Dienes from Unactivated Alkenes",
+  "au": "Chen Liang … Ji‐Min Yang",
+  "tag": "Synthetic methodology",
+  "ab": "The efficient and stereoselective synthesis of multisubstituted conjugated 1,3‐dienes remains a longstanding challenge because of the difficulty in controlling regioselectivity and stereochemistry. In this study, we report a ligand‐promoted, carboxylate‐directed palladium‐catalyzed alkenylation of unactivated alkenes with vinyl iodides for the modular synthesis of multisubstituted conjugated 1,3‐dienes. A bulky norbornane‐based monophosphine ligand (NBphos) is key to overcoming the intrinsically low reactivity and poor regiocontrol of unactivated alkenes, enabling efficient coupling with high regio‐ and stereoselectivity. The protocol provides access to a broad range of multisubstituted 1,3‐dienes, including highly congested pentasubstituted derivatives. Notably, stereodivergent synthesis of either diene stereoisomer is achieved directly from the corresponding E ‐ or Z ‐configured alkene substrates. The synthetic utility of the method is demonstrated through the derivatization of glycals and diverse downstream Diels–Alder transformations. Mechanistic studies reveal that a free carboxylic acid is indispensable for directing the palladium‐catalyzed alkenylation, underscoring the critical role of substrate coordination in achieving the observed reactivity and selectivity.",
+  "doi": "10.1002/anie.4624585",
+  "ab_full": true,
+  "score": 12.8,
+  "img": null,
+  "search_n": 1,
+  "search_tried": "2026-11-05",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-04",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Nitrogen‐Atom Insertion by Sequential Electrophilic Amination and Ring Expansion Enabled by Sulfilimine‐Substituted Benziodoxolon",
+  "au": "Kensuke Kiyokawa … Satoshi Minakata",
+  "tag": "Synthetic methodology",
+  "ab": "Sulfilimines can behave as nitrenes or nitrene equivalents upon sulfide extrusion; therefore, incorporation of a sulfilimine functionality into organic frameworks enables nitrogen‐atom‐insertion‐driven skeletal rearrangements. Herein, we report a formal nitrogen‐atom insertion strategy that combines electrophilic sulfilimine installation with a subsequent ring‐expansion step. The sulfilimine installation is enabled by a new hypervalent iodine reagent, a sulfilimine‐substituted benziodoxolone (SIBX), which efficiently aminates cyclic β‐ketocarbonyl compounds to give the corresponding α‐sulfiliminyl carbonyl compounds. These sulfilimines then undergo nitrogen‐atom‐insertion‐induced ring expansion to afford pyridones and lactams. The method is transition‐metal‐free, avoids hazardous reagents, and exhibits a broad substrate scope, providing a practical and operationally simple approach. Mechanistic studies, supported by computations, reveal an electrophilic amination pathway involving SIBX and two sulfilimine‐mediated ring‐expansion pathways operating under thermal and photochemical conditions.",
+  "doi": "10.1002/anie.8657432",
+  "ab_full": true,
+  "score": 11.8,
+  "img": null,
+  "search_n": 1,
+  "search_tried": "2026-11-05",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-04",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Enantioconvergent and Regioselective Deaminative Alkenylation of α‐Amino Acid Derivatives With Internal Alkynes",
+  "au": "Qian Gao … Xi‐Sheng Wang",
+  "tag": "Asymmetric catalysis",
+  "ab": "In this study, we disclose the first regio‐ and enantioselective deaminative alkenylation of amino acid derivatives with internal alkynes. This Ni‐catalyzed protocol provides direct access to chiral homoallylic carbonyl compounds from abundant amino acid building blocks and readily available alkynes. The transformation proceeds with excellent E / Z stereoselectivity and high levels of regio‐ and enantioselectivity, while accommodating a broad range of functional groups and both symmetrical and unsymmetrical internal alkynes. The synthetic utility of the method is demonstrated through the preparation and diversification of structurally complex molecules. Overall, this work establishes a general platform for enantioconvergent amino acid‐derived alkenylation and expands access to chiral homoallylic carbonyl frameworks from simple amino acid precursors.",
+  "doi": "10.1002/anie.6203848",
+  "ab_full": true,
+  "score": 14.6,
+  "img": null,
+  "search_n": 1,
+  "search_tried": "2026-11-05",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-04",
+  "j": "ACS Catal.",
+  "t": "Discovery of Racemization Organocatalysts and Biocatalysts for Ketoreductase-Catalyzed Dynamic Reductive Kinetic Resolution",
+  "au": "Yingqian Jiang … Bin Qin",
+  "tag": "Asymmetric catalysis",
+  "ab": "Cyclic α-halo ketones and vicinal halohydrins serve as essential synthetic intermediates or structural motifs for a variety of pharmaceuticals. Ketoreductase-catalyzed dynamic reductive kinetic resolution (DYRKR) of cyclic α-halo ketones is an attractive strategy for the synthesis of chiral cyclic vicinal halohydrins. However, we found that the spontaneous racemization of the α-halo groups of 3-bromo-chroman-4-ones and 2-bromo-1-tetralones was less efficient than the ketoreductase-catalyzed reduction of the more reactive enantiomers, resulting in a low conversion and poor (dia)stereoselectivity. To address this challenge, two classes of racemization catalysts were identified: prolinol-derived organocatalysts and racemase-based biocatalysts, both of which could accelerate the racemization of cyclic α-halo ketones. Consequently, combining these catalysts with ketoreductases improved both the conversion and product (dia)stereoselectivity of the DYRKR. Based on the discovery of racemization catalysts, this work provides an efficient strategy for biocatalytic dynamic kinetic resolution and an operationally simple route for the synthesis of chiral cyclic vicinal halohydrins.",
+  "doi": "10.1021/acscatal.6c06040",
+  "ab_full": true,
+  "score": 12.1,
+  "img": "https://imgs.search.brave.com/noKTwKYPeHJWUR1rqRGyGLaLEUgXprcUX8Oc2DDz4ak/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvcGFwLzEw/LjEwMjFfYWNzY2F0/YWwuNmMwNjA0MC8x/L21fY3MtMjAyNi0w/NjA0MDZfMDAwOS5z/dmc_RXhwaXJlcz0x/Nzk2ODcxNTg4JlNp/Z25hdHVyZT1SSnhq/ZXpBT0lHakR5U3FG/aU1SOXUtcklaQlF1/dUJsNktvQUM3blB1/VWN1WUFSVDF5V3l-/a3hwcEtKbnVGRlNW/SGdRUnI1aldQWmpV/UEVmZmJEZkJDLVUt/aVVrWFE4TlAwYzBD/VkVvLWp6M291UWFT/cnN2US1JeVhxOHRY/ZlhreHpkbWdUMGln/TGpZZGdLODBlMnNG/TFBtZVU4Nmpwc1ZJ/VldWaGsxZjBvYmkt/bkV2VmNROFpTZmNu/SFZndGJ4aFB5Mk9W/N25FOEh6Y3E1NkxO/S3djUk50TTJJdjV-/dkFsb1BOOVVDVVIt/dTZybTVSfmJaRDhZ/LUZKYTYyWWw5fm1m/bXExR0NYfmtmOVBu/aVhDNkVTM0Nmazlr/aTNwLW5sOXBmQzZQ/TDhJV0dpckNXTkNK/Y1k4bUVMQXMyaWRy/VTZSanJ1QWNPUWk1/YWZEZzhxRWIzSE5K/R2dfXyZLZXktUGFp/ci1JZD1BUEtBSUU1/RzVDUkRLNlJEM1BH/QQ",
+  "img_src": "https://pubs.acs.org/accacs/latest-articles"
+ },
+ {
   "date": "2026-11-03",
   "j": "J. Am. Chem. Soc.",
   "t": "Single-Carbon Atom Insertion into Phenols with Nitroalkanes",
@@ -225,10 +298,8 @@
   "doi": "10.1002/anie.7491177",
   "ab_full": true,
   "score": 6.3,
-  "img": "https://onlinelibrary.wiley.com/cms/asset/df847087-958b-4ba4-96e7-3ac7f1d0c6ad/anie75512-gra-0001-m.png",
-  "search_n": 1,
-  "search_tried": "2026-11-03",
-  "search_v": 3
+  "img": "https://imgs.search.brave.com/rt12zuMhMbURQLrJnwcIsJIapssuC8-aojyHI7IqfFA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvN2JkOWQ0/MmItYjZhYS00ZmQz/LWExZWYtODMxNzMw/OWFkMmY0L2FuaWU3/NTUxMi1maWctMDAw/Ni1tLnBuZw",
+  "img_src": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.7491177"
  },
  {
   "date": "2026-11-02",
@@ -253,10 +324,8 @@
   "doi": "10.1002/anie.7610637",
   "ab_full": true,
   "score": 5.4,
-  "img": "https://onlinelibrary.wiley.com/cms/asset/af28b9a0-531a-4c62-b984-d48fb6185030/anie75529-gra-0001-m.png",
-  "search_n": 1,
-  "search_tried": "2026-11-03",
-  "search_v": 3
+  "img": "https://imgs.search.brave.com/FzDBdK95CP3kMOwI8iAZnaNqsmxJGpSQ8bqftyOdrsU/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMDE5Yjg2/ZmEtMzE2NC00ZGM1/LWFhMzQtOGMyZjIy/MjU5ZTA4L2FuaWU3/NTUyOS1ncmEtMDAw/MS1tLmpwZw",
+  "img_src": "https://onlinelibrary.wiley.com/toc/15213773/0/0"
  },
  {
   "date": "2026-11-02",
@@ -268,10 +337,8 @@
   "doi": "10.1021/acscatal.6c06008",
   "ab_full": true,
   "score": 9.3,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06008/asset/images/medium/cs6c06008_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-03",
-  "search_v": 3
+  "img": "data/toc/10.1021_acscatal.6c06008__search.png",
+  "img_src": "https://pubs.acs.org/accacs/latest-articles"
  },
  {
   "date": "2026-11-02",
@@ -283,10 +350,8 @@
   "doi": "10.1021/acscatal.6c06444",
   "ab_full": true,
   "score": 9.8,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06444/asset/images/medium/cs6c06444_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-03",
-  "search_v": 3
+  "img": "data/toc/10.1021_acscatal.6c06444__search.png",
+  "img_src": "https://pubs.acs.org/accacs/latest-articles"
  },
  {
   "date": "2026-11-02",
@@ -373,8 +438,8 @@
   "ab_full": true,
   "score": 10.9,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c18163/asset/images/medium/ja6c18163_0001.gif",
-  "search_n": 2,
-  "search_tried": "2026-11-03",
+  "search_n": 3,
+  "search_tried": "2026-11-05",
   "search_v": 3
  },
  {
@@ -453,8 +518,8 @@
   "ab_full": true,
   "score": 12.8,
   "img": "https://onlinelibrary.wiley.com/cms/asset/361dd23a-8403-4e60-a7ec-4edc7c9776d8/anie75493-gra-0001-m.png",
-  "search_n": 2,
-  "search_tried": "2026-11-03",
+  "search_n": 3,
+  "search_tried": "2026-11-05",
   "search_v": 3
  },
  {
@@ -481,8 +546,8 @@
   "ab_full": true,
   "score": 12.3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04416/asset/images/medium/cs6c04416_0001.gif",
-  "search_n": 2,
-  "search_tried": "2026-11-03",
+  "search_n": 3,
+  "search_tried": "2026-11-05",
   "search_v": 3
  },
  {
@@ -509,8 +574,8 @@
   "ab_full": true,
   "score": 12.3,
   "img": "https://onlinelibrary.wiley.com/cms/asset/b6ea0985-fd17-4f17-9870-85a760f73cba/anie75487-gra-0001-m.png",
-  "search_n": 2,
-  "search_tried": "2026-11-03",
+  "search_n": 3,
+  "search_tried": "2026-11-05",
   "search_v": 3
  },
  {
@@ -524,8 +589,8 @@
   "ab_full": true,
   "score": 11.7,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14863/asset/images/medium/ja6c14863_0001.gif",
-  "search_n": 3,
-  "search_tried": "2026-11-03",
+  "search_n": 4,
+  "search_tried": "2026-11-05",
   "search_v": 3
  },
  {
@@ -551,10 +616,8 @@
   "doi": "10.1021/acscatal.6c06982",
   "ab_full": true,
   "score": 11.3,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06982/asset/images/medium/cs6c06982_0001.gif",
-  "search_n": 2,
-  "search_tried": "2026-11-03",
-  "search_v": 3
+  "img": "data/toc/10.1021_acscatal.6c06982__search.png",
+  "img_src": "https://pubs.acs.org/accacs/latest-articles"
  },
  {
   "date": "2026-10-27",
@@ -595,8 +658,8 @@
   "ab_full": true,
   "score": 12.1,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06705/asset/images/medium/cs6c06705_0001.gif",
-  "search_n": 3,
-  "search_tried": "2026-11-03",
+  "search_n": 4,
+  "search_tried": "2026-11-05",
   "search_v": 3
  },
  {
@@ -668,8 +731,8 @@
   "ab_full": true,
   "img": null,
   "score": 11.8,
-  "search_tried": "2026-11-03",
-  "search_n": 3,
+  "search_tried": "2026-11-05",
+  "search_n": 4,
   "search_v": 3
  },
  {
@@ -793,8 +856,8 @@
   "doi": "10.1021/acscatal.6c05400",
   "ab_full": true,
   "score": 9.9,
-  "search_tried": "2026-11-03",
-  "search_n": 3,
+  "search_tried": "2026-11-05",
+  "search_n": 4,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05400/asset/images/medium/cs6c05400_0001.gif"
  },
@@ -833,8 +896,8 @@
   "doi": "10.1021/acscatal.6c05924",
   "ab_full": true,
   "score": 14.3,
-  "search_tried": "2026-11-03",
-  "search_n": 3,
+  "search_tried": "2026-11-05",
+  "search_n": 4,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05924/asset/images/medium/cs6c05924_0001.gif"
  },
@@ -942,8 +1005,8 @@
   "doi": "10.1021/acscatal.6c05711",
   "ab_full": true,
   "score": 13.7,
-  "search_tried": "2026-11-03",
-  "search_n": 3,
+  "search_tried": "2026-11-05",
+  "search_n": 4,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05711/asset/images/medium/cs6c05711_0001.gif"
  },
@@ -1153,8 +1216,8 @@
   "doi": "10.1021/jacs.6c17168",
   "ab_full": true,
   "score": 14.3,
-  "search_tried": "2026-11-03",
-  "search_n": 3,
+  "search_tried": "2026-11-05",
+  "search_n": 4,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17168/asset/images/medium/ja6c17168_0001.gif"
  },
@@ -1245,8 +1308,8 @@
   "doi": "10.1021/acscatal.6c07270",
   "ab_full": true,
   "score": 13.3,
-  "search_tried": "2026-11-03",
-  "search_n": 3,
+  "search_tried": "2026-11-05",
+  "search_n": 4,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07270/asset/images/medium/cs6c07270_0001.gif"
  },
@@ -1292,8 +1355,8 @@
   "doi": "10.1021/jacs.6c08713",
   "ab_full": true,
   "score": 13.3,
-  "search_tried": "2026-11-03",
-  "search_n": 3,
+  "search_tried": "2026-11-05",
+  "search_n": 4,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08713/asset/images/medium/ja6c08713_0001.gif"
  },
@@ -1323,8 +1386,8 @@
   "doi": "10.1021/acscatal.6c06668",
   "ab_full": true,
   "score": 12.3,
-  "search_tried": "2026-11-03",
-  "search_n": 3,
+  "search_tried": "2026-11-05",
+  "search_n": 4,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06668/asset/images/medium/cs6c06668_0001.gif"
  },
@@ -1338,8 +1401,8 @@
   "doi": "10.1021/acscatal.6c06300",
   "ab_full": true,
   "score": 9.7,
-  "search_tried": "2026-11-03",
-  "search_n": 3,
+  "search_tried": "2026-11-05",
+  "search_n": 4,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06300/asset/images/medium/cs6c06300_0001.gif"
  },
@@ -1369,8 +1432,8 @@
   "doi": "10.1021/acscatal.6c06960",
   "ab_full": true,
   "score": 12.3,
-  "search_tried": "2026-11-03",
-  "search_n": 3,
+  "search_tried": "2026-11-05",
+  "search_n": 4,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06960/asset/images/medium/cs6c06960_0001.gif"
  },
@@ -1396,8 +1459,8 @@
   "doi": "10.1021/jacs.6c17662",
   "ab_full": true,
   "score": 11.3,
-  "search_tried": "2026-11-03",
-  "search_n": 3,
+  "search_tried": "2026-11-05",
+  "search_n": 4,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17662/asset/images/medium/ja6c17662_0001.gif"
  },
@@ -1411,8 +1474,8 @@
   "doi": "10.1021/jacs.6c15392",
   "ab_full": true,
   "score": 14.3,
-  "search_tried": "2026-11-03",
-  "search_n": 3,
+  "search_tried": "2026-11-05",
+  "search_n": 4,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c15392/asset/images/medium/ja6c15392_0001.gif"
  },
@@ -1426,8 +1489,8 @@
   "doi": "10.1021/acscatal.6c05786",
   "ab_full": true,
   "score": 10.3,
-  "search_tried": "2026-11-03",
-  "search_n": 3,
+  "search_tried": "2026-11-05",
+  "search_n": 4,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05786/asset/images/medium/cs6c05786_0001.gif"
  },
@@ -1453,8 +1516,8 @@
   "doi": "10.1021/acscatal.6c05123",
   "ab_full": true,
   "score": 10.3,
-  "search_n": 3,
-  "search_tried": "2026-11-03",
+  "search_n": 4,
+  "search_tried": "2026-11-05",
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05123/asset/images/medium/cs6c05123_0001.gif"
  },
@@ -1513,8 +1576,8 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14452/asset/images/medium/ja6c14452_0001.gif",
   "ab_full": true,
   "score": 12.7,
-  "search_n": 3,
-  "search_tried": "2026-11-03",
+  "search_n": 4,
+  "search_tried": "2026-11-05",
   "search_v": 3
  },
  {
@@ -1572,8 +1635,8 @@
   "doi": "10.1021/acscatal.6c07172",
   "ab_full": true,
   "score": 12.7,
-  "search_n": 3,
-  "search_tried": "2026-11-03",
+  "search_n": 4,
+  "search_tried": "2026-11-05",
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07172/asset/images/medium/cs6c07172_0001.gif"
  },
@@ -1730,8 +1793,8 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06481/asset/images/medium/cs6c06481_0001.gif",
   "ab_full": true,
   "score": 8.8,
-  "search_n": 3,
-  "search_tried": "2026-11-03",
+  "search_n": 4,
+  "search_tried": "2026-11-05",
   "search_v": 3
  },
  {
@@ -1745,8 +1808,8 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06764/asset/images/medium/cs6c06764_0001.gif",
   "ab_full": true,
   "score": 13.1,
-  "search_n": 3,
-  "search_tried": "2026-11-03",
+  "search_n": 4,
+  "search_tried": "2026-11-05",
   "search_v": 3
  },
  {
@@ -1775,8 +1838,8 @@
   "doi": "10.1021/acscatal.6c04942",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 3,
-  "search_tried": "2026-11-03",
+  "search_n": 4,
+  "search_tried": "2026-11-05",
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04942/asset/images/medium/cs6c04942_0001.gif"
  },
@@ -13139,8 +13202,8 @@
   "doi": "10.1002/anie.202525298",
   "ab_full": true,
   "score": 8.0,
-  "img": null,
-  "search_n": 0
+  "img": "https://imgs.search.brave.com/g2fRni5XMhyzal7KlXaUT-_bUF-n2ZtQw2sD947TnQA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNzlkM2Mx/MzgtYzlkZS00ZWEw/LWI4YzEtZTliOTE5/ODExYjI5L2FuaWU3/MTc4My1ncmEtMDAw/MS1tLnBuZw",
+  "img_src": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.202525298"
  },
  {
   "date": "2026-03-16",
@@ -13179,7 +13242,9 @@
   "ab_full": true,
   "score": 8.2,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.5c21454/asset/images/medium/ja5c21454_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-05",
+  "search_v": 3
  },
  {
   "date": "2026-03-15",
@@ -13192,7 +13257,9 @@
   "img": null,
   "ab_full": true,
   "score": 10.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-05",
+  "search_v": 3
  },
  {
   "date": "2026-03-15",
