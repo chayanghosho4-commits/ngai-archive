@@ -1,5 +1,44 @@
 [
  {
+  "date": "2026-11-08",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Addition–Migration Cascade for Ortho ‐Selective Carbon Functionalization of Phenols",
+  "au": "Manoj Kumar … Parthasarathi Subramanian",
+  "tag": "Natural products",
+  "ab": "Ortho ‐ and para ‐carbon‐disubstituted phenols are prevalent in natural products and pharmaceuticals, yet their selective synthesis remains challenging. The strong resonance‐donating effect of the hydroxyl group renders phenols electron‐rich, activates both ortho and para positions, and limits their direct functionalization with external nucleophiles. Herein, we report an addition–migration–rearomatization strategy for the ortho ‐selective carbon functionalization of phenols using readily accessible para ‐quinol carbonates and diverse organometallic nucleophiles. The transformation proceeds through nucleophilic 1,2‐addition to the dienone carbonyl, followed by C1‐to‐C2 group migration and rearomatization, thereby enabling the formal installation of carbon nucleophilic substituents at the enone α‐position. A broad range of sp 3 ‐, sp 2 ‐, and sp ‐hybridized nucleophiles, including alkyl, vinyl, aryl, heteroaryl, polyaromatic, and alkynyl reagents, participate efficiently under mild conditions. DFT calculations identify syn ‐methyl facial attack as kinetically preferred over syn ‐Boc facial attack by 24.72 kcal mol − 1 , establish that both S N 2′ manifolds are noncompetitive, and show that aromatization proceeds via a Mg‐assisted decarboxylation/deprotonation pathway rather than an unassisted route. Synthetic utility is demonstrated through a concise five step synthesis of the bioactive natural product honokiol from commercially available allyl anisole.",
+  "doi": "10.1002/anie.1249515",
+  "ab_full": true,
+  "score": 9.3,
+  "img": "https://imgs.search.brave.com/jZGBZxp24fb7ST4_DlAZrxZtagfgtbKuI5eCoSkq4Aw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvODk0MGNl/OWYtY2FjMy00YzY0/LWJmZWEtZTc0NGE4/ZGYwNmE2L2FuZ2U3/NTY2OC1ncmEtMDAw/MS1tLmpwZw",
+  "img_src": "https://onlinelibrary.wiley.com/journal/15213757"
+ },
+ {
+  "date": "2026-11-07",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Asymmetric Total Syntheses of (+)-Asperterpenoids D and E with a Concurrent Synthesis of ent -(−)-Homoverrucosanol",
+  "au": "Tao Wu … Xiaoming Chen",
+  "tag": "Asymmetric catalysis",
+  "ab": "The first asymmetric total syntheses of sesterterpenoids (+)-asperterpenoids D and E, together with a concurrent synthesis of diterpenoid ent-(−)-homoverrucosanol were achieved from (S)-limonene through a chiral-pool strategy featuring a common late-stage intermediate. Key transformations include a Michael addition and a highly diastereoselective Type I [5 + 2] cycloaddition, which successively establish the C-14 and C-11 methyl-bearing stereocenters with complete stereocontrol. Subsequent oxa-bridge cleavage, cyclopropanation, and A-ring formation via hydroformylation and Carreira cyclopentenal synthesis proceed stereospecifically.",
+  "doi": "10.1021/jacs.6c16353",
+  "ab_full": true,
+  "score": 16.3,
+  "img": "https://imgs.search.brave.com/BcBBdxia1ZWYqXKwt_8ANcX4fVzaDRlCZZWxjWdb7KM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvcGFwLzEw/LjEwMjFfamFjcy42/YzE2MzUzLzEvbV9q/YTZjMTYzNTNfMDAw/My5zdmc_RXhwaXJl/cz0xNzk3MTQyMDY2/JlNpZ25hdHVyZT1w/RDF-WTdMYVc3UTF4/d1p3Tm5zQ1JpY1hI/cjZ6Z1VsZkNDdTFD/a2lUYVFNTmR4a3Ix/SnpSalRtV2t0cHlW/bjY4cHN1czFxSHlw/ekI2Y0VKcUltUmpq/QnVVRENadHpjRjFo/VUtsU281N0hpQWp3/eE1melF-RmlPNnpY/T2tqcTB0R2lMQ0lq/elR-OW51ZTZVUHcz/Q3J4MDF6VWpvVU1X/d1NER1ZJNn5rbUpF/Tm5FU01VczVzUVV1/Z3dxbGpMTFRCU2pJ/bU1-TDZDLWx0fnhF/aC1VY0M1Rm1Oak9o/SFlHeGdkUGI4eFlJ/QWxKc2o1ZkpsbzMt/QWhtc1B0cXQ4dUtU/aDlTbXhDNzV0VmlB/cHBZdWlWcWRWRkI2/MXB0M1YxeGNoSTBt/MH5EVTZFMW9uMmNn/N1AtaEV2bktaTzNU/RGpodFdncmI4VHI2/aGQ3bDUtSG1YeDhS/fk5KY1FfXyZLZXkt/UGFpci1JZD1BUEtB/SUU1RzVDUkRLNlJE/M1BHQQ",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
+ },
+ {
+  "date": "2026-11-07",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Direct Synthesis and Electrochemical Deintercalation of Mg-Intercalated Graphullerite",
+  "au": "Sarah N. Candelaria … Malik L. Williams",
+  "tag": "Electrochemistry",
+  "ab": "Two-dimensional (2D) carbon allotropes have unique properties, synthetic tunability, and potential applications across several fields including catalysis, energy storage, and electronics. One such allotrope is the recently discovered graphullerite, which results from the oxidation and deintercalation of the layered rhombohedral fullerene polymer (Mg4C60)∞. The current synthetic approach to (Mg4C60)∞ is limited by low yield, phase impurity, and small crystal size, all of which preclude a comprehensive investigation of the physical and electronic properties of bulk graphullerite and its 2D derivative, graphullerene. Here, we demonstrate two chemical vapor transport methods that produce rhombohedral (Mg4C60)∞ and tetragonal (Mg2C60)∞ as millimeter-sized single crystals with near-complete conversion. Our methods spatially separate the starting materials to circumvent both the thermal decomposition of (Mg4C60)∞ and the significant disparity in vapor pressure between C60 and Mg. We find that using Mg foil results in a near-complete conversion of C60 into a mixture of (Mg4C60)∞ and (Mg2C60)∞. Replacing the foil with Mg2Si produces phase-pure (Mg4C60)∞ with an isolated crystalline yield of 55 to 62%. This high-yielding, phase-pure synthesis enables us to investigate the electrochemical intercalation and deintercalation of Mg2+ into the lattice.",
+  "doi": "10.1021/jacs.6c14534",
+  "ab_full": true,
+  "score": 0.2,
+  "img": "data/toc/10.1021_jacs.6c14534__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
+ },
+ {
   "date": "2026-11-06",
   "j": "J. Am. Chem. Soc.",
   "t": "Asymmetric Au(I)/Au(III) Catalysis with Chiral bis(P'̂'N) Ligands Deriving from Tröger’s Bases",
@@ -35,10 +74,8 @@
   "doi": "10.1021/jacs.6c12667",
   "ab_full": true,
   "score": 1.1,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c12667/asset/images/medium/ja6c12667_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-07",
-  "search_v": 3
+  "img": "data/toc/10.1021_jacs.6c12667__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-11-06",
@@ -51,8 +88,8 @@
   "ab_full": true,
   "score": 14.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c16304/asset/images/medium/ja6c16304_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-07",
+  "search_n": 2,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -91,10 +128,8 @@
   "doi": "10.1002/anie.4445463",
   "ab_full": true,
   "score": 4.6,
-  "img": null,
-  "search_n": 1,
-  "search_tried": "2026-11-07",
-  "search_v": 3
+  "img": "https://imgs.search.brave.com/N8m7JOr_tyl_cdLo5HKIlgMSYIDnkmuDZKXkQ2T_i1Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMWQ1NjEy/NTUtMDg0MS00ZWY0/LWI4OWUtOWUxNjZm/MDVjMTg0L2FuaWU3/NTY3Ni1ncmEtMDAw/MS1tLnBuZw",
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.4445463"
  },
  {
   "date": "2026-11-06",
@@ -106,9 +141,9 @@
   "doi": "10.1002/anie.7759349",
   "ab_full": true,
   "score": 9.0,
-  "img": null,
-  "search_n": 1,
-  "search_tried": "2026-11-07",
+  "img": "https://onlinelibrary.wiley.com/cms/asset/064dc7bf-2ddd-40ec-96b8-4933f91844d6/anie75582-gra-0001-m.png",
+  "search_n": 2,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -121,9 +156,9 @@
   "doi": "10.1002/anie.9987201",
   "ab_full": true,
   "score": 11.0,
-  "img": null,
-  "search_n": 1,
-  "search_tried": "2026-11-07",
+  "img": "https://onlinelibrary.wiley.com/cms/asset/471d2291-b481-4d15-8f36-49a787786cef/anie75533-gra-0001-m.png",
+  "search_n": 2,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -136,10 +171,8 @@
   "doi": "10.1002/anie.5777117",
   "ab_full": true,
   "score": 6.2,
-  "img": null,
-  "search_n": 1,
-  "search_tried": "2026-11-07",
-  "search_v": 3
+  "img": "https://imgs.search.brave.com/cYcCuVJGSlGoV55cfHNY57UdbDo3_iKHHZGzKmttIlk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvYjgyNjhl/YzctZGU4ZC00NTY1/LWEzZmItYmEzYmMz/NWFhMjQ1L2FuaWU3/NTY2OS1ncmEtMDAw/MS1tLnBuZw",
+  "img_src": "https://chemistryviews.org/angewandte_chemie_update"
  },
  {
   "date": "2026-11-06",
@@ -151,10 +184,8 @@
   "doi": "10.1002/anie.1437091",
   "ab_full": true,
   "score": 5.5,
-  "img": null,
-  "search_n": 1,
-  "search_tried": "2026-11-07",
-  "search_v": 3
+  "img": "https://imgs.search.brave.com/3psq10sVPyoEPVHvQ7QBzIRID1bNhQRgZsSgPATaqCk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNmNmNzk2/NmItNTljZi00NDRj/LWJmNTYtMGRjNDM2/YTkzOTc1L2FuaWU3/NTY2MC1ncmEtMDAw/MS1tLnBuZw",
+  "img_src": "https://chemistryviews.org/angewandte_chemie_update"
  },
  {
   "date": "2026-11-06",
@@ -166,10 +197,8 @@
   "doi": "10.1002/anie.8236861",
   "ab_full": true,
   "score": 9.1,
-  "img": null,
-  "search_n": 1,
-  "search_tried": "2026-11-07",
-  "search_v": 3
+  "img": "https://imgs.search.brave.com/VB4-NA1Q3SSPU0P1E-YUYH8iAvj0lasWBc74yN_uk9E/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMGM2ZjE4/Y2QtZTRlNy00MWZj/LWE4ZDMtNDk4NGFh/ODI2NjYxL2FuaWU3/NTY3OC1ncmEtMDAw/MS1tLnBuZw",
+  "img_src": "https://chemistryviews.org/angewandte_chemie_update"
  },
  {
   "date": "2026-11-06",
@@ -229,10 +258,8 @@
   "doi": "10.1021/jacs.6c15837",
   "ab_full": true,
   "score": 9.9,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c15837/asset/images/medium/ja6c15837_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-07",
-  "search_v": 3
+  "img": "data/toc/10.1021_jacs.6c15837__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-11-05",
@@ -311,6 +338,21 @@
   "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78875-1/MediaObjects/41467_2026_78875_Fig1_HTML.png"
  },
  {
+  "date": "2026-11-05",
+  "j": "Science",
+  "t": "Expanding global access to GLP-1s: Challenges and opportunities",
+  "au": "Kenneth C. Shadlen … Olivier J. Wouters",
+  "tag": "Synthetic methodology",
+  "ab": "… ore than 1 billion people worldwide are obese, and roughly 500 million have type 2 diabetes.These conditions are major risk factors for dementia, heart disease, and various cancers.Glucagon-like peptide-1 receptor agonists, commonly referred to as GLP-1s, have transformed the treatment of both obesity and type 2 diabetes.Yet despite their promise, global use of these therapies remains uneven.Access has largely been concentrated in high-income countries, even though low-and middle-income countries account for more than 80% of the world's population and a substantial share of the global burden of obesity and type 2 diabetes.Generic versions of the popular GLP-1 drug semaglutide became available in a number of countries in 2026, offering opportunities to substantially expand access.The likely emergence of newer GLP-1s with moredesirable attributes, however, may produce a segmented global market that gives rise to familiar tensions over access to newer, patentprotected therapies.Clinical trials have shown that GLP-1s, part of a broader category of incretin-based therapies, support weight loss, improve glycemic control, and reduce the risk of heart disease (1).Other potential uses are under investigation, including for cardiovascular disorders, neurodegeneration, liver disease, and addiction.The first GLP-1 receptor agonist to be approved in the US for both diabetes and weight management was liraglutide.An earlier drug in this class, exenatide, was approved for diabetes only.Semaglutide, marketed by Novo Nordisk for both diabetes and weight management, revolutionized obesity therapy and, in doing so, became one of the most commercially successful medicines in history (2).Newer incretinbased therapies target multiple gut hormones to produce greater metabolic effects.Tirzepatide, a dual GLP-1 and glucose-dependent insulinotropic polypeptide (GIP) receptor agonist marketed by Eli Lilly, has overtaken semaglutide in prescription volume for both indications in many markets.These medicines are all polypeptides (i.e., amino acid chains) that mimic the natural GLP-1 hormone.In 2026, the US Food and Drug Administration (FDA) approved orforglipron, an oral, nonpeptide small-molecule GLP-1 receptor agonist, for chronic weight management.",
+  "doi": "10.1126/science.aek2174",
+  "ab_full": true,
+  "score": 6.1,
+  "img": null,
+  "search_n": 1,
+  "search_tried": "2026-11-09",
+  "search_v": 3
+ },
+ {
   "date": "2026-11-04",
   "j": "J. Am. Chem. Soc.",
   "t": "Concise Synthesis of 9-Azahomocubanes",
@@ -321,8 +363,8 @@
   "ab_full": true,
   "score": 13.1,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c16828/asset/images/medium/ja6c16828_0001.gif",
-  "search_n": 2,
-  "search_tried": "2026-11-07",
+  "search_n": 3,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -352,8 +394,8 @@
   "ab_full": true,
   "score": 9.9,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17545/asset/images/medium/ja6c17545_0001.gif",
-  "search_n": 2,
-  "search_tried": "2026-11-07",
+  "search_n": 3,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -415,8 +457,8 @@
   "ab_full": true,
   "score": 4.2,
   "img": "https://onlinelibrary.wiley.com/cms/asset/de032f28-8eb4-491e-afe5-55f8b49d99bd/anie75506-gra-0001-m.png",
-  "search_n": 2,
-  "search_tried": "2026-11-07",
+  "search_n": 3,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -454,8 +496,8 @@
   "ab_full": true,
   "score": 8.5,
   "img": "https://onlinelibrary.wiley.com/cms/asset/a3056a46-bfd0-476a-a735-f67afad44787/anie75534-gra-0001-m.png",
-  "search_n": 2,
-  "search_tried": "2026-11-07",
+  "search_n": 3,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -469,8 +511,8 @@
   "ab_full": true,
   "score": 12.8,
   "img": "https://onlinelibrary.wiley.com/cms/asset/d72724e3-6dce-45f3-905d-2e468b8a31da/anie75575-gra-0001-m.png",
-  "search_n": 2,
-  "search_tried": "2026-11-07",
+  "search_n": 3,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -497,8 +539,8 @@
   "ab_full": true,
   "score": 14.6,
   "img": "https://onlinelibrary.wiley.com/cms/asset/7a08f46d-aecb-424e-9104-f470a6d1e2fa/anie75566-gra-0001-m.png",
-  "search_n": 2,
-  "search_tried": "2026-11-07",
+  "search_n": 3,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -563,8 +605,8 @@
   "ab_full": true,
   "score": 12.7,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c18095/asset/images/medium/ja6c18095_0001.gif",
-  "search_n": 2,
-  "search_tried": "2026-11-07",
+  "search_n": 3,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -768,8 +810,8 @@
   "ab_full": true,
   "score": 10.9,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c18163/asset/images/medium/ja6c18163_0001.gif",
-  "search_n": 4,
-  "search_tried": "2026-11-07",
+  "search_n": 5,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -848,8 +890,8 @@
   "ab_full": true,
   "score": 12.8,
   "img": "https://onlinelibrary.wiley.com/cms/asset/361dd23a-8403-4e60-a7ec-4edc7c9776d8/anie75493-gra-0001-m.png",
-  "search_n": 4,
-  "search_tried": "2026-11-07",
+  "search_n": 5,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -876,8 +918,8 @@
   "ab_full": true,
   "score": 12.3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04416/asset/images/medium/cs6c04416_0001.gif",
-  "search_n": 4,
-  "search_tried": "2026-11-07",
+  "search_n": 5,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -904,8 +946,8 @@
   "ab_full": true,
   "score": 12.3,
   "img": "https://onlinelibrary.wiley.com/cms/asset/b6ea0985-fd17-4f17-9870-85a760f73cba/anie75487-gra-0001-m.png",
-  "search_n": 4,
-  "search_tried": "2026-11-07",
+  "search_n": 5,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -919,8 +961,8 @@
   "ab_full": true,
   "score": 11.7,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14863/asset/images/medium/ja6c14863_0001.gif",
-  "search_n": 5,
-  "search_tried": "2026-11-07",
+  "search_n": 6,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -988,8 +1030,8 @@
   "ab_full": true,
   "score": 12.1,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06705/asset/images/medium/cs6c06705_0001.gif",
-  "search_n": 5,
-  "search_tried": "2026-11-07",
+  "search_n": 6,
+  "search_tried": "2026-11-09",
   "search_v": 3
  },
  {
@@ -1061,8 +1103,8 @@
   "ab_full": true,
   "img": null,
   "score": 11.8,
-  "search_tried": "2026-11-07",
-  "search_n": 5,
+  "search_tried": "2026-11-09",
+  "search_n": 6,
   "search_v": 3
  },
  {
@@ -1186,8 +1228,8 @@
   "doi": "10.1021/acscatal.6c05400",
   "ab_full": true,
   "score": 9.9,
-  "search_tried": "2026-11-07",
-  "search_n": 5,
+  "search_tried": "2026-11-09",
+  "search_n": 6,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05400/asset/images/medium/cs6c05400_0001.gif"
  },
@@ -1226,8 +1268,8 @@
   "doi": "10.1021/acscatal.6c05924",
   "ab_full": true,
   "score": 14.3,
-  "search_tried": "2026-11-07",
-  "search_n": 5,
+  "search_tried": "2026-11-09",
+  "search_n": 6,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05924/asset/images/medium/cs6c05924_0001.gif"
  },
@@ -1335,8 +1377,8 @@
   "doi": "10.1021/acscatal.6c05711",
   "ab_full": true,
   "score": 13.7,
-  "search_tried": "2026-11-07",
-  "search_n": 5,
+  "search_tried": "2026-11-09",
+  "search_n": 6,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05711/asset/images/medium/cs6c05711_0001.gif"
  },
@@ -1546,8 +1588,8 @@
   "doi": "10.1021/jacs.6c17168",
   "ab_full": true,
   "score": 14.3,
-  "search_tried": "2026-11-07",
-  "search_n": 5,
+  "search_tried": "2026-11-09",
+  "search_n": 6,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17168/asset/images/medium/ja6c17168_0001.gif"
  },
@@ -1638,8 +1680,8 @@
   "doi": "10.1021/acscatal.6c07270",
   "ab_full": true,
   "score": 13.3,
-  "search_tried": "2026-11-07",
-  "search_n": 5,
+  "search_tried": "2026-11-09",
+  "search_n": 6,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07270/asset/images/medium/cs6c07270_0001.gif"
  },
@@ -1685,8 +1727,8 @@
   "doi": "10.1021/jacs.6c08713",
   "ab_full": true,
   "score": 13.3,
-  "search_tried": "2026-11-07",
-  "search_n": 5,
+  "search_tried": "2026-11-09",
+  "search_n": 6,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c08713/asset/images/medium/ja6c08713_0001.gif"
  },
@@ -1716,8 +1758,8 @@
   "doi": "10.1021/acscatal.6c06668",
   "ab_full": true,
   "score": 12.3,
-  "search_tried": "2026-11-05",
-  "search_n": 4,
+  "search_tried": "2026-11-09",
+  "search_n": 5,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06668/asset/images/medium/cs6c06668_0001.gif"
  },
@@ -1731,8 +1773,8 @@
   "doi": "10.1021/acscatal.6c06300",
   "ab_full": true,
   "score": 9.7,
-  "search_tried": "2026-11-05",
-  "search_n": 4,
+  "search_tried": "2026-11-09",
+  "search_n": 5,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06300/asset/images/medium/cs6c06300_0001.gif"
  },
@@ -1762,8 +1804,8 @@
   "doi": "10.1021/acscatal.6c06960",
   "ab_full": true,
   "score": 12.3,
-  "search_tried": "2026-11-05",
-  "search_n": 4,
+  "search_tried": "2026-11-09",
+  "search_n": 5,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06960/asset/images/medium/cs6c06960_0001.gif"
  },
@@ -1789,8 +1831,8 @@
   "doi": "10.1021/jacs.6c17662",
   "ab_full": true,
   "score": 11.3,
-  "search_tried": "2026-11-05",
-  "search_n": 4,
+  "search_tried": "2026-11-09",
+  "search_n": 5,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17662/asset/images/medium/ja6c17662_0001.gif"
  },
@@ -1804,8 +1846,8 @@
   "doi": "10.1021/jacs.6c15392",
   "ab_full": true,
   "score": 14.3,
-  "search_tried": "2026-11-05",
-  "search_n": 4,
+  "search_tried": "2026-11-09",
+  "search_n": 5,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c15392/asset/images/medium/ja6c15392_0001.gif"
  },
@@ -1819,8 +1861,8 @@
   "doi": "10.1021/acscatal.6c05786",
   "ab_full": true,
   "score": 10.3,
-  "search_tried": "2026-11-05",
-  "search_n": 4,
+  "search_tried": "2026-11-09",
+  "search_n": 5,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05786/asset/images/medium/cs6c05786_0001.gif"
  },
@@ -1846,8 +1888,8 @@
   "doi": "10.1021/acscatal.6c05123",
   "ab_full": true,
   "score": 10.3,
-  "search_n": 4,
-  "search_tried": "2026-11-05",
+  "search_n": 5,
+  "search_tried": "2026-11-09",
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05123/asset/images/medium/cs6c05123_0001.gif"
  },
