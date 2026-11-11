@@ -1,5 +1,41 @@
 [
 {
+"doi": "10.1002/anie-26-23393",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Synthesis of Hetero‐Dimensional Mechanically Interlocked Networks",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c06875",
+"j": "ACS Catal.",
+"t": "Dynamic Conformational Constraint-Enabled Palladium-Catalyzed Higher-Order Dipolar Cycloaddition",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c08012",
+"j": "ACS Catal.",
+"t": "Defining the Structure and Reactivity of Benzoate-Ligated Ce(IV)-Alkoxide Complexes in LMCT Photocatalysis",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c07554",
+"j": "ACS Catal.",
+"t": "Catalyst-Controlled Desymmetrization of Azabicyclo[3.1.0]hexane-6-carboxylates",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c08200",
+"j": "ACS Catal.",
+"t": "Asymmetric Convergent Assembly of Atropisomers Bearing Three Chiral Elements via Rhodium-Catalyzed Conjugate Addition",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c19341",
+"j": "J. Am. Chem. Soc.",
+"t": "The Catalytic Stereocontrolled Tetrahydropyranyl Protection",
+"m": "2026-11"
+},
+{
 "doi": "10.1002/anie.1249515",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Addition–Migration Cascade for Ortho ‐Selective Carbon Functionalization of Phenols",
@@ -9,12 +45,6 @@
 "doi": "10.1021/jacs.6c16353",
 "j": "J. Am. Chem. Soc.",
 "t": "Asymmetric Total Syntheses of (+)-Asperterpenoids D and E with a Concurrent Synthesis of ent -(−)-Homoverrucosanol",
-"m": "2026-11"
-},
-{
-"doi": "10.1021/jacs.6c16304",
-"j": "J. Am. Chem. Soc.",
-"t": "Highly Stereoselective Olefin Cyclopropanation via Enzyme-Catalyzed Reductive Activation of gem -Dibromoalkanes",
 "m": "2026-11"
 },
 {
@@ -75,12 +105,6 @@
 "doi": "10.1126/science.aek2174",
 "j": "Science",
 "t": "Expanding global access to GLP-1s: Challenges and opportunities",
-"m": "2026-11"
-},
-{
-"doi": "10.1021/jacs.6c16828",
-"j": "J. Am. Chem. Soc.",
-"t": "Concise Synthesis of 9-Azahomocubanes",
 "m": "2026-11"
 },
 {
