@@ -1,5 +1,95 @@
 [
 {
+"doi": "10.1021/jacs.6c17635",
+"j": "J. Am. Chem. Soc.",
+"t": "An N-Heterocyclic Imine-Supported Two-Coordinate 1,2-Bis(borinium) Dication",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c19835",
+"j": "J. Am. Chem. Soc.",
+"t": "Synthesis and Characterization of the Proposed 1,4-Dihydropyridinate Intermediate with a Nickel-Pincer Nucleotide Cofactor Model Complex",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c21779",
+"j": "J. Am. Chem. Soc.",
+"t": "Redox-Responsive 2′-OH Acylation for Late-Stage RNA Conjugation",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c18030",
+"j": "J. Am. Chem. Soc.",
+"t": "Conjugate Chiral Carbon Dots for Scalable Asymmetric Photocatalysis in Flow",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c15743",
+"j": "J. Am. Chem. Soc.",
+"t": "General Synthesis of Functionalized 1,3-Diamines from Azoarenes and Enoates via Electrochemical Annulation and N–N Bond Cleavage Followed by Chemical Reduction",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c14033",
+"j": "J. Am. Chem. Soc.",
+"t": "Reprogramming ThDP-Dependent Enzyme for Intermolecular [3 + 2] Annulation via a Homoenolate Intermediate",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c06916",
+"j": "ACS Catal.",
+"t": "Cyclative Carbon Quaternization of Alkyl Boronic Esters via Copper-Catalyzed Aminyl Radical Transfer",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c07391",
+"j": "ACS Catal.",
+"t": "Radical-Based Catalytic Transformations of 1-Azabicyclo[1.1.0]butanes: Opportunities and Future Directions",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c06259",
+"j": "ACS Catal.",
+"t": "Reverse Water Gas Shift Reaction over a Homogeneous Iron Catalyst and the Underlying Mechanism",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c16335",
+"j": "J. Am. Chem. Soc.",
+"t": "Enantioselective Three-Component Reductive Coupling of Aldehydes, Amines, and Alkynes via Ligand-Enabled Cobalt/Photoredox Dual Catalysis for Modular Synthesis ",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c14547",
+"j": "J. Am. Chem. Soc.",
+"t": "All-Visible Wavelength-Gated Multistate Photochromic AIEgen: High-Efficiency Photocyclizations in a Single Luminogenic System",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.7306632",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Concise and Modular Access to a Chiral Biaryl Monophosphine Library and Downstream Use in Catalytic Enantioselective Transformations",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.8141553",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Atroposelective Dynamic Kinetic Asymmetric (3+2)‐Cycloaddition: Synthesis of 2‐(Quinolin‐8‐yl)arylpyrrolidines",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.5382742",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Iridium‐Catalyzed Borane Reduction of Esters for the Construction of Sterically Hindered and α , α ‐Dideuterated Ethers",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c06119",
+"j": "ACS Catal.",
+"t": "MoO x as an Oxidized Incorporation Modulates Nickel Sites for Efficient H2O2 Electrosynthesis at 200 mA cm–2",
+"m": "2026-11"
+},
+{
 "doi": "10.1002/anie-26-23393",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Synthesis of Hetero‐Dimensional Mechanically Interlocked Networks",
@@ -9,12 +99,6 @@
 "doi": "10.1021/acscatal.6c06875",
 "j": "ACS Catal.",
 "t": "Dynamic Conformational Constraint-Enabled Palladium-Catalyzed Higher-Order Dipolar Cycloaddition",
-"m": "2026-11"
-},
-{
-"doi": "10.1021/acscatal.6c08012",
-"j": "ACS Catal.",
-"t": "Defining the Structure and Reactivity of Benzoate-Ligated Ce(IV)-Alkoxide Complexes in LMCT Photocatalysis",
 "m": "2026-11"
 },
 {
