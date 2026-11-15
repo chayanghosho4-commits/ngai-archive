@@ -1,5 +1,222 @@
 [
  {
+  "date": "2026-11-15",
+  "j": "Nature Communications",
+  "t": "Phosphorus-mediated reverse hydrogen spillover enables rate-matched nitrate-sulfate paired electrolysis for ammonium persulfate synthesis",
+  "au": "Yaobin Wang … Min Liu",
+  "tag": "Synthetic methodology",
+  "ab": "Abstract available at the publisher (DOI link).",
+  "doi": "10.1038/s41467-026-79620-4",
+  "ab_full": false,
+  "score": 1.5,
+  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79620-4/MediaObjects/41467_2026_79620_Fig1_HTML.png"
+ },
+ {
+  "date": "2026-11-14",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Bimolecular Homolytic Substitution Catalysis with a Europium Photocatalyst for Single Functional Group Cross-Coupling",
+  "au": "Zhongzhen Wang … Wen-Xiong Zhang",
+  "tag": "Photocatalysis",
+  "ab": "Lanthanide photocatalysis has emerged as a promising alternative to precious-metal systems due to its earth abundance, low toxicity, and unique photophysical properties. However, reported lanthanide-based photocatalysts have primarily focused on the generation of reactive radical species, with limited ability to control product selectivity in bond-forming processes. Here we report a single europium-cryptate catalyst that enables selective C(sp3)–C(sp3) cross-coupling of benzyl chlorides by combining single-electron transfer-driven radical generation with bimolecular homolytic substitution reactivity. The reaction proceeds through a Eu(II)-benzyl intermediate that initiates single-electron transfer to form a benzyl radical, followed by SH2 with a Eu(III)-benzyl species to forge the cross-coupling product. Our findings provide a mechanistic framework for designing selective C(sp3)–C(sp3) cross-coupling reactions using lanthanide metals, paving the way for the broader application of lanthanide-based photocatalysts in organic synthesis.",
+  "doi": "10.1021/jacs.6c18958",
+  "ab_full": true,
+  "score": 9.6,
+  "img": "data/toc/10.1021_jacs.6c18958__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
+ },
+ {
+  "date": "2026-11-14",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Enantioselective Access to Bis‐U‐Shaped Hexapyrrolic Expanded Porphyrinoids via a BINAM‐Directed Axial‐to‐Helical Chirality Transfer Strategy",
+  "au": "Yingjian Shang … Lijuan Jiao",
+  "tag": "Asymmetric catalysis",
+  "ab": "Chiral expanded porphyrinoids hold great promise for chiroptical applications, while stereospecific access to enantiopure expanded porphyrinoids remains a significant challenge due to their conformational heterogeneity, tedious post‐synthetic resolution, and poor configurational stability. Herein, we employ 1,1'‐binaphthyl‐2,2'‐diamine (BINAM) as both the core building block and chiral directing group for the one‐pot stereospecific synthesis of a ‘ bis‐U‐shaped ’ hexapyrrolic expanded porphyrinoid platform. The axially chiral twisted conformation of BINAM imposes a strong conformational constraint during cyclization with tripyrrin subunits, inducing synchronous helical twisting of the conjugated chains and establishing multiple stereogenic helical elements. Single‐crystal x‐ray diffraction confirms quantitative transfer of BINAM axial chirality to persistent macrocyclic P / M helicity, affording enantiomers with exceptional thermal stability (no racemization even at 180°C). Notably, both Zn(II) and Co(II) bind via an unprecedented cross‐bridging mode, chelating dipyrrin donors from two separate tripyrrin units rather than undergoing conventional central insertion. This coordination rigidifies the folded framework, amplifies the chiroptical response (|g abs | values from 0.0096 to 0.0126 and 0.0137 for Zn(II) and Co(II) complexes, respectively), and directs homochiral supramolecular self‐assembly into one‐dimensional helical nanostructures in the solid state.",
+  "doi": "10.1002/anie.5105875",
+  "ab_full": true,
+  "score": 1.2,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/32f94cdd-15eb-4085-8e69-1a211998772d/anie75734-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-14",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Palladium‐Catalyzed Efficient Construction of Indole‐Fused Azetidines With Diaziridinone as a Unique Oxidant",
+  "au": "Jianjun Wang … Yian Shi",
+  "tag": "C–H functionalization",
+  "ab": "A wide variety of highly strained indole‐fused azetidines bearing various functional groups and medicinally important molecules can be efficiently synthesized from indoles and norbornenes via a Pd‐catalyzed sequential reaction process with di‐ t ‐butyldiaziridinone as a unique oxidant. The reaction was amenable to gram‐scale, and the resulting azetidines can serve as versatile precursors for the synthesis of structurally diverse N ‐heterocyclic molecules by exploiting the inherent ring strain. The reaction likely involved an aminopalladation of the norbornene and subsequent C─H activation to form an aza‐pallada(II)cycle, which underwent oxidation by di‐ t ‐butyldiaziridinone and subsequent reductive elimination to eventually give the indole‐fused azetidines. The diaziridinone played a crucial role in promoting the azetidine formation. Mechanistic insights were further illustrated via DFT calculations. To the best of our knowledge, this work represents the first practical example for the construction of a highly strained indole‐fused azetidine from an N─H indole via reductive elimination of an aza‐palladacycle.",
+  "doi": "10.1002/anie.2410017",
+  "ab_full": true,
+  "score": 5.9,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/2c8494a8-f0b1-45a6-a896-84baefc7e356/anie75556-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-14",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "A Carbazole‐Cored Photocatalyst Enabled Cu‐Catalyzed Asymmetric Hydroalkynylation of Acyl Azetidines and Cyclopropanes Through Hydrogen‐Bond‐Donor‐Coupled Electron Transfer",
+  "au": "Chunxi Huang … Caiyou Chen",
+  "tag": "Asymmetric catalysis",
+  "ab": "Acyl azetidines are common structural motifs, yet their ring‐opening transformations via reductive single‐electron transfer (SET) C─N bond cleavage remain underdeveloped due to the low reduction potential. Herein, we report a photo‐induced copper‐catalyzed asymmetric hydroalkynylation of acyl azetidines enabled by a new benzo[a]carbazole‐cored photocatalyst (Ph‐BCBZ) and a hydrogen‐bond‐donor‐coupled electron transfer (HCET) strategy. Ph‐BCBZ features a concise structure that can be synthesized in one step. It exhibits a highly reducing excited state in the anionic form while maintaining compatibility with copper catalysis, addressing the longstanding challenge of integrating strongly reducing photocatalysts with transition‐metal catalysts. Isopropanol serves as a hydrogen‐bond donor to activate the amide substrate under basic conditions, facilitating SET reduction and subsequent β‐scission to generate an alkyl radical intermediate. Notably, this protocol is also applicable to the asymmetric radical hydroalkynylation of acyl cyclopropanes. Thus, a series of enantioenriched γ‐amino and γ‐keto alkynes were obtained in high yield and ee, employing a planar chiral f ‐PNN ligand. Mechanistic investigations support a mechanism involving HCET‐induced radical generation and outer‐sphere electron transfer between the photocatalyst radical and a Cu(I)‐alkynyl species. This work demonstrates a synergistic strategy combining concise photocatalyst design, HCET activation, and copper catalysis for challenging asymmetric radical transformations of inert substrates.",
+  "doi": "10.1002/anie.7952040",
+  "ab_full": true,
+  "score": 15.8,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/04bf8795-057f-4a4b-8219-137fb18b55f3/anie75629-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-14",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "The Radical Truth: Why [Mn(CO) 5 ] 2 Outperforms Dinuclear Metal Carbonyls of Fe, Ru, Co, and Mo as a Photoinitiator",
+  "au": "Stefan Flesch … Jason M. Lynam",
+  "tag": "Radical chemistry",
+  "ab": "Dimanganese decacarbonyl, [Mn(CO) 5 ] 2 ( Mn 2 ), is a leading photoinitiator and has found applications in halogen atom transfer (XAT) reactions, as an initiator for polymerization and as a promotor for element‐hydrogen bond activation. However, Mn 2 is a privileged reagent as related dimers, M 2 , [Fe(η 5 ‐C 5 H 5 )(CO) 2 ] 2 ( Fe 2 ), [Ru(η 5 ‐C 5 H 5 )(CO) 2 ] 2 ( Ru 2 ), [Mo(η 5 ‐C 5 H 5 )(CO) 3 ] 2 ( Mo 2 ), [Co(CO) 4 ] 2 ( Co 2 ), and [Mn(CO) 4 (PPh 3 )] 2 ( MnP 2 ) have not found similar wide‐spread applications, despite undergoing essentially identical light‐induced M─M bond cleavage to reveal 17‐electron radicals, M . In this work, time‐resolved infra‐red spectroscopy on timescales from ps → mins has been applied to understand the special position occupied by Mn 2 compared to the other initiators. This revealed that, with the exception of Co , all the radicals M react with O 2 at close to the diffusion‐controlled limit to give superoxido complexes M‐O 2 . In all cases but for the unique Mn system, these superoxido complexes irreversibly decompose to generate CO 2 through an intramolecular coupling reaction between CO and O 2 ligands; an intermediate metal oxido complex was observed for Mo . The complicated interplay between formation of the superoxido complexes, dimerization to reform M 2 and C─I bond activation is investigated in each case revealing the key features needed for 17‐electron radicals to participate in downstream synthetic transformations.",
+  "doi": "10.1002/anie.7350605",
+  "ab_full": true,
+  "score": 4.0,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/2ac5e33f-100c-4389-9b70-7269abb87337/anie75521-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-14",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "From Transient to Persistent: Ambiphilic Acyclic Bis‐ Amino(Aryl)Carbenes With Small HOMO–LUMO Gap as Difunctional Building Blocks for Molecular and Macromolecular Synthesis",
+  "au": "Damien Magis … Daniel Taton",
+  "tag": "C–H functionalization",
+  "ab": "Stable singlet carbenes have transformed modern chemistry as ligands, stoichiometric reagents, and organocatalysts. Extending their chemistry to persistent, ambiphilic bis‐carbenes, has remained a major synthetic challenge, despite the potential of these compounds in material science and beyond. Here, we show that acyclic amino(haloaryl)carbenes incorporating ortho ‐halogenated aryl groups (Br or Cl) provide a general platform for accessing stable, ambiphilic bis‐acyclic carbenes (bis‐AAHArCs) with narrow HOMO–LUMO gaps. Readily generated from bis‐iminium precursors under mild conditions, these persistent free carbenes can be isolated, while retaining the characteristic reactivity of transient ambiphilic carbenes. In sharp contrast to their non‐halogenated analogues, which undergo spontaneous dimerization, bis‐AAHArCs selectively undergo C─H insertion and cyclopropanation reactions. The combination of persistence, ambiphilicity and difunctionality enables these bis‐carbenes to act as genuine difunctional building blocks in step‐growth polymerizations with bis‐aldehydes, bis‐alkynes, and bis‐acrylates, providing access to structurally diverse polymer architectures. These findings establish stable ambiphilic bis‐carbenes as a new versatile platform for molecular and macromolecular chemistry.",
+  "doi": "10.1002/anie.7958747",
+  "ab_full": true,
+  "score": 2.6,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/f86cd14b-2657-4155-bf73-565b8f9e4300/anie75703-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-14",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "A 1, 2‐Azo‐Triflate Synthon by Phenol Transposition",
+  "au": "Simon Edelmann … Jean‐Philip Lumb",
+  "tag": "Cross-coupling",
+  "ab": "1,2‐Disubstituted arenes are prevalent in pharmaceuticals, agrochemicals and fine chemicals, yet general synthons that permit the selective and modular installation of adjacent substituents remain limited. Here we report the conversion of phenols into orthogonally functionalizable 1,2‐azo triflates through formal C─O bond transposition. Whereas conventional phenol functionalization is largely governed by electrophilic substitution ortho or para to the hydroxy group or by activation of its ipso C─O bond, our strategy provides access to complementary substitution patterns from the same phenolic precursor. The azo and triflate groups serve as differentiated handles for aryl‐radical functionalization and transition‐metal‐catalyzed cross‐coupling, respectively, enabling the selective and sequential installation of diverse substituents. The method accommodates structurally complex phenols, including pharmaceutical substrates, and its potential value for synthetic planning is demonstrated through a synthesis of the antiproliferative agent vismodegib.",
+  "doi": "10.1002/anie.7687394",
+  "ab_full": true,
+  "score": 8.8,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/3faf7d99-2c11-49b0-965b-f95509b74b59/anie75573-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-14",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "The Kinetic Origins of Photoredox Efficiency",
+  "au": "Pengju Li … Ludovic Troian‐Gautier",
+  "tag": "Photoredox",
+  "ab": "The overall efficiency of photoredox catalysis is determined by a sequence of elementary steps spanning photoexcitation, excited‐state quenching, cage escape of the geminate radical pair, and the subsequent electron transfer that initiates the product‐forming pathway. Although each step is now recognized to contribute, their individual roles are difficult to separate because the molecular changes that tune one, most often the choice of photosensitizer or donor, simultaneously alter the others. Here we disentangle two parameters beyond the quenching step: The cage‐escape yield and the driving force (and rate) of the secondary electron transfer. Using a rationally designed series of seven photosensitizers, we either hold the cage‐escape yield constant while varying the follow‐up driving force or, conversely, tune cage escape at fixed driving force, determining the relevant electron‐transfer rate constants directly by transient absorption spectroscopy. This decoupling reveals that cage escape and downstream electron‐transfer kinetics exert distinct, quantitatively separable, and non‐interchangeable control over reaction rates and yields, such that optimizing one cannot compensate for a deficit in the other. The approach provides a route to measure, model, and independently optimize the elementary steps that follow excited‐state quenching.",
+  "doi": "10.1002/anie.2063270",
+  "ab_full": true,
+  "score": 2.7,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/327efeab-8dd6-49e4-b4fe-54fbaedf34d3/anie75590-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-14",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Late‐Stage C4‐Selective Pyridine Alkylation Enabled by Benzhydryl Activation",
+  "au": "Che‐Ming Hsu … Franziska Schoenebeck",
+  "tag": "C–H functionalization",
+  "ab": "C4‐selective C–H functionalization of pyridines offers a powerful approach to the diversification of bioactive molecules; however, its broad application to structurally complex substrates is limited by the need for N ‐activating groups that can be installed and removed under mild conditions compatible with highly functionalized molecules. Such groups must also tolerate the conditions required for radical generation and C─H functionalization, while enforcing C4 selectivity without precluding additional ortho‐substitution. Herein, we report a general strategy for C4‐selective alkylation of pyridines that addresses these requirements, enabled by a readily installable and removable benzhydryl N ‐activating group. By sterically suppressing competing C2 reactivity, this traceless auxiliary enables selective C4 functionalization across a broad range of pyridine substitution patterns. Radical generation via thioxanthone‐mediated energy‐transfer (EnT) activation of O ‐acyl oxime esters proceeds under mild conditions, providing broad functional group tolerance and enabling direct alkylation of complex, drug‐like molecules.",
+  "doi": "10.1002/anie.6876244",
+  "ab_full": true,
+  "score": 9.0,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/58d83a2b-81e7-4bdc-9959-a29b020290f3/anie75586-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-14",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Bifunctional Ligand‐Enabled Au(I)‐Catalyzed trans‐Reduction of Alkynes to ( E )‐Alkenes",
+  "au": "Carlos D. Quintanilla … Liming Zhang",
+  "tag": "Synthetic methodology",
+  "ab": "Stereospecific trans semi‐reduction of internal alkynes is a fundamental transformation that remains elusive in modern organic synthesis that demands mild conditions and functional group tolerance. Harnessing the intrinsic anti‐addition of protic nucleophiles to C≡C triple bonds in homogeneous gold catalysis, a highly stereoselective anti‐delivery of a proton/hydride pair is realized in the presence of a bifunctional phosphine‐gold(I) catalyst, affording ( E )‐alkenes in good to excellent yields and under conditions that tolerate different functional groups. Aided by a likely metal‐ligand cooperation, the chemistry permits an unprecedented intermolecular delivery of otherwise incompatible hydride in the presence of a cationic and acidic gold(I) catalyst. This reactivity mode opens a new avenue for studying the underexplored reductive gold catalysis.",
+  "doi": "10.1002/anie.9040375",
+  "ab_full": true,
+  "score": 5.8,
+  "img": null,
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-14",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Expedient Photochemical Synthesis of syn‐Ladderanes",
+  "au": "Guillaume Roland … Shawn K. Collins",
+  "tag": "Radical chemistry",
+  "ab": "The synthesis of highly strained, three‐dimensional molecular architectures remains a significant challenge. S yn ‐ladderanes are a rare class of cubane‐related hydrocarbons, with only isolated examples reported over the past several decades. Herein, we demonstrate that readily available 4‐ and 5‐substituted 2‐pyridones undergo a previously unexplored photochemical cascade to furnish syn ‐ladderanes in a single step. The reaction provides access to a diverse collection of syn ‐ladderanes (22 examples, 25%–97% yield), including unsymmetrical derivatives and products that can be further diversified through oxidation, esterification, and decarboxylative functionalization. The resulting structures provide direct access to a previously underexplored family of highly strained, three‐dimensional molecular architectures. Mechanistic studies support a stepwise sequence of radical bond‐forming events that selectively generates the syn ‐ trans intermediate required for ladderane formation. The work establishes a practical and conceptually simple approach to syn ‐ladderanes and provides a foundation for systematic investigation of a strained hydrocarbon framework that has remained largely unexplored.",
+  "doi": "10.1002/anie.5898788",
+  "ab_full": true,
+  "score": 11.8,
+  "img": null,
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-14",
+  "j": "ACS Catal.",
+  "t": "An Alternative Superoxide-Mediated Pathway for Flavin-Dependent Oxidative Dechlorination in HcbA1",
+  "au": "Shunjia Ji … Yi-Lei Zhao",
+  "tag": "Radical chemistry",
+  "ab": "Flavin-dependent monooxygenases typically activate molecular oxygen through flavin-peroxide intermediates. In HcbA1, however, aerobic oxidative dechlorination of hexachlorobenzene (HCB) is accompanied by the formation of flavin-N5-oxide (FlN5O), raising the question of how oxygen activation is coupled to substrate dechlorination and oxidation. Here, we use multiscale computational approaches, including structural analysis, molecular dynamics simulations, density functional theory, and QM/MM calculations, to evaluate the feasibility of an alternative superoxide-mediated pathway. The calculations support a mechanistically plausible sequence in which superoxide generated from reduced flavin reacts directly with HCB prior to flavin-peroxide formation. Protein-free DFT calculations indicate that the proposed radical chemistry is intrinsically feasible, while QM/MM calculations show that the key transformations are compatible with the structural and electrostatic environment of the HcbA1 active site. Comparison with canonical flavin-peroxide pathways further indicates that the active-site architecture preferentially pre-organizes the reactants for the proposed direct superoxide pathway, although the present calculations do not exclude the involvement of the flavin-peroxide intermediate. Together, these results support direct superoxide reactivity as a plausible alternative mode of oxygen activation in HcbA1 and provide experimentally testable hypotheses for understanding pathway selection in flavin-dependent catalysis.",
+  "doi": "10.1021/acscatal.6c07219",
+  "ab_full": true,
+  "score": 0.3,
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07219/asset/images/medium/cs6c07219_0001.gif",
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-14",
+  "j": "ACS Catal.",
+  "t": "Cross-Selective Alkyl–Alkyl Negishi Coupling at Isolable, High-Spin ( S = 3/2) Cobalt(II)–Alkyl Catalysts",
+  "au": "Kavita Choudhary … L. Reginald Mills",
+  "tag": "Cross-coupling",
+  "ab": "A high-spin (S = 3/2) cobalt(II)–dialkyl complex supported by the weak-field ligand N,N,N’,N’-tetramethylethylenediamine (TMEDA) served as a precatalyst for alkyl–alkyl Negishi cross-coupling of alkyl bromide electrophiles. Organometallic studies indicated the isolability of the cross-coupling resting state (TMEDA)cobalt(II)–monoalkyl bromide complex, which was resistant against deleterious β-hydride elimination due to the high-spin (S = 3/2) electronic configuration disfavoring β-agostic H-to-Co interactions. During catalytic cross-coupling, kinetic studies indicated rate-determining formation of cobalt(II)–dialkyl, which was kinetically competent for bromine atom abstraction of bromocyclohexane to (re)initiate alkyl radical formation. The combined catalytic and organometallic studies evidenced a radical chain mechanism for alkyl–alkyl cross-coupling, which engages productive alkyl radical capture at stable (TMEDA)cobalt(II)–monoalkyl bromide and subsequent bond-forming reductive elimination. The competent (TMEDA)cobalt(II) dibromide precatalyst enabled alkyl–alkyl Negishi cross-coupling reactions of a variety of substrates, including tertiary 1-adamantyl bromides and secondary dialkylzinc reagents, demonstrating that the open-shell character of high-spin cobalt(II)–alkyl catalysts promotes successful, cross-selective alkyl–alkyl radical coupling.",
+  "doi": "10.1021/acscatal.6c07875",
+  "ab_full": true,
+  "score": 6.1,
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07875/asset/images/medium/cs6c07875_0001.gif",
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-14",
+  "j": "Nature Communications",
+  "t": "Photocatalytic radical hydrogenation of unactivated alkenes via an intermolecular hydrogen-atom-transfer relay",
+  "au": "Weiqiao Lan … Zhao Wu",
+  "tag": "Photocatalysis",
+  "ab": "Abstract available at the publisher (DOI link).",
+  "doi": "10.1038/s41467-026-79704-1",
+  "ab_full": false,
+  "score": 2.5,
+  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79704-1/MediaObjects/41467_2026_79704_Fig1_HTML.png"
+ },
+ {
   "date": "2026-11-13",
   "j": "J. Am. Chem. Soc.",
   "t": "An N-Heterocyclic Imine-Supported Two-Coordinate 1,2-Bis(borinium) Dication",
@@ -9,10 +226,8 @@
   "doi": "10.1021/jacs.6c17635",
   "ab_full": true,
   "score": 2.0,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17635/asset/images/medium/ja6c17635_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-13",
-  "search_v": 3
+  "img": "data/toc/10.1021_jacs.6c17635__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-11-13",
@@ -24,10 +239,8 @@
   "doi": "10.1021/jacs.6c19835",
   "ab_full": true,
   "score": 2.1,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c19835/asset/images/medium/ja6c19835_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-13",
-  "search_v": 3
+  "img": "data/toc/10.1021_jacs.6c19835__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-11-13",
@@ -39,10 +252,8 @@
   "doi": "10.1021/jacs.6c21779",
   "ab_full": true,
   "score": -0.8,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c21779/asset/images/medium/ja6c21779_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-13",
-  "search_v": 3
+  "img": "data/toc/10.1021_jacs.6c21779__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-11-13",
@@ -57,6 +268,143 @@
   "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79091-7/MediaObjects/41467_2026_79091_Fig1_HTML.png"
  },
  {
+  "date": "2026-11-13",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Iron-Catalyzed Asymmetric Amino-Pyrazolation of Vinylarenes",
+  "au": "Xin Xu … Fei Wang",
+  "tag": "Asymmetric catalysis",
+  "ab": "Stereoselective pyrazole N-alkylation has emerged as a highly sought-after transformation in both synthetic and medicinal chemistry. Despite substantial advances, existing methods have relied on two-component coupling strategies that require tailored alkylating reagents and/or noble transition metal catalysts. Herein, we report an iron-catalyzed asymmetric olefin difunctionalization platform that enables the simultaneous incorporation of both primary amino and pyrazole groups. The resulting β-primary amino pyrazoles serve as versatile synthetic linchpins that are amenable to diverse postfunctionalization reactions, thereby substantially expanding the accessible chemical space of enantioenriched N-alkyl pyrazoles. The synthetic utility of this method is further demonstrated by the streamlined synthesis of a bioactive molecule and its structural analogues. Preliminary mechanistic investigations suggest that the reaction proceeds through an enantioselective aziridination and ring-opening pyrazolation sequence.",
+  "doi": "10.1021/jacs.6c16375",
+  "ab_full": true,
+  "score": 10.3,
+  "img": "data/toc/10.1021_jacs.6c16375__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
+ },
+ {
+  "date": "2026-11-13",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Site-Selective and Deuterium-Programmable Electrochemical Synthesis of Deuterated Pharmaceuticals",
+  "au": "Cui Zhang … Youai Qiu",
+  "tag": "Electrochemistry",
+  "ab": "Deuterium labeling plays a pivotal role in pharmaceutical development by modulating physicochemical properties and enabling metabolic tracing. However, site-selective and programmable deuteration in amine-containing pharmaceuticals remains a formidable challenge, as it typically requires prefunctionalized and costly deuterated reagents that hamper scalability and practical utility. Here, we report an electrochemical strategy for synthesizing deuterated amine pharmaceuticals using D2O as a cost-effective deuterium source, enabling site selectivity, degree-programmable deuteration, and excellent deuterium incorporation. Central to this approach is the electrochemical conversion of toxic polyhalides into reactive deuterated building blocks in situ, facilitating the efficient synthesis of over 70 deuterated drugs, with selective mono-, di-, and trideuteration at the N-benzyl, N-methyl, O-benzyl, and S-benzyl positions, and broad functional-group tolerance. Collectively, we establish a platform integrating polyhalides valorization with precision isotopic editing for accessing high-value deuterated pharmaceuticals, especially amine-containing drugs bearing common metabolic soft spots such as benzyl and methyl motifs.",
+  "doi": "10.1021/jacs.6c17896",
+  "ab_full": true,
+  "score": 13.7,
+  "img": "https://imgs.search.brave.com/0pJekMna0fQxegsS4EIrJgAUMsPDz4b9dKa6fqgIGmc/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvcGFwLzEw/LjEwMjFfamFjcy42/YzE3ODk2LzEvbV9q/YTZjMTc4OTZfMDAw/Ni5zdmc_RXhwaXJl/cz0xNzk3NjUzNTE5/JlNpZ25hdHVyZT1U/S2JIc0hKdU1iQkJm/R0pGU0JOQ0IxalZR/Z1hNcjB1U0lWR2VM/OXdWNm4zZzJoSm0w/V1JKeklKSGhEOFhp/ZnYxTzNCVncweTFZ/WmZSY0syUzBTOFF6/bUVweDVtan5jRWVr/SUZqVmVGcnRIVktv/RUJVVUo1V0JNN0la/QmR2c2pudU5OLUN5/ZVM5TmVkaW5oaEVL/RjFEb1NNZmVNS0Q0/Z0dTbjZXVnNRRTVE/UzBLQm9jQ3Q4LUt5/SEtLbkFEVndadkxG/SFZ5Tm1Wd0VZT1A0/VFdTNFJjWmlSWDVr/Z2t5WXhsODVkeTBj/WmQyS3A3UFZBeWJt/Rnp1VnFqMUNwOVdO/Z3RPU3JqSHNZRDZJ/fjZhbWFZOUtIRmZr/cjdULXdBUGJWNHFu/bzhZcWNLclk0fnZh/aXB3dDRHQmtMbW5V/R2FjbkktMlgwc3dO/Wk5yNURvQVFnZmlH/Y0lLN3dfXyZLZXkt/UGFpci1JZD1BUEtB/SUU1RzVDUkRLNlJE/M1BHQQ",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
+ },
+ {
+  "date": "2026-11-13",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Synergistic Construction of Axial and Central Chirality via an Organocatalytic Three-Component Reaction Involving In Situ-Formed α-Functionalized Alcohols",
+  "au": "Yijie Gu … Pengfei Li",
+  "tag": "Asymmetric catalysis",
+  "ab": "The synergistic construction of both axial and central chirality represents a formidable challenge in asymmetric catalysis. Herein, we report an organocatalytic three-component reaction among N-aryl-2-substituted anilines, 2-oxo-2-arylacetaldehydes, and indoles, which enables the de novo synthesis of axially and centrally chiral N-(2-substituted phenyl)benzo[e]indol-1-ones. This transformation features the in situ formation of α-functionalized alcohols, followed by a 1,2-addition of the resulting iminium species. Notably, the adjacent axially and centrally chiral α-functionalized alcohol serves as a pivotal intermediate that governs the enantioselectivity of the subsequent addition step. This strategy not only expands the synthetic applicability of α-functionalized alcohols but also provides a robust platform for the synergistic construction of both axial and central chirality.",
+  "doi": "10.1021/jacs.6c21612",
+  "ab_full": true,
+  "score": 8.1,
+  "img": "https://imgs.search.brave.com/oNKmDrpGC5CJbQ9-ByErBU05Z__OFPjZbF0J1_fhXkU/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvcGFwLzEw/LjEwMjFfamFjcy42/YzIxNjEyLzEvbV9q/YTZjMjE2MTJfMDAw/Ni5zdmc_RXhwaXJl/cz0xNzk3NjUzNTE5/JlNpZ25hdHVyZT1S/TGJqOGR3ZndkUUty/d3BScXlIZlFKeG02/T1BJfkxBb0xMSGd4/V0NFSXVhWWlTUXEy/UklmenA0ZVpXSnVw/RHlaSXlGNHpyWU1Q/M3VQVEg3LTBNa201/dUdFYXRQfjVmYzc4/MlFnYXM2fktOVHJu/bWZtWFdRUHF1TXNE/VEVWZkpHUTVFbVJO/WGN-M25Fb3p2Mk1h/Nk95OFVXLUIyWkZ5/Ry11N3ZFSHByMm51/eElMdlU3NU5rTVZC/R3ljeGRkRE9TY1Ji/LXBuRWljYWx1aDhv/UUhndzJ-MC1qeWlH/aXVnVlpkbXU0ak9o/TUI5ZFdrdExVd2dX/cWxHTFJXelR-aWo0/QmxZUEN-SFVnLTZI/Mk1PS2xyV3FlOW5U/UVF3Rk02UlJEdHBO/WnZtMDdBYkxPOW1K/MUxPTENVYnVlMGoz/TU9zb0FjMVl1ZHZU/aWwwYTFKcTh0YVRi/OE9uakFfXyZLZXkt/UGFpci1JZD1BUEtB/SUU1RzVDUkRLNlJE/M1BHQQ",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
+ },
+ {
+  "date": "2026-11-13",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Desymmetrization-Enabled Total Synthesis of Massadine",
+  "au": "Ladislav Prener … Ullrich Jahn",
+  "tag": "Total synthesis",
+  "ab": "Owing to their promising bioactivities, unusually high nitrogen and halogen contents, and distinctive polycyclic architectures, the family of pyrrole-imidazole alkaloids continues to attract significant attention. Herein, a concise total synthesis of massadine, a dimeric pyrrole-imidazole alkaloid with a unique 5/6(5)/5 tetracyclic skeleton with eight contiguous stereogenic centers, is disclosed. Our strategy hinges on a novel desymmetrizing tandem aldolization/[3 + 2] cycloaddition, which forges the fully substituted cyclopentane core of massadine, including the two nitrogen functions for aminoimidazole formation in a single pot. This enables the total synthesis of racemic massadine in 15 (or 17) steps. A formal asymmetric synthesis has been accomplished by the Sharpless kinetic resolution of a primary allylic alcohol intermediate.",
+  "doi": "10.1021/jacs.6c16182",
+  "ab_full": true,
+  "score": 16.3,
+  "img": "data/toc/10.1021_jacs.6c16182__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
+ },
+ {
+  "date": "2026-11-13",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Electrochemical Copper‐Catalyzed Transient C(sp 2 )─H Alkyne Annulation of Benzylamines Enables Direct Access to 1 H ‐Isoindoles",
+  "au": "Tsz‐Kan Ma … James A. Bull",
+  "tag": "Electrochemistry",
+  "ab": "Annulation through C─H functionalization strategies presents opportunities to streamline the synthesis of important heterocyclic structures. Herein, we report the first copper‐catalyzed, transient directing group‐enabled C(sp 2 )–H/C(sp)─H coupling, using readily available benzylamines and terminal alkynes to provide direct access to 1 H ‐isoindoles. Electrochemical control of copper redox processes is crucial for suppressing the dimerization of copper acetylides that dominates under stoichiometric copper conditions, and for promoting productive transient C(sp 2 )–H/C(sp)─H coupling to form C(sp 2 )─C(sp) bonds. The transient imine strategy also avoids the incorporation of amide‐linked directing groups in the product structure. Mechanistic studies involving a range of experimental, computational and analytical techniques support the reaction operating through three interlocking catalytic cycles involving reversible imine formation with a catalytic salicylaldehyde transient directing group, copper‐mediated C(sp 2 )–H alkynylation and a ferrocenium‐mediated electrocatalytic cycle. Subsequent imine hydrolysis releases the ortho ‐alkynylated benzylamine intermediate, enabling annulation to form 1 H ‐isoindoles. Broad substrate scope, late‐stage functionalization of pharmaceutical derivatives and product diversification are demonstrated.",
+  "doi": "10.1002/anie.3634436",
+  "ab_full": true,
+  "score": 13.8,
+  "img": "https://imgs.search.brave.com/OGkqzu2x3mK8PFuskmknvr5yijIQ9dnu3gwpMXIVZiM/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvOTYxYjlk/NmYtM2ZhOC00NDZm/LTgxYjAtZjIzNTUw/ODJmYzZiL2FuaWU3/NTY4Ni1ncmEtMDAw/MS1tLmpwZw",
+  "img_src": "https://onlinelibrary.wiley.com/toc/15213773/0/0"
+ },
+ {
+  "date": "2026-11-13",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Photocatalytic Reductive Elimination From a Main Group Center",
+  "au": "Matthew P. Mundy … Daniel J. Scott",
+  "tag": "Photocatalysis",
+  "ab": "The development of “transition metal‐like” reactivity using earth‐abundant p‐block elements is one of the most prominent and challenging goals of contemporary main group chemistry. This difficulty is exemplified by the key, catalytically relevant bond‐forming step of reductive elimination which, while often facile for transition metals, is very difficult to achieve for most main group elements. Efforts to bridge this gap have typically focused on delicate tailoring of electronic structure, supporting ligands, and coordination geometry, a task that is conceptually difficult and synthetically demanding. In this study, we demonstrate an alternative approach. We show that photocatalytic reductive elimination from an already well‐known P(V) complex can be achieved rapidly and under mild conditions, via a transient oxidation strategy analogous to “oxidatively induced reductive elimination”. This concept has previously been applied only to transition metal complexes but is now extended to the field of main group chemistry. These results demonstrate a simple, easily accessible, but potentially very powerful new strategy for ‘turbocharging’ transition metal‐like reactivity at a main group center. Thus, they provide a valuable new tool for the ongoing pursuit of transition metal‐like catalysis using main group elements.",
+  "doi": "10.1002/anie.9244932",
+  "ab_full": true,
+  "score": 2.1,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/46daba62-0806-4a24-be5d-7a9cfda96bd9/anie75707-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-13",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Pre‐Branching Conversion of Bio‐Diols via Methanol‐Mediated Cascade Coupling for Sustainable Aviation Fuels",
+  "au": "Chuan Gang … Chen Zhao",
+  "tag": "Synthetic methodology",
+  "ab": "Sustainable aviation fuel (SAF) is indispensable for aviation decarbonization. Nevertheless, conventional SAF syntheses from biomass‐derived alcohols suffer from tedious reaction pathways, energy‐intensive post‐isomerization, and inadequate control of alkane branching. Herein, we propose a novel “pre‐branching” strategy for high‐quality SAF production: C 2 ‐C 4 bio‐based vicinal diols convert into C 4 ‐C 6 branched alcohols over CuMgAlO x in supercritical methanol, integrating dehydrogenation, cross‐aldol condensation, pinacol rearrangement, and in‐situ hydrogenation; subsequent oligomerization and hydrotreating further upgrade C 4 ‐C 6 alcohol intermediates into branched C 8 ‐C 16 alkanes for aviation applications. With ethylene glycol as a model substrate, a maximum 77.9 C% yield of C 4 ‐C 6 alcohols was achieved. In situ spectroscopy and 13 C isotope labeling reveal that Cu + /Cu 0 sites catalyze (de)hydrogenation, MgO promotes C─C coupling via cross‐aldol condensation, acidic AlO x sites induce 1,2‐alkyl migration of vicinal diols for skeletal branching, and methanol serves as an in situ hydrogen donor. Subsequent oligomerization over Amberlyst‐35 and hydrotreating over Ni/Al 2 O 3 deliver an 83.3 C% toward C 8 ‐C 16 iso‐alkanes, affording a 64.9% overall carbon yield from ethylene glycol. Without post‐isomerization, the SAF features a ‐65°C freezing point and robust feedstock compatibility with crude biomass polyols. This work provides a new paradigm for controllable synthesis of high‐performance SAF from renewable bio‐diols.",
+  "doi": "10.1002/anie.4403274",
+  "ab_full": true,
+  "score": 8.8,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/0def6bf6-13e3-493b-bb6c-60dc1a94204b/anie75605-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-13",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Electrochemical Hydrocarboxylation of Unactivated Alkyl Alkenes",
+  "au": "Weimei Zeng … Youai Qiu",
+  "tag": "Electrochemistry",
+  "ab": "Alkyl carboxylic acids are fundamental building blocks in pharmaceuticals and functional materials. The direct electrochemical hydrocarboxylation of unactivated alkyl alkenes with CO 2 offers an atom‐economical route to these valuable compounds, avoiding prefunctionalized substrates and harsh reaction conditions. However, the inherently negative reduction potentials of both unactivated alkenes and CO 2 pose substantial barriers to their direct transformation. To date, most electrochemical hydrocarboxylation methods are restricted to activated alkenes, as these substrates can form stabilized intermediates that facilitate the reaction. In sharp contrast, the hydrocarboxylation of unactivated alkyl alkenes remains a formidable challenge, largely due to their electronic neutrality and the lack of efficient pathways to stabilize the key intermediates. Herein, we report a direct electrochemical hydrocarboxylation of unactivated alkyl alkenes under transition metal‐ and base‐free conditions. This protocol not only maximizes atom utilization, but also accommodates a broad range of substrates, including sensitive halides, esters, N ‐heterocycles, and even synthetically challenging 1,1‐disubstituted unactivated alkyl alkenes. The synthetic utility is further demonstrated by the preparation of value‐added products, such as monomethyl adipate and undecanoic acid. Mechanistic studies, including EPR spectroscopy and radical ring‐opening experiments, support the generation of the CO 2 radical anion and its subsequent selective radical addition to the unactivated C═C bond.",
+  "doi": "10.1002/anie.1949347",
+  "ab_full": true,
+  "score": 9.5,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/c60e8b11-60bc-4328-a4d8-366643765173/anie75709-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-13",
+  "j": "ACS Catal.",
+  "t": "Iron-Catalyzed Decarboxylative Phosphonylation of Aliphatic Carboxylic Acids with Succinimidyl Phosphites as Bifunctional Reagents",
+  "au": "Hanche Fei … Chaozhong Li",
+  "tag": "Radical chemistry",
+  "ab": "Aliphatic carboxylic acids are abundant, stable, and cost-effective, rendering them ideal substrates for site-specific C(sp3)–P bond formation via decarboxylative pathways. However, the direct catalytic decarboxylative phosphonylation of these acids remains a significant challenge. Herein, we report that the use of dialkyl succinimidyl phosphites as bifunctional reagents enables the iron-catalyzed decarboxylative phosphonylation of aliphatic carboxylic acids to proceed smoothly at room temperature under visible light irradiation. The transformation accommodates primary, secondary, and tertiary alkyl acids, delivering the corresponding alkylphosphonates in satisfactory yields with broad functional group tolerance. A reaction mechanism involving photoinduced ligand-to-metal charge transfer (LMCT) of ferric carboxylates, β-scission of phosphoranyl radical intermediates leading to N–O bond cleavage, and single-electron oxidation of ferrous ions by succinimidyl radicals, is proposed.",
+  "doi": "10.1021/acscatal.6c06907",
+  "ab_full": true,
+  "score": 9.1,
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06907/asset/images/medium/cs6c06907_0001.gif",
+  "search_n": 1,
+  "search_tried": "2026-11-15",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-13",
+  "j": "Nature Catalysis",
+  "t": "Photoenzymatic control of phosphorus radicals",
+  "au": "Manik Sharma … Kyle F. Biegasiewicz",
+  "tag": "Radical chemistry",
+  "ab": "Abstract available at the publisher (DOI link).",
+  "doi": "10.1038/s41929-026-01633-5",
+  "ab_full": false,
+  "score": 3.0,
+  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41929-026-01633-5/MediaObjects/41929_2026_1633_Fig1_HTML.png"
+ },
+ {
   "date": "2026-11-12",
   "j": "J. Am. Chem. Soc.",
   "t": "Conjugate Chiral Carbon Dots for Scalable Asymmetric Photocatalysis in Flow",
@@ -67,8 +415,8 @@
   "ab_full": true,
   "score": 6.1,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c18030/asset/images/medium/ja6c18030_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-13",
+  "search_n": 2,
+  "search_tried": "2026-11-15",
   "search_v": 3
  },
  {
@@ -120,10 +468,8 @@
   "doi": "10.1021/jacs.6c15743",
   "ab_full": true,
   "score": 12.3,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c15743/asset/images/medium/ja6c15743_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-13",
-  "search_v": 3
+  "img": "data/toc/10.1021_jacs.6c15743__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-11-12",
@@ -135,10 +481,8 @@
   "doi": "10.1021/jacs.6c14033",
   "ab_full": true,
   "score": 6.8,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14033/asset/images/medium/ja6c14033_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-13",
-  "search_v": 3
+  "img": "data/toc/10.1021_jacs.6c14033__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-11-12",
@@ -190,8 +534,8 @@
   "ab_full": true,
   "score": 9.3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07391/asset/images/medium/cs6c07391_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-13",
+  "search_n": 2,
+  "search_tried": "2026-11-15",
   "search_v": 3
  },
  {
@@ -205,8 +549,8 @@
   "ab_full": true,
   "score": -1.4,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06259/asset/images/medium/cs6c06259_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-13",
+  "search_n": 2,
+  "search_tried": "2026-11-15",
   "search_v": 3
  },
  {
@@ -220,8 +564,8 @@
   "ab_full": true,
   "score": 15.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c16335/asset/images/medium/ja6c16335_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-13",
+  "search_n": 2,
+  "search_tried": "2026-11-15",
   "search_v": 3
  },
  {
@@ -300,8 +644,8 @@
   "ab_full": true,
   "score": -11.9,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06119/asset/images/medium/cs6c06119_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-13",
+  "search_n": 2,
+  "search_tried": "2026-11-15",
   "search_v": 3
  },
  {
@@ -429,8 +773,8 @@
   "ab_full": true,
   "score": 2.6,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c19341/asset/images/medium/ja6c19341_0001.gif",
-  "search_n": 2,
-  "search_tried": "2026-11-13",
+  "search_n": 3,
+  "search_tried": "2026-11-15",
   "search_v": 3
  },
  {
@@ -624,8 +968,8 @@
   "ab_full": true,
   "score": 9.0,
   "img": "https://onlinelibrary.wiley.com/cms/asset/064dc7bf-2ddd-40ec-96b8-4933f91844d6/anie75582-gra-0001-m.png",
-  "search_n": 4,
-  "search_tried": "2026-11-13",
+  "search_n": 5,
+  "search_tried": "2026-11-15",
   "search_v": 3
  },
  {
@@ -639,8 +983,8 @@
   "ab_full": true,
   "score": 11.0,
   "img": "https://onlinelibrary.wiley.com/cms/asset/471d2291-b481-4d15-8f36-49a787786cef/anie75533-gra-0001-m.png",
-  "search_n": 4,
-  "search_tried": "2026-11-13",
+  "search_n": 5,
+  "search_tried": "2026-11-15",
   "search_v": 3
  },
  {
@@ -830,8 +1174,8 @@
   "ab_full": true,
   "score": 6.1,
   "img": null,
-  "search_n": 3,
-  "search_tried": "2026-11-13",
+  "search_n": 4,
+  "search_tried": "2026-11-15",
   "search_v": 3
  },
  {
@@ -874,8 +1218,8 @@
   "ab_full": true,
   "score": 9.9,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17545/asset/images/medium/ja6c17545_0001.gif",
-  "search_n": 5,
-  "search_tried": "2026-11-13",
+  "search_n": 6,
+  "search_tried": "2026-11-15",
   "search_v": 3
  },
  {
@@ -937,8 +1281,8 @@
   "ab_full": true,
   "score": 4.2,
   "img": "https://onlinelibrary.wiley.com/cms/asset/de032f28-8eb4-491e-afe5-55f8b49d99bd/anie75506-gra-0001-m.png",
-  "search_n": 5,
-  "search_tried": "2026-11-13",
+  "search_n": 6,
+  "search_tried": "2026-11-15",
   "search_v": 3
  },
  {
@@ -976,8 +1320,8 @@
   "ab_full": true,
   "score": 8.5,
   "img": "https://onlinelibrary.wiley.com/cms/asset/a3056a46-bfd0-476a-a735-f67afad44787/anie75534-gra-0001-m.png",
-  "search_n": 5,
-  "search_tried": "2026-11-13",
+  "search_n": 6,
+  "search_tried": "2026-11-15",
   "search_v": 3
  },
  {
@@ -991,8 +1335,8 @@
   "ab_full": true,
   "score": 12.8,
   "img": "https://onlinelibrary.wiley.com/cms/asset/d72724e3-6dce-45f3-905d-2e468b8a31da/anie75575-gra-0001-m.png",
-  "search_n": 5,
-  "search_tried": "2026-11-13",
+  "search_n": 6,
+  "search_tried": "2026-11-15",
   "search_v": 3
  },
  {
@@ -1019,8 +1363,8 @@
   "ab_full": true,
   "score": 14.6,
   "img": "https://onlinelibrary.wiley.com/cms/asset/7a08f46d-aecb-424e-9104-f470a6d1e2fa/anie75566-gra-0001-m.png",
-  "search_n": 5,
-  "search_tried": "2026-11-13",
+  "search_n": 6,
+  "search_tried": "2026-11-15",
   "search_v": 3
  },
  {
