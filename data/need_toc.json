@@ -1,8 +1,74 @@
 [
 {
-"doi": "10.1002/anie.5105875",
+"doi": "10.1021/jacs.6c17994",
+"j": "J. Am. Chem. Soc.",
+"t": "Metal-Centered Spin-State Switching Promotes Stereodivergent Synthesis of E - and Z -Allylamines",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c15220",
+"j": "J. Am. Chem. Soc.",
+"t": "Regio- and Diastereoselective Thiol-ene Click Reaction and Application for the Synthesis of Semicrystalline Polythioethers",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c15887",
+"j": "J. Am. Chem. Soc.",
+"t": "Disrupting Hidden Antiaromaticity in N -Hydroxyphthalimide Reveals a Design Principle for Highly Reactive N -Oxyl Hydrogen Atom Transfer Mediators",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.5465706",
 "j": "Angew. Chem. Int. Ed.",
-"t": "Enantioselective Access to Bis‐U‐Shaped Hexapyrrolic Expanded Porphyrinoids via a BINAM‐Directed Axial‐to‐Helical Chirality Transfer Strategy",
+"t": "Iron‐Catalyzed Regioselective Amidation of Pyridines via Zincke Imine Intermediates",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.8665437",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Synthesis of Enones and Enals From Alkenes via Alkenyl Thianthrenium Salts",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.1454878",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Photocatalytic 1,2‐Boron Migrative Alkene Homologation to Access 1,3‐Difunctionalized Alkenes",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.9063097",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Irradiation‐Wavelength‐Tuned Stepwise [2+2] Cycloaddition of Indolylphenylpropenone Derivatives as a Platform for Light–Mechanical Energy Conversion",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.8299358",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Rationale‐Guided and Iterative Learning for Redesigning a Highly Enantio‐ and Chemoselective Flavin‐Dependent Phenolic Hydroxylase",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c07781",
+"j": "ACS Catal.",
+"t": "Copper-Catalyzed α-C–H Cyanation of Amides via Sequential Electron Transfer/Hydrogen Atom Transfer (ET/HAT)",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c07013",
+"j": "ACS Catal.",
+"t": "A Highly Active and Promiscuous Esterase for Amide Bond Synthesis under Aqueous Conditions",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.6515850",
+"j": "Angew. Chem. Int. Ed.",
+"t": "A Phosphonium Relay for Integrated Cleavage‐to‐Cyclization of Cyclic Peptides",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c07292",
+"j": "ACS Catal.",
+"t": "Chemo- and Regioselective Dehydrogenative Allylic C–H Oxygenation of Ketones",
 "m": "2026-11"
 },
 {
@@ -60,12 +126,6 @@
 "m": "2026-11"
 },
 {
-"doi": "10.1021/acscatal.6c07219",
-"j": "ACS Catal.",
-"t": "An Alternative Superoxide-Mediated Pathway for Flavin-Dependent Oxidative Dechlorination in HcbA1",
-"m": "2026-11"
-},
-{
 "doi": "10.1021/acscatal.6c07875",
 "j": "ACS Catal.",
 "t": "Cross-Selective Alkyl–Alkyl Negishi Coupling at Isolable, High-Spin ( S = 3/2) Cobalt(II)–Alkyl Catalysts",
@@ -114,27 +174,9 @@
 "m": "2026-11"
 },
 {
-"doi": "10.1021/jacs.6c18030",
-"j": "J. Am. Chem. Soc.",
-"t": "Conjugate Chiral Carbon Dots for Scalable Asymmetric Photocatalysis in Flow",
-"m": "2026-11"
-},
-{
 "doi": "10.1021/acscatal.6c06916",
 "j": "ACS Catal.",
 "t": "Cyclative Carbon Quaternization of Alkyl Boronic Esters via Copper-Catalyzed Aminyl Radical Transfer",
-"m": "2026-11"
-},
-{
-"doi": "10.1021/acscatal.6c07391",
-"j": "ACS Catal.",
-"t": "Radical-Based Catalytic Transformations of 1-Azabicyclo[1.1.0]butanes: Opportunities and Future Directions",
-"m": "2026-11"
-},
-{
-"doi": "10.1021/acscatal.6c06259",
-"j": "ACS Catal.",
-"t": "Reverse Water Gas Shift Reaction over a Homogeneous Iron Catalyst and the Underlying Mechanism",
 "m": "2026-11"
 },
 {
@@ -165,12 +207,6 @@
 "doi": "10.1002/anie.5382742",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Iridium‐Catalyzed Borane Reduction of Esters for the Construction of Sterically Hindered and α , α ‐Dideuterated Ethers",
-"m": "2026-11"
-},
-{
-"doi": "10.1021/acscatal.6c06119",
-"j": "ACS Catal.",
-"t": "MoO x as an Oxidized Incorporation Modulates Nickel Sites for Efficient H2O2 Electrosynthesis at 200 mA cm–2",
 "m": "2026-11"
 },
 {

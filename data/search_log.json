@@ -7670,13 +7670,8 @@
 },
 {
 "title": "",
-"page": "www.science.org",
-"img": "www.science.org"
-},
-{
-"title": "Figure 1",
-"page": "chinesechemsoc.org",
-"img": "www.chinesechemsoc.org"
+"page": "www.jstage.jst.go.jp",
+"img": "www.jstage.jst.go.jp"
 },
 {
 "title": "Fig. 2",
@@ -7684,14 +7679,19 @@
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "",
-"page": "www.jstage.jst.go.jp",
-"img": "www.jstage.jst.go.jp"
+"title": "Figure 1",
+"page": "chinesechemsoc.org",
+"img": "www.chinesechemsoc.org"
 },
 {
-"title": "4",
+"title": "Fig. 1",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "",
+"page": "www.science.org",
+"img": "www.science.org"
 }
 ]
 },
@@ -8145,7 +8145,7 @@
 "t": "Metal-Free Synthesis of Unsymmetrical B–B Bond via Pyridyl-Directed m -Carborane Borylation",
 "top": [
 {
-"title": "Scheme 1",
+"title": "Scheme 7",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
@@ -8155,24 +8155,24 @@
 "img": "onlinelibrary.wiley.com"
 },
 {
-"title": "Scheme 13",
+"title": "Scheme 1",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "",
-"page": "reagents.acsgcipr.org",
-"img": "reagents.acsgcipr.org"
-},
-{
-"title": "Scheme 16",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
+"title": "Scheme 26",
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
 },
 {
 "title": "",
 "page": "doi.org",
 "img": "pub.mdpi-res.com"
+},
+{
+"title": "Scheme 1",
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
 }
 ]
 },
@@ -8298,27 +8298,27 @@
 "img": "mediasvc.eurekalert.org"
 },
 {
-"title": "Figure 1. Refer to the image caption for details.",
-"page": "pubs.acs.org",
-"img": "acs.silverchair-cdn.com"
-},
-{
-"title": "Figure 2. Refer to the image caption for details.",
-"page": "pubs.acs.org",
-"img": "acs.silverchair-cdn.com"
-},
-{
-"title": "Description unavailable",
-"page": "onlinelibrary.wiley.com",
-"img": "onlinelibrary.wiley.com"
-},
-{
-"title": "Figure 5",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
-},
-{
 "title": "Fig. 3",
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
+},
+{
+"title": "Figure 6. Refer to the image caption for details.",
+"page": "pubs.acs.org",
+"img": "acs.silverchair-cdn.com"
+},
+{
+"title": "Fig. 1",
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
+},
+{
+"title": "",
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
+},
+{
+"title": "Fig. 2",
 "page": "sciencedirect.com",
 "img": "ars.els-cdn.com"
 }
@@ -8367,7 +8367,7 @@
 "t": "Carbonyl–Olefin Coupling Enabled by Photocatalytic Phosphine-Mediated Water Activation",
 "top": [
 {
-"title": "image file: d4qo02079k-s5.tif",
+"title": "image file: d4qo02079k-s8.tif",
 "page": "pubs.rsc.org",
 "img": "pubs.rsc.org"
 },
@@ -8377,9 +8377,9 @@
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "Fig. 2",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
+"title": "image file: d4qo02079k-s5.tif",
+"page": "pubs.rsc.org",
+"img": "pubs.rsc.org"
 },
 {
 "title": "Mechanistic studies.",
@@ -8387,12 +8387,12 @@
 "img": "oup.silverchair-cdn.com"
 },
 {
-"title": "image file: d4qo02079k-s8.tif",
-"page": "pubs.rsc.org",
-"img": "pubs.rsc.org"
+"title": "Figure1. Photocatalytic phosphine-mediated water activation for radical hydrogenation of…",
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
 },
 {
-"title": "Fig. 5",
+"title": "Fig. 2",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 }
@@ -12238,14 +12238,9 @@
 "img": "www.cell.com"
 },
 {
-"title": "Graphical abstract: Photocaging of amino acids and short peptides by arylidenethiazoles: mechanism, photochemical charac",
-"page": "pubs.rsc.org",
-"img": "pubs.rsc.org"
-},
-{
-"title": "FIGURE 1",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
+"title": "",
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
 },
 {
 "title": "image file: d1md00083g-s7.tif",
@@ -12253,9 +12248,14 @@
 "img": "pubs.rsc.org"
 },
 {
-"title": "",
-"page": "sciencedirect.com",
-"img": "ars.els-cdn.com"
+"title": "Figure 1",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "FIG. 1. Refer to the image caption for details.",
+"page": "pubs.aip.org",
+"img": "aipp.silverchair-cdn.com"
 }
 ]
 },
@@ -12265,19 +12265,14 @@
 "t": "Palladium‐Catalyzed Synthesis of Multisubstituted Conjugated Dienes from Unactivated Alkenes",
 "top": [
 {
-"title": "Palladium-catalyzed coupling of propargyl alcohol esters with various nucleophiles to construct polysubstituted function",
-"page": "eurekalert.org",
-"img": "mediasvc.eurekalert.org"
-},
-{
 "title": "Scheme 1. Refer to the image caption for details.",
 "page": "pubs.acs.org",
 "img": "acs.silverchair-cdn.com"
 },
 {
-"title": "",
-"page": "sioc-journal.cn",
-"img": "sioc-journal.cn"
+"title": "Palladium-catalyzed coupling of propargyl alcohol esters with various nucleophiles to construct polysubstituted function",
+"page": "eurekalert.org",
+"img": "mediasvc.eurekalert.org"
 },
 {
 "title": "Scheme 1",
@@ -12285,14 +12280,19 @@
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "Scheme 5. Refer to the image caption for details.",
-"page": "pubs.acs.org",
-"img": "acs.silverchair-cdn.com"
+"title": "",
+"page": "sioc-journal.cn",
+"img": "sioc-journal.cn"
 },
 {
-"title": "Figure 2",
+"title": "Figure 1",
 "page": "chinesechemsoc.org",
 "img": "www.chinesechemsoc.org"
+},
+{
+"title": "5",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
 }
 ]
 },
@@ -12340,18 +12340,13 @@
 "top": [
 {
 "title": "Scheme 1",
-"page": "pubmed.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
-},
-{
-"title": "Scheme 1",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "image file: d1sc00240f-s3.tif",
-"page": "pubs.rsc.org",
-"img": "pubs.rsc.org"
+"title": "Scheme 1",
+"page": "pubmed.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
 },
 {
 "title": "Description unavailable",
@@ -12359,14 +12354,19 @@
 "img": "onlinelibrary.wiley.com"
 },
 {
+"title": "image file: d1sc00240f-s3.tif",
+"page": "pubs.rsc.org",
+"img": "pubs.rsc.org"
+},
+{
 "title": "A new highly enantioselective route to α-alkenyl α-amino acid derivatives using a N–H insertion reaction of vinyldiazoac",
 "page": "pubs.rsc.org",
 "img": "rscj.silverchair-cdn.com"
 },
 {
-"title": "Fig. 1",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
+"title": "",
+"page": "science.org",
+"img": "www.science.org"
 }
 ]
 },
@@ -12571,24 +12571,24 @@
 "img": "acs.silverchair-cdn.com"
 },
 {
-"title": "Fig. 2",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
+"title": "",
+"page": "www.sciencedirect.com",
+"img": "ars.els-cdn.com"
 },
 {
-"title": "Fig. 1",
+"title": "Image 1",
 "page": "sciencedirect.com",
 "img": "ars.els-cdn.com"
 },
 {
-"title": "Catalysts 12 01549 g006",
-"page": "www.mdpi.com",
-"img": "mdpi-res.com"
-},
-{
 "title": "Fig. 1",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "",
+"page": "doi.org",
+"img": "pub.mdpi-res.com"
 }
 ]
 },
@@ -12603,29 +12603,29 @@
 "img": "pubs.rsc.org"
 },
 {
-"title": "This review summarizes recent major advances in iron-catalysed C–H aminations of alkyl azides through iron–alkylnitrene/",
-"page": "pubs.rsc.org",
-"img": "rscj.silverchair-cdn.com"
-},
-{
-"title": "Scheme 1",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
-},
-{
-"title": "image file: c4ra02240h-u29.tif",
-"page": "pubs.rsc.org",
-"img": "pubs.rsc.org"
-},
-{
 "title": "Graphical abstract: Pushing the limits of catalytic C–H amination in polyoxygenated cyclobutanes",
 "page": "pubs.rsc.org",
 "img": "pubs.rsc.org"
 },
 {
-"title": "FIGURE 4",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
+"title": "Details are in the caption following the image",
+"page": "onlinelibrary.wiley.com",
+"img": "onlinelibrary.wiley.com"
+},
+{
+"title": "Details are in the caption following the image",
+"page": "onlinelibrary.wiley.com",
+"img": "onlinelibrary.wiley.com"
+},
+{
+"title": "This review summarizes recent major advances in iron-catalysed C–H aminations of alkyl azides through iron–alkylnitrene/",
+"page": "pubs.rsc.org",
+"img": "rscj.silverchair-cdn.com"
+},
+{
+"title": "Intramolecular C-H amination of sulfamate esters catalyzed by iron.",
+"page": "arabjchem.org",
+"img": "arabjchem.org"
 }
 ]
 },
@@ -12783,23 +12783,23 @@
 "t": "Expanding global access to GLP-1s: Challenges and opportunities",
 "top": [
 {
-"title": "chart visualization",
-"page": "hmacademy.com",
-"img": "public.flourish.studio"
-},
-{
 "title": "GLP-1 Drugs Market Trends and Growth (2026)",
 "page": "www.towardshealthcare.com",
 "img": "www.towardshealthcare.com"
 },
 {
-"title": "",
-"page": "www.towardshealthcare.com",
-"img": "www.towardshealthcare.com"
+"title": "Figure 4 - The Federal Government Offered Optional Enhanced Protection Against the Risk of Losses to Participating Medic",
+"page": "www.kff.org",
+"img": "www.kff.org"
 },
 {
-"title": "Oral GLP-1 Market Share, By Region, 2024 (%)",
-"page": "towardshealthcare.com",
+"title": "Opportunities for expansion and pressures that pharma, digital health, providers, and payers will face with GLP-1s",
+"page": "unionhealthcareinsight.com",
+"img": "static.wixstatic.com"
+},
+{
+"title": "",
+"page": "www.towardshealthcare.com",
 "img": "www.towardshealthcare.com"
 },
 {
@@ -12808,9 +12808,9 @@
 "img": "www.jpmorgan.com"
 },
 {
-"title": "Medicare and Medicaid Gross Spending on GLP-1s Has Increased Substantially From 2019 to 2024, Though Net Spending Would ",
-"page": "www.kff.org",
-"img": "datawrapper.dwcdn.net"
+"title": "GLP-1 Market By Product Analysis 2021 - 2034 (USD Billion)",
+"page": "polarismarketresearch.com",
+"img": "www.polarismarketresearch.com"
 }
 ]
 },
@@ -13015,11 +13015,6 @@
 "img": "www.chemistrysteps.com"
 },
 {
-"title": "application of how to apply protecting groups in alcohols use silyl protecting group",
-"page": "www.masterorganicchemistry.com",
-"img": "cdn.masterorganicchemistry.com"
-},
-{
 "title": "",
 "page": "www.organic-chemistry.org",
 "img": "www.organic-chemistry.org"
@@ -13030,9 +13025,14 @@
 "img": "ars.els-cdn.com"
 },
 {
-"title": "",
-"page": "www.organic-chemistry.org",
-"img": "www.organic-chemistry.org"
+"title": "very well used protecting group is tert butyl dimethylsilyl chloride is tbscl removed with fluoride ion tbaf other prote",
+"page": "www.masterorganicchemistry.com",
+"img": "cdn.masterorganicchemistry.com"
+},
+{
+"title": "Details are in the caption following the image",
+"page": "chemistry-europe.onlinelibrary.wiley.com",
+"img": "chemistry-europe.onlinelibrary.wiley.com"
 }
 ]
 },
@@ -13338,19 +13338,14 @@
 "t": "Enantioselective Three-Component Reductive Coupling of Aldehydes, Amines, and Alkynes via Ligand-Enabled Cobalt/Photoredox Dual Catalysis for Modular Synthesis ",
 "top": [
 {
-"title": "1",
-"page": "sciencedirect.com",
-"img": "ars.els-cdn.com"
-},
-{
 "title": "Figure 1. Refer to the image caption for details.",
 "page": "pubs.acs.org",
 "img": "acs.silverchair-cdn.com"
 },
 {
 "title": "1",
-"page": "pubmed.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
 },
 {
 "title": "1",
@@ -13363,9 +13358,14 @@
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "1. Substrate Scope of the RTCC-3A Reaction13",
-"page": "sciencedirect.com",
-"img": "ars.els-cdn.com"
+"title": "1",
+"page": "pubmed.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "Molecules 24 01216 g004",
+"page": "mdpi.com",
+"img": "mdpi-res.com"
 }
 ]
 },
@@ -13449,12 +13449,17 @@
 "t": "Palladium‐Catalyzed Efficient Construction of Indole‐Fused Azetidines With Diaziridinone as a Unique Oxidant",
 "top": [
 {
-"title": "Scheme 8",
-"page": "sciencedirect.com",
-"img": "ars.els-cdn.com"
+"title": "",
+"page": "organic-chemistry.org",
+"img": "www.organic-chemistry.org"
 },
 {
-"title": "Catalysts 08 00458 sch036",
+"title": "Graphic. Refer to the image caption for details.",
+"page": "pubs.acs.org",
+"img": "acs.silverchair-cdn.com"
+},
+{
+"title": "Molecules 28 01647 sch002",
 "page": "mdpi.com",
 "img": "mdpi-res.com"
 },
@@ -13464,19 +13469,14 @@
 "img": "www.organic-chemistry.org"
 },
 {
-"title": "Scheme 19",
-"page": "sciencedirect.com",
-"img": "ars.els-cdn.com"
+"title": "",
+"page": "organic-chemistry.org",
+"img": "www.organic-chemistry.org"
 },
 {
 "title": "",
-"page": "academia.edu",
-"img": "figures.academia-assets.com"
-},
-{
-"title": "Graphic. Refer to the image caption for details.",
-"page": "pubs.acs.org",
-"img": "acs.silverchair-cdn.com"
+"page": "organic-chemistry.org",
+"img": "www.organic-chemistry.org"
 }
 ]
 },
@@ -13486,17 +13486,22 @@
 "t": "A Carbazole‐Cored Photocatalyst Enabled Cu‐Catalyzed Asymmetric Hydroalkynylation of Acyl Azetidines and Cyclopropanes Through Hydrogen‐Bond‐Donor‐Coupled Elect",
 "top": [
 {
-"title": "",
-"page": "sciencedirect.com",
-"img": "ars.els-cdn.com"
-},
-{
-"title": "Fig. 2",
+"title": "Fig. 1",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "Fig. 3",
+"title": "",
+"page": "cell.com",
+"img": "www.cell.com"
+},
+{
+"title": "Figure 1. Refer to the image caption for details.",
+"page": "pubs.acs.org",
+"img": "acs.silverchair-cdn.com"
+},
+{
+"title": "Fig. 2",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
@@ -13506,14 +13511,9 @@
 "img": "ars.els-cdn.com"
 },
 {
-"title": "",
-"page": "cell.com",
-"img": "www.cell.com"
-},
-{
-"title": "",
-"page": "cell.com",
-"img": "www.cell.com"
+"title": "Details are in the caption following the image",
+"page": "advanced.onlinelibrary.wiley.com",
+"img": "advanced.onlinelibrary.wiley.com"
 }
 ]
 },
@@ -13634,27 +13634,27 @@
 "t": "The Kinetic Origins of Photoredox Efficiency",
 "top": [
 {
+"title": "",
+"page": "www.science.org",
+"img": "www.science.org"
+},
+{
+"title": "Scheme 8",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
 "title": "Graphical abstract: From illumination to prediction: a kinetic model for photoredox catalytic activity",
 "page": "pubs.rsc.org",
 "img": "pubs.rsc.org"
 },
 {
-"title": "graphic file with name au4c00974_0015.jpg",
+"title": "Fig. 2",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "Fig. 5",
-"page": "pubmed.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
-},
-{
-"title": "",
-"page": "www.sciencedirect.com",
-"img": "ars.els-cdn.com"
-},
-{
-"title": "Scheme 3. Refer to the image caption for details.",
+"title": "Scheme 24. Refer to the image caption for details.",
 "page": "pubs.acs.org",
 "img": "acs.silverchair-cdn.com"
 },
@@ -13714,8 +13714,13 @@
 },
 {
 "title": "Details are in the caption following the image",
-"page": "chemistry-europe.onlinelibrary.wiley.com",
-"img": "chemistry-europe.onlinelibrary.wiley.com"
+"page": "advanced.onlinelibrary.wiley.com",
+"img": "advanced.onlinelibrary.wiley.com"
+},
+{
+"title": "Scheme 9",
+"page": "chinesechemsoc.org",
+"img": "www.chinesechemsoc.org"
 },
 {
 "title": "",
@@ -13723,19 +13728,14 @@
 "img": "ars.els-cdn.com"
 },
 {
-"title": "Image 1",
-"page": "sciencedirect.com",
-"img": "ars.els-cdn.com"
+"title": "Details are in the caption following the image",
+"page": "advanced.onlinelibrary.wiley.com",
+"img": "advanced.onlinelibrary.wiley.com"
 },
 {
-"title": "Scheme 9. Refer to the image caption for details.",
-"page": "pubs.acs.org",
-"img": "acs.silverchair-cdn.com"
-},
-{
-"title": "Scheme 9",
-"page": "chinesechemsoc.org",
-"img": "www.chinesechemsoc.org"
+"title": "3",
+"page": "pubmed.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
 }
 ]
 },
@@ -13861,14 +13861,19 @@
 "img": "chem.libretexts.org"
 },
 {
+"title": "",
+"page": "www.sciencedirect.com",
+"img": "ars.els-cdn.com"
+},
+{
 "title": "Oxidatively Induced Reductive\nElimination\nOxidizing a stable complex to an unstable oxidation state can induce a reducti",
 "page": "slideshare.net",
 "img": "image.slidesharecdn.com"
 },
 {
-"title": "",
-"page": "www.sciencedirect.com",
-"img": "ars.els-cdn.com"
+"title": "Figure 9. Refer to the image caption for details.",
+"page": "pubs.acs.org",
+"img": "acs.silverchair-cdn.com"
 },
 {
 "title": "Reductive elimination is the turnover-limiting step of hydrocyanation. How would you design L to speed it up?",
@@ -13876,14 +13881,9 @@
 "img": "chem.libretexts.org"
 },
 {
-"title": "clipboard_e30595c0a691f8771b7079b44b6d9b6a8.png",
+"title": "fig-ch01_patchfile_01.jpg",
 "page": "chem.libretexts.org",
 "img": "chem.libretexts.org"
-},
-{
-"title": "",
-"page": "www.sciencedirect.com",
-"img": "ars.els-cdn.com"
 }
 ]
 },
@@ -13930,19 +13930,9 @@
 "t": "Electrochemical Hydrocarboxylation of Unactivated Alkyl Alkenes",
 "top": [
 {
-"title": "Fig. 1",
+"title": "1",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
-},
-{
-"title": "Scheme 1.",
-"page": "pmc.ncbi.nlm.nih.gov",
-"img": "cdn.ncbi.nlm.nih.gov"
-},
-{
-"title": "Figure 1. Refer to the image caption for details.",
-"page": "doi.org",
-"img": "acs.silverchair-cdn.com"
 },
 {
 "title": "Figure 1.",
@@ -13950,12 +13940,22 @@
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "Visible-Light Photocatalytic Di- and Hydro-Carboxylation of Unactivated Alkenes with CO2",
-"page": "communities.springernature.com",
-"img": "communities.springernature.com"
+"title": "Figure 1.",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
 },
 {
-"title": "1",
+"title": "Scheme 4.",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "Figure 2. Refer to the image caption for details.",
+"page": "doi.org",
+"img": "acs.silverchair-cdn.com"
+},
+{
+"title": "3",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 }
@@ -13967,9 +13967,19 @@
 "t": "Iron-Catalyzed Decarboxylative Phosphonylation of Aliphatic Carboxylic Acids with Succinimidyl Phosphites as Bifunctional Reagents",
 "top": [
 {
+"title": "Graphical abstract for: Iron-Catalyzed Decarboxylative Phosphonylation of Aliphatic Carboxylic Acids with Succinimidyl P",
+"page": "pubs.acs.org",
+"img": "acs.silverchair-cdn.com"
+},
+{
 "title": "Details are in the caption following the image",
 "page": "onlinelibrary.wiley.com",
 "img": "onlinelibrary.wiley.com"
+},
+{
+"title": "graphic file with name ja3c06524_0005.jpg",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
 },
 {
 "title": "Graphic. Refer to the image caption for details.",
@@ -13977,24 +13987,236 @@
 "img": "acs.silverchair-cdn.com"
 },
 {
-"title": "Scheme 2",
+"title": "Details are in the caption following the image",
+"page": "onlinelibrary.wiley.com",
+"img": "onlinelibrary.wiley.com"
+},
+{
+"title": "1. Fe‐photocatalyzed LMCT‐driven DGRs. X=I, Br, SePh, etc. DGR=decarboxylative Giese‐type reaction, AIBN = azobisisobuty",
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
+}
+]
+},
+{
+"doi": "10.1021/jacs.6c15220",
+"date": "2026-11-16",
+"t": "Regio- and Diastereoselective Thiol-ene Click Reaction and Application for the Synthesis of Semicrystalline Polythioethers",
+"top": [
+{
+"title": "image file: c9ob02375e-s2.tif",
+"page": "pubs.rsc.org",
+"img": "pubs.rsc.org"
+},
+{
+"title": "Free radical mechanism of the thiol-ene click reaction.",
+"page": "www.alfa-chemistry.com",
+"img": "www.alfa-chemistry.com"
+},
+{
+"title": "image file: c9ob02375e-u1.tif",
+"page": "pubs.rsc.org",
+"img": "pubs.rsc.org"
+},
+{
+"title": "Scheme 1",
+"page": "www.sciencedirect.com",
+"img": "ars.els-cdn.com"
+},
+{
+"title": "image file: c9ob02375e-f2.tif",
+"page": "pubs.rsc.org",
+"img": "pubs.rsc.org"
+},
+{
+"title": "Schematic diagram of the thiol-ene click reaction.",
+"page": "www.alfa-chemistry.com",
+"img": "www.alfa-chemistry.com"
+}
+]
+},
+{
+"doi": "10.1021/jacs.6c15887",
+"date": "2026-11-16",
+"t": "Disrupting Hidden Antiaromaticity in N -Hydroxyphthalimide Reveals a Design Principle for Highly Reactive N -Oxyl Hydrogen Atom Transfer Mediators",
+"top": [
+{
+"title": "",
+"page": "onlinelibrary.wiley.com",
+"img": "onlinelibrary.wiley.com"
+},
+{
+"title": "Description unavailable",
+"page": "onlinelibrary.wiley.com",
+"img": "onlinelibrary.wiley.com"
+},
+{
+"title": "Graphical abstract for: Antiaromaticity for\nThrough-Space Molecular Thermoelectricity",
+"page": "pubs.acs.org",
+"img": "acs.silverchair-cdn.com"
+},
+{
+"title": "Fig. 5. Antiaromaticity-destabilized or aromaticity-reduced reactants in reaction…",
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
+},
+{
+"title": "",
+"page": "onlinelibrary.wiley.com",
+"img": "onlinelibrary.wiley.com"
+},
+{
+"title": "Fig. 1. Two popular methods to tame antiaromatic molecules.",
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
+}
+]
+},
+{
+"doi": "10.1002/anie.8299358",
+"date": "2026-11-16",
+"t": "Rationale‐Guided and Iterative Learning for Redesigning a Highly Enantio‐ and Chemoselective Flavin‐Dependent Phenolic Hydroxylase",
+"top": [
+{
+"title": "Figure 3",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "Figure 4",
 "page": "pmc.ncbi.nlm.nih.gov",
 "img": "cdn.ncbi.nlm.nih.gov"
 },
 {
 "title": "Details are in the caption following the image",
-"page": "onlinelibrary.wiley.com",
-"img": "onlinelibrary.wiley.com"
+"page": "chemistry-europe.onlinelibrary.wiley.com",
+"img": "chemistry-europe.onlinelibrary.wiley.com"
 },
 {
 "title": "Details are in the caption following the image",
-"page": "onlinelibrary.wiley.com",
-"img": "onlinelibrary.wiley.com"
+"page": "chemistry-europe.onlinelibrary.wiley.com",
+"img": "chemistry-europe.onlinelibrary.wiley.com"
+},
+{
+"title": "Figure",
+"page": "biorxiv.org",
+"img": "www.biorxiv.org"
+},
+{
+"title": "ga1",
+"page": "www.sciencedirect.com",
+"img": "ars.els-cdn.com"
+}
+]
+},
+{
+"doi": "10.1021/acscatal.6c07781",
+"date": "2026-11-16",
+"t": "Copper-Catalyzed α-C–H Cyanation of Amides via Sequential Electron Transfer/Hydrogen Atom Transfer (ET/HAT)",
+"top": [
+{
+"title": "if5.eps",
+"page": "chinesechemsoc.org",
+"img": "www.chinesechemsoc.org"
+},
+{
+"title": "Figure 4",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "Unlabelled Figure",
+"page": "sciencedirect.com",
+"img": "ars.els-cdn.com"
+},
+{
+"title": "Figure 1",
+"page": "pubmed.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "Graphical abstract: Copper-catalyzed α-C–H amidation of simple ethers through C(sp3)–H/N–H cross dehydrogenative couplin",
+"page": "pubs.rsc.org",
+"img": "pubs.rsc.org"
 },
 {
 "title": "",
 "page": "cell.com",
 "img": "www.cell.com"
+}
+]
+},
+{
+"doi": "10.1021/acscatal.6c07013",
+"date": "2026-11-16",
+"t": "A Highly Active and Promiscuous Esterase for Amide Bond Synthesis under Aqueous Conditions",
+"top": [
+{
+"title": "graphic file with name ANIE-64-e202414162-g019.jpg",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "Description unavailable",
+"page": "onlinelibrary.wiley.com",
+"img": "onlinelibrary.wiley.com"
+},
+{
+"title": "Figure 1",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "",
+"page": "onlinelibrary.wiley.com",
+"img": "onlinelibrary.wiley.com"
+},
+{
+"title": "Fig. 1",
+"page": "www.sciencedirect.com",
+"img": "ars.els-cdn.com"
+},
+{
+"title": "Figure 2",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+}
+]
+},
+{
+"doi": "10.1021/acscatal.6c07292",
+"date": "2026-11-15",
+"t": "Chemo- and Regioselective Dehydrogenative Allylic C–H Oxygenation of Ketones",
+"top": [
+{
+"title": "Scheme 4.",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "graphic file with name jo3c02647_0013.jpg",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "image",
+"page": "onlinelibrary.wiley.com",
+"img": "onlinelibrary.wiley.com"
+},
+{
+"title": "Scheme 1.",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
+},
+{
+"title": "",
+"page": "www.pnas.org",
+"img": "www.pnas.org"
+},
+{
+"title": "Scheme 3.",
+"page": "pmc.ncbi.nlm.nih.gov",
+"img": "cdn.ncbi.nlm.nih.gov"
 }
 ]
 }
