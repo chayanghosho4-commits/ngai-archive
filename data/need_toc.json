@@ -1,5 +1,53 @@
 [
 {
+"doi": "10.1021/jacs.6c17132",
+"j": "J. Am. Chem. Soc.",
+"t": "Photochemical Isomerization of Dilithiobutadienes to Dilithium Salts of Cyclobutadiene Dianions",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c17832",
+"j": "J. Am. Chem. Soc.",
+"t": "Stereodivergent γ-Propargylation of α,β-Unsaturated Aldehydes",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c13261",
+"j": "J. Am. Chem. Soc.",
+"t": "Mn(I)-Catalyzed Three-Component Synthesis of β-Functionalized Nitriles at Room Temperature",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.7446308",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Universal Transfer Reagents for the Synthesis of Carbon‐Labeled Methyl, Fluoromethyl, and Difluoromethyl Motifs",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c07528",
+"j": "ACS Catal.",
+"t": "Cu-Catalyzed α-C(O)–C Bond Cleavage of Unstrained Ketones: A Divergent Approach to C–N Coupling",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c06073",
+"j": "ACS Catal.",
+"t": "Iodine(III)-Enabled Photocatalytic Skeletal Editing of Carbocyclic Amides Via Radical–Polar Crossover",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c07504",
+"j": "ACS Catal.",
+"t": "Dual Transition-Metal Electrocatalysis for Allylic Fluoroalkylation of Unactivated Alkenes Using Fluoroalkyl Carboxylic Acids",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c07424",
+"j": "ACS Catal.",
+"t": "Enantioconvergent Radical Suzuki–Miyaura C(sp3)–C(sp2) Cross-Coupling of Racemic Alkylboronic Esters Via Photoredox/Ni Catalysis",
+"m": "2026-11"
+},
+{
 "doi": "10.1021/jacs.6c17994",
 "j": "J. Am. Chem. Soc.",
 "t": "Metal-Centered Spin-State Switching Promotes Stereodivergent Synthesis of E - and Z -Allylamines",
@@ -48,27 +96,9 @@
 "m": "2026-11"
 },
 {
-"doi": "10.1021/acscatal.6c07781",
-"j": "ACS Catal.",
-"t": "Copper-Catalyzed α-C–H Cyanation of Amides via Sequential Electron Transfer/Hydrogen Atom Transfer (ET/HAT)",
-"m": "2026-11"
-},
-{
-"doi": "10.1021/acscatal.6c07013",
-"j": "ACS Catal.",
-"t": "A Highly Active and Promiscuous Esterase for Amide Bond Synthesis under Aqueous Conditions",
-"m": "2026-11"
-},
-{
 "doi": "10.1002/anie.6515850",
 "j": "Angew. Chem. Int. Ed.",
 "t": "A Phosphonium Relay for Integrated Cleavage‐to‐Cyclization of Cyclic Peptides",
-"m": "2026-11"
-},
-{
-"doi": "10.1021/acscatal.6c07292",
-"j": "ACS Catal.",
-"t": "Chemo- and Regioselective Dehydrogenative Allylic C–H Oxygenation of Ketones",
 "m": "2026-11"
 },
 {
@@ -90,21 +120,9 @@
 "m": "2026-11"
 },
 {
-"doi": "10.1002/anie.7958747",
-"j": "Angew. Chem. Int. Ed.",
-"t": "From Transient to Persistent: Ambiphilic Acyclic Bis‐ Amino(Aryl)Carbenes With Small HOMO–LUMO Gap as Difunctional Building Blocks for Molecular and Macromolecu",
-"m": "2026-11"
-},
-{
 "doi": "10.1002/anie.7687394",
 "j": "Angew. Chem. Int. Ed.",
 "t": "A 1, 2‐Azo‐Triflate Synthon by Phenol Transposition",
-"m": "2026-11"
-},
-{
-"doi": "10.1002/anie.2063270",
-"j": "Angew. Chem. Int. Ed.",
-"t": "The Kinetic Origins of Photoredox Efficiency",
 "m": "2026-11"
 },
 {
@@ -150,12 +168,6 @@
 "m": "2026-11"
 },
 {
-"doi": "10.1002/anie.9244932",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Photocatalytic Reductive Elimination From a Main Group Center",
-"m": "2026-11"
-},
-{
 "doi": "10.1002/anie.4403274",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Pre‐Branching Conversion of Bio‐Diols via Methanol‐Mediated Cascade Coupling for Sustainable Aviation Fuels",
@@ -183,12 +195,6 @@
 "doi": "10.1021/jacs.6c16335",
 "j": "J. Am. Chem. Soc.",
 "t": "Enantioselective Three-Component Reductive Coupling of Aldehydes, Amines, and Alkynes via Ligand-Enabled Cobalt/Photoredox Dual Catalysis for Modular Synthesis ",
-"m": "2026-11"
-},
-{
-"doi": "10.1021/jacs.6c14547",
-"j": "J. Am. Chem. Soc.",
-"t": "All-Visible Wavelength-Gated Multistate Photochromic AIEgen: High-Efficiency Photocyclizations in a Single Luminogenic System",
 "m": "2026-11"
 },
 {
@@ -231,12 +237,6 @@
 "doi": "10.1021/acscatal.6c08200",
 "j": "ACS Catal.",
 "t": "Asymmetric Convergent Assembly of Atropisomers Bearing Three Chiral Elements via Rhodium-Catalyzed Conjugate Addition",
-"m": "2026-11"
-},
-{
-"doi": "10.1021/jacs.6c19341",
-"j": "J. Am. Chem. Soc.",
-"t": "The Catalytic Stereocontrolled Tetrahydropyranyl Protection",
 "m": "2026-11"
 },
 {
