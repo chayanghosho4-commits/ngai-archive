@@ -1,0 +1,15 @@
+{
+  "name": "Yearly Archive",
+  "short_name": "Yearly Archive",
+  "description": "TOC graphics and links for the latest synthetic organic chemistry papers.",
+  "start_url": "./?source=app",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fffefa",
+  "theme_color": "#0e7c66",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
