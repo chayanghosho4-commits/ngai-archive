@@ -1,5 +1,35 @@
 [
 {
+"doi": "10.1002/anie.4189999",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Regiospecific Sila‐Matteson Homologative Arylation of Biased ( N ‐Oxide) Azines",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c07642",
+"j": "ACS Catal.",
+"t": "Copper-Catalyzed Atroposelective Hydroaminocarbonylation of Alkynes: Access to Axially Chiral Amides",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c07691",
+"j": "ACS Catal.",
+"t": "An Organocatalytic Borrowing Hydrogen Reaction by Flavin Photocatalyst",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c19425",
+"j": "J. Am. Chem. Soc.",
+"t": "Palladium-Catalyzed Enantioselective Oxidative Remote (4 + 1)-Cyclization of 1,6-Enynes",
+"m": "2026-11"
+},
+{
+"doi": "10.1126/science.aei2041",
+"j": "Science",
+"t": "Quaternary carbon–guided carbocation cascade rearrangement to enantioenriched polycycles",
+"m": "2026-11"
+},
+{
 "doi": "10.1021/jacs.6c17132",
 "j": "J. Am. Chem. Soc.",
 "t": "Photochemical Isomerization of Dilithiobutadienes to Dilithium Salts of Cyclobutadiene Dianions",
@@ -27,12 +57,6 @@
 "doi": "10.1021/acscatal.6c07528",
 "j": "ACS Catal.",
 "t": "Cu-Catalyzed α-C(O)–C Bond Cleavage of Unstrained Ketones: A Divergent Approach to C–N Coupling",
-"m": "2026-11"
-},
-{
-"doi": "10.1021/acscatal.6c06073",
-"j": "ACS Catal.",
-"t": "Iodine(III)-Enabled Photocatalytic Skeletal Editing of Carbocyclic Amides Via Radical–Polar Crossover",
 "m": "2026-11"
 },
 {
@@ -90,12 +114,6 @@
 "m": "2026-11"
 },
 {
-"doi": "10.1002/anie.8299358",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Rationale‐Guided and Iterative Learning for Redesigning a Highly Enantio‐ and Chemoselective Flavin‐Dependent Phenolic Hydroxylase",
-"m": "2026-11"
-},
-{
 "doi": "10.1002/anie.6515850",
 "j": "Angew. Chem. Int. Ed.",
 "t": "A Phosphonium Relay for Integrated Cleavage‐to‐Cyclization of Cyclic Peptides",
@@ -111,12 +129,6 @@
 "doi": "10.1002/anie.7952040",
 "j": "Angew. Chem. Int. Ed.",
 "t": "A Carbazole‐Cored Photocatalyst Enabled Cu‐Catalyzed Asymmetric Hydroalkynylation of Acyl Azetidines and Cyclopropanes Through Hydrogen‐Bond‐Donor‐Coupled Elect",
-"m": "2026-11"
-},
-{
-"doi": "10.1002/anie.7350605",
-"j": "Angew. Chem. Int. Ed.",
-"t": "The Radical Truth: Why [Mn(CO) 5 ] 2 Outperforms Dinuclear Metal Carbonyls of Fe, Ru, Co, and Mo as a Photoinitiator",
 "m": "2026-11"
 },
 {
@@ -216,18 +228,6 @@
 "m": "2026-11"
 },
 {
-"doi": "10.1002/anie-26-23393",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Synthesis of Hetero‐Dimensional Mechanically Interlocked Networks",
-"m": "2026-11"
-},
-{
-"doi": "10.1021/acscatal.6c06875",
-"j": "ACS Catal.",
-"t": "Dynamic Conformational Constraint-Enabled Palladium-Catalyzed Higher-Order Dipolar Cycloaddition",
-"m": "2026-11"
-},
-{
 "doi": "10.1021/acscatal.6c07554",
 "j": "ACS Catal.",
 "t": "Catalyst-Controlled Desymmetrization of Azabicyclo[3.1.0]hexane-6-carboxylates",
@@ -294,12 +294,6 @@
 "m": "2026-11"
 },
 {
-"doi": "10.1002/anie.7374574",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Template‐Directed Synthesis of a Tricyclic Octaurea for Aqueous Disaccharide Recognition",
-"m": "2026-11"
-},
-{
 "doi": "10.1002/anie.4328281",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Heterogeneous Palladium‐Catalyzed Trideuteromethylation and 13 C‐Trideuteromethylation of Arylboron Compounds via D 2 O as the Deuterium Source",
@@ -315,12 +309,6 @@
 "doi": "10.1021/jacs.6c17545",
 "j": "J. Am. Chem. Soc.",
 "t": "Metal-Free Synthesis of Unsymmetrical B–B Bond via Pyridyl-Directed m -Carborane Borylation",
-"m": "2026-11"
-},
-{
-"doi": "10.1002/anie.4076828",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Resurrecting Robust CYP152 Peroxygenases for Versatile Biocatalysis",
 "m": "2026-11"
 },
 {

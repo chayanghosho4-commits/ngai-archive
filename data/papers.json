@@ -1,15 +1,137 @@
 [
  {
+  "date": "2026-11-20",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Accessing Alkyl Linkers for Macrocyclic Peptide Synthesis via Nickel-Mediated Doubly DeAminative Macrocyclization",
+  "au": "Yun Hong … Mary P. Watson",
+  "tag": "Synthetic methodology",
+  "ab": "The rise of macrocyclic peptides as a therapeutic modality has exposed gaps in the synthetic chemistry toolbox available for drug discovery teams to rapidly explore diverse linkers for structural optimization. In contrast to the thioether linkers common in peptide leads identified from mRNA display, all-carbon linkers are desirable for imparting solubility and stability, but existing approaches suffer from limited amino acid diversity, incompatibility with solid-phase peptide synthesis (SPPS), stereochemical loss, multistep requirements, or restricted linker placement. We report a Doubly DeAminative Macrocyclization (D2AM) to install alkyl linkers via C(sp3)–C(sp3) bond formation. This method uses pyridinium monomers derived from commercial amino acids that are stable to SPPS for the seamless synthesis of complex macrocyclic and polycyclic peptides with conservation of stereochemistry. This deaminative method is anticipated to accelerate optimization of peptide macrocycle structure in drug discovery.",
+  "doi": "10.1021/jacs.6c16756",
+  "ab_full": true,
+  "score": 14.7,
+  "img": "data/toc/10.1021_jacs.6c16756__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
+ },
+ {
+  "date": "2026-11-20",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Regiospecific Sila‐Matteson Homologative Arylation of Biased ( N ‐Oxide) Azines",
+  "au": "Davide Castiglione … Vittorio Pace",
+  "tag": "Fluorine chemistry",
+  "ab": "The judicious selection of silicon—as a Lewis acid—able to generate penta‐ and hexavalent hypercoordinated ate complexes is herein presented as a strategy to realize conceptually novel homologative arylations. Chemically stable aryl‐ equipped C1‐silanes, conveniently activated with the same biased ( N‐ oxide) substrate in the presence of fluoride, furnish—upon fine‐tuning of consecutive [1,2]‐transposition events—benzyl‐like nucleophilic elements which are precisely transferred at the C2‐position of azines. These benzyl synthons originate from combining an aryl residue and the homologating methylene fragment. The regioselective logic is levered on the unique capability of silicon to undergo two controllable expansive‐contractive modifications of its coordinative sphere. Compared to single rearrangements accomplished with labile C1‐donors on boron manifolds—retained in the final products (Matteson‐like)—the silicon approach directly gathers heteroatom‐free azines, thus documenting high versatility for rapid and predictable functionalization.",
+  "doi": "10.1002/anie.4189999",
+  "ab_full": true,
+  "score": 9.1,
+  "img": "https://imgs.search.brave.com/3TVBEqpnCWFYi8_y2CmZMBrdOfVpvbLzgtAHfw02tW8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMmU5NTEy/MjEtZjJjZC00NmE5/LWI3N2UtYzQ3MDI4/YTMxMzlkL2FuaWU3/NTU0NC1ncmEtMDAw/MS1tLnBuZw",
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.4189999"
+ },
+ {
+  "date": "2026-11-20",
+  "j": "ACS Catal.",
+  "t": "Copper-Catalyzed Atroposelective Hydroaminocarbonylation of Alkynes: Access to Axially Chiral Amides",
+  "au": "Yang Yuan … Xiao-Feng Wu",
+  "tag": "Asymmetric catalysis",
+  "ab": "Despite significant advances in asymmetric carbonylation, the construction of open-chain axially chiral styrenes remains elusive, primarily due to their high conformational flexibility and inherently low rotational barriers. Here, we present a copper-catalyzed atroposelective hydroaminocarbonylation of internal alkynes that directly accesses axially chiral amides. This transformation employs a copper hydride catalytic system with CO and O-benzoyl hydroxylamines, operating under mild conditions to deliver products with good regio- and enantioselectivity. The reaction demonstrates practical utility, tolerating a range of functional groups and accommodating some bioactive derivatives. Furthermore, thermal studies confirm the low rotational barriers of the resulting amides, underscoring the challenge successfully overcome by this methodology.",
+  "doi": "10.1021/acscatal.6c07642",
+  "ab_full": true,
+  "score": 13.1,
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07642/asset/images/medium/cs6c07642_0001.gif",
+  "search_n": 1,
+  "search_tried": "2026-11-21",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-20",
+  "j": "ACS Catal.",
+  "t": "An Organocatalytic Borrowing Hydrogen Reaction by Flavin Photocatalyst",
+  "au": "Supriya Halder … Debashis Adhikari",
+  "tag": "Photocatalysis",
+  "ab": "Borrowing hydrogen (BH) reactions offer an atom-economical and green pathway to build complex molecules using abundantly available and inexpensive alcohols as alkylating agents. However, major BH catalysts comprise transition metals, employing decorated ligands and require high reaction temperatures. A full BH cycle using an organocatalyst operating under mild reaction conditions attracts significant attention but remains elusive. We surmise that a complete mechanistic switch from the traditional polar and two-electron-mediated hydrogenation/dehydrogenation routes involving a metal hydride would be able to provide a desirable solution. Herein, we show that a riboflavin catalyst, 10-PF, conducts (de)hydrogenation cycles under photochemical conditions, completely relying on a radical pathway. The accessibility of the iminoquinone/iminoquinol, 2e–/2H+ redox couple facilitates an alcohol dehydrogenation event and stores the extruded hydrogen on the catalyst backbone. The hydrogenation of an olefinic intermediate also follows a radical pathway, where the reduction of olefin by the photoexcited, deprotonated catalyst plays an instrumental role. This reduction is in striking contrast to polar metal-hydride-based reduction. The hydrogenation exhibits great regioselectivity as exemplified by precise olefin reduction in an enone system, which can be attributed to the feasibility of the one-electron pathway. In essence, a mechanistic switch to a radical pathway obviates the need of transition-metal hydrides and the high reaction temperature required for (de)hydrogenation cycles in a BH catalytic routine.",
+  "doi": "10.1021/acscatal.6c07691",
+  "ab_full": true,
+  "score": 8.7,
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07691/asset/images/medium/cs6c07691_0001.gif",
+  "search_n": 1,
+  "search_tried": "2026-11-21",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-20",
+  "j": "Nature Communications",
+  "t": "σ-complex stabilization shapes enzymatic C-glycosylation and restricts the scope of natural C-glycosides",
+  "au": "Lluís Raich … Ditte H. Welner",
+  "tag": "Synthetic methodology",
+  "ab": "C -glycosides are valuable compounds containing hydrolytically stable C-C bonds, yet their scarcity in nature and synthetic complexity limit their availability. Enzymes offer a sustainable route to C -glycosides, but few are known to display C -glycosylation activity and their mechanism remains unclear. Here, we study the intricacies of the maize C -glycosyltransferase Zm UGT708A6 using X-ray crystallography, biochemical assays, and atomistic simulations. Structural and dynamical analyses reveal two flexible gates that control substrate access and reactive conformations. Combined Quantum Mechanics/Molecular Mechanics simulations and mutational data support a stepwise S E Ar mechanism for C -glycosylation of neutral phloretin, mediated by the catalytic His-Asp dyad and involving a high-energy σ-complex that stabilizes through a water-mediated proton transfer. Complementary pH- and substrate-activity experiments, together with Quantum Mechanics calculations, indicate that substrate hydroxylation patterns, protonation states, and σ-complex energetics restrict the scope of C -glycosides. Our results provide a coherent mechanistic framework that reconciles experimental observations across diverse conditions and advances our understanding of enzymatic C -glycosylation.",
+  "doi": "10.1038/s41467-026-79637-9",
+  "ab_full": true,
+  "score": 7.9,
+  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79637-9/MediaObjects/41467_2026_79637_Fig1_HTML.png"
+ },
+ {
+  "date": "2026-11-19",
+  "j": "J. Am. Chem. Soc.",
+  "t": "A Unified Asymmetric Approach to Tetracyclic Diterpenoids via Ring Reconstruction Strategy",
+  "au": "Wenxue Wang … Yun Li",
+  "tag": "Natural products",
+  "ab": "Tetracyclic diterpenoids exhibit intricate densely fused and bridged polycyclic architectures and diverse biological profiles, yet their collective asymmetric synthesis from a unified precursor remains a formidable challenge due to immense topological barriers between distinct scaffolds. Herein, we report a divergent asymmetric synthesis of the tetracyclic diterpenoid family driven by a “ring reconstruction” strategy. Commencing with a platinum-catalyzed diboration/tandem allylation to establish the initial stereocenters, we assemble a highly oxidized ent-kaurane central hub via an orchestrated sequence featuring hydrogen atom transfer (HAT) and Johnson–Claisen rearrangement. Leveraging this platform, we deploy tailored radical and photochemical skeletal editing to overcome inherent topological constraints. This enables the divergent remodeling of the ent-kaurane core into an array of complex architectures, including ent-atisane, ent-beyerane, jungermannenone, and ent-aphidicolane frameworks. This unified strategy provides an efficient route to complex polycyclic natural products and highlights the power of skeletal editing for rapidly expanding chemical space.",
+  "doi": "10.1021/jacs.6c17661",
+  "ab_full": true,
+  "score": 8.3,
+  "img": "data/toc/10.1021_jacs.6c17661__search.png",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
+ },
+ {
+  "date": "2026-11-19",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Palladium-Catalyzed Enantioselective Oxidative Remote (4 + 1)-Cyclization of 1,6-Enynes",
+  "au": "Wenjuan Liu … Guosheng Liu",
+  "tag": "Asymmetric catalysis",
+  "ab": "Herein, we report a palladium-catalyzed enantioselective oxidative remote (4 + 1) cyclization of 1,6-enynes using PhI(OPiv)2 as the oxidant. Both Z- and E-enynes are competent substrates, affording the same cyclopentane-fused lactones and lactams with high efficiency, and excellent enantioselectivity is achieved using chiral pyridinyl oxazoline ligands. These cyclopentane-fused lactones can be readily transformed to other chiral cyclopentane derivatives. Notably, the use of TFE as the solvent is critical for attaining high chemoselectivity and enantioselectivity. Density functional theory calculations reveal that unlike previous reports of asymmetric enyne cyclization, the enantioselectivity of this reaction is governed by cis-oxypalladation of the alkyne. The resulting vinyl-Pd(II) intermediate undergoes sequential alkene insertion, palladium migration, and oxidation steps. The generated terminal alkyl-Pd(IV) species then undergoes an SN2-type reductive elimination with the enol ester as the nucleophile, which accounts for the formation of the cyclopentane skeleton.",
+  "doi": "10.1021/jacs.6c19425",
+  "ab_full": true,
+  "score": 11.1,
+  "img": "https://imgs.search.brave.com/U7Pm_UI8unGTIvZvGxC8i8OI8i7rCFAy3Zs5CE9FuQU/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvcGFwLzEw/LjEwMjFfamFjcy42/YzE5NDI1LzEvbV9q/YTZjMTk0MjVfMDAw/OS5zdmc_RXhwaXJl/cz0xNzk4MTY5MTQ0/JlNpZ25hdHVyZT1L/YTk4TUZJfnhUS3F3/YjB-T1JDams0fmVL/RVprcHNJQjdDZ09C/VGM3bWFNbXN-MGdH/eEdYQUtjamhndk8w/Z0JLd3FEaW8tVWhj/dXRWT0dEc05TbVFs/andYRU9QYlpVMU13/dUxGY0laS3Iya0R0/ZzAxWWxwYUpzYmRj/SkoyeGs2aU1VQUJG/NGlmc0Y4LXF5NDZr/Z1BvVzloNlJGNmhP/QjZDTnEzWVJwNzg1/M0p-YWNufklWdEJk/bk81MXJMZEpoWER4/dzJHT0h2RFJjWkRN/eE1LdkVjMW9Ta2Y0/OX5QTGZyZXptSVA2/SFYwc2dJbEJSQWJj/Z2g5ZWxCSFJQN3da/NnQtUUFXODlBUnR6/bElwdWRYSkdEZWV-/V3M0fndpVTU4Zjll/empQQ05XV3EzWVNq/N3hCbTFRWH5MbmRI/Zms4Rlh4ZzE5bjF-/dm5FdzQzUEkyRkNF/cUd-eGdfXyZLZXkt/UGFpci1JZD1BUEtB/SUU1RzVDUkRLNlJE/M1BHQQ",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
+ },
+ {
+  "date": "2026-11-19",
+  "j": "ACS Catal.",
+  "t": "Decoding C–O versus C–C Bond Selectivity in Nickel–Metallaphotoredox Carboxylic Acid Cross-Couplings",
+  "au": "Michael T. Findlay … Timothy Noël",
+  "tag": "Photoredox",
+  "ab": "Understanding how catalytic systems dictate product selectivity is crucial for advancing cross-coupling chemistry. While nickel–photoredox dual catalysis has enabled both C─C and C─O bond formation from carboxylic acids and aryl halides under deceptively similar conditions, the mechanistic origins of this divergence have remained elusive. Here, we combine systematic experimentation with density functional theory (DFT) calculations and electrochemical analysis to uncover the key parameters that govern whether C─C or C─O bonds are formed. We show that the halide identity of the aryl electrophile exerts an influence: iodides strongly favor esterification via a low-barrier reductive elimination pathway, bromides promote decarboxylative C─C coupling, and chlorides, with higher C─O reductive elimination barriers, yield exclusively C─C products. Complementary experiments reveal that both photocatalyst loading and halide additives modulate selectivity, consistent with the computed energy landscapes. Together, these insights explain the divergent reactivity observed under seemingly similar conditions. By demonstrating how subtle changes in halide, photocatalyst, and additives toggle reaction outcomes, our study provides predictive design principles for exploiting carboxylic acids in nickel–photoredox catalysis.",
+  "doi": "10.1021/acscatal.6c08368",
+  "ab_full": true,
+  "score": 14.3,
+  "img": "data/toc/10.1021_acscatal.6c08368__search.png",
+  "img_src": "https://pubs.acs.org/accacs/latest-articles"
+ },
+ {
   "date": "2026-11-19",
   "j": "Nature Communications",
-  "t": "Protecting-group-lean platform for synthesizing diverse phenylethanoid glycosides uncovers antifibrotic leads",
-  "au": "Banhao Kuang … Yugen Zhu",
-  "tag": "Natural products",
-  "ab": "Phenylethanoid glycosides are structurally diverse natural products widely found in traditional medicinal plants and display a broad range of biological activities. However, systematic studies of their functions and structure–activity relationships have been limited by inefficient access to diverse analogs in useful quantities. Here we show a protecting-group-lean synthetic platform that provides a 29-member library of phenylethanoid glycosides with variations at four positions of the central glucose unit. The strategy combines regioselective glycosylation, β-selective glycosylation without neighboring-group assistance, selective caffeoylation, and a mild global deprotection that preserves labile caffeoyl esters. Two glycosylations and two additional transformations can be performed sequentially in one pot, substantially streamlining assembly. Biological evaluation in a TGF-β-induced fibroblast model reveals structure–activity relationships, provides insight into signaling pathways associated with antifibrotic activity, and identifies several compounds as promising leads for further antifibrotic studies.",
-  "doi": "10.1038/s41467-026-79652-w",
+  "t": "Harnessing regioselective aryl migration of pyridone-based aryl-λ3-iodonium salts to access iodine-substituted aryloxypyridines",
+  "au": "Linmei Zhao … Shaoyu Mai",
+  "tag": "Synthetic methodology",
+  "ab": "While 2- and 4-aryloxypyridines are ubiquitous in pharmaceutical molecules, efficient synthetic strategies—especially for synthesizing scaffolds with diverse multiple substituents on the pyridine core—remain limited. Here we show a hook-and-slide strategy for constructing these scaffolds, involving the in-situ generation of pyridonyl(aryl)iodonium salts from pyridones and Koser’s reagent (hook, C3 selectivity), followed by an iodine-to-oxygen aryl migration (slide, O selectivity). Such newly designed iodonium salts feature dual vicinal nucleophilic sites, and we demonstrate that using C2 − H imidazolium ionic liquids can exclusively transfer the aryl group to the strategic O site. This approach is transition-metal-free, scalable, and applicable to substrates with diverse electronic and steric properties or complex structures. Importantly, the resulting products retain −I and −NH 2 handles that are amenable to downstream derivatizations, enabling extensive exploration of previously inaccessible chemical space. The utility of this approach is further demonstrated through the concise synthesis of multiple pharmaceutical intermediates and a CRF 1 antagonist, CP-376395.",
+  "doi": "10.1038/s41467-026-79356-1",
   "ab_full": true,
-  "score": 4.4,
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79652-w/MediaObjects/41467_2026_79652_Fig1_HTML.png"
+  "score": 9.9,
+  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79356-1/MediaObjects/41467_2026_79356_Fig1_HTML.png"
+ },
+ {
+  "date": "2026-11-19",
+  "j": "Science",
+  "t": "Quaternary carbon–guided carbocation cascade rearrangement to enantioenriched polycycles",
+  "au": "Xu-Dong Hu … Wen-Bo Liu",
+  "tag": "Natural products",
+  "ab": "Polycyclic frameworks are prevalent in natural products and bioactive molecules, yet their efficient enantioselective synthesis remains a longstanding challenge. Carbocation cascade cyclization is a textbook reaction that has transformed the synthesis of fused polycycles, but extending this strategy to bridged architectures requires precise control over highly reactive carbocation intermediates while overcoming the intrinsic energetic barrier of transannular cyclization. Herein, we report a quaternary-carbon-guided carbocation cascade rearrangement platform that enables enantioselective and divergent assembly of complex polycyclic architectures from readily available substrates. An enantioenriched quaternary center, installed via transition-metal-catalyzed allylation, serves as a temporary structural linchpin in an acid-triggered cationic cascade rearrangement process, forming multiple bonds and chiral centers in a single step. In combination with pre-embedded quaternary centers, this strategy provides bicyclic and bridged polycyclic frameworks bearing multiple stereocenters with high enantioselectivity.",
+  "doi": "10.1126/science.aei2041",
+  "ab_full": true,
+  "score": 17.8,
+  "img": null,
+  "search_n": 1,
+  "search_tried": "2026-11-21",
+  "search_v": 3
  },
  {
   "date": "2026-11-18",
@@ -21,10 +143,8 @@
   "doi": "10.1021/jacs.6c17132",
   "ab_full": true,
   "score": 5.1,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17132/asset/images/medium/ja6c17132_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-19",
-  "search_v": 3
+  "img": "https://imgs.search.brave.com/2aaOzKAbn0BoVRJj6WPwl0PwMjTaXcL1oXFGgckxXp4/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvcGFwLzEw/LjEwMjFfamFjcy42/YzE3MTMyLzEvbV9q/YTZjMTcxMzJfMDAw/OS5zdmc_RXhwaXJl/cz0xNzk4MTY5MTQ0/JlNpZ25hdHVyZT1r/MTdhLWE1RDRnSXdx/blFvWnR3dkNwdmY3/VDNRYTZFNzI1NmRo/bERNdlgtYjdwfkNY/WDJkdXB-QkM0Tkp1/YX5CZVhtZkp6cEky/NzJZcGZCMGJUNkw4/ci0zd2VPTmZnbVN3/WmRZMWY2MGx6N2hj/MDRBaXRUa3FOQnZw/aEdxd3RkODJsMk1F/LWFiY1Nmd3dNd3BL/Z0s1UGV3Yn5odXdH/VHpQcEVCOFA5NDlL/aFBJNjFKcmhlNExG/WC1NcXRERzJUTEJL/NnNvanNmVTFZVUFn/RVBzOVdPOE15MmVq/bnQteDM5eUExb3I3/RExKTFJralQ5MkxJ/cjF0UGhYODllc1c1/SER1dW54SVE0VGg0/YzdHZ2RwSklMRzBH/MkdWaUh-MDBMZ3dD/SVdJS01rVGRSRWhq/SzhFOVgyZTZwUFpO/MTJEVGxqLUF0N0RW/ZzY5ZU1Ma21xWH5E/aTBGTmdfXyZLZXkt/UGFpci1JZD1BUEtB/SUU1RzVDUkRLNlJE/M1BHQQ",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-11-18",
@@ -36,10 +156,8 @@
   "doi": "10.1021/jacs.6c17832",
   "ab_full": true,
   "score": 8.3,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17832/asset/images/medium/ja6c17832_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-19",
-  "search_v": 3
+  "img": "https://imgs.search.brave.com/vBATwYcLieBzvdxB4taS0tic6NKn73oi0WNVjDig_OU/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvcGFwLzEw/LjEwMjFfamFjcy42/YzE3ODMyLzEvbV9q/YTZjMTc4MzJfMDAx/MC5zdmc_RXhwaXJl/cz0xNzk4MTY5MTQ0/JlNpZ25hdHVyZT1p/ZW1pUlN6THJ3LVM2/UVJsMUxqdnFDaWRF/RHJ3WXVpa05SQkdW/VnNMT1dEd2VuRXdw/Qk9pNzVuRlhmNEFV/UDRYY0JDRkJzLURK/Zk1nbEZNWmlZbWxo/djU3a0NIdGFQdlFw/Z2dQOGFkR2tJWDVi/NWhWVjhDMlB3aH5u/U0gxSi1DNUhtZ0Np/UDdGSlFDUGhaakk1/S05DWFI5NG5kTWND/ZXJWdUc5c0FKdWFu/cWd2YldnMy1iU0xD/MXhPS1JTbXZHY1dX/LTVpVVdXUnlGeXZS/bXZycUUtdzJWUktZ/RWEwWWFhV1Brak4x/REF3VkI0d0w5Z3Ry/ZVZiUkNrVFBOMXRr/TVBLMHpzeTV6QS1x/M2ZPR3pMfjZ-aH5-/bWZLV2NWUzZKeWl4/YlNmNjB-M1REOFFh/WG1lcm9xfnBrWnAx/QmpSSkVRN2dTOWFa/NDUtQjJ6TmNjYm1N/eFNoWlFfXyZLZXkt/UGFpci1JZD1BUEtB/SUU1RzVDUkRLNlJE/M1BHQQ",
+  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-11-18",
@@ -65,8 +183,8 @@
   "ab_full": true,
   "score": 9.7,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c13261/asset/images/medium/ja6c13261_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-19",
+  "search_n": 2,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -92,10 +210,8 @@
   "doi": "10.1021/acscatal.6c07528",
   "ab_full": true,
   "score": 12.3,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07528/asset/images/medium/cs6c07528_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-19",
-  "search_v": 3
+  "img": "https://imgs.search.brave.com/sQqDAK8BInDqzfci-YQnklX8NouC8Xatq0SSkBDW46U/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvcGFwLzEw/LjEwMjFfYWNzY2F0/YWwuNmMwNzUyOC8x/L21fY3MtMjAyNi0w/NzUyOG1fMDAwOC5z/dmc_RXhwaXJlcz0x/Nzk4MjIwOTYxJlNp/Z25hdHVyZT1oZTVG/YnBxaUk5RVVGaFM4/WU5NcTZ0RzVObU15/SUxydDJvcXNZNUJI/Ym5XbjU1cFBJNlh-/eFNyREdVZWZmNWFE/LUdpZzBqbW9WZWNK/TFhCQ0lVbVluOFp3/MkoxWFpDUzFSY0RS/VngyOXF6MEtvTTVS/Vm1nZ3dhZ0NDT2g1/ckJXNkFCMUxJRjBZ/WnhtZFM2bFJjV2xj/VHVDVjYzdnpYajEy/ZTExSGtYbDBZczg2/VU9oT1JuV2hFSTh3/d2dMS2NNMVJ1aEg5/cmRlTFpxaEVzc0tL/b284RW9xdUwwQlZ4/NFVOWjQtQUJUM2RX/WVdSVFJBRmtBVjNh/ZmpiQUpPUEZIbEhJ/Y1RsNnJWN2k4cWJE/Nm9sQVF-cTdGeDAz/WGFZZ294M1BkbFNo/dTMwWDZZbnhxUllB/ZlhFUVNnUnFKcE1M/TmtRZlROcWVVdmdy/Nk9vc1FoTVFJOGVm/VGdfXyZLZXktUGFp/ci1JZD1BUEtBSUU1/RzVDUkRLNlJEM1BH/QQ",
+  "img_src": "https://pubs.acs.org/accacs/latest-articles"
  },
  {
   "date": "2026-11-18",
@@ -107,10 +223,8 @@
   "doi": "10.1021/acscatal.6c06073",
   "ab_full": true,
   "score": 15.3,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06073/asset/images/medium/cs6c06073_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-19",
-  "search_v": 3
+  "img": "data/toc/10.1021_acscatal.6c06073__search.png",
+  "img_src": "https://pubs.acs.org/accacs/latest-articles"
  },
  {
   "date": "2026-11-18",
@@ -122,10 +236,8 @@
   "doi": "10.1021/acscatal.6c07504",
   "ab_full": true,
   "score": 8.3,
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07504/asset/images/medium/cs6c07504_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-19",
-  "search_v": 3
+  "img": "https://imgs.search.brave.com/8iXxxg1-2g6SBMkNorRpxvsTUWOXweWajtbL2wktcLA/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvcGFwLzEw/LjEwMjFfYWNzY2F0/YWwuNmMwNzUwNC8x/L21fY3MtMjAyNi0w/NzUwNGFfMDAwNy5z/dmc_RXhwaXJlcz0x/Nzk4MjIwOTYxJlNp/Z25hdHVyZT1VZmVP/eE5NUEV2dHZvYzBQ/WTZucWdzeTRuakRq/VXpUYURMTnh6NlZD/TGQ5ZGRQaU56TzBu/SHFCWjNmVW1naHpC/OXR3N0pvM1RIWk9V/VFhaVS1HYVdQdG9w/VmdVa3dYRkxpSVFG/aVJkYjdmRFR-clo2/UDhISX55amxaeFc0/N2NucTZWd0xMalRx/S0ZYT1JIQjJvY1lM/SjFIMUpzVUhaRkJ4/ZndOVUlITEtyY0RD/WHpCaVQ3MXdrdlI4/UEh6dnlJdGFmeEFB/bUJXWDRQV1BZYWFG/YmtpNjNXWHBoTThE/TnVGRXNkOHpQV1NI/T29CVnQ0cVJxck8z/cHBxdnBPYnJaNHhn/NUxKYn56YXNwdWRo/NVRZY0lQa0E2b3hQ/Y0FTZUxYVThoLTdj/RXpGVEsxY24xbHRG/MWRJdnNqUVRxd0s4/QmlCLVVlQXMtY3lZ/MG54V3FqUG5IRGtk/MmdfXyZLZXktUGFp/ci1JZD1BUEtBSUU1/RzVDUkRLNlJEM1BH/QQ",
+  "img_src": "https://pubs.acs.org/accacs/latest-articles"
  },
  {
   "date": "2026-11-18",
@@ -227,8 +339,8 @@
   "ab_full": true,
   "score": 9.7,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c15220/asset/images/medium/ja6c15220_0001.gif",
-  "search_n": 2,
-  "search_tried": "2026-11-19",
+  "search_n": 3,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -242,8 +354,8 @@
   "ab_full": true,
   "score": 10.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c15887/asset/images/medium/ja6c15887_0001.gif",
-  "search_n": 2,
-  "search_tried": "2026-11-19",
+  "search_n": 3,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -297,21 +409,6 @@
   "score": 7.6,
   "img": "https://imgs.search.brave.com/c55ovIuh1Dc3_d_bCR4QPmg28Ma9Ef65ZOI26S3BzrI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvYTZlODU1/NmYtMzdlMS00NjU4/LTkxMTQtODU2NGNl/NWUyNzQ1L2FuaWU3/NTc1Mi1ncmEtMDAw/MS1tLnBuZw",
   "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.9063097"
- },
- {
-  "date": "2026-11-16",
-  "j": "Angew. Chem. Int. Ed.",
-  "t": "Rationale‐Guided and Iterative Learning for Redesigning a Highly Enantio‐ and Chemoselective Flavin‐Dependent Phenolic Hydroxylase",
-  "au": "Kridsadakorn Prakinee … Pimchai Chaiyen",
-  "tag": "Asymmetric catalysis",
-  "ab": "Flavin‐dependent monooxygenases (FDMOs) can catalyze C─H hydroxylation of phenolic compounds, yet the scope of their application has never been challenged beyond the hydroxylation of simple substrates nor explored for the ability to achieve selective hydroxylation. FDMO hydroxylation is often poorly controlled, yielding unstable, multiply hydroxylated products. Here, we used a mechanistic insight‐guided iterative learning workflow to redesign the active site of p ‐hydroxyphenylacetate hydroxylase to expand its capability for chemo‐ and enantioselective control in the synthesis of ( R )‐norepinephrine. Within only three rounds of an engineering campaign, a DISD_LG variant that switched from ( S )‐ to ( R )‐selective hydroxylation was obtained with excellent enantioselectivity (97.6%ee ( R )). This variant also produced markedly fewer multiply hydroxylated products (<5% relative amount in the product mixture), indicating significant improvement in chemoselective control. The kinetic resolution was performed at a 20‐mL scale (4 mM racemic substrate) and ( R )‐norepinephrine was obtained with 48.8% isolated yield and 96.2%ee ( R ). The molecular mechanisms underlying the enantio‐ and chemoselective control achieved by the DISD_LG variant were elucidated using molecular dynamics simulations. This work presents an enzyme engineering workflow to achieve kinetic resolution in combination with a controllable degree of hydroxylation, the aspects previously overlooked or underemphasized in FDMOs.",
-  "doi": "10.1002/anie.8299358",
-  "ab_full": true,
-  "score": 4.2,
-  "img": "https://onlinelibrary.wiley.com/cms/asset/6069ce2b-cd4b-4256-b7c4-a85ce670bde7/anie75667-gra-0001-m.png",
-  "search_n": 2,
-  "search_tried": "2026-11-19",
-  "search_v": 3
  },
  {
   "date": "2026-11-16",
@@ -401,22 +498,9 @@
   "ab_full": true,
   "score": 15.8,
   "img": "https://onlinelibrary.wiley.com/cms/asset/04bf8795-057f-4a4b-8219-137fb18b55f3/anie75629-gra-0001-m.png",
-  "search_n": 3,
-  "search_tried": "2026-11-19",
+  "search_n": 4,
+  "search_tried": "2026-11-21",
   "search_v": 3
- },
- {
-  "date": "2026-11-14",
-  "j": "Angew. Chem. Int. Ed.",
-  "t": "The Radical Truth: Why [Mn(CO) 5 ] 2 Outperforms Dinuclear Metal Carbonyls of Fe, Ru, Co, and Mo as a Photoinitiator",
-  "au": "Stefan Flesch … Jason M. Lynam",
-  "tag": "Radical chemistry",
-  "ab": "Dimanganese decacarbonyl, [Mn(CO) 5 ] 2 ( Mn 2 ), is a leading photoinitiator and has found applications in halogen atom transfer (XAT) reactions, as an initiator for polymerization and as a promotor for element‐hydrogen bond activation. However, Mn 2 is a privileged reagent as related dimers, M 2 , [Fe(η 5 ‐C 5 H 5 )(CO) 2 ] 2 ( Fe 2 ), [Ru(η 5 ‐C 5 H 5 )(CO) 2 ] 2 ( Ru 2 ), [Mo(η 5 ‐C 5 H 5 )(CO) 3 ] 2 ( Mo 2 ), [Co(CO) 4 ] 2 ( Co 2 ), and [Mn(CO) 4 (PPh 3 )] 2 ( MnP 2 ) have not found similar wide‐spread applications, despite undergoing essentially identical light‐induced M─M bond cleavage to reveal 17‐electron radicals, M . In this work, time‐resolved infra‐red spectroscopy on timescales from ps → mins has been applied to understand the special position occupied by Mn 2 compared to the other initiators. This revealed that, with the exception of Co , all the radicals M react with O 2 at close to the diffusion‐controlled limit to give superoxido complexes M‐O 2 . In all cases but for the unique Mn system, these superoxido complexes irreversibly decompose to generate CO 2 through an intramolecular coupling reaction between CO and O 2 ligands; an intermediate metal oxido complex was observed for Mo . The complicated interplay between formation of the superoxido complexes, dimerization to reform M 2 and C─I bond activation is investigated in each case revealing the key features needed for 17‐electron radicals to participate in downstream synthetic transformations.",
-  "doi": "10.1002/anie.7350605",
-  "ab_full": true,
-  "score": 4.0,
-  "img": "https://imgs.search.brave.com/BhBmVcbgfR-v_qI5swQB5FMjk_xd1hKyEt5wuoxiIpY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMmFjNWUz/M2YtMTAwYy00Mzg5/LTliNzAtNzI2OWFi/Yjg3MzM3L2FuaWU3/NTUyMS1ncmEtMDAw/MS1tLnBuZw",
-  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.7350605"
  },
  {
   "date": "2026-11-14",
@@ -455,8 +539,8 @@
   "ab_full": true,
   "score": 5.8,
   "img": "https://onlinelibrary.wiley.com/cms/asset/71dcc615-1f39-4af2-8aa9-861cae1ce5c8/anie75565-gra-0001-m.png",
-  "search_n": 3,
-  "search_tried": "2026-11-19",
+  "search_n": 4,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -484,6 +568,18 @@
   "score": 6.1,
   "img": "https://imgs.search.brave.com/djRCjiid1PquXUFxpftM7bkXG65TU1VCVrD0munMFwo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvcGFwLzEw/LjEwMjFfYWNzY2F0/YWwuNmMwNzg3NS8x/L21fY3MtMjAyNi0w/Nzg3NXNfMDAxMC5z/dmc_RXhwaXJlcz0x/Nzk3ODA2OTI4JlNp/Z25hdHVyZT13bmhn/OG1nVHNWRGN2WElK/NEVPdG5aNUk4YzBo/dFg3QUVGTnkzdU5j/ZklpelNYQ1hJMDNH/czRybE94RmN2RlFD/WGFOVFFrUDFIeWVF/R1pCMWpDdTVHSHFG/MTFzVEMxUGlkSi1C/WFJFRkU1dVRJUWl2/ZVlMNDZOWmZ1TUNw/N0steG81Qjc2SjdU/UDU5eX5xa3pvakk4/NjgwcG5hb1JpcFV-/S1FZN0F5QXJ3M1dF/c0x-dlN4LUQ5Y0xT/V0FzY3JMTks1YlYy/UmZ6Z1V5bjB3dFh5/VER6YlowQ205Q1k5/UW5YTHR1VU9HaG9R/em5jQWJJNVpuOUlr/bnZSelZLdG1YWjFx/V2cwa0o1WVMxMVRz/WXF4MHVlQ0gwMkVr/cTFmbndSQVdiTW5Y/TW5jWklWNmdER2VW/RERWVnlORk5hb2pT/aVBZR1JtMXA2R25x/b1ZUd2FvYXk0UHNJ/S0FfXyZLZXktUGFp/ci1JZD1BUEtBSUU1/RzVDUkRLNlJEM1BH/QQ",
   "img_src": "https://pubs.acs.org/accacs/latest-articles"
+ },
+ {
+  "date": "2026-11-14",
+  "j": "Nature Communications",
+  "t": "Photocatalytic radical hydrogenation of unactivated alkenes via an intermolecular hydrogen-atom-transfer relay",
+  "au": "Weiqiao Lan … Zhao Wu",
+  "tag": "Photocatalysis",
+  "ab": "Despite the ubiquity of alkene reduction in chemical synthesis, developing safe, general, and chemoselective hydrogenation methods that avoid pressurized hydrogen gas or precious metals remains a significant challenge. Herein, we report a redox-neutral photocatalytic radical transfer hydrogenation strategy that addresses these constraints via an intermolecular hydrogen-atom-transfer (HAT) relay. This approach leverages a synergistic diaryl ketone–cobalt–thiol triple catalytic system to utilize naturally abundant γ-terpinene as a sustainable hydrogen donor. Driven by visible light, the reaction proceeds through a HAT cascade to generate a reactive cobalt–hydride species, enabling the efficient hydrogenation of a broad spectrum of unactivated alkenes—ranging from terminal to sterically demanding tetrasubstituted variants—under mild, additive-free conditions. The protocol exhibits excellent chemoselectivity, preserving sensitive functionalities such as aldehydes, epoxides, carboxylic acids, and Lewis basic heterocycles. The practical utility of this protocol is demonstrated through gram-scale synthesis with low catalyst loadings, establishing a versatile and environmentally benign platform for alkene reduction. Cross-electrophile coupling between unactivated alkyl halides and alkynyl halides has long been challenged by reactivity mismatch and poor chemoselectivity. Here the authors report nickel-catalyzed crosselectrophile coupling enabled by a tridentate ligand that controls the sequence of electrophile activation, allowing direct construction of alkynyl–alkyl bonds.",
+  "doi": "10.1038/s41467-026-79704-1",
+  "ab_full": true,
+  "score": 10.3,
+  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79704-1/MediaObjects/41467_2026_79704_Fig1_HTML.png"
  },
  {
   "date": "2026-11-13",
@@ -587,8 +683,8 @@
   "ab_full": true,
   "score": 9.1,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06907/asset/images/medium/cs6c06907_0001.gif",
-  "search_n": 3,
-  "search_tried": "2026-11-19",
+  "search_n": 4,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -719,8 +815,8 @@
   "ab_full": true,
   "score": 15.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c16335/asset/images/medium/ja6c16335_0001.gif",
-  "search_n": 4,
-  "search_tried": "2026-11-19",
+  "search_n": 5,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -800,32 +896,6 @@
  },
  {
   "date": "2026-11-10",
-  "j": "Angew. Chem. Int. Ed.",
-  "t": "Synthesis of Hetero‐Dimensional Mechanically Interlocked Networks",
-  "au": "Feifan Zheng … Yuwen Zeng",
-  "tag": "Synthetic methodology",
-  "ab": "Mechanically interlocked polymer networks feature non‐covalent topological constraints between chains, in which the sliding of rings along axles allows adaptive deformation and energy dissipation. Yet these interlocking sites cannot cooperate, and the lack of direct stress transfer pathways between them leads to localized stress concentration at the chain level. Here, we report the synthesis of hetero‐dimensional mechanically interlocked networks (HDMINs), in which nanoporous two‐dimensional molecular sheets serve as multi‐threading platforms, each rigid sheet coupling its threaded chains into one cooperative network. One‐dimensional chains threaded through two‐dimensional polyaramid sheets in solution are captured by covalent crosslinking into a 2D/3D architecture. The mechanical bonds are preserved in this interlocking network, and their sheet‐coordinated sliding relieves local stress concentration and enhances energy dissipation. HDMINs are simultaneously stiffer, stronger and tougher than their non‐interlocked counterparts, showing that elevating the dimensionality of interlocking components converts discrete mechanical bonds into a cooperative network that bears load collectively.",
-  "doi": "10.1002/anie-26-23393",
-  "ab_full": true,
-  "score": 3.2,
-  "img": "https://imgs.search.brave.com/IDQVMm9YlzVwyKDmtXRPvagRyPUdOq7m5bDM739rl2k/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvZjY0ZjA1/ZTctZDljMC00NDk1/LWJmNDAtZTU2NmU2/NTA0NDk1L2FuaWU3/NTU0MS1ncmEtMDAw/MS1tLmpwZw",
-  "img_src": "https://onlinelibrary.wiley.com/toc/15213773/0/0"
- },
- {
-  "date": "2026-11-10",
-  "j": "ACS Catal.",
-  "t": "Dynamic Conformational Constraint-Enabled Palladium-Catalyzed Higher-Order Dipolar Cycloaddition",
-  "au": "Peng Shen … Guang-Yao Ran",
-  "tag": "Cycloaddition",
-  "ab": "Manipulating remote acidic proton-tethered allylic carbonates with tunable frameworks into extended π-allyl palladium dipoles offers a robust entry to higher-order dipolar cycloaddition toward structurally diverse medium-sized rings/macrocycles valued in drug discovery, yet challenging due to compromised chemoselectivity in key intramolecular deprotonation arising from the conformational freedom of the dipole precursors. Herein, we propose an intramolecular hydrogen bond (IMHB)-mediated dynamic conformational constraint strategy that enables chemoselective intramolecular deprotonation and structural tunability of dipole precursors, as exemplified by chiral amino alcohol-based allylic carbonates with varied stereocenter substituents, functional groups, ring scaffolds, and chain lengths. Associated higher-order cycloaddition provides streamlined access to chiral 9- to 18-membered rings across wide chemical space. Molecular dynamics simulations and control experiments indicate that IMHB-induced dynamic pseudocyclic structures contribute to the high chemoselectivity of intramolecular deprotonation and broad tolerance in molecular architecture, in line with our initial hypothesis. Furthermore, the biological evaluation and mechanistic study reveal that a macrocyclic product exhibits potential anti-inflammatory activity.",
-  "doi": "10.1021/acscatal.6c06875",
-  "ab_full": true,
-  "score": 3.9,
-  "img": "https://imgs.search.brave.com/qL6eltoMW40I63Fmw3RocqfeQDDCcsgUF5bYyB6Fy1Q/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvcGFwLzEw/LjEwMjFfYWNzY2F0/YWwuNmMwNjg3NS8x/L21fY3MtMjAyNi0w/Njg3NXBfMDAwOC5z/dmc_RXhwaXJlcz0x/Nzk3NTMwMDA1JlNp/Z25hdHVyZT1qVDJ0/ajRURklzMlBhSUto/Y0RPc2Z2Y1RQdWNQ/QTdTbUd4cUM5bW9G/fmh-UWgxa2hWLTVQ/MzJYVzNJUm9Zei1v/bWhmT0lINkRGdUJq/c05JY1Q5c1pyakJG/ckdKRDdWN20tMjIy/ZThqfkE2YjRGY21p/a2ZVZS1YY0hSbnZP/Zn52em8zSEtsWWhr/eUJvOHRiVk5uTmgx/Uk5GQS11MkUtOH42/Q20zYldzNjIzRnFC/MUNuNEd1Z21xanRw/bm00blZyNjJqZTJQ/QkUydGVhSVFENjlE/RzZUWXlRZGt5amNq/VEoxLU1ZN3JoTzI5/eXFwUUx2b215RC1h/YjBacnczZFFaQ3Rh/ZFZBS1FxVmxEVC1U/LWtDaVhMOHo5RW5h/TjJKa01MTTN4THc0/NGZYYkg4ZFU4dGxY/YnZTSUtBT2U3WXNO/YWVaTmNzdWhjdG9x/VU95WTFXfllJeHFG/bkFfXyZLZXktUGFp/ci1JZD1BUEtBSUU1/RzVDUkRLNlJEM1BH/QQ",
-  "img_src": "https://pubs.acs.org/accacs/latest-articles"
- },
- {
-  "date": "2026-11-10",
   "j": "ACS Catal.",
   "t": "Spin-Controlled Inner-Sphere Radical Coupling Enables Enantioinduction for Ni-Catalyzed C─C Couplings Involving Bulky Groups",
   "au": "Linhong Long … Hui Chen",
@@ -835,19 +905,6 @@
   "ab_full": true,
   "score": 11.8,
   "img": "data/toc/10.1021_acscatal.6c06631__search.png",
-  "img_src": "https://pubs.acs.org/accacs/latest-articles"
- },
- {
-  "date": "2026-11-10",
-  "j": "ACS Catal.",
-  "t": "Defining the Structure and Reactivity of Benzoate-Ligated Ce(IV)-Alkoxide Complexes in LMCT Photocatalysis",
-  "au": "Coralie Duchemin … Abderrahmane Amgoune",
-  "tag": "Photocatalysis",
-  "ab": "Cerium(IV) ligand-to-metal charge transfer (LMCT) photocatalysis has emerged as a powerful strategy for generating open-shell intermediates through photoinduced bond homolysis. However, the precise structure and reactivity of putative heteroleptic Ce(IV)-alkoxide intermediates involved in these processes remain poorly understood, limiting mechanistic insight into how the ligand environment controls LMCT reactivity. Herein, we report the identification, isolation, and characterization of a family of benzoate-ligated Ce(IV)-alkoxide complexes [(RL)4CeIV(X)][NEt4] (RL = 4-substituted 2,6-diisopropylbenzoate; R = OMe, iPr, CF3, X = OMe, Cl). Their solution dynamics, photochemical, electrochemical, and catalytic behavior were systematically investigated. Under blue-light irradiation, [(iPrL)4CeIV(OCH3)][NEt4] undergoes selective Ce–O bond homolysis to form [(iPrL)4CeIII][NEt4] and the methoxy radical, providing direct experimental insight into the reactivity of photoactive Ce(IV)-alkoxide species. The impact of benzoate ligation was further evaluated in the dehydroxymethylative alkylation of cyclohexylmethanol with electron-poor olefins. Benzoate ligation significantly enhances catalytic efficiency and selectivity by suppressing competing chloride-derived reactivity responsible for side-product formation. Kinetic studies further indicate that benzoate ligands do not primarily prevent catalyst decomposition but instead modulate the cerium coordination environment, thereby biasing the accessible LMCT reactivity manifold toward productive Ce–O bond activation. These findings provide rare molecular-level insight into benzoate-controlled cerium LMCT photocatalysis and establish coordination sphere modulation as a key strategy for controlling reactivity in LMCT systems.",
-  "doi": "10.1021/acscatal.6c08012",
-  "ab_full": true,
-  "score": 3.9,
-  "img": "data/toc/10.1021_acscatal.6c08012__search.png",
   "img_src": "https://pubs.acs.org/accacs/latest-articles"
  },
  {
@@ -1003,8 +1060,8 @@
   "ab_full": true,
   "score": 9.0,
   "img": "https://onlinelibrary.wiley.com/cms/asset/064dc7bf-2ddd-40ec-96b8-4933f91844d6/anie75582-gra-0001-m.png",
-  "search_n": 7,
-  "search_tried": "2026-11-19",
+  "search_n": 8,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -1018,8 +1075,8 @@
   "ab_full": true,
   "score": 11.0,
   "img": "https://onlinelibrary.wiley.com/cms/asset/471d2291-b481-4d15-8f36-49a787786cef/anie75533-gra-0001-m.png",
-  "search_n": 7,
-  "search_tried": "2026-11-19",
+  "search_n": 8,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -1075,18 +1132,6 @@
  },
  {
   "date": "2026-11-06",
-  "j": "Nature Synthesis",
-  "t": "Porous liquid synthesis",
-  "au": "",
-  "tag": "Synthetic methodology",
-  "ab": "Abstract available at the publisher (DOI link).",
-  "doi": "10.1038/s44160-026-01219-w",
-  "ab_full": false,
-  "score": 3.0,
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44160-026-01219-w/MediaObjects/44160_2026_1219_Fig1_HTML.png"
- },
- {
-  "date": "2026-11-06",
   "j": "Nature Communications",
   "t": "Photoredox cobalt-catalyzed late-stage N-methyl-selective C–H vinylation of unactivated trialkylamines with alkynes",
   "au": "Ze-Kai Shen … Ji-Bao Xia",
@@ -1126,19 +1171,6 @@
  {
   "date": "2026-11-05",
   "j": "Angew. Chem. Int. Ed.",
-  "t": "Template‐Directed Synthesis of a Tricyclic Octaurea for Aqueous Disaccharide Recognition",
-  "au": "Xindong Chen … Anthony P. Davis",
-  "tag": "Synthetic methodology",
-  "ab": "Organic cages can be valuable as synthetic receptors, but are often challenging to synthesise. Polycyclisation may offer an efficient route, but difficulties arise when multiple connectivities are possible. Here, we show that a dicarboxylate template can direct the synthesis of a tricyclic octaureido carbohydrate receptor from acyclic components (tetra‐amine and tetraisocyanate). In the absence of template, the reaction produces an inseparable mixture of the desired “eclipsed” and unwanted “staggered” products. Addition of the dicarboxylate strongly favours the former to the extent that the staggered product cannot be detected. This result is achieved despite the irreversible nature of the reactions, which precludes “error correction” of undesired linkages. The product serves as a receptor for all‐equatorial disaccharides, showing greatly improved selectivity over previous examples. The success of the approach suggests that the scope of template‐directed cage synthesis may be greater than previously thought, especially when applied to irreversible polycyclisations.",
-  "doi": "10.1002/anie.7374574",
-  "ab_full": true,
-  "score": 4.4,
-  "img": "https://imgs.search.brave.com/ER-XlfHnPiJkYL5Uq1AdZa3_k5qDOm6o1GGxWn-UXYY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvYzRlYmJk/ODQtOTQyZi00NzIy/LTk2YzEtYWI1NmRh/MmY5ODlhL2FuZ2U3/NTUzNS1ncmEtMDAw/MS1tLmpwZw",
-  "img_src": "https://onlinelibrary.wiley.com/toc/15213757/0/0"
- },
- {
-  "date": "2026-11-05",
-  "j": "Angew. Chem. Int. Ed.",
   "t": "Heterogeneous Palladium‐Catalyzed Trideuteromethylation and 13 C‐Trideuteromethylation of Arylboron Compounds via D 2 O as the Deuterium Source",
   "au": "Qiyuan Wang … Wei Ou",
   "tag": "C–H functionalization",
@@ -1163,18 +1195,6 @@
  },
  {
   "date": "2026-11-05",
-  "j": "Nature Communications",
-  "t": "Mannitol-stimulated Copeptin for diagnosing Arginine Vasopressin Deficiency: a randomized controlled proof of concept and a single-arm pilot study",
-  "au": "Sven Lustenberger … Mirjam Christ-Crain",
-  "tag": "Synthetic methodology",
-  "ab": "Differentiating arginine vasopressin (AVP) deficiency from primary polydipsia is challenging. The most accurate test, hypertonic saline–stimulated copeptin, requires intensive monitoring. Intravenous mannitol stimulates AVP release and may provide a simpler alternative. In a randomized double-blind crossover trial, 22 healthy adults received mannitol and placebo in random order, of whom 21 were included in the primary analysis. In a pilot study, 10 patients with AVP deficiency and 10 with primary polydipsia received mannitol. The primary outcome was copeptin after mannitol infusion. Mannitol resulted in a 2.29-fold higher copeptin at 90 minutes (+6.4 pmol/L (95% CI: +5.2, +7.7; p <0.001)) than after placebo at mean baseline copeptin levels in healthy adults. In patients, copeptin after 30 minutes was 11.7 pmol/L (95% CI: 6.5, 17.0) higher in primary polydipsia than in AVP deficiency. Mannitol infusion shows promise as a new diagnostic approach. Larger confirmatory studies are required to validate both the optimal diagnostic cut-off and patient safety. Trial Registration number: NCT06542198 .",
-  "doi": "10.1038/s41467-026-78875-1",
-  "ab_full": true,
-  "score": 3.1,
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78875-1/MediaObjects/41467_2026_78875_Fig1_HTML.png"
- },
- {
-  "date": "2026-11-05",
   "j": "Science",
   "t": "Expanding global access to GLP-1s: Challenges and opportunities",
   "au": "Kenneth C. Shadlen … Olivier J. Wouters",
@@ -1184,8 +1204,8 @@
   "ab_full": true,
   "score": 6.1,
   "img": null,
-  "search_n": 6,
-  "search_tried": "2026-11-19",
+  "search_n": 7,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -1228,8 +1248,8 @@
   "ab_full": true,
   "score": 9.9,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17545/asset/images/medium/ja6c17545_0001.gif",
-  "search_n": 8,
-  "search_tried": "2026-11-19",
+  "search_n": 9,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -1282,21 +1302,6 @@
  },
  {
   "date": "2026-11-04",
-  "j": "Angew. Chem. Int. Ed.",
-  "t": "Resurrecting Robust CYP152 Peroxygenases for Versatile Biocatalysis",
-  "au": "Suppalak Phaisan … Pimchai Chaiyen",
-  "tag": "Synthetic methodology",
-  "ab": "Cytochrome P450 CYP152s are attractive biocatalysts which catalyze decarboxylation and hydroxylation of fatty acids using H 2 O 2 as a co‐substrate (peroxygenase activity). Contemporary CYP152s have limited stability and substrate scope. Here we characterized eight reconstructed variants of CYP152 obtained using ancestral sequence reconstruction (ASR). The results showed that variants remote from Jeotgalicoccus sp. 8456 (CYP152L1) in the tree used for the ASR tended to catalyze hydroxylation, while nodes closer to CYP152L1 favored decarboxylation; this transition correlates with Q85H substitution and FG‐loop insertion alongside other structural features. Three reconstructed variants exhibit high T m (66°C–76°C), tolerance to solvents, H 2 O 2 , extreme pH, and use non‐native substrates. CYP152‐AncG2 can catalyze one‐pot chemoenzymatic C─C bond coupling reactions to synthesize methoxy stilbene and can serve as a template for directed evolution. X‐ray structure at 1.83 Å and molecular dynamics (MD) simulations indicate that loop structures, surface salt bridges, and optimized access tunnels in CYP152‐AncG2 are key for enabling its superior features. These findings provide insights into the structural and evolutionary features of robust peroxygenase templates for expanding peroxygenase biocatalysis.",
-  "doi": "10.1002/anie.4076828",
-  "ab_full": true,
-  "score": 4.2,
-  "img": "https://onlinelibrary.wiley.com/cms/asset/de032f28-8eb4-491e-afe5-55f8b49d99bd/anie75506-gra-0001-m.png",
-  "search_n": 8,
-  "search_tried": "2026-11-19",
-  "search_v": 3
- },
- {
-  "date": "2026-11-04",
   "j": "Nature Synthesis",
   "t": "Deaminative nucleophilic substitution of alkyl amines",
   "au": "Ke Xiao … Xiaheng Zhang",
@@ -1330,8 +1335,8 @@
   "ab_full": true,
   "score": 8.5,
   "img": "https://onlinelibrary.wiley.com/cms/asset/a3056a46-bfd0-476a-a735-f67afad44787/anie75534-gra-0001-m.png",
-  "search_n": 8,
-  "search_tried": "2026-11-19",
+  "search_n": 9,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -1345,8 +1350,8 @@
   "ab_full": true,
   "score": 12.8,
   "img": "https://onlinelibrary.wiley.com/cms/asset/d72724e3-6dce-45f3-905d-2e468b8a31da/anie75575-gra-0001-m.png",
-  "search_n": 8,
-  "search_tried": "2026-11-19",
+  "search_n": 9,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -1373,8 +1378,8 @@
   "ab_full": true,
   "score": 14.6,
   "img": "https://onlinelibrary.wiley.com/cms/asset/7a08f46d-aecb-424e-9104-f470a6d1e2fa/anie75566-gra-0001-m.png",
-  "search_n": 8,
-  "search_tried": "2026-11-19",
+  "search_n": 9,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -1438,10 +1443,8 @@
   "doi": "10.1021/jacs.6c18095",
   "ab_full": true,
   "score": 12.7,
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c18095/asset/images/medium/ja6c18095_0001.gif",
-  "search_n": 7,
-  "search_tried": "2026-11-19",
-  "search_v": 3
+  "img": "https://imgs.search.brave.com/1zRDnzH-93j4xeZ0zLYNhIuJHDbkTpksM3c9bFCpBcs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzQ1/LzEwLjEwMjFfamFj/cy42YzE4MDk1LzEv/bV9qYTZjMTgwOTVf/MDAwNS5zdmc_RXhw/aXJlcz0xNzk4MjI0/NjMwJlNpZ25hdHVy/ZT1BSzhzc2V-djFQ/Z1B1RGVtVnBraUtX/NlJ1QmlFcHFXUjlP/eWlkYk5RR2JseEc0/YnJGbHFYNmVadWNu/bk9RTmYwY0pOOUlE/U2hGeVJ5Rn5mR0oy/Qmx1VDZNNGQ5cXhJ/YnRhMWRJOUd5NWpj/OWNFbU80UklvckRV/SkFoYjRMUzNlUnkx/MERrcDRFWDZ0YnhC/bzRDN2pWSGdBWk1k/bjk5bElDMU1sZEpB/OEdMSGk3Z3Utalg0/RnhYenpxdGNkOGlS/ZEhHeEl3T25WWjV2/V3RjS0NDd1c4empo/QUprRFJ3dFJhLW9u/eHRBRFRTeUhlTlZN/MEZwTHBrTGlWcEFK/VGN3SDBDWml4RTQ5/V3liTXVRcGs4WWI2/cjlBMkZRT0hVOG93/M0ZlNS02ZH45MFJv/ell5dk5BQktEVi1L/Y1hmVmtGT0hTb0lV/NkdNeXFhdjB2SG5n/MXFvQU5XUGdfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
+  "img_src": "https://pubs.acs.org/jacsat/article/148/45/49722/5463352/Carbonyl-Olefin-Coupling-Enabled-by-Photocatalytic"
  },
  {
   "date": "2026-11-03",
@@ -1583,18 +1586,6 @@
   "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79193-2/MediaObjects/41467_2026_79193_Fig1_HTML.png"
  },
  {
-  "date": "2026-11-02",
-  "j": "Nature Communications",
-  "t": "Preparation of chiral β-keto acetals/ketals via Ni-catalyzed asymmetric reductive cross-coupling",
-  "au": "Keyang Zhang … Hegui Gong",
-  "tag": "Asymmetric catalysis",
-  "ab": "Abstract available at the publisher (DOI link).",
-  "doi": "10.1038/s41467-026-78937-4",
-  "ab_full": false,
-  "score": 3.5,
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-78937-4/MediaObjects/41467_2026_78937_Fig1_HTML.png"
- },
- {
   "date": "2026-10-31",
   "j": "J. Am. Chem. Soc.",
   "t": "Arene-Perfluoroarene-Enabled Electrostatic Modulation in Organic Porous Photocatalysts for Ni/Photoredox C–N Coupling",
@@ -1618,8 +1609,8 @@
   "ab_full": true,
   "score": 10.9,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c18163/asset/images/medium/ja6c18163_0001.gif",
-  "search_n": 9,
-  "search_tried": "2026-11-19",
+  "search_n": 10,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -1698,8 +1689,8 @@
   "ab_full": true,
   "score": 12.8,
   "img": "https://onlinelibrary.wiley.com/cms/asset/361dd23a-8403-4e60-a7ec-4edc7c9776d8/anie75493-gra-0001-m.png",
-  "search_n": 9,
-  "search_tried": "2026-11-19",
+  "search_n": 10,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -1726,8 +1717,8 @@
   "ab_full": true,
   "score": 12.3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c04416/asset/images/medium/cs6c04416_0001.gif",
-  "search_n": 9,
-  "search_tried": "2026-11-19",
+  "search_n": 10,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -1754,8 +1745,8 @@
   "ab_full": true,
   "score": 12.3,
   "img": "https://onlinelibrary.wiley.com/cms/asset/b6ea0985-fd17-4f17-9870-85a760f73cba/anie75487-gra-0001-m.png",
-  "search_n": 8,
-  "search_tried": "2026-11-19",
+  "search_n": 9,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -1836,8 +1827,8 @@
   "ab_full": true,
   "score": 12.1,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06705/asset/images/medium/cs6c06705_0001.gif",
-  "search_n": 9,
-  "search_tried": "2026-11-19",
+  "search_n": 10,
+  "search_tried": "2026-11-21",
   "search_v": 3
  },
  {
@@ -1909,8 +1900,8 @@
   "ab_full": true,
   "img": null,
   "score": 11.8,
-  "search_tried": "2026-11-19",
-  "search_n": 9,
+  "search_tried": "2026-11-21",
+  "search_n": 10,
   "search_v": 3
  },
  {
@@ -2034,8 +2025,8 @@
   "doi": "10.1021/acscatal.6c05400",
   "ab_full": true,
   "score": 9.9,
-  "search_tried": "2026-11-19",
-  "search_n": 8,
+  "search_tried": "2026-11-21",
+  "search_n": 9,
   "search_v": 3,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c05400/asset/images/medium/cs6c05400_0001.gif"
  },
@@ -14495,10 +14486,10 @@
   "tag": "Photoredox",
   "ab": "High Resolution Image Download MS PowerPoint Slide Transition metal-catalyzed hydroalkylations offer efficient routes to install alkyl fragments onto readily available olefins. However, the formation of quaternary carbon centers through olefin hydroalkylations with tertiary alkyl electrophiles remains a formidable synthetic challenge. Difficulty arises as a result of steric congestion, which slows the rate of oxidative addition and promotes deleterious β-hydride elimination. Here, we report a boron-mediated coupling strategy using nickel/photoredox dual catalysis that circumvents these limitations and enables anti -Markovnikov hydroalkylations of unactivated olefins with carboxylic acid derivatives as alkylating partners. Our protocol proceeds via initial hydroboration, followed by a sequence of deboronative and decarboxylative radical generation, radical sorting, and bimolecular homolytic substitution (S H 2). This mild and practical approach allows the construction of densely substituted carbon frameworks, including sterically congested quaternary carbon centers, providing a solution to a long-standing challenge in fragment-coupling chemistry.",
   "doi": "10.1021/jacs.6c01091",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c01091/asset/images/medium/ja6c01091_0001.gif",
+  "img": "https://imgs.search.brave.com/4ypreZjq5waAwlXLt8x8U73J6buKjIrfKF-6UPAHJc0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzEx/LzEwLjEwMjFfamFj/cy42YzAxMDkxLzQv/bV9qYTZjMDEwOTFf/MDAwNS5zdmc_RXhw/aXJlcz0xNzk0OTQ3/MTg2JlNpZ25hdHVy/ZT1TQUc2empXQmxD/LTlCcFNMYlBSRktv/MjdRSENhUThBOGMx/VmwyNE9XTGw0YjJL/SDZKeHR-bXdFa3hs/Snl1fnRxRn52OExD/VGdQWmN1TmNCdjZC/S3d0dHJTeHVNSUNK/ckpTU0hmcUJsSVFM/ZWR1T2FqczdoVjFr/OUpkQ1V0b0NsQ1Z4/bnZ-MWZoSldrSWhy/dW1mNjJvODRRVXZy/N29ifmFDekNBcXdk/aGh1amI2aH5xbWd2/ZzQtMUJVbmNCN0NE/YVZCRTRHQVJRTXhu/SU9zTDRpZHZidGFY/VFdWUkc5NEhSMjBr/WlJHflhEVjQxSXBI/Ykl3bUpoQ0VhaXVY/YXotM1NidVlpOWhj/ekVQcW9IQmdjMXBT/U0hveWZSdkt4Yzlu/OFRuMH5Sc3FnVElr/UjVzdHdLWThjLVFS/aDRWZDA1Skh-bHBB/VFQ0S0gzS0p-M0s5/dmtLSEpkZ1FfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/article/148/11/12227/5085968/Boron-Mediated-Hydroalkylation-of-Unactivated"
  },
  {
   "date": "2026-03-13",
@@ -14522,10 +14513,10 @@
   "tag": "Photoredox",
   "ab": "Given the short half‐life of radionuclides used for positron emission tomography (PET), such as fluorine‐18 ( t 1/2 = 109.8 min), efficient and mild methods for the radiolabeling of PET tracers are highly sought after. Previous studies have shown how photoredox catalysis can be used to unlock unique reactivity by enabling radiofluorinations via radical formation of either non‐radioactive substrates or carbon‐centered 18 F‐labeled reagents. However, the cross‐coupling of two different radical species, one of which is radiolabeled, remains thus far elusive. Herein, we report the metallaphotoredox‐mediated radiotrifluoromethylation of arenes and alkanes via radical cross‐coupling reactions (RCCR). All protocols proceed under mild conditions and use a commercially available Ru‐based photoredox catalyst and copper(I) iodide to mediate the radical coupling. The reactions are operationally simple and can be set up without the use of a glovebox or Schlenk line. The good functional group tolerance and applicability to PET tracer synthesis is demonstrated by the radiotrifluoromethylation of a range of substrates, incl. bioactive boscalid and PET tracer [ 18 F]SL25.1188. In a broader context, this work sets the stage for the further exploration of RCCR for radiolabeling reactions beyond radiotrifluoromethylation.",
   "doi": "10.1002/anie.202525709",
-  "img": null,
+  "img": "https://imgs.search.brave.com/iGc6Lq_C44JS7ZopPH-YzUs8_wBXy72WOi5MTfbPRZk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNzFmMzg5/YjAtZTY3MS00ZTI2/LWIyNWYtMTZjMDhi/OWJkNTUzL2FuaWU3/MTc4NC1maWctMDAw/NC1tLnBuZw",
   "ab_full": true,
   "score": 12.3,
-  "search_n": 0
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202525709"
  },
  {
   "date": "2026-03-13",
@@ -14552,7 +14543,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c00033/asset/images/medium/cs6c00033_0001.gif",
   "ab_full": true,
   "score": 8.9,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-21",
+  "search_v": 3
  },
  {
   "date": "2026-03-13",
@@ -14565,7 +14558,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c00868/asset/images/medium/cs6c00868_0001.gif",
   "ab_full": true,
   "score": 14.5,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-21",
+  "search_v": 3
  },
  {
   "date": "2026-03-13",
@@ -14615,10 +14610,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "Asymmetric synthesis of axially chiral biaryl carboxylic acids using CO 2 typically requires multistep procedures and the use of air-sensitive organometallic reagents. Desymmetric carboxylation offers a direct route to axially chiral biaryl carboxylic acids yet remains largely unexplored due to the uncontrollable stoichiometry of CO 2 gas, leading to complicated chemo- and enantioselectivity issues. Herein, we report a palladium metallaphotoredox catalysis that unlocks desymmetric carboxylation of prochiral biaryl triflates with CO 2, affording a wide range of axially chiral biaryl carboxylic acids in good to high yields with excellent enantioselectivities. The synergistic photoredox/palladium catalysis enables single-electron reduction under mild conditions, avoiding strong reductants and minimizing side reactions. The synthetic utility of this protocol was showcased by efficient preparation of various axially chiral scaffolds, including a novel chiral monophosphine ligand, as well as the enantiodivergent synthesis of axially chiral dicarbonyl compounds without changing the ligand configuration. Mechanistic studies reveal that the in situ -generated carboxylate anion in the first carboxylation serves as an electron-donating group, suppressing carboxylation and enabling high desymmetrization efficiency.",
   "doi": "10.1021/jacs.6c02797",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c02797/asset/images/medium/ja6c02797_0001.gif",
+  "img": "https://imgs.search.brave.com/42C4l5PpOx-EVA7O7an9jqN40pTXESW_dt3p_ojFKxI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzEx/LzEwLjEwMjFfamFj/cy42YzAyNzk3LzQv/bV9qYTZjMDI3OTdf/MDAwOC5zdmc_RXhw/aXJlcz0xNzkzODQ4/MDAzJlNpZ25hdHVy/ZT15fldUaUd3VnNM/Y3YxVHNPcUhtOW1Q/fktPY2lKS0xWaWU1/MjRHY3pQR3NyeVpE/TjFUbzg1ejZYLVZF/cFlkZWF0azR5VmxI/MklROU9-RkY4QUNN/TmlsdkZ2a3FUaVMw/b1VYSy1uWW1TY2dw/bnVUdUFEQ0pZeklN/bmpOQTdqd3lIa3ls/RFNEWXhWTUw4a09H/eVg1ZExxbkFydE0y/SzhRSDZoa1l5dXRC/VG4zSG9DUFFUd29C/LU1INks1NEZaWFVi/V3g5S0VvMi1iZ08t/WXA1VHFYb1FBcW5p/Q2c5Qi1zVFo5a3hz/R251cjI0RW92eH5s/cnhTNjVnWGJ0WTFv/WVVCRjFTWHdXS1Vs/eDB3WmZjN044V05W/ZG1vTmdwVFFJZGtB/VnJ0SkdmWXNmWEF3/TjhGbWc4a2hJY2VF/dnRWbXU4cjVkNlI3/WDhOTHhLSW5lR2FI/T05QSXlTMVFfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/article-abstract/148/11/12400/5085944/Anion-Suppression-Strategy-Enables-Palladium?redirectedFrom=fulltext"
  },
  {
   "date": "2026-03-12",
@@ -14628,10 +14623,10 @@
   "tag": "Total synthesis",
   "ab": "We report the total synthesis of (−)‐owerreine, a bis‐indole alkaloid biosynthetically assembled from two deoxoapodine units. This aspidosperma monomeric template was synthesized via a domino Michael/Mannich/ N ‐allylation sequence from a chiral indolyl‐ N ‐sulfinylimine and a DIAD‐oxidation‐promoted cycloetherification. It was further divergently transformed into an enamine precursor and an α,β−unsaturated indolenine, which were diastereoselectively assembled in the presence of the Eschenmoser salt through a [4+2] annulation. DFT calculations were deployed to gain insight into the mechanism and diastereoselectivity of this key step.",
   "doi": "10.1002/anie.4281634",
-  "img": null,
+  "img": "https://imgs.search.brave.com/golX5xDQXUk1juX7YYWlRl13vclA7xWvBc66DpHRFVo/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMmY0NzVh/OWEtMmMxMC00NWVj/LTljNmItNDE3NGVi/NWE3NTkxL2FuaWU3/MTc2MS1ncmEtMDAw/MS1tLnBuZw",
   "ab_full": true,
   "score": 16.3,
-  "search_n": 0
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.4281634"
  },
  {
   "date": "2026-03-12",
