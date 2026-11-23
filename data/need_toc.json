@@ -1,5 +1,17 @@
 [
 {
+"doi": "10.1002/anie.3685132",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Thiophenol‐Catalyzed Anti ‐Markovnikov Coupling of α ‐Methylene‐ γ ‐Butenolides Under Visible Light: Total Synthesis of Aucklappalide A",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.6905638",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Biomimetic N ‐Terminal Homologation of Amino Acids",
+"m": "2026-11"
+},
+{
 "doi": "10.1002/anie.4189999",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Regiospecific Sila‐Matteson Homologative Arylation of Biased ( N ‐Oxide) Azines",
@@ -18,6 +30,42 @@
 "m": "2026-11"
 },
 {
+"doi": "10.1002/anie.9261601",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Enantioselective Radical Hydrosilylation of Electron‐Deficient Alkenes Enabled by Metallaphotoredox Catalysis",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.4154533",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Catalytic Aziridination With Simple Acyl Azides via Validated Copper‐Acyl Nitrenes",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.5474223",
+"j": "Angew. Chem. Int. Ed.",
+"t": "PCET beyond p K a : Disaggregation and Additional Base Effects as Neglected Key Factors for Unlocking Inaccessible Substrates in Direct Intermolecular Photocata",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.1248883",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Gold‐Catalyzed “Anti‐Baldwin” Cyclization of Unactivated Alkenes",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.1618909",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Photoinduced Homolytic Carbon–Palladium Bond Cleavage of Zwitterionic π ‐Allylpalladium Species and Annulation with 1,3‐Dienes and 1,3‐Enynes",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.7391422",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Synergistic Lewis Base Organocatalysis and Electrocatalysis for the Enantioselective Construction of α‐Fluorinated Quaternary Stereocenters",
+"m": "2026-11"
+},
+{
 "doi": "10.1021/jacs.6c19425",
 "j": "J. Am. Chem. Soc.",
 "t": "Palladium-Catalyzed Enantioselective Oxidative Remote (4 + 1)-Cyclization of 1,6-Enynes",
@@ -27,12 +75,6 @@
 "doi": "10.1126/science.aei2041",
 "j": "Science",
 "t": "Quaternary carbon–guided carbocation cascade rearrangement to enantioenriched polycycles",
-"m": "2026-11"
-},
-{
-"doi": "10.1021/jacs.6c17132",
-"j": "J. Am. Chem. Soc.",
-"t": "Photochemical Isomerization of Dilithiobutadienes to Dilithium Salts of Cyclobutadiene Dianions",
 "m": "2026-11"
 },
 {
@@ -252,12 +294,6 @@
 "m": "2026-11"
 },
 {
-"doi": "10.1002/anie.4445463",
-"j": "Angew. Chem. Int. Ed.",
-"t": "An Iron Catalyzed Markovnikov‐Selective trans ‐Hydrogermylation of Terminal Alkynes",
-"m": "2026-11"
-},
-{
 "doi": "10.1002/anie.7759349",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Direct Photocatalytic Conversion of Ethylene and Water Into Butanol via C─C Coupling and Hydroxylation",
@@ -273,12 +309,6 @@
 "doi": "10.1002/anie.5777117",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Divergent CO Functionalization at Anionic Molybdenum Hydrides",
-"m": "2026-11"
-},
-{
-"doi": "10.1002/anie.1437091",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Revisiting Carbonyl Reductase Stereocontrol: A Third Pocket Accommodates the E Ring in Podophyllotoxone‐Type Ketone Reduction",
 "m": "2026-11"
 },
 {
@@ -369,18 +399,6 @@
 "doi": "10.1002/anie.7491177",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Phenonium‐Ion‐Mediated Skeletal Editing of Paracyclophanes",
-"m": "2026-11"
-},
-{
-"doi": "10.1002/anie.1323991",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Palladium‐Catalyzed Cross‐Coupling of Transiently Stable Heterocyclic Organolithiums",
-"m": "2026-11"
-},
-{
-"doi": "10.1002/anie.7610637",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Organocatalytic Enantiodifferentiation of Two Aryl Groups with Similar Steric Hindrances: Construction of gem ‐Diaryl Acyclic Quaternary Stereocenters",
 "m": "2026-11"
 },
 {
@@ -2811,12 +2829,6 @@
 "doi": "10.1021/jacs.6c00475",
 "j": "J. Am. Chem. Soc.",
 "t": "Nickel-Catalyzed Boron-Stereogenic Hydroboration",
-"m": "2026-03"
-},
-{
-"doi": "10.1002/anie.5526474",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Asymmetric Total Synthesis of (–)‐Verrucarol",
 "m": "2026-03"
 },
 {

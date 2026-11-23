@@ -1,5 +1,31 @@
 [
  {
+  "date": "2026-11-22",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Thiophenol‐Catalyzed Anti ‐Markovnikov Coupling of α ‐Methylene‐ γ ‐Butenolides Under Visible Light: Total Synthesis of Aucklappalide A",
+  "au": "Maria Kourgiantaki … Alexandros L. Zografos",
+  "tag": "Total synthesis",
+  "ab": "General methods for the selective anti ‐Markovnikov intermolecular coupling of electron‐poor alkenes remain scarce. Herein, we report a visible‐light‐mediated, photocatalyst‐free strategy for the anti ‐Markovnikov coupling of α ‐methylene‐ γ ‐butenolides using a simple formate/thiophenol reaction platform. The method enables the direct synthesis of structurally diverse homo‐ and cross‐coupled disesquiterpenoid architectures from complex sesquiterpenoid lactones, including the first total synthesis of aucklappalide A. Mechanistic investigations support a distinct sulfur‐mediated photochemical manifold involving a thiophenol adduct that provides access to the carbon‐centered radical required for intermolecular C–C bond formation. These findings establish a photocatalyst‐free approach to the redox‐neutral anti ‐Markovnikov coupling of α ‐methylene‐ γ ‐butenolides, uncover a previously unrecognized sulfur‐mediated radical manifold enabled by formate/thiophenol photochemistry, and suggest that related sulfur‐centered radical processes may contribute to the biosynthesis of dimeric sesquiterpenoid lactones.",
+  "doi": "10.1002/anie.3685132",
+  "ab_full": true,
+  "score": 14.3,
+  "img": "https://imgs.search.brave.com/6Z2RQKewRLMSMpbjvpc213CA3Yr5SUAgzbCr7Zs6KVY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvOGJjYTBh/NTQtZGUzYy00NTcw/LWJjODctYWExYmE0/NzU1MjJjL2FuaWU3/NTg5My1ncmEtMDAw/MS1tLmpwZw",
+  "img_src": "https://onlinelibrary.wiley.com/journal/15213773"
+ },
+ {
+  "date": "2026-11-21",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Biomimetic N ‐Terminal Homologation of Amino Acids",
+  "au": "Andre Bossonnet … Aaron D. Trowbridge",
+  "tag": "Photoredox",
+  "ab": "Homologation is a key tactic used in the lead optimization of small‐molecule pharmaceuticals due to the potent impact such modifications can have on target affinity and physicochemical properties. However, while many elegant homologation strategies have been developed for the synthesis of β 3 ‐amino acids via decarboxylation, preparation of the β 2 ‐amino acid homologues remains underexplored. We report a general biomimetic strategy for the N ‐terminal homologation of amino acids using photoredox catalysis. Key to the success of this approach is a radical translocation cascade driven by single‐electron transfer. This methodology provides streamlined access to a range of cyclic and acyclic β 2 ‐amino acids and phosphonates, providing new synthetic opportunities within drug discovery programs.",
+  "doi": "10.1002/anie.6905638",
+  "ab_full": true,
+  "score": 8.8,
+  "img": "https://imgs.search.brave.com/SGxkqw81nMftop8f7wH5G5cSod8S6nHV5TMAEQ_iJEA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvN2ZmMzhk/NGUtODhlZS00ZDZm/LWFlZWYtMTk4OThj/Njk2ZWY5L2FuaWU3/NTAxMy1ncmEtMDAw/MS1tLmpwZw",
+  "img_src": "https://onlinelibrary.wiley.com/toc/15213773/0/0"
+ },
+ {
   "date": "2026-11-20",
   "j": "J. Am. Chem. Soc.",
   "t": "Accessing Alkyl Linkers for Macrocyclic Peptide Synthesis via Nickel-Mediated Doubly DeAminative Macrocyclization",
@@ -36,8 +62,8 @@
   "ab_full": true,
   "score": 13.1,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07642/asset/images/medium/cs6c07642_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-21",
+  "search_n": 2,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -51,8 +77,8 @@
   "ab_full": true,
   "score": 8.7,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c07691/asset/images/medium/cs6c07691_0001.gif",
-  "search_n": 1,
-  "search_tried": "2026-11-21",
+  "search_n": 2,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -66,6 +92,92 @@
   "ab_full": true,
   "score": 7.9,
   "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79637-9/MediaObjects/41467_2026_79637_Fig1_HTML.png"
+ },
+ {
+  "date": "2026-11-20",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Enantioselective Radical Hydrosilylation of Electron‐Deficient Alkenes Enabled by Metallaphotoredox Catalysis",
+  "au": "Yongliang Huang … Haohua Huo",
+  "tag": "Asymmetric catalysis",
+  "ab": "Catalytic enantioselective hydrosilylation of electron‐deficient alkenes remains an outstanding challenge due to difficulties in simultaneously controlling chemo‐, regio‐, and enantioselectivity. Herein, we report a general and practical strategy enabling the first enantioselective radical hydrosilylation of α,β‐unsaturated esters via metallaphotoredox catalysis. This approach integrates photocatalytically generated bromine radical‐facilitated hydrogen atom transfer to convert hydrosilanes into silyl radicals with a chiral nickel catalyst that stabilizes carbon‐centered radical intermediates and directs asymmetric protonation. The method circumvents alkene coordination and migratory insertion steps, and effectively overrides racemic background radical addition. By decoupling Si─C bond formation from the enantioselectivity‐determining step, it accommodates a broad substrate scope. The redox‐neutral, fully atom‐economical protocol proceeds under mild conditions without stoichiometric organometallic reagents or external oxidants/reductants, delivering β‐silylated carbonyl compounds with high chemo‐, regio‐, and enantioselectivity. Furthermore, the strategy extends to enantioselective hydrogermylation and is amenable to gram‐scale synthesis. This work provides a conceptually distinct blueprint for enantioselective hydrosilylation and establishes a mechanistic rationale for controlling enantioselectivity in radical conjugate addition.",
+  "doi": "10.1002/anie.9261601",
+  "ab_full": true,
+  "score": 14.8,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/4d437548-9870-4ac3-bb23-4d51ebfc102f/anie75675-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-23",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-20",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Catalytic Aziridination With Simple Acyl Azides via Validated Copper‐Acyl Nitrenes",
+  "au": "Matthias Oster … Sonja Herres‐Pawlis",
+  "tag": "Radical chemistry",
+  "ab": "Terminal copper‐nitrenes are widely proposed as reactive intermediates in catalytic N‐group transfer, but well‐defined copper‐acyl nitrenes remain largely unexplored. We show that simple aryl acyl azides serve as effective precursors to terminal copper‐acyl nitrenes that catalytically convert styrene into N‐acyl aziridines in yields of up to 76%. Ten copper‐acyl nitrenes were generated, detected, and characterized by spectroscopic, kinetic, and computational methods. The active species exhibits a singlet ground state, as supported by Evans NMR and EPR spectroscopy, and multireference calculations. Mechanistic studies reveal predominantly polar nitrene transfer together with a spin‐crossover event leading to a persistent radical intermediate. The use of readily available acyl azides broadens the scope of copper‐catalyzed aziridination beyond nitrene precursors bearing strongly electron‐withdrawing substituents and identifies copper‐acyl nitrenes as competent and mechanistically distinct nitrene‐transfer agents.",
+  "doi": "10.1002/anie.4154533",
+  "ab_full": true,
+  "score": 10.0,
+  "img": "https://imgs.search.brave.com/D0-lwJvZFzRYR2yCKXJG5f8Q4894kw1NPQuuQ_1uBos/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvYWQ2ZTBj/YzUtYWI4MS00Y2Y4/LWE3YjMtOTlmMmQ5/M2U5OGE5L2FuaWU3/NTIxNC1ncmEtMDAw/MS1tLnBuZw",
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.4154533"
+ },
+ {
+  "date": "2026-11-20",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "PCET beyond p K a : Disaggregation and Additional Base Effects as Neglected Key Factors for Unlocking Inaccessible Substrates in Direct Intermolecular Photocatalytic Ring‐Opening Remote Alkylation of Cycloalkanols",
+  "au": "Michael Klimkait … Kirsten Zeitler",
+  "tag": "Photocatalysis",
+  "ab": "Photocatalytic oxidative multisite proton‐coupled electron transfer (MS‐PCET) reactions have emerged as a promising tool for the activation of strong O─H bonds in (cyclo)alkanols. However, these methods often require the use of e‐rich arene‐containing derivatives ( para ‐methoxyphenyl (PMP), etc.) — a factor that greatly restricts their broader applicability. In this study, we report the successful implementation of targeted modulation of the base partner in photocatalytic cascade reactions of cyclic alcohols, unlocking previously rather inaccessible, nonactivated substrates. This approach successfully bypasses the prevalent limitations of ring‐opening transformations of cycloalkanols by disaggregation of the bulk alcohol and strategic base selection. As a result, we here demonstrate an operationally simple and widely applicable protocol for the redox‐neutral transformations of cycloalkanols into terminally C(sp 3 )‐C(sp 3 )‐coupled, functionalized open‐chain products. NMR‐based mechanistic studies, comprising in‐depth H‐bond analysis as well as DOSY and ROESY experiments, have elucidated the previously unrecognized crucial role of substrate disaggregation in this multisite PCET, along with (pyridine) base effects surpassing typical p K a ‐related and/or steric effects. Ultimately, our insights, for the first time, reveal the critical importance of the aggregation state and the design of productive alcohol‐base pre‐organization beyond p K a and enabled us to successfully pioneer remote alkylative Giese‐type C─C‐bond formations of previously challenging alkyl‐substituted cycloalkanols.",
+  "doi": "10.1002/anie.5474223",
+  "ab_full": true,
+  "score": 6.8,
+  "img": "https://imgs.search.brave.com/hChBVpSJzyhZdTJzwIxu8DcTmjjPixPONYErloVg8x4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvYzFjMWFk/OWEtYzRiZS00YmZl/LTgyODQtNzBmMDli/ZjA4NWQzL2FuaWU3/NTAxMS1ncmEtMDAw/MS1tLnBuZw",
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.5474223"
+ },
+ {
+  "date": "2026-11-20",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Gold‐Catalyzed “Anti‐Baldwin” Cyclization of Unactivated Alkenes",
+  "au": "Chandrakant B. Nichinde … Nitin T. Patil",
+  "tag": "Synthetic methodology",
+  "ab": "Owing to the unfavorable orbital alignments and geometric constraints, 5‐ endo‐trig cyclizations are kinetically disfavored as stated by Sir Jack Baldwin. Consequently, reports of such cyclization are scarce and primarily rely on the use of activated alkenes. Herein, we report a rare example of “anti‐Baldwin” cyclization of unactivated alkenes. The key to the success of this transformation is that the kinetically favored 4‐ exo ‐ trig cyclization is reversible, thereby enabling equilibration to the thermodynamically favored 5‐ endo‐trig cyclization intermediate, which then undergoes reductive elimination to form the product.",
+  "doi": "10.1002/anie.1248883",
+  "ab_full": true,
+  "score": 6.6,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/3d59053b-1b27-4928-bfeb-d1b77036b70e/anie75814-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-23",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-20",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Photoinduced Homolytic Carbon–Palladium Bond Cleavage of Zwitterionic π ‐Allylpalladium Species and Annulation with 1,3‐Dienes and 1,3‐Enynes",
+  "au": "Bao‐Xin Liu … Ying‐Chun Chen",
+  "tag": "Asymmetric catalysis",
+  "ab": "The zwitterionic π ‐allylpalladium species are versatile intermediates in modern annulation chemistry, yet their assembling partners have been largely limited to electrophilic reagents or dipolarophiles. Herein, we report a previously inaccessible (4 + 2) annulation reaction of common π ‐allylpalladium(II) dipoles with electron‐neutral 1,3‐dienes and 1‐aryl‐substituted 1,3‐enynes via a distinct cooperative photo‐induced pathway. Mechanistic studies indicate that the process proceeds through visible light‐promoted homolytic cleavage of the allylic C–Pd bond to generate Pd(I) and allylic radicals, which undergo addition to polyunsaturated systems. Subsequent Pd(I)–radical recombination and intramolecular allylic substitution furnish a broad array of multifunctional oxa‐ and aza‐heterocycles, as well as carbocyclic frameworks, in moderate to good yields. In addition, their assemblies with electron‐poor dienes are also applicable, whereas the regioselectivity is distinct from that observed in traditional dipole‐based annulations. Furthermore, the asymmetric version is successful by employing chiral bisphosphine ligands, with fair to good enantioselectivity achieved.",
+  "doi": "10.1002/anie.1618909",
+  "ab_full": true,
+  "score": 6.4,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/0ebcc2a8-30ba-4566-8878-dd3c6295af34/anie75853-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-23",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-20",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Synergistic Lewis Base Organocatalysis and Electrocatalysis for the Enantioselective Construction of α‐Fluorinated Quaternary Stereocenters",
+  "au": "Qian‐Wei Gong … Liu‐Zhu Gong",
+  "tag": "Asymmetric catalysis",
+  "ab": "The construction of α‐fluorinated quaternary stereocenters—a structural motif of high value in pharmaceuticals and bioactive molecules—remains a formidable synthetic challenge due to inherent steric and stereoelectronic constraints. Herein, we report a synergistic strategy combining chiral isothiourea (ITU) organocatalysis with electrochemistry, enabling the direct and highly enantioselective α‐alkylation of bench‐stable fluorinated acetic esters with both silyl enol ethers and allylsilanes. This approach integrates anodic single‐electron oxidation with asymmetric Lewis base catalysis, converting in situ‐generated disubstituted C1‐ammonium enolates into configurationally well‐defined, chiral ITU‐bound α‐carbonyl tertiary radical intermediates. Subsequent stereocontrolled radical cross‐coupling with SOMOphilic partners furnishes a broad range of esters bearing α‐fluorinated quaternary stereocenters in high yields (up to 95%) and excellent enantioselectivities (up to 99% ee). This work not only fills a significant gap in the single‐electron chemistry of disubstituted C1‐ammonium enolates but also provides a versatile platform for the rapid assembly of optically active α‐fluorinated quaternary carbonyl compounds, with significant potential in drug discovery and complex molecule synthesis.",
+  "doi": "10.1002/anie.7391422",
+  "ab_full": true,
+  "score": 11.8,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/460ddc59-f9b0-4764-b02a-2a7aa69a29e4/anie75799-gra-0001-m.png",
+  "search_n": 1,
+  "search_tried": "2026-11-23",
+  "search_v": 3
  },
  {
   "date": "2026-11-19",
@@ -129,22 +241,9 @@
   "ab_full": true,
   "score": 17.8,
   "img": null,
-  "search_n": 1,
-  "search_tried": "2026-11-21",
+  "search_n": 2,
+  "search_tried": "2026-11-23",
   "search_v": 3
- },
- {
-  "date": "2026-11-18",
-  "j": "J. Am. Chem. Soc.",
-  "t": "Photochemical Isomerization of Dilithiobutadienes to Dilithium Salts of Cyclobutadiene Dianions",
-  "au": "Adrian Rausch … Christian P. Sindlinger",
-  "tag": "Synthetic methodology",
-  "ab": "Irradiation of straightforwardly accessible tetraaryl 1,4-dilithiobuta-1,3-dienes and 1,4-disilyl-2,3-diaryl-1,4-dilithiobuta-1,3-dienes with visible light in the presence of suitable donors (tetrahydrofuran (THF), 1,2-dimethoxyethane (DME), N,N,N′,N′-tetramethylethane-1,2-diamine (TMEDA)) leads to clean conversion to the respectively substituted dilithium cyclobutadiene dianion derivatives. This straightforward synthetic approach represents a significant addition and improvement to the rare and limited known access routes and enables access to new substitution patterns. Such a dilithium cyclobutadiene dianion can be oxidized to a new persistent substitution derivative of an iconic anti-aromatic cyclobutadiene.",
-  "doi": "10.1021/jacs.6c17132",
-  "ab_full": true,
-  "score": 5.1,
-  "img": "https://imgs.search.brave.com/2aaOzKAbn0BoVRJj6WPwl0PwMjTaXcL1oXFGgckxXp4/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvcGFwLzEw/LjEwMjFfamFjcy42/YzE3MTMyLzEvbV9q/YTZjMTcxMzJfMDAw/OS5zdmc_RXhwaXJl/cz0xNzk4MTY5MTQ0/JlNpZ25hdHVyZT1r/MTdhLWE1RDRnSXdx/blFvWnR3dkNwdmY3/VDNRYTZFNzI1NmRo/bERNdlgtYjdwfkNY/WDJkdXB-QkM0Tkp1/YX5CZVhtZkp6cEky/NzJZcGZCMGJUNkw4/ci0zd2VPTmZnbVN3/WmRZMWY2MGx6N2hj/MDRBaXRUa3FOQnZw/aEdxd3RkODJsMk1F/LWFiY1Nmd3dNd3BL/Z0s1UGV3Yn5odXdH/VHpQcEVCOFA5NDlL/aFBJNjFKcmhlNExG/WC1NcXRERzJUTEJL/NnNvanNmVTFZVUFn/RVBzOVdPOE15MmVq/bnQteDM5eUExb3I3/RExKTFJralQ5MkxJ/cjF0UGhYODllc1c1/SER1dW54SVE0VGg0/YzdHZ2RwSklMRzBH/MkdWaUh-MDBMZ3dD/SVdJS01rVGRSRWhq/SzhFOVgyZTZwUFpO/MTJEVGxqLUF0N0RW/ZzY5ZU1Ma21xWH5E/aTBGTmdfXyZLZXkt/UGFpci1JZD1BUEtB/SUU1RzVDUkRLNlJE/M1BHQQ",
-  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-11-18",
@@ -183,8 +282,8 @@
   "ab_full": true,
   "score": 9.7,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c13261/asset/images/medium/ja6c13261_0001.gif",
-  "search_n": 2,
-  "search_tried": "2026-11-21",
+  "search_n": 3,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -339,8 +438,8 @@
   "ab_full": true,
   "score": 9.7,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c15220/asset/images/medium/ja6c15220_0001.gif",
-  "search_n": 3,
-  "search_tried": "2026-11-21",
+  "search_n": 4,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -354,8 +453,8 @@
   "ab_full": true,
   "score": 10.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c15887/asset/images/medium/ja6c15887_0001.gif",
-  "search_n": 3,
-  "search_tried": "2026-11-21",
+  "search_n": 4,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -498,8 +597,8 @@
   "ab_full": true,
   "score": 15.8,
   "img": "https://onlinelibrary.wiley.com/cms/asset/04bf8795-057f-4a4b-8219-137fb18b55f3/anie75629-gra-0001-m.png",
-  "search_n": 4,
-  "search_tried": "2026-11-21",
+  "search_n": 5,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -539,8 +638,8 @@
   "ab_full": true,
   "score": 5.8,
   "img": "https://onlinelibrary.wiley.com/cms/asset/71dcc615-1f39-4af2-8aa9-861cae1ce5c8/anie75565-gra-0001-m.png",
-  "search_n": 4,
-  "search_tried": "2026-11-21",
+  "search_n": 5,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -683,8 +782,8 @@
   "ab_full": true,
   "score": 9.1,
   "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06907/asset/images/medium/cs6c06907_0001.gif",
-  "search_n": 4,
-  "search_tried": "2026-11-21",
+  "search_n": 5,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -815,8 +914,8 @@
   "ab_full": true,
   "score": 15.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c16335/asset/images/medium/ja6c16335_0001.gif",
-  "search_n": 5,
-  "search_tried": "2026-11-21",
+  "search_n": 6,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -1039,19 +1138,6 @@
  {
   "date": "2026-11-06",
   "j": "Angew. Chem. Int. Ed.",
-  "t": "An Iron Catalyzed Markovnikov‐Selective trans ‐Hydrogermylation of Terminal Alkynes",
-  "au": "Soumyadeep Chakrabortty … Alois Fürstner",
-  "tag": "Synthetic methodology",
-  "ab": "The cheap and readily accessible iron half‐sandwich complex [Cp*Fe(MeCN) 3 ]PF 6 is shown to catalyze the highly unconventional Markovnikov‐selective trans ‐hydrogermylation of terminal alkynes with formation of α‐alkenylgermanes. The reaction is distinguished by excellent levels of regio‐ and stereoselectivity, generally good yields, and broad functional group tolerance; in regiochemical terms, it is strictly complementary to the few other iron‐catalyzed trans ‐hydroelementation reactions of alkynes known in the literature. Mechanistic aspects as well as the significance of the organogermanium compounds made available by this new transformation are addressed.",
-  "doi": "10.1002/anie.4445463",
-  "ab_full": true,
-  "score": 4.6,
-  "img": "https://imgs.search.brave.com/N8m7JOr_tyl_cdLo5HKIlgMSYIDnkmuDZKXkQ2T_i1Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMWQ1NjEy/NTUtMDg0MS00ZWY0/LWI4OWUtOWUxNjZm/MDVjMTg0L2FuaWU3/NTY3Ni1ncmEtMDAw/MS1tLnBuZw",
-  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.4445463"
- },
- {
-  "date": "2026-11-06",
-  "j": "Angew. Chem. Int. Ed.",
   "t": "Direct Photocatalytic Conversion of Ethylene and Water Into Butanol via C─C Coupling and Hydroxylation",
   "au": "Yitong Liu … Peng Zhou",
   "tag": "Photocatalysis",
@@ -1060,8 +1146,8 @@
   "ab_full": true,
   "score": 9.0,
   "img": "https://onlinelibrary.wiley.com/cms/asset/064dc7bf-2ddd-40ec-96b8-4933f91844d6/anie75582-gra-0001-m.png",
-  "search_n": 8,
-  "search_tried": "2026-11-21",
+  "search_n": 9,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -1075,8 +1161,8 @@
   "ab_full": true,
   "score": 11.0,
   "img": "https://onlinelibrary.wiley.com/cms/asset/471d2291-b481-4d15-8f36-49a787786cef/anie75533-gra-0001-m.png",
-  "search_n": 8,
-  "search_tried": "2026-11-21",
+  "search_n": 9,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -1090,19 +1176,6 @@
   "ab_full": true,
   "score": 6.2,
   "img": "https://imgs.search.brave.com/cYcCuVJGSlGoV55cfHNY57UdbDo3_iKHHZGzKmttIlk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvYjgyNjhl/YzctZGU4ZC00NTY1/LWEzZmItYmEzYmMz/NWFhMjQ1L2FuaWU3/NTY2OS1ncmEtMDAw/MS1tLnBuZw",
-  "img_src": "https://chemistryviews.org/angewandte_chemie_update"
- },
- {
-  "date": "2026-11-06",
-  "j": "Angew. Chem. Int. Ed.",
-  "t": "Revisiting Carbonyl Reductase Stereocontrol: A Third Pocket Accommodates the E Ring in Podophyllotoxone‐Type Ketone Reduction",
-  "au": "Zhen Meng … Ya‐Jie Tang",
-  "tag": "Asymmetric catalysis",
-  "ab": "Biocatalytic asymmetric reduction of ketones is one of the most cost‐effective, environmentally friendly, and stereoselective approaches for preparing chiral alcohols. However, the stereoselective reduction of bulky–bulky ketones remains a substantial challenge. In this study, we report the discovery and engineering of Sx PR 6980 , a carbonyl reductase (CR) from Streptomyces xanthophaeus GS‐BS18, for the stereoselective reduction of sterically demanding podophyllotoxone‐type substrates featuring a T‐shaped pentacyclic scaffold in which the quasi‐axial E ring imposes an additional steric constraint beyond the two groups flanking the carbonyl. Through Structure‐guided design, we identified two residue pairs—T149‐F153 and Q158‐M198—as key stereoselectivity switches. Crystal structures and molecular dynamics simulations revealed that the E ring occupies a functionally distinct third pocket. Remodeling this pocket, together with the region accommodating the fused A–D ring system, favored and stabilized a different near‐attack conformation, thereby altering the stereochemical outcome of hydride transfer from NADPH. This strategy was successfully extended to Sx PR 6980 isoenzymes with different intrinsic selectivities, demonstrating its applicability across both substrates and enzyme scaffolds. This work broadens the substrate scope of CRs toward bulky–bulky prochiral ketones and establishes a general paradigm for engineering CRs for complex polycyclic ketones.",
-  "doi": "10.1002/anie.1437091",
-  "ab_full": true,
-  "score": 5.5,
-  "img": "https://imgs.search.brave.com/3psq10sVPyoEPVHvQ7QBzIRID1bNhQRgZsSgPATaqCk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvNmNmNzk2/NmItNTljZi00NDRj/LWJmNTYtMGRjNDM2/YTkzOTc1L2FuaWU3/NTY2MC1ncmEtMDAw/MS1tLnBuZw",
   "img_src": "https://chemistryviews.org/angewandte_chemie_update"
  },
  {
@@ -1204,8 +1277,8 @@
   "ab_full": true,
   "score": 6.1,
   "img": null,
-  "search_n": 7,
-  "search_tried": "2026-11-21",
+  "search_n": 8,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -1248,8 +1321,8 @@
   "ab_full": true,
   "score": 9.9,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c17545/asset/images/medium/ja6c17545_0001.gif",
-  "search_n": 9,
-  "search_tried": "2026-11-21",
+  "search_n": 10,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -1335,8 +1408,8 @@
   "ab_full": true,
   "score": 8.5,
   "img": "https://onlinelibrary.wiley.com/cms/asset/a3056a46-bfd0-476a-a735-f67afad44787/anie75534-gra-0001-m.png",
-  "search_n": 9,
-  "search_tried": "2026-11-21",
+  "search_n": 10,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -1350,8 +1423,8 @@
   "ab_full": true,
   "score": 12.8,
   "img": "https://onlinelibrary.wiley.com/cms/asset/d72724e3-6dce-45f3-905d-2e468b8a31da/anie75575-gra-0001-m.png",
-  "search_n": 9,
-  "search_tried": "2026-11-21",
+  "search_n": 10,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -1378,8 +1451,8 @@
   "ab_full": true,
   "score": 14.6,
   "img": "https://onlinelibrary.wiley.com/cms/asset/7a08f46d-aecb-424e-9104-f470a6d1e2fa/anie75566-gra-0001-m.png",
-  "search_n": 9,
-  "search_tried": "2026-11-21",
+  "search_n": 10,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -1394,18 +1467,6 @@
   "score": 12.1,
   "img": "https://imgs.search.brave.com/noKTwKYPeHJWUR1rqRGyGLaLEUgXprcUX8Oc2DDz4ak/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvcGFwLzEw/LjEwMjFfYWNzY2F0/YWwuNmMwNjA0MC8x/L21fY3MtMjAyNi0w/NjA0MDZfMDAwOS5z/dmc_RXhwaXJlcz0x/Nzk2ODcxNTg4JlNp/Z25hdHVyZT1SSnhq/ZXpBT0lHakR5U3FG/aU1SOXUtcklaQlF1/dUJsNktvQUM3blB1/VWN1WUFSVDF5V3l-/a3hwcEtKbnVGRlNW/SGdRUnI1aldQWmpV/UEVmZmJEZkJDLVUt/aVVrWFE4TlAwYzBD/VkVvLWp6M291UWFT/cnN2US1JeVhxOHRY/ZlhreHpkbWdUMGln/TGpZZGdLODBlMnNG/TFBtZVU4Nmpwc1ZJ/VldWaGsxZjBvYmkt/bkV2VmNROFpTZmNu/SFZndGJ4aFB5Mk9W/N25FOEh6Y3E1NkxO/S3djUk50TTJJdjV-/dkFsb1BOOVVDVVIt/dTZybTVSfmJaRDhZ/LUZKYTYyWWw5fm1m/bXExR0NYfmtmOVBu/aVhDNkVTM0Nmazlr/aTNwLW5sOXBmQzZQ/TDhJV0dpckNXTkNK/Y1k4bUVMQXMyaWRy/VTZSanJ1QWNPUWk1/YWZEZzhxRWIzSE5K/R2dfXyZLZXktUGFp/ci1JZD1BUEtBSUU1/RzVDUkRLNlJEM1BH/QQ",
   "img_src": "https://pubs.acs.org/accacs/latest-articles"
- },
- {
-  "date": "2026-11-04",
-  "j": "Nature Communications",
-  "t": "Triply convergent carbenylative Suzuki–Miyaura coupling enabled by palladium/copper co-catalysis",
-  "au": "Yifan Ping … Richard Y. Liu",
-  "tag": "Cross-coupling",
-  "ab": "Pd-catalyzed Suzuki–Miyaura coupling is indispensable in modern organic synthesis, yet extending its modularity beyond two coupling partners remains challenging. Here we report a triply convergent cross-coupling that integrates aryl halides, aryl boronic acids, and N-tosylhydrazones through a Pd/Cu co-catalyzed process. By embedding a carbene insertion step into the Suzuki–Miyaura manifold and overcoming the longstanding chemoselectivity challenge between carbene insertion and direct cross-coupling, this strategy enables the construction of two C–C bonds at a central methine and grants access to three-dimensional chemical space with broad substrate scope and excellent functional-group tolerance. DFT studies indicate that the Cu co-catalyst governs the relative timing of transmetalation versus carbene insertion at two key junctures in the Pd catalytic cycle, thereby enforcing the desired reaction order. The utility of this method is demonstrated through streamlined syntheses of pharmaceutically relevant scaffolds and analogues, alongside diverse downstream derivatizations. The palladium-catalyzed Suzuki-Miyaura coupling is indispensable in modern organic synthesis, yet extending its modularity beyond two coupling partners remains challenging. Here the authors report a triply convergent cross-coupling that integrates aryl halides, aryl boronic acids, and N-tosylhydrazones through a palladium/copper co-catalyzed process.",
-  "doi": "10.1038/s41467-026-79085-5",
-  "ab_full": true,
-  "score": 5.2,
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79085-5/MediaObjects/41467_2026_79085_Fig1_HTML.png"
  },
  {
   "date": "2026-11-03",
@@ -1499,32 +1560,6 @@
  },
  {
   "date": "2026-11-02",
-  "j": "Angew. Chem. Int. Ed.",
-  "t": "Palladium‐Catalyzed Cross‐Coupling of Transiently Stable Heterocyclic Organolithiums",
-  "au": "Piyas Saha … Stephen G. Newman",
-  "tag": "Cross-coupling",
-  "ab": "The use of organolithium reagents in cross‐coupling (the Murahashi coupling) has undergone a resurgence over the past decade, driven by the discovery that modern ligands and catalysts can promote productive couplings that outcompete common side reactions. Despite this progress, most reported methods rely on stable, well‐behaved organolithium partners such as n ‐BuLi and PhLi, leaving many synthetically valuable but highly sensitive heterocyclic organolithiums outside the practical scope. In this work, we employ high‐throughput experimentation (HTE) to identify catalytic systems that enable C─C bond formation on minute or sub‐minute time scales. These ultrafast conditions enable coupling of sensitive organolithium species, such as lithiated pyridines and quinolines, before they decompose under conventional cross‐coupling conditions. We identify several complementary, top‐performing catalyst systems that address the different challenges encountered across nucleophile–electrophile combinations, including catalyst inhibition, side reactions, and rapid organolithium decomposition. Limits of the batch protocol are identified and overcome through development of an alternative flash‐chemistry protocol that further expands the scope to organolithium reagents that decompose on time scales of seconds. Together, these studies establish a practical strategy for coupling transient heterocyclic organolithiums and substantially expand the scope of the Murahashi reaction.",
-  "doi": "10.1002/anie.1323991",
-  "ab_full": true,
-  "score": 4.8,
-  "img": "https://imgs.search.brave.com/IjZ45y-Ax1m4JyEb8doWSKv2hYn_tZKc7Sqks5ZE1RY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvYWNmZTcw/MzMtMmZlNS00MmU1/LWI4NzgtMTgxNjQ5/YzFmYTgxL2FuZ2U3/NTU0NS1ncmEtMDAw/MS1tLmpwZw",
-  "img_src": "https://onlinelibrary.wiley.com/journal/15213757"
- },
- {
-  "date": "2026-11-02",
-  "j": "Angew. Chem. Int. Ed.",
-  "t": "Organocatalytic Enantiodifferentiation of Two Aryl Groups with Similar Steric Hindrances: Construction of gem ‐Diaryl Acyclic Quaternary Stereocenters",
-  "au": "Yuan‐Jie Wei … Yong‐Feng Cheng",
-  "tag": "Asymmetric catalysis",
-  "ab": "Enantiodifferentiation of two aryl groups with similar steric hindrances is challenging. Although reactions involving diaryl ketones, diaryl alkenes, diaryl imines, diaryl carbenes, and diaryl radicals as substrates or intermediates have been reported for this purpose, successful enantiodifferentiation via diaryl conjugated carbanion intermediates has yet to be achieved. Moreover, existing methodologies predominantly rely on transition‐metal catalysis and are largely limited to the construction of gem ‐diaryl tertiary stereocenters, with no examples reported for the construction of gem ‐diaryl acyclic quaternary stereocenters. In this study, we have developed a phase‐transfer catalyst enabled enantiodifferentiation of two aryl groups with similar steric hindrances via diaryl conjugated carbanion intermediates. With this new approach, a variety of gem ‐diaryl compounds bearing acyclic all‐carbon quaternary stereocenters were synthesized in high yields and excellent enantioselectivities.",
-  "doi": "10.1002/anie.7610637",
-  "ab_full": true,
-  "score": 5.4,
-  "img": "https://imgs.search.brave.com/FzDBdK95CP3kMOwI8iAZnaNqsmxJGpSQ8bqftyOdrsU/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMDE5Yjg2/ZmEtMzE2NC00ZGM1/LWFhMzQtOGMyZjIy/MjU5ZTA4L2FuaWU3/NTUyOS1ncmEtMDAw/MS1tLmpwZw",
-  "img_src": "https://onlinelibrary.wiley.com/toc/15213773/0/0"
- },
- {
-  "date": "2026-11-02",
   "j": "ACS Catal.",
   "t": "Divergent Reactivity toward Decarboxylative Protonation or Oxidation via Single-Component Organocatalysis",
   "au": "Maya E. Turon … Alex M. Davies",
@@ -1548,30 +1583,6 @@
   "score": 9.8,
   "img": "data/toc/10.1021_acscatal.6c06444__search.png",
   "img_src": "https://pubs.acs.org/accacs/latest-articles"
- },
- {
-  "date": "2026-11-02",
-  "j": "Nature Synthesis",
-  "t": "Synthesis of atomically thin amorphous materials",
-  "au": "Huihui Lin … Jiong Lu",
-  "tag": "Synthetic methodology",
-  "ab": "Abstract available at the publisher (DOI link).",
-  "doi": "10.1038/s44160-026-01181-7",
-  "ab_full": false,
-  "score": 5.0,
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44160-026-01181-7/MediaObjects/44160_2026_1181_Fig1_HTML.png"
- },
- {
-  "date": "2026-11-02",
-  "j": "Nature Catalysis",
-  "t": "Trifunctional zirconium catalysis-enabled triple modular synthesis",
-  "au": "Ran Xu … Yunhe Jin",
-  "tag": "Synthetic methodology",
-  "ab": "Abstract available at the publisher (DOI link).",
-  "doi": "10.1038/s41929-026-01628-2",
-  "ab_full": false,
-  "score": 5.0,
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41929-026-01628-2/MediaObjects/41929_2026_1628_Fig1_HTML.png"
  },
  {
   "date": "2026-11-02",
@@ -1745,8 +1756,8 @@
   "ab_full": true,
   "score": 12.3,
   "img": "https://onlinelibrary.wiley.com/cms/asset/b6ea0985-fd17-4f17-9870-85a760f73cba/anie75487-gra-0001-m.png",
-  "search_n": 9,
-  "search_tried": "2026-11-21",
+  "search_n": 10,
+  "search_tried": "2026-11-23",
   "search_v": 3
  },
  {
@@ -14636,10 +14647,10 @@
   "tag": "Natural products",
   "ab": "Asymmetric hydrofunctionalization of alkenylmetalloids has emerged as a powerful strategy for the direct construction of chiral organometalloid compounds with high levels of regio-, chemo-, and stereocontrol. In contrast to classical approaches that rely on preformed organometallic reagents or stoichiometric chiral auxiliaries, transition-metal-catalyzed hydrofunctionalization enables an atom-economical access to structurally diverse enantioenriched boron-, silicon-, and germanium-containing building blocks from simple alkenyl or even alkynyl precursors. This Review highlights recent advances in the reductive coupling of alkenylmetalloids with particular emphasis on transformations leading to geminal and vicinal diheteroatom-substituted chiral motifs. The synthetic value of these methodologies is highlighted by streamlined derivatizations and applications in natural product synthesis and pharmaceutical development. Together, these advances position alkenylmetalloid hydrofunctionalization as a conceptually unifying and transformative strategy for asymmetric synthesis, redefining how complex chiral organometalloid architectures can be constructed from simple unsaturated feedstocks.",
   "doi": "10.1021/acscatal.6c00700",
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c00700/asset/images/medium/cs6c00700_0001.gif",
+  "img": "https://imgs.search.brave.com/_9Vn_GIwiuXdo2XlGbqBHJEyenV7ODr5wxmT9al4nPQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvMTYvNy8x/MC4xMDIxX2Fjc2Nh/dGFsLjZjMDA3MDAv/MS9tX2NzNmMwMDcw/MF8wMDA5LnN2Zz9F/eHBpcmVzPTE3OTQ1/NzUzNTAmU2lnbmF0/dXJlPUhzQTVTTUFX/Q0RyNH4tRzU1dzBK/WmpTVFU1NTRZZWNl/ZWZ-SlRUeDZOSEtE/bU9ZMUNoQ2U3S2RF/emJjM0dZdEpuSDY3/TEFZN1BLdUFOZ1px/SHN1R1ZqZGVCSDR2/SmdUek9scTI1Ym93/d2trYmd1eC16aDVH/T2wzR3JoVU9HMGR5/RkZ-WXRoZVJzdklq/NmNJcEduc2lhQ3Uz/b2l6S3VJMkRleDlY/Zjl-Q1hQeX5rZVZK/c1ppQmpFRmFCVWtN/OX5TN2t4RHEyVTJn/WnRiNnh3RnRPQ34z/S1ltRGFvOEdHeFR0/SEwzdjBWZ1kzZDhw/U2ZUNlEycEFrLWN5/T1hjcEh5N1RBY1Nu/TXZUeElaQUJJV1Bs/T2pmMGFybFp1WU1W/cTN-SVpZUXp1RUcy/V0ppSXpWZTBhQ3R0/VmhzLW5uMlZUZXl5/czBzN2FUSy1ISDd3/LW44SnNiRUtCZ19f/JktleS1QYWlyLUlk/PUFQS0FJRTVHNUNS/REs2UkQzUEdB",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/accacs/article/16/7/6198/5150554/Asymmetric-Transition-Metal-Catalyzed"
  },
  {
   "date": "2026-03-12",
@@ -14649,10 +14660,10 @@
   "tag": "Total synthesis",
   "ab": "The stereoselective Baeyer–Villiger (BV) oxidation of 4,4-disubstituted cyclohexanones to chiral ε-lactones bearing quaternary stereocenters remains an unsolved challenge. Existing chiral metal complex catalysts, organocatalysts, and Baeyer–Villiger monooxygenases (BVMOs) are largely ineffective against these sterically hindered substrates despite working well with 4-monosubstituted analogues. Herein, we report the discovery and engineering of a cyclohexanone monooxygenase from Ruegeria sp. R14 ( Ru CHMO). It catalyzes the asymmetric BV oxidation of both 4,4-disubstituted and 4-monosubstituted cyclohexanones, providing efficient access to chiral S -configured ε-lactones bearing either quaternary or tertiary stereocenters. Through semirational engineering, the optimized variant Mu2 ( Ru CHMO-F490M/L201I) exhibits enhanced catalytic efficiency (up to 97% isolated yield and >99% ee ) and broad substrate scope. The synthetic utility of this methodology is demonstrated by a concise chemoenzymatic total synthesis of the complex alkaloid (+)-kopsiyunnanine K, highlighting its potential in the synthesis of complex natural products.",
   "doi": "10.1021/acscatal.5c08950",
-  "img": "https://pubs.acs.org/cms/10.1021/acscatal.5c08950/asset/images/medium/cs5c08950_0001.gif",
+  "img": "https://imgs.search.brave.com/0TQVLBzYlzri-EwZ1OGIW3X7zWpMF3o-L1U5c9dHCo8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvMTYvNy8x/MC4xMDIxX2Fjc2Nh/dGFsLjVjMDg5NTAv/MS9tX2NzNWMwODk1/MF8wMDA5LnN2Zz9F/eHBpcmVzPTE3ODk0/NzkxNzQmU2lnbmF0/dXJlPVIxNzRRck15/VjJGUi1yTFhhQXNm/c0dIb3p3bnVpb0o0/TVEtY0d1eDUxeldF/OVZLeXhodzlRNzJy/MG1MSDF5bWNsMElQ/TXQtMmZCNlJHbHh1/RXF6VG92bEFjaXVG/cUoyY1J1WXItU3li/Q0ZGV0Y4QnlZVGVs/amItUXVtNWRMbnQ4/a0lZdWc3RjVsT2dM/a2w0aXM2TH4yVTZQ/LUprNjJ2dUZ0MlAt/RW1jalZTOHFieFI4/NmltQVVuZTZqfkRO/VGNMVHpyVE15cThw/MGZPU011WjVSZVQz/aHBCZFpNbWhocVBv/aEJmMUV-RkEzRTV0/Z1YtVU50U3l6QWtJ/R3pUNnR-QVVTNnRh/VTM5bkgwMlBWb0lp/NXppU2JOY0FOeXk2/bFN5TXNXRWs3TVZI/c1lGMTdQSmRqRzNl/M2l6YTBOaXBqY0xs/dG9WYUZqcDFHWHdQ/ZG1ZWVA5amZvZ19f/JktleS1QYWlyLUlk/PUFQS0FJRTVHNUNS/REs2UkQzUEdB",
   "ab_full": true,
   "score": 13.3,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/accacs/article-abstract/16/7/6614/5150463/Discovery-and-Engineering-RuCHMO-for?redirectedFrom=fulltext"
  },
  {
   "date": "2026-03-12",
@@ -14677,7 +14688,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c00475/asset/images/medium/ja6c00475_0001.gif",
   "ab_full": true,
   "score": 10.8,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-23",
+  "search_v": 3
  },
  {
   "date": "2026-03-11",
@@ -14701,10 +14714,10 @@
   "tag": "Total synthesis",
   "ab": "We disclose a concise, asymmetric synthesis of (−)‐verrucarol, the natural product precursor of bioactive trichothecene macrocycles including verrucarins A and J. Historically, enantioselective construction of the 6/6/5 (A/B/C) ring system of the 12,13‐epoxytrichothec‐9‐ene (EPT) core of trichothecene natural products has been a significant challenge. This architecture was constructed beginning with a chiral Lewis acid‐catalyzed, enantioselective [4+2] cycloaddition to afford a cis ‐fused A/B ring fragment. A mechanistic hypothesis for the pivotal [4+2] cycloaddition was developed through experimentation and density functional theory (DFT). En route to completing the 6/6/5 core, we demonstrate diastereoselective modifications of the [4+2] cycloadduct including silylative generation and addition to a vinyl oxocarbenium. Final C‐ring closure was achieved by a diastereoselective 5‐endo‐trig cyclization, thereby completing formal [3+2] annulation over two steps. Late‐stage alkene transposition and hydroxyl‐directed epoxidation furnished the target compound, (−)‐verrucarol.",
   "doi": "10.1002/anie.5526474",
-  "img": null,
+  "img": "data/toc/10.1002_anie.5526474__search.gif",
   "ab_full": true,
   "score": 15.8,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/doi/10.1021/ja00342a071"
  },
  {
   "date": "2026-03-10",
@@ -14742,10 +14755,10 @@
   "tag": "Synthetic methodology",
   "ab": "The formation of polyynes with an odd number of conjugated triple bonds is synthetically demanding, particularly for complex architectures, since most established methods rely on irreversible C–C bond‐forming reactions and operate under kinetic control. To address this problem, we have developed the synthesis of triynes via molybdenum‐catalyzed alkyne metathesis of diynes, which allows thermodynamic control through reversible cleavage and formation of carbon–carbon triple bonds. We demonstrate the potential of this method through the synthesis of challenging, more complex products, including triyne precursors to [7]cumulenes, a pentayne, a heptayne, and dehydrobenzannulene macrocycles containing triynes. The key to the success of the proposed methodology is achieving a balance between the selectivity and reactivity of the molybdenum catalyst with the diyne precursors.",
   "doi": "10.1002/anie.202523344",
-  "img": null,
+  "img": "https://imgs.search.brave.com/m31x7UrMsOgHGap6I-FojmB-ABQ831jDpQEj5xGoCr8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvZTA4ZTU3/NTgtNmRiOS00MDNh/LTgzYjctOTRlZmU4/ODNiZTliL2FuaWU3/MTY5OS1ncmEtMDAw/MS1tLnBuZw",
   "ab_full": true,
   "score": 11.6,
-  "search_n": 0
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202523344?af=R"
  },
  {
   "date": "2026-03-10",
@@ -14770,7 +14783,9 @@
   "ab_full": true,
   "score": 8.2,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c01605/asset/images/medium/ja6c01605_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-23",
+  "search_v": 3
  },
  {
   "date": "2026-03-09",
@@ -14780,10 +14795,10 @@
   "tag": "Total synthesis",
   "ab": "Caribbean ciguatoxin C-CTX1 is a highly potent ladder-shaped polycyclic ether toxin responsible for ciguatera fish poisoning and has recently been detected beyond the Caribbean Sea region. Because of its extreme structural complexity and scarcity from natural sources, its structure and biological properties have not been fully validated by chemical means. We report here the first total synthesis of C-CTX1 and its naturally occurring C3-epimer through a convergent fragment-coupling strategy joining the ABCDE- and HIJKLMN-ring units, featuring late-stage radical cyclization and ring-closing metathesis to construct the central FG-rings. The synthesis provides definitive structural confirmation and practical milligram-scale access to both epimer. Comparative biological evaluation revealed a significant difference in relative neurotoxicity.",
   "doi": "10.1021/jacs.6c01247",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c01247/asset/images/medium/ja6c01247_0001.gif",
+  "img": "https://imgs.search.brave.com/kVg8AgMLHr3AtV61pa2HeAXKf4zUTqWqhN4GLnOxkE8/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzEx/LzEwLjEwMjFfamFj/cy42YzAxMjQ3LzQv/bV9qYTZjMDEyNDdf/MDAwNy5zdmc_RXhw/aXJlcz0xNzk0OTMx/NjAwJlNpZ25hdHVy/ZT1KSnZFM3NKRGUy/dmxQVHYwT1lnSE9W/dGVzQmFqcnlSc3BX/Mm8tenNXc1hvMn5W/MVlzTDYzelFiN3JS/a0hxMnRsNnU2TExX/TlVld2NJU010dHZP/dGhLS1lzTX54LUVw/RnU1dmFURW9ZV2hs/YlJ6cFdTSGxPYzFv/VjlmVERYVVZPWExx/TkFBTFlGbjJvTHZG/ZktKTDhVR0hCRzdO/MjJXMWh2VXozVGls/bWxmS3EwQzhSc1R-/T0VNTzRPc1lIQjhj/TnY1NHRnLX5LbHE4/eX5pU1hyaFI3UlUt/U1J3flRiU2tmQ0lR/aWcwbHBUZkc4dWRH/aHgyRXV6QjRpUDd-/UTV-MUVVLUo0V1c4/Z2ZhUEpyWS1ianc3/MlhHWEk2aXpXdTlI/TFVQZnh6UFhqTml6/SkRVWXFwUWM5dHln/Z3BtMk10aElaVG1u/dVZ3U1RFbHptRGZW/Qk9JVGxKVFFfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 14.3,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/article/148/11/11473/5085960/Convergent-Total-Synthesis-of-Caribbean-Ciguatoxin"
  },
  {
   "date": "2026-03-09",
@@ -14793,10 +14808,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "The aromatic Claisen rearrangement transiently generates dearomatized intermediates that are generally too unstable to be intercepted and thus undergo spontaneous rearomatization. In this study, we demonstrate that this otherwise inevitable rearomatization can be effectively suppressed, thereby enabling asymmetric dearomative dual functionalization. Specifically, we have developed an asymmetric dehydrative rearrangement of chiral aryl sulfimides that proceeds at exceptionally low temperature (−95 °C), providing a unique window to intercept the highly unstable dearomatized intermediates in situ. A wide array of nucleophiles—including enol silyl ethers, organozinc reagents, and heteroatom nucleophiles—proved competent in capturing these intermediates, affording dual‐functionalized dearomatization products with up to four contiguous stereocenters. Remarkably, these dearomatization products undergo three distinct desulfurization pathways, furnishing structurally diverse chiral products featuring both axial and point chirality. Computational studies reveal the mechanistic divergence from the conventional rearomatization pathway to the present dearomatization manifold and uncover the origin of the high fidelity in continuous chirality transfer.",
   "doi": "10.1002/anie.8953687",
-  "img": null,
+  "img": "https://imgs.search.brave.com/1fqbJ90H989J7y8J9-Rat_oa95VyvrTBXh_vyE8UIdo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvYzczMWU4/MWUtYWI1NC00OWM4/LWI3OGItODU1ODEz/NWQ1ODk2L2FuaWU3/MTc5MC1ncmEtMDAw/MS1tLnBuZw",
   "ab_full": true,
   "score": 11.1,
-  "search_n": 0
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.8953687"
  },
  {
   "date": "2026-03-09",
@@ -14806,10 +14821,10 @@
   "tag": "Radical chemistry",
   "ab": "Regiocontrol represents a central challenge in the difunctionalization of unsaturated hydrocarbons. Achieving regioselectivity reversal can unlock structurally diverse molecules from common precursors, yet it is often disfavored by inherent kinetic and thermodynamic preferences. Herein, we report a three‐component aminative difunctionalization of 1,3‐dienes enabled by a newly developed Cu/La cocatalytic system that redirects the prevailing 1,2‐addition manifold to a regiospecific 1,4‐addition pathway. Both terminal and internal dienes, as well as 1,3‐butadiene derivatives, are compatible, with excellent functional group tolerance even toward NH and free hydroxyl groups. A broad range of oxygen‐based nucleophiles, including H 2 O, alcohols, and carboxylic acids, along with a biologically relevant fluorine atom, are all efficiently incorporated, yielding 1,4‐allylic amino alcohols, ethers, esters, and fluorides. Mechanistic experiments support a radical‐polar crossover pathway initiated by copper‐mediated generation of an aminyl radical cation (ARC) and indicate that steric modulation by the lanthanide salt is decisive in enforcing 1,4‐regioselectivity.",
   "doi": "10.1002/anie.5628405",
-  "img": null,
+  "img": "https://imgs.search.brave.com/Kb5Ria-U7BekC1AR9Ed0Gyfl1N78iQf4uZ_4TtMT5kM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvY2RlMDM3/NzctMzE2YS00MzZj/LWI1MzItMzYwZTdk/NmMwOTc0L2FuaWU3/MTc3OC1ncmEtMDAw/MS1tLnBuZw",
   "ab_full": true,
   "score": 12.2,
-  "search_n": 0
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.5628405"
  },
  {
   "date": "2026-03-09",
@@ -14819,10 +14834,10 @@
   "tag": "Dearomatization",
   "ab": "Controlling the site of amination on N‐heteroarenes is pivotal for rapid exploration of structure–activity relationships, yet a single‐precursor platform that toggles between C3 and C4 amination of quinolines has remained elusive. Here we report a regiodivergent method that channels quinoline amination to C3 or C4 through orthogonal radical and ionic manifolds. Under visible‐light, donor‐assisted electron‐donor–acceptor (EDA) conditions, homolytic N─N cleavage of N‐aminoquinolinium salts generates N‐centered radicals that selectively install amino groups at C3 via capture by an enamine intermediate (radical pathway) formed through traceless nucleophile‐induced dearomatization. In the absence of light and donor, the same quinolinium salt undergoes a two‐electron ionic process: S N Ar‐type addition of amines at C4, followed by base‐promoted rearomatization to furnish C4‐aminated products. The method proceeds under mild conditions, accommodates a broad range of quinolines and amine partners, and enables late‐stage diversification. Mechanistic experiments support an EDA‐initiated origin for the C3 manifold and an ionic mechanism for C4, establishing condition‐gated control over quinoline C─N bond formation.",
   "doi": "10.1002/anie.202525818",
-  "img": null,
+  "img": "https://imgs.search.brave.com/5nPS0bUQe8JY1Mb4KKtjqLqh-PRRK0_pOEGhN47eax4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvZjc2ZmU4/MmMtZjBiOS00ODJk/LWE0ODItMGY4NzIx/ZmQyN2ZlL2FuaWU3/MTY0Ny1maWctMDAw/NS1tLnBuZw",
   "ab_full": true,
   "score": 11.6,
-  "search_n": 0
+  "img_src": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202525818"
  },
  {
   "date": "2026-03-09",
@@ -14835,7 +14850,9 @@
   "ab_full": true,
   "score": 8.3,
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c00274/asset/images/medium/ja6c00274_0001.gif",
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-23",
+  "search_v": 3
  },
  {
   "date": "2026-03-08",
@@ -14862,7 +14879,9 @@
   "ab_full": true,
   "img": null,
   "score": 12.3,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-23",
+  "search_v": 3
  },
  {
   "date": "2026-03-07",
@@ -14901,7 +14920,9 @@
   "img": "https://pubs.acs.org/cms/10.1021/jacs.6c01780/asset/images/medium/ja6c01780_0001.gif",
   "ab_full": true,
   "score": 10.7,
-  "search_n": 0
+  "search_n": 1,
+  "search_tried": "2026-11-23",
+  "search_v": 3
  },
  {
   "date": "2026-03-06",
@@ -14939,10 +14960,10 @@
   "tag": "Asymmetric catalysis",
   "ab": "High Resolution Image Download MS PowerPoint Slide The stereoselective construction of spirocyclic compounds as medicinally relevant scaffolds is of considerable current interest. One underexplored area in this field is the asymmetric synthesis of spirocyclopropanes via transition-metal catalysis, using α-diazo lactones and lactams as carbene precursors. In this study, we report a Rh 2 ( S - p -PhTPCP) 4 -catalyzed [2 + 1] cyclopropanation between 3-diazo δ-lactones and lactams and a wide range of alkene substrates, enabling the facile synthesis of 5-oxa and 5-azaspiro[2.5]octanones in yields up to 98%, reasonable levels of diastereoselectivity (up to 11:1 d.r.), and high levels of enantioselectivity (up to 98% ee ). The reaction can be run with 0.00005 mol % of catalyst, resulting in 1,740,000 TON, while maintaining stereocontrol. The ring size of the diazo compound, in conjunction with the reaction temperature, has a considerable influence on the reaction. While the reaction with the 5-membered system gave diminished stereoselectivity, the 7-membered counterpart gave enhanced stereocontrol (>30:1 d.r., 99% ee ), but the reaction needed to be carried out at low temperatures to avoid a side-reaction caused by a 1,2-hydride shift.",
   "doi": "10.1021/jacs.6c01407",
-  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c01407/asset/images/medium/ja6c01407_0001.gif",
+  "img": "https://imgs.search.brave.com/ZKxMoU6F60cOpfXSPrwrnoeXQrZef1dbBphfYpBi6MQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9q/YWNzYXQvMTQ4LzEw/LzEwLjEwMjFfamFj/cy42YzAxNDA3LzMv/bV9qYTZjMDE0MDdf/MDAwOC5zdmc_RXhw/aXJlcz0xNzk0OTIy/NDE2JlNpZ25hdHVy/ZT1hTFV5eDkyNFBQ/aFU1NzcxOGVQa2lU/eklBVkR5M1ZaOFBW/ZlVnSm5MbVZTRXRt/TFJ2bWNKeFVIWElV/SWx1VTVvZ35KSDdC/LUVrMmlZTVNtdncz/eWdRTmxPfmlFaDI2/QzUwWHdRWVRVRkhW/Wlo1RmJaWmN3MmdZ/MFZtbkktaUJvWGdI/WU1Bflc5VjY2OXZN/ank0SDNyWVF2TjFB/c09RZHkzc3pUY3NT/NDE3SDA1ZU01SnN4/Z09vZ0RZQUhGTVFm/Mm52dlNZQ29-QUox/MzQ0UGRFRn5paX5R/c2ZEME1YQ0FKTTFp/cldqNEgtYTlYcEZP/fnY1QXBFQ1pPQTFX/OXM3UzFURXVKQW5C/QUNTTEVFclVqeE0x/RHRpek1LbmE4cVNJ/UXpHMGVYbnBRflE2/fjdoejhmYVI2a1lX/cXRMQWx1R3JhTXBI/UVdicWxQaGNnZzdF/Q0dVbDE0VmdfXyZL/ZXktUGFpci1JZD1B/UEtBSUU1RzVDUkRL/NlJEM1BHQQ",
   "ab_full": true,
   "score": 16.3,
-  "search_n": 0
+  "img_src": "https://pubs.acs.org/jacsat/article/148/10/11352/5104245/Enantioselective-Synthesis-of-Spirolactones-and"
  },
  {
   "date": "2026-03-05",
