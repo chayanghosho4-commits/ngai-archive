@@ -1,5 +1,71 @@
 [
 {
+"doi": "10.1021/jacs.6c19550",
+"j": "J. Am. Chem. Soc.",
+"t": "Catalytic Enantiodivergent Neophyl Rearrangement",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c20756",
+"j": "J. Am. Chem. Soc.",
+"t": "Enantioconvergent N -Alkylation of Indoles with Alcohols Promoted by an Axially Chiral Iridacycle",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.3874961",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Enantioselective C(sp 3 )–C(sp 3 ) Radical Coupling Through Photoinduced Electron Donor–Acceptor Activation",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.4735947",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Enantioselective Enyne Cyclization to Thermodynamically Favored Endocyclic Alkenes via a Rhodium‐Migration Relay",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c06974",
+"j": "ACS Catal.",
+"t": "Regio- and Enantioselective Allylboration of 1,3-Dienes",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c19159",
+"j": "J. Am. Chem. Soc.",
+"t": "Enantioselective Radical Difunctionalization of Bicyclo[1.1.0]butanes via Carbonyl Catalysis: Access to Multisubstituted Cyclobutanes",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.6010930",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Copper‐Catalyzed Enantioconvergent 1,4‐Difunctionalization of Homoallylic and Homopropargylic Alcohols via Radical‐Relay Deoxygenation",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.6303348",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Enantioselective Coupling of 1,3‐Dienes and Vinyl Acetate for the Synthesis of Succinic Acids and β‐ and γ‐Amino Acids",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.5406071",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Nickel‐Catalyzed Enantio‐ and Regioselective Addition of Silicon and Boron Nucleophiles to Methylene Cyclobutene for the Construction of Quaternary Stereocenter",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.8795143",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Diversified Synthesis of Nonclassical C ‐Glycosides Through Cooperative N ‑Heterocyclic Carbene and Photoredox Catalytic Acylation",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c07465",
+"j": "ACS Catal.",
+"t": "Cobalt-Catalyzed Oxygen-Ligand Transfer to Carbon Radicals",
+"m": "2026-11"
+},
+{
 "doi": "10.1002/anie.3685132",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Thiophenol‐Catalyzed Anti ‐Markovnikov Coupling of α ‐Methylene‐ γ ‐Butenolides Under Visible Light: Total Synthesis of Aucklappalide A",
@@ -39,24 +105,6 @@
 "doi": "10.1002/anie.4154533",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Catalytic Aziridination With Simple Acyl Azides via Validated Copper‐Acyl Nitrenes",
-"m": "2026-11"
-},
-{
-"doi": "10.1002/anie.5474223",
-"j": "Angew. Chem. Int. Ed.",
-"t": "PCET beyond p K a : Disaggregation and Additional Base Effects as Neglected Key Factors for Unlocking Inaccessible Substrates in Direct Intermolecular Photocata",
-"m": "2026-11"
-},
-{
-"doi": "10.1002/anie.1248883",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Gold‐Catalyzed “Anti‐Baldwin” Cyclization of Unactivated Alkenes",
-"m": "2026-11"
-},
-{
-"doi": "10.1002/anie.1618909",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Photoinduced Homolytic Carbon–Palladium Bond Cleavage of Zwitterionic π ‐Allylpalladium Species and Annulation with 1,3‐Dienes and 1,3‐Enynes",
 "m": "2026-11"
 },
 {
@@ -162,12 +210,6 @@
 "m": "2026-11"
 },
 {
-"doi": "10.1002/anie.2410017",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Palladium‐Catalyzed Efficient Construction of Indole‐Fused Azetidines With Diaziridinone as a Unique Oxidant",
-"m": "2026-11"
-},
-{
 "doi": "10.1002/anie.7952040",
 "j": "Angew. Chem. Int. Ed.",
 "t": "A Carbazole‐Cored Photocatalyst Enabled Cu‐Catalyzed Asymmetric Hydroalkynylation of Acyl Azetidines and Cyclopropanes Through Hydrogen‐Bond‐Donor‐Coupled Elect",
@@ -186,21 +228,9 @@
 "m": "2026-11"
 },
 {
-"doi": "10.1002/anie.9040375",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Bifunctional Ligand‐Enabled Au(I)‐Catalyzed trans‐Reduction of Alkynes to ( E )‐Alkenes",
-"m": "2026-11"
-},
-{
 "doi": "10.1002/anie.5898788",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Expedient Photochemical Synthesis of syn‐Ladderanes",
-"m": "2026-11"
-},
-{
-"doi": "10.1021/acscatal.6c07875",
-"j": "ACS Catal.",
-"t": "Cross-Selective Alkyl–Alkyl Negishi Coupling at Isolable, High-Spin ( S = 3/2) Cobalt(II)–Alkyl Catalysts",
 "m": "2026-11"
 },
 {
@@ -306,12 +336,6 @@
 "m": "2026-11"
 },
 {
-"doi": "10.1002/anie.5777117",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Divergent CO Functionalization at Anionic Molybdenum Hydrides",
-"m": "2026-11"
-},
-{
 "doi": "10.1002/anie.8236861",
 "j": "Angew. Chem. Int. Ed.",
 "t": "De Novo Synthesis of a Highly Strained and Twisted Imide‐Bridged Bicyclic Scaffold",
@@ -327,12 +351,6 @@
 "doi": "10.1002/anie.4328281",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Heterogeneous Palladium‐Catalyzed Trideuteromethylation and 13 C‐Trideuteromethylation of Arylboron Compounds via D 2 O as the Deuterium Source",
-"m": "2026-11"
-},
-{
-"doi": "10.1126/science.aek2174",
-"j": "Science",
-"t": "Expanding global access to GLP-1s: Challenges and opportunities",
 "m": "2026-11"
 },
 {
@@ -393,12 +411,6 @@
 "doi": "10.1021/acscatal.6c07775",
 "j": "ACS Catal.",
 "t": "Harnessing Entropy for Switchable Radical Cyclization Cascades",
-"m": "2026-11"
-},
-{
-"doi": "10.1002/anie.7491177",
-"j": "Angew. Chem. Int. Ed.",
-"t": "Phenonium‐Ion‐Mediated Skeletal Editing of Paracyclophanes",
 "m": "2026-11"
 },
 {
