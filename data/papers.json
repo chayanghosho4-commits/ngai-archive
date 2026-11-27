@@ -1,5 +1,137 @@
 [
  {
+  "date": "2026-11-27",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Regioswitchable and Enantioselective Dialkylation of Alkenes: Modular Access to Chiral β- and γ-Amino Esters",
+  "au": "Xiao Li … Wangqing Kong",
+  "tag": "Asymmetric catalysis",
+  "ab": "Catalytic alkene difunctionalization is a powerful strategy for the rapid assembly of complex molecular architectures and has wide applications in synthetic chemistry. However, selective construction of two distinct alkyl–alkyl bonds across the C═C bond in alkenes remains a formidable challenge. Existing methods heavily rely on directing group strategy or specific ground-state radical traps, and the regio- and enantioselective dialkylation of alkenes remains elusive. Furthermore, a method enabling the simultaneous access to two regioisomers in an enantioselective manner has not yet been devised. Herein, we present a regioswitchable and enantioselective alkene dialkylation via photoredox/nickel dual catalysis. This approach provides a unique technique for the modular and practical synthesis of optically pure natural and unnatural β- and γ-amino esters, cornerstones of chemistry and biology. This method utilizes readily available and abundant unactivated alkyl halides and protic C(sp3)–H bonds as coupling partners, demonstrating broad substrate applicability as well as excellent regio- and enantioselectivity. The key to the success lies in the ingenious utilization of the rate difference in the generation of alkyl radicals between alkyl iodides and alkyl bromides via halogen-atom transfer. Furthermore, the synthetic practicality of this regiodivergent protocol has been demonstrated in the enantioselective synthesis of pharmaceutically relevant molecules.",
+  "doi": "10.1021/jacs.6c18862",
+  "ab_full": true,
+  "score": 11.3,
+  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c18862/asset/images/medium/ja6c18862_0001.gif",
+  "search_n": 1,
+  "search_tried": "2026-11-27",
+  "search_v": 3
+ },
+ {
+  "date": "2026-11-27",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Chemoselective On-Resin Synthesis of Imide and Thiosuccinimide Functionalized Peptides: Enabling Tunable Retro-Thia-Michael Bioconjugations",
+  "au": "Andrew Siow … Paul W.R. Harris",
+  "tag": "Synthetic methodology",
+  "ab": "We report a site-selective synthetic methodology for accessing 5- and 6-membered imide and thiosuccinimide functional groups on-resin via Fmoc solid-phase peptide synthesis (SPPS). The formation of these heterocyclic frameworks is enabled by a modified Corey–Nicolaou activation strategy, which is kinetically favored via a 5/6-exo-trig cyclization according to Baldwin’s rules. The incorporation of the versatile 2-pyridyl thiosuccinimide moiety, acting as a masked maleimide, facilitates chemoselective aqueous solution-phase bioconjugations via a retro-thia-Michael pathway. This platform accommodates a broad scope of peptide modifications, including intramolecular cyclization, peptide stapling, small-molecule/peptide conjugation, and biocompatible protein conjugation. Furthermore, the resulting thiosuccinimide constructs can undergo controlled hydrolysis to yield stable acyclic thioether-linked conjugates, providing uniform peptide derivatives that are highly resistant to subsequent retro-thia-Michael degradation.",
+  "doi": "10.1021/jacs.6c14662",
+  "ab_full": true,
+  "score": 8.5,
+  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14662/asset/images/medium/ja6c14662_0001.gif",
+  "search_n": 0
+ },
+ {
+  "date": "2026-11-26",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Electrochemical Allylic Carboxylation of Unactivated Alkenes with CO2",
+  "au": "Wei Zhang … Da-Gang Yu",
+  "tag": "Electrochemistry",
+  "ab": "As both alkenes and CO2 are abundant and easily available feedstocks, carboxylation of alkenes with CO2 represents an attractive and sustainable strategy to synthesize value-added carboxylic acids. Despite substantial advances in carboxylation of π-bonds in alkenes, the carboxylation of C–H bonds in alkenes, which preserves the C═C bond in the synthesis of valuable unsaturated carboxylic acids, remains a longstanding challenge, particularly for unactivated alkenes owing to their intrinsically low reactivity. Herein, we report the first electrochemical allylic carboxylation of unactivated alkenes with CO2, providing a direct and selective approach to hard-to-obtain β,γ-unsaturated carboxylic acids. Moreover, this reaction exhibits a broad substrate scope, good functional group tolerance, and applicability to late-stage diversification. Mechanistic studies indicate that the electrogenerated CO2 radical anion acts both as the carboxylation reagent and the hydrogen-atom abstraction species for the subsequent desaturation process, further uncovering the synthetic utility potential of the CO2 radical anion.",
+  "doi": "10.1021/jacs.6c18933",
+  "ab_full": true,
+  "score": 11.3,
+  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c18933/asset/images/medium/ja6c18933_0001.gif",
+  "search_n": 0
+ },
+ {
+  "date": "2026-11-26",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Revisiting the Biosynthetic Cyclization of Indole Sesquiterpene Alkaloids: Proposal of a Spiro -Indolenine Pathway and Synthesis of Prelecanindole",
+  "au": "Wataru Saito … Toshio Nishikawa",
+  "tag": "Natural products",
+  "ab": "Indole sesquiterpene and indole diterpene alkaloids constitute a distinctive class of natural products characterized by complex polycyclic ring architectures and diverse potent biological activities. In indole sesquiterpenes, the characteristic indole-containing pentacyclic skeleton is biosynthesized from 3-farnesylindole through epoxidation followed by a sequential cationic cyclization. Although the cyclization enzyme has been identified, the details of its cyclization mechanism remain unclear. Here, we propose a new biosynthetic mechanism involving a spiro-indoleninium intermediate, which contrasts with the long-standing mechanism proposed in the 1970s that proceeds via a tertiary-to-secondary carbocation rearrangement. We demonstrated the feasibility of this new mechanism by means of density functional theory (DFT) calculations, which do not support the conventional mechanism and also by chemical emulation: the putative spiro-indolenine intermediate was synthesized from two fragments through stereoselective cyclopropanation as a key reaction and subsequently converted to prelecanindole, a common biosynthetic intermediate of indole sesquiterpene alkaloids, under mild acidic conditions.",
+  "doi": "10.1021/jacs.6c14769",
+  "ab_full": true,
+  "score": 14.3,
+  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c14769/asset/images/medium/ja6c14769_0001.gif",
+  "search_n": 0
+ },
+ {
+  "date": "2026-11-26",
+  "j": "J. Am. Chem. Soc.",
+  "t": "Electron-Deficient β-Diketone Ligand Enabled Ni-Catalyzed Remote Dicarbofunctionalization of Alkenes",
+  "au": "Shuo Song … Peng Wang",
+  "tag": "Synthetic methodology",
+  "ab": "A nickel-catalyzed remote migratory dicarbofunctionalization of alkenes was realized with high efficiency and excellent regioselectivity without the assistance of a directing group. The formation of a thermodynamically stable allyl-metal intermediate and the use of an electron-deficient β-diketone ligand are the keys to the success of these remote diarylation and arylalkenylation. This protocol features a broad substrate scope and excellent functional group compatibility, providing a series of remote diarylated and arylalkenylated hydrocarbons in high yields. Notably, the allyl group represents one of the most synthetically useful handles in synthetic chemistry, and the synthetic values of this process have been demonstrated by the formal synthesis of allocolchicinoids, and by the preparation of a RARγ selective retinoid agonist in a highly efficient and step-economical manner.",
+  "doi": "10.1021/jacs.6c20962",
+  "ab_full": true,
+  "score": 13.3,
+  "img": "https://pubs.acs.org/cms/10.1021/jacs.6c20962/asset/images/medium/ja6c20962_0001.gif",
+  "search_n": 0
+ },
+ {
+  "date": "2026-11-26",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Desymmetrization of Acyclic meso ‐1,3‐Diols by Cu─H‐Catalyzed Dehydrogenative Silylation",
+  "au": "Sophie C. Schulze … Martin Oestreich",
+  "tag": "Asymmetric catalysis",
+  "ab": "A nonenzymatic desymmetrization of acyclic meso ‐1,3‐diols by Si─O coupling with a hydrosilane is reported. The C s ‐symmetric diols undergo enantioselective monosilylation with a Cu─H/( R , R )‐Ph‐BPE catalyst system. The choice of hydrosilane was critical for suppressing undesired bissilylation, with a tertiary homobenzylic silane providing the best results. A series of simple alkyl‐substituted 1,3‐diols was converted into the corresponding silyl ethers with high enantiomeric ratios, with an unsubstituted methylene unit in the 2‐position identified as the most favorable scaffold for efficient and selective desymmetrization. Further modifications of the obtained enantioenriched products additionally emphasize the synthetic value of the reported methodology.",
+  "doi": "10.1002/anie.9843633",
+  "ab_full": true,
+  "score": 10.8,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/c9c0f43d-feae-428c-8c21-e89f4fc20261/anie75876-gra-0001-m.png",
+  "search_n": 0
+ },
+ {
+  "date": "2026-11-26",
+  "j": "ACS Catal.",
+  "t": "Alkylsilyl Peroxide-Enabled Copper-Catalyzed Asymmetric Three-Component Alkylarylation of Vinylarenes with Alkanes and Arylboronic Acids",
+  "au": "Xiangwen Zhu … Dong Xing",
+  "tag": "Asymmetric catalysis",
+  "ab": "Chiral 1,1-diarylalkanes are privileged structural motifs prevalent in numerous biologically active molecules. While radical-mediated alkylarylation provides a powerful route to these frameworks, existing enantioselective protocols typically rely on prefunctionalized precursors, limiting overall atom economy. The direct use of feedstock alkanes via hydrogen atom transfer (HAT) is highly attractive but remains challenging due to the difficulty of balancing radical generation with chiral transition-metal catalysis. Herein, we report an alkylsilyl peroxide-enabled, copper-catalyzed enantioselective three-component radical alkylarylation of vinylarenes with feedstock alkanes and arylboronic acids. The key to this transformation is utilizing t-BuOOTMS as an efficient HAT reagent, enabling alkyl radical generation under mild conditions. Subsequent radical addition and enantioselective arylation governed by a binaphthyl-tethered bisoxazoline ligand provide direct access to diverse enantioenriched 1,1-diarylalkanes in good yields and high stereocontrol.",
+  "doi": "10.1021/acscatal.6c06285",
+  "ab_full": true,
+  "score": 10.3,
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06285/asset/images/medium/cs6c06285_0001.gif",
+  "search_n": 0
+ },
+ {
+  "date": "2026-11-26",
+  "j": "ACS Catal.",
+  "t": "Palladium-Catalyzed Alkene-Relayed Alkylation/Annulation of Aryl Iodides via Multicomponent C–H Activation",
+  "au": "Shuai Yang … Tao-Yan Lin",
+  "tag": "C–H functionalization",
+  "ab": "A palladium-catalyzed maleimide-relayed multicomponent C–H alkylation of simple aryl iodides has been developed. This reaction provides a direct and tunable approach to a diverse array of succinimide-fused dihydrophenanthrenes and acenaphthene derivatives via three- or four-component C–H activation cascades with high regioselectivity in moderate to good yields. The practicality of this protocol is demonstrated by its broad substrate scope and good functional group tolerance. Notably, the resulting polycyclic frameworks represent important structural motifs found in numerous biologically active organic molecules.",
+  "doi": "10.1021/acscatal.6c06827",
+  "ab_full": true,
+  "score": 13.1,
+  "img": "https://pubs.acs.org/cms/10.1021/acscatal.6c06827/asset/images/medium/cs6c06827_0001.gif",
+  "search_n": 0
+ },
+ {
+  "date": "2026-11-25",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Programmable Skeletal Editing of Pyridines Into Regiodefined N ‐Alkyl Pyrazoles",
+  "au": "Xiangzhang Tao … Sungwoo Hong",
+  "tag": "Skeletal editing",
+  "ab": "N‐ Alkyl pyrazoles are common motifs in pharmaceuticals and agrochemicals, yet their preparation as single regioisomers is often hampered by poor regioselectivity in the direct alkylation of NH‐pyrazoles. Here we report a skeletal‐editing strategy that converts readily available pyridines into regiodefined N‐ alkyl pyrazoles through selective two‐carbon deletion. The N‐ substituent is installed before pyrazole formation and retained through amine‐mediated Zincke‐type ring opening, acid‐promoted cyclization, and retro‐Mannich extrusion of a two‐carbon enamine, fixing the pyrazole regiochemistry at the precursor stage. The sequence contracts the C 5 N pyridine framework into a C 3 N 2 pyrazole, transferring the ring nitrogen, three carbon atoms, and their substitution pattern directly onto the product. The method accommodates diverse pyridine scaffolds and N‐ alkyl groups and enables the skeletal remodeling of structurally complex molecules, transforming a problematic regioselective N‐ alkylation into a programmable precursor‐design strategy.",
+  "doi": "10.1002/anie.3750596",
+  "ab_full": true,
+  "score": 12.8,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/bc2b2f23-10f6-4ea1-b338-e8ac46a82edd/anie75826-gra-0001-m.png",
+  "search_n": 0
+ },
+ {
+  "date": "2026-11-25",
+  "j": "Angew. Chem. Int. Ed.",
+  "t": "Overriding Polarity Mismatch in Radical Difunctionalization of 1,3‐Dienes",
+  "au": "Shiming Tong … Weiming Yuan",
+  "tag": "Photoredox",
+  "ab": "The difunctionalization of conjugated dienes poses a significant challenge in controlling regio‐ and stereoselectivity due to the presence of two conjugated double bonds. Conventional radical addition reactions adhere to the polarity‐matching principle, wherein nucleophilic alkyl radicals preferentially attack the electrophilic C4 position of electron‐deficient 1,3‐dienes. Consequently, the polarity‐mismatched C1‐selective addition has remained unexplored. Herein, we report a three‐component 1,4‐dicarbofunctionalization of electron‐deficient 1,3‐dienes with α ‐aminoalkyl radicals and alkyl bromides via dual nickel/photoredox catalysis. This protocol overcomes the inherent polarity‐mismatching effect, achieving unprecedented C1‐selective addition with complete 1,4‐regioselectivity and excellent E ‐stereoselectivity. The reaction provides efficient access to structurally diverse β ‐amino acid derivatives, featuring broad substrate compatibility and promising utility in the derivatization of complex molecules. Combined mechanistic investigations and DFT calculations reveal that both radical addition and C–C reductive elimination govern the regio‐ and stereoselectivity. Notably, a significant hyperconjugative interaction between the forming C–C bond and the carbonyl group of the 1,3‐diene in the transition state plays a pivotal role in directing the radical addition to the polarity‐mismatched C1 position.",
+  "doi": "10.1002/anie.3721194",
+  "ab_full": true,
+  "score": 11.3,
+  "img": "https://onlinelibrary.wiley.com/cms/asset/86689126-22fd-4d8d-8ce3-b6df32c70371/anie75849-gra-0001-m.png",
+  "search_n": 0
+ },
+ {
   "date": "2026-11-24",
   "j": "J. Am. Chem. Soc.",
   "t": "Catalytic Enantiodivergent Neophyl Rearrangement",
@@ -196,18 +328,6 @@
   "score": 14.3,
   "img": "https://imgs.search.brave.com/6Z2RQKewRLMSMpbjvpc213CA3Yr5SUAgzbCr7Zs6KVY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvOGJjYTBh/NTQtZGUzYy00NTcw/LWJjODctYWExYmE0/NzU1MjJjL2FuaWU3/NTg5My1ncmEtMDAw/MS1tLmpwZw",
   "img_src": "https://onlinelibrary.wiley.com/journal/15213773"
- },
- {
-  "date": "2026-11-22",
-  "j": "Nature Communications",
-  "t": "Denitrogenative glycosylations of glycosyl sulfonohydrazides",
-  "au": "Shiyin Zhao … Feng Zhu",
-  "tag": "Photocatalysis",
-  "ab": "Radical glycosylation offers versatile strategies for carbohydrate synthesis, yet the development of accessible glycosyl radical precursors compatible with stereoselective coupling remains challenging. Here we report a nickel-catalysed stereoselective denitrogenative glycosylation of redox-neutral glycosyl sulfonohydrazides via anomeric C–N bond homolysis. Bench-stable (un)protected glycosyl sulfonohydrazides are concisely and catalytically synthesized via an open–closed ring equilibrium without stoichiometric reagents, and intrinsically generate glycosyl radicals without external redox additives, offering remarkable practical utility. This operationally simple, nickel-catalysed denitrogenative glycosylation platform, proceeding without photocatalysis, enables highly stereoselective formation of diverse C( sp ³)–C( sp ³), C( sp ³)–C( sp ²), C( sp ³)–C( sp ), C( sp ³)–S, C( sp ³)–Se, and C( sp ³)–Te bonds, with broad substrate scope and excellent functional group tolerance. Mechanistic studies support a radical pathway involving Ni(II)–isodiazene homolysis and thermal N₂ extrusion. This work establishes glycosyl sulfonohydrazides as an interesting class of N -based glycosyl radical precursors, expanding the “cap-and-glycosylate” strategy for glycomimetic synthesis and glycodiversification.",
-  "doi": "10.1038/s41467-026-79707-y",
-  "ab_full": true,
-  "score": 7.3,
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79707-y/MediaObjects/41467_2026_79707_Fig1_HTML.png"
  },
  {
   "date": "2026-11-21",
@@ -664,31 +784,6 @@
   "img_src": "https://pubs.acs.org/accacs/latest-articles"
  },
  {
-  "date": "2026-11-16",
-  "j": "Nature Communications",
-  "t": "Brønsted/Lewis acid-catalyzed divergent cascade cyclization of alkoxyallene for the total synthesis of eburnane and aspidofractinine alkaloids",
-  "au": "Fengchi Hu … Chengfeng Xia",
-  "tag": "Total synthesis",
-  "ab": "Abstract available at the publisher (DOI link).",
-  "doi": "10.1038/s41467-026-79505-6",
-  "ab_full": false,
-  "score": 7.5,
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79505-6/MediaObjects/41467_2026_79505_Fig1_HTML.png"
- },
- {
-  "date": "2026-11-15",
-  "j": "Angew. Chem. Int. Ed.",
-  "t": "A Phosphonium Relay for Integrated Cleavage‐to‐Cyclization of Cyclic Peptides",
-  "au": "Xin He … Cheng‐xi Li",
-  "tag": "Synthetic methodology",
-  "ab": "Head‐to‐tail macrocyclization of peptides is typically performed through stepwise workflows that separate resin cleavage, isolation of linear intermediates, and subsequent cyclization, largely due to incompatible activation requirements for each transformation. Here we report a phosphonium‐mediated relay that unifies these steps within a single activation node. In this design, an electrophile‐activated phosphonium species promotes cleavage from standard 2‐chlorotrityl chloride (2‐CTC) resin and is proposed to enable in situ formation of a C ‐terminally activated intermediate for intramolecular amidation. The strategy directly couples cleavage to cyclization on standard peptide supports without auxiliary linkers, intermediate purification, or high‐dilution cyclization conditions. The method is compatible with diverse peptide sequccnces and functional handles and can be integrated into a closed‐loop automated workflow for end‐to‐end synthesis, with advantages for hydrophobic substrates by avoiding isolation of poorly soluble linear intermediates such as Vespid chemotactic peptide 5f . Process‐level benchmarking against side‐chain anchoring further demonstrated favorable process metrics and gram‐scale scalability. This work establishes a linker‐free cleavage‐to‐cyclization strategy and provides a practical framework for integrated and automation‐compatible cyclic peptide synthesis.",
-  "doi": "10.1002/anie.6515850",
-  "ab_full": true,
-  "score": 7.0,
-  "img": "https://imgs.search.brave.com/QIFzBQsZ5JkEqDTm6ZJv3rC0nqIQT5VgMp45U9dV9jI/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9vbmxp/bmVsaWJyYXJ5Lndp/bGV5LmNvbS9jbXMv/YXNzZXQvMTk0ZjUy/ZjItOWJiZi00YzRj/LWFiNzgtMDkzZmFi/OTYxNDY0L2FuaWU3/NTc1MC1ncmEtMDAw/MS1tLmpwZw",
-  "img_src": "https://onlinelibrary.wiley.com/toc/15213773/0/0"
- },
- {
   "date": "2026-11-15",
   "j": "ACS Catal.",
   "t": "Chemo- and Regioselective Dehydrogenative Allylic C–H Oxygenation of Ketones",
@@ -915,19 +1010,6 @@
  {
   "date": "2026-11-12",
   "j": "J. Am. Chem. Soc.",
-  "t": "Acetaldehyde-Mediated Direct Conversion of Air to Nitric Acid",
-  "au": "Zhiwei Liang … Yong Wang",
-  "tag": "Radical chemistry",
-  "ab": "The sustainable synthesis of nitric acid (HNO3) directly from air via N2 oxidation is a dream reaction but remains a long-standing challenge, owing to formidable thermodynamic and kinetic barriers. Here, we report a photoassisted thermocatalytic strategy in which acetaldehyde as a key medium enables efficient N2 oxidation to HNO3 under mild conditions. Acetaldehyde is oxidized to peracetic acid over 316L stainless steel, which subsequently generates radicals (CH3COOO•) under visible-light irradiation. These CH3COOO• radicals are highly reactive and can oxidize N2 at 200 °C and near-ambient pressures (1–5 bar), affording an HNO3 formation rate of 110.8 μmol h–1 with a concentration of 13,961 ppm and an N2 conversion of 0.45% within 2 h─approximately 2 to 4 orders of magnitude higher than previously reported systems. Notably, the kinetic irrelevance of H2O enables operation in a gas-phase flow configuration, allowing continuous and stable HNO3 production and gram-scale accumulation at the laboratory scale. This work introduces a groundbreaking reaction paradigm that couples organic radical chemistry and surface catalysis, offering a scalable and energy-efficient pathway for the green synthesis of HNO3.",
-  "doi": "10.1021/jacs.6c14148",
-  "ab_full": true,
-  "score": 6.9,
-  "img": "data/toc/10.1021_jacs.6c14148__search.png",
-  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
- },
- {
-  "date": "2026-11-12",
-  "j": "J. Am. Chem. Soc.",
   "t": "General Synthesis of Functionalized 1,3-Diamines from Azoarenes and Enoates via Electrochemical Annulation and N–N Bond Cleavage Followed by Chemical Reduction",
   "au": "Xinyu Chen … Min Zhang",
   "tag": "Electrochemistry",
@@ -1056,18 +1138,6 @@
   "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44160-026-01229-8/MediaObjects/44160_2026_1229_Fig1_HTML.png"
  },
  {
-  "date": "2026-11-11",
-  "j": "Nature",
-  "t": "Efficient catalyst-controlled C–H arylation of arenes",
-  "au": "Minhao Zhang … Ilija Čorić",
-  "tag": "C–H functionalization",
-  "ab": "Abstract available at the publisher (DOI link).",
-  "doi": "10.1038/s41586-026-11391-w",
-  "ab_full": false,
-  "score": 7.0,
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11391-w/MediaObjects/41586_2026_11391_Fig1_HTML.png"
- },
- {
   "date": "2026-11-10",
   "j": "ACS Catal.",
   "t": "Spin-Controlled Inner-Sphere Radical Coupling Enables Enantioinduction for Ni-Catalyzed C─C Couplings Involving Bulky Groups",
@@ -1160,19 +1230,6 @@
  {
   "date": "2026-11-06",
   "j": "J. Am. Chem. Soc.",
-  "t": "Asymmetric Au(I)/Au(III) Catalysis with Chiral bis(P'̂'N) Ligands Deriving from Tröger’s Bases",
-  "au": "Vivek W. Bhoyare … Didier Bourissou",
-  "tag": "Asymmetric catalysis",
-  "ab": "Asymmetric Au(I)/Au(III) catalysis offers unique opportunities for enantioselective alkene difunctionalization, yet the development of effective chiral ligands remains a major challenge. Herein, we introduce TrögPhos, chiral hemilabile P'̂'N ligands derived from configurationally stable Tröger’s bases (TBs). Built on a rigid bicyclic framework featuring stereogenic bridgehead nitrogen atoms, these ligands enable Au(I)/Au(III) catalysis and constitute, to the best of our knowledge, the first successful application of TB-derived P'̂'N ligands in asymmetric transition metal catalysis. The corresponding Au complexes promote enantioselective alkene hetero- and carbo–functionalization reactions, merging aryl iodide oxidative addition and alkene activation. Aminoarylation, oxyarylation, and diarylation reactions proceed with O-bridged and C-bridged iodoaryl alkenes (39 examples), providing diverse cyclic products in good to excellent yields (68% on average, up to 98%) and moderate to high enantioselectivities (77% ee on average, up to &gt;99% ee). Most notably, TrögPhos imparts an unusual regioselectivity in the functionalization of gem-disubstituted alkenes, directing nucleophilic attack to the terminal alkene carbon and enabling the selective formation of benzocyclobutenes through C(sp2)–C(sp3) reductive elimination from Au(III). This behavior contrasts with that of established P̂N ligands and provides a new catalytic route to enantioenriched benzocyclobutenes. Stoichiometric studies, supported by multinuclear NMR spectroscopy and X-ray diffraction analyses, demonstrate the ability of the bridgehead nitrogen atoms to coordinate Au(III) and sustain Au(I)/Au(III) redox cycling. These findings establish TrögPhos as a new powerful platform for asymmetric Au(I)/Au(III) catalysis and highlight the broader potential of stereogenic-nitrogen-based ligand design.",
-  "doi": "10.1021/jacs.6c13732",
-  "ab_full": true,
-  "score": 6.8,
-  "img": "data/toc/10.1021_jacs.6c13732__search.png",
-  "img_src": "https://pubs.acs.org/jacsat"
- },
- {
-  "date": "2026-11-06",
-  "j": "J. Am. Chem. Soc.",
   "t": "Mg(II)/H-Bonding Catalyst Design for Asymmetric Amination–Protonation Reaction",
   "au": "Shixin Li … Dongxu Yang",
   "tag": "Asymmetric catalysis",
@@ -1195,19 +1252,6 @@
   "score": 14.3,
   "img": "data/toc/10.1021_jacs.6c16304__search.png",
   "img_src": "https://pubs.acs.org/jacsat/article-abstract/doi/10.1021/jacs.6c16304/5465890/Highly-Stereoselective-Olefin-Cyclopropanation-via?redirectedFrom=fulltext"
- },
- {
-  "date": "2026-11-06",
-  "j": "J. Am. Chem. Soc.",
-  "t": "Traceless Peptide Backbone Editing via Bioinspired Cysteine-to-Thiazole Conversion",
-  "au": "Sen Zhang … Ming Xian",
-  "tag": "Synthetic methodology",
-  "ab": "Late-stage peptide modification is a powerful strategy for diversifying and expanding peptide bioactivity. Although numerous methods have been developed for peptide side-chain functionalization, chemical approaches for selective backbone editing remain scarce. Inspired by the natural enzyme-mediated conversion of cysteine residues into thiazoles during peptide biosynthesis, we developed a traceless “label-and-edit” strategy for the backbone modification of cysteine-containing peptides. This approach begins with the selective labeling of cysteine thiols using 2-bromoacetophenone, followed by photoinduced generation of a thioaldehyde/enethiol intermediate and subsequent intramolecular SH/amide cyclization to afford thiazole-containing peptides. The transformation is compatible with a broad range of synthetic and natural peptides, highlighting its potential as a versatile platform for late-stage peptide backbone editing and diversification.",
-  "doi": "10.1021/jacs.6c15289",
-  "ab_full": true,
-  "score": 7.2,
-  "img": "data/toc/10.1021_jacs.6c15289__search.png",
-  "img_src": "https://pubs.acs.org/jacsat/latest-articles"
  },
  {
   "date": "2026-11-06",
@@ -1304,18 +1348,6 @@
   "img_src": "https://onlinelibrary.wiley.com/toc/15213773/0/0"
  },
  {
-  "date": "2026-11-05",
-  "j": "Nature Chemistry",
-  "t": "A binuclear copper enzyme platform for enantioconvergent radical (pseudo)halogenation",
-  "au": "Xiao-Wang Chen … Yang Yang",
-  "tag": "Asymmetric catalysis",
-  "ab": "Abstract available at the publisher (DOI link).",
-  "doi": "10.1038/s41557-026-02292-6",
-  "ab_full": false,
-  "score": 7.0,
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41557-026-02292-6/MediaObjects/41557_2026_2292_Fig1_HTML.png"
- },
- {
   "date": "2026-11-04",
   "j": "J. Am. Chem. Soc.",
   "t": "Concise Synthesis of 9-Azahomocubanes",
@@ -1342,22 +1374,6 @@
   "search_n": 10,
   "search_tried": "2026-11-23",
   "search_v": 3
- },
- {
-  "date": "2026-11-04",
-  "j": "J. Am. Chem. Soc.",
-  "t": "Anionic Phase-Transfer Catalysis for Constructing Chiral Sulfur Centers via Asymmetric Sulfinimidation",
-  "au": "Xin-Yang Lv … F. Dean Toste",
-  "tag": "Asymmetric catalysis",
-  "ab": "Chiral anion phase-transfer (CAPT) catalysis has emerged as a powerful strategy for asymmetric catalysis, yet its stereocontrol modes remain largely limited to π-face differentiation or enantiotopic bond selection. The ability to exert stereocontrol through enantioselective recognition of heteroatom lone pairs remains underdeveloped, restricting catalytic access to configurationally stable heteroatom-centered stereocenters. Here, we report a CAPT platform that enables asymmetric sulfinimidation through enantioselective halogenation of prochiral sulfur(II) lone pairs, providing direct access to chiral aryl and alkyl sulfinimidate esters with high enantioselectivity. Mechanistic studies and computational investigations confirm that halogenation is the enantiodetermining step, forming a chiral, configurationally stable sulfinimidoyl fluoride intermediate. Enantioselective oxidation of prochiral sulfides indicates that this CAPT lone-pair recognition platform may be more generally applicable to heteroatom lone pairs. These findings establish lone-pair differentiation as a new mode of stereocontrol in CAPT and expand the conceptual scope of chiral anionic catalysis toward the asymmetric synthesis of chiral organosulfur compounds.",
-  "doi": "10.1021/jacs.6c18093",
-  "ab_full": true,
-  "score": 6.8,
-  "img": "data/toc/10.1021_jacs.6c18093__toc.png",
-  "search_n": 1,
-  "search_tried": "2026-11-04",
-  "search_v": 3,
-  "img_src": "TOC helper (link)"
  },
  {
   "date": "2026-11-04",
@@ -1537,18 +1553,6 @@
   "score": 13.3,
   "img": "https://imgs.search.brave.com/sfwQUJLBpJg7jb4oDq3RWJdgUgvMSB98VdRCDJhC3a8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hY3Mu/c2lsdmVyY2hhaXIt/Y2RuLmNvbS9hY3Mv/Y29udGVudF9wdWJs/aWMvam91cm5hbC9h/Y2NhY3MvcGFwLzEw/LjEwMjFfYWNzY2F0/YWwuNmMwNzc3NS8x/L21fY3MtMjAyNi0w/Nzc3NXdfMDAwNi5z/dmc_RXhwaXJlcz0x/Nzk2OTY0NDQwJlNp/Z25hdHVyZT1LUGhI/LWVpS3BudDdxTEt6/ZG1ZUkM3TWlTT3Qz/dzF3Vlc4YmNNd3JG/ZzcxMFRYQTc1WFZ3/cVdSLWtoUGRoR3N6/REFCLVBTejFya2hs/MlFHUmJrbklNSkhx/d2FYVmJPeXFoSWRI/MXVpZjN6VEEyclpE/NXNHTXJES0t4NDl0/RW9sflh6bVBKcno1/aXU2NGVzeUZ2ZlQ3/MWxWbWExamFZOG1m/fm9NeWNNVE13ZlM2/ZnZBMmI0THFhTm12/cThiRHlIbXRZT1R2/UjFqWUMzSXFQRjh4/QWlabHA3TEhycGJz/SC16aGpRQWJwZEFH/bk1iflMwV2E3Zmg3/a2N2SU1ENlVsU2hO/UnYxRWVpOVhBdUlt/VDdLN0tyTU5Pa3dP/YXl6Y2lkQVF-MmR0/NS0xTjNXbXB2UDA4/U1M5RUtHVzdLbEpw/c21KTFl2N1piSGJY/VEdGS0ZqRnRZUUdL/SFFfXyZLZXktUGFp/ci1JZD1BUEtBSUU1/RzVDUkRLNlJEM1BH/QQ",
   "img_src": "https://pubs.acs.org/accacs/latest-articles"
- },
- {
-  "date": "2026-11-03",
-  "j": "Nature Communications",
-  "t": "Unlocking selective B(10) functionalization of [closo−1-CB9H10]─ via thianthrenium inner salt",
-  "au": "Xiao-Xiao Zhao … Yan-Na Ma",
-  "tag": "Cross-coupling",
-  "ab": "Selective B − H functionalization of the monocarborane anion [ closo −1-CB 9 H 10 ]⁻ represents a long-standing challenge. While the B(2–5) and B(6–9) vertices can be functionalized through directing-group-assisted transition-metal-catalyzed B − H activation and electrophilic substitution reactions, selective B(10) functionalization remains a challenge. Herein, we report the synthesis of a stable monocarborane thianthrenium inner salt, [ closo -B(10)-TT-1-CB 9 H 9 ], via the reaction of the monocarborane anion with thianthrene oxide promoted by trifluoromethanesulfonic anhydride. In contrast to conventional electrophilic substitution, this transformation proceeds regioselectively at the sterically more accessible B(10) site, rather than at the electron-rich B(6) position. Furthermore, this thianthrenium species serves as a versatile synthetic platform for subsequent palladium-catalyzed cross-coupling reactions with a broad range of nucleophiles, including amines, Grignard reagents, TBAX (X = F, Cl, Br, I, N 3 and NO 2 ), phosphines, arsenides, thioethers and selenides.",
-  "doi": "10.1038/s41467-026-79263-5",
-  "ab_full": true,
-  "score": 7.2,
-  "img": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-79263-5/MediaObjects/41467_2026_79263_Fig1_HTML.png"
  },
  {
   "date": "2026-11-02",

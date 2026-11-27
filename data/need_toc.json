@@ -1,5 +1,65 @@
 [
 {
+"doi": "10.1021/jacs.6c18862",
+"j": "J. Am. Chem. Soc.",
+"t": "Regioswitchable and Enantioselective Dialkylation of Alkenes: Modular Access to Chiral β- and γ-Amino Esters",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c14662",
+"j": "J. Am. Chem. Soc.",
+"t": "Chemoselective On-Resin Synthesis of Imide and Thiosuccinimide Functionalized Peptides: Enabling Tunable Retro-Thia-Michael Bioconjugations",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c18933",
+"j": "J. Am. Chem. Soc.",
+"t": "Electrochemical Allylic Carboxylation of Unactivated Alkenes with CO2",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c14769",
+"j": "J. Am. Chem. Soc.",
+"t": "Revisiting the Biosynthetic Cyclization of Indole Sesquiterpene Alkaloids: Proposal of a Spiro -Indolenine Pathway and Synthesis of Prelecanindole",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/jacs.6c20962",
+"j": "J. Am. Chem. Soc.",
+"t": "Electron-Deficient β-Diketone Ligand Enabled Ni-Catalyzed Remote Dicarbofunctionalization of Alkenes",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.9843633",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Desymmetrization of Acyclic meso ‐1,3‐Diols by Cu─H‐Catalyzed Dehydrogenative Silylation",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c06285",
+"j": "ACS Catal.",
+"t": "Alkylsilyl Peroxide-Enabled Copper-Catalyzed Asymmetric Three-Component Alkylarylation of Vinylarenes with Alkanes and Arylboronic Acids",
+"m": "2026-11"
+},
+{
+"doi": "10.1021/acscatal.6c06827",
+"j": "ACS Catal.",
+"t": "Palladium-Catalyzed Alkene-Relayed Alkylation/Annulation of Aryl Iodides via Multicomponent C–H Activation",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.3750596",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Programmable Skeletal Editing of Pyridines Into Regiodefined N ‐Alkyl Pyrazoles",
+"m": "2026-11"
+},
+{
+"doi": "10.1002/anie.3721194",
+"j": "Angew. Chem. Int. Ed.",
+"t": "Overriding Polarity Mismatch in Radical Difunctionalization of 1,3‐Dienes",
+"m": "2026-11"
+},
+{
 "doi": "10.1021/jacs.6c19550",
 "j": "J. Am. Chem. Soc.",
 "t": "Catalytic Enantiodivergent Neophyl Rearrangement",
@@ -201,12 +261,6 @@
 "doi": "10.1002/anie.9063097",
 "j": "Angew. Chem. Int. Ed.",
 "t": "Irradiation‐Wavelength‐Tuned Stepwise [2+2] Cycloaddition of Indolylphenylpropenone Derivatives as a Platform for Light–Mechanical Energy Conversion",
-"m": "2026-11"
-},
-{
-"doi": "10.1002/anie.6515850",
-"j": "Angew. Chem. Int. Ed.",
-"t": "A Phosphonium Relay for Integrated Cleavage‐to‐Cyclization of Cyclic Peptides",
 "m": "2026-11"
 },
 {
